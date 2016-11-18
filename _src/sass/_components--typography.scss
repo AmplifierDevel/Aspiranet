@@ -1,0 +1,32 @@
+// Headline
+h1 {
+	font-family: $stack-sans-serif;
+	font-weight: 900;
+	font-size: 45px; 
+	line-height: 1.5;
+} 
+
+// Display Text
+h2 {
+	font-family: $stack-sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+h3, h4, p, a, ul, li {
+	font-family: $stack-serif;
+	font-weight: 400;
+}
+
+//Body 
+p {
+	font-size: 18px;
+	line-height: 1.7;
+}
+
+a {
+	color: $blue-dark;
+	text-decoration: none;
+}
+

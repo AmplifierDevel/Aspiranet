@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="sticky-footer-body">
+
+    {% include header.html %}
+
+    <div class="page-content sticky-footer {% if page.contentful_fields.jobTitle %} light-grey {% endif %}">
+      <div class="wrapper {{ page.title | downcase }} {% if page.group %} {{ page.group }}{% endif %}">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
