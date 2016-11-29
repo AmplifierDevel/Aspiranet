@@ -15,14 +15,13 @@
   margin: 0 auto; }
 
 .center-vertical {
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   -webkit-align-items: center;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   -webkit-justify-content: center; }
 
 .center-text {
@@ -44,15 +43,12 @@
   float: none !important;
   list-style: none;
   -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
-  display: -webkit-flex;
   display: flex;
   float: left;
-  -webkit-align-items: stretch;
-  align-items: stretch; }
+  -ms-flex-align: stretch;
+      align-items: stretch; }
   @media screen and (max-width: 767px) {
     .flex-container {
       display: block; } }
@@ -65,7 +61,6 @@
   Site - dallasbass.com
 */
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -343,5 +338,3 @@ div.clearfix {
 
 .text-right {
   text-align: right !important; }
-
-/*# sourceMappingURL=main.css.map */
