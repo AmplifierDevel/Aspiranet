@@ -1,0 +1,24 @@
+.button {
+	padding: 10px 20px;
+	border-radius:5px;
+}
+
+input {
+	outline: 0;
+}
+
+input[type=submit] {
+	background: $orange;
+	border:none;
+	color: #fff;
+	font-size:1em;
+	font-family: $stack-serif;
+}
+
+input[type=email], input[type=text] {
+	background:none;
+	border: 1px solid #fff;
+	border-radius:2px;
+	padding:10px 20px;
+	color:#fff;
+}
