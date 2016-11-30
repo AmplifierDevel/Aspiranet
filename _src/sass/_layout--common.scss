@@ -9,3 +9,23 @@ div.clearfix {
 .text-right {
     text-align: right !important;
 }
+.text-center {
+    text-align: center !important;
+}
+
+
+nav {
+	float:right;
+	ul {
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+}
+
+.site-footer {
+	background:$blue-dark;
+	color:#fff;
+}

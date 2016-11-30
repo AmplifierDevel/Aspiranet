@@ -4,7 +4,7 @@ module.exports = {
         tasks: ['sass']
     },
     jekyll: {
-        files: ['_layouts/*.html', '_includes/*.md', '_includes/*.html', 'css/main.css', '*.html'],
+        files: ['_layouts/*.html', '_includes/*.md', '_includes/*.html', 'css/main.css', '*.html', '*.md'],
         tasks: ['jekyll']
     }
 }

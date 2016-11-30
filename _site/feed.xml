@@ -6,8 +6,8 @@
 </description>
     <link>https://www.aspiranet.org/</link>
     <atom:link href="https://www.aspiranet.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Nov 2016 11:01:30 -0800</pubDate>
-    <lastBuildDate>Tue, 29 Nov 2016 11:01:30 -0800</lastBuildDate>
+    <pubDate>Tue, 29 Nov 2016 16:16:48 -0800</pubDate>
+    <lastBuildDate>Tue, 29 Nov 2016 16:16:48 -0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 12 Aug 2016 11:18:38 -0700</pubDate>
-        <link>https://www.aspiranet.org/welcome-to-jekyll</link>
-        <guid isPermaLink="true">https://www.aspiranet.org/welcome-to-jekyll</guid>
+        <link>https://www.aspiranet.org/jekyll/update/2016/08/12/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://www.aspiranet.org/jekyll/update/2016/08/12/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

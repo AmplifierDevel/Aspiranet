@@ -3,12 +3,12 @@
 
   {% include head.html %}
 
-  <body class="sticky-footer-body">
+  <body class="">
 
     {% include header.html %}
 
-    <div class="page-content sticky-footer">
-      <div class="wrapper {{ page.title | downcase }}">
+    <div class="page-content">
+      <div class="grid {{ page.title | downcase }}">
         {{ content }}
       </div>
     </div>

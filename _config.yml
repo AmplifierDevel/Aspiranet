@@ -11,5 +11,5 @@ image_path: '/assets/img'
 
 # Build settings
 markdown: kramdown
-permalink: /:title
+permalink: pretty
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
