@@ -1,0 +1,226 @@
+---
+programs:
+- sys:
+    id: XBkqWJ1H8qowuEKW6McqM
+  title: Residental
+  landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
+    a second chance to fulfill their potential'
+  subtitle: 'Healthy environments build resilience '
+  programCopyTop: "Aspiranet’s short term residential treatment program offers critical
+    support to youth in crisis, preparing them to be re-united with their families.
+    \ \n\nOur residential program represents the highest level of care that is available
+    to children and youth in California.  Over six to 18 months, each participant
+    is fully supported through individual counseling, group counseling, psychiatric
+    treatment and educational services in single family home settings.  "
+  pullQuote: 'Pull quote '
+  programCopyRest: "Our programs offer a structured, enriching, healing environment
+    where children and youth in crisis can move forward with their head held high,
+    ready to make the most of a second chance. \n\nSafety is our number one priority,
+    and all residents are expected to live up to a code of conduct that promotes mutual
+    respect and responsibility for the daily routine on campus.\n\nExperienced staff
+    work to guide youth back to a healthy place where they can be responsible and
+    trusted members of the community.   \n\nBefore they return home to their families,
+    graduates put their handprints in the cement pathway that runs through the center
+    of the residential center, a symbol that they are graduating and moving forward
+    towards a brighter future.    "
+  fastFact1Number: 70%
+  fastFact1Text: 'Percentage of youth in the juvenile justice system with at least
+    one mental health condition '
+  fastFact2Number: '156'
+  fastFact2Text: 'Youth benefited from these Aspiranet residential services in 2015 '
+  fastFact3Number: '1987'
+  fastFact3Text: 'Year Aspiranet launched our residential-based programs '
+- sys:
+    id: 17pijT5KeCiYscE4GoQAO0
+  title: 'Behavioral Health '
+  landingPageTextBlurb: 'We believe: Caring and support helps families through challenging
+    times. '
+  subtitle: 'Strong families for life '
+  programCopyTop: "Children and families experiencing difficult times can heal in
+    an environment that offers the support, respect and skills they need to build
+    resilience.\n\nFew events are more traumatic for a child than being removed from
+    their family and entered into the foster care system.\n\nAspiranet provides a
+    coordinated network of support that helps families stay together and leads to
+    more successful family interactions on a daily basis.  "
+  pullQuote: 'quote '
+  programCopyRest: |
+    A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
+
+    Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
+
+    We stay the course with our families, empowering parents by improving the quality of the parent-child relationship and helping to ensure long-term family success.
+  fastFact1Number: 1 in 6
+  fastFact1Text: 'California adults with a mental health need '
+  fastFact2Number: 20%
+  fastFact2Text: 'Youth aged 13-18 who have had a severe mental disorder '
+  fastFact3Number: '2,268'
+  fastFact3Text: 'Children and families touched by Aspiranet''s behavioral health
+    staff in 2015 '
+- sys:
+    id: 5B2oeqvKA8QciIA8gycoe8
+  title: 'Family & Community '
+  landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
+    and support in their lives.'
+  subtitle: 'Strong foundations for healthy communities '
+  programCopyTop: "Aspiranet Family and Community programs prepare children for their
+    futures, strengthen life and parenting skills, and connect families with networks
+    of support in their community.  \n\nWe take a proactive, responsive, and forward-thinking
+    approach to the growing needs of the communities we serve.  We advocate with and
+    for our families to ensure the necessary resources are available for their success.
+    \ \n\nWe incorporate the Strengthening Families framework into our practices.
+    \ Research confirms that families who have knowledge of parenting and child development,
+    resilience, social and emotional skills, and social connections and support in
+    times of need are able to thrive as strong families.  \n"
+  pullQuote: Pull Quote
+  programCopyRest: "We help families develop these skills resulting in increased family
+    stability, enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
+    community-based family resource centers offer individual family support, child
+    development courses, parenting education, school readiness programs, and more.
+    \ Our home-based visiting programs empower parents by helping them set and achieve
+    goals for themselves and their families.  \n\nAspiranet school-based programs
+    improve kindergarten through third grade literacy, and equip underserved, middle
+    and high school youth with the tech skills they need to be successful in today’s
+    global economy.\n\nWe know that healthy families build healthy communities.  Families
+    can count on us to support them when they most need help."
+  fastFact1Number: '3,806'
+  fastFact1Text: 'Families reached by Aspiranet early intervention and prevention
+    services '
+  fastFact2Number: '140'
+  fastFact2Text: Aspiranet locations across California
+  fastFact3Number: '7,309'
+  fastFact3Text: 'Students and volunteers mobilized '
+- sys:
+    id: 4WGNwaPSqcSwSueou6keQ0
+  title: 'Transitional Aged Youth '
+  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
+    from which to launch their futures '
+  subtitle: 'A bridge from youth to independence '
+  programCopyTop: "Aspiranet Transitional Age Youth programs are a bridge between
+    foster care and independence.\n\nWe are dedicated to helping our youth develop
+    necessary life skills, self-reliance, and confidence so they can achieve their
+    goals for the future. "
+  pullQuote: Pull quote
+  programCopyRest: "We collaborate with a statewide network of partners to ensure
+    that youth who are aging out of foster care are equipped to navigate the hurdles
+    of young adulthood and become productive members of their communities.\n\nWe help
+    with basic needs like transportation and housing, as well as mental health and
+    emotional support.  \n\nAnd we assist youth in securing a safe place to live,
+    ongoing education, job readiness training and employment.  \n\nOur programs are
+    a vital launching pad, helping youth lift off to pursue their life dreams and
+    exercise their full potential. "
+  fastFact1Number: '5,000'
+  fastFact1Text: 'Yearly number of California young adults who "age out" of the foster
+    care system '
+  fastFact2Number: '1,900'
+  fastFact2Text: 'Number of young adults we supported in 2015 '
+  fastFact3Number: '14'
+  fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
+- sys:
+    id: 5XB0qb2FvqMM8I6IY2UmWc
+  title: 'Intensive Home-Based Services '
+  landingPageTextBlurb: 'We believe: When children and families have access to the
+    support and resources to thrive, there''s no limit to what they can accomplish. '
+  subtitle: 'A proven model of family support '
+  programCopyTop: "Aspiranet offers families a network of individualized resources
+    that meet them where they are and take them on a journey to where positive outcomes
+    are possible.  \n\nResearch shows that services that are wrapped around the family
+    are more effective than institutional care and can unlock positive outcomes such
+    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
+    services are provided in the home and in the community and are available when
+    families need them – after school, in the mornings, and on the weekends. "
+  pullQuote: 'quote goes here '
+  programCopyRest: "Our services engage all members of the family, including relatives
+    and non-relative extended family members, in changing behaviors that improve their
+    relationships and promote growth.  \nFamily members, caregivers, teachers and
+    other service providers work together so children have opportunities to practice
+    positive life skills and get involved in community activities. \n\nWhether it
+    is referring someone within the Aspiranet network, or sharing community contacts
+    on behalf of families, or educating policymakers on needed changes, we are dedicated
+    to facilitating the best possible outcome within our family support system.  \n\nThe
+    ultimate goal is to give children the tools and support network to live and grow
+    successfully with their birth families, relative caregivers, or foster and adoptive
+    families. \n"
+  fastFact1Number: '700'
+  fastFact1Text: 'Families that benefited from our high level intervention and treatment
+    services '
+  fastFact2Number: '140 '
+  fastFact2Text: Aspiranet locations across California
+  fastFact3Number: '8.7'
+  fastFact3Text: 'Number of child abuse and neglect in California per one thousand
+    children '
+rootWebsite:
+- sys:
+    id: 2ffm5MoVtiUYoSWiqwUGgI
+  homepageVisionText: "We envision a world in which all children and youth are loved
+    and cared for and all families have the resources to thrive.  \n"
+  homepageStat1Number: '35,000'
+  homepageStat1Text: Children youth and parents impacted each year
+  homepageStat2Number: '39'
+  homepageStat2Text: California counties served
+  homepageStat3Number: '40'
+  homepageStat3Text: Years providing families with a foundation of support
+  homepageStat4Number: 2.25M
+  homepageStat4Text: California children are living in poverty
+  homepageCareerText: "# Work from a place of deep meaning and impact.\n\nOur highly
+    skilled and passionate staff fuels our organization, and our dedication to families
+    is at the heart of everything we do. "
+  homepageFosterText: "# Every family is unique\nAspiranet foster and adoptive programs
+    work every day to connect children, youth, and young adults to safe, caring relationships
+    that can last a lifetime.  "
+  footerSignupText: |-
+    # Sign up for updates
+    Sign up for Aspiranet updates and stories of our courageous families.
+  ourApproachHeaderText: |-
+    # Our Approach
+    Our services work together so children thrive, families are empowered and communities have the resources to succeed.
+  ourApproachProgramText: "## Aspiranet’s work centers on supporting children, youth
+    and families to reach their full potential.\nAspiranet offers a unique breadth
+    and depth of services for children and youth from birth through adulthood. We
+    take a proactive, responsive and forward-thinking approach to the growing needs
+    of the communities we serve. "
+  ourApproachTogetherText: "# Together we can make a difference\n\nOur staff knows
+    they are better together, which is why our cross functional teams join forces
+    to offer outstanding care and attentio to children and familes. Because we offer
+    a holistic and all-encompassing approach for every family, child and youth who
+    comes into our care, our team is equally diverse, inclusive and open-minded. "
+  ourApproachProgramFinder: "# We are there for children and families across California\nOur
+    size and scope allows us to touch the lives of thousands of family, but our focus
+    is always on offering outststanding and personalized care. We collaborate with
+    a statewide network of partners--government, county partners and more--to ensure
+    that families are equipped to navigate life's ups and downs and to find pathways
+    to success, however they define it. "
+  programLandingHeader: |-
+    # Every family is unique
+
+    Our programs and services intersect to support families every step of the way. We build on strengths and support them in achieving their vision of success.
+  programLandingContactUs: |-
+    # Connect with us! Learn more about our work with thousands of children and families throughout California.
+
+    Aspiranet provides families facing emotional and behavioral challenges an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
+  aboutHeader: For more than 40 years, Aspiranet has been dedicated to offering outstanding
+    services that impact more than 17,000 families at 44 community-based sites statewide.  Our
+    services work together so that children thrive, families are empowered, and communities
+    are strengthened.
+  aboutVision: "# Our vision\n\nAspiranet envisions a world in which all children
+    and youth are loved and cared for and all families have the resources to thrive.
+    \ \n"
+  aboutMission: "# Our Mission\n\nTo provide children, youth and families at risk
+    in California with a foundation of support and services so they can succeed at
+    home, school and in their communities. "
+  aboutValuesRespect: 'We approach our work with humility, honoring the experience,
+    talents and perspectives of our families.  We build on strengths and support them
+    in achieving their vision of success. '
+  aboutValueCourage: 'We strive to well meet the needs of those in our care, embracing
+    challenges, taking risks, and learning from setbacks.  We are steadfast in staying
+    the course in support of our families.  '
+  aboutValueIntegrity: We are trustworthy and reliable. Our actions are motivated
+    by an unwavering desire to do what’s best on behalf of our families.
+  aboutValueHope: We are aspirational in setting ambitious yet achievable goals with
+    our families, creating empowering solutions side by side, during challenging circumstances.
+  careersHeader: "# Rewarding work that helps children and families thrive\n\nAt Aspiranet,
+    we’re committed to strengthening families. We know we can’t do this purpose-driven
+    work alone. We need dedicated people to bring our mission home. \n"
+  careersSubheader: "# Build Strong Communities \n\nOur organizational culture is
+    defined by the values of respect, integrity, courage and hope. We offer an excellent
+    work environment and competitive benefits. More than that, we offer the opportunity
+    to live your purpose—to live and work from a place of deep meaning and impact."

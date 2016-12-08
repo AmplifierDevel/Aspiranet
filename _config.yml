@@ -14,4 +14,30 @@ markdown: kramdown
 permalink: pretty
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
 
-gems: ['jekyll-twitter-plugin']
+gems: ['jekyll-twitter-plugin', 'jekyll-contentful']
+
+contentful:
+  preview: No 
+  production_access_token: '10a24388b11d86a178f5aff863f9a9ee0ebe1018852dab9a003a9322e5a9f204'
+  preview_access_token: '4dcc24bae7f52fa1c2e470d1aad04b2c1907d6a1deff12e613003fca2d89d46d'
+  space: 'e5ehlcazegi0'
+  content_types:
+   - "blogPost"
+   - "campain"
+   - "divisionHeads"
+   - "programs"
+   - "seniorExecutive"
+  spaces:
+    - proddata: # Jekyll _data folder identifier - Required
+        space: e5ehlcazegi0        # Required
+        access_token: 10a24388b11d86a178f5aff863f9a9ee0ebe1018852dab9a003a9322e5a9f204 # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 100
+        content_types:             # Optional
+          cat: blogPost
+          cat: campain
+          cat: divisionHeads
+          cat: programs
+          cat: seniorExecutive
+          cat: rootWebsite
