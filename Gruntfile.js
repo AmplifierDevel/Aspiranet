@@ -46,6 +46,6 @@ grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-autoprefixer');
 
 // Custom tasks
-grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll']);
-grunt.registerTask('default', ['shell:interpolateEnvVariables', 'build', 'shell:removeAPIKeys', 'browserSync', 'watch']);
+// grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll']);
+grunt.registerTask('default', ['shell:interpolateEnvVariables', 'shell:jekyllBuildContentful', 'shell:removeAPIKeys', 'browserSync', 'watch']);
 };

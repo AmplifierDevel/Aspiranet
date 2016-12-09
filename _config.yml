@@ -14,7 +14,10 @@ markdown: kramdown
 permalink: pretty
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
 
-gems: ['jekyll-twitter-plugin', 'jekyll-contentful']
+gems: [ 
+"jekyll-twitter-plugin", 
+"jekyll-contentful"
+]
 
 contentful:
   preview: No 
