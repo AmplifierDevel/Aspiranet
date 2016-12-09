@@ -18,9 +18,9 @@ gems: ['jekyll-twitter-plugin', 'jekyll-contentful']
 
 contentful:
   preview: No 
-  production_access_token: '10a24388b11d86a178f5aff863f9a9ee0ebe1018852dab9a003a9322e5a9f204'
-  preview_access_token: '4dcc24bae7f52fa1c2e470d1aad04b2c1907d6a1deff12e613003fca2d89d46d'
-  space: 'e5ehlcazegi0'
+  production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY
+  preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY
+  space: ASPIRANET_CONTENTFUL_SPACE_ID
   content_types:
    - "blogPost"
    - "campain"
@@ -29,8 +29,8 @@ contentful:
    - "seniorExecutive"
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
-        space: e5ehlcazegi0        # Required
-        access_token: 10a24388b11d86a178f5aff863f9a9ee0ebe1018852dab9a003a9322e5a9f204 # Required
+        space: ASPIRANET_CONTENTFUL_SPACE_ID        # Required
+        access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY # Required
         cda_query:                 # Optional
           include: 2
           limit: 100
