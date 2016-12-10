@@ -21,3 +21,27 @@ hr {
 	border:0;
 	border-top:1px solid #fff;
 }
+
+section {
+	padding: 90px 0;
+}
+
+section, div {
+	&.blue {
+		background-color: $blue;
+		color: #fff;
+	}
+	&.blue-dark {
+		background-color: $blue-dark;
+		color: #fff;	
+	}
+	&.orange {
+		background-color: $orange;
+		color: #fff;
+	}
+	&.yellow {
+		background-color: $yellow;
+		color: $blue-dark;
+	}
+
+}
