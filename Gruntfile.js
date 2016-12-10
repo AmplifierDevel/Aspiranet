@@ -26,6 +26,5 @@ grunt.initConfig(config);
 require('load-grunt-tasks')(grunt);
 
 // Custom tasks
-// grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll']);
 grunt.registerTask('default', ['shell:interpolateEnvVariables', 'shell:jekyllBuildContentful', 'shell:removeAPIKeys', 'browserSync', 'watch']);
 };

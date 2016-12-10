@@ -292,8 +292,14 @@ body {
       padding-right: 0; } }
 
 .button {
-  padding: 10px 20px;
-  border-radius: 5px; }
+  text-transform: uppercase; }
+  .button a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; }
+    .button a.orange {
+      background: #ff5a38;
+      color: #fff; }
 
 ::-webkit-input-placeholder {
   color: #fff;
@@ -421,12 +427,6 @@ hr {
   border: 0;
   border-top: 1px solid #fff; }
 
-.red {
-  background-color: #ff5a38; }
-
-.dark-blue {
-  background-color: #165376; }
-
 .color-blue {
   color: #49b4d6; }
 
@@ -439,3 +439,36 @@ hr {
 .center {
   float: none;
   margin: 0 auto; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #fff; }
+
+section {
+  padding: 90px 0; }
+
+section.blue, div.blue {
+  background-color: #49b4d6;
+  color: #fff; }
+
+section.blue-dark, div.blue-dark {
+  background-color: #165376;
+  color: #fff; }
+
+section.orange, div.orange {
+  background-color: #ff5a38;
+  color: #fff; }
+
+section.yellow, div.yellow {
+  background-color: #ffc05d;
+  color: #165376; }
+
+section.grey, div.grey {
+  background-color: #F8F8F7;
+  color: #165376; }
+
+.img-settings {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }

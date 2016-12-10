@@ -1,9 +1,11 @@
 <footer class="site-footer">
-	<div class="wrapper dark-blue">
+	<div class="wrapper blue-dark">
 		<div class="grid">
+
 			<div class="col-8-12 center">
-				<h1 class="text-center">Sign up for updates</h1>
-				<p class="text-center">Email is how we share the stories of strong families and communities. Sign up to follow their progress and for important Aspiranet updates.</p>
+				<div class="text-center">
+					{{ site.data.contentful.spaces.proddata.rootWebsite[0].footerSignupText | markdownify }}
+				</div>
 
 				{% include mailchimp.html %}
 			</div>
@@ -16,7 +18,9 @@
 					<li><a href="#">Facebook</a></li>
 					<li><a href="#">Instagram</a></li>
 				</ul>
-			<a href="/donate" class="button red">Donate</a>
+			<p class="button small caps">
+				<a href="/donate" class="button orange">Donate</a>
+			</p>
 			</div>
 			
 			<div class="col-1-4">

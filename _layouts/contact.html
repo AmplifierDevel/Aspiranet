@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <section>
 	<h1>Contact Us</h1>
 </section>
@@ -22,9 +21,10 @@ layout: default
 
 <section>
 	<h2>Aspiranet HQ</h2>
-		<div><!-- map goes here --></div>
-		<p></p>
-		<p></p>
+	<div><!-- map goes here --></div>
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactAddress | markdownify}}
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactPhoneNumber | markdownify}}
+
 	<h2>More Location</h2>
 	<p>Find the information you need to help our children and families thrive</p>
 	<p class="button"><a href="">Find a program</a></p>

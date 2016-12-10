@@ -1,6 +1,14 @@
 .button {
-	padding: 10px 20px;
-	border-radius:5px;
+	text-transform: uppercase;
+	a {
+		padding: 10px 20px;
+		border-radius:5px;
+		display: inline-block;
+			&.orange {
+			background: $orange;
+			color: #fff; 
+			}
+		}
 }
 
 ::-webkit-input-placeholder {
