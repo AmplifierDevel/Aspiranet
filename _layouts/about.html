@@ -2,35 +2,57 @@
 layout: default
 ---
 
-<section>
-	<h1>About Aspiranet</h1>
-	<h2>Hope forward</h2> 
-</section>
-
-<section>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeader | markdownify}}
-</section>
-
-<section>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutVision | markdownify}}
-</section>
-
-<section>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
-</section>
-
-<section>
-	<div>
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect | markdownify}}
+<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
+	<div class="grid">
+		<h1>About Aspiranet</h1>
+		<h2>Hope forward</h2> 
 	</div>
-	<div>
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity | markdownify}}
+</section>
+
+<section class="blue">
+	<div class="grid">
+		{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeader | markdownify}}
 	</div>
-	<div>
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage | markdownify}}
+</section>
+
+<section>
+	<div class="grid">
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutVision | markdownify}}
+		</div>
+		<div class="col-1-2">
+			<img src="/assets/img/placeholder.png" width="100%;">
+		</div>
 	</div>
-	<div>
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope | markdownify}}
+</section>
+
+<section>
+	<div class="grid">
+		<div class="col-1-2">
+			&nbsp;
+		</div>
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="grid">
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect | markdownify}}
+		</div>
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity | markdownify}}
+		</div>
+	</div>
+	<div class="grid">
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage | markdownify}}
+		</div>
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope | markdownify}}
+		</div>
 	</div>
 </section>
 
