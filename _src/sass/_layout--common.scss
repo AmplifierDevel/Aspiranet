@@ -13,11 +13,32 @@ div.clearfix {
     text-align: center !important;
 }
 
+hr {
+	border:0;
+	border-top:1px solid #fff;
+}
+
 .red {
 	background-color: $orange;
 }
 
-hr {
-	border:0;
-	border-top:1px solid #fff;
+.dark-blue {
+	background-color: $blue-dark;
+}
+
+.color-blue {
+	color: $blue;
+}
+
+.color-blue-dark {
+	color: $blue-dark;
+}
+
+.color-white {
+	color: #ffffff;
+}
+
+.center {
+	float: none;
+	margin: 0 auto;
 }

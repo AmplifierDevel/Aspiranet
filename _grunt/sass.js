@@ -4,7 +4,8 @@ module.exports = {
             'css/main.css': '_src/sass/index.scss'
         },
         options: {
-        	sourcemap: 'auto'
+        	sourcemap: 'auto',
+        	style:'compressed'
         }
 
     }

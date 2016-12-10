@@ -1,6 +1,5 @@
 
 .site-footer {
-	background:$blue-dark;
 	color:#fff;
 	a {
 		color: #fff;
@@ -11,5 +10,28 @@
 		li {
 			margin-bottom: 10px;
 		}
+	}
+	#mc_embed_signup {
+		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		   	color: $blue !important;
+			text-transform: uppercase;
+			font-family: $stack-sans-serif;
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		  	color: $blue !important;
+			text-transform: uppercase;
+			font-family: $stack-sans-serif;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   	color: $blue !important;
+			text-transform: uppercase;
+			font-family: $stack-sans-serif;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   	color: $blue !important;
+			text-transform: uppercase;
+			font-family: $stack-sans-serif;
+		}
+
 	}
 }
