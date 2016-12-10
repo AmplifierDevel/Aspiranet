@@ -1,8 +1,9 @@
 <footer class="site-footer">
 	<div class="wrapper">
 		<div class="grid">
-			<h1 class="text-center">Sign up for updates</h1>
-			<p class="text-center">Email is how we share the stories of strong families and communities. Sign up to follow their progress and for important Aspiranet updates.</p>
+			<div class="text-center">
+				{{ site.data.contentful.spaces.proddata.rootWebsite[0].footerSignupText | markdownify}}
+			</div>
 
 			{% include mailchimp.html %}
 			

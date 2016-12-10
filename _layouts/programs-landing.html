@@ -3,8 +3,7 @@ layout: default
 ---
 
 <section>
-	<h1>Together, one family at a time</h1>
-	<p>Aspiranet's statewide network of innovative services connects community members through dedicated programs that touch the lives of children, parents, adults and seniors.</p>
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify}}
 </section>
 <!-- get programs from backend -->
 <section>
@@ -56,7 +55,6 @@ layout: default
 </section>
 
 <section>
-	<h2></h2>
-	<p></p>
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}
 	<!-- sign up form goes here -->
 </section>

@@ -6,7 +6,7 @@ layout: default
 	<!-- Loop through slider items  -->
 </section>
 <section>
-	<h1>We envision a world in which all children and youth are loved and cared for and all families have the resourcs to thrive.</h1>
+	<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageVisionText}}</h1>
 	<p class="button"><a href="/programs">See our programs</a></p>
 </section>
 
@@ -14,20 +14,20 @@ layout: default
 	<h2>Dedication to families is at the heart of everything we do.</h2>
 	<ul>
 		<li>
-			<h1>35,000</h1>
-			<p>Children, youth and parents impacted each year</p>
+			<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
+			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}/p>
 		</li>
 		<li>
-			<h1>39</h1>
-			<p>California counties served</p>
+			<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
+			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}/p>
 		</li>
 		<li>
-			<h1>40</h1>
-			<p>Years providing families with a foundation of support</p>
+			<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
+			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}/p>
 		</li>
 		<li>
-			<h1>2.25M</h1>
-			<p>California children are living in poverty</p>
+			<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
+			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}/p>
 		</li>
 	</ul>
 	<h2>Help us reach more children</h2>
@@ -35,14 +35,14 @@ layout: default
 </section>
 
 <section>
-	<h1>Work for a place of deep meaning and impact</h1>
-	<p>Aspiranet staff do whatever it takes to keep families together. They offer love and support to children and youth in need.</p>
+
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
 	<p class="button"><a href="/careers">See our careers</a></p>
+	
 </section>
 
 <section>
-	<h1>Every family is unique</h1>
-	<p>Aspiranet foster and adoptive programs work every day to connect children, youth and young adults to safe, caring relationships that can last a lifetime.</p>
+	{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 	<p class="button"><a href="">Become a foster &amp; adoptive family</a></p>
 </section>
 
