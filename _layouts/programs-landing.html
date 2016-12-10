@@ -2,57 +2,36 @@
 layout: default
 ---
 
-<section>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify}}
+<section class="blue">
+	<div class="grid text-center">
+		{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify}}
+	</div>
 </section>
 <!-- get programs from backend -->
-<section>
+<section class="dark-blue">
 	<nav>
 		<ul>
-			<li><!-- program name --></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+    	{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+      	{% for program in sorted_programs %}
+      		
+      		<li><a href="#">{{program.title}}</a></li>
+
+      	{% endfor %}
 		</ul>
 	</nav>
 </section>
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
 
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
-
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
-
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
-
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
-
-<section>
-	<h1></h1>
-	<p></p>
-	<p class="button"><a href="">Learn More</a></p>
-</section>
+    	{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+      	{% for program in sorted_programs %}
+      		
+			<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
+				<div class="grid">
+					<h1>{{program.title}}</h1>
+					<p>{{program.landingPageTextBlurb}}</p>
+					<p class="button"><a href="">Learn More</a></p>
+				</div>
+			</section>
+      	{% endfor %}
 
 <section>
 	{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}

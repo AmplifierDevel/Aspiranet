@@ -312,8 +312,14 @@ body {
     .custom-col-1-2:nth-of-type(2) {
       padding-right: 0; } }
 .button {
-  padding: 10px 20px;
-  border-radius: 5px; }
+  text-transform: uppercase; }
+  .button a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; }
+    .button a.orange {
+      background: #ff5a38;
+      color: #fff; }
 
 ::-webkit-input-placeholder {
   color: #fff;
@@ -432,5 +438,14 @@ section.orange, div.orange {
 section.yellow, div.yellow {
   background-color: #ffc05d;
   color: #165376; }
+section.grey, div.grey {
+  background-color: #F8F8F7;
+  color: #165376; }
+
+.img-settings {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

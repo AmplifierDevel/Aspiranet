@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<section>
+<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
 	<!-- Loop through slider items  -->
+	<h1 class="text-center">Campaign Slider</h1>
 </section>
 
 
 <section class="blue text-center">
 	<div class="grid">
 		<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageVisionText}}</h1>
-		<p class="button"><a href="/programs">See our programs</a></p>
+		<p class="button"><a class="orange" href="/programs">See our programs</a></p>
 	</div>
 </section>
 
@@ -36,21 +37,21 @@ layout: default
 			</li>
 		</ul>
 		<h2>Help us reach more children</h2>
-		<p class="button"><a href="/donate">Donate</a></p>
+		<p class="button"><a class="orange" href="/donate">Donate</a></p>
 	</div>
 </section>
 
 <div class="grid">
 <section class="blue text-center">
 	{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
-	<p class="button"><a href="/careers">See our careers</a></p>
+	<p class="button"><a class="orange" href="/careers">See our careers</a></p>
 </section>
 </div>
 
 <section>
 	<div class="grid">
 		{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
-		<p class="button"><a href="">Become a foster &amp; adoptive family</a></p>
+		<p class="button"><a class="orange" href="">Become a foster &amp; adoptive family</a></p>
 	</div>
 </section>
 

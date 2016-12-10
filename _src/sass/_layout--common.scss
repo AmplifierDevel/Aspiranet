@@ -43,5 +43,16 @@ section, div {
 		background-color: $yellow;
 		color: $blue-dark;
 	}
+	&.grey {
+		background-color: $grey;
+		color: $blue-dark;
+	}
 
+}
+
+.img-settings {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    position: relative;
 }
