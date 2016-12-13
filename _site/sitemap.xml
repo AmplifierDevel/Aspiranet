@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-    
-    <url>
-      <loc>https://www.aspiranet.org/jekyll/update/2016/08/12/welcome-to-jekyll/</loc>
-      
-        <lastmod>2016-08-12T11:18:38-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
   
     
     <url>
       <loc>https://www.aspiranet.org/about/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +21,7 @@
     <url>
       <loc>https://www.aspiranet.org/careers/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +36,7 @@
     <url>
       <loc>https://www.aspiranet.org/contact/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +51,7 @@
     <url>
       <loc>https://www.aspiranet.org/donate/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +66,7 @@
     <url>
       <loc>https://www.aspiranet.org/feed.xml</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +81,7 @@
     <url>
       <loc>https://www.aspiranet.org/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +96,7 @@
     <url>
       <loc>https://www.aspiranet.org/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +111,7 @@
     <url>
       <loc>https://www.aspiranet.org/insights/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -141,7 +126,7 @@
     <url>
       <loc>https://www.aspiranet.org/our-approach/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -156,7 +141,7 @@
     <url>
       <loc>https://www.aspiranet.org/programs/</loc>
       
-        <lastmod>2016-12-09T18:36:30-08:00</lastmod>
+        <lastmod>2016-12-12T15:59:27-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -373,6 +373,21 @@ a {
   color: #165376;
   text-decoration: none; }
 
+h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, p.blue, li.blue, a.blue {
+  color: #49b4d6; }
+
+h1.blue-dark, h2.blue-dark, h3.blue-dark, h4.blue-dark, h5.blue-dark, h6.blue-dark, p.blue-dark, li.blue-dark, a.blue-dark {
+  color: #165376; }
+
+h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, p.green, li.green, a.green {
+  color: #6aceb6; }
+
+h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, p.orange, li.orange, a.orange {
+  color: #ff5a38; }
+
+h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.yellow, a.yellow {
+  color: #ffc05d; }
+
 nav {
   float: right; }
   nav ul {
