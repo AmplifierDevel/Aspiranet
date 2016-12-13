@@ -401,13 +401,53 @@ h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, p.orange, li.o
 h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.yellow, a.yellow {
   color: #ffc05d; }
 
+.page-content, footer {
+  top: 120px;
+  position: relative; }
+
+header {
+  height: 120px;
+  flex-shrink: 0;
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  z-index: 9999; }
+  header .site-title img {
+    margin-top: 25px; }
+
 nav {
-  float: right; }
+  float: right;
+  margin-top: 23px; }
   nav ul {
     list-style: none; }
     nav ul li {
       display: inline-block;
-      margin-right: 10px; }
+      margin-right: 48px; }
+      nav ul li a p:hover {
+        color: #165376; }
+      nav ul li a p.active {
+        margin-top: 0;
+        color: #ff5a38;
+        position: relative; }
+        @media screen and (min-width: 768px) {
+          nav ul li a p.active:before {
+            top: -47px;
+            height: 6px;
+            border-radius: 3px;
+            display: block;
+            content: '';
+            position: relative;
+            width: 0%;
+            background-color: #ff5a38;
+            animation-name: grow-x;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+            animation-delay: 0.5s; } }
+
+@keyframes grow-x {
+  to {
+    width: 100%; } }
 
 .site-footer {
   color: #fff; }
@@ -418,6 +458,9 @@ nav {
     padding: 0; }
     .site-footer ul li {
       margin-bottom: 10px; }
+  .site-footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px; }
   .site-footer #mc_embed_signup input[type=email] {
     width: 370px; }
   .site-footer #mc_embed_signup ::-webkit-input-placeholder {
@@ -471,7 +514,7 @@ hr {
   border-top: 1px solid #979797; }
 
 section {
-  padding: 70px 0; }
+  padding: 90px 0; }
 
 section.blue, div.blue {
   background-color: #49b4d6;

@@ -4,15 +4,15 @@
     <div class="grid">
       <nav class="site-nav">
         <ul>
-          <li><a href="/our-approach">Our Approach</a></li>
-          <li><a href="/programs">Programs</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/careers">Careers</a></li>
-          <li><a href="/donate">Donate</a></li>
+          <li><a href="/our-approach"><p class="small caps color-blue {% if page.url == '/our-approach/' %} active {% endif %}">Our Approach</p></a></li>
+          <li><a href="/programs"><p class="small caps color-blue {% if page.url == '/programs/' %} active {% endif %}">Programs</p></a></li>
+          <li><a href="/about"><p class="small caps color-blue {% if page.url == '/about/' %} active {% endif %}">About</p></a></li>
+          <li><a href="/careers"><p class="small caps color-blue {% if page.url == '/careers/' %} active {% endif %}">Careers</p></a></li>
+          <li><a href="/donate"><p class="small caps color-blue {% if page.url == '/donate/' %} active {% endif %}">Donate</p></a></li>
         </ul>
       </nav>
       <a class="site-title" href="{{ site.baseurl }}/">
-        <h1>Aspiranet</h1>
+        <img src="{{ site.image_path }}/aspiranet-logo.svg" alt="Aspiranet logo" /> 
       </a>
     </div>
   </div>

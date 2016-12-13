@@ -1,4 +1,3 @@
-
 .site-footer {
 	color:#fff;
 	a {
@@ -9,6 +8,12 @@
 		padding: 0;
 		li {
 			margin-bottom: 10px;
+		}
+	}
+	.social-icons {
+		li {
+			display: inline-block;
+			margin-right: 10px;
 		}
 	}
 	#mc_embed_signup {
