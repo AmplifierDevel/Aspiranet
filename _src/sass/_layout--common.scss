@@ -13,34 +13,27 @@ div.clearfix {
     text-align: center !important;
 }
 
-hr {
-	border:0;
-	border-top:1px solid #fff;
-}
-
 .color-blue {
 	color: $blue;
 }
-
 .color-blue-dark {
 	color: $blue-dark;
 }
-
 .color-white {
 	color: #ffffff;
 }
-
 .center {
 	float: none;
 	margin: 0 auto;
 }
+
 hr {
 	border:0;
-	border-top:1px solid #fff;
+	border-top: 1px solid #979797;
 }
 
 section {
-	padding: 90px 0;
+	padding: 70px 0;
 }
 
 section, div {

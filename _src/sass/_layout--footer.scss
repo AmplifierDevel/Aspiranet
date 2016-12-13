@@ -12,6 +12,9 @@
 		}
 	}
 	#mc_embed_signup {
+		input[type=email] {
+			width: 370px;
+		}
 		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 		   	color: $blue !important;
 			text-transform: uppercase;

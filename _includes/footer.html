@@ -1,18 +1,17 @@
 <footer class="site-footer">
-	<div class="wrapper blue-dark">
+	<section class="wrapper blue-dark">
 		<div class="grid">
-
 			<div class="col-8-12 center">
-				<div class="text-center">
+				<div class="text-center" style="margin-bottom: 30px;">
 					{{ site.data.contentful.spaces.proddata.rootWebsite[0].footerSignupText | markdownify }}
 				</div>
 
 				{% include mailchimp.html %}
 			</div>
-			<hr style="margin-top: 4em;"></hr>
+			<hr style="margin: 4em 0 3em 0;"></hr>
 			<div class="clearfix"></div>
 			<div class="col-1-4">
-				<p>Follow us on</p>
+				<p class="caps" style="font-size: 11px;">Follow us on</p>
 				<ul>
 					<li><a href="#">Twitter</a></li>
 					<li><a href="#">Facebook</a></li>
@@ -50,7 +49,7 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
-	</div>
+	</section>
 	<p class="text-center caps color-blue-dark" style="font-size: 10px;">With excellence since 1977</p>
 </footer>
 <script src="/assets/js/lib/jquery.min.js"></script>
