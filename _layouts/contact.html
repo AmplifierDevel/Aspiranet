@@ -1,31 +1,42 @@
 ---
 layout: default
 ---
-<section>
+<section class="blue text-center">
 	<h1>Contact Us</h1>
 </section>
 
-<section>
-	<h2>Write to Us</h2>
-	<form id="contact" action="" method="post">
-	<fieldset>
-      <input placeholder="First name" type="text" tabindex="1" required autofocus>
-      <input placeholder="Last name" type="text" tabindex="2" required autofocus>
-      <input placeholder="Your Email Address" type="email" tabindex="3" required>
-      <input placeholder="I'm interested in..." type="text" tabindex="4">
-      <textarea placeholder="Message" tabindex="5" required></textarea>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-  	</fieldset>
-  	</form> 
-</section>
+<section class="grey">
+	<div class="grid">
+		<div class="col-1-2">
+			<h2>Write to Us</h2>
+			<form id="contact" action="" method="post">
+			<fieldset>
+		      <input placeholder="First name" type="text" tabindex="1" required autofocus>
+		      <input placeholder="Last name" type="text" tabindex="2" required autofocus>
+		      <input placeholder="Your Email Address" type="email" tabindex="3" required>
+		      <input placeholder="I'm interested in..." type="text" tabindex="4">
+		      <textarea placeholder="Message" tabindex="5" required></textarea>
+		      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+		  	</fieldset>
+		  	</form> 
+	  	</div>
 
-<section>
-	<h2>Aspiranet HQ</h2>
-	<div><!-- map goes here --></div>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactAddress | markdownify}}
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactPhoneNumber | markdownify}}
 
-	<h2>More Location</h2>
-	<p>Find the information you need to help our children and families thrive</p>
-	<p class="button"><a href="">Find a program</a></p>
+	  	<div class="col-1-2">
+			<h2>Aspiranet HQ</h2>
+			<div class="grid">
+				<div class="col-1-2">
+					<a href="https://www.google.com/maps/place/400+Oyster+Point+Blvd,+South+San+Francisco,+CA+94080/@37.6625824,-122.3873546,14z/data=!4m2!3m1!1s0x808f785e8d3000b1:0xcb2f84e16096bcfc" target="_blank"><img src="/assets/img/contact-us/map.jpg" width="100%;"></a>
+				</div>
+				<div class="col-1-2">
+					{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactAddress | markdownify}}
+					{{ site.data.contentful.spaces.proddata.rootWebsite[0].contactPhoneNumber | markdownify}}
+				</div>
+			</div>
+
+			<h2>More Location</h2>
+			<p>Find the information you need to help our children and families thrive</p>
+			<p class="button"><a class="orange" href="">Find a program</a></p>
+		</div>
+	</div>
 </section>
