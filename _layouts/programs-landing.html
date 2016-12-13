@@ -34,7 +34,9 @@ layout: default
       	{% endfor %}
 
 <section>
-	{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}
-	<!-- sign up form goes here -->
+	<div class="grid">
+		{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}
+		<!-- sign up form goes here -->
+	</div>
 </section>
 
