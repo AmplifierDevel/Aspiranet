@@ -194,7 +194,7 @@ rootWebsite:
 
     Our programs and services intersect to support families every step of the way. We build on strengths and support them in achieving their vision of success.
   programLandingContactUs: |-
-    # Connect with us! Learn more about our work with thousands of children and families throughout California.
+    ## Connect with us! Learn more about our work with thousands of children and families throughout California.
 
     Aspiranet provides families facing emotional and behavioral challenges an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
   aboutHeader: For more than 40 years, Aspiranet has been dedicated to offering outstanding
@@ -225,25 +225,27 @@ rootWebsite:
     work environment and competitive benefits. More than that, we offer the opportunity
     to live your purpose—to live and work from a place of deep meaning and impact."
   careersBlock1: |-
-    # Work with amazing people
+    ## Work with amazing people
     Our team is incredibly talented and dedicated to touching lives.
   careersBlock2: |-
-    # Love what you do
+    ## Love what you do
     If you love helping children and families, Aspiranet is the place for you.
   careersBlock3: |-
-    # Get great benefits
+    ## Get great benefits
     Benefits include sponsored medical, dental, vision; retirement plan, vacation, sick and holiday plan, and a full array of voluntary benefits.
   careersBlock4: |-
-    # Work collaboratively
+    ## Work collaboratively
     Together, we can make a difference, helping California children and families thrive.
   careersBlock5: |-
-    # Embrace innovation
+    ## Embrace innovation
     Our programs are on the cutting edge of what we know works and what is being discovered to positively impact lives.
   careersBlock6: |-
-    # Have fun
+    ## Have fun
     Our work is vital for families and we take it seriously, but we also value a fun and fast moving workplace that lets you be you.
   contactAddress: |-
     400 Oyster point Blvd
+
     #501, South San Francisco
+
     CA 94080
   contactPhoneNumber: +1 510-495-4966
