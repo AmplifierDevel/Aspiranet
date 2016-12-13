@@ -2,11 +2,15 @@
 	text-transform: uppercase;
 	a {
 		padding: 10px 20px;
-		border-radius:5px;
+		border-radius: 5px;
+		letter-spacing: 1.5px;
 		display: inline-block;
+		font-family: $stack-sans-serif;
 			&.orange {
-			background: $orange;
-			color: #fff; 
+				background: $orange;
+				color: #fff; 
+				text-align: center;
+				min-width: 135px;
 			}
 		}
 }
@@ -41,8 +45,11 @@ input {
 
 input[type=submit] {
 	padding: 10px 20px;
-	border-radius:5px;
+	border-radius: 4px;
+	font-family: $stack-sans-serif;
+	letter-spacing: 1.5px;
 	background: $orange;
+	text-align: center;
 	border:none;
 	text-transform: uppercase;
 	color: #fff;

@@ -1,28 +1,33 @@
 //push page content to the nav's height
 .page-content, footer {
-	top: 120px;
+	top: 100px;
 	position: relative;
 }
 header {
-    height: 120px;
+    height: 100px;
     flex-shrink: 0;
     width:100%;
     background: #ffffff;
     position: fixed;
     z-index: 9999;
     .site-title img {
-    	margin-top: 25px;
+    	margin-top: 18px;
+    	width: 190px;
     }
 }
 nav {
 	float: right;
-	margin-top: 23px;
+	//margin-top: 10px;
 	ul {
 		list-style: none;
 		li {
 			display: inline-block;
-			margin-right: 48px;
+			p.button {
+				margin-left: 18px;
+			}
 			a p {
+				letter-spacing: 1.2px;
+				margin: 0 24px;
 				&:hover {
 	            	color: $blue-dark;
 		        }
@@ -32,8 +37,8 @@ nav {
 		            position: relative;
 			        @media screen and #{$brk-tablet-min} {
 		                &:before {
-		                    top: -47px;
-    						height: 6px;
+		                    top: -33px;
+    						height: 5px;
     						border-radius: 3px;
 		                    display: block;
 		                    content: '';
@@ -49,7 +54,7 @@ nav {
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 
