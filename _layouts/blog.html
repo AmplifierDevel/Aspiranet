@@ -2,3 +2,16 @@
 layout: default
 ---
 
+<!-- get news from backend -->
+<section>
+	<div class="grid">
+	{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
+  	{% for blogpost in sorted_news %}
+	    <article>  		
+	      	<img src="/assets/img/placeholder.png" />
+	      	<h2>{{blogpost.title}}</h2>
+	      	<p>{{ blogpost. postbody}}</p>
+		</article>
+  	{% endfor %}
+  	</div>
+</section>
