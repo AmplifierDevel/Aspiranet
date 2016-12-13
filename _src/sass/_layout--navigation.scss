@@ -1,11 +1,60 @@
-
+//push page content to the nav's height
+.page-content, footer {
+	top: 120px;
+	position: relative;
+}
+header {
+    height: 120px;
+    flex-shrink: 0;
+    width:100%;
+    background: #ffffff;
+    position: fixed;
+    z-index: 9999;
+    .site-title img {
+    	margin-top: 25px;
+    }
+}
 nav {
-	float:right;
+	float: right;
+	margin-top: 23px;
 	ul {
 		list-style: none;
 		li {
 			display: inline-block;
-			margin-right: 10px;
-		}
+			margin-right: 48px;
+			a p {
+				&:hover {
+	            	color: $blue-dark;
+		        }
+		        &.active {
+		            margin-top: 0;
+		            color: $orange;
+		            position: relative;
+			        @media screen and #{$brk-tablet-min} {
+		                &:before {
+		                    top: -47px;
+    						height: 6px;
+    						border-radius: 3px;
+		                    display: block;
+		                    content: '';
+		                    position: relative;
+		                    width: 0%;
+		                    background-color: $orange;
+		                    animation-name: grow-x;
+		                    animation-duration: 0.3s;
+		                    animation-fill-mode: forwards;
+		                    animation-timing-function: ease;
+		                    animation-delay: 0.5s
+		                }
+					}
+				}
+			}
+		}	
 	}
+}
+
+@keyframes grow-x {
+    to {
+        width: 100%
+    }
 }

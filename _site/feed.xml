@@ -6,8 +6,13 @@
 </description>
     <link>https://www.aspiranet.org/</link>
     <atom:link href="https://www.aspiranet.org/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Mon, 12 Dec 2016 17:49:34 -0800</pubDate>
     <lastBuildDate>Mon, 12 Dec 2016 17:49:34 -0800</lastBuildDate>
+=======
+    <pubDate>Tue, 13 Dec 2016 12:39:17 -0800</pubDate>
+    <lastBuildDate>Tue, 13 Dec 2016 12:39:17 -0800</lastBuildDate>
+>>>>>>> 1ee28c1668fb075b7a78ef6c570af0319aeb2708
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
