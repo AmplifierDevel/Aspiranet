@@ -1,14 +1,27 @@
 .site-footer {
 	color:#fff;
+	section {
+		padding: 75px 0 50px 0;
+	}
 	a {
 		color: #fff;
+	}
+	p.small {
+		margin-bottom: 25px;
+		letter-spacing: 1.5px
 	}
 	ul {
 		list-style: none;
 		padding: 0;
 		li {
-			margin-bottom: 10px;
+			margin-bottom: 25px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
+	}
+	.text-center h2 {
+		margin-top: 0;
 	}
 	.social-icons {
 		li {
