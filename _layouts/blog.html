@@ -10,8 +10,9 @@ layout: default
 	    <article>  		
 	      	<img src="/assets/img/placeholder.png" />
 	      	<h2>{{blogpost.title}}</h2>
-	      	<p>{{ blogpost. postbody}}</p>
+	      	<p>{{ blogpost. postBody | truncatewords:20}}</p>
 		</article>
   	{% endfor %}
   	</div>
 </section>
+
