@@ -4,10 +4,10 @@
     <div class="grid">
       <nav class="site-nav">
         <ul>
-          <li><a href="/our-approach"><p class="small caps color-blue {% if page.url == '/our-approach/' %} active {% endif %}">Our Approach</p></a></li>
-          <li><a href="/programs"><p class="small caps color-blue {% if page.url == '/programs/' %} active {% endif %}">Programs</p></a></li>
-          <li><a href="/about"><p class="small caps color-blue {% if page.url == '/about/' %} active {% endif %}">About</p></a></li>
-          <li><a href="/careers"><p class="small caps color-blue {% if page.url == '/careers/' %} active {% endif %}">Careers</p></a></li>
+          <li><a href="/our-approach" class="{% if page.url == '/our-approach/' %} active {% endif %}"><p class="small caps color-blue">Our Approach</p></a></li>
+          <li class="nav-programs" id="programsNavItem"><a href="/programs" class="{% if page.url == '/programs/' %} active {% endif %}"><p class="small caps color-blue">Programs</p></a></li>
+          <li><a href="/about" class="{% if page.url == '/about/' %} active {% endif %}"><p class="small caps color-blue">About</p></a></li>
+          <li><a href="/careers" class="{% if page.url == '/careers/' %} active {% endif %}"><p class="small caps color-blue">Careers</p></a></li>
           <li><p class="button small caps"><a href="/donate" class="button orange">Donate</a></p></li>
         </ul>
       </nav>
@@ -15,7 +15,27 @@
         <img src="{{ site.image_path }}/aspiranet-logo.svg" alt="Aspiranet logo" /> 
       </a>
     </div>
-  </div>
+    <div class="programs-submenu grey" id="programsNav">
+      <div class="grid center-vertical">
+        <div class="col-4-12">
+          <div class="find-program-submenu">
+            <img src="{{ site.image_path }}/placeholder.png">
+            <p class="button small caps"><a href="#" class="button orange">Help me find a program</a></p>
+          </div>
+        </div>
+        <div class="col-8-12">
+              <ul>
+                {% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+                  {% for program in sorted_programs %}
+                    
+                    <li><a href="#"><p class="{% cycle 'blue', 'orange', 'pink', 'yellow', 'color-purple-light', 'green', 'color-purple-dark' %}">{{program.title}} &#62;</p></a></li>
 
+                  {% endfor %}
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </header>
  

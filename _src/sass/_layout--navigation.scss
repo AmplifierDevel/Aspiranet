@@ -17,26 +17,27 @@ header {
 }
 nav {
 	float: right;
-	//margin-top: 10px;
 	ul {
 		list-style: none;
+		margin: 0;
 		li {
 			display: inline-block;
 			p.button {
 				margin-left: 18px;
 			}
-			a p {
-				letter-spacing: 1.2px;
-				margin: 0 24px;
-				&:hover {
-	            	color: $blue-dark;
+			a {
+		    	padding-bottom: 42px;
+			    padding-top: 33px;
+			    display: inline-block;
+			    &:hover {
+			    	p {
+	            		color: $blue-dark;
+	            	}
 		        }
-		        &.active {
-		            margin-top: 0;
-		            color: $orange;
-		            position: relative;
+			    &.active {
 			        @media screen and #{$brk-tablet-min} {
 		                &:before {
+		                	content: '';
 		                    top: -33px;
     						height: 5px;
     						border-radius: 3px;
@@ -52,7 +53,16 @@ nav {
 		                    animation-delay: 0.5s
 		                }
 					}
+					p {
+						margin-top: 0;
+		            	color: $orange;
+		            	position: relative;
+					}
 				}
+	 		}
+			a p {
+				letter-spacing: 1.2px;
+				margin: 0 24px;
 			}
 		}
 	}
@@ -62,4 +72,34 @@ nav {
     to {
         width: 100%
     }
+}
+#programsNav {
+	display: none;
+}
+.find-program-submenu {
+	padding: 40px 0;
+	img {
+		width: 300px;
+	}
+	.button {
+		margin-top: -52px;
+    	margin-left: 16px;
+	}
+}
+.programs-submenu {
+	ul {
+		-moz-column-count: 2;
+	    -moz-column-gap: 100px;
+	    -webkit-column-count: 2;
+	    -webkit-column-gap: 100px;
+	    column-count: 2;
+	    column-gap: 100px;
+	    li a p {
+    		margin-bottom: 2em;
+    		font-family: $stack-sans-serif;
+    		&:first-of-type {
+    			margin-top: 0;
+    		}
+	    }
+	}
 }
