@@ -296,31 +296,39 @@ body {
   .button a {
     padding: 10px 20px;
     border-radius: 5px;
-    display: inline-block; }
+    letter-spacing: 1.5px;
+    display: inline-block;
+    font-family: "TTRounds", Helvetica, sans-serif; }
     .button a.orange {
       background: #ff5a38;
-      color: #fff; }
+      color: #fff;
+      text-align: center;
+      min-width: 135px; }
 
 ::-webkit-input-placeholder {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   font-family: "KlinicSlab", Times, serif; }
 
 :-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   font-family: "KlinicSlab", Times, serif; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   font-family: "KlinicSlab", Times, serif; }
 
 :-ms-input-placeholder {
   color: #fff;
-  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-size: 12px;
   font-family: "KlinicSlab", Times, serif; }
 
 input {
@@ -328,19 +336,25 @@ input {
 
 input[type=submit] {
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-family: "TTRounds", Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  min-width: 135px;
+  height: 42px;
   background: #ff5a38;
+  text-align: center;
   border: none;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1em;
-  font-family: "KlinicSlab", Times, serif; }
+  font-size: 12px; }
 
 input[type=email], input[type=text] {
   background: none;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  height: 42px;
   border: 1px solid #fff;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 10px 20px;
   color: #fff; }
 
@@ -362,11 +376,11 @@ h3 {
 h4 {
   font-size: 24px; }
 
-h3, h4 {
+h3 {
   font-family: "TTRounds", Helvetica, sans-serif;
   font-weight: 400; }
 
-p, a, ul, li {
+h4, p, a, ul, li {
   font-family: "KlinicSlab", Times, serif;
   font-weight: 400; }
 
@@ -380,7 +394,7 @@ p {
   line-height: 1.7; }
 
 p.small {
-  font-size: 14px; }
+  font-size: 12px; }
 
 a {
   color: #165376;
@@ -402,48 +416,52 @@ h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.y
   color: #ffc05d; }
 
 .page-content, footer {
-  top: 120px;
+  top: 100px;
   position: relative; }
 
 header {
-  height: 120px;
+  height: 100px;
   flex-shrink: 0;
   width: 100%;
   background: #ffffff;
   position: fixed;
   z-index: 9999; }
   header .site-title img {
-    margin-top: 25px; }
+    margin-top: 18px;
+    width: 190px; }
 
 nav {
-  float: right;
-  margin-top: 23px; }
+  float: right; }
   nav ul {
     list-style: none; }
     nav ul li {
-      display: inline-block;
-      margin-right: 48px; }
-      nav ul li a p:hover {
-        color: #165376; }
-      nav ul li a p.active {
-        margin-top: 0;
-        color: #ff5a38;
-        position: relative; }
-        @media screen and (min-width: 768px) {
-          nav ul li a p.active:before {
-            top: -47px;
-            height: 6px;
-            border-radius: 3px;
-            display: block;
-            content: '';
-            position: relative;
-            width: 0%;
-            background-color: #ff5a38;
-            animation-name: grow-x;
-            animation-duration: 0.3s;
-            animation-fill-mode: forwards;
-            animation-timing-function: ease;
-            animation-delay: 0.5s; } }
+      display: inline-block; }
+      nav ul li p.button {
+        margin-left: 18px; }
+      nav ul li a p {
+        letter-spacing: 1.2px;
+        margin: 0 24px; }
+        nav ul li a p:hover {
+          color: #165376; }
+        nav ul li a p.active {
+          margin-top: 0;
+          color: #ff5a38;
+          position: relative; }
+          @media screen and (min-width: 768px) {
+            nav ul li a p.active:before {
+              top: -33px;
+              height: 5px;
+              border-radius: 3px;
+              display: block;
+              content: '';
+              position: relative;
+              width: 0%;
+              background-color: #ff5a38;
+              animation-name: grow-x;
+              animation-duration: 0.3s;
+              animation-fill-mode: forwards;
+              animation-timing-function: ease;
+              animation-delay: 0.5s; } }
 
 @keyframes grow-x {
   to {
@@ -451,13 +469,22 @@ nav {
 
 .site-footer {
   color: #fff; }
+  .site-footer section {
+    padding: 75px 0 50px 0; }
   .site-footer a {
     color: #fff; }
+  .site-footer p.small {
+    margin-bottom: 25px;
+    letter-spacing: 1.5px; }
   .site-footer ul {
     list-style: none;
     padding: 0; }
     .site-footer ul li {
-      margin-bottom: 10px; }
+      margin-bottom: 25px; }
+      .site-footer ul li:last-of-type {
+        margin-bottom: 0; }
+  .site-footer .text-center h2 {
+    margin-top: 0; }
   .site-footer .social-icons li {
     display: inline-block;
     margin-right: 10px; }
