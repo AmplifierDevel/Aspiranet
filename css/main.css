@@ -298,6 +298,7 @@ body {
     border-radius: 5px;
     letter-spacing: 1.5px;
     display: inline-block;
+    font-size: 12px;
     font-family: "TTRounds", Helvetica, sans-serif; }
     .button a.orange {
       background: #ff5a38;
@@ -415,6 +416,9 @@ h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, p.orange, li.o
 h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.yellow, a.yellow {
   color: #ffc05d; }
 
+h1.pink, h2.pink, h3.pink, h4.pink, h5.pink, h6.pink, p.pink, li.pink, a.pink {
+  color: #CA8ABC; }
+
 .page-content, footer {
   top: 100px;
   position: relative; }
@@ -433,39 +437,69 @@ header {
 nav {
   float: right; }
   nav ul {
-    list-style: none; }
+    list-style: none;
+    margin: 0; }
     nav ul li {
       display: inline-block; }
       nav ul li p.button {
         margin-left: 18px; }
-      nav ul li a p {
-        letter-spacing: 1.2px;
-        margin: 0 24px; }
-        nav ul li a p:hover {
+      nav ul li a {
+        padding-bottom: 42px;
+        padding-top: 33px;
+        display: inline-block; }
+        nav ul li a:hover p {
           color: #165376; }
-        nav ul li a p.active {
+        @media screen and (min-width: 768px) {
+          nav ul li a.active:before {
+            content: '';
+            top: -33px;
+            height: 5px;
+            border-radius: 3px;
+            display: block;
+            content: '';
+            position: relative;
+            width: 0%;
+            background-color: #ff5a38;
+            animation-name: grow-x;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+            animation-delay: 0.5s; } }
+        nav ul li a.active p {
           margin-top: 0;
           color: #ff5a38;
           position: relative; }
-          @media screen and (min-width: 768px) {
-            nav ul li a p.active:before {
-              top: -33px;
-              height: 5px;
-              border-radius: 3px;
-              display: block;
-              content: '';
-              position: relative;
-              width: 0%;
-              background-color: #ff5a38;
-              animation-name: grow-x;
-              animation-duration: 0.3s;
-              animation-fill-mode: forwards;
-              animation-timing-function: ease;
-              animation-delay: 0.5s; } }
+      nav ul li a p {
+        letter-spacing: 1.2px;
+        margin: 0 24px; }
 
 @keyframes grow-x {
   to {
     width: 100%; } }
+
+#programsNav {
+  display: none; }
+
+.find-program-submenu {
+  padding: 40px 0; }
+  .find-program-submenu img {
+    width: 300px; }
+  .find-program-submenu .button {
+    margin-top: -52px;
+    margin-left: 16px; }
+
+.programs-submenu ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 100px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 100px;
+  column-count: 2;
+  column-gap: 100px; }
+  .programs-submenu ul li a p {
+    margin-bottom: 2em;
+    font-family: "TTRounds", Helvetica, sans-serif; }
+    .programs-submenu ul li a p:first-of-type {
+      margin-top: 0; }
 
 .site-footer {
   color: #fff; }
@@ -514,6 +548,9 @@ nav {
 div.clearfix {
   clear: both; }
 
+ul li {
+  list-style-type: none; }
+
 .text-left {
   text-align: left !important; }
 
@@ -522,6 +559,12 @@ div.clearfix {
 
 .text-center {
   text-align: center !important; }
+
+.img-settings {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
 
 .color-blue {
   color: #49b4d6; }
@@ -535,6 +578,12 @@ div.clearfix {
 .center {
   float: none;
   margin: 0 auto; }
+
+.color-purple {
+  color: #db8ac2; }
+
+.color-purple-dark {
+  color: #7e4f85; }
 
 hr {
   border: 0;
@@ -562,9 +611,3 @@ section.yellow, div.yellow {
 section.grey, div.grey {
   background-color: #F8F8F7;
   color: #165376; }
-
-.img-settings {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: relative; }

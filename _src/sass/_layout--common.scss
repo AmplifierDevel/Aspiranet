@@ -2,7 +2,9 @@
 div.clearfix {
     clear:both;
 }
-
+ul li {
+	list-style-type: none;
+}
 .text-left {
     text-align: left !important;
 }
@@ -11,6 +13,13 @@ div.clearfix {
 }
 .text-center {
     text-align: center !important;
+}
+
+.img-settings {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    position: relative;
 }
 
 .color-blue {
@@ -26,16 +35,20 @@ div.clearfix {
 	float: none;
 	margin: 0 auto;
 }
+.color-purple {
+	color: $purple-light;
+}
 
+.color-purple-dark {
+	color: $purple-dark;
+}
 hr {
 	border:0;
 	border-top: 1px solid #979797;
 }
-
 section {
 	padding: 90px 0;
 }
-
 section, div {
 	&.blue {
 		background-color: $blue;
@@ -57,12 +70,4 @@ section, div {
 		background-color: $grey;
 		color: $blue-dark;
 	}
-
-}
-
-.img-settings {
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center center;
-    position: relative;
 }
