@@ -22,6 +22,30 @@ ul li {
     position: relative;
 }
 
+.section-photo {
+    //min-height: 500px;
+    height: auto;
+    max-height: 950px;
+    [class*='col-'] {
+        padding-right: 0;
+    }
+    &:after {
+        padding-bottom: 14%;
+        content: "";
+        display: block;
+        @media screen and (min-width: 1440px) { 
+            padding-bottom: 28%;
+        }
+    }
+}
+
+
+.block-overlap {
+    margin: -4em auto auto auto !important;
+    width: 90% !important;
+    position: relative;
+}
+
 .color-blue {
 	color: $blue;
 }
