@@ -31,6 +31,12 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-contentful (0.1.5)
+      contentful
+      jekyll
+    jekyll-contentful-data-import (1.4.1)
+      contentful (~> 1.0)
+      jekyll (>= 2.5.0, < 4)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-twitter-plugin (2.0.0)
@@ -42,6 +48,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    multi_json (1.12.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
@@ -51,12 +58,17 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
+  jekyll-contentful
+  jekyll-contentful-data-import
   jekyll-twitter-plugin
 
 BUNDLED WITH
