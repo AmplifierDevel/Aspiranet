@@ -1,0 +1,47 @@
+---
+layout: default                 
+---  
+<style> 
+      #map-canvas, #panel { height: 500px; }
+      #panel { width: 300px; float: left; }
+      #panel .feature-filter label { width: 130px; }
+      p.attribution, p.attribution a { color: #666; }
+</style>
+
+<section>
+	<div class="grid">
+		<h1>Program Locator</h1>
+		<div id="panel"></div>
+		<div id="map-canvas"></div>
+	</div>
+</section>
+
+
+<script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCkqEvtASd6ZH3A_wqb9YpH7_W7cABVRGI"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script src="/assets/js/lib/store-locator.min.js"></script>
+<script src="/assets/js/lib/store-locator-custom.js"></script>
+
+<script type="text/javascript">
+google.maps.event.addDomListener(window, 'load', function() {
+  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    center: new google.maps.LatLng(35.1200549, -120.61598019999997),
+    zoom: 6,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  var panelDiv = document.getElementById('panel');
+
+  var data = new MedicareDataSource;
+
+  var view = new storeLocator.View(map, data, {
+    geolocation: false,
+    features: data.getFeatures()
+  });
+
+  new storeLocator.Panel(panelDiv, {
+    view: view
+  });
+});
+
+</script>
