@@ -20,7 +20,7 @@ curl --silent --header "Authorization: Basic $APP_CREDS" --data "grant_type=clie
 BEARER=`grep access_token\":\"[^\"]* bearer_resp.json --only-matching | sed s/access_token\":\"//g`
 
 # https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline
-curl --silent --header "Authorization: Bearer $BEARER" https://api.twitter.com/1.1/statuses/user_timeline.json?count=1\&screen_name=$USER | sed 's@\\/@/@g' > _data/tweet.json
+curl --silent --header "Authorization: Bearer $BEARER" https://api.twitter.com/1.1/statuses/user_timeline.json?count=1\&screen_name=$USER | sed 's@\\/@/@g' > ../_data/tweet.json
 
 LAST_TWEET=`grep text\":\"[^\"]* user_timeline.json --only-matching | sed s/text\":\"//g`
 
