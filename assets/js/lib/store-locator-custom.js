@@ -3,13 +3,17 @@
  * @constructor
  */
 function MedicareDataSource() {
-  $.extend(this, new storeLocator.StaticDataFeed);
-
-  var that = this;
-  $.get('../../assets/data/program-data.csv', function(data) {
-    that.setStores(that.parse_(data));
-  });
+  // silence is golden...
 }
+
+MedicareDataSource.prototype.getStores = function(bounds, features, callback) {
+  var that = this;
+
+  $.getJSON( "../../assets/data/program-data.json", function( data ) {
+    var stores = that.parse_(data);
+    callback(stores);
+  });
+};
 
 /**
  * @const
@@ -17,8 +21,7 @@ function MedicareDataSource() {
  * @private
  */
 MedicareDataSource.prototype.FEATURES_ = new storeLocator.FeatureSet(
-  new storeLocator.Feature('Program-Residential', 'Residential'),
-  new storeLocator.Feature('Program-FamilyAndCommunity', 'Family & Community')
+  // new storeLocator.Feature('Program-Residential', 'Residential')
 );
 
 /**
@@ -28,34 +31,24 @@ MedicareDataSource.prototype.getFeatures = function() {
   return this.FEATURES_;
 };
 
-/**
- * @private
- * @param {string} csv
- * @return {!Array.<!storeLocator.Store>}
- */
-MedicareDataSource.prototype.parse_ = function(csv) {
+MedicareDataSource.prototype.parse_ = function(json) {
   var stores = [];
-  var rows = csv.split('\n');
-  var headings = this.parseRow_(rows[0]);
 
-  for (var i = 1, row; row = rows[i]; i++) {
-    row = this.toObject_(headings, this.parseRow_(row));
+  json.items.forEach(function(item){
     var features = new storeLocator.FeatureSet;
-    features.add(this.FEATURES_.getById('Program-' + row.Program));
-    features.add(this.FEATURES_.getById('Program-' + row.Program));
+    // features.add(this.FEATURES_.getById('Program-Residential'));
+    var position = new google.maps.LatLng(item.fields.location.lat,
+                                          item.fields.location.lon);
 
-    var position = new google.maps.LatLng(row.Ycoord, row.Xcoord);
 
-    var shop = this.join_([row.Shp_num_an, row.Shp_centre], ', ');
-    var locality = this.join_([row.Locality, row.Postcode], ', ');
-
-    var store = new storeLocator.Store(row.uuid, position, features, {
-      title: row.Fcilty_nam,
-      address: this.join_([shop, row.Street_add, locality], '<br>'),
-      hours: row.Hrs_of_bus
+    var store = new storeLocator.Store(item.sys.id, position, features, {
+      title: item.fields.name,
+      address: item.fields.hrsOfBusiness,
+      hours: item.fields.hrsOfBusiness
     });
     stores.push(store);
-  }
+  });
+  
   return stores;
 };
 
@@ -110,4 +103,11 @@ MedicareDataSource.prototype.toObject_ = function(headings, row) {
     result[headings[i]] = row[i];
   }
   return result;
+};
+
+
+MedicareDataSource.prototype.sortByDistance_ = function(latLng, stores) {
+  stores.sort(function(a, b) {
+    return a.distanceTo(latLng) - b.distanceTo(latLng);
+  });
 };
