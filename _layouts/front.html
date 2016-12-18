@@ -19,7 +19,7 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
+<section style="background-image: url('/assets/img/placeholder.png'); padding-bottom: 13%;" class="img-settings">
 	<div class="grid">
 		<div class="col-1-2 stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
@@ -47,19 +47,21 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo center-vertical">
-	<div class="grid">
-		<div class="col-1-2">
-			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
-			<h4 class="button"><a class="orange" href="">Become a foster &amp; adoptive family</a></h4>
-		</div>
-	</div>
-</section>
 
 <section class="grid blue text-center">
 	<div class="col-8-12 center">
 		{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
 		<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
+	</div>
+</section>
+
+
+<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
+	<div class="grid" style="">
+		<div class="col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
+			<h4 class="button"><a class="orange" href="">Become a foster &amp; adoptive family</a></h4>
+		</div>
 	</div>
 </section>
 
