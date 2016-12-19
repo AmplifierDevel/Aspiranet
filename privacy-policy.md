@@ -2,9 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: front
-title: Home
+layout: single
+title: Privacy Policy
 ---
-Aspiranet envisions a world in which all children and
-youth are loved and cared for and all families have the
-resources to thrive. 
+
+{{ site.data.contentful.spaces.proddata.rootWebsite[0].privacyPolicy | markdownify}}

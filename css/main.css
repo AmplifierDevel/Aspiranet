@@ -643,6 +643,9 @@ section.grey, div.grey {
   background-color: #F8F8F7;
   color: #165376; }
 
+.no-padding-top {
+  padding-top: 0 !important; }
+
 .stats-front {
   float: right;
   text-align: center;
