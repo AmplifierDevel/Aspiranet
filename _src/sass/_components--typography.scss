@@ -2,7 +2,7 @@
 h1 {
 	font-family: $stack-sans-serif;
 	font-weight: 900;
-	font-size: 45px; 
+	font-size: 36px; //45px 
 	line-height: 1.5;
 } 
 
@@ -41,6 +41,11 @@ h4, p, a, ul, li {
 p {
 	font-size: 18px;
 	line-height: 1.7;
+}
+
+p.round {
+	font-family: $stack-sans-serif;
+	font-size: 18px;
 }
 
 p.small {
