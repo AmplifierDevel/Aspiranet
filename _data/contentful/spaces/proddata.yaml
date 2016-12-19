@@ -171,6 +171,38 @@ programLocation:
   hrsOfBusiness: 09:00-17:00 Monday to Friday, excluding Public Holidays
   program:
   - FamilyAndCommunity
+divisionHeads:
+- sys:
+    id: 1kqKjx09PuoUIKO8meAIg2
+  name: Vernon McFarland Brown
+  desiredUrl: vernon-mcfarland-brown
+  position: CEO
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- sys:
+    id: 3M6LZcVY4w2kE4Q4aSeKii
+  name: Nicolas Smith
+  desiredUrl: nicolas-smith
+  position: CFO
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 rootWebsite:
 - sys:
     id: 2ffm5MoVtiUYoSWiqwUGgI
@@ -220,16 +252,16 @@ rootWebsite:
     ## Connect with us! Learn more about our work with thousands of children and families throughout California.
 
     Aspiranet provides families facing emotional and behavioral challenges with an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
-  aboutHeader: For more than 40 years, Aspiranet has been dedicated to offering outstanding
-    services that impact more than 17,000 families at 44 community-based sites statewide.  Our
-    services work together so that children thrive, families are empowered, and communities
-    are strengthened.
-  aboutVision: "# Our vision\n\nAspiranet envisions a world in which all children
+  aboutHeader: '#### For more than 40 years, Aspiranet has been dedicated to offering
+    outstanding services that impact more than 17,000 families at 44 community-based
+    sites statewide.  Our services work together so that children thrive, families
+    are empowered, and communities are strengthened.'
+  aboutVision: "# Our vision\n\n#### Aspiranet envisions a world in which all children
     and youth are loved and cared for and all families have the resources to thrive.
     \ \n"
-  aboutMission: "# Our Mission\n\nTo provide children, youth and families at risk
-    in California with a foundation of support and services so they can succeed at
-    home, school and in their communities. "
+  aboutMission: "# Our Mission\n\n#### To provide children, youth and families at
+    risk in California with a foundation of support and services so they can succeed
+    at home, school and in their communities. "
   aboutValuesRespect: 'We approach our work with humility, honoring the experience,
     talents and perspectives of our families.  We build on strengths and support them
     in achieving their vision of success. '
@@ -272,38 +304,6 @@ rootWebsite:
 
     CA 94080
   contactPhoneNumber: +1 510-495-4966
-divisionHeads:
-- sys:
-    id: 1kqKjx09PuoUIKO8meAIg2
-  name: Vernon McFarland Brown
-  desiredUrl: vernon-mcfarland-brown
-  position: CEO
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 3M6LZcVY4w2kE4Q4aSeKii
-  name: Nicolas Smith
-  desiredUrl: nicolas-smith
-  position: CFO
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 1
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 blogPost:
 - sys:
     id: 9VsKDitt6wYk2uO2gecui

@@ -8,10 +8,10 @@ $(document).ready(function(){
 		$('.nav-programs a').css('background-color', 'white')
 	});
 
-	// searching for orphans
-   $('p, h3, h4').each(function(){
-        var string = $(this).html();
-        string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
-        $(this).html(string);
-    });
+	// searching for orphans TODO: make sure it doesn't affect html tags
+   // $('p, h3, h4').each(function(){
+   //      var string = $(this).html();
+   //      string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
+   //      $(this).html(string);
+   //  });
 });
