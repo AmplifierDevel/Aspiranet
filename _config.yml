@@ -44,5 +44,3 @@ contentful:
           cat: programs
           cat: seniorExecutive
           cat: rootWebsite
-        client_options:
-          api_url: ASPIRANET_CONTENTFUL_API_URL
