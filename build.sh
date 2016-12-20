@@ -8,6 +8,7 @@ sed -i 's/ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN/'"$ASPIRANET_CONTENTFUL_ACCESS
 sed -i 's/ASPIRANET_CONTENTFUL_API_URL/'"$ASPIRANET_CONTENTFUL_API_URL"'/g' _config.yml 
 sed -i 's/ASPIRANET_CONTENTFUL_IS_PREVIEW/'"$ASPIRANET_CONTENTFUL_IS_PREVIEW"'/g' _config.yml 
 echo '### Fetching content & Building site ###'
+cat _config.yml
 jekyll contentful --rebuild
 echo '### DONE ###'
 echo '### Fetching Twitter ###'
