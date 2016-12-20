@@ -21,8 +21,8 @@ gems: [
 
 contentful:
   preview: ASPIRANET_CONTENTFUL_IS_PREVIEW 
-  production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY
-  preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY
+  production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY #Access
+  preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY #Preview
   space: ASPIRANET_CONTENTFUL_SPACE_ID
   content_types:
    - "blogPost"
@@ -31,9 +31,9 @@ contentful:
    - "programs"
    - "seniorExecutive"
   spaces:
-    - proddata: # Jekyll _data folder identifier - Required
-        space: ASPIRANET_CONTENTFUL_SPACE_ID        # Required
-        access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY # Required
+    - proddata:
+        space: ASPIRANET_CONTENTFUL_SPACE_ID
+        access_token: ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN #Spaces
         cda_query:
           include: 2
           limit: 100
@@ -44,3 +44,5 @@ contentful:
           cat: programs
           cat: seniorExecutive
           cat: rootWebsite
+        client_options:
+          api_url: ASPIRANET_CONTENTFUL_API_URL
