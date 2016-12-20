@@ -387,6 +387,8 @@ rootWebsite:
     South San Francisco, CA 94080<br/>
     Phone: (650) 866-4080
   privacyPolicy: |-
+    ### Privacy policy
+
     © Copyright 1985-2010 Aspiranet. All rights reserved. The information and graphics contained in the pages on this website remain the property of Aspiranet and all dba’s listed with state and local authorities. All other trademarks mentioned are trademarks or registered trademarks of their respective owners. Privacy and Security Policy, Aspiranet Headquarters for Aspiranet. We can be reached via email at 400 Oyster Point Blvd. #501, South San Francisco, CA  94080 info@aspiranet.org or you can reach us by telephone at (650) 866-4080.
 
     Aspiranet values your privacy and will not give your information to any third party. You may unsubscribe from us at any time. Click here to unsubscribe. We collect no information on consumers who browse our website. However, we use cookies to record past activity at a site in order to provide better service when visitors return to our site. Persons who supply us with their telephone numbers online will only receive telephone contact from us with information regarding queries they have sent. If you supply us with your postal address online you will only receive the information for which you provided us your address.
@@ -396,3 +398,4 @@ rootWebsite:
     Groundspring.org is committed to preserving your privacy and safeguarding your credit card and other sensitive information. The following statement describes the general information-gathering and usage practices of our web site and donation service. To further review the groundspring.org privacy policy, go to http://www.groundspring.org/privacypolicy.cfm
 
     Please contact us at Aspiranet if you have any questions about this policy.
+  donateThankYou: Thank you for your donation.

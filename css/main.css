@@ -360,10 +360,8 @@ input[type=email], input[type=text] {
   font-size: 12px;
   letter-spacing: 1.5px;
   height: 42px;
-  border: 1px solid #fff;
   border-radius: 4px;
-  padding: 10px 20px;
-  color: #fff; }
+  padding: 10px 20px; }
 
 h1 {
   font-family: "TTRounds", Helvetica, sans-serif;
@@ -523,6 +521,9 @@ nav {
   .site-footer p.small {
     margin-bottom: 25px;
     letter-spacing: 1.5px; }
+  .site-footer input {
+    color: #fff;
+    border: 1px solid #fff; }
   .site-footer ul {
     list-style: none;
     padding: 0; }
