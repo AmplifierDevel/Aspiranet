@@ -21,7 +21,6 @@ ul li {
     position: relative;
 }
 .section-photo {
-    //min-height: 500px;
     height: auto;
     max-height: 950px;
     [class*='col-'] {
@@ -41,7 +40,6 @@ ul li {
     width: 90% !important;
     position: relative;
 }
-
 .color-blue {
 	color: $blue;
 }

@@ -5,6 +5,9 @@ $(document).ready(function(){
 			'background-color': '#F8F8F7',
 			'border-top': '5px solid rgb(248, 248, 247)'
 		});
+		if ($('.nav-programs a').hasClass('active')) {
+			$('.nav-programs a').css('border-top', 'none');
+		}
 	});
 	$('#programsNav').mouseleave(function(e) {
 		$('#programsNav').css('display', 'none');
@@ -12,6 +15,9 @@ $(document).ready(function(){
 			'background-color': 'white',
 			'border-top': '5px solid white'
 		});
+		if ($('.nav-programs a').hasClass('active')) {
+			$('.nav-programs a').css('border-top', 'none');
+		}
 	});
 
 	// searching for orphans TODO: make sure it doesn't affect html tags
