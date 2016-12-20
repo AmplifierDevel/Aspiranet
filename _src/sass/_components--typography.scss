@@ -5,7 +5,6 @@ h1 {
 	font-size: 36px; //45px 
 	line-height: 1.5;
 } 
-
 // Display Text
 h2 {
 	font-family: $stack-sans-serif;
@@ -13,13 +12,16 @@ h2 {
 	font-weight: 700;
 	line-height: 1.5;
 }
-
 h3 {
 	font-size: 27px; //36px
 }
 h4 {
 	font-size: 22px; //24px
 	line-height: 1.5;
+}
+h4.round {
+	font-family: $stack-sans-serif;
+	font-size: 22px; //24px
 }
 h3 {
 	font-family: $stack-sans-serif;

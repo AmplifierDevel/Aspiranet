@@ -311,6 +311,9 @@ body {
       color: #fff;
       text-align: center;
       min-width: 135px; }
+    .button a.transparent {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff; }
 
 ::-webkit-input-placeholder {
   color: #fff;
@@ -383,6 +386,10 @@ h3 {
 h4 {
   font-size: 22px;
   line-height: 1.5; }
+
+h4.round {
+  font-family: "TTRounds", Helvetica, sans-serif;
+  font-size: 22px; }
 
 h3 {
   font-family: "TTRounds", Helvetica, sans-serif;
@@ -623,25 +630,37 @@ hr {
 section {
   padding: 90px 0; }
 
-section.blue, div.blue {
+section.blue, div.blue, span.blue {
   background-color: #49b4d6;
   color: #fff; }
 
-section.blue-dark, div.blue-dark {
+section.blue-dark, div.blue-dark, span.blue-dark {
   background-color: #165376;
   color: #fff; }
 
-section.orange, div.orange {
+section.orange, div.orange, span.orange {
   background-color: #ff5a38;
   color: #fff; }
 
-section.yellow, div.yellow {
+section.yellow, div.yellow, span.yellow {
   background-color: #ffc05d;
-  color: #165376; }
+  color: #fff; }
 
-section.grey, div.grey {
+section.grey, div.grey, span.grey {
   background-color: #F8F8F7;
   color: #165376; }
+
+section.purple-dark, div.purple-dark, span.purple-dark {
+  background-color: #7e4f85;
+  color: #fff; }
+
+section.pink, div.pink, span.pink {
+  background-color: #CA8ABC;
+  color: #fff; }
+
+section.mint, div.mint, span.mint {
+  background-color: #70c7b2;
+  color: #fff; }
 
 .no-padding-top {
   padding-top: 0 !important; }
@@ -738,3 +757,25 @@ section.grey, div.grey {
   font-size: 0.8em;
   color: green;
   margin-right: 0.5em; }
+
+.careers-stats .col-1-3 {
+  padding-right: 8%; }
+  .careers-stats .col-1-3:nth-of-type(1) {
+    padding-bottom: 5%; }
+  .careers-stats .col-1-3:nth-of-type(2) {
+    padding-bottom: 5%; }
+  .careers-stats .col-1-3:nth-of-type(3) {
+    padding-bottom: 5%; }
+
+.careers-stats .color-bar {
+  height: 12px;
+  border-radius: 6px;
+  width: 52%;
+  display: block; }
+
+.jobs .job-category {
+  padding: 3px;
+  margin: 10px 0px; }
+  .jobs .job-category p {
+    width: 50%;
+    margin: 20px auto; }

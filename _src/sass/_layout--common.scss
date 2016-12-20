@@ -14,14 +14,12 @@ ul li {
 .text-center {
     text-align: center !important;
 }
-
 .img-settings {
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center center;
     position: relative;
 }
-
 .section-photo {
     //min-height: 500px;
     height: auto;
@@ -38,8 +36,6 @@ ul li {
         }
     }
 }
-
-
 .block-overlap {
     margin: -4em auto auto auto !important;
     width: 90% !important;
@@ -62,7 +58,6 @@ ul li {
 .color-purple {
 	color: $purple-light;
 }
-
 .color-purple-dark {
 	color: $purple-dark;
 }
@@ -73,7 +68,7 @@ hr {
 section {
 	padding: 90px 0;
 }
-section, div {
+section, div, span {
 	&.blue {
 		background-color: $blue;
 		color: #fff;
@@ -88,11 +83,23 @@ section, div {
 	}
 	&.yellow {
 		background-color: $yellow;
-		color: $blue-dark;
+		color: #fff;
 	}
 	&.grey {
 		background-color: $grey;
 		color: $blue-dark;
+	}
+	&.purple-dark {
+		background-color: $purple-dark;
+		color: #fff;
+	}
+	&.pink {
+		background-color: $pink;
+		color: #fff;
+	}
+	&.mint {
+		background-color: $mint;
+		color: #fff;
 	}
 }
 
