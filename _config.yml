@@ -33,7 +33,7 @@ contentful:
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID
-        access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY #Spaces
+        access_token: ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN #Spaces
         cda_query:
           include: 2
           limit: 100
