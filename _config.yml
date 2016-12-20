@@ -16,7 +16,7 @@ exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.js
 
 gems: [ 
 "jekyll-twitter-plugin", 
-"jekyll-contentful"
+#"jekyll-contentful"
 ]
 
 contentful:

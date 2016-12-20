@@ -4,22 +4,8 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
-    contentful (1.1.0)
-      http (~> 1.0)
-      multi_json (~> 1)
-    domain_name (0.5.20161129)
-      unf (>= 0.0.5, < 1.0.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
-    http (1.0.4)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 1.0.1)
-      http_parser.rb (~> 0.6.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    http-form_data (1.0.1)
-    http_parser.rb (0.6.0)
     jekyll (3.3.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -31,12 +17,6 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-contentful (0.1.5)
-      contentful
-      jekyll
-    jekyll-contentful-data-import (1.4.1)
-      contentful (~> 1.0)
-      jekyll (>= 2.5.0, < 4)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-twitter-plugin (2.0.0)
@@ -48,7 +28,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    multi_json (1.12.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
@@ -58,17 +37,12 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
-  jekyll-contentful
-  jekyll-contentful-data-import
   jekyll-twitter-plugin
 
 BUNDLED WITH
