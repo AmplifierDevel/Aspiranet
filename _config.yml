@@ -33,7 +33,7 @@ contentful:
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
         space: ASPIRANET_CONTENTFUL_SPACE_ID        # Required
-        access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY # Required
+        access_token: ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN # Required
         cda_query:
           include: 2
           limit: 100
