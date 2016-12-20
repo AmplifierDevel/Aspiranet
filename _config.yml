@@ -20,10 +20,10 @@ gems: [
 ]
 
 contentful:
-  preview: ASPIRANET_CONTENTFUL_IS_PREVIEW 
-  production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY #Access
-  preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY #Preview
-  space: ASPIRANET_CONTENTFUL_SPACE_ID
+  preview: Yes 
+  production_access_token: 207be5e580e324a1e1208a4c4ace90ad46a95f27d35b14bae5ab042497155885 #Access
+  preview_access_token: 75dd77ee4c831dd26fbde7d5f39287c2cd26ac4ceff0dec1f31f503a2d9dfdec #Preview
+  space: e5ehlcazegi0
   content_types:
    - "blogPost"
    - "campain"
@@ -32,8 +32,8 @@ contentful:
    - "seniorExecutive"
   spaces:
     - proddata:
-        space: ASPIRANET_CONTENTFUL_SPACE_ID
-        access_token: ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN #Spaces
+        space: e5ehlcazegi0
+        access_token: 75dd77ee4c831dd26fbde7d5f39287c2cd26ac4ceff0dec1f31f503a2d9dfdec #Spaces
         cda_query:
           include: 2
           limit: 100
@@ -45,5 +45,5 @@ contentful:
           cat: seniorExecutive
           cat: rootWebsite
         client_options:
-          api_url: ASPIRANET_CONTENTFUL_API_URL
+          api_url: 'preview.contentful.com'
 
