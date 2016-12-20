@@ -20,7 +20,7 @@ gems: [
 ]
 
 contentful:
-  preview: No 
+  preview: ASPIRANET_CONTENTFUL_IS_PREVIEW 
   production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY
   preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY
   space: ASPIRANET_CONTENTFUL_SPACE_ID
@@ -34,15 +34,15 @@ contentful:
     - proddata: # Jekyll _data folder identifier - Required
         space: ASPIRANET_CONTENTFUL_SPACE_ID        # Required
         access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY # Required
-        cda_query:                 # Optional
+        cda_query:
           include: 2
           limit: 100
-        content_types:             # Optional
+        content_types:
           cat: blogPost
           cat: campain
           cat: divisionHeads
           cat: programs
           cat: seniorExecutive
           cat: rootWebsite
-        client_options:             # Optional
-          api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
+        client_options:
+          api_url: ASPIRANET_CONTENTFUL_API_URL
