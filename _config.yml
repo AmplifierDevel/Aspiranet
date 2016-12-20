@@ -44,3 +44,5 @@ contentful:
           cat: programs
           cat: seniorExecutive
           cat: rootWebsite
+        client_options:             # Optional
+          api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
