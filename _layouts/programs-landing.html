@@ -30,7 +30,7 @@ layout: default
 						</div>
 						<div class="white">
 							<p>{{program.landingPageTextBlurb}}</p>
-							<p class="button"><a href="" class="{% cycle 'color-pink', 'color-purple-dark', 'color-mint', 'color-orange', 'color-yellow', 'color-blue-dark' %}">Learn More</a></p>
+							<p class="button"><a href="/programs/{{ program.title | slugify }}" class="{% cycle 'color-pink', 'color-purple-dark', 'color-mint', 'color-orange', 'color-yellow', 'color-blue-dark' %}">Learn More</a></p>
 						</div>
 					</div>
 				</div>
