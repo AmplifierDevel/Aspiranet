@@ -49,6 +49,18 @@ ul li {
 .color-white {
 	color: #ffffff;
 }
+.color-yellow {
+	color: $yellow;
+}
+.color-mint {
+	color: $mint;
+}
+.color-orange {
+	color: $orange;
+}
+.color-pink {
+	color: $pink;
+}
 .center {
 	float: none;
 	margin: 0 auto;
@@ -98,6 +110,10 @@ section, div, span {
 	&.mint {
 		background-color: $mint;
 		color: #fff;
+	}
+	&.white {
+		background-color: #fff;
+		color: $blue-dark;
 	}
 }
 
