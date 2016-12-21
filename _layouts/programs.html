@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign this_program = site.data.contentful.spaces.proddata.programs[0] %}
-<div class="individual-program">
+<div class="individual-program grey">
 	<div class="blue program-title">
 		<div class="grid">
 			<h1>{{ this_program.title }}</h1>
@@ -13,7 +13,7 @@ layout: default
 			<h4>{{ this_program.subtitle }}</h4>
 		</div>
 	</div>
-	<section>
+	<section class="white">
 	<div class="grid">
 		<div class="col-7-12 color-blue-dark">
 			<p>{{ this_program.copyTop }}</p>
@@ -29,11 +29,11 @@ layout: default
 	</div>
 	</section>
 
-	<div>
+	<div class="white">
 		<img src="/assets/img/placeholder.png" width="100%;">
 	</div>
 
-	<section>
+	<section class="white">
 	<div class="grid">
 		<div class="col-8-12 color-blue-dark">
 			<p>{{ this_program.copyRest }}</p>
@@ -58,19 +58,16 @@ layout: default
 			</div>
 		</div>
 	</section>
-	<div class="grid block-overlap">
-		<section class="col-11-12 center orange text-center">
+	<section class="col-11-12 center orange text-center block-overlap">
 			<div>
 				<h4 class="round no-margin-top">How you can help</h4>
 				<h4 class="col-7-12 center">{{ this_program.howYouCanHelpCopy }}</h4>
 			</div>
 				<p class="button"><a class="transparent" href="/donate">{{ this_program.howYouCanHelpCta }}</a></p>
 				<p class="button"><a class="orange" href="/donate">Donate</a></p>
-		</section>
-	</div>
-
-	<section class="text-center">
-		<h3>More programs</h3>
+	</section>
+	<section>
+		<h3 class="text-center">More programs</h3>
 		<!-- Slider with all other programs goes here -->
 	</section>
 </div>
