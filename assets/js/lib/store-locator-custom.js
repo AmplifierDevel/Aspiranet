@@ -31,12 +31,38 @@ MedicareDataSource.prototype.parse_ = function(json) {
     // features.add(this.FEATURES_.getById('Program-Residential'));
     var position = new google.maps.LatLng(item.fields.location.lat,
                                           item.fields.location.lon);
+    
+    var contactNames = '';
+    item.fields.contactName.forEach(function(contact){
+      contactNames += contact + '<br/>';
+    });
 
+    var contactEmails = '';
+    item.fields.contactEmail.forEach(function(email){
+      contactEmails += email + '<br/>';
+    })
+
+    var programs = '';
+    item.fields.program.forEach(function(program){
+      programs += program + '<br/>';
+    })
+
+    var websiteHtml = '';
+    if (item.fields.website) {
+      websiteHtml = `<a href="` + item.fields.website + `" target="_blank">Website</a>`;
+    }
 
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
-      address: item.fields.hrsOfBusiness,
-      hours: item.fields.hrsOfBusiness
+      address: item.fields.addressAsText,
+      misc: `<strong>Description:</strong><br/>` + 
+      item.fields.description +
+      `<br/><strong>Contact:</strong><br/>` +
+      contactNames +
+      `<br/><strong>Email:</strong><br/>` +
+      contactEmails,
+      phone: `Phone:` + item.fields.phone,
+      web: websiteHtml
     });
     stores.push(store);
   });
