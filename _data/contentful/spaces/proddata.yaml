@@ -7,14 +7,14 @@ programs:
     times. '
   order: 6
   subtitle: 'Strong families for life '
-  programCopyTop: "Children and families experiencing difficult times can heal in
-    an environment that offers the support, respect and skills they need to build
-    resilience.\n\nFew events are more traumatic for a child than being removed from
-    their family and entered into the foster care system.\n\nAspiranet provides a
-    coordinated network of support that helps families stay together and leads to
-    more successful family interactions on a daily basis.  "
+  copyTop: "Children and families experiencing difficult times can heal in an environment
+    that offers the support, respect and skills they need to build resilience.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nAspiranet provides a coordinated network
+    of support that helps families stay together and leads to more successful family
+    interactions on a daily basis.  "
   pullQuote: 'quote '
-  programCopyRest: |
+  copyRest: |
     A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
 
     Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
@@ -27,6 +27,9 @@ programs:
   fastFact3Number: '2,268'
   fastFact3Text: 'Children and families touched by Aspiranet''s behavioral health
     staff in 2015 '
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+  howYouCanHelpCta: I’d like to provide a home for a child
 - sys:
     id: 5B2oeqvKA8QciIA8gycoe8
   title: 'Family & Community '
@@ -34,9 +37,9 @@ programs:
     and support in their lives.'
   order: 2
   subtitle: 'Strong foundations for healthy communities '
-  programCopyTop: "Aspiranet Family and Community programs prepare children for their
-    futures, strengthen life and parenting skills, and connect families with networks
-    of support in their community.  \n\nWe take a proactive, responsive, and forward-thinking
+  copyTop: "Aspiranet Family and Community programs prepare children for their futures,
+    strengthen life and parenting skills, and connect families with networks of support
+    in their community.  \n\nWe take a proactive, responsive, and forward-thinking
     approach to the growing needs of the communities we serve.  We advocate with and
     for our families to ensure the necessary resources are available for their success.
     \ \n\nWe incorporate the Strengthening Families framework into our practices.
@@ -44,8 +47,8 @@ programs:
     resilience, social and emotional skills, and social connections and support in
     times of need are able to thrive as strong families.  \n"
   pullQuote: Pull Quote
-  programCopyRest: "We help families develop these skills resulting in increased family
-    stability, enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
+  copyRest: "We help families develop these skills resulting in increased family stability,
+    enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
     community-based family resource centers offer individual family support, child
     development courses, parenting education, school readiness programs, and more.
     \ Our home-based visiting programs empower parents by helping them set and achieve
@@ -75,19 +78,19 @@ programs:
     from which to launch their futures '
   order: 3
   subtitle: 'A bridge from youth to independence '
-  programCopyTop: "Aspiranet Transitional Age Youth programs are a bridge between
-    foster care and independence.\n\nWe are dedicated to helping our youth develop
-    necessary life skills, self-reliance, and confidence so they can achieve their
-    goals for the future. "
+  copyTop: "Aspiranet Transitional Age Youth programs are a bridge between foster
+    care and independence.\n\nWe are dedicated to helping our youth develop necessary
+    life skills, self-reliance, and confidence so they can achieve their goals for
+    the future. "
   pullQuote: Pull quote
-  programCopyRest: "We collaborate with a statewide network of partners to ensure
-    that youth who are aging out of foster care are equipped to navigate the hurdles
-    of young adulthood and become productive members of their communities.\n\nWe help
-    with basic needs like transportation and housing, as well as mental health and
-    emotional support.  \n\nAnd we assist youth in securing a safe place to live,
-    ongoing education, job readiness training and employment.  \n\nOur programs are
-    a vital launching pad, helping youth lift off to pursue their life dreams and
-    exercise their full potential. "
+  copyRest: "We collaborate with a statewide network of partners to ensure that youth
+    who are aging out of foster care are equipped to navigate the hurdles of young
+    adulthood and become productive members of their communities.\n\nWe help with
+    basic needs like transportation and housing, as well as mental health and emotional
+    support.  \n\nAnd we assist youth in securing a safe place to live, ongoing education,
+    job readiness training and employment.  \n\nOur programs are a vital launching
+    pad, helping youth lift off to pursue their life dreams and exercise their full
+    potential. "
   fastFact1Number: '5,000'
   fastFact1Text: 'Yearly number of California young adults who "age out" of the foster
     care system '
@@ -102,16 +105,16 @@ programs:
     support and resources to thrive, there''s no limit to what they can accomplish. '
   order: 5
   subtitle: 'A proven model of family support '
-  programCopyTop: "Aspiranet offers families a network of individualized resources
-    that meet them where they are and take them on a journey to where positive outcomes
-    are possible.  \n\nResearch shows that services that are wrapped around the family
+  copyTop: "Aspiranet offers families a network of individualized resources that meet
+    them where they are and take them on a journey to where positive outcomes are
+    possible.  \n\nResearch shows that services that are wrapped around the family
     are more effective than institutional care and can unlock positive outcomes such
     as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
     services are provided in the home and in the community and are available when
     families need them – after school, in the mornings, and on the weekends. "
   pullQuote: 'quote goes here '
-  programCopyRest: "Our services engage all members of the family, including relatives
-    and non-relative extended family members, in changing behaviors that improve their
+  copyRest: "Our services engage all members of the family, including relatives and
+    non-relative extended family members, in changing behaviors that improve their
     relationships and promote growth.  \nFamily members, caregivers, teachers and
     other service providers work together so children have opportunities to practice
     positive life skills and get involved in community activities. \n\nWhether it
@@ -136,17 +139,17 @@ programs:
     a second chance to fulfill their potential'
   order: 4
   subtitle: 'Healthy environments build resilience '
-  programCopyTop: "Aspiranet’s short term residential treatment program offers critical
-    support to youth in crisis, preparing them to be re-united with their families.
-    \ \n\nOur residential program represents the highest level of care that is available
-    to children and youth in California.  Over six to 18 months, each participant
-    is fully supported through individual counseling, group counseling, psychiatric
-    treatment and educational services in single family home settings.  "
+  copyTop: "Aspiranet’s short term residential treatment program offers critical support
+    to youth in crisis, preparing them to be re-united with their families.  \n\nOur
+    residential program represents the highest level of care that is available to
+    children and youth in California.  Over six to 18 months, each participant is
+    fully supported through individual counseling, group counseling, psychiatric treatment
+    and educational services in single family home settings.  "
   pullQuote: 'Pull quote '
-  programCopyRest: "Our programs offer a structured, enriching, healing environment
-    where children and youth in crisis can move forward with their head held high,
-    ready to make the most of a second chance. \n\nSafety is our number one priority,
-    and all residents are expected to live up to a code of conduct that promotes mutual
+  copyRest: "Our programs offer a structured, enriching, healing environment where
+    children and youth in crisis can move forward with their head held high, ready
+    to make the most of a second chance. \n\nSafety is our number one priority, and
+    all residents are expected to live up to a code of conduct that promotes mutual
     respect and responsibility for the daily routine on campus.\n\nExperienced staff
     work to guide youth back to a healthy place where they can be responsible and
     trusted members of the community.   \n\nBefore they return home to their families,

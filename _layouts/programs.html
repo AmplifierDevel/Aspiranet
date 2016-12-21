@@ -1,62 +1,76 @@
 ---
 layout: default
 ---
-<section>
-	<div>
-		<h1></h1>
+{% assign this_program = site.data.contentful.spaces.proddata.programs[0] %}
+<div class="individual-program">
+	<div class="blue program-title">
+		<div class="grid">
+			<h1>{{ this_program.title }}</h1>
+		</div>
 	</div>
-	<div>
-		<p></p>
+	<div class="blue-dark">
+		<div class="grid">
+			<h4>{{ this_program.subtitle }}</h4>
+		</div>
 	</div>
-</section>
-
-<section>
-	<div>
-		<p></p>
+	<section>
+	<div class="grid">
+		<div class="col-7-12 color-blue-dark">
+			<p>{{ this_program.copyTop }}</p>
+		</div>
+		<div class="col-4-12 push-1-12 border-left">
+			<ul class="social-icons no-margin-top">
+				<p class="caps round small blue-dark no-margin-top">Share the program</p>
+				<li><a href="#"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+				<li><a href="#"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
+				<li><a href="#"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
+			</ul>
+		</div>
 	</div>
-	<div></div>
-</section>
+	</section>
 
-<section>
 	<div>
-		<img>
-		<p></p>
+		<img src="/assets/img/placeholder.png" width="100%;">
 	</div>
-	<div>
-		<p></p>
+
+	<section>
+	<div class="grid">
+		<div class="col-8-12 color-blue-dark">
+			<p>{{ this_program.copyRest }}</p>
+		</div>
 	</div>
-</section>
+	</section>
 
-<section>
-	<h2>Fast Facts</h2>
-	<ul>
-		<li>
-			<h1></h1>
-			<p></p>
-		</li>
-		<li>
-			<h1></h1>
-			<p></p>
-		</li>
-		<li>
-			<h1></h1>
-			<p></p>
-		</li>
-		<li>
-			<h1></h1>
-			<p></p>
-		</li>
-	</ul>
-</section>
+	<section class="blue-dark text-center fast-facts">
+		<div class="grid">
+			<h3>Fast Facts</h3>
+			<div class="col-1-3">
+				<h1 class="color-orange">{{ this_program.fastFact1Number }}</h1>
+				<p class="round">{{ this_program.fastFact1Text }}</p>
+			</div>
+			<div class="col-1-3">
+				<h1 class="color-orange">{{ this_program.fastFact2Number }}</h1>
+				<p class="round">{{ this_program.fastFact2Text }}</p>
+			</div>
+			<div class="col-1-3">
+				<h1 class="color-orange">{{ this_program.fastFact3Number }}</h1>
+				<p class="round">{{ this_program.fastFact3Text }}</p>
+			</div>
+		</div>
+	</section>
+	<div class="grid block-overlap">
+		<section class="col-11-12 center orange text-center">
+			<div>
+				<h4 class="round no-margin-top">How you can help</h4>
+				<h4 class="col-7-12 center">{{ this_program.howYouCanHelpCopy }}</h4>
+			</div>
+				<p class="button"><a class="transparent" href="/donate">{{ this_program.howYouCanHelpCta }}</a></p>
+				<p class="button"><a class="orange" href="/donate">Donate</a></p>
+		</section>
+	</div>
 
-<section>
-	<h3>How you can help</h3>
-	<p></p>
-	<p class="button"><a href="/donate">Donate</a></p>
-	<p class="button"><a href="/donate">Donate</a></p>
-</section>
-
-<section>
-	<h2>More programs</h2>
-	<!-- Slider with all other programs goes here -->
-</section>
+	<section class="text-center">
+		<h3>More programs</h3>
+		<!-- Slider with all other programs goes here -->
+	</section>
+</div>

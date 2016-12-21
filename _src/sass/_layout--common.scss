@@ -20,6 +20,9 @@ ul li {
     background-position: center center;
     position: relative;
 }
+.border-left {
+	border-left: 1px solid $blue-dark;
+}
 .section-photo {
     height: auto;
     max-height: 950px;
