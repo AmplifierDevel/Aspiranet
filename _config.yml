@@ -20,7 +20,7 @@ gems: [
 ]
 
 contentful:
-  preview: ASPIRANET_CONTENTFUL_IS_PREVIEW 
+  preview:  
   production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY
   preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY
   space: ASPIRANET_CONTENTFUL_SPACE_ID

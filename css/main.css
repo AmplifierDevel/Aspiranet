@@ -529,8 +529,7 @@ nav {
     margin-bottom: 25px;
     letter-spacing: 1.5px; }
   .site-footer input {
-    color: #fff;
-    border: 1px solid #fff; }
+    color: #fff; }
   .site-footer ul {
     list-style: none;
     padding: 0; }
@@ -544,7 +543,8 @@ nav {
     display: inline-block;
     margin-right: 10px; }
   .site-footer #mc_embed_signup input[type=email] {
-    width: 370px; }
+    width: 370px;
+    border: 1px solid #fff; }
   .site-footer #mc_embed_signup ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: #49b4d6 !important;
@@ -780,3 +780,9 @@ section.mint, div.mint, span.mint {
   .jobs .job-category p {
     width: 50%;
     margin: 20px auto; }
+
+.programs-nav {
+  padding: 20px 0; }
+
+.program-blurb .button a {
+  padding: 0; }

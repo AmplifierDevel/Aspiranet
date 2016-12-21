@@ -4,38 +4,40 @@ layout: default
 
 <section class="blue">
 	<div class="grid text-center">
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify}}
+		<div class="col-1-2 center">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify}}
+		</div>
 	</div>
 </section>
-<!-- get programs from backend -->
-<section class="dark-blue">
-	<nav>
-		<ul>
+<div class="blue-dark programs-nav">
+	<div class="grid">
+		{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+			{% for program in sorted_programs %}
+			
+			<div class="col-1-6 text-center"><a href="#"><p class="caps small color-white">{{program.title}}</p></a></div>
+		{% endfor %}
+	</div>
+</div>
     	{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
       	{% for program in sorted_programs %}
-      		
-      		<li><a href="#">{{program.title}}</a></li>
+      	{% assign mod = forloop.index | modulo: 2 %}
 
-      	{% endfor %}
-		</ul>
-	</nav>
-</section>
-
-    	{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
-      	{% for program in sorted_programs %}
-      		
 			<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
 				<div class="grid">
-					<h1>{{program.title}}</h1>
-					<p>{{program.landingPageTextBlurb}}</p>
-					<p class="button"><a href="">Learn More</a></p>
+					<div class="col-1-3 program-blurb {% if mod == 0 %} push-right {% endif %}">
+						<h4 class="round color-white">{{program.title}}</h4>
+						<p class="color-blue-dark">{{program.landingPageTextBlurb}}</p>
+						<p class="button"><a href="">Learn More</a></p>
+					</div>
 				</div>
 			</section>
       	{% endfor %}
 
 <section>
 	<div class="grid">
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}
+		<div class="col-1-2 center text-center color-blue-dark">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingContactUs | markdownify}}
+		</div>
 		<!-- sign up form goes here -->
 	</div>
 </section>
