@@ -21,7 +21,6 @@ ul li {
     position: relative;
 }
 .section-photo {
-    //min-height: 500px;
     height: auto;
     max-height: 950px;
     [class*='col-'] {
@@ -41,7 +40,6 @@ ul li {
     width: 90% !important;
     position: relative;
 }
-
 .color-blue {
 	color: $blue;
 }
@@ -50,6 +48,18 @@ ul li {
 }
 .color-white {
 	color: #ffffff;
+}
+.color-yellow {
+	color: $yellow;
+}
+.color-mint {
+	color: $mint;
+}
+.color-orange {
+	color: $orange;
+}
+.color-pink {
+	color: $pink;
 }
 .center {
 	float: none;
@@ -75,7 +85,7 @@ section, div, span {
 	}
 	&.blue-dark {
 		background-color: $blue-dark;
-		color: #fff;	
+		color: #fff;
 	}
 	&.orange {
 		background-color: $orange;
@@ -101,8 +111,13 @@ section, div, span {
 		background-color: $mint;
 		color: #fff;
 	}
+	&.white {
+		background-color: #fff;
+		color: $blue-dark;
+	}
 }
 
 .no-padding-top {
 	padding-top:0 !important;
 }
+

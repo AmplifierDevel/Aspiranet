@@ -529,8 +529,7 @@ nav {
     margin-bottom: 25px;
     letter-spacing: 1.5px; }
   .site-footer input {
-    color: #fff;
-    border: 1px solid #fff; }
+    color: #fff; }
   .site-footer ul {
     list-style: none;
     padding: 0; }
@@ -544,7 +543,8 @@ nav {
     display: inline-block;
     margin-right: 10px; }
   .site-footer #mc_embed_signup input[type=email] {
-    width: 370px; }
+    width: 370px;
+    border: 1px solid #fff; }
   .site-footer #mc_embed_signup ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: #49b4d6 !important;
@@ -614,6 +614,18 @@ ul li {
 .color-white {
   color: #ffffff; }
 
+.color-yellow {
+  color: #ffc05d; }
+
+.color-mint {
+  color: #70c7b2; }
+
+.color-orange {
+  color: #ff5a38; }
+
+.color-pink {
+  color: #CA8ABC; }
+
 .center {
   float: none;
   margin: 0 auto; }
@@ -662,6 +674,10 @@ section.pink, div.pink, span.pink {
 section.mint, div.mint, span.mint {
   background-color: #70c7b2;
   color: #fff; }
+
+section.white, div.white, span.white {
+  background-color: #fff;
+  color: #165376; }
 
 .no-padding-top {
   padding-top: 0 !important; }
@@ -780,3 +796,19 @@ section.mint, div.mint, span.mint {
   .jobs .job-category p {
     width: 50%;
     margin: 20px auto; }
+
+.programs-nav {
+  padding: 20px 0; }
+
+.program-blurb .button a {
+  padding: 0; }
+
+.program-blurb .white {
+  padding: 3px 24px; }
+
+.program-blurb h4 {
+  padding: 20px;
+  margin: 0; }
+
+.program-img:not(:nth-of-type(2)) {
+  margin-top: 10px; }
