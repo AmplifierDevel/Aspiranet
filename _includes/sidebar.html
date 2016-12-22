@@ -1,0 +1,27 @@
+<div class="col-4-12 push-1-12">
+    <div class="color-blue-dark">
+        <p class="caps small round">Categories</p>
+        <ul class="no-padding">
+            
+            <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="small {% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
+            {% for category in site.categories %}
+           
+            {% assign currentCategory = category | first %}
+            <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | first | slugify }}/"><p class="round small {% if page.category == currentCategory %} color-blue {% endif %}">{{ category | first }}</p></a></li>
+            {% endfor %}
+
+        </ul>
+    </div>
+    <div class="color-blue-dark">
+        <p class="caps small round">Tags</p>
+        <ul>
+            {% for tag in site.tags %}
+            <li><a href="/blog/tag/{{ tag | first | slugify }}">
+                <span>#</span> {{ tag[0] | replace:'-', ' ' }} 
+            </a></li>
+            {% endfor %}
+
+
+        </ul>
+    </div>
+</div>

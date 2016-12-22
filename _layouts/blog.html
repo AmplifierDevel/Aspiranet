@@ -2,17 +2,43 @@
 layout: default
 ---
 
-<!-- get news from backend -->
-<section>
-	<div class="grid">
-	{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
-  	{% for blogpost in sorted_news %}
-	    <article>  		
-	      	<img src="/assets/img/placeholder.png" />
-	      	<h2>{{blogpost.title}}</h2>
-	      	<p>{{ blogpost. postBody | truncatewords:20}}</p>
-		</article>
-  	{% endfor %}
-  	</div>
-</section>
+<div id="blog" class="grey">
+    <div class="grid">
+        <div class="col-7-12">
+            <ul>
+            {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
+            
+            {% for blogpost in sorted_news %}
+			<li class="post">
+            <div class="white">
+                {% if blogpost.heroImage %}
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="img-post" style="background-image: url('{{ blogpost.heroImage.url }}');"></div>
+                </a>
+                {% endif %}
+                <div class="blog-excerpt">
+                    <ul>
+                        {% for category in blogPost.categories %}
+                        <li>{{ category }}</li>
+                        {% endfor %}
+                    </ul>
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
+                    <p>{{ blogpost. postBody | truncatewords:20 }}</p>
+                </div>
+                {% include blog-buttons.html %}
+            </div>
+			</li>
+  			{% endfor %}
+            </ul>
+        </div>
+        {% include sidebar.html %}
+    </div>
+</div>
 
+
+    
+  
+
+
+  
+  

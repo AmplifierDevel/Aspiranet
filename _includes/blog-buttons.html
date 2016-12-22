@@ -1,0 +1,17 @@
+<div class="grid white buttons-box">
+    <div class="col-1-3 text-center">
+        <p class="button no-margin-top no-margin-bottom"><a class="orange" href="{{ blogpost.url | prepend: site.baseurl }}">Read More</a></p> 
+    </div>
+    <div class="col-2-3 text-center">
+        <ul class="social-icons no-margin-top">
+            <!--getting hashtags for tweet-->
+            {% assign tagStr = '' %}
+            {% for tag in blogpost.tags %}
+            {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
+            {% endfor %}
+            <li><a href="https://twitter.com/intent/tweet?text={{ blogpost.title }}&amp;url={{ site.url }}{{ blogpost.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}&amp;hashtags={{ tagStr }}" target="_blank" rel="nofollow" title="Share on Twitter""><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/sharer.php?u={{site.url }}{{ blogpost.url }}"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
+            <li><a href="mailto:?&amp;body={{ blogpost.title }}%20{{ site.url }}{{ blogpost.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
+        </ul>
+    </div>
+</div>

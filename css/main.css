@@ -693,6 +693,36 @@ section.white, div.white, span.white {
 .latest-front .col-1-3 {
   height: 377px; }
 
+#blog .col-4-12 {
+  margin-top: 4%;
+  border-left: 1px solid #ecebeb; }
+  #blog .col-4-12 p {
+    padding-left: 1.4em; }
+
+#blog .social-icons li {
+  display: inline-block;
+  margin: 0 8%; }
+
+#blog .img-post {
+  width: 100%;
+  height: 390px;
+  background-size: cover;
+  background-position: center top; }
+
+#blog .post {
+  border: 1px solid #ecebeb;
+  margin: 8% 0; }
+  #blog .post .blog-excerpt {
+    padding: 0 1.5em; }
+
+#blog .buttons-box {
+  padding: 1em 1.5em;
+  border-top: 1px solid #ecebeb; }
+
+.category-active {
+  border-left: 3px solid #49b4d6;
+  margin-left: -2px; }
+
 .storelocator-panel {
   border: 1px solid #ccc;
   overflow: auto; }
@@ -831,3 +861,33 @@ section.white, div.white, span.white {
 .individual-program .block-overlap .button {
   display: inline-block;
   margin-top: 3%; }
+
+#blog .col-4-12 {
+  margin-top: 4%;
+  border-left: 1px solid #ecebeb; }
+  #blog .col-4-12 p {
+    padding-left: 1.4em; }
+
+#blog .social-icons li {
+  display: inline-block;
+  margin: 0 8%; }
+
+#blog .img-post {
+  width: 100%;
+  height: 390px;
+  background-size: cover;
+  background-position: center top; }
+
+#blog .post {
+  border: 1px solid #ecebeb;
+  margin: 8% 0; }
+  #blog .post .blog-excerpt {
+    padding: 0 1.5em; }
+
+#blog .buttons-box {
+  padding: 1em 1.5em;
+  border-top: 1px solid #ecebeb; }
+
+.category-active {
+  border-left: 3px solid #49b4d6;
+  margin-left: -2px; }
