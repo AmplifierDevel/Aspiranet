@@ -60,10 +60,10 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6,p,li,a {
-	&.blue {color:$blue}
-	&.blue-dark {color:$blue-dark}
-	&.green {color:$green}
-	&.orange {color:$orange}
-	&.yellow {color:$yellow}
-	&.pink {color: $pink}
+	&.blue {color:$blue;}
+	&.blue-dark {color:$blue-dark;}
+	&.green {color:$green;}
+	&.orange {color:$orange;}
+	&.yellow {color:$yellow;}
+	&.pink {color: $pink;}
 }

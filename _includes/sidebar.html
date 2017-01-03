@@ -1,4 +1,5 @@
 <div class="col-4-12 push-1-12">
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
 
     {% if page.group == "blogpost" %}
         <div class="color-blue-dark">
@@ -10,22 +11,30 @@
         <ul class="no-padding">
         
             <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="small {% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
-            {% for category in site.categories %}
-           
-            {% assign currentCategory = category | first %}
-            <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | first | slugify }}/"><p class="round small {% if page.category == currentCategory %} color-blue {% endif %}">{{ category | first }}</p></a></li>
+            {% for blogpost in sorted_news %}
+                {% for category in blogpost.category %}
+                    {% assign currentCategory = category %}
+
+                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | slugify }}/"><p class="round small {% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
+                    {% endfor %}
             {% endfor %}
 
         </ul>
     </div>
     <div class="color-blue-dark">
         <p class="caps small round">Tags</p>
-        <ul>
-            {% for tag in site.tags %}
-            <li><a href="/blog/tag/{{ tag | first | slugify }}">
-                <span>#</span> {{ tag[0] | replace:'-', ' ' }} 
-            </a></li>
+        <ul class="tags">
+        {% for blogpost in sorted_news %}
+            {% for tag in blogpost.tags %}
+            
+            <li>
+                <a href="/blog/tag/{{ tag | slugify }}">
+                    <span>#</span>{{ tag }}
+                </a>
+            </li>
+
             {% endfor %}
+        {% endfor %}
 
 
         </ul>

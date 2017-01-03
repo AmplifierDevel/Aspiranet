@@ -31,6 +31,40 @@ programs:
     family. Can you offer a child a safe and loving home?
   howYouCanHelpCta: I’d like to provide a home for a child
 - sys:
+    id: 5XB0qb2FvqMM8I6IY2UmWc
+  title: 'Intensive Home-Based Services '
+  landingPageTextBlurb: 'We believe: When children and families have access to the
+    support and resources to thrive, there''s no limit to what they can accomplish. '
+  order: 5
+  subtitle: 'A proven model of family support '
+  copyTop: "Aspiranet offers families a network of individualized resources that meet
+    them where they are and take them on a journey to where positive outcomes are
+    possible.  \n\nResearch shows that services that are wrapped around the family
+    are more effective than institutional care and can unlock positive outcomes such
+    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
+    services are provided in the home and in the community and are available when
+    families need them – after school, in the mornings, and on the weekends. "
+  pullQuote: 'quote goes here '
+  copyRest: "Our services engage all members of the family, including relatives and
+    non-relative extended family members, in changing behaviors that improve their
+    relationships and promote growth.  \nFamily members, caregivers, teachers and
+    other service providers work together so children have opportunities to practice
+    positive life skills and get involved in community activities. \n\nWhether it
+    is referring someone within the Aspiranet network, or sharing community contacts
+    on behalf of families, or educating policymakers on needed changes, we are dedicated
+    to facilitating the best possible outcome within our family support system.  \n\nThe
+    ultimate goal is to give children the tools and support network to live and grow
+    successfully with their birth families, relative caregivers, or foster and adoptive
+    families. \n"
+  fastFact1Number: '700'
+  fastFact1Text: 'Families that benefited from our high level intervention and treatment
+    services '
+  fastFact2Number: '140 '
+  fastFact2Text: Aspiranet locations across California
+  fastFact3Number: '8.7'
+  fastFact3Text: 'Number of child abuse and neglect in California per one thousand
+    children '
+- sys:
     id: 5B2oeqvKA8QciIA8gycoe8
   title: 'Family & Community '
   landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
@@ -99,40 +133,6 @@ programs:
   fastFact3Number: '14'
   fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
 - sys:
-    id: 5XB0qb2FvqMM8I6IY2UmWc
-  title: 'Intensive Home-Based Services '
-  landingPageTextBlurb: 'We believe: When children and families have access to the
-    support and resources to thrive, there''s no limit to what they can accomplish. '
-  order: 5
-  subtitle: 'A proven model of family support '
-  copyTop: "Aspiranet offers families a network of individualized resources that meet
-    them where they are and take them on a journey to where positive outcomes are
-    possible.  \n\nResearch shows that services that are wrapped around the family
-    are more effective than institutional care and can unlock positive outcomes such
-    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
-    services are provided in the home and in the community and are available when
-    families need them – after school, in the mornings, and on the weekends. "
-  pullQuote: 'quote goes here '
-  copyRest: "Our services engage all members of the family, including relatives and
-    non-relative extended family members, in changing behaviors that improve their
-    relationships and promote growth.  \nFamily members, caregivers, teachers and
-    other service providers work together so children have opportunities to practice
-    positive life skills and get involved in community activities. \n\nWhether it
-    is referring someone within the Aspiranet network, or sharing community contacts
-    on behalf of families, or educating policymakers on needed changes, we are dedicated
-    to facilitating the best possible outcome within our family support system.  \n\nThe
-    ultimate goal is to give children the tools and support network to live and grow
-    successfully with their birth families, relative caregivers, or foster and adoptive
-    families. \n"
-  fastFact1Number: '700'
-  fastFact1Text: 'Families that benefited from our high level intervention and treatment
-    services '
-  fastFact2Number: '140 '
-  fastFact2Text: Aspiranet locations across California
-  fastFact3Number: '8.7'
-  fastFact3Text: 'Number of child abuse and neglect in California per one thousand
-    children '
-- sys:
     id: XBkqWJ1H8qowuEKW6McqM
   title: Residential
   landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
@@ -163,78 +163,7 @@ programs:
   fastFact2Text: 'Youth benefited from these Aspiranet residential services in 2015 '
   fastFact3Number: '1987'
   fastFact3Text: 'Year Aspiranet launched our residential-based programs '
-blogPost:
-- sys:
-    id: 9VsKDitt6wYk2uO2gecui
-  title: The is the first post
-  url: first-post
-  featuredOnHomepage: false
-  order: 0
-  heroImage:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  date: !ruby/object:DateTime 2017-01-02 16:00:00.000000000 -08:00
-  postBody: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    #### Lorem Ipsum dolor
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  category: News
-  tags: 'our programs, foster, exciting '
-- sys:
-    id: n4NuE2eF0GkWUkOyU4yUM
-  title: Second Post
-  url: second-entry
-  featuredOnHomepage: false
-  order: 2
-  heroImage:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  postBody: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    #### Lorem Ipsum dolor
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  category: Children stories
-  tags: 'Adoption, children, foster '
 divisionHeads:
-- sys:
-    id: 1kqKjx09PuoUIKO8meAIg2
-  name: Vernon McFarland Brown
-  desiredUrl: vernon-mcfarland-brown
-  position: CEO
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 - sys:
     id: 3M6LZcVY4w2kE4Q4aSeKii
   name: Nicolas Smith
@@ -244,6 +173,21 @@ divisionHeads:
     title: picture placeholder
     url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
   order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- sys:
+    id: 1kqKjx09PuoUIKO8meAIg2
+  name: Vernon McFarland Brown
+  desiredUrl: vernon-mcfarland-brown
+  position: CEO
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
   bio: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -317,6 +261,68 @@ programLocation:
   description: Individualized services that address the needs of young adults aged
     14-25 years old with emotional and behavioral challenges.
   website: http://www.aspiranetthpplus.org/who-we-are/our-programs/transition-to-independence-merced-c/
+blogPost:
+- sys:
+    id: 9VsKDitt6wYk2uO2gecui
+  title: The is the first post
+  url: first-post
+  featuredOnHomepage: false
+  order: 0
+  heroImage:
+    title: placeholder3
+    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
+  date: !ruby/object:DateTime 2017-01-02 16:00:00.000000000 -08:00
+  postBody: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    #### Lorem Ipsum dolor
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  category: News
+  tags:
+  - our programs
+  - foster
+  - exciting
+- sys:
+    id: n4NuE2eF0GkWUkOyU4yUM
+  title: Second Post
+  url: second-entry
+  featuredOnHomepage: false
+  order: 2
+  heroImage:
+    title: placeholder3
+    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
+  postBody: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    #### Lorem Ipsum dolor
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  category: Children stories
+  tags:
+  - adoption
+  - children
+  - foster
 rootWebsite:
 - sys:
     id: 2ffm5MoVtiUYoSWiqwUGgI

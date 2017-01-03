@@ -17,6 +17,9 @@
 		margin: 8% 0;
 		.blog-excerpt {
 			padding: 0 1.5em;
+			ul {
+				padding: 0;
+			}
 		}
 	}
 	.buttons-box {
@@ -31,8 +34,11 @@
 #blog, #blog-post {
 	.col-4-12 {
 		border-left: 1px solid $grey-dark;
-		p {
+		p, ul {
 			padding-left: 1.4em;
+		}
+		.tags li {
+			display: inline-block;
 		}
 	}
 }

@@ -19,11 +19,11 @@ layout: default
                 <div class="blog-excerpt">
                     <ul>
                         {% for category in blogpost.category %}
-                        <li>{{ category }}</li>
+                        <li><p class="caps small">{{ category }}</p></li>
                         {% endfor %}
                     </ul>
                     <a href="{{ blogpost.url | prepend: site.baseurl }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
-                    <p>{{ blogpost.postBody | truncatewords:20 }}</p>
+                    <p>{{ blogpost.postBody | truncatewords:20 | markdownify }}</p>
                 </div>
                 {% include blog-buttons.html %}
             </div>
