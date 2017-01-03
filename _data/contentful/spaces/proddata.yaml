@@ -199,7 +199,7 @@ blogPost:
 - sys:
     id: 9VsKDitt6wYk2uO2gecui
   title: The is the first post
-  desiredUrl: first-post
+  url: first-post
   featuredOnHomepage: false
   order: 0
   heroImage:
@@ -215,7 +215,7 @@ blogPost:
 - sys:
     id: n4NuE2eF0GkWUkOyU4yUM
   title: Second Post
-  desiredUrl: second-entry
+  url: second-entry
   featuredOnHomepage: false
   order: 2
   heroImage:

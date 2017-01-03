@@ -9,11 +9,12 @@ layout: default
             {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
             
             {% for blogpost in sorted_news %}
+
 			<li class="post">
             <div class="white">
                 {% if blogpost.heroImage %}
                 <a href="{{ blogpost.url | prepend: site.baseurl }}">
-                    <div class="img-post" style="background-image: url('{{ blogpost.heroImage.url }}');"></div>
+                    <div class="img-post" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}"></div>
                 </a>
                 {% endif %}
                 <div class="blog-excerpt">
@@ -22,7 +23,7 @@ layout: default
                         <li>{{ category }}</li>
                         {% endfor %}
                     </ul>
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
+                    <a href="{{ blogpost.url | prepend: site.baseurl }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
                     <p>{{ blogpost. postBody | truncatewords:20 }}</p>
                 </div>
                 {% include blog-buttons.html %}
