@@ -694,10 +694,7 @@ section.white, div.white, span.white {
   height: 377px; }
 
 #blog .col-4-12 {
-  margin-top: 4%;
-  border-left: 1px solid #ecebeb; }
-  #blog .col-4-12 p {
-    padding-left: 1.4em; }
+  margin-top: 4%; }
 
 #blog .social-icons li {
   display: inline-block;
@@ -722,6 +719,14 @@ section.white, div.white, span.white {
 .category-active {
   border-left: 3px solid #49b4d6;
   margin-left: -2px; }
+
+#blog .col-4-12, #blog-post .col-4-12 {
+  border-left: 1px solid #ecebeb; }
+  #blog .col-4-12 p, #blog-post .col-4-12 p {
+    padding-left: 1.4em; }
+
+#blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
+  font-weight: bold; }
 
 .storelocator-panel {
   border: 1px solid #ccc;
@@ -863,10 +868,7 @@ section.white, div.white, span.white {
   margin-top: 3%; }
 
 #blog .col-4-12 {
-  margin-top: 4%;
-  border-left: 1px solid #ecebeb; }
-  #blog .col-4-12 p {
-    padding-left: 1.4em; }
+  margin-top: 4%; }
 
 #blog .social-icons li {
   display: inline-block;
@@ -891,3 +893,11 @@ section.white, div.white, span.white {
 .category-active {
   border-left: 3px solid #49b4d6;
   margin-left: -2px; }
+
+#blog .col-4-12, #blog-post .col-4-12 {
+  border-left: 1px solid #ecebeb; }
+  #blog .col-4-12 p, #blog-post .col-4-12 p {
+    padding-left: 1.4em; }
+
+#blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
+  font-weight: bold; }
