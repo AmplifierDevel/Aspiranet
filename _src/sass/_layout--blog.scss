@@ -22,6 +22,9 @@
 			}
 		}
 	}
+	.blog-tags {
+		margin-top: 2em;
+	}
 	.buttons-box {
 		padding: 1em 1.5em;
 		border-top: 1px solid $grey-dark;
@@ -37,8 +40,11 @@
 		p, ul {
 			padding-left: 1.4em;
 		}
-		.tags li {
+		.blog-tags ul li {
 			display: inline-block;
+			border: 1px solid $blue-dark;
+    		padding: 0.7em;
+    		margin: 0.4em 0.4em 0.4em 0;
 		}
 	}
 }

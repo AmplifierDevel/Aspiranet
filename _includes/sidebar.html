@@ -6,7 +6,7 @@
         </div>
     {% endif %}
 
-    <div class="color-blue-dark">
+    <div class="color-blue-dark blog-categories">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
         
@@ -21,9 +21,9 @@
 
         </ul>
     </div>
-    <div class="color-blue-dark">
+    <div class="color-blue-dark blog-tags">
         <p class="caps small round">Tags</p>
-        <ul class="tags">
+        <ul>
         {% for blogpost in sorted_news %}
             {% for tag in blogpost.tags %}
             
