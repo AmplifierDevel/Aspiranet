@@ -10,14 +10,14 @@ layout: default
 		<div class="col-1-2 contact-form">
 			<h2 class="no-margin-top">Write to Us</h2>
 			<form id="contact" action="" method="post">
-			<fieldset>
-				<input class="form-name" placeholder="First name" type="text" tabindex="1" required autofocus>
-				<input class="form-name" placeholder="Last name" type="text" tabindex="2" required autofocus>
-				<input class="form-info" placeholder="Your Email Address" type="email" tabindex="3" required>
-				<input class="form-info" placeholder="I'm interested in..." type="text" tabindex="4">
-				<textarea class="form-info" placeholder="Message" tabindex="5" required></textarea>
-				<input name="submit" type="submit" id="contact-submit" data-submit="...Sending"></input>
-		  	</fieldset>
+				<fieldset>
+					<input class="form-name" placeholder="First name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First name'"  type="text" tabindex="1" required autofocus>
+					<input class="form-name" placeholder="Last name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last name'"  type="text" tabindex="2" required autofocus>
+					<input class="form-info" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" type="email" tabindex="3" required>
+					<input class="form-info" placeholder="I am interested in..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'I am interested in...'" type="text" tabindex="4">
+					<textarea class="form-info" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" tabindex="5" required></textarea>
+					<input name="submit" type="submit" id="contact-submit" data-submit="...Sending"></input>
+			  	</fieldset>
 		  	</form> 
 	  	</div>
 
