@@ -1,0 +1,83 @@
+.contact-form {
+	fieldset {
+		padding: 0;
+    	margin: 0;
+    	border: none;
+		::-webkit-input-placeholder { 
+		  color: $grey-darkest;
+		  font-family: $stack-serif;
+		  font-size: 15px;
+		  font-weight: 400;
+		}
+		::-moz-placeholder { 
+		  color: $grey-darkest;
+		  font-family: $stack-serif;
+		  font-size: 15px;
+		  font-weight: 400;
+		}
+		:-ms-input-placeholder { 
+		  color: $grey-darkest;
+		  font-family: $stack-serif;
+		  font-size: 15px;
+		  font-weight: 400;
+		}
+		:-moz-placeholder { 
+		  color: $grey-darkest;
+		  font-family: $stack-serif;
+		  font-size: 15px;
+		  font-weight: 400;
+		}
+		textarea {
+			padding: 10px 20px;
+			height: 275px;
+		}
+		.form-name, .form-info {
+			border: 1px solid $grey-dark;
+			border-radius: 0;
+			background-color: white;
+			color: $grey-darkest;
+		}
+		.form-name {
+			display: inline-block;
+			width: 42%;
+			&:first-of-type {
+				margin-right: 1%;
+			}
+		}
+		.form-info {
+			width: 86%;
+			display: block;
+			margin-top: 1.5%;
+		}
+		input[type="submit"] {
+			margin-top: 8%;
+		}
+	}
+}
+.contact-map {
+	border-left: 2px solid $grey-dark;
+	padding: 0 0 0 4em;
+	h2:nth-of-type(2) {
+		border-top: 1px solid $grey-dark;
+	    padding-top: 8%;
+	    margin-top: 11%;
+	}
+	.button {
+		margin-top: 5.5%;
+	}
+	.col-1-2 {
+		p {
+			line-height: 1.1;
+		}
+	}
+	.col-1-2:first-of-type {
+		padding: 0;
+	}
+	.col-1-2:nth-of-type(2) {
+		padding-right: 0;
+    	padding-left: 50px;
+    	p:last-of-type {
+    		margin-top: 29%;
+    	}
+	}
+}
