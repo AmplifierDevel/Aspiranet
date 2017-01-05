@@ -404,11 +404,44 @@ programLocation:
   website: http://www.aspiranetthpplus.org/who-we-are/our-programs/transition-to-independence-merced-c/
 blogPost:
 - sys:
+    id: n4NuE2eF0GkWUkOyU4yUM
+  title: Second Post
+  author:
+  - Bick Niel
+  url: second-entry
+  featuredOnHomepage: false
+  heroImage:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/1hDm0jn7hSewsiww2MWk40/9190d4864a5af0a11d728cd59e34acec/02_donate_hero_img_1.jpg
+  postBody: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    #### Lorem Ipsum dolor
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  category: Children stories
+  tags:
+  - adoption
+  - children
+  - foster
+- sys:
     id: 9VsKDitt6wYk2uO2gecui
   title: The is the first post
+  author:
+  - Nick Biel
+  - Aspiranet team
   url: first-post
   featuredOnHomepage: false
-  order: 0
   heroImage:
     title: 08 blog hero img 1
     url: //images.contentful.com/e5ehlcazegi0/3b2xywa5HWmSwOUAaoaCkE/96d26a1a6fc8aa1e95e18eda8d08c400/08_blog_hero_img_1.jpg
@@ -434,33 +467,3 @@ blogPost:
   - our programs
   - foster
   - exciting
-- sys:
-    id: n4NuE2eF0GkWUkOyU4yUM
-  title: Second Post
-  url: second-entry
-  featuredOnHomepage: false
-  order: 2
-  heroImage:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/1hDm0jn7hSewsiww2MWk40/9190d4864a5af0a11d728cd59e34acec/02_donate_hero_img_1.jpg
-  postBody: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    #### Lorem Ipsum dolor
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  category: Children stories
-  tags:
-  - adoption
-  - children
-  - foster

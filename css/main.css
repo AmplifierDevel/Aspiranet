@@ -731,9 +731,6 @@ section.white, div.white, span.white {
     #blog .post .blog-excerpt ul {
       padding: 0; }
 
-#blog .blog-tags {
-  margin-top: 2em; }
-
 #blog .buttons-box {
   padding: 1em 1.5em;
   border-top: 1px solid #ecebeb; }
@@ -746,11 +743,15 @@ section.white, div.white, span.white {
   border-left: 1px solid #ecebeb; }
   #blog .col-4-12 p, #blog .col-4-12 ul, #blog-post .col-4-12 p, #blog-post .col-4-12 ul {
     padding-left: 1.4em; }
-  #blog .col-4-12 .blog-tags ul li, #blog-post .col-4-12 .blog-tags ul li {
-    display: inline-block;
-    border: 1px solid #165376;
-    padding: 0.7em;
-    margin: 0.4em 0.4em 0.4em 0; }
+  #blog .col-4-12 .blog-tags, #blog-post .col-4-12 .blog-tags {
+    margin-top: 2em; }
+    #blog .col-4-12 .blog-tags ul li, #blog-post .col-4-12 .blog-tags ul li {
+      display: inline-block;
+      border: 1px solid #165376;
+      padding: 0.7em;
+      margin: 0.4em 0.4em 0.4em 0; }
+  #blog .col-4-12 .blog-categories, #blog-post .col-4-12 .blog-categories {
+    margin-top: 2em; }
 
 #blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
   font-weight: bold; }
@@ -955,9 +956,6 @@ p.attribution, p.attribution a {
     #blog .post .blog-excerpt ul {
       padding: 0; }
 
-#blog .blog-tags {
-  margin-top: 2em; }
-
 #blog .buttons-box {
   padding: 1em 1.5em;
   border-top: 1px solid #ecebeb; }
@@ -970,11 +968,15 @@ p.attribution, p.attribution a {
   border-left: 1px solid #ecebeb; }
   #blog .col-4-12 p, #blog .col-4-12 ul, #blog-post .col-4-12 p, #blog-post .col-4-12 ul {
     padding-left: 1.4em; }
-  #blog .col-4-12 .blog-tags ul li, #blog-post .col-4-12 .blog-tags ul li {
-    display: inline-block;
-    border: 1px solid #165376;
-    padding: 0.7em;
-    margin: 0.4em 0.4em 0.4em 0; }
+  #blog .col-4-12 .blog-tags, #blog-post .col-4-12 .blog-tags {
+    margin-top: 2em; }
+    #blog .col-4-12 .blog-tags ul li, #blog-post .col-4-12 .blog-tags ul li {
+      display: inline-block;
+      border: 1px solid #165376;
+      padding: 0.7em;
+      margin: 0.4em 0.4em 0.4em 0; }
+  #blog .col-4-12 .blog-categories, #blog-post .col-4-12 .blog-categories {
+    margin-top: 2em; }
 
 #blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
   font-weight: bold; }
