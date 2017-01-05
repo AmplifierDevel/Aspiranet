@@ -1,5 +1,11 @@
+#map-canvas, #panel { height: 500px; background: white;}
+#panel { width: 300px; float: left; }
+#panel .feature-filter label { width: 130px; }
+p.attribution, p.attribution a { color: #666; }
+
+
 .storelocator-panel {
-  border: 1px solid #ccc;
+  border: 1px solid $grey-dark;
   overflow: auto;
 }
 
@@ -8,7 +14,13 @@
   padding: 0;
 }
 
-.storelocator-panel .store-list li,
+.storelocator-panel .store-list li {
+  padding: 0 0 0 5px;
+  margin: 10px 0;
+  div.store {
+    padding: 10px;
+  }
+}
 .storelocator-panel .directions-panel {
   padding: 5px;
 }
@@ -18,34 +30,49 @@
 
 .storelocator-panel .store-list li.store:hover {
   cursor: pointer;
-  background: #eee;
 }
 
 .storelocator-panel .store-list li.highlighted,
 .storelocator-panel .store-list li.highlighted:hover {
-  background: #ccf;
+  border-left: 5px solid $orange;
+  border-radius: 2px;
+  div.store {
+    background: $blue;
+    color: white; 
+    .title, .address, .misc, .web {
+      color: white;
+    }
+    .web a, .action {
+      color: white;
+      text-decoration: underline;
+    }
+  }
 }
 
 .storelocator-panel .directions {
   display: none;
 }
-
+.find-a-program .grid {
+  margin-top: 100px;
+}
 .storelocator-panel .location-search {
-  padding: 5px;
+  position: absolute;
+  margin-top: -146px;
 }
 
 .storelocator-panel .location-search input {
-  width: 95%;
+  width: 312px;
+  height: 58px;
+  margin-top: 13px;
 }
 
 .storelocator-panel .location-search h4 {
-  font-size: 0.8em;
   margin: 0;
   padding: 0;
 }
 
 .storelocator-panel .store-list .no-stores {
-  color: grey;
+  color: $grey-darkest;
 }
 
 .storelocator-panel .store .features {
@@ -65,24 +92,25 @@
 
 .store .title {
   font-weight: bold;
+  font-size: 18px;
+  color: $grey-darkest;
 }
 
 .store .address,
 .store .phone, 
 .store .web, 
 .store .misc { 
-  font-size: 80%; 
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   display: block; 
+  color: $grey-darkest;
 }
 
 .store .features {
   overflow: hidden;
-  color: grey;
+  color: $grey-dark;
   margin: 0;
   padding: 0;
-  font-size: 70%;
   max-width: 250px;
 } 
 
@@ -93,11 +121,11 @@
 }
 
 .store .web a {
-  color: green
+  color: $grey-darkest;
 }
 
 .store .action {
   font-size: 0.8em;
-  color: green;
+  color: $grey-darkest;
   margin-right: 0.5em;
 }

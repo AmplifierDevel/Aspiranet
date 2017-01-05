@@ -504,7 +504,7 @@ nav {
     width: 300px; }
   .find-program-submenu .button {
     margin-top: -52px;
-    margin-left: 16px; }
+    margin-left: 7.5px; }
 
 .programs-submenu ul {
   -moz-column-count: 2;
@@ -738,15 +738,34 @@ section.white, div.white, span.white {
 #blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
   font-weight: bold; }
 
+#map-canvas, #panel {
+  height: 500px;
+  background: white; }
+
+#panel {
+  width: 300px;
+  float: left; }
+
+#panel .feature-filter label {
+  width: 130px; }
+
+p.attribution, p.attribution a {
+  color: #666; }
+
 .storelocator-panel {
-  border: 1px solid #ccc;
+  border: 1px solid #ecebeb;
   overflow: auto; }
 
 .storelocator-panel .store-list {
   margin: 0;
   padding: 0; }
 
-.storelocator-panel .store-list li,
+.storelocator-panel .store-list li {
+  padding: 0 0 0 5px;
+  margin: 10px 0; }
+  .storelocator-panel .store-list li div.store {
+    padding: 10px; }
+
 .storelocator-panel .directions-panel {
   padding: 5px; }
 
@@ -754,29 +773,49 @@ section.white, div.white, span.white {
   font-size: 0.8em; }
 
 .storelocator-panel .store-list li.store:hover {
-  cursor: pointer;
-  background: #eee; }
+  cursor: pointer; }
 
 .storelocator-panel .store-list li.highlighted,
 .storelocator-panel .store-list li.highlighted:hover {
-  background: #ccf; }
+  border-left: 5px solid #ff5a38;
+  border-radius: 2px; }
+  .storelocator-panel .store-list li.highlighted div.store,
+  .storelocator-panel .store-list li.highlighted:hover div.store {
+    background: #49b4d6;
+    color: white; }
+    .storelocator-panel .store-list li.highlighted div.store .title, .storelocator-panel .store-list li.highlighted div.store .address, .storelocator-panel .store-list li.highlighted div.store .misc, .storelocator-panel .store-list li.highlighted div.store .web,
+    .storelocator-panel .store-list li.highlighted:hover div.store .title,
+    .storelocator-panel .store-list li.highlighted:hover div.store .address,
+    .storelocator-panel .store-list li.highlighted:hover div.store .misc,
+    .storelocator-panel .store-list li.highlighted:hover div.store .web {
+      color: white; }
+    .storelocator-panel .store-list li.highlighted div.store .web a, .storelocator-panel .store-list li.highlighted div.store .action,
+    .storelocator-panel .store-list li.highlighted:hover div.store .web a,
+    .storelocator-panel .store-list li.highlighted:hover div.store .action {
+      color: white;
+      text-decoration: underline; }
 
 .storelocator-panel .directions {
   display: none; }
 
+.find-a-program .grid {
+  margin-top: 100px; }
+
 .storelocator-panel .location-search {
-  padding: 5px; }
+  position: absolute;
+  margin-top: -146px; }
 
 .storelocator-panel .location-search input {
-  width: 95%; }
+  width: 312px;
+  height: 58px;
+  margin-top: 13px; }
 
 .storelocator-panel .location-search h4 {
-  font-size: 0.8em;
   margin: 0;
   padding: 0; }
 
 .storelocator-panel .store-list .no-stores {
-  color: grey; }
+  color: #bebebe; }
 
 .storelocator-panel .store .features {
   display: none; }
@@ -791,23 +830,24 @@ section.white, div.white, span.white {
   float: left; }
 
 .store .title {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 18px;
+  color: #bebebe; }
 
 .store .address,
 .store .phone,
 .store .web,
 .store .misc {
-  font-size: 80%;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
-  display: block; }
+  display: block;
+  color: #bebebe; }
 
 .store .features {
   overflow: hidden;
-  color: grey;
+  color: #ecebeb;
   margin: 0;
   padding: 0;
-  font-size: 70%;
   max-width: 250px; }
 
 .store .features li {
@@ -816,11 +856,11 @@ section.white, div.white, span.white {
   padding-right: 0.8em; }
 
 .store .web a {
-  color: green; }
+  color: #bebebe; }
 
 .store .action {
   font-size: 0.8em;
-  color: green;
+  color: #bebebe;
   margin-right: 0.5em; }
 
 .careers-stats .col-1-3 {

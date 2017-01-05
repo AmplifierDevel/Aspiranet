@@ -49,19 +49,14 @@ MedicareDataSource.prototype.parse_ = function(json) {
 
     var websiteHtml = '';
     if (item.fields.website) {
-      websiteHtml = `<a href="` + item.fields.website + `" target="_blank">Website</a>`;
+      websiteHtml = `<a href="` + item.fields.website + `" target="_blank">Visit Website</a>`;
     }
 
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
       address: item.fields.addressAsText,
-      misc: `<strong>Description:</strong><br/>` + 
-      item.fields.description +
-      `<br/><strong>Contact:</strong><br/>` +
-      contactNames +
-      `<br/><strong>Email:</strong><br/>` +
-      contactEmails,
-      phone: `Phone:` + item.fields.phone,
+      misc: `<strong>Available Services:</strong><br/>` + 
+      item.fields.program,
       web: websiteHtml
     });
     stores.push(store);

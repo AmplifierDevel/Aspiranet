@@ -8,7 +8,7 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="{{ page.title | downcase }}">
+      <div class="{{ page.title | downcase | slugify }}">
         {{ content }}
       </div>
     </div>
