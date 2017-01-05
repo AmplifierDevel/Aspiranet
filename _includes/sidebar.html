@@ -19,9 +19,16 @@
     <div class="color-blue-dark blog-tags">
         <p class="caps small round">Tags</p>
         <ul>
-        {% for blogpost in sorted_news %}
+        {% capture tag_list %}
+            {% for blogpost in sorted_news %}
+                {% for tag in blogpost.tags %}
+                    {{ tag }}{% if forloop.last == false %}|{% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endcapture %}
+        {% assign tag_array = tag_list | split: "|" | uniq %}
             
-            {% for tag in blogpost.tags %}
+            {% for tag in tag_array %}
             
             <li>
                 <a href="/blog/tag/{{ tag | slugify }}">
@@ -30,7 +37,6 @@
             </li>
 
             {% endfor %}
-        {% endfor %}
 
 
         </ul>
