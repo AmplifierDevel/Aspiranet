@@ -20,6 +20,29 @@ ul li {
     background-position: center center;
     position: relative;
 }
+.img-overlay-left, .img-overlay-right {
+	&:before {
+		content: "";
+	    position: absolute;
+	    height: 100%;
+	    display: block;
+	    top: 0;
+	    width: 100%;
+	}
+	.grid {
+		position: relative;
+	}
+}
+.img-overlay-left {
+	&:before {
+		background-image: linear-gradient(-90deg, transparent 14%, rgba(255, 255, 255, 0.6) 100%);
+	}
+}
+.img-overlay-right {
+	&:before {
+		background-image: linear-gradient(90deg, transparent 14%, rgba(255, 255, 255, 0.6) 100%);
+	}
+}
 .border-left {
 	border-left: 1px solid $blue-dark;
 }
@@ -30,7 +53,7 @@ ul li {
         padding-right: 0;
     }
     &:after {
-        padding-bottom: 14%;
+        padding-bottom: 24%;
         content: "";
         display: block;
         @media screen and (min-width: 1440px) { 
