@@ -6,9 +6,11 @@ layout: default
     <div class="grid">
         <div class="col-7-12">
             <ul>
-            {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"order" %}
-            
+
+        {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+
             {% for blogpost in sorted_news %}
+                
 			<li class="post">
             <div class="white">
                 {% if blogpost.heroImage %}
