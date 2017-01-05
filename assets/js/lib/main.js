@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	if ($('.nav-programs a').hasClass('active')) {
+		$('.nav-programs a').css('border-top', 'none');
+	} else {
+		$('.nav-programs a').css({
+			'background-color': 'white',
+			'border-top': '5px solid white'
+		});
+	}
 	$('#programsNavItem').mouseenter(function(e) {
 		$('#programsNav').css('display', 'block');
 		$('.nav-programs a').css({
