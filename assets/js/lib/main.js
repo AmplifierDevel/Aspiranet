@@ -28,6 +28,11 @@ $(document).ready(function(){
 		}
 	});
 
+	$('.campaign-slider').unslider({
+		arrows: false,
+		autoplay: true
+	});
+
 	// searching for orphans TODO: make sure it doesn't affect html tags
    // $('p, h3, h4').each(function(){
    //      var string = $(this).html();

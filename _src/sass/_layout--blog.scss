@@ -27,10 +27,12 @@
 		border-top: 1px solid $grey-dark;
 	}
 }
+
 .category-active {
     border-left: 3px solid $blue;
     margin-left: -2px;
 }
+
 #blog, #blog-post {
 	.col-4-12 {
 		border-left: 1px solid $grey-dark;
@@ -52,12 +54,16 @@
 	}
 }
 
+
 // Individual post 
 
 #blog-post {
 	.blog-body {
 		h1, h2, h3, h4 {
 			font-weight: bold;
+		}
+		p, p img {
+			width: 100%;
 		}
 	}
 }

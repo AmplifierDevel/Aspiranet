@@ -702,6 +702,11 @@ section.white, div.white, span.white {
 .no-padding-top {
   padding-top: 0 !important; }
 
+.unslider-nav {
+  margin-top: -20px;
+  position: relative;
+  float: none; }
+
 .stats-front {
   float: right;
   text-align: center;
@@ -755,6 +760,9 @@ section.white, div.white, span.white {
 
 #blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
   font-weight: bold; }
+
+#blog-post .blog-body p, #blog-post .blog-body p img {
+  width: 100%; }
 
 #map-canvas, #panel {
   height: 500px;
@@ -980,6 +988,9 @@ p.attribution, p.attribution a {
 
 #blog-post .blog-body h1, #blog-post .blog-body h2, #blog-post .blog-body h3, #blog-post .blog-body h4 {
   font-weight: bold; }
+
+#blog-post .blog-body p, #blog-post .blog-body p img {
+  width: 100%; }
 
 .contact-form fieldset {
   padding: 0;
