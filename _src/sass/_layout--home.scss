@@ -9,3 +9,29 @@
 		height: 377px;
 	}
 }
+.unslider {
+	overflow-y: hidden !important;
+}
+.unslider-nav {
+    margin-top: -20px;
+    top: -25px;
+    position: relative;
+    float: none;
+    ol li {
+    	width: 16px !important;
+    	height: 16px !important;
+    	border-radius: 50% !important;
+    	border: 1px solid white !important;
+    }
+}
+.campaign-slider {
+	li {
+		height: 550px;
+		h1 {
+			margin: 0;
+		}
+		h4 {
+			margin-bottom: 0;
+		}
+	}
+}

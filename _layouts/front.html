@@ -6,9 +6,12 @@ layout: default
 	<ul>
 	{% for campaign in sorted_campaigns %}
 		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings section-photo {% if campaign.titleAlign == 'right' %} img-overlay-right {% else %} img-overlay-left {% endif %}">
-			<div class="grid">
+			<section class="grid">
+				{% if campaign.campaignPartners %} 
+				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
+				{% endif %}
 				<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
-			</div>
+			</section>
 		</li>
 	{% endfor %}
 	</ul> 

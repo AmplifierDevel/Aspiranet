@@ -30,7 +30,9 @@ $(document).ready(function(){
 
 	$('.campaign-slider').unslider({
 		arrows: false,
-		autoplay: true
+		autoplay: true,
+		infinite: true,
+		delay: 6000
 	});
 
 	// searching for orphans TODO: make sure it doesn't affect html tags

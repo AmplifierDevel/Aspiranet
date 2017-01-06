@@ -702,11 +702,6 @@ section.white, div.white, span.white {
 .no-padding-top {
   padding-top: 0 !important; }
 
-.unslider-nav {
-  margin-top: -20px;
-  position: relative;
-  float: none; }
-
 .stats-front {
   float: right;
   text-align: center;
@@ -714,6 +709,27 @@ section.white, div.white, span.white {
 
 .latest-front .col-1-3 {
   height: 377px; }
+
+.unslider {
+  overflow-y: hidden !important; }
+
+.unslider-nav {
+  margin-top: -20px;
+  top: -25px;
+  position: relative;
+  float: none; }
+  .unslider-nav ol li {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    border: 1px solid white !important; }
+
+.campaign-slider li {
+  height: 550px; }
+  .campaign-slider li h1 {
+    margin: 0; }
+  .campaign-slider li h4 {
+    margin-bottom: 0; }
 
 #blog .col-4-12 {
   margin-top: 4%; }
