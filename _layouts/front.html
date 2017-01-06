@@ -11,6 +11,9 @@ layout: default
 				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
 				{% endif %}
 				<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
+				{% if campaign.ctaButtonCopy %}
+				<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
+				{% endif %}
 			</section>
 		</li>
 	{% endfor %}

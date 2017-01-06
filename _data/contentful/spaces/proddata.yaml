@@ -1,67 +1,20 @@
 ---
-seniorExecutive:
-- sys:
-    id: 1Nlzc3r93igA4kKoqsMWiu
-  name: John Doe
-  desiredUrl: john-doe
-  position: Senior Executive
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 1
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 2bapNK1zLKEIQo6gqomyIG
-  name: John Smith
-  desiredUrl: john-smith
-  position: Senior Researcher
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 0
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-campain:
-- sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: 'Third campaign '
-  titleAlign: left
-  image:
-    title: Veronica
-    url: //images.contentful.com/e5ehlcazegi0/GOpsH36sc88eqmO4UIGEG/a5edca5a551499b88e0c591508152e66/veronicapic4.jpg
-  campaignUrl: link-to-third-campaign
-  order: 3
-- sys:
-    id: 4rqSPhHwhqoGwCGCYucUem
-  title: A woman with big ambitions
-  titleAlign: right
-  image:
-    title: 01 homepage hero img ERnDC
-    url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
-  campaignUrl: /url.com
-  order: 2
-- sys:
-    id: 3nasDfII8ESiAEcM0Yc6SK
-  title: 'Second campaign '
-  titleAlign: left
-  image:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/1hDm0jn7hSewsiww2MWk40/9190d4864a5af0a11d728cd59e34acec/02_donate_hero_img_1.jpg
-  campaignPartners: Starbucks
-  campaignUrl: url-to-campaign
-  order: 2
 programLocation:
+- sys:
+    id: 3KkLAnTfx6OcoMeACoeGEU
+  name: Contra Costa
+  location:
+    lat: 37.9836986
+    lon: -121.8036095
+  addressAsText: 3727 Sunset Ln, Antioch, CA 94509, USA
+  program:
+  - Welcome Home Baby
+  ageLevel:
+  - 15-19
+  phone: 925-753-2156
+  description: 'Home visitation service for families with expectant parents or infants
+    under 4 months old. '
+  website: http://www.aspiranet.org/program-services/welcome-home-baby/
 - sys:
     id: 12RjozQVkaIaWqmCmqEi0s
   name: Fresno
@@ -198,21 +151,39 @@ programLocation:
     who are no longer in foster care and who have not yet reached the age of 21.  Includes
     referral and linkage services, housing assistance, bus passess, and work-related
     and education-related resources.
+campain:
 - sys:
-    id: 3KkLAnTfx6OcoMeACoeGEU
-  name: Contra Costa
-  location:
-    lat: 37.9836986
-    lon: -121.8036095
-  addressAsText: 3727 Sunset Ln, Antioch, CA 94509, USA
-  program:
-  - Welcome Home Baby
-  ageLevel:
-  - 15-19
-  phone: 925-753-2156
-  description: 'Home visitation service for families with expectant parents or infants
-    under 4 months old. '
-  website: http://www.aspiranet.org/program-services/welcome-home-baby/
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: 'Third campaign '
+  titleAlign: left
+  image:
+    title: Veronica
+    url: //images.contentful.com/e5ehlcazegi0/GOpsH36sc88eqmO4UIGEG/a5edca5a551499b88e0c591508152e66/veronicapic4.jpg
+  campaignUrl: link-to-third-campaign
+  order: 3
+- sys:
+    id: 4rqSPhHwhqoGwCGCYucUem
+  title: A woman with big ambitions
+  titleAlign: right
+  image:
+    title: 01 homepage hero img ERnDC
+    url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
+  campaignUrl: /url.com
+  order: 2
+  ctaButtonCopy: Join the program
+  ctaUrl: donate/campaign
+- sys:
+    id: 3nasDfII8ESiAEcM0Yc6SK
+  title: 'Second campaign '
+  titleAlign: right
+  image:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/1hDm0jn7hSewsiww2MWk40/9190d4864a5af0a11d728cd59e34acec/02_donate_hero_img_1.jpg
+  campaignPartners: Starbucks
+  campaignUrl: url-to-campaign
+  order: 2
+  ctaButtonCopy: Donate now
+  ctaUrl: /donate/now
 programs:
 - sys:
     id: 17pijT5KeCiYscE4GoQAO0
@@ -377,6 +348,39 @@ programs:
   fastFact2Text: 'Youth benefited from these Aspiranet residential services in 2015 '
   fastFact3Number: '1987'
   fastFact3Text: 'Year Aspiranet launched our residential-based programs '
+seniorExecutive:
+- sys:
+    id: 1Nlzc3r93igA4kKoqsMWiu
+  name: John Doe
+  desiredUrl: john-doe
+  position: Senior Executive
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- sys:
+    id: 2bapNK1zLKEIQo6gqomyIG
+  name: John Smith
+  desiredUrl: john-smith
+  position: Senior Researcher
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 0
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 blogPost:
 - sys:
     id: 4KnVNF25SwmY0MIoOGIwUY
