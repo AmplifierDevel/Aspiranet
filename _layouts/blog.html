@@ -1,19 +1,17 @@
 ---
 layout: default
 ---
-{% assign blogpost = site.data.contentful.spaces.proddata.blogPost[0] %}
-
 <div id="blog-post">
-	<section  {% if blogpost.heroImage %} style="background-image: url('{{ blogpost.heroImage.url }}');" alt='{{ blogpost.heroImage.title }}' " class="img-settings section-photo" {% endif %} class="blue"> 
+	<section  {% if page.contentful_fields.heroImage %} style="background-image: url('{{ page.contentful_fields.heroImage.file.url }}');" alt='{{ page.contentful_fields.heroImage.title }}' " class="img-settings section-photo" {% endif %} class="blue"> 
 		<div class="grid">
-			<h1 class="round color-white push-right">{{ blogpost.title }}</h1>
+			<h1 class="round color-white push-right">{{ page.contentful_fields.title }}</h1>
 		</div>
 	</section>
 	<section>
 	    <div class="grid">
 	        <div class="col-7-12">
                 <div class="blog-body color-blue-dark">
-                    <p>{{ blogpost.postBody | markdownify }}</p>
+                    <p>{{ page.contentful_fields.postBody | markdownify }}</p>
                 </div>
 	        </div>
 	        {% include sidebar-post.html %}

@@ -25,7 +25,6 @@ layout: default
                     </ul>
                     <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
                     <p>{{ blogpost.postBody | truncatewords:20 | markdownify }}</p>
-                    <p>{{ blogpost.date | date: "%a, %b %d, %Y" }}</p>
                 </div>
                 {% include blog-buttons.html %}
             </div> 
