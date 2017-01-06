@@ -2,13 +2,13 @@
 layout: default
 ---
 {% assign blogpost = site.data.contentful.spaces.proddata.blogPost[0] %}
+
 <div id="blog-post">
 	<section  {% if blogpost.heroImage %} style="background-image: url('{{ blogpost.heroImage.url }}');" alt='{{ blogpost.heroImage.title }}' " class="img-settings section-photo" {% endif %} class="blue"> 
 		<div class="grid">
-			<h1 class="round color-blue push-right">{{ blogpost.title }}</h1>
+			<h1 class="round color-white push-right">{{ blogpost.title }}</h1>
 		</div>
 	</section>
-	
 	<section>
 	    <div class="grid">
 	        <div class="col-7-12">
