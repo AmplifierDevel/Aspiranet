@@ -13,13 +13,17 @@
 	input {
 		color: #fff;
 	}
-	ul li {
-		a img {
-			vertical-align: middle;
-		}
-		&:last-of-type {
-			margin-bottom: 0;
-			margin-right: 0;
+	ul {
+		padding: 0;
+		li {
+			
+			a img {
+				vertical-align: middle;
+			}
+			&:last-of-type {
+				margin-bottom: 0;
+				margin-right: 0;
+			}
 		}
 	}
 	.text-center h2 {
@@ -63,7 +67,6 @@
 	}
 	.footer-partners {
 		text-align: center;
-		padding: 0;
 		margin: 20px auto;
 		li {
 			display: inline-block;

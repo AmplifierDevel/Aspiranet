@@ -530,11 +530,13 @@ nav {
     letter-spacing: 1.5px; }
   .site-footer input {
     color: #fff; }
-  .site-footer ul li a img {
-    vertical-align: middle; }
-  .site-footer ul li:last-of-type {
-    margin-bottom: 0;
-    margin-right: 0; }
+  .site-footer ul {
+    padding: 0; }
+    .site-footer ul li a img {
+      vertical-align: middle; }
+    .site-footer ul li:last-of-type {
+      margin-bottom: 0;
+      margin-right: 0; }
   .site-footer .text-center h2 {
     margin-top: 0; }
   .site-footer .social-icons {
@@ -569,7 +571,6 @@ nav {
     font-family: "TTRounds", Helvetica, sans-serif; }
   .site-footer .footer-partners {
     text-align: center;
-    padding: 0;
     margin: 20px auto; }
     .site-footer .footer-partners li {
       display: inline-block;
