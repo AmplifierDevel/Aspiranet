@@ -972,6 +972,11 @@ p.attribution, p.attribution a {
   display: inline-block;
   margin-top: 3%; }
 
+.individual-program .col-4-12 .button {
+  padding-left: 40px; }
+  .individual-program .col-4-12 .button .orange {
+    width: 230px; }
+
 .transitional-aged-youth .individual-program .program-title {
   background-color: #70c7b2;
   color: white; }

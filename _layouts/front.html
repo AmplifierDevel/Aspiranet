@@ -59,8 +59,10 @@ layout: default
 
 <section class="blue text-center">
 	<div class="grid">
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
-		<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
+		<div class="col-8-12 center">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
+			<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
+		</div>
 	</div>
 </section>
 

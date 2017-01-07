@@ -20,10 +20,11 @@ layout: default
 		<div class="col-4-12 push-1-12 border-left">
 			<ul class="social-icons no-margin-top">
 				<p class="caps round small blue-dark no-margin-top">Share the program</p>
-				<li><a href="#"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
-				<li><a href="#"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
-				<li><a href="#"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
+				<li><a href="{{ site.baseurl }}/{{ page.url }}"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+				<li><a href="https://twitter.com/intent/tweet?text={{ page.contentful_fields.title }}&amp;url={{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
+				<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
 			</ul>
+			<p class="button"><a class="orange" href="/careers">Join our team</a></p>
 		</div>
 	</div>
 	</section>
