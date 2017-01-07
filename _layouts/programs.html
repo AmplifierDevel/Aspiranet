@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-{% assign this_program = site.data.contentful.spaces.proddata.programs[0] %}
 <div class="individual-program grey">
 	<div class="blue program-title">
 		<div class="grid">
-			<h1>{{ this_program.title }}</h1>
+			<h1>{{ page.contentful_fields.title }}</h1>
 		</div>
 	</div>
-	<div class="blue-dark">
+	<div class=" blue-dark program-subtitle">
 		<div class="grid">
-			<h4>{{ this_program.subtitle }}</h4>
+			<h4>{{ page.contentful_fields.subtitle }}</h4>
 		</div>
 	</div>
 	<section class="white">
 	<div class="grid">
 		<div class="col-7-12 color-blue-dark">
-			<p>{{ this_program.copyTop }}</p>
+			<p>{{ page.contentful_fields.copyTop }}</p>
 		</div>
 		<div class="col-4-12 push-1-12 border-left">
 			<ul class="social-icons no-margin-top">
@@ -28,42 +27,47 @@ layout: default
 		</div>
 	</div>
 	</section>
-
+	{% if page.contentful_fields.photo.file.url %}
 	<div class="white">
-		<img src="/assets/img/placeholder.png" width="100%;">
+		<img src="{{ page.contentful_fields.photo.file.url }}" width="100%;">
 	</div>
-
+	{% endif %}
+	{% if page.contentful_fields.copyRest %}
 	<section class="white">
 	<div class="grid">
 		<div class="col-8-12 color-blue-dark">
-			<p>{{ this_program.copyRest }}</p>
+			<p>{{ page.contentful_fields.copyRest }}</p>
 		</div>
 	</div>
 	</section>
-
+	{% endif %}
+	{% if page.contentful_fields.fastFact1Number and page.contentful_fields.fastFact2Number and page.contentful_fields.fastFact3Number and page.contentful_fields.fastFact1Text and page.contentful_fields.fastFact2Text and page.contentful_fields.fastFact3Text %}
 	<section class="blue-dark text-center fast-facts">
 		<div class="grid">
 			<h3>Fast Facts</h3>
 			<div class="col-1-3">
-				<h1 class="color-orange">{{ this_program.fastFact1Number }}</h1>
-				<p class="round">{{ this_program.fastFact1Text }}</p>
+				<h1 class="color-orange">{{ page.contentful_fields.fastFact1Number }}</h1>
+				<p class="round">{{ page.contentful_fields.fastFact1Text }}</p>
 			</div>
 			<div class="col-1-3">
-				<h1 class="color-orange">{{ this_program.fastFact2Number }}</h1>
-				<p class="round">{{ this_program.fastFact2Text }}</p>
+				<h1 class="color-orange">{{ page.contentful_fields.fastFact2Number }}</h1>
+				<p class="round">{{ page.contentful_fields.fastFact2Text }}</p>
 			</div>
 			<div class="col-1-3">
-				<h1 class="color-orange">{{ this_program.fastFact3Number }}</h1>
-				<p class="round">{{ this_program.fastFact3Text }}</p>
+				<h1 class="color-orange">{{ page.contentful_fields.fastFact3Number }}</h1>
+				<p class="round">{{ page.contentful_fields.fastFact3Text }}</p>
 			</div>
 		</div>
 	</section>
+	{% endif %}
 	<section class="col-11-12 center orange text-center block-overlap">
 			<div>
 				<h4 class="round no-margin-top">How you can help</h4>
-				<h4 class="col-7-12 center">{{ this_program.howYouCanHelpCopy }}</h4>
+				<h4 class="col-7-12 center">{{ page.contentful_fields.howYouCanHelpCopy }}</h4>
 			</div>
-				<p class="button"><a class="transparent" href="/donate">{{ this_program.howYouCanHelpCta }}</a></p>
+			{% if page.contentful_fields.howYouCanHelpCta %}
+				<p class="button"><a class="transparent" href="/donate">{{ page.contentful_fields.howYouCanHelpCta }}</a></p>
+			{% endif %}
 				<p class="button"><a class="orange" href="/donate">Donate</a></p>
 	</section>
 	<section>

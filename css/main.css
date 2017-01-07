@@ -651,10 +651,10 @@ ul li {
   margin: 0 auto; }
 
 .color-purple {
-  color: #db8ac2; }
+  color: #78649f; }
 
 .color-purple-dark {
-  color: #7e4f85; }
+  color: #6d5593; }
 
 hr {
   border: 0;
@@ -684,7 +684,7 @@ section.grey, div.grey, span.grey {
   color: #165376; }
 
 section.purple-dark, div.purple-dark, span.purple-dark {
-  background-color: #7e4f85;
+  background-color: #6d5593;
   color: #fff; }
 
 section.pink, div.pink, span.pink {
@@ -958,6 +958,91 @@ p.attribution, p.attribution a {
 .individual-program .block-overlap .button {
   display: inline-block;
   margin-top: 3%; }
+
+.transitional-aged-youth .individual-program .program-title {
+  background-color: #70c7b2;
+  color: white; }
+
+.transitional-aged-youth .individual-program .program-subtitle {
+  background-color: #5bb69e;
+  color: white; }
+
+.transitional-aged-youth .individual-program .fast-facts {
+  background-color: #6d5593;
+  color: white; }
+  .transitional-aged-youth .individual-program .fast-facts h1 {
+    color: #70c7b2; }
+
+.transitional-aged-youth .individual-program .block-overlap {
+  background-color: #78649f; }
+
+.family-community .individual-program .program-title {
+  background-color: #78649f;
+  color: white; }
+
+.family-community .individual-program .program-subtitle {
+  background-color: #6d5593;
+  color: white; }
+
+.family-community .individual-program .fast-facts {
+  background-color: #5bb69e;
+  color: white; }
+  .family-community .individual-program .fast-facts h1 {
+    color: #6d5593; }
+
+.family-community .individual-program .block-overlap {
+  background-color: #70c7b2; }
+
+.residential .individual-program .program-title {
+  background-color: #ff5a38;
+  color: white; }
+
+.residential .individual-program .program-subtitle {
+  background-color: #d54131;
+  color: white; }
+
+.residential .individual-program .fast-facts {
+  background-color: #165376;
+  color: white; }
+  .residential .individual-program .fast-facts h1 {
+    color: #ff5a38; }
+
+.residential .individual-program .block-overlap {
+  background-color: #459BBC; }
+
+.intensive-home-based-services .individual-program .program-title {
+  background-color: #ffc05d;
+  color: white; }
+
+.intensive-home-based-services .individual-program .program-subtitle {
+  background-color: #eca957;
+  color: white; }
+
+.intensive-home-based-services .individual-program .fast-facts {
+  background-color: #ff5a38;
+  color: white; }
+  .intensive-home-based-services .individual-program .fast-facts h1 {
+    color: #ffc05d; }
+
+.intensive-home-based-services .individual-program .block-overlap {
+  background-color: #d54131; }
+
+.foster-and-adoptive-families .individual-program .program-title {
+  background-color: #db8ac2;
+  color: white; }
+
+.foster-and-adoptive-families .individual-program .program-subtitle {
+  background-color: #b672a9;
+  color: white; }
+
+.foster-and-adoptive-families .individual-program .fast-facts {
+  background-color: #165376;
+  color: white; }
+  .foster-and-adoptive-families .individual-program .fast-facts h1 {
+    color: #ffc05d; }
+
+.foster-and-adoptive-families .individual-program .block-overlap {
+  background-color: #459BBC; }
 
 #blog .col-4-12 {
   margin-top: 4%; }

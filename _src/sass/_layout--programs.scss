@@ -44,3 +44,113 @@
 		}
 	}
 }
+.transitional-aged-youth {
+	.individual-program {
+		.program-title {
+			background-color: $mint; 
+			color: white;
+		}
+		.program-subtitle {
+			background-color: $mint-light;
+			color: white;
+		}
+		.fast-facts {
+			background-color: $purple-dark;
+			color: white;
+			h1 {
+				color: $mint;
+			}
+		}
+		.block-overlap {
+			background-color: $purple-light;
+		}
+	}
+}
+.family-community {
+	.individual-program {
+		.program-title {
+			background-color: $purple-light;
+			color: white;
+		}
+		.program-subtitle {
+			background-color: $purple-dark;
+			color: white;
+		}
+		.fast-facts {
+			background-color: $mint-light;
+			color: white;
+			h1 {
+				color: $purple-dark;
+			}
+		}
+		.block-overlap {
+			background-color: $mint;
+		}
+	}
+}
+.residential {
+	.individual-program {
+		.program-title {
+			background-color: $orange; 
+			color: white;
+		}
+		.program-subtitle {
+			background-color: $red-dark;
+			color: white;
+		}
+		.fast-facts {
+			background-color: $blue-dark;
+			color: white;
+			h1 {
+				color: $orange;
+			}
+		}
+		.block-overlap {
+			background-color: $blue;
+		}
+	}
+}
+.intensive-home-based-services {
+	.individual-program {
+		.program-title {
+			background-color: $yellow; 
+			color: white;
+		}
+		.program-subtitle {
+			background-color: $yellow-dark;
+			color: white;
+		}
+		.fast-facts {
+			background-color: $orange;
+			color: white;
+			h1 {
+				color: $yellow;
+			}
+		}
+		.block-overlap {
+			background-color: $red-dark;
+		}
+	}
+}
+.foster-and-adoptive-families {
+	.individual-program {
+		.program-title {
+			background-color: $pink-light; 
+			color: white;
+		}
+		.program-subtitle {
+			background-color: #b672a9; //$pink
+			color: white;
+		}
+		.fast-facts {
+			background-color: $blue-dark;
+			color: white;
+			h1 {
+				color: $yellow;
+			}
+		}
+		.block-overlap {
+			background-color: $blue;
+		}
+	}
+}

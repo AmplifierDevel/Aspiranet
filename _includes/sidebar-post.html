@@ -1,12 +1,13 @@
 <div class="col-4-12 push-1-12">
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"date" %}
-
-{% assign currentBlogpost = site.data.contentful.spaces.proddata.blogPost[0] %}
+{{ page.contentful_fields }}
+    {% if page.contentful_fields.author %}
     <div class="color-blue-dark">
         <p class="caps small round">This post</p>
-        <p class="small round">{{ currentBlogpost.date }}</p>
-        <p class="small round">Written by: &nbsp; {{ currentBlogpost.author }}</p>
+        <p class="small round">{{ page.contentful_fields.link.updatedAt.date | date: "%a, %b %d, %Y" }}</p>
+        <p class="small round">Written by: &nbsp; {{ page.contentful_fields.author }}</p>
     </div>
+    {% endif %}
     <div class="color-blue-dark blog-categories">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
@@ -22,7 +23,7 @@
     <div class="color-blue-dark blog-tags">
         <p class="caps small round">Tags</p>
         <ul>
-        {% for tag in currentBlogpost.tags %}
+        {% for tag in page.contentful_fields.tags %}
             <li>
                 <a href="/blog/tag/{{ tag | slugify }}">
                     <span>#</span>{{ tag }}
