@@ -1,6 +1,6 @@
 <div class="col-4-12 push-1-12">
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"date" %}
-{{ page.contentful_fields }}
+
     {% if page.contentful_fields.author %}
     <div class="color-blue-dark">
         <p class="caps small round">This post</p>
