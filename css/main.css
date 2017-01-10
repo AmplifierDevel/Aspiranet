@@ -575,7 +575,8 @@ nav {
     .site-footer .footer-partners li {
       display: inline-block;
       margin-right: 20px;
-      text-align: center; }
+      text-align: center;
+      vertical-align: top; }
       .site-footer .footer-partners li img {
         width: 50px; }
 
@@ -664,7 +665,7 @@ ul li {
   margin: 0 auto; }
 
 .color-purple {
-  color: #78649f; }
+  color: #db8ac2; }
 
 .color-purple-dark {
   color: #6d5593; }
@@ -792,6 +793,43 @@ section.white, div.white, span.white {
 
 #blog-post .blog-body p, #blog-post .blog-body p img {
   width: 100%; }
+
+#blog-post .similar-posts-wrapper ul li {
+  vertical-align: top; }
+
+#blog-post .similar-post {
+  width: 320px;
+  background-color: white;
+  display: inline-block;
+  margin: 0 2.5%;
+  vertical-align: top; }
+  #blog-post .similar-post:last-of-type {
+    margin-right: 0; }
+  #blog-post .similar-post a .similar-post-img {
+    width: 320px;
+    height: 260px; }
+
+#blog-post .similar-post-blurb {
+  padding: 0 10px 10px 10px; }
+  #blog-post .similar-post-blurb p {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis; }
+
+#blog-post .unslider {
+  padding-bottom: 50px; }
+
+#blog-post .unslider-arrow {
+  margin-top: 40px !important; }
+  #blog-post .unslider-arrow.next {
+    right: 126px !important; }
+  #blog-post .unslider-arrow.prev {
+    left: 126px !important; }
+
+#blog-post .btn-back-to-all {
+  text-align: center;
+  margin-top: -10px; }
 
 #map-canvas, #panel {
   height: 500px;
@@ -1110,6 +1148,43 @@ p.attribution, p.attribution a {
 
 #blog-post .blog-body p, #blog-post .blog-body p img {
   width: 100%; }
+
+#blog-post .similar-posts-wrapper ul li {
+  vertical-align: top; }
+
+#blog-post .similar-post {
+  width: 320px;
+  background-color: white;
+  display: inline-block;
+  margin: 0 2.5%;
+  vertical-align: top; }
+  #blog-post .similar-post:last-of-type {
+    margin-right: 0; }
+  #blog-post .similar-post a .similar-post-img {
+    width: 320px;
+    height: 260px; }
+
+#blog-post .similar-post-blurb {
+  padding: 0 10px 10px 10px; }
+  #blog-post .similar-post-blurb p {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis; }
+
+#blog-post .unslider {
+  padding-bottom: 50px; }
+
+#blog-post .unslider-arrow {
+  margin-top: 40px !important; }
+  #blog-post .unslider-arrow.next {
+    right: 126px !important; }
+  #blog-post .unslider-arrow.prev {
+    left: 126px !important; }
+
+#blog-post .btn-back-to-all {
+  text-align: center;
+  margin-top: -10px; }
 
 .contact-form fieldset {
   padding: 0;

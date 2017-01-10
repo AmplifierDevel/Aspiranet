@@ -35,6 +35,17 @@ $(document).ready(function(){
 		delay: 6000
 	});
 
+	$('.similar-posts-wrapper').unslider({
+		arrows: true,
+		autoplay: false,
+		infinite: false,
+		nav: false,
+		arrows: {
+			prev: '<a class="unslider-arrow prev"><p class="small caps round color-orange no-margin-bottom"><-- Previous post</p></a>',
+			next: '<a class="unslider-arrow next"><p class="small caps round color-orange no-margin-bottom">Next post --></p></a>',
+		}
+	});
+	
 	// searching for orphans TODO: make sure it doesn't affect html tags
    // $('p, h3, h4').each(function(){
    //      var string = $(this).html();

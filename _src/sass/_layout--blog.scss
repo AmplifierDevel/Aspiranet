@@ -54,9 +54,7 @@
 	}
 }
 
-
 // Individual post 
-
 #blog-post {
 	.blog-body {
 		h1, h2, h3, h4 {
@@ -65,5 +63,49 @@
 		p, p img {
 			width: 100%;
 		}
+	}
+	.similar-posts-wrapper {
+		ul li {
+			vertical-align: top;
+		}
+	}
+	.similar-post {
+		width: 320px;
+		background-color: white;
+		display: inline-block;
+		margin: 0 2.5%;
+		vertical-align: top;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		a .similar-post-img {
+			width: 320px;
+			height: 260px;
+		}
+	}
+	.similar-post-blurb {
+		padding: 0 10px 10px 10px;
+		p {
+			white-space: nowrap;
+		    overflow: hidden;
+		    display: block;
+		    text-overflow: ellipsis;
+		}
+	}
+	.unslider {
+		padding-bottom: 50px;
+	}
+	.unslider-arrow {
+    	margin-top: 40px !important;
+    	&.next {
+    		right: 126px !important;
+    	}
+    	&.prev {
+			left: 126px !important;
+    	}
+	}
+	.btn-back-to-all {
+		text-align: center;
+		margin-top: -10px;
 	}
 }

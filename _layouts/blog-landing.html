@@ -24,7 +24,7 @@ layout: default
                         {% endfor %}
                     </ul>
                     <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
-                    <p>{{ blogpost.postBody | truncatewords:20 | markdownify }}</p>
+                    <p>{{ blogpost.postBody | truncatewords:75 | markdownify }}</p>
                 </div>
                 {% include blog-buttons.html %}
             </div> 
