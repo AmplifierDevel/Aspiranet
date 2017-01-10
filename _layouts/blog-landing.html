@@ -2,12 +2,34 @@
 layout: default
 ---
 
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+
 <div id="blog" class="grey">
-    <div class="grid">
+    <!-- TODO:make sure there is only one post, on backend or here/ Photos look/if there is no photo?-->
+        <div class="featured-post"> 
+        {% for blogpost in sorted_news %}
+            {% if blogpost.featuredOnBlog == true %}
+                {% if blogpost.heroImage %}
+                    <a href="/blog/{{ blogpost.url }}">
+                        <div class="featured-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
+                            <div class="featured-post-copy push-right">
+                                <p class="small caps round">Aspiranet blog</p>
+                                <h1 class="color-blue no-margin-top">Esperanza</h1>
+                                <p class="small caps round">{{ blogpost.category }}</p>
+                                <h4 class="round no-margin-top">{{ blogpost.title }}</h4> 
+                                <p>{{ blogpost.postBody | truncatewords: 25 | markdownify }}</p>
+                                <p class="button"><a class="orange" href="/blog/{{ blogpost.url }}">Read the full story</a></p>
+                            </div>
+                       </div>
+                        
+                    </a>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        </div>
+        <div class="grid">
         <div class="col-7-12">
             <ul>
-        {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
-
             {% for blogpost in sorted_news %}
                 
 			<li class="post">
