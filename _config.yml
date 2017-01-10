@@ -28,9 +28,10 @@ contentful:
   content_types:
    - "blogPost"
    - "campain"
-   - "divisionHeads"
+   - "divisionHeads" 
    - "programs"
    - "seniorExecutive"
+   - "programHosted"
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID
@@ -44,6 +45,7 @@ contentful:
           cat: divisionHeads
           cat: programs
           cat: seniorExecutive
+          cat: programHosted
           cat: rootWebsite
         client_options:
           api_url: ASPIRANET_CONTENTFUL_API_URL
