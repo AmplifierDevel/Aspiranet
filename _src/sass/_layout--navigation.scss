@@ -164,8 +164,9 @@ nav {
 	  	.button {
 	  		display: none;
 	  	}
-	  	.nav-programs .active {
+	  	.nav-programs a {
 	  		background-color: white !important;
+	  		border: none !important;
 	  	}
     }
 }

@@ -864,8 +864,9 @@ nav {
         padding: 20px; }
     nav ul .button {
       display: none; }
-    nav ul .nav-programs .active {
-      background-color: white !important; } }
+    nav ul .nav-programs a {
+      background-color: white !important;
+      border: none !important; } }
 
 .site-footer {
   color: #fff; }
