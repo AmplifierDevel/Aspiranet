@@ -1128,7 +1128,7 @@ blogPost:
   heroImage:
     title: Veronica
     url: //images.contentful.com/e5ehlcazegi0/GOpsH36sc88eqmO4UIGEG/a5edca5a551499b88e0c591508152e66/veronicapic4.jpg
-  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-06 01:00:00.000000000 +01:00
   postBody: "<a href=\"https://youtu.be/7Kdyn_F_HSs\" class=\"embedly-card\" data-card-width=\"100%\"
     data-card-controls=\"1\">Embedded content: https://youtu.be/7Kdyn_F_HSs</a>\nVeronica
     Morales, a housing specialist with Aspiranet’s Transitional Aged Youth programs,
@@ -1218,7 +1218,7 @@ blogPost:
   heroImage:
     title: family
     url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-05 01:00:00.000000000 +01:00
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -1263,9 +1263,9 @@ blogPost:
     courage to break cycles, and we’re talking generational cycles.”\n"
   category: Intensive Home-Based Services
   tags:
-  - 'Family '
   - Reunification
   - Staff
+  - Family
 - sys:
     id: 1EtXFuUmJOyO6k44K86cSO
   title: Fostering Love
