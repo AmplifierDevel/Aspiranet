@@ -298,7 +298,8 @@ body {
       padding-right: 0; } }
 
 .button {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
   .button a {
     padding: 13px 36px;
     border-radius: 5px;
@@ -1082,6 +1083,9 @@ section.white, div.white, span.white {
 
 .no-padding-top {
   padding-top: 0 !important; }
+
+.hidden {
+  display: none; }
 
 .stats-front {
   float: right;

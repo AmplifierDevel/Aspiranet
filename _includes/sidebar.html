@@ -9,7 +9,7 @@
             {% capture category_list %}
                 {% for blogpost in sorted_news %}
                     {% for category in blogpost.category %}
-                        {{ category }}{% if forloop.last == false %}|{% endif %}
+                        {{ category }}|
                     {% endfor %}
                 {% endfor %}
             {% endcapture %}
@@ -24,19 +24,13 @@
     <div class="color-blue-dark blog-tags">
         <p class="caps small round">Tags</p>
         <ul>
-        {% capture tag_list %}
-            {% for blogpost in sorted_news %}
-                {% for tag in blogpost.tags %}
-                    {{ tag }}{% if forloop.last == false %}|{% endif %}
-                {% endfor %}
-            {% endfor %}
-        {% endcapture %}
-        {% assign tag_array = tag_list | split: "|" | uniq %}
+        <!-- capture needs to be on one line, if not it generates spaces that mess up the split -->
+        {% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.tags %}|{{tag}}{% endfor %}{% endfor %}{% endcapture %}
+        {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
             {% for tag in tag_array %}
-            
             <li>
                 <a href="/blog/tag/{{ tag | slugify }}">
-                    <span>#</span>{{ tag }}
+                    <span>#</span>{{ tag }} 
                 </a>
             </li>
 

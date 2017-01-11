@@ -1,0 +1,52 @@
+<div class="hold"></div>
+<p class="button no-margin-top no-margin-bottom"><a id="btnLoadMore" class="orange">Load More</a></p> 
+
+<script type="text/javascript">
+	var blogContent = [
+	{% for blogpost in sorted_news %}
+		{
+    	"heroImage": `{{blogpost.heroImage.url}}`,
+    	"heroImageTitle": `{{blogpost.heroImage.title}}`,
+        "category": `{% for category in blogpost.category %}{{ category }}{% endfor %}`,
+        "url": `/blog/{{blogpost.url}}`,
+        "title": `{{blogpost.title}}`,
+        "postBody": `{{blogpost.postBody | truncatewords:75 | markdownify}}`
+		},
+	{% endfor %}
+	];
+
+jQuery(function ($) {
+    $.each(blogContent, function (i, post) {
+    	if (i == 0 || i == 1) { return true }
+        var list = `
+        	<li class="post hidden">
+	            <div class="white">
+	                <a href="` + post.url + `">
+	                    <div class="img-post" style="background-image: url('` + post.heroImage + `');" alt="` + post.heroImageTitle + `"></div>
+	                </a>
+	                <div class="blog-excerpt">
+	                    <ul>
+	                        <li><p class="caps small">` + post.category + `</p></li>
+	                    </ul>
+	                    <a href="` + post.url + `"><h4 class="round color-blue">` + post.title + `</h4></a>
+	                    <p>` + post.postBody + `</p>
+	                </div>
+	                {% include blog-buttons.html %}
+	            </div> 
+			</li>
+        `;
+        $('.hold').append(list);
+    });
+    
+    function loadMore(){
+        $(".hold .hidden").slice(0,2).removeClass("hidden");
+
+        // if all posts are visible, hide the loadMore button
+        if ($('.post:hidden').length === 0) { $("#btnLoadMore").hide();}
+    }
+    
+    loadMore();
+    
+    $("#btnLoadMore").on("click",loadMore);
+});
+</script>
