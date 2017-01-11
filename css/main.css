@@ -710,7 +710,8 @@ p.round {
   font-size: 18px; }
 
 p.small {
-  font-size: 12px; }
+  font-size: 12px;
+  letter-spacing: 1.4px; }
 
 a {
   color: #165376;
@@ -1048,6 +1049,9 @@ section.blue-dark, div.blue-dark, span.blue-dark {
   background-color: #165376;
   color: #fff; }
 
+section.blue-marin, div.blue-marin, span.blue-marin {
+  background-color: #107395; }
+
 section.orange, div.orange, span.orange {
   background-color: #ff5a38;
   color: #fff; }
@@ -1354,15 +1358,23 @@ p.attribution, p.attribution a {
 
 .programs-nav {
   padding: 20px 0; }
+  .programs-nav .col-1-6 {
+    width: 15%; }
 
 .program-blurb .button a {
   padding: 0; }
 
 .program-blurb .white {
-  padding: 3px 24px; }
+  padding: 3px 33px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
 
-.program-blurb h4 {
-  padding: 20px;
+.program-blurb .pink {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+
+.program-blurb h3 {
+  padding: 33px;
   margin: 0; }
 
 .program-img:not(:nth-of-type(2)) {
