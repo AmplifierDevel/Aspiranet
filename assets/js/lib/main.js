@@ -46,6 +46,13 @@ $(document).ready(function(){
 		}
 	});
 	
+	// Nav menu toggle 
+
+   $('.menu-icon').on('click', function(e) {
+        $('.trigger').toggleClass('hoverTouch').css('background-color', 'white');
+        $('.menu-icon').toggleClass("icon-active");
+    });
+
 	// searching for orphans TODO: make sure it doesn't affect html tags
    // $('p, h3, h4').each(function(){
    //      var string = $(this).html();

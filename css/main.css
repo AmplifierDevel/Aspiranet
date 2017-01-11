@@ -467,7 +467,7 @@ nav {
         display: inline-block; }
         nav ul li a:hover p {
           color: #165376; }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 901px) {
           nav ul li a.active:before {
             content: '';
             top: -33px;
@@ -518,6 +518,57 @@ nav {
     font-family: "TTRounds", Helvetica, sans-serif; }
     .programs-submenu ul li a p:first-of-type {
       margin-top: 0; }
+
+@media handheld, only screen and (max-width: 900px) {
+  .programs-submenu {
+    display: none !important; }
+  .site-nav {
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    margin-top: 0;
+    background-color: transparent; }
+  .site-nav .menu-icon {
+    display: block;
+    font-size: 24px;
+    color: #165376;
+    float: right;
+    width: 72px;
+    padding: 30px;
+    text-align: center;
+    line-height: 36px; }
+  .menu-icon.icon-active {
+    background-color: white;
+    padding: 30px; }
+    .menu-icon.icon-active svg {
+      fill: #459BBC; }
+  .site-nav .menu-icon svg {
+    width: 18px;
+    height: 16px; }
+  .site-nav .trigger {
+    clear: both;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: none; }
+  .hoverTouch {
+    display: block !important; }
+  .site-nav .page-link {
+    display: block;
+    text-align: left;
+    line-height: 1.25;
+    padding: 5px 65px 5px 10px;
+    margin: 0; }
+  nav ul {
+    padding: 0; }
+    nav ul li {
+      display: block; }
+      nav ul li a {
+        padding: 20px; }
+    nav ul .button {
+      display: none; }
+    nav ul .nav-programs .active {
+      background-color: white !important; } }
 
 .site-footer {
   color: #fff; }
