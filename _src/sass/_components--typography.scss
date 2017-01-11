@@ -57,6 +57,11 @@ p.small {
 a {
 	color: $blue-dark;
 	text-decoration: none;
+	p {
+		&.color-blue:hover {
+			color: $blue-hover;
+		}
+	}
 }
 h1,h2,h3,h4,h5,h6,p,li,a {
 	&.blue {color:$blue;}

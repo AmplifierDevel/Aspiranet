@@ -64,6 +64,19 @@
 			font-family: $stack-sans-serif;
 		}
 
+		:focus::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		   	opacity: 0.3;
+		}
+		:focus::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		  	opacity: 0.3;
+		}
+		:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   	opacity: 0.3;
+		}
+		:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   	opacity: 0.3;
+		}
+
 	}
 	.footer-partners {
 		text-align: center;
