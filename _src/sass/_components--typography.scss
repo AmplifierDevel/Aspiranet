@@ -23,6 +23,9 @@ h4.round {
 	font-family: $stack-sans-serif;
 	font-size: 22px; //24px
 }
+h4.italic, p.italic {
+	font-style: italic;
+}
 h3 {
 	font-family: $stack-sans-serif;
 	font-weight: 400;
