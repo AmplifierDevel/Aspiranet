@@ -1,7 +1,6 @@
 #!/bin/sh
 
 echo '### Fetching Twitter ###'
-echo $TWITTER_API
 _scripts/last_tweet.sh $TWITTER_API $TWITTER_SECRET Aspiranet
 cat _data/tweet.json
 echo '### DONE ###'
