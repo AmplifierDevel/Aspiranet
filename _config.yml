@@ -32,6 +32,7 @@ contentful:
    - "programs"
    - "seniorExecutive"
    - "programHosted"
+   - "category"
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID

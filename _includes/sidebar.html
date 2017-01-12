@@ -16,7 +16,7 @@
             {% assign category_array = category_list | split: "|" | uniq %}
                 {% for category in category_array %}
                     {% assign currentCategory = category %}
-                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | slugify }}/"><p class="{% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
+                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/category/{{ category | slugify }}/"><p class="{% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
                 {% endfor %}
 
         </ul>
