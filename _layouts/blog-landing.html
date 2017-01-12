@@ -28,7 +28,7 @@ layout: default
         {% endfor %}
         </div>
         <div class="grid">
-        <div class="col-7-12">
+        <div class="col-8-12">
             <ul>
             {% for blogpost in sorted_news | limit:2 %}
 			<li class="post">
@@ -44,7 +44,7 @@ layout: default
                         <li><p class="caps small">{{ category }}</p></li>
                         {% endfor %}
                     </ul>
-                    <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue">{{ blogpost.title }}</h4></a>
+                    <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue no-margin-top">{{ blogpost.title }}</h4></a>
                     <p>{{ blogpost.postBody | truncatewords:75 | markdownify }}</p>
                 </div>
                 {% include blog-buttons.html %}

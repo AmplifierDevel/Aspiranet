@@ -1,11 +1,11 @@
-<div class="col-4-12 push-1-12">
+<div class="col-4-12">
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"date" %}
 
     <div class="color-blue-dark blog-categories">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
         
-            <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="round small {% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
+            <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="{% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
             {% capture category_list %}
                 {% for blogpost in sorted_news %}
                     {% for category in blogpost.category %}
@@ -16,7 +16,7 @@
             {% assign category_array = category_list | split: "|" | uniq %}
                 {% for category in category_array %}
                     {% assign currentCategory = category %}
-                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | slugify }}/"><p class="round small {% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
+                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | slugify }}/"><p class="{% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
                 {% endfor %}
 
         </ul>
@@ -30,7 +30,7 @@
             {% for tag in tag_array %}
             <li>
                 <a href="/blog/tag/{{ tag | slugify }}">
-                    <span>#</span>{{ tag }} 
+                    <p><span>#</span>{{ tag }}</p>
                 </a>
             </li>
 

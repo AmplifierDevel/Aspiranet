@@ -5,7 +5,7 @@
 		background-position: left center;
 	}
 	.featured-post-copy {
-		width: 40%;
+		width: 37%;
 	    background: rgba(255,255,255,0.7);
 	    height: 100%;
 	    padding: 3%;
@@ -13,9 +13,16 @@
 	.col-4-12 {
 		margin-top: 4%;
 	}
-	.social-icons li {
-		display: inline-block;
-		margin: 0 8%;
+	.social-icons {
+		border-left: 1px solid $grey-dark; 
+		li {
+			display: inline-block;
+			margin: 0 8%;
+			a img {
+				width: 35px;
+				margin-top: 4px;
+			}
+		}
 	}
 	.img-post {
 		width: 100%;
@@ -30,37 +37,61 @@
 			padding: 0 1.5em;
 			ul {
 				padding: 0;
+				li p {
+					margin-top: 0;
+    				padding-top: 30px;
+				}
 			}
 		}
 	}
 	.buttons-box {
 		padding: 1em 1.5em;
 		border-top: 1px solid $grey-dark;
+		.button a {
+			width: 200px;
+		}
 	}
 }
 
 .category-active {
     border-left: 3px solid $blue;
-    margin-left: -2px;
+    margin-left: -1.5em;
+    padding-left: 1.4em;
 }
 
 #blog, #blog-post {
 	.col-4-12 {
-		border-left: 1px solid $grey-dark;
-		p, ul {
-			padding-left: 1.4em;
-		}
 		.blog-tags  {
+			border-left: 1px solid $grey-dark;
 			margin-top: 2em;
-			ul li {
-				display: inline-block;
-				border: 1px solid $blue-dark;
-	    		padding: 0.7em;
-	    		margin: 0.4em 0.4em 0.4em 0;
+			padding-left: 1.4em;
+			p {
+				color: $grey-darkest;
+			}
+			ul {
+				padding-left: 0;
+				li {
+					display: inline-block;
+					border: 1px solid $grey-dark;
+		    		padding: 0.5em;
+		    		margin: 0.4em 0.4em 0.4em 0;
+		    		a p {
+		    			padding-left: 0;
+		    			margin: 0;
+		    			color: $blue-dark;
+		    		}
+		    	}
     		}
 		}
 		.blog-categories {
-			margin-top: 2em;
+			border-left: 1px solid $grey-dark;
+			padding-left: 1.4em;
+			p {
+				color: $grey-darkest;
+			}
+			ul li p {
+				color: $blue-dark;
+			}
 		}
 	}
 }
@@ -89,7 +120,7 @@
 		&:last-of-type {
 			margin-right: 0;
 		}
-		a .similar-post-img {
+		a.similar-post-img {
 			width: 320px;
 			height: 260px;
 		}
