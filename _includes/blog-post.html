@@ -1,0 +1,21 @@
+<li class="post">
+    <div class="white">
+        {% if blogpost.heroImage %}
+        <a href="/blog/{{ blogpost.url }}">
+            <div class="img-post" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}"></div>
+        </a>
+        {% endif %}
+        <div class="blog-excerpt">
+            <ul>
+                {% for category in blogpost.category %}
+                <li><p class="caps small">{{ category }}</p></li>
+                {% endfor %}
+            </ul>
+            <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue no-margin-top">{{ blogpost.title }}</h4></a>
+            <p>{{ blogpost.postBody | truncatewords:75 | markdownify }}</p>
+        </div>
+
+        {% include blog-buttons.html %}
+
+    </div> 
+</li>

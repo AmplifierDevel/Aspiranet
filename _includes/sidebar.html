@@ -1,22 +1,13 @@
 <div class="col-4-12">
-{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"date" %}
+{% assign blogCategory = site.data.contentful.spaces.proddata.blogCategory | sort: "name" %}
 
     <div class="color-blue-dark blog-categories">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
         
             <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="{% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
-            {% capture category_list %}
-                {% for blogpost in sorted_news %}
-                    {% for category in blogpost.category %}
-                        {{ category }}|
-                    {% endfor %}
-                {% endfor %}
-            {% endcapture %}
-            {% assign category_array = category_list | split: "|" | uniq %}
-                {% for category in category_array %}
-                    {% assign currentCategory = category %}
-                        <li {% if page.category == currentCategory %} class='category-active' {% endif %}><a href="/category/{{ category | slugify }}/"><p class="{% if page.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
+                {% for category in blogCategory %}
+                        <li {% if page.title == category.name %} class='category-active' {% endif %}><a href="/blog-category/{{ category.name | slugify }}/"><p class="{% if page.title == category.name %} color-blue {% endif %}">{{ category.name }}</p></a></li>
                 {% endfor %}
 
         </ul>
@@ -25,11 +16,11 @@
         <p class="caps small round">Tags</p>
         <ul>
         <!-- capture needs to be on one line, if not it generates spaces that mess up the split -->
-        {% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.tags %}|{{tag}}{% endfor %}{% endfor %}{% endcapture %}
+        {% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
         {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
             {% for tag in tag_array %}
             <li>
-                <a href="/blog/tag/{{ tag | slugify }}">
+                <a href="/blog-tag/{{ tag | slugify }}">
                     <p><span>#</span>{{ tag }}</p>
                 </a>
             </li>

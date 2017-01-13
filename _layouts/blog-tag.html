@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+
+<div id="blog" class="grey">
+
+        <div class="grid">
+
+        <div class="col-8-12">
+            <ul>
+            <p class="caps small round">Tag: {{page.title}}</p>
+            {% for blogpost in sorted_news %}
+                {% for tag in blogpost.blogTag %}
+                    {% if tag.name == page.title %}
+                        {% include blog-post.html %}
+                    {% endif %}
+
+                {% endfor %}
+            {% endfor %}
+
+            </ul>
+        </div>
+
+        {% include sidebar.html %}
+
+    </div>
+</div>
+
+
+    
+  
+
+
+  

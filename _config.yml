@@ -32,7 +32,8 @@ contentful:
    - "programs"
    - "seniorExecutive"
    - "programHosted"
-   - "category"
+   - "blogCategory"
+   - "blogTag"
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID
