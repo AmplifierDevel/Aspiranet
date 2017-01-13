@@ -1,18 +1,7 @@
 ---
 layout: default
 ---
-<!-- MODAL -->
-<div class="remodal" data-remodal-id="modal">
-  <button data-remodal-action="close" class="remodal-close"></button>
-  <h1>Remodal</h1>
-  <p>
-    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
-  </p>
-  <br>
-  <button data-remodal-action="cancel" class="remodal-cancel">No Thank You</button>
-  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-</div>
-<!-- END MODAL -->
+{% include modal.html %}
 
 {% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
 <div class="campaign-slider">
@@ -27,10 +16,10 @@ layout: default
 				{% if campaign.ctaButtonCopy %}
 				<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
 				{% endif %}
-			</section>
+			</section> 
 		</li>
 	{% endfor %}
-	</ul> 
+	</ul>  
 </div>
 <section class="blue text-center">
 	<div class="grid">

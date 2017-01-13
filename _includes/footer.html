@@ -21,7 +21,7 @@
 				<a href="/donate" class="button orange">Donate</a>
 			</p>
 			</div>
-			
+			  
 			<div class="col-1-4 text-center">
 				<p class="small caps"><strong>Programs</strong></p>
 				<ul>
@@ -63,6 +63,7 @@
 	</div>
 </footer>
 <script src="/assets/js/lib/unslider-min.js"></script>
-<script src="/assets/js/lib/remodal.min.js"></script>
 <script src="/assets/js/lib/main.js"></script>
+
+{% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
 

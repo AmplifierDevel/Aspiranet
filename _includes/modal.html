@@ -1,0 +1,11 @@
+{% assign Modals = site.data.contentful.spaces.proddata.popup | reverse %}
+{% if Modals.size > 0 %}
+	<div class="remodal" data-remodal-id="modal">
+	  <button data-remodal-action="close" class="remodal-close"></button>
+	  	<h1>{{Modals[0].title}}</h1>
+	  	<p>{{Modals[0].content | markdownify}}</p>
+	  	<br> 
+	  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+	  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+	</div>
+{% endif %} 
