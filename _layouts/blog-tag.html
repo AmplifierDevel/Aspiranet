@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
-
+{% assign hasResults = false %}
 <div id="blog" class="grey">
 
         <div class="grid">
@@ -11,14 +11,20 @@ layout: default
         <div class="col-8-12">
             <ul>
             <p class="caps small round">Tag: {{page.title}}</p>
+
             {% for blogpost in sorted_news %}
                 {% for tag in blogpost.blogTag %}
                     {% if tag.name == page.title %}
+                        {% assign hasResults = true %}
                         {% include blog-post.html %}
                     {% endif %}
 
                 {% endfor %}
             {% endfor %}
+
+            {% if hasResults == false %}
+            <p>No posts found with that tag.</p>
+            {% endif %}
 
             </ul>
         </div>
