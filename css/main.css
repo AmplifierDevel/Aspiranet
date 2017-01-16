@@ -1136,12 +1136,11 @@ section.white, div.white, span.white {
   background-position: left center; }
 
 #blog .featured-post-copy {
-  width: 37%;
   background: rgba(255, 255, 255, 0.7);
   height: 100%;
   padding: 3%; }
 
-#blog .col-4-12 {
+#blog .grid .col-4-12 {
   margin-top: 4%; }
 
 #blog .social-icons {
@@ -1157,11 +1156,14 @@ section.white, div.white, span.white {
   width: 100%;
   height: 390px;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
 
 #blog .post {
   border: 1px solid #ecebeb;
-  margin: 8% 0; }
+  margin: 8% 0;
+  border-radius: 4px; }
   #blog .post .blog-excerpt {
     padding: 0 1.5em; }
     #blog .post .blog-excerpt ul {
@@ -1169,10 +1171,14 @@ section.white, div.white, span.white {
       #blog .post .blog-excerpt ul li p {
         margin-top: 0;
         padding-top: 30px; }
+  #blog .post .white {
+    border-radius: 4px; }
 
 #blog .buttons-box {
   padding: 1em 1.5em;
-  border-top: 1px solid #ecebeb; }
+  border-top: 1px solid #ecebeb;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
   #blog .buttons-box .button a {
     width: 200px; }
 
@@ -1531,12 +1537,11 @@ p.attribution, p.attribution a {
   background-position: left center; }
 
 #blog .featured-post-copy {
-  width: 37%;
   background: rgba(255, 255, 255, 0.7);
   height: 100%;
   padding: 3%; }
 
-#blog .col-4-12 {
+#blog .grid .col-4-12 {
   margin-top: 4%; }
 
 #blog .social-icons {
@@ -1552,11 +1557,14 @@ p.attribution, p.attribution a {
   width: 100%;
   height: 390px;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
 
 #blog .post {
   border: 1px solid #ecebeb;
-  margin: 8% 0; }
+  margin: 8% 0;
+  border-radius: 4px; }
   #blog .post .blog-excerpt {
     padding: 0 1.5em; }
     #blog .post .blog-excerpt ul {
@@ -1564,10 +1572,14 @@ p.attribution, p.attribution a {
       #blog .post .blog-excerpt ul li p {
         margin-top: 0;
         padding-top: 30px; }
+  #blog .post .white {
+    border-radius: 4px; }
 
 #blog .buttons-box {
   padding: 1em 1.5em;
-  border-top: 1px solid #ecebeb; }
+  border-top: 1px solid #ecebeb;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
   #blog .buttons-box .button a {
     width: 200px; }
 
@@ -1645,7 +1657,8 @@ p.attribution, p.attribution a {
 
 .contact-form input[type='text'], .contact-form input[type='email'], .contact-form textarea {
   font-family: "KlinicSlab", Times, serif;
-  font-size: 16px; }
+  font-size: 16px;
+  letter-spacing: 0; }
 
 .contact-form fieldset {
   padding: 0;
