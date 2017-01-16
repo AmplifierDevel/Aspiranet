@@ -1,7 +1,7 @@
 <div class="col-4-12">
 {% assign blogCategory = site.data.contentful.spaces.proddata.blogCategory | sort: "name" %}
 
-    <div class="color-blue-dark blog-categories">
+    <div class="color-blue-dark blog-categories border-left">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
         
@@ -12,7 +12,7 @@
 
         </ul>
     </div>
-    <div class="color-blue-dark blog-tags">
+    <div class="color-blue-dark blog-tags border-left">
         <p class="caps small round">Tags</p>
         <ul>
         <!-- capture needs to be on one line, if not it generates spaces that mess up the split -->

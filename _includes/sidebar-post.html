@@ -8,7 +8,7 @@
         <p class="small round">Written by: &nbsp; {{ page.contentful_fields.author }}</p>
     </div>
     {% endif %}
-    <div class="color-blue-dark blog-categories">
+    <div class="color-blue-dark blog-categories border-left">
         <p class="caps small round">Categories</p>
         <ul class="no-padding">
             <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="{% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
@@ -20,7 +20,7 @@
             {% endfor %}
         </ul>
     </div>
-    <div class="color-blue-dark blog-tags">
+    <div class="color-blue-dark blog-tags border-left">
         <p class="caps small round">Tags</p>
         <ul>
         {% for tag in page.contentful_fields.tags %}

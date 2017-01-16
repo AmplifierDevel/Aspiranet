@@ -42,8 +42,9 @@
               <ul>
                 {% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
                   {% for program in sorted_programs %}
-                    
-                    <li><a href="#"><p class="{% cycle 'blue', 'orange', 'pink', 'yellow', 'color-purple-light', 'green', 'color-purple-dark' %}">{{program.title}} &#62;</p></a></li>
+
+                    <li><a href="{{ site.baseurl }}/programs/{{ program.title 
+                    | slugify }}"><p class="{% cycle 'blue', 'orange', 'pink', 'yellow', 'color-purple-light', 'green', 'color-purple-dark' %}">{{program.title}} &#62;</p></a></li>
 
                   {% endfor %}
               </ul>
