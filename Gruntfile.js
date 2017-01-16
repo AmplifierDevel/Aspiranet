@@ -26,5 +26,5 @@ grunt.initConfig(config);
 require('load-grunt-tasks')(grunt);
 
 // Custom tasks
-grunt.registerTask('default', ['shell:commentContentful', 'shell:jekyllBuild', 'shell:uncommentContentful', 'browserSync', 'watch']);
+grunt.registerTask('default', ['shell:downloadLatestTweet', 'shell:interpolateEnvVariables', 'shell:jekyllBuildContentful', 'shell:removeAPIKeys', 'browserSync', 'watch']);
 };
