@@ -1,0 +1,23 @@
+.box-amount {
+	border:1px solid #999;
+	padding:0 20px;
+	display: inline-block;
+	cursor:pointer;
+	@include transition(.2s);
+	&.active {
+		border: 2px solid $blue;
+		font-weight: bold;
+		color: $blue;
+	}
+	&:hover {
+		color: $blue;
+	}
+}
+
+.stripe-button-el {
+	cursor: pointer;
+	&:hover {
+		color: $blue;
+		@include transition(.2s);
+	}
+}

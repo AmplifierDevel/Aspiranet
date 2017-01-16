@@ -369,6 +369,25 @@ input[type=email], input[type=text] {
   border-radius: 4px;
   padding: 10px 20px; }
 
+.box-amount {
+  border: 1px solid #999;
+  padding: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease-out; }
+  .box-amount.active {
+    border: 2px solid #459BBC;
+    font-weight: bold;
+    color: #459BBC; }
+  .box-amount:hover {
+    color: #459BBC; }
+
+.stripe-button-el {
+  cursor: pointer; }
+  .stripe-button-el:hover {
+    color: #459BBC;
+    transition: all 0.2s ease-out; }
+
 /*
  *  Remodal - v1.1.0
  *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
