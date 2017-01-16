@@ -62,8 +62,9 @@
 		</div>
 	</div>
 </footer>
-<script src="/assets/js/lib/unslider-min.js"></script>
-<script src="/assets/js/lib/main.js"></script>
+
 
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
+{% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
 
+<script src="/assets/js/lib/main.js"></script>

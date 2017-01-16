@@ -1,0 +1,40 @@
+<script src="https://checkout.stripe.com/checkout.js">
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('.box-amount').click(function(e){
+		e.preventDefault();
+		$('.box-amount').removeClass('active');
+		$(this).addClass('active');
+	});
+
+	var handler = StripeCheckout.configure({
+	  key: 'pk_test_lt2EXT7bB7PQyySjYF6nh4i3',
+	  image: '/mstile-70x70.png',
+	  locale: 'auto'
+	});
+
+	$('.stripe-button-el').click(function(){
+		// get the current selected amount
+		var amount = $('.box-amount.active').data('amount');
+
+	  	var token = function(res){
+		    var $id = $('<input type=hidden name=stripeToken />').val(res.id);
+		    var $email = $('<input type=hidden name=stripeEmail />').val(res.email);
+		    $('form').append($id).append($email).submit();
+		  };
+
+	  handler.open({
+	    amount:      amount,
+	    name:        'Donate to Aspiranet',
+	    description: 'Empower Children and Families',
+	    panelLabel:  'Donate',
+	    token:       token
+	  });
+
+	  return false;
+	});
+});
+
+</script>
