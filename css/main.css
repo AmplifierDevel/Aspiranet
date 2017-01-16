@@ -1644,7 +1644,8 @@ p.attribution, p.attribution a {
   margin-top: -10px; }
 
 .contact-form input[type='text'], .contact-form input[type='email'], .contact-form textarea {
-  font-family: "KlinicSlab", Times, serif; }
+  font-family: "KlinicSlab", Times, serif;
+  font-size: 16px; }
 
 .contact-form fieldset {
   padding: 0;
@@ -1652,20 +1653,28 @@ p.attribution, p.attribution a {
   border: none; }
   .contact-form fieldset ::-webkit-input-placeholder {
     color: #bebebe;
-    font-size: 15px;
-    font-weight: 400; }
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: "KlinicSlab", Times, serif; }
   .contact-form fieldset ::-moz-placeholder {
     color: #bebebe;
-    font-size: 15px;
-    font-weight: 400; }
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: "KlinicSlab", Times, serif; }
   .contact-form fieldset :-ms-input-placeholder {
     color: #bebebe;
-    font-size: 15px;
-    font-weight: 400; }
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: "KlinicSlab", Times, serif; }
   .contact-form fieldset :-moz-placeholder {
     color: #bebebe;
-    font-size: 15px;
-    font-weight: 400; }
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: "KlinicSlab", Times, serif; }
   .contact-form fieldset :focus::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     opacity: 0.3; }
