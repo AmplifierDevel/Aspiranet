@@ -1563,6 +1563,52 @@ p.attribution, p.attribution a {
 .foster-and-adoptive-families .individual-program .block-overlap {
   background-color: #459BBC; }
 
+.foster-and-adoptive-families .individual-program #tab-1 .grid, .foster-and-adoptive-families .individual-program #tab-2 .grid {
+  margin-top: -8em;
+  position: relative; }
+  .foster-and-adoptive-families .individual-program #tab-1 .grid .col-8-12, .foster-and-adoptive-families .individual-program #tab-2 .grid .col-8-12 {
+    margin-top: 8em;
+    position: relative; }
+
+.foster-and-adoptive-families .individual-program .links-box {
+  padding: 35px;
+  border-radius: 4px;
+  margin-bottom: 3em; }
+  .foster-and-adoptive-families .individual-program .links-box ul {
+    padding: 0; }
+    .foster-and-adoptive-families .individual-program .links-box ul a p {
+      margin: 10px 0; }
+  .foster-and-adoptive-families .individual-program .links-box .social-icons {
+    margin-top: 2em; }
+  .foster-and-adoptive-families .individual-program .links-box hr {
+    border-top: 1px solid white; }
+
+.foster-and-adoptive-families .individual-program .tabs {
+  padding-left: 0;
+  position: relative;
+  z-index: 99; }
+  .foster-and-adoptive-families .individual-program .tabs li {
+    display: inline-block;
+    margin-right: 2em; }
+    .foster-and-adoptive-families .individual-program .tabs li a {
+      color: #bebebe; }
+      .foster-and-adoptive-families .individual-program .tabs li a.active {
+        color: #459BBC; }
+        .foster-and-adoptive-families .individual-program .tabs li a.active:before {
+          content: '';
+          top: 50px;
+          height: 5px;
+          border-radius: 3px;
+          display: block;
+          position: relative;
+          width: 0%;
+          background-color: #459BBC;
+          animation-name: grow-x;
+          animation-duration: 0.3s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease;
+          animation-delay: 0.5s; }
+
 #blog .featured-post-img {
   width: 100%;
   height: 500px;

@@ -168,5 +168,62 @@
 		.block-overlap {
 			background-color: $blue;
 		}
+		#tab-1, #tab-2 {
+			.grid {
+				margin-top: -8em;
+				position: relative;
+				.col-8-12 {
+					margin-top: 8em;
+					position: relative;
+				}
+			}
+		}
+		.links-box {
+			padding: 35px;
+			border-radius: 4px;
+			margin-bottom: 3em;
+			ul {
+				padding: 0;
+				a p {
+					margin: 10px 0;
+				}
+			}
+			.social-icons {
+				margin-top: 2em;
+			}
+			hr {
+				border-top: 1px solid white;
+			}
+		}
+		.tabs {
+			padding-left: 0;
+			position: relative;
+    		z-index: 99;
+			li {
+				display: inline-block;
+				margin-right: 2em;
+				a {
+					color: $grey-darkest;
+					&.active {
+						color: $blue;
+		                &:before {
+		                	content: '';
+		                    top: 50px;
+							height: 5px;
+							border-radius: 3px;
+		                    display: block;
+		                    position: relative;
+		                    width: 0%;
+		                    background-color: $blue;
+		                    animation-name: grow-x;
+		                    animation-duration: 0.3s;
+		                    animation-fill-mode: forwards;
+		                    animation-timing-function: ease;
+		                    animation-delay: 0.5s
+		                }
+					}
+				}
+			}
+		}
 	}
-}
+}	
