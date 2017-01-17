@@ -14,7 +14,14 @@ layout: default
 					<input class="form-name" placeholder="First name" onfocus="this.placeholder = 'First name'" onblur="this.placeholder = 'First name'"  type="text" tabindex="1" required autofocus>
 					<input class="form-name" placeholder="Last name" onfocus="this.placeholder = 'Last name'" onblur="this.placeholder = 'Last name'"  type="text" tabindex="2" required autofocus>
 					<input class="form-info" placeholder="Your Email Address" onfocus="this.placeholder = 'Your Email Address'" onblur="this.placeholder = 'Your Email Address'" type="email" tabindex="3" required>
-					<input class="form-info" placeholder="I am interested in..." onfocus="this.placeholder = 'I am interested in...'" onblur="this.placeholder = 'I am interested in...'" type="text" tabindex="4">
+					<select name="select">
+					  <option value="" selected>I'm interested in</option> 
+					  <option value="fostering">Fostering/Adoption</option>
+					  <option value="donations">Donations</option>
+					  <option value="career">Career Opportunities</option>
+					  <option value="media">Media Inquiry</option>
+					  <option value="other">Other</option>
+					</select>
 					<textarea class="form-info" placeholder="Message" onfocus="this.placeholder = 'Message'" onblur="this.placeholder = 'Message'" tabindex="5" required></textarea>
 					<input name="submit" type="submit" id="contact-submit" data-submit="...Sending"></input>
 			  	</fieldset>
