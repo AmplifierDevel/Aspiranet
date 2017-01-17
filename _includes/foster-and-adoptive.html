@@ -1,0 +1,74 @@
+<div class="white">
+	<div class="grid">
+		<ul class="tabs">
+			<li><a href="#tab-1"><p class="small caps">Be a foster family</p></a></li>
+			<li><a href="#tab-2"><p class="small caps">Adopt a child</p></a></li>
+		</ul>
+	</div>
+	{% assign fosterAndAdoptiveContent = site.data.contentful.spaces.proddata.fosterAdoptiveFamilies[0] %}
+	<div id="tab-1">
+		<div class="grid">
+			<div class="col-8-12 color-blue-dark">
+				<p>{{ fosterAndAdoptiveContent.beAFosterFamilyTab }}</p>
+			</div>
+			<div class="col-3-12 blue-dark push-1-12 links-box">
+				<p class="small caps">Foster &amp; Adoptive Families</p>
+				<hr>
+				<ul>
+					<li><a href="" class="color-white"><p>Steps ></p></a></li>
+					<li><a href="" class="color-white"><p>Requirements ></p></a></li>
+					<li><a href="" class="color-white"><p>FAQ ></p></a></li>
+					<li><a href="" class="color-white"><p>Locations ></p></a></li>
+				</ul>
+				<ul class="social-icons">
+					<p class="caps round small no-margin-top">Share the program</p>
+					<li><a href="{{ site.baseurl }}/{{ page.url }}"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+					<li><a href="https://twitter.com/intent/tweet?text={{ page.contentful_fields.title }}&amp;url={{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
+					<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
+				</ul>
+			</div>
+		</div>
+		{% if fosterAndAdoptiveContent.fosterFamilyPhotoFull.url %}
+		<div class="white">
+			<img src="{{ fosterAndAdoptiveContent.fosterFamilyPhotoFull.url }}" width="100%;">
+		</div>
+		{% endif %}
+	</div>
+	<div id="tab-2">
+		<div class="grid">
+			<div class="col-8-12 color-blue-dark">
+				<p>{{ fosterAndAdoptiveContent.adoptAChildTabCopy }}</p>
+			</div>
+			<div class="col-3-12 blue-dark push-1-12 links-box">
+				<p class="small caps">Foster &amp; Adoptive Families</p>
+				<hr>
+				<ul>
+					<li><a href="" class="color-white"><p>Steps ></p></a></li>
+					<li><a href="" class="color-white"><p>Requirements ></p></a></li>
+					<li><a href="" class="color-white"><p>FAQ ></p></a></li>
+					<li><a href="" class="color-white"><p>Locations ></p></a></li>
+				</ul>
+				<ul class="social-icons">
+					<p class="caps round small no-margin-top">Share the program</p>
+					<li><a href="{{ site.baseurl }}/{{ page.url }}"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+					<li><a href="https://twitter.com/intent/tweet?text={{ page.contentful_fields.title }}&amp;url={{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}"><img src="{{ site.image_path }}/facebook.svg" alt="share on facebook" /></a></li>
+					<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
+				</ul>
+			</div>
+		</div>
+		{% if fosterAndAdoptiveContent.adoptAChildPhotoFull.url %}
+		<div class="white">
+			<img src="{{ fosterAndAdoptiveContent.adoptAChildPhotoFull.url }}" width="100%;">
+		</div>
+		{% endif %}
+	</div>
+	{% if fosterAndAdoptiveContent.pageCopyRest %}
+	<section class="white">
+		<div class="grid">
+			<div class="col-8-12 color-blue-dark">
+				<p>{{ fosterAndAdoptiveContent.pageCopyRest }}</p>
+			</div>
+		</div>
+	</section>
+	{% endif %}
+</div>

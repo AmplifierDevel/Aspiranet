@@ -9,9 +9,12 @@ layout: default
 	</div>
 	<div class=" blue-dark program-subtitle">
 		<div class="grid">
-			<h4>{{ page.contentful_fields.subtitle }}</h4>
+			<h4 class="italic">{{ page.contentful_fields.subtitle }}</h4>
 		</div>
 	</div>
+	{% if page.url == "/programs/foster-and-adoptive-families/" %}
+	{% include foster-and-adoptive.html %} 
+	{% else %}
 	<section class="white">
 	<div class="grid">
 		<div class="col-7-12 color-blue-dark">
@@ -42,6 +45,7 @@ layout: default
 	</div>
 	</section>
 	{% endif %}
+	{% endif %}
 	{% if page.contentful_fields.fastFact1Number and page.contentful_fields.fastFact2Number and page.contentful_fields.fastFact3Number and page.contentful_fields.fastFact1Text and page.contentful_fields.fastFact2Text and page.contentful_fields.fastFact3Text %}
 	<section class="blue-dark text-center fast-facts">
 		<div class="grid">
@@ -61,16 +65,18 @@ layout: default
 		</div>
 	</section>
 	{% endif %}
+	{% if page.contentful_fields.howYouCanHelpCopy %}
 	<section class="col-11-12 center orange text-center block-overlap">
-			<div>
-				<h4 class="round no-margin-top">How you can help</h4>
-				<h4 class="col-7-12 center">{{ page.contentful_fields.howYouCanHelpCopy }}</h4>
-			</div>
-			{% if page.contentful_fields.howYouCanHelpCta %}
-				<p class="button"><a class="transparent" href="/donate">{{ page.contentful_fields.howYouCanHelpCta }}</a></p>
-			{% endif %}
-				<p class="button"><a class="orange" href="/donate">Donate</a></p>
+		<div>
+			<h4 class="round no-margin-top">How you can help</h4>
+			<h4 class="col-7-12 center">{{ page.contentful_fields.howYouCanHelpCopy }}</h4>
+		</div>
+		{% if page.contentful_fields.howYouCanHelpCta %}
+			<p class="button"><a class="transparent" href="/donate">{{ page.contentful_fields.howYouCanHelpCta }}</a></p>
+		{% endif %}
+			<p class="button"><a class="orange" href="/donate">Donate</a></p>
 	</section>
+	{% endif %}
 	<section>
 		<h3 class="text-center">More programs</h3>
 		<!-- Slider with all other programs goes here -->

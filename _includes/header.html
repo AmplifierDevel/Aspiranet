@@ -44,7 +44,7 @@
                   {% for program in sorted_programs %}
 
                     <li><a href="{{ site.baseurl }}/programs/{{ program.title 
-                    | slugify }}"><p class="{% cycle 'blue', 'orange', 'pink', 'yellow', 'color-purple-light', 'green', 'color-purple-dark' %}">{{program.title}} &#62;</p></a></li>
+                    | slugify }}"><p class="{% cycle 'pink', 'color-purple-dark', 'green', 'orange', 'yellow', 'color-blue-dark' %}">{{program.title}} &#62;</p></a></li>
 
                   {% endfor %}
               </ul>

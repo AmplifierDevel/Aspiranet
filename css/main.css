@@ -1126,7 +1126,20 @@ section.white, div.white, span.white {
   color: white; }
 
 .latest-front .col-1-3 {
+  padding-right: 0;
   height: 377px; }
+  .latest-front .col-1-3 .caption {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 45%;
+    padding: 7px 25px; }
+  .latest-front .col-1-3 .latest-content {
+    padding: 5% 8%;
+    transform: translateY(50%);
+    margin: 0;
+    display: block; }
+  .latest-front .col-1-3 .img-settings {
+    height: 377px; }
 
 .unslider {
   overflow-y: hidden !important; }
@@ -1155,12 +1168,11 @@ section.white, div.white, span.white {
   background-position: left center; }
 
 #blog .featured-post-copy {
-  width: 37%;
   background: rgba(255, 255, 255, 0.7);
   height: 100%;
   padding: 3%; }
 
-#blog .col-4-12 {
+#blog .grid .col-4-12 {
   margin-top: 4%; }
 
 #blog .social-icons {
@@ -1176,11 +1188,14 @@ section.white, div.white, span.white {
   width: 100%;
   height: 390px;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
 
 #blog .post {
   border: 1px solid #ecebeb;
-  margin: 8% 0; }
+  margin: 8% 0;
+  border-radius: 4px; }
   #blog .post .blog-excerpt {
     padding: 0 1.5em; }
     #blog .post .blog-excerpt ul {
@@ -1188,10 +1203,14 @@ section.white, div.white, span.white {
       #blog .post .blog-excerpt ul li p {
         margin-top: 0;
         padding-top: 30px; }
+  #blog .post .white {
+    border-radius: 4px; }
 
 #blog .buttons-box {
   padding: 1em 1.5em;
-  border-top: 1px solid #ecebeb; }
+  border-top: 1px solid #ecebeb;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
   #blog .buttons-box .button a {
     width: 200px; }
 
@@ -1544,18 +1563,63 @@ p.attribution, p.attribution a {
 .foster-and-adoptive-families .individual-program .block-overlap {
   background-color: #459BBC; }
 
+.foster-and-adoptive-families .individual-program #tab-1 .grid, .foster-and-adoptive-families .individual-program #tab-2 .grid {
+  margin-top: -8em;
+  position: relative; }
+  .foster-and-adoptive-families .individual-program #tab-1 .grid .col-8-12, .foster-and-adoptive-families .individual-program #tab-2 .grid .col-8-12 {
+    margin-top: 8em;
+    position: relative; }
+
+.foster-and-adoptive-families .individual-program .links-box {
+  padding: 35px;
+  border-radius: 4px;
+  margin-bottom: 3em; }
+  .foster-and-adoptive-families .individual-program .links-box ul {
+    padding: 0; }
+    .foster-and-adoptive-families .individual-program .links-box ul a p {
+      margin: 10px 0; }
+  .foster-and-adoptive-families .individual-program .links-box .social-icons {
+    margin-top: 2em; }
+  .foster-and-adoptive-families .individual-program .links-box hr {
+    border-top: 1px solid white; }
+
+.foster-and-adoptive-families .individual-program .tabs {
+  padding-left: 0;
+  position: relative;
+  z-index: 99; }
+  .foster-and-adoptive-families .individual-program .tabs li {
+    display: inline-block;
+    margin-right: 2em; }
+    .foster-and-adoptive-families .individual-program .tabs li a {
+      color: #bebebe; }
+      .foster-and-adoptive-families .individual-program .tabs li a.active {
+        color: #459BBC; }
+        .foster-and-adoptive-families .individual-program .tabs li a.active:before {
+          content: '';
+          top: 50px;
+          height: 5px;
+          border-radius: 3px;
+          display: block;
+          position: relative;
+          width: 0%;
+          background-color: #459BBC;
+          animation-name: grow-x;
+          animation-duration: 0.3s;
+          animation-fill-mode: forwards;
+          animation-timing-function: ease;
+          animation-delay: 0.5s; }
+
 #blog .featured-post-img {
   width: 100%;
   height: 500px;
   background-position: left center; }
 
 #blog .featured-post-copy {
-  width: 37%;
   background: rgba(255, 255, 255, 0.7);
   height: 100%;
   padding: 3%; }
 
-#blog .col-4-12 {
+#blog .grid .col-4-12 {
   margin-top: 4%; }
 
 #blog .social-icons {
@@ -1571,11 +1635,14 @@ p.attribution, p.attribution a {
   width: 100%;
   height: 390px;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
 
 #blog .post {
   border: 1px solid #ecebeb;
-  margin: 8% 0; }
+  margin: 8% 0;
+  border-radius: 4px; }
   #blog .post .blog-excerpt {
     padding: 0 1.5em; }
     #blog .post .blog-excerpt ul {
@@ -1583,10 +1650,14 @@ p.attribution, p.attribution a {
       #blog .post .blog-excerpt ul li p {
         margin-top: 0;
         padding-top: 30px; }
+  #blog .post .white {
+    border-radius: 4px; }
 
 #blog .buttons-box {
   padding: 1em 1.5em;
-  border-top: 1px solid #ecebeb; }
+  border-top: 1px solid #ecebeb;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
   #blog .buttons-box .button a {
     width: 200px; }
 
@@ -1664,7 +1735,8 @@ p.attribution, p.attribution a {
 
 .contact-form input[type='text'], .contact-form input[type='email'], .contact-form textarea {
   font-family: "KlinicSlab", Times, serif;
-  font-size: 16px; }
+  font-size: 16px;
+  letter-spacing: 0; }
 
 .contact-form fieldset {
   padding: 0;

@@ -4,6 +4,8 @@ layout: default
 {% include modal.html %}
 
 {% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
+
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <div class="campaign-slider">
 	<ul>
 	{% for campaign in sorted_campaigns %}
@@ -36,19 +38,19 @@ layout: default
 			<h3>Dedication to families is at the heart of everything we do.</h3>
 			<ul>
 				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
 					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h4>
 				</li>
 				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
 					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h4>
 				</li>
 				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
 					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h4>
 				</li>
 				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
 					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h4>
 				</li>
 			</ul>
@@ -71,7 +73,7 @@ layout: default
 
 <section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
 	<div class="grid" style="">
-		<div class="col-1-2">
+		<div class="col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
 		</div>
@@ -84,30 +86,70 @@ layout: default
 
 	<div class="grid">
 		<a href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">
-			<div class="col-1-3 blue "> 
-				<h4>Twitter</h4>
-				<p>
+			<div class="col-1-3 blue">
+				<div class="caption"> 
+					<p class="small caps color-blue-dark">Twitter</p>
+				</div>
+				<p class="latest-content color-blue-dark">
 					{{ site.data.tweet[0].text }} 
 				</p>
 			</div>
 		</a>
-		<div class="col-1-3 img-settings" style="background-image: url('/assets/img/placeholder.png');">
-			<h4>Stories</h4>
+		{% for blogpost in sorted_news %}
+		{% if blogpost.featuredOnBlog == true %}
+		<div class="col-1-3">
+			<a href="/blog/{{ blogpost.url }}">
+				<div class="img-settings" style="background-image: url('/{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title | slugify }}">
+				<div class="caption">
+					<p class="small caps color-white">Stories</p>
+				</div>
+				</div>
+			</a>
 		</div>
+		{% endif %}
+		{% endfor %}
+		{% for blogpost in sorted_news limit: 1 offset: 1 %}
 		<div class="col-1-3 orange">
-			<h4>On the blog</h4>
+			<div class="caption">
+				<p class="small caps">On the blog</p>
+			</div>
+			<a href="/blog/{{ blogpost.url }}">
+				<h3 class="latest-content color-white">{{ blogpost.title }}</h3>
+			</a>
 		</div>
+		{% endfor %}
 	</div>
 	<div class="grid">
-		<div class="col-1-3 img-settings" style="background-image: url('/assets/img/placeholder.png');">
-			<h4>On the blog</h4>
-		</div>
+	{% for blogpost in sorted_news %}
+		{% if blogpost.featuredOnHomepage == true %}
+			<div class="col-1-3">
+			<a href="/blog/{{ blogpost.url }}">
+				<div class="img-settings" style="background-image: url('/{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title | slugify }}">
+				<div class="caption">
+					<p class="small caps color-white">On the blog</p>
+				</div>
+				</div>
+			</a>
+				
+			</div>
+		{% endif %}
+	{% endfor %}
 		<div class="col-1-3 blue-dark">
-			<h4>Highlighted job post here</h4>
+			<div class="caption">
+				<p class="small caps">Jobs</p>
+			</div>
+			<h3 class="latest-content color-orange">Highlighted job post here</h3>
 		</div>
+		{% for blogpost in sorted_news limit: 1 %}
 		<div class="col-1-3 yellow">
-			<h4>Highlighted blog post here</h4>
+			<div class="caption">
+				<p class="small caps">On the blog</p>
+			</div>
+			<a href="/blog/{{ blogpost.url }}">
+				<h3 class="latest-content color-blue-dark">{{ blogpost.title }}</h3>
+			</a>
 		</div>
+		{% endfor %}
 	</div>
 		
 

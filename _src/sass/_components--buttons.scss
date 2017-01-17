@@ -8,54 +8,48 @@
 		display: inline-block;
 		font-size: 12px;
 		font-family: $stack-sans-serif;
-			&.orange {
-				background: $orange;
-				color: #fff; 
-				text-align: center;
-				min-width: 135px;
-			}
-			&.transparent {
-				background-color: rgba(255,255,255,0.2);
-    			color: #fff; 
-    			&:hover {
-    				background-color: rgba(255,255,255,0.1);
-    			}
+		&.orange {
+			background: $orange;
+			color: #fff; 
+			text-align: center;
+			min-width: 135px;
+		}
+		&.transparent {
+			background-color: rgba(255,255,255,0.2);
+			color: #fff; 
+			&:hover {
+				background-color: rgba(255,255,255,0.1);
 			}
 		}
+	}
 }
-
 ::-webkit-input-placeholder {
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 :-moz-placeholder { /* Firefox 18- */
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 ::-moz-placeholder {  /* Firefox 19+ */
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 :-ms-input-placeholder {  
 	color: #fff;
 	letter-spacing: 1.5px;
 	font-size: 12px;
 	font-family: $stack-serif;
 }
-
 input {
 	outline: 0;
 }
-
 input[type=submit] {
 	padding: 10px 20px;
 	border-radius: 4px;
@@ -70,7 +64,6 @@ input[type=submit] {
 	color: #fff;
 	font-size: 12px;
 }
-
 input[type=email], input[type=text] {
 	background:none;
 	font-size: 12px;
