@@ -89,6 +89,16 @@
 			img {
 				width: 50px;
 			}
+			&:nth-of-type(3) {
+				img {
+					width: 150px;
+				}
+			}
+			&:nth-of-type(4) {
+				img {
+					width: 60px;
+				}
+			}
 		}
 	}
 }

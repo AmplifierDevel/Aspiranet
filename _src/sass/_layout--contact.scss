@@ -1,5 +1,5 @@
 .contact-form {
-	input[type='text'], input[type='email'], textarea {
+	input[type='text'], input[type='email'], textarea, select {
 		font-family: $stack-serif;
 		font-size: 16px;
 		letter-spacing: 0;
@@ -52,11 +52,16 @@
 			padding: 10px 20px;
 			height: 275px;
 		}
-		.form-name, .form-info {
+		.form-name, .form-info, select {
 			border: 1px solid $grey-dark;
 			border-radius: 0;
 			background-color: white;
 			color: $grey-darkest;
+		}
+		select {
+			margin: 10px 0 0 0;
+		    width: 86%;
+		    -webkit-appearance: none;
 		}
 		.form-name {
 			display: inline-block;
