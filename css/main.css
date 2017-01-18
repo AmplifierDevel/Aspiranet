@@ -361,7 +361,7 @@ input[type=submit] {
   color: #fff;
   font-size: 12px; }
 
-input[type=email], input[type=text] {
+input[type=email], input[type=text], select {
   background: none;
   font-size: 12px;
   letter-spacing: 1.5px;
@@ -977,6 +977,10 @@ nav {
       vertical-align: top; }
       .site-footer .footer-partners li img {
         width: 50px; }
+      .site-footer .footer-partners li:nth-of-type(3) img {
+        width: 150px; }
+      .site-footer .footer-partners li:nth-of-type(4) img {
+        width: 60px; }
 
 div.clearfix {
   clear: both; }
@@ -1156,7 +1160,8 @@ section.white, div.white, span.white {
     border: 1px solid white !important; }
 
 .campaign-slider li {
-  height: 550px; }
+  height: 650px;
+  background-position: center center; }
   .campaign-slider li h1 {
     margin: 0; }
   .campaign-slider li h4 {
@@ -1436,7 +1441,7 @@ p.attribution, p.attribution a {
 .programs-nav {
   padding: 20px 0; }
   .programs-nav .col-1-6 {
-    width: 15%; }
+    padding: 0 1.6%; }
 
 .program-blurb .button a {
   padding: 0; }
@@ -1454,8 +1459,18 @@ p.attribution, p.attribution a {
   padding: 33px;
   margin: 0; }
 
-.program-img:not(:nth-of-type(2)) {
-  margin-top: 10px; }
+.program-img {
+  height: auto;
+  max-height: 950px; }
+  .program-img:not(:nth-of-type(2)) {
+    margin-top: 10px; }
+  .program-img:after {
+    padding-bottom: 56%;
+    content: "";
+    display: block; }
+    @media screen and (min-width: 1440px) {
+      .program-img:after {
+        padding-bottom: 45%; } }
 
 .individual-program .program-title h1 {
   padding: 55px 0px 10px 0; }
@@ -1482,7 +1497,7 @@ p.attribution, p.attribution a {
   background-color: #70c7b2;
   color: white; }
 
-.transitional-aged-youth .individual-program .program-subtitle {
+.transitional-aged-youth .individual-program .program-subtitle, .transitional-aged-youth .individual-program .section-copy-rest {
   background-color: #5bb69e;
   color: white; }
 
@@ -1499,7 +1514,7 @@ p.attribution, p.attribution a {
   background-color: #78649f;
   color: white; }
 
-.family-community .individual-program .program-subtitle {
+.family-community .individual-program .program-subtitle, .family-community .individual-program .section-copy-rest {
   background-color: #6d5593;
   color: white; }
 
@@ -1516,7 +1531,7 @@ p.attribution, p.attribution a {
   background-color: #ff5a38;
   color: white; }
 
-.residential .individual-program .program-subtitle {
+.residential .individual-program .program-subtitle, .residential .individual-program .section-copy-rest {
   background-color: #d54131;
   color: white; }
 
@@ -1533,7 +1548,7 @@ p.attribution, p.attribution a {
   background-color: #ffc05d;
   color: white; }
 
-.intensive-home-based-services .individual-program .program-subtitle {
+.intensive-home-based-services .individual-program .program-subtitle, .intensive-home-based-services .individual-program .section-copy-rest {
   background-color: #eca957;
   color: white; }
 
@@ -1550,7 +1565,7 @@ p.attribution, p.attribution a {
   background-color: #db8ac2;
   color: white; }
 
-.foster-and-adoptive-families .individual-program .program-subtitle {
+.foster-and-adoptive-families .individual-program .program-subtitle, .foster-and-adoptive-families .individual-program .section-copy-rest {
   background-color: #b672a9;
   color: white; }
 
@@ -1738,7 +1753,7 @@ p.attribution, p.attribution a {
   text-align: center;
   margin-top: -10px; }
 
-.contact-form input[type='text'], .contact-form input[type='email'], .contact-form textarea {
+.contact-form input[type='text'], .contact-form input[type='email'], .contact-form textarea, .contact-form select {
   font-family: "KlinicSlab", Times, serif;
   font-size: 16px;
   letter-spacing: 0; }
@@ -1786,11 +1801,15 @@ p.attribution, p.attribution a {
   .contact-form fieldset textarea {
     padding: 10px 20px;
     height: 275px; }
-  .contact-form fieldset .form-name, .contact-form fieldset .form-info {
+  .contact-form fieldset .form-name, .contact-form fieldset .form-info, .contact-form fieldset select {
     border: 1px solid #ecebeb;
     border-radius: 0;
     background-color: white;
     color: #bebebe; }
+  .contact-form fieldset select {
+    margin: 10px 0 0 0;
+    width: 86%;
+    -webkit-appearance: none; }
   .contact-form fieldset .form-name {
     display: inline-block;
     width: 42%; }
