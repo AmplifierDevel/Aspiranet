@@ -15,12 +15,8 @@ SECRET=$2
 USER=$3
 
 APP_CREDS=`echo -n "$KEY:$SECRET" | base64`
-echo 'CREDS:'
-echo $APP_CREDS
-curl --silent --header "Authorization: Basic `echo $APP_CREDS`" --data "grant_type=client_credentials" https://api.twitter.com/oauth2/token > bearer_resp.json && echo "1.curl OK"
 
-echo '/bearer_resp:'
-echo bearer_resp.json
+curl --silent --header "Authorization: Basic `echo $APP_CREDS`" --data "grant_type=client_credentials" https://api.twitter.com/oauth2/token > bearer_resp.json && echo "1.curl OK"
 
 BEARER=`grep access_token\":\"[^\"]* bearer_resp.json --only-matching | sed s/access_token\":\"//g`
 
@@ -28,4 +24,3 @@ BEARER=`grep access_token\":\"[^\"]* bearer_resp.json --only-matching | sed s/ac
 curl --silent --header "Authorization: Bearer `echo $BEARER`" https://api.twitter.com/1.1/statuses/user_timeline.json?count=1\&screen_name=$USER | sed 's@\\/@/@g' > _data/tweet.json
 
 LAST_TWEET=`grep text\":\"[^\"]* _data/tweet.json --only-matching | sed s/text\":\"//g`
-cat _data/tweet.json
