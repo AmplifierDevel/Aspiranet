@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersHeroImage.url }}');" class="img-settings section-photo center-vertical">
+	<div class="grid">
+		<div class="col-5-12 no-padding color-white">
+		{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersSubheader | markdownify}}
+		</div>
+	</div>
+</section>
+
 <section class="blue text-center">
 	<div class="grid">
 		<div class="col-1-2 center">
@@ -9,13 +17,7 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersHeroImage.url }}');" class="img-settings section-photo center-vertical">
-	<div class="grid">
-		<div class="col-5-12 no-padding color-white">
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersSubheader | markdownify}}
-		</div>
-	</div>
-</section>
+
 <section class="grey careers-stats">
 	<div class="grid">
 		<div class="col-1-3">
