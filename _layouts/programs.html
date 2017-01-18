@@ -31,18 +31,20 @@ layout: default
 		</div>
 	</div>
 	</section>
-	{% if page.contentful_fields.photo.file.url %}
-	<div class="white">
-		<img src="{{ page.contentful_fields.photo.file.url }}" width="100%;">
-	</div>
-	{% endif %}
-	{% if page.contentful_fields.copyRest %}
-	<section class="white">
-	<div class="grid">
-		<div class="col-8-12 color-blue-dark">
-			<p>{{ page.contentful_fields.copyRest }}</p>
+	{% if page.contentful_fields.photo.file.url or page.contentful_fields.copyRest %}
+	<section class="blue-marin section-copy-rest">
+		<div class="grid">
+			<div class="col-1-2">
+				<div style="background-image: url('{{ page.contentful_fields.photo.file.url }}'); min-height: 350px;" class="img-settings">
+				</div>
+				<div class="col-8-12 center">
+					<p class="italic color-white">{{ page.contentful_fields.pullQuote }}</p>
+				</div>
+			</div>
+			<div class="col-5-12 push-1-12">
+				<p class="color-white no-margin-top">{{ page.contentful_fields.copyRest }}</p>
+			</div>	
 		</div>
-	</div>
 	</section>
 	{% endif %}
 	{% endif %}

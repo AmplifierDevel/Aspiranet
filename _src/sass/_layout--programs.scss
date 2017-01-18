@@ -1,7 +1,7 @@
 .programs-nav {
 	padding: 20px 0;
 	.col-1-6 {
-		width: 15%;
+		padding: 0 1.6%;
 	}
 }
 .program-blurb {
@@ -22,8 +22,20 @@
     	margin: 0;
 	}
 }
-.program-img:not(:nth-of-type(2)) {
-	margin-top: 10px;
+.program-img {
+	height: auto;
+	max-height: 950px;
+	&:not(:nth-of-type(2)) {
+		margin-top: 10px;
+	}
+	&:after {
+        padding-bottom: 56%;
+        content: "";
+        display: block;
+        @media screen and (min-width: 1440px) { 
+            padding-bottom: 45%;
+        }
+    }
 }
 .individual-program {
 	.program-title {
@@ -66,7 +78,7 @@
 			background-color: $mint; 
 			color: white;
 		}
-		.program-subtitle {
+		.program-subtitle, .section-copy-rest {
 			background-color: $mint-light;
 			color: white;
 		}
@@ -88,7 +100,7 @@
 			background-color: $purple-light;
 			color: white;
 		}
-		.program-subtitle {
+		.program-subtitle, .section-copy-rest {
 			background-color: $purple-dark;
 			color: white;
 		}
@@ -110,7 +122,7 @@
 			background-color: $orange; 
 			color: white;
 		}
-		.program-subtitle {
+		.program-subtitle, .section-copy-rest {
 			background-color: $red-dark;
 			color: white;
 		}
@@ -132,7 +144,7 @@
 			background-color: $yellow; 
 			color: white;
 		}
-		.program-subtitle {
+		.program-subtitle, .section-copy-rest {
 			background-color: $yellow-dark;
 			color: white;
 		}
@@ -154,7 +166,7 @@
 			background-color: $pink-light; 
 			color: white;
 		}
-		.program-subtitle {
+		.program-subtitle, .section-copy-rest {
 			background-color: #b672a9; //$pink
 			color: white;
 		}
