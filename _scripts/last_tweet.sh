@@ -17,9 +17,7 @@ USER=$3
 APP_CREDS=`echo -n "$KEY:$SECRET" | base64`
 echo 'CREDS:'
 echo $APP_CREDS
-curl --silent --header "Authorization: Basic $APP_CREDS" --data "grant_type=client_credentials" https://api.twitter.com/oauth2/token > bearer_resp.json
-echo '_scripts/bearer_resp:'
-cat _scripts/bearer_resp.json
+curl --silent --header "Authorization: Basic $APP_CREDS" --data "grant_type=client_credentials" https://api.twitter.com/oauth2/token > bearer_resp.json && echo '1.curl OK'
 
 echo '/bearer_resp:'
 cat bearer_resp.json
