@@ -4,14 +4,16 @@
 <script type="text/javascript">
 	var blogContent = [
 	{% for blogpost in sorted_news %}
+		{% if blogpost.featuredOnBlog == false %}
 		{
     	"heroImage": `{{blogpost.heroImage.url}}`,
     	"heroImageTitle": `{{blogpost.heroImage.title}}`,
-        "category": `{% for category in blogpost.category %}{{ category }}{% endfor %}`,
+        "category": `{{ blogpost.blogCategory.name }}`,
         "url": `/blog/{{blogpost.url}}`,
         "title": `{{blogpost.title}}`,
         "postBody": `{{blogpost.postBody | truncatewords:75 | markdownify}}`
 		},
+		{% endif %}
 	{% endfor %}
 	];
 
