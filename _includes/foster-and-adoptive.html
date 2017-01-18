@@ -1,3 +1,4 @@
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <div class="white">
 	<div class="grid">
 		<ul class="tabs">
@@ -7,7 +8,7 @@
 	</div>
 	{% assign fosterAndAdoptiveContent = site.data.contentful.spaces.proddata.fosterAdoptiveFamilies[0] %}
 	<div id="tab-1">
-		<div class="grid">
+		<div class="grid tab-content">
 			<div class="col-8-12 color-blue-dark">
 				<p>{{ fosterAndAdoptiveContent.beAFosterFamilyTab }}</p>
 			</div>
@@ -29,13 +30,46 @@
 			</div>
 		</div>
 		{% if fosterAndAdoptiveContent.fosterFamilyPhotoFull.url %}
-		<div class="white">
-			<img src="{{ fosterAndAdoptiveContent.fosterFamilyPhotoFull.url }}" width="100%;">
+		<div style="background-image: url('{{ fosterAndAdoptiveContent.fosterFamilyPhotoFull.url }}');" class="img-settings center-vertical">
+			<div class="grid">
+				<div class="push-right text-center">
+					<h2 class="color-white">Become a foster parent</h2>
+					<p class="button"><a class="orange" href="/apply">Apply Now</a></p>
+					<p class="button"><a class="transparent" href="/requirements">See Requirements</a></p>
+				</div>
+			</div>
 		</div>
 		{% endif %}
+		<section class="blue-dark">
+			<div class="grid text-center">
+				<h2 class="no-margin-top">Stories from foster families</h2>
+				<div class="stories-slider"> 
+					<ul>
+						{% for blogpost in sorted_news %}
+						{% if blogpost.blogCategory.name == "Foster and Adoptive Families" or blogpost.blogCategory.name == "Foster and Adoptive Services" %}
+							<li>
+			                    <div class="story-slider-item col-8-12">
+			                        <a href="/blog/{{ blogpost.url }}">
+			                            {% if blogpost.heroImage %}
+		                                <div class="img-settings col-1-2" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
+		                                </div>
+			                            {% endif %}
+			                            <div class="col-1-2">
+			                                <p class="small caps round">{{ blogpost.blogCategory.name }}</p>
+			                                <p class="round blue">{{ blogpost.title }}</p>
+			                            </div>
+			                        </a>
+			                    </div>
+			                </li>
+						{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+				</div>
+		</section>
 	</div>
 	<div id="tab-2">
-		<div class="grid">
+		<div class="grid tab-content">
 			<div class="col-8-12 color-blue-dark">
 				<p>{{ fosterAndAdoptiveContent.adoptAChildTabCopy }}</p>
 			</div>
@@ -57,10 +91,26 @@
 			</div>
 		</div>
 		{% if fosterAndAdoptiveContent.adoptAChildPhotoFull.url %}
-		<div class="white">
-			<img src="{{ fosterAndAdoptiveContent.adoptAChildPhotoFull.url }}" width="100%;">
+		<div style="background-image: url('{{ fosterAndAdoptiveContent.adoptAChildPhotoFull.url }}');" class="img-settings center-vertical">
+			<div class="grid">
+				<div class="push-right text-center">
+					<h2 class="color-white">Adopting a child</h2>
+					<p class="button"><a class="orange" href="/apply">Apply Now</a></p>
+					<p class="button"><a class="transparent" href="/requirements">See Requirements</a></p>
+				</div>
+			</div>
 		</div>
 		{% endif %}
+		<section class="blue-dark">
+			<div class="grid text-center">
+				<h2 class="no-margin-top">Stories from adoptions</h2>
+				<div class="stories-slider">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 	</div>
 	{% if fosterAndAdoptiveContent.pageCopyRest %}
 	<section class="white">

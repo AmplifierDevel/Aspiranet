@@ -1,343 +1,59 @@
 ---
-programs:
-- sys:
-    id: 5B2oeqvKA8QciIA8gycoe8
-  title: 'Family & Community '
-  landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
-    and support in their lives.'
-  order: 2
-  subtitle: 'Strong foundations for healthy communities '
-  copyTop: "Aspiranet Family and Community programs prepare children for their futures,
-    strengthen life and parenting skills, and connect families with networks of support
-    in their community.  \n\nWe take a proactive, responsive, and forward-thinking
-    approach to the growing needs of the communities we serve.  We advocate with and
-    for our families to ensure the necessary resources are available for their success.
-    \ \n\nWe incorporate the Strengthening Families framework into our practices.
-    \ Research confirms that families who have knowledge of parenting and child development,
-    resilience, social and emotional skills, and social connections and support in
-    times of need are able to thrive as strong families.  \n"
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: Pull Quote
-  copyRest: "We help families develop these skills resulting in increased family stability,
-    enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
-    community-based family resource centers offer individual family support, child
-    development courses, parenting education, school readiness programs, and more.
-    \ Our home-based visiting programs empower parents by helping them set and achieve
-    goals for themselves and their families.  \n\nAspiranet school-based programs
-    improve kindergarten through third grade literacy, and equip underserved, middle
-    and high school youth with the tech skills they need to be successful in today’s
-    global economy.\n\nWe know that healthy families build healthy communities.  Families
-    can count on us to support them when they most need help."
-  fastFact1Number: '3,806'
-  fastFact1Text: 'Families reached by Aspiranet early intervention and prevention
-    services '
-  fastFact2Number: '140'
-  fastFact2Text: Aspiranet locations across California
-  fastFact3Number: '7,309'
-  fastFact3Text: 'Students and volunteers mobilized '
-- sys:
-    id: XBkqWJ1H8qowuEKW6McqM
-  title: Residential
-  landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
-    a second chance to fulfill their potential'
-  order: 4
-  subtitle: 'Healthy environments build resilience '
-  copyTop: "Aspiranet’s short term residential treatment program offers critical support
-    to youth in crisis, preparing them to be re-united with their families.  \n\nOur
-    residential program represents the highest level of care that is available to
-    children and youth in California.  Over six to 18 months, each participant is
-    fully supported through individual counseling, group counseling, psychiatric treatment
-    and educational services in single family home settings.  "
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: 'Pull quote '
-  copyRest: "Our programs offer a structured, enriching, healing environment where
-    children and youth in crisis can move forward with their head held high, ready
-    to make the most of a second chance. \n\nSafety is our number one priority, and
-    all residents are expected to live up to a code of conduct that promotes mutual
-    respect and responsibility for the daily routine on campus.\n\nExperienced staff
-    work to guide youth back to a healthy place where they can be responsible and
-    trusted members of the community.   \n\nBefore they return home to their families,
-    graduates put their handprints in the cement pathway that runs through the center
-    of the residential center, a symbol that they are graduating and moving forward
-    towards a brighter future.    "
-  fastFact1Number: 70%
-  fastFact1Text: 'Percentage of youth in the juvenile justice system with at least
-    one mental health condition '
-  fastFact2Number: '156'
-  fastFact2Text: 'Youth benefited from these Aspiranet residential services in 2015 '
-  fastFact3Number: '1987'
-  fastFact3Text: 'Year Aspiranet launched our residential-based programs '
-- sys:
-    id: 17pijT5KeCiYscE4GoQAO0
-  title: 'Behavioral Health '
-  landingPageTextBlurb: 'We believe: Caring and support helps families through challenging
-    times. '
-  order: 6
-  subtitle: 'Strong families for life '
-  copyTop: "Children and families experiencing difficult times can heal in an environment
-    that offers the support, respect and skills they need to build resilience.\n\nFew
-    events are more traumatic for a child than being removed from their family and
-    entered into the foster care system.\n\nAspiranet provides a coordinated network
-    of support that helps families stay together and leads to more successful family
-    interactions on a daily basis.  "
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: 'quote '
-  copyRest: |
-    A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
-
-    Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
-
-    We stay the course with our families, empowering parents by improving the quality of the parent-child relationship and helping to ensure long-term family success.
-  fastFact1Number: 1 in 6
-  fastFact1Text: 'California adults with a mental health need '
-  fastFact2Number: 20%
-  fastFact2Text: 'Youth aged 13-18 who have had a severe mental disorder '
-  fastFact3Number: '2,268'
-  fastFact3Text: 'Children and families touched by Aspiranet''s behavioral health
-    staff in 2015 '
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-  howYouCanHelpCta: I’d like to provide a home for a child
-- sys:
-    id: 6gFvoAGrIckQwGoM8SAGqE
-  title: 'Foster and Adoptive Families '
-  landingPageTextBlurb: 'We Believe: Every child deserves to be loved and cared for
-    inside a stable, healthy family.'
-  order: 1
-  subtitle: Foster families adoptive subtitle
-  copyTop: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: quote
-  copyRest: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-  fastFact1Number: '90'
-  fastFact1Text: 'The number of Californian children per day entering foster care '
-  fastFact2Number: '50,000'
-  fastFact2Text: 'The number of Californian children in foster care '
-  fastFact3Number: '2,000'
-  fastFact3Text: Since 1999, the number of children Aspiranet transitioned from foster
-    care to adoption
-  howYouCanHelpCopy: 'Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home? '
-  howYouCanHelpCta: I'd like to provide a home for a child
-- sys:
-    id: 5XB0qb2FvqMM8I6IY2UmWc
-  title: 'Intensive Home-Based Services '
-  landingPageTextBlurb: 'We believe: When children and families have access to the
-    support and resources to thrive, there''s no limit to what they can accomplish. '
-  order: 5
-  subtitle: 'A proven model of family support '
-  copyTop: "Aspiranet offers families a network of individualized resources that meet
-    them where they are and take them on a journey to where positive outcomes are
-    possible.  \n\nResearch shows that services that are wrapped around the family
-    are more effective than institutional care and can unlock positive outcomes such
-    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
-    services are provided in the home and in the community and are available when
-    families need them – after school, in the mornings, and on the weekends. "
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: 'quote goes here '
-  copyRest: "Our services engage all members of the family, including relatives and
-    non-relative extended family members, in changing behaviors that improve their
-    relationships and promote growth.  \nFamily members, caregivers, teachers and
-    other service providers work together so children have opportunities to practice
-    positive life skills and get involved in community activities. \n\nWhether it
-    is referring someone within the Aspiranet network, or sharing community contacts
-    on behalf of families, or educating policymakers on needed changes, we are dedicated
-    to facilitating the best possible outcome within our family support system.  \n\nThe
-    ultimate goal is to give children the tools and support network to live and grow
-    successfully with their birth families, relative caregivers, or foster and adoptive
-    families. \n"
-  fastFact1Number: '700'
-  fastFact1Text: 'Families that benefited from our high level intervention and treatment
-    services '
-  fastFact2Number: '140 '
-  fastFact2Text: Aspiranet locations across California
-  fastFact3Number: '8.7'
-  fastFact3Text: 'Number of child abuse and neglect in California per one thousand
-    children '
-- sys:
-    id: 4WGNwaPSqcSwSueou6keQ0
-  title: 'Transitional Aged Youth '
-  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
-    from which to launch their futures '
-  order: 3
-  subtitle: 'A bridge from youth to independence '
-  copyTop: "Aspiranet Transitional Age Youth programs are a bridge between foster
-    care and independence.\n\nWe are dedicated to helping our youth develop necessary
-    life skills, self-reliance, and confidence so they can achieve their goals for
-    the future. "
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: Pull quote
-  copyRest: "We collaborate with a statewide network of partners to ensure that youth
-    who are aging out of foster care are equipped to navigate the hurdles of young
-    adulthood and become productive members of their communities.\n\nWe help with
-    basic needs like transportation and housing, as well as mental health and emotional
-    support.  \n\nAnd we assist youth in securing a safe place to live, ongoing education,
-    job readiness training and employment.  \n\nOur programs are a vital launching
-    pad, helping youth lift off to pursue their life dreams and exercise their full
-    potential. "
-  fastFact1Number: '5,000'
-  fastFact1Text: 'Yearly number of California young adults who "age out" of the foster
-    care system '
-  fastFact2Number: '1,900'
-  fastFact2Text: 'Number of young adults we supported in 2015 '
-  fastFact3Number: '14'
-  fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
-campain:
-- sys:
-    id: 4rqSPhHwhqoGwCGCYucUem
-  title: A woman with big ambitions
-  titleAlign: right
-  image:
-    title: 01 homepage hero img ERnDC
-    url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
-  campaignUrl: /url.com
-  order: 2
-  ctaButtonCopy: Join the program
-  ctaUrl: donate/campaign
-- sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: 'Third campaign '
-  titleAlign: left
-  image:
-    title: Veronica
-    url: //images.contentful.com/e5ehlcazegi0/GOpsH36sc88eqmO4UIGEG/a5edca5a551499b88e0c591508152e66/veronicapic4.jpg
-  campaignUrl: link-to-third-campaign
-  order: 3
-- sys:
-    id: 3nasDfII8ESiAEcM0Yc6SK
-  title: 'Second campaign '
-  titleAlign: right
-  image:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/1hDm0jn7hSewsiww2MWk40/9190d4864a5af0a11d728cd59e34acec/02_donate_hero_img_1.jpg
-  campaignPartners: Starbucks
-  campaignUrl: url-to-campaign
-  order: 2
-  ctaButtonCopy: Donate now
-  ctaUrl: /donate/now
-blogCategory:
-- sys:
-    id: 1tVzFcCfhm2CIs0IgM2Y2w
-  name: TAY
-- sys:
-    id: 18iZ5xQdYMSMKsmAuuUoG8
-  name: Intensive Home-Based Services
-- sys:
-    id: 4N2w87yGUEWmIg4EGqU2gW
-  name: Family and Community Services
-- sys:
-    id: 5hiY7E0J7q24AKcqk8QceI
-  name: Foster and Adoptive Families
-- sys:
-    id: obRemBMgzQIOs2OOoy0AA
-  name: Residential
-- sys:
-    id: YkYuUFWToki6QquKm04yc
-  name: Foster and Adoptive Services
-blogTag:
-- sys:
-    id: 4FYoyfpg3u0K2Qu0qsOKgm
-  name: Staff
-- sys:
-    id: 41zCNoeNrWSKuSuMQKW0o0
-  name: Family
-- sys:
-    id: 4bNO0ekSS4yq8CuWOYCcCi
-  name: Hope
-- sys:
-    id: 2rpQXkICnOQqkYe8KewUmo
-  name: Youth
-- sys:
-    id: aj45ghA27S2OgskKa4Agm
-  name: Adoption
-- sys:
-    id: 2f4F4fvzne6Ma82egMgaks
-  name: Integrity
-- sys:
-    id: 1eHWOXJsFY2IuKmoOUa8WK
-  name: Foster and Adoptive Services
-- sys:
-    id: 4MPGYiEPUccOgeOwCO6SqY
-  name: Courage
-- sys:
-    id: 3z7QQ5fttYAG6QWgEs6cy0
-  name: Reunification
-- sys:
-    id: 3ihYDCzp0ISOE644OmscMs
-  name: THP+
-- sys:
-    id: 5V3QqYRbCEeYmqyMOKqqAo
-  name: Respect
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster
-- sys:
-    id: 7sF3shCds4aqymKSu6w0a
-  name: First Five Center
-- sys:
-    id: 6oqIUvAvUkK8muQigAAuCW
-  name: Community
-- sys:
-    id: 4p1GBu4QNyusWU4scuu6QK
-  name: Residential
-seniorExecutive:
-- sys:
-    id: 1Nlzc3r93igA4kKoqsMWiu
-  name: John Doe
-  desiredUrl: john-doe
-  position: Senior Executive
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 1
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 2bapNK1zLKEIQo6gqomyIG
-  name: John Smith
-  desiredUrl: john-smith
-  position: Senior Researcher
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 0
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 blogPost:
+- sys:
+    id: 1EtXFuUmJOyO6k44K86cSO
+  title: Fostering Love
+  url: fostering-love
+  featuredOnHomepage: true
+  featuredOnBlog: false
+  heroImage:
+    title: 5 program foster   a Wab68
+    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
+  postBody: "The Pillars’ home is always alive with the energy of children. Along
+    with caring for their two young sons and daughter, whom they adopted through foster
+    care, they serve as a “receiving home” for children when they are first placed
+    in foster care. In that role, they have welcomed nearly 100 children to their
+    home. \n \nTim and Jenny Pillar decided to look into adopting through foster care
+    after trying for years to have biological children.\n\n“There are so many children
+    that just want someone to love them,” Jenny says.\n\nThe Pillars looked into four
+    agencies before they decided to work with Aspiranet. They were attracted by the
+    support that Aspiranet provides throughout the process and the team’s dedication
+    to finding the right home for every child. \n\n“Aspiranet wants every child to
+    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
+    and they worked hard to make us feel comfortable. We really appreciate how flexible
+    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
+    orientation classes with other foster and adoptive parents, the Pillars brought
+    a two-day old infant into their home. Six months later, they began fostering a
+    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
+    and they worried about his development. But after a few months, Tim said, “he
+    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
+    They come in scared sometimes, and to watch them grow and become part of a family,
+    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
+    — a little girl. \n\n“We fell in love with her the moment she came into our house,
+    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
+    into our house is part of our family,” says Tim. “They go on vacation with us,
+    if we’re doing it, they’re doing it. That inclusiveness gives them a sense of
+    belonging and a sense of family.”\n\nThe Pillars have fostered dozens of children
+    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
+    we run into them and they remember us years later, and come up to us and give
+    us hugs!” says Jenny. \n"
+  blogCategory:
+    sys:
+      id: YkYuUFWToki6QquKm04yc
+    name: Foster and Adoptive Services
+  blogTag:
+  - sys:
+      id: 1eHWOXJsFY2IuKmoOUa8WK
+    name: Foster and Adoptive Services
+  - sys:
+      id: aj45ghA27S2OgskKa4Agm
+    name: Adoption
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster
 - sys:
     id: 3D7O4FxSMUGUgKCgkkquiC
   title: Making the World a Little Better
@@ -368,6 +84,44 @@ blogPost:
       id: 5hiY7E0J7q24AKcqk8QceI
     name: Foster and Adoptive Families
   blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster
+- sys:
+    id: 1ik9XOWC7mwMa2CIIwIySE
+  title: Trusting Fate
+  url: trusting-fate
+  featuredOnHomepage: false
+  heroImage:
+    title: Jennifer
+    url: //images.contentful.com/e5ehlcazegi0/6fvp7U9pAWi2yEasKeg8eG/c609b2bb1ab25b3817c3f68ddc2f26f9/Goodrich.jpg
+  postBody: "A chance encounter two years ago inspired Jennifer Goodrich to start
+    a family through foster care.\n\nShe was in a public restroom when she heard a
+    woman crying, and soon discovered that what she heard were tears of joy.  The
+    woman had been overcome when her foster daughter asked her if she would adopt
+    her and make their family permanent.\n\nSoon after, Jennifer made her way to Aspiranet,
+    which was recommended to her by the woman she felt fated to meet. \n\nShe credits
+    Aspiranet’s thorough training with helping her to feel confident and secure in
+    the moments before meeting three-year-old Sam.  Jennifer felt an instant connection,
+    and weekly meetings with her social worker helped solidify the bond and smooth
+    the transition to making the adoption official.\n\nHaving Aspiranet by her side
+    before, during, and after Sam’s adoption have made all the difference, Jennifer
+    said. “The adoption did not happen overnight, but the process was seamless,” Jennifer
+    said.  “Aspiranet worked hand-in-hand with me to become an adoptive parent, making
+    it much easier.” \n\n “In foster parenting and adoption, there are always challenges,
+    but the rewards make it worth it. I couldn’t be more grateful for the extra support
+    Sam and I received from the Aspiranet staff on this journey.”\n\n"
+  blogCategory:
+    sys:
+      id: 5hiY7E0J7q24AKcqk8QceI
+    name: Foster and Adoptive Families
+  blogTag:
+  - sys:
+      id: aj45ghA27S2OgskKa4Agm
+    name: Adoption
   - sys:
       id: 41zCNoeNrWSKuSuMQKW0o0
     name: Family
@@ -509,44 +263,6 @@ blogPost:
       id: 3ihYDCzp0ISOE644OmscMs
     name: THP+
 - sys:
-    id: 1ik9XOWC7mwMa2CIIwIySE
-  title: Trusting Fate
-  url: trusting-fate
-  featuredOnHomepage: false
-  heroImage:
-    title: Jennifer
-    url: //images.contentful.com/e5ehlcazegi0/6fvp7U9pAWi2yEasKeg8eG/c609b2bb1ab25b3817c3f68ddc2f26f9/Goodrich.jpg
-  postBody: "A chance encounter two years ago inspired Jennifer Goodrich to start
-    a family through foster care.\n\nShe was in a public restroom when she heard a
-    woman crying, and soon discovered that what she heard were tears of joy.  The
-    woman had been overcome when her foster daughter asked her if she would adopt
-    her and make their family permanent.\n\nSoon after, Jennifer made her way to Aspiranet,
-    which was recommended to her by the woman she felt fated to meet. \n\nShe credits
-    Aspiranet’s thorough training with helping her to feel confident and secure in
-    the moments before meeting three-year-old Sam.  Jennifer felt an instant connection,
-    and weekly meetings with her social worker helped solidify the bond and smooth
-    the transition to making the adoption official.\n\nHaving Aspiranet by her side
-    before, during, and after Sam’s adoption have made all the difference, Jennifer
-    said. “The adoption did not happen overnight, but the process was seamless,” Jennifer
-    said.  “Aspiranet worked hand-in-hand with me to become an adoptive parent, making
-    it much easier.” \n\n “In foster parenting and adoption, there are always challenges,
-    but the rewards make it worth it. I couldn’t be more grateful for the extra support
-    Sam and I received from the Aspiranet staff on this journey.”\n\n"
-  blogCategory:
-    sys:
-      id: 5hiY7E0J7q24AKcqk8QceI
-    name: Foster and Adoptive Families
-  blogTag:
-  - sys:
-      id: aj45ghA27S2OgskKa4Agm
-    name: Adoption
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster
-- sys:
     id: 1YHlIm573GKgee4S6GOuGa
   title: A Beautiful Friendship
   url: a-beautiful-friendship
@@ -611,97 +327,136 @@ blogPost:
   - sys:
       id: 4FYoyfpg3u0K2Qu0qsOKgm
     name: Staff
-- sys:
-    id: 1EtXFuUmJOyO6k44K86cSO
-  title: Fostering Love
-  url: fostering-love
-  featuredOnHomepage: false
-  featuredOnBlog: false
-  heroImage:
-    title: 5 program foster   a Wab68
-    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
-  postBody: "The Pillars’ home is always alive with the energy of children. Along
-    with caring for their two young sons and daughter, whom they adopted through foster
-    care, they serve as a “receiving home” for children when they are first placed
-    in foster care. In that role, they have welcomed nearly 100 children to their
-    home. \n \nTim and Jenny Pillar decided to look into adopting through foster care
-    after trying for years to have biological children.\n\n“There are so many children
-    that just want someone to love them,” Jenny says.\n\nThe Pillars looked into four
-    agencies before they decided to work with Aspiranet. They were attracted by the
-    support that Aspiranet provides throughout the process and the team’s dedication
-    to finding the right home for every child. \n\n“Aspiranet wants every child to
-    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
-    and they worked hard to make us feel comfortable. We really appreciate how flexible
-    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
-    orientation classes with other foster and adoptive parents, the Pillars brought
-    a two-day old infant into their home. Six months later, they began fostering a
-    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
-    and they worried about his development. But after a few months, Tim said, “he
-    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
-    They come in scared sometimes, and to watch them grow and become part of a family,
-    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
-    — a little girl. \n\n“We fell in love with her the moment she came into our house,
-    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
-    into our house is part of our family,” says Tim. “They go on vacation with us,
-    if we’re doing it, they’re doing it. That inclusiveness gives them a sense of
-    belonging and a sense of family.”\n\nThe Pillars have fostered dozens of children
-    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
-    we run into them and they remember us years later, and come up to us and give
-    us hugs!” says Jenny. \n"
-  blogCategory:
-    sys:
-      id: YkYuUFWToki6QquKm04yc
-    name: Foster and Adoptive Services
-  blogTag:
-  - sys:
-      id: 1eHWOXJsFY2IuKmoOUa8WK
-    name: Foster and Adoptive Services
-  - sys:
-      id: aj45ghA27S2OgskKa4Agm
-    name: Adoption
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster
-programHosted:
-- sys:
-    id: 4uguFkrZzyQoaUEKiOAYwi
-  title: Hosted External Program
-  desiredUrl: hosted-external-program
-  subtitle: Healthy environments build resilience
-  copyTop: Aspiranet’s short term residential treatment program offers critical support
-    to youth in crisis, preparing them to be re-united with their families. Our residential
-    program represents the highest level of care that is available to children and
-    youth in California. Over six to 18 months, each participant is fully supported
-    through individual counseling, group counseling, psychiatric treatment and educational
-    services in single family home settings.
-  photo:
-    title: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
-  pullQuote: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt
-  copyRest: Our programs offer a structured, enriching, healing environment where
-    children and youth in crisis can move forward with their head held high, ready
-    to make the most of a second chance. Safety is our number one priority, and all
-    residents are expected to live up to a code of conduct that promotes mutual respect
-    and responsibility for the daily routine on campus. Experienced staff work to
-    guide youth back to a healthy place where they can be responsible and trusted
-    members of the community. Before they return home to their families, graduates
-    put their handprints in the cement pathway that runs through the center of the
-    residential center, a symbol that they are graduating and moving forward towards
-    a brighter future.
-  fastFact1Number: 70%
-  fastFact1Text: Percentage of youth in the juvenile justice system with at least
-    one mental health condition
-  fastFact2Number: '156'
-  fastFact2Text: Youth benefited from these Aspiranet residential services in 2015
-  fastFact3Number: '1987'
-  fastFact3Text: Year Aspiranet launched our residential-based programs
-  howYouCanHelpCopy: How you can help
-  howYouCanHelpCta: How you can help CTA
 programLocation:
+- sys:
+    id: 5darJVHHfGs2gscAqSS4Og
+  name: San Bernardino
+  location:
+    lat: 34.069812
+    lon: -117.26939199999998
+  addressAsText: '720 E Carnegie Dr #250, San Bernardino, CA 92408, USA'
+  program:
+  - Adoption
+  - AfterCare
+  - Cal Learn
+  - Foster Care
+  - Intensive Treatment Foster Care
+  - Outpatient Therapy
+  - Transitional Housing Placement+
+  - Transitional Housing Placement + Foster Care
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "AfterCare (15-19, 20+) Also known as Emancipated Youth
+    Services (EYS), AfterCare assists youth who are no longer in foster care and who
+    have not yet reached the age of 21.  Includes referral and linkage services, housing
+    assistance, bus passess, and work-related and education-related resources.\nCal
+    Learn (15-19) Case management support for parenting youth ages 13 to 19.  Provides
+    youth with an opportunity for educational and economic success by supporting them
+    in securing a high school diploma, GED, and job.\nTransitional Housing Placement
+    + (15-19, 20+) Transitional housing support program for former foster youth who
+    are transitioning to adulthood out of the child welfare or probation systems.
+    Provides a safe and supportive living environment while helping youth achieve
+    self-sufficiency and learn life skills.\nTransitional Housing Placement + Foster
+    Care (15-19, 20+) An extended foster care placement option that bridges the gap
+    for non-minor dependents who are no longer living in a foster home, but who may
+    not yet be ready to transition into a supervised independent living placement.\nFoster
+    Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.
+    \ Whether the foster care placement lasts for a few days or a few years, we are
+    committed to matching children with families where they will thrive. \nFoster
+    Care (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet secures loving homes for foster
+    children.  Whether the foster care placement lasts for a few days or a few years,
+    we are committed to matching children with families where they will thrive.\nIntensive
+    Treatment Foster Care (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet’s Intensive Treatment
+    Foster Care (ITFC) Program provides counseling, case management, education, and
+    support for foster families caring for emotionally disturbed children.   These
+    specially trained families provide a stable alternative to institutional care
+    for children who require intensive home-based support.\nFoster Care, Intensive
+    Treatment Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes
+    for foster children.  Whether the foster care placement lasts for a few days or
+    a few years, we are committed to matching children with families where they will
+    thrive.  In addition, Aspiranet’s Intensive Treatment Foster Care (ITFC) Program
+    provides counseling, case management, education, and support for foster families
+    caring for emotionally disturbed children. These specially trained families provide
+    a stable alternative to institutional care for children who require intensive
+    home-based support.\nAdoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent,
+    loving, adoptive families for youth in foster care, and provides ongoing support
+    for adoptive families, including resources, education, crisis intervention, and
+    advocacy.\nAdoption (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet secures permanent,
+    loving, adoptive families for youth in foster care, and provides ongoing support
+    for adoptive families, including resources, education, crisis intervention, and
+    advocacy.\nAdoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent, loving,
+    adoptive families for youth in foster care, and provides ongoing support for adoptive
+    families, including resources, education, crisis intervention, and advocacy.\nOutpatient
+    Therapy (0-5, 6-10, 11-14, 15-19) Outpatient Therapy at home, school and community-based
+    sites, including crisis intervention, individual and group therapy, case management
+    and medication."
+  phoneText: 909-890-9022
+  internalNotes: |-
+    AfterCare
+    Hank McKee, Associate Core Division Director
+    hmckee@aspiranet.org
+    Tyiesha Coulson, Core Program Supervisor
+    tcoulson@aspiranet.org
+
+    Cal Learn
+    Hank McKee, Associate Core Division Director
+    hmckee@aspiranet.org
+    Kristopher Klise, Core Program Supervisor
+    kklise@aspiranet.org
+
+    Transitional Housing Placement +
+    Tonya McCampbell, Program Manager
+    tmccampbell@aspiranet.org
+
+    Transitional Housing Placement + Foster Care
+    Tonya McCampbell, Program Manager
+    tmccampbell@aspiranet.org
+
+    Foster Care
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Foster Care
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Intensive Treatment Foster Care
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Foster Care, Intensive Treatment Foster Care
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Adoption
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Adoption
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Erik Roth, Core Program Supervisor
+    eroth@aspiranet.org
+
+    Adoption
+    Gina Aguirre, Core Program Director
+    gaguirre@aspiranet.org
+    Stacie Bustos, Adoption Program Supervisor
+    sbustos@aspiranet.org
 - sys:
     id: 3jAi2DIWcUQIImAO0AiOsY
   name: Ventura
@@ -1043,38 +798,6 @@ programLocation:
     Alisha Honore-Harrell, Core Program Director
     ahonoreharrell@aspiranet.org
 - sys:
-    id: 1jMTJaRPi6cOq2O6qkseAg
-  name: Turlock Behavioral Health
-  location:
-    lat: 37.4999876
-    lon: -120.84390020000001
-  addressAsText: 420 E Canal Dr, Turlock, CA 95380, USA
-  program:
-  - Outpatient Therapy
-  - School-Based Risk Assessments and Therapy
-  - Therapeutic Behavioral Services
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: Outpatient Therapy, Therapeutic Behavioral Services, School-Based
-    Risk Assessments and Therapy (0-5, 6-10, 11-14, 15-19, 20+) Outpatient Therapy
-    at home, school and community-based sites, including crisis intervention, individual
-    and group therapy, case management and medication.  Therapeutic Behavioral Services
-    for children and youth at risk of high level placement such as group home, juvenile
-    hall, or hospitalization.  Includes a 24/7 crisis line and a primary clinician
-    for outpatient services.  School-based safety assessments and counseling services
-    for students at risk of being a danger to self or others.
-  phoneText: 209-6692583
-  internalNotes: |-
-    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
-    Shelley Southern, Core Program Director
-    ssouthern@aspiranet.org
-    Jessica Lunt, Core Program Manager
-    jlunt@aspiranet.org
-- sys:
     id: 1RFd82ScX6yiCe0IEoy8Wu
   name: Salinas
   location:
@@ -1108,6 +831,38 @@ programLocation:
     Program Supervisor\nkjohnson@aspiranet.org\n\nTherapeutic Behavioral Services,
     Home Alternative to Residential Treatment \nNancy Petrovic, Core Program Director\nnpetrovic@aspiranet.org\nCrystal
     Winn, Core Program Manager\ncwinn@aspiranet.org"
+- sys:
+    id: 1jMTJaRPi6cOq2O6qkseAg
+  name: Turlock Behavioral Health
+  location:
+    lat: 37.4999876
+    lon: -120.84390020000001
+  addressAsText: 420 E Canal Dr, Turlock, CA 95380, USA
+  program:
+  - Outpatient Therapy
+  - School-Based Risk Assessments and Therapy
+  - Therapeutic Behavioral Services
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: Outpatient Therapy, Therapeutic Behavioral Services, School-Based
+    Risk Assessments and Therapy (0-5, 6-10, 11-14, 15-19, 20+) Outpatient Therapy
+    at home, school and community-based sites, including crisis intervention, individual
+    and group therapy, case management and medication.  Therapeutic Behavioral Services
+    for children and youth at risk of high level placement such as group home, juvenile
+    hall, or hospitalization.  Includes a 24/7 crisis line and a primary clinician
+    for outpatient services.  School-based safety assessments and counseling services
+    for students at risk of being a danger to self or others.
+  phoneText: 209-6692583
+  internalNotes: |-
+    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
+    Shelley Southern, Core Program Director
+    ssouthern@aspiranet.org
+    Jessica Lunt, Core Program Manager
+    jlunt@aspiranet.org
 - sys:
     id: qW7Twj6dxeE0GYEI2GCEY
   name: Modesto
@@ -1172,58 +927,6 @@ programLocation:
     Transitional Housing Placement + Foster Care
     Tracy Rolfe, Core Program Director
     trolfe@aspiranet.org
-- sys:
-    id: 3qefslkPZeoy8cGAewEm42
-  name: Riverside THP+/THP+FC
-  location:
-    lat: 33.9532102
-    lon: -117.39136129999997
-  addressAsText: '3600 Central Ave #5, Riverside, CA 92506, USA'
-  program:
-  - Transitional Housing Placement+
-  - Transitional Housing Placement + Foster Care
-  ageLevel:
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: |-
-    Transitional Housing Placement+ (15-19, 20+) Transitional housing support program for former foster youth who are transitioning to adulthood out of the child welfare or probation systems. Provides a safe and supportive living environment while helping youth achieve self-sufficiency and learn life skills.
-    Transitional Housing Placement + Foster Care (15-19, 20+) An extended foster care placement option that bridges the gap for non-minor dependents who are no longer living in a foster home, but who may not yet be ready to transition into a supervised independent living placement.
-  phoneText: 951-729-4040
-  internalNotes: |-
-    Transitional Housing Placement +
-    Michele Gracia, Core Program Director
-    mgracia@aspiranet.org
-
-    Transitional Housing Placement + Foster Care
-    Michele Gracia, Core Program Director
-    mgracia@aspiranet.org
-- sys:
-    id: 4OJoO8og5GUKSIwokmWKi2
-  name: Santa Maria
-  location:
-    lat: 34.9337848
-    lon: -120.43463220000001
-  addressAsText: 204 E Enos Dr, Suite D, Santa Maria, CA 93454, USA
-  program:
-  - Adoption
-  - Foster Care
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  programAndAgeGroupAsText: |-
-    Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.
-    Adoption (0-5, 6-10, 11-14, 15-19) Aspiranet’s statewide adoption program is built on the belief that every child has the right to a permanent family that will provide him or her with love, security and a sense of belonging. Since 1998, Aspiranet has assisted over 1,000 adoptive families and has helped over 2,000 children transition from foster care to their own adoptive “forever families.”
-  phoneText: 805-473-8760
-  internalNotes: |-
-    Foster Care
-    Melinda Schneider, Core Program Manager
-    mschneider@aspiranet.org
-
-    Adoption
-    Melinda Schneider, Core Program Manager
-    mschneider@aspiranet.org
 - sys:
     id: 6mvOev4Q4oKImkK8skKKeM
   name: San Diego
@@ -1311,92 +1014,57 @@ programLocation:
     Lisolette Bouter, Core Program Supervisor
     lbouter@aspiranet.org
 - sys:
-    id: 1F9o7GdD1mc2gGQiEm8OSK
-  name: Sacramento
+    id: 3qefslkPZeoy8cGAewEm42
+  name: Riverside THP+/THP+FC
   location:
-    lat: 38.5633118
-    lon: -121.3337535
-  addressAsText: '9719 Lincoln Village Dr #401, Sacramento, CA 95827, USA'
+    lat: 33.9532102
+    lon: -117.39136129999997
+  addressAsText: '3600 Central Ave #5, Riverside, CA 92506, USA'
   program:
-  - Adoption
-  - Foster Care
-  - Transitional Housing Placement + Foster Care
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "Transitional Housing Placement + Foster Care (15-19,
-    20+) An extended foster care placement option that bridges the gap for non-minor
-    dependents who are no longer living in a foster home, but who may not yet be ready
-    to transition into a supervised independent living placement.\nFoster Care (0-5,
-    6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether
-    the foster care placement lasts for a few days or a few years, we are committed
-    to matching children with families where they will thrive. \nAdoption (0-5, 6-10,
-    11-14, 15-19) Aspiranet secures permanent, loving, adoptive families for youth
-    in foster care, and provides ongoing support for adoptive families, including
-    resources, education, crisis intervention, and advocacy."
-  phoneText: 916-366-1656
-  internalNotes: |-
-    Transitional Housing Placement + Foster Care
-    Alexis Peters, Core Program Director
-    apeters@aspiranet.org
-
-    Foster Care
-    Monica Ferrulli, Core Program Director
-    mferrulli@aspiranet.org
-
-    Adoption
-    Monica Ferrulli, Core Program Director
-    mferrulli@aspiranet.org
-- sys:
-    id: 2DlhlvQUTeyIsuYwWW0mAI
-  name: Stockton
-  location:
-    lat: 37.952555
-    lon: -121.28929729999999
-  addressAsText: '6 El Dorado St #510, Stockton, CA 95206, USA'
-  program:
-  - Adoption
-  - Crisis Stabilization
-  - Foster Care
   - Transitional Housing Placement+
   - Transitional Housing Placement + Foster Care
-  - Therapeutic Behavioral Services
   ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
   - 15-19
   - 20+
   programAndAgeGroupAsText: |-
-    Transitional Housing Placement + (15-19, 20+) Transitional housing support program for former foster youth who are transitioning to adulthood out of the child welfare or probation systems. Provides a safe and supportive living environment while helping youth achieve self-sufficiency and learn life skills.
+    Transitional Housing Placement+ (15-19, 20+) Transitional housing support program for former foster youth who are transitioning to adulthood out of the child welfare or probation systems. Provides a safe and supportive living environment while helping youth achieve self-sufficiency and learn life skills.
     Transitional Housing Placement + Foster Care (15-19, 20+) An extended foster care placement option that bridges the gap for non-minor dependents who are no longer living in a foster home, but who may not yet be ready to transition into a supervised independent living placement.
-    Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.
-    Adoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent, loving, adoptive families for youth in foster care, and provides ongoing support for adoptive families, including resources, education, crisis intervention, and advocacy.
-    Therapeutic Behavioral Services, Crisis Stabilization (0-5, 6-10, 11-14, 15-19, 20+) Services provided to children and youth at risk of high level placement such as group home, juvenile hall, or hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient services.
-  phoneText: 209-478-9862
+  phoneText: 951-729-4040
   internalNotes: |-
     Transitional Housing Placement +
-    Caryn Romero, Core Program Director
-    cromero@aspiranet.org
+    Michele Gracia, Core Program Director
+    mgracia@aspiranet.org
 
     Transitional Housing Placement + Foster Care
-    Caryn Romero, Core Program Director
-    cromero@aspiranet.org
-
+    Michele Gracia, Core Program Director
+    mgracia@aspiranet.org
+- sys:
+    id: 4OJoO8og5GUKSIwokmWKi2
+  name: Santa Maria
+  location:
+    lat: 34.9337848
+    lon: -120.43463220000001
+  addressAsText: 204 E Enos Dr, Suite D, Santa Maria, CA 93454, USA
+  program:
+  - Adoption
+  - Foster Care
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  programAndAgeGroupAsText: |-
+    Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.
+    Adoption (0-5, 6-10, 11-14, 15-19) Aspiranet’s statewide adoption program is built on the belief that every child has the right to a permanent family that will provide him or her with love, security and a sense of belonging. Since 1998, Aspiranet has assisted over 1,000 adoptive families and has helped over 2,000 children transition from foster care to their own adoptive “forever families.”
+  phoneText: 805-473-8760
+  internalNotes: |-
     Foster Care
-    Monica Ferrulli, Core Program Director
-    mferrulli@aspiranet.org
+    Melinda Schneider, Core Program Manager
+    mschneider@aspiranet.org
 
     Adoption
-    Monica Ferrulli, Core Program Director
-    mferrulli@aspiranet.org
-
-    Therapeutic Behavioral Services, Crisis Stabilization
-    Courtney Gibbs, Core Program Director
-    cgibbs@aspiranet.org
+    Melinda Schneider, Core Program Manager
+    mschneider@aspiranet.org
 - sys:
     id: 3otxCHCNkIkaecoe60ISUE
   name: Signal Hill
@@ -1521,50 +1189,92 @@ programLocation:
     Sandra Genova, Core Program Director
     sgenova@aspiranet.org
 - sys:
-    id: 3n4j16h7mo0mIaoEUucu0i
-  name: Palmdale
+    id: 1F9o7GdD1mc2gGQiEm8OSK
+  name: Sacramento
   location:
-    lat: 34.580509
-    lon: -118.10077690000003
-  addressAsText: 1607 E Palmdale Blvd, Suite D, Palmdale, CA 93550, USA
+    lat: 38.5633118
+    lon: -121.3337535
+  addressAsText: '9719 Lincoln Village Dr #401, Sacramento, CA 95827, USA'
   program:
-  - Collaborative Educational Supports SELPA
-  programAndAgeGroupAsText: Collaborative Educational Supports SELPA (N/A) Aspiranet
-    assists children in overcoming psychological and social challenges that are impacting
-    their ability to succeed in school.
-  phoneText: 661-859-2135
-  description: 'Aspiranet assists children in overcoming psychological and social
-    challenges that are impacting their ability to succeed in school.   '
-  internalNotes: |-
-    Collaborative Educational Supports SELPA
-    Yvonne Villa, Core Program Director
-    yvilla@aspiranet.org
-    Lisa Senette-Harris, Core Program Supervisor
-    lsenetteharris@aspiranet.org
-- sys:
-    id: 6aQtpex9zGcakgiGmGsm4K
-  name: Stanislaus
-  location:
-    lat: 37.6587239
-    lon: -121.03602280000001
-  addressAsText: 1620 Cummins Dr, Modesto, CA 95358, USA
-  program:
-  - Crisis Stabilization Program
-  - Crisis Intervention Program
-  - Outpatient Therapy
-  - Pathways to Wellbeing
-  - School-Based Risk Assessment Program
+  - Adoption
+  - Foster Care
+  - Transitional Housing Placement + Foster Care
   ageLevel:
   - 0-5
   - 6-10
   - 11-14
   - 15-19
-  programAndAgeGroupAsText: |
-    Crisis Intervention Program, Crisis Stabilization Program, Pathways to Wellbeing, Outpatient Therapy, School-Based Risk Assessment Program (0-5, 6-10, 11-14, 15-19) Crisis intervention services for children and youth who are in the emergency room due to danger to self or others. Crisis Stabilization services last for up to 30 days and respond within 1 hour of a referral to the local emergency room in order to complete a mental health and safety assessment of children and youth with a threat of harm to self or others.  Pathways to Wellbeing provides intensive care coordination, and intensive home-based and mental health services to children and youth in child welfare.  Outpatient Therapy at home, school and community-based sites, including crisis intervention, individual and group therapy, case management and medication. School-based safety assessments and counseling services for students at risk of being a danger to self or others.
-  phoneText: 209-576-1750
+  - 20+
+  programAndAgeGroupAsText: "Transitional Housing Placement + Foster Care (15-19,
+    20+) An extended foster care placement option that bridges the gap for non-minor
+    dependents who are no longer living in a foster home, but who may not yet be ready
+    to transition into a supervised independent living placement.\nFoster Care (0-5,
+    6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether
+    the foster care placement lasts for a few days or a few years, we are committed
+    to matching children with families where they will thrive. \nAdoption (0-5, 6-10,
+    11-14, 15-19) Aspiranet secures permanent, loving, adoptive families for youth
+    in foster care, and provides ongoing support for adoptive families, including
+    resources, education, crisis intervention, and advocacy."
+  phoneText: 916-366-1656
   internalNotes: |-
-    Cathy Abbott, Core Program Director
-    cabbott@aspiranet.org
+    Transitional Housing Placement + Foster Care
+    Alexis Peters, Core Program Director
+    apeters@aspiranet.org
+
+    Foster Care
+    Monica Ferrulli, Core Program Director
+    mferrulli@aspiranet.org
+
+    Adoption
+    Monica Ferrulli, Core Program Director
+    mferrulli@aspiranet.org
+- sys:
+    id: 2DlhlvQUTeyIsuYwWW0mAI
+  name: Stockton
+  location:
+    lat: 37.952555
+    lon: -121.28929729999999
+  addressAsText: '6 El Dorado St #510, Stockton, CA 95206, USA'
+  program:
+  - Adoption
+  - Crisis Stabilization
+  - Foster Care
+  - Transitional Housing Placement+
+  - Transitional Housing Placement + Foster Care
+  - Therapeutic Behavioral Services
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: |-
+    Transitional Housing Placement + (15-19, 20+) Transitional housing support program for former foster youth who are transitioning to adulthood out of the child welfare or probation systems. Provides a safe and supportive living environment while helping youth achieve self-sufficiency and learn life skills.
+    Transitional Housing Placement + Foster Care (15-19, 20+) An extended foster care placement option that bridges the gap for non-minor dependents who are no longer living in a foster home, but who may not yet be ready to transition into a supervised independent living placement.
+    Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.
+    Adoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent, loving, adoptive families for youth in foster care, and provides ongoing support for adoptive families, including resources, education, crisis intervention, and advocacy.
+    Therapeutic Behavioral Services, Crisis Stabilization (0-5, 6-10, 11-14, 15-19, 20+) Services provided to children and youth at risk of high level placement such as group home, juvenile hall, or hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient services.
+  phoneText: 209-478-9862
+  internalNotes: |-
+    Transitional Housing Placement +
+    Caryn Romero, Core Program Director
+    cromero@aspiranet.org
+
+    Transitional Housing Placement + Foster Care
+    Caryn Romero, Core Program Director
+    cromero@aspiranet.org
+
+    Foster Care
+    Monica Ferrulli, Core Program Director
+    mferrulli@aspiranet.org
+
+    Adoption
+    Monica Ferrulli, Core Program Director
+    mferrulli@aspiranet.org
+
+    Therapeutic Behavioral Services, Crisis Stabilization
+    Courtney Gibbs, Core Program Director
+    cgibbs@aspiranet.org
 - sys:
     id: 3KkLAnTfx6OcoMeACoeGEU
   name: Contra Costa
@@ -1649,134 +1359,395 @@ programLocation:
   description: Individualized services that address the needs of young adults aged
     14-25 years old with emotional and behavioral challenges.
 - sys:
-    id: 5darJVHHfGs2gscAqSS4Og
-  name: San Bernardino
+    id: 3n4j16h7mo0mIaoEUucu0i
+  name: Palmdale
   location:
-    lat: 34.069812
-    lon: -117.26939199999998
-  addressAsText: '720 E Carnegie Dr #250, San Bernardino, CA 92408, USA'
+    lat: 34.580509
+    lon: -118.10077690000003
+  addressAsText: 1607 E Palmdale Blvd, Suite D, Palmdale, CA 93550, USA
   program:
-  - Adoption
-  - AfterCare
-  - Cal Learn
-  - Foster Care
-  - Intensive Treatment Foster Care
+  - Collaborative Educational Supports SELPA
+  programAndAgeGroupAsText: Collaborative Educational Supports SELPA (N/A) Aspiranet
+    assists children in overcoming psychological and social challenges that are impacting
+    their ability to succeed in school.
+  phoneText: 661-859-2135
+  description: 'Aspiranet assists children in overcoming psychological and social
+    challenges that are impacting their ability to succeed in school.   '
+  internalNotes: |-
+    Collaborative Educational Supports SELPA
+    Yvonne Villa, Core Program Director
+    yvilla@aspiranet.org
+    Lisa Senette-Harris, Core Program Supervisor
+    lsenetteharris@aspiranet.org
+- sys:
+    id: 6aQtpex9zGcakgiGmGsm4K
+  name: Stanislaus
+  location:
+    lat: 37.6587239
+    lon: -121.03602280000001
+  addressAsText: 1620 Cummins Dr, Modesto, CA 95358, USA
+  program:
+  - Crisis Stabilization Program
+  - Crisis Intervention Program
   - Outpatient Therapy
-  - Transitional Housing Placement+
-  - Transitional Housing Placement + Foster Care
+  - Pathways to Wellbeing
+  - School-Based Risk Assessment Program
   ageLevel:
   - 0-5
   - 6-10
   - 11-14
   - 15-19
-  - 20+
-  programAndAgeGroupAsText: "AfterCare (15-19, 20+) Also known as Emancipated Youth
-    Services (EYS), AfterCare assists youth who are no longer in foster care and who
-    have not yet reached the age of 21.  Includes referral and linkage services, housing
-    assistance, bus passess, and work-related and education-related resources.\nCal
-    Learn (15-19) Case management support for parenting youth ages 13 to 19.  Provides
-    youth with an opportunity for educational and economic success by supporting them
-    in securing a high school diploma, GED, and job.\nTransitional Housing Placement
-    + (15-19, 20+) Transitional housing support program for former foster youth who
-    are transitioning to adulthood out of the child welfare or probation systems.
-    Provides a safe and supportive living environment while helping youth achieve
-    self-sufficiency and learn life skills.\nTransitional Housing Placement + Foster
-    Care (15-19, 20+) An extended foster care placement option that bridges the gap
-    for non-minor dependents who are no longer living in a foster home, but who may
-    not yet be ready to transition into a supervised independent living placement.\nFoster
-    Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes for foster children.
-    \ Whether the foster care placement lasts for a few days or a few years, we are
-    committed to matching children with families where they will thrive. \nFoster
-    Care (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet secures loving homes for foster
-    children.  Whether the foster care placement lasts for a few days or a few years,
-    we are committed to matching children with families where they will thrive.\nIntensive
-    Treatment Foster Care (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet’s Intensive Treatment
-    Foster Care (ITFC) Program provides counseling, case management, education, and
-    support for foster families caring for emotionally disturbed children.   These
-    specially trained families provide a stable alternative to institutional care
-    for children who require intensive home-based support.\nFoster Care, Intensive
-    Treatment Foster Care (0-5, 6-10, 11-14, 15-19) Aspiranet secures loving homes
-    for foster children.  Whether the foster care placement lasts for a few days or
-    a few years, we are committed to matching children with families where they will
-    thrive.  In addition, Aspiranet’s Intensive Treatment Foster Care (ITFC) Program
-    provides counseling, case management, education, and support for foster families
-    caring for emotionally disturbed children. These specially trained families provide
-    a stable alternative to institutional care for children who require intensive
-    home-based support.\nAdoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent,
-    loving, adoptive families for youth in foster care, and provides ongoing support
-    for adoptive families, including resources, education, crisis intervention, and
-    advocacy.\nAdoption (0-5, 6-10, 11-14, 15-19, 20+) Aspiranet secures permanent,
-    loving, adoptive families for youth in foster care, and provides ongoing support
-    for adoptive families, including resources, education, crisis intervention, and
-    advocacy.\nAdoption (0-5, 6-10, 11-14, 15-19) Aspiranet secures permanent, loving,
-    adoptive families for youth in foster care, and provides ongoing support for adoptive
-    families, including resources, education, crisis intervention, and advocacy.\nOutpatient
-    Therapy (0-5, 6-10, 11-14, 15-19) Outpatient Therapy at home, school and community-based
-    sites, including crisis intervention, individual and group therapy, case management
-    and medication."
-  phoneText: 909-890-9022
+  programAndAgeGroupAsText: |
+    Crisis Intervention Program, Crisis Stabilization Program, Pathways to Wellbeing, Outpatient Therapy, School-Based Risk Assessment Program (0-5, 6-10, 11-14, 15-19) Crisis intervention services for children and youth who are in the emergency room due to danger to self or others. Crisis Stabilization services last for up to 30 days and respond within 1 hour of a referral to the local emergency room in order to complete a mental health and safety assessment of children and youth with a threat of harm to self or others.  Pathways to Wellbeing provides intensive care coordination, and intensive home-based and mental health services to children and youth in child welfare.  Outpatient Therapy at home, school and community-based sites, including crisis intervention, individual and group therapy, case management and medication. School-based safety assessments and counseling services for students at risk of being a danger to self or others.
+  phoneText: 209-576-1750
   internalNotes: |-
-    AfterCare
-    Hank McKee, Associate Core Division Director
-    hmckee@aspiranet.org
-    Tyiesha Coulson, Core Program Supervisor
-    tcoulson@aspiranet.org
+    Cathy Abbott, Core Program Director
+    cabbott@aspiranet.org
+programs:
+- sys:
+    id: 6gFvoAGrIckQwGoM8SAGqE
+  title: 'Foster and Adoptive Families '
+  landingPageTextBlurb: 'We Believe: Every child deserves to be loved and cared for
+    inside a stable, healthy family.'
+  order: 1
+  subtitle: Foster families adoptive subtitle
+  copyTop: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+  photo:
+    title: 04 program hero img  KAwSW
+    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
+  pullQuote: quote
+  copyRest: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    Cras dapibus.
+  fastFact1Number: '90'
+  fastFact1Text: 'The number of Californian children per day entering foster care '
+  fastFact2Number: '50,000'
+  fastFact2Text: 'The number of Californian children in foster care '
+  fastFact3Number: '2,000'
+  fastFact3Text: Since 1999, the number of children Aspiranet transitioned from foster
+    care to adoption
+  howYouCanHelpCopy: 'Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home? '
+  howYouCanHelpCta: I'd like to provide a home for a child
+- sys:
+    id: XBkqWJ1H8qowuEKW6McqM
+  title: Residential
+  landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
+    a second chance to fulfill their potential'
+  order: 4
+  subtitle: 'Healthy environments build resilience '
+  copyTop: "Aspiranet’s short term residential treatment program offers critical support
+    to youth in crisis, preparing them to be re-united with their families.  \n\nOur
+    residential program represents the highest level of care that is available to
+    children and youth in California.  Over six to 18 months, each participant is
+    fully supported through individual counseling, group counseling, psychiatric treatment
+    and educational services in single family home settings.  "
+  photo:
+    title: placeholder3
+    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
+  pullQuote: 'Pull quote '
+  copyRest: "Our programs offer a structured, enriching, healing environment where
+    children and youth in crisis can move forward with their head held high, ready
+    to make the most of a second chance. \n\nSafety is our number one priority, and
+    all residents are expected to live up to a code of conduct that promotes mutual
+    respect and responsibility for the daily routine on campus.\n\nExperienced staff
+    work to guide youth back to a healthy place where they can be responsible and
+    trusted members of the community.   \n\nBefore they return home to their families,
+    graduates put their handprints in the cement pathway that runs through the center
+    of the residential center, a symbol that they are graduating and moving forward
+    towards a brighter future.    "
+  fastFact1Number: 70%
+  fastFact1Text: 'Percentage of youth in the juvenile justice system with at least
+    one mental health condition '
+  fastFact2Number: '156'
+  fastFact2Text: 'Youth benefited from these Aspiranet residential services in 2015 '
+  fastFact3Number: '1987'
+  fastFact3Text: 'Year Aspiranet launched our residential-based programs '
+  howYouCanHelpCopy: To be added at later date.
+- sys:
+    id: 5XB0qb2FvqMM8I6IY2UmWc
+  title: 'Intensive Home-Based Services '
+  landingPageTextBlurb: 'We believe: When children and families have access to the
+    support and resources to thrive, there''s no limit to what they can accomplish. '
+  order: 5
+  subtitle: 'A proven model of family support '
+  copyTop: "Aspiranet offers families a network of individualized resources that meet
+    them where they are and take them on a journey to where positive outcomes are
+    possible.  \n\nResearch shows that services that are wrapped around the family
+    are more effective than institutional care and can unlock positive outcomes such
+    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
+    services are provided in the home and in the community and are available when
+    families need them – after school, in the mornings, and on the weekends. "
+  photo:
+    title: 5 program intensive  HHJL7
+    url: //images.contentful.com/e5ehlcazegi0/4e5cUIj2tyIGEMIuCQCCWE/27fad7fc7b78aa1b52ec6fa4a898d070/5_program_intensive__HHJL7.jpg
+  pullQuote: 'quote goes here '
+  copyRest: "Our services engage all members of the family, including relatives and
+    non-relative extended family members, in changing behaviors that improve their
+    relationships and promote growth.  \nFamily members, caregivers, teachers and
+    other service providers work together so children have opportunities to practice
+    positive life skills and get involved in community activities. \n\nWhether it
+    is referring someone within the Aspiranet network, or sharing community contacts
+    on behalf of families, or educating policymakers on needed changes, we are dedicated
+    to facilitating the best possible outcome within our family support system.  \n\nThe
+    ultimate goal is to give children the tools and support network to live and grow
+    successfully with their birth families, relative caregivers, or foster and adoptive
+    families. \n"
+  fastFact1Number: '700'
+  fastFact1Text: 'Families that benefited from our high level intervention and treatment
+    services '
+  fastFact2Number: '140 '
+  fastFact2Text: Aspiranet locations across California
+  fastFact3Number: '8.7'
+  fastFact3Text: 'Number of child abuse and neglect in California per one thousand
+    children '
+  howYouCanHelpCopy: To be added at later date.
+- sys:
+    id: 4WGNwaPSqcSwSueou6keQ0
+  title: 'Transitional Aged Youth '
+  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
+    from which to launch their futures '
+  order: 3
+  subtitle: 'A bridge from youth to independence '
+  copyTop: "Aspiranet Transitional Age Youth programs are a bridge between foster
+    care and independence.\n\nWe are dedicated to helping our youth develop necessary
+    life skills, self-reliance, and confidence so they can achieve their goals for
+    the future. "
+  photo:
+    title: 5 tay 1
+    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
+  pullQuote: Pull quote
+  copyRest: "We collaborate with a statewide network of partners to ensure that youth
+    who are aging out of foster care are equipped to navigate the hurdles of young
+    adulthood and become productive members of their communities.\n\nWe help with
+    basic needs like transportation and housing, as well as mental health and emotional
+    support.  \n\nAnd we assist youth in securing a safe place to live, ongoing education,
+    job readiness training and employment.  \n\nOur programs are a vital launching
+    pad, helping youth lift off to pursue their life dreams and exercise their full
+    potential. "
+  fastFact1Number: '5,000'
+  fastFact1Text: 'Yearly number of California young adults who "age out" of the foster
+    care system '
+  fastFact2Number: '1,900'
+  fastFact2Text: 'Number of young adults we supported in 2015 '
+  fastFact3Number: '14'
+  fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
+  howYouCanHelpCopy: To be added at later date.
+- sys:
+    id: 5B2oeqvKA8QciIA8gycoe8
+  title: 'Family & Community '
+  landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
+    and support in their lives.'
+  order: 2
+  subtitle: 'Strong foundations for healthy communities '
+  copyTop: "Aspiranet Family and Community programs prepare children for their futures,
+    strengthen life and parenting skills, and connect families with networks of support
+    in their community.  \n\nWe take a proactive, responsive, and forward-thinking
+    approach to the growing needs of the communities we serve.  We advocate with and
+    for our families to ensure the necessary resources are available for their success.
+    \ \n\nWe incorporate the Strengthening Families framework into our practices.
+    \ Research confirms that families who have knowledge of parenting and child development,
+    resilience, social and emotional skills, and social connections and support in
+    times of need are able to thrive as strong families.  \n"
+  photo:
+    title: 5 foster   adoptive  75qsj
+    url: //images.contentful.com/e5ehlcazegi0/6JwtMzxbgWmQYOKqEeci6M/a8ddc5372a0e08a8a278723b67cf0e6f/5_foster___adoptive__75qsj.jpg
+  pullQuote: Pull Quote
+  copyRest: "We help families develop these skills resulting in increased family stability,
+    enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
+    community-based family resource centers offer individual family support, child
+    development courses, parenting education, school readiness programs, and more.
+    \ Our home-based visiting programs empower parents by helping them set and achieve
+    goals for themselves and their families.  \n\nAspiranet school-based programs
+    improve kindergarten through third grade literacy, and equip underserved, middle
+    and high school youth with the tech skills they need to be successful in today’s
+    global economy.\n\nWe know that healthy families build healthy communities.  Families
+    can count on us to support them when they most need help."
+  fastFact1Number: '3,806'
+  fastFact1Text: 'Families reached by Aspiranet early intervention and prevention
+    services '
+  fastFact2Number: '140'
+  fastFact2Text: Aspiranet locations across California
+  fastFact3Number: '7,309'
+  fastFact3Text: 'Students and volunteers mobilized '
+  howYouCanHelpCopy: To be added at later date.
+- sys:
+    id: 17pijT5KeCiYscE4GoQAO0
+  title: 'Behavioral Health '
+  landingPageTextBlurb: 'We believe: Caring and support helps families through challenging
+    times. '
+  order: 6
+  subtitle: 'Strong families for life '
+  copyTop: "Children and families experiencing difficult times can heal in an environment
+    that offers the support, respect and skills they need to build resilience.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nAspiranet provides a coordinated network
+    of support that helps families stay together and leads to more successful family
+    interactions on a daily basis.  "
+  photo:
+    title: 5 program behavioral DaLTa
+    url: //images.contentful.com/e5ehlcazegi0/6KrStXfbyw2cKw2gAe0CWG/033c2dd4eb1e62b23221e149850493e4/5_program_behavioral_DaLTa.jpg
+  pullQuote: 'quote '
+  copyRest: |
+    A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
 
-    Cal Learn
-    Hank McKee, Associate Core Division Director
-    hmckee@aspiranet.org
-    Kristopher Klise, Core Program Supervisor
-    kklise@aspiranet.org
+    Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
 
-    Transitional Housing Placement +
-    Tonya McCampbell, Program Manager
-    tmccampbell@aspiranet.org
-
-    Transitional Housing Placement + Foster Care
-    Tonya McCampbell, Program Manager
-    tmccampbell@aspiranet.org
-
-    Foster Care
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Foster Care
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Intensive Treatment Foster Care
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Foster Care, Intensive Treatment Foster Care
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Adoption
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Adoption
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Erik Roth, Core Program Supervisor
-    eroth@aspiranet.org
-
-    Adoption
-    Gina Aguirre, Core Program Director
-    gaguirre@aspiranet.org
-    Stacie Bustos, Adoption Program Supervisor
-    sbustos@aspiranet.org
+    We stay the course with our families, empowering parents by improving the quality of the parent-child relationship and helping to ensure long-term family success.
+  fastFact1Number: 1 in 6
+  fastFact1Text: 'California adults with a mental health need '
+  fastFact2Number: 20%
+  fastFact2Text: 'Youth aged 13-18 who have had a severe mental disorder '
+  fastFact3Number: '2,268'
+  fastFact3Text: 'Children and families touched by Aspiranet''s behavioral health
+    staff in 2015 '
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+  howYouCanHelpCta: I’d like to provide a home for a child
+blogCategory:
+- sys:
+    id: 1tVzFcCfhm2CIs0IgM2Y2w
+  name: TAY
+- sys:
+    id: 18iZ5xQdYMSMKsmAuuUoG8
+  name: Intensive Home-Based Services
+- sys:
+    id: 4N2w87yGUEWmIg4EGqU2gW
+  name: Family and Community Services
+- sys:
+    id: 5hiY7E0J7q24AKcqk8QceI
+  name: Foster and Adoptive Families
+- sys:
+    id: obRemBMgzQIOs2OOoy0AA
+  name: Residential
+- sys:
+    id: YkYuUFWToki6QquKm04yc
+  name: Foster and Adoptive Services
+blogTag:
+- sys:
+    id: aj45ghA27S2OgskKa4Agm
+  name: Adoption
+- sys:
+    id: 4bNO0ekSS4yq8CuWOYCcCi
+  name: Hope
+- sys:
+    id: 3ihYDCzp0ISOE644OmscMs
+  name: THP+
+- sys:
+    id: 2rpQXkICnOQqkYe8KewUmo
+  name: Youth
+- sys:
+    id: 2f4F4fvzne6Ma82egMgaks
+  name: Integrity
+- sys:
+    id: 1eHWOXJsFY2IuKmoOUa8WK
+  name: Foster and Adoptive Services
+- sys:
+    id: 4MPGYiEPUccOgeOwCO6SqY
+  name: Courage
+- sys:
+    id: 3z7QQ5fttYAG6QWgEs6cy0
+  name: Reunification
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster
+- sys:
+    id: 5V3QqYRbCEeYmqyMOKqqAo
+  name: Respect
+- sys:
+    id: 7sF3shCds4aqymKSu6w0a
+  name: First Five Center
+- sys:
+    id: 6oqIUvAvUkK8muQigAAuCW
+  name: Community
+- sys:
+    id: 4p1GBu4QNyusWU4scuu6QK
+  name: Residential
+- sys:
+    id: 4FYoyfpg3u0K2Qu0qsOKgm
+  name: Staff
+- sys:
+    id: 41zCNoeNrWSKuSuMQKW0o0
+  name: Family
+programHosted:
+- sys:
+    id: 4uguFkrZzyQoaUEKiOAYwi
+  title: Hosted External Program
+  desiredUrl: hosted-external-program
+  subtitle: Healthy environments build resilience
+  copyTop: Aspiranet’s short term residential treatment program offers critical support
+    to youth in crisis, preparing them to be re-united with their families. Our residential
+    program represents the highest level of care that is available to children and
+    youth in California. Over six to 18 months, each participant is fully supported
+    through individual counseling, group counseling, psychiatric treatment and educational
+    services in single family home settings.
+  photo:
+    title: placeholder3
+    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
+  pullQuote: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt
+  copyRest: Our programs offer a structured, enriching, healing environment where
+    children and youth in crisis can move forward with their head held high, ready
+    to make the most of a second chance. Safety is our number one priority, and all
+    residents are expected to live up to a code of conduct that promotes mutual respect
+    and responsibility for the daily routine on campus. Experienced staff work to
+    guide youth back to a healthy place where they can be responsible and trusted
+    members of the community. Before they return home to their families, graduates
+    put their handprints in the cement pathway that runs through the center of the
+    residential center, a symbol that they are graduating and moving forward towards
+    a brighter future.
+  fastFact1Number: 70%
+  fastFact1Text: Percentage of youth in the juvenile justice system with at least
+    one mental health condition
+  fastFact2Number: '156'
+  fastFact2Text: Youth benefited from these Aspiranet residential services in 2015
+  fastFact3Number: '1987'
+  fastFact3Text: Year Aspiranet launched our residential-based programs
+  howYouCanHelpCopy: How you can help
+  howYouCanHelpCta: How you can help CTA
+campain:
+- sys:
+    id: 3nasDfII8ESiAEcM0Yc6SK
+  title: 'Second campaign '
+  titleAlign: right
+  image:
+    title: +31411754456 2f15df3718 o
+    url: //images.contentful.com/e5ehlcazegi0/qi0wMWcNMsIWmssQk8MGg/51f34ce4670e2c387dcf7cbe4c7e77b3/_31411754456_2f15df3718_o.jpg
+  campaignPartners: Starbucks
+  campaignUrl: url-to-campaign
+  order: 2
+  ctaButtonCopy: Donate now
+  ctaUrl: /donate/now
+- sys:
+    id: 4rqSPhHwhqoGwCGCYucUem
+  title: A woman with big ambitions
+  titleAlign: right
+  image:
+    title: 01 homepage hero img ERnDC
+    url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
+  campaignUrl: /url.com
+  order: 2
+  ctaButtonCopy: Join the program
+  ctaUrl: donate/campaign
+- sys:
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: 'Third campaign '
+  titleAlign: left
+  image:
+    title: 01 homepage hero img D9X9H
+    url: //images.contentful.com/e5ehlcazegi0/4KqJCvpJ0I8gOAcc4mQqcE/5cd4658b35eb5cef1bf730308ad4e9f7/01_homepage_hero_img_D9X9H.jpg
+  campaignUrl: link-to-third-campaign
+  order: 3
 divisionHeads:
 - sys:
     id: 1kqKjx09PuoUIKO8meAIg2
@@ -1803,6 +1774,125 @@ divisionHeads:
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+fosterAdoptiveFamilies:
+- sys:
+    id: 4KJHTjAjwsEUM2IAI0Y8YQ
+  beAFosterFamilyTab: "When a court determines that a child cannot continue to live
+    with their birth parents due to concerns for their safety and well-being, Aspiranet
+    is committed to securing a safe and nurturing family environment for that child.\n
+    \nWe are thoughtful and trustworthy in how we match children and youth with our
+    families, looking for the best fit where both can be successful. \n \nWe recruit,
+    screen and approve skilled and caring foster parents, guiding them in becoming
+    a healing resource to children who have experienced trauma and adversity.  We
+    work in partnership with our families to provide training and ongoing supports
+    until children are able to return home safely."
+  fosterFamilyPhotoFull:
+    title: 04 program hero img  KAwSW
+    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
+  fosterFamilyPhotoSmall:
+    title: 01 homepage img v2 4
+    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
+  fosterFamilyPullQuote: 'Be a foster family quote '
+  adoptAChildTabCopy: "When returning home is not an option, we partner with children
+    and families to develop a plan for life long connections that may include adoption.
+    \ In addition, we provide education, resources and support for families at all
+    stages of the adoption process. \n \nEvery family’s experience is different, and
+    every family is unique, whether they are a foster or adoptive family, relative,
+    or extended family member.\n \nIn working with our families our goal is always
+    the same – to maximize opportunities for long-term success and to support them
+    every step of the way."
+  adoptAChildPhotoFull:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
+  adoptAChildPhotoSmall:
+    title: 01 homepage img v2 2
+    url: //images.contentful.com/e5ehlcazegi0/6Q1xJU2CXuEio4cgySIGkK/9c369d88a51ea494a3bdd47511a72b7c/01_homepage_img_v2_2.jpg
+  adoptAChildPullQuote: Adopt a child quote
+  pageCopyRest: "When a court determines that a child cannot continue to live with
+    their birth parents due to concerns for their safety and well-being, Aspiranet
+    is committed to securing a safe and nurturing family environment for that child.\n
+    \nWe are thoughtful and trustworthy in how we match children and youth with our
+    families, looking for the best fit where both can be successful. \n \nWe recruit,
+    screen and approve skilled and caring foster parents, guiding them in becoming
+    a healing resource to children who have experienced trauma and adversity.  We
+    work in partnership with our families to provide training and ongoing supports
+    until children are able to return home safely.\n \nWhen returning home is not
+    an option, we partner with children and families to develop a plan for life long
+    connections that may include adoption.  In addition, we provide education, resources
+    and support for families at all stages of the adoption process. \n \nEvery family’s
+    experience is different, and every family is unique, whether they are a foster
+    or adoptive family, relative, or extended family member.\n"
+  steps: |-
+    1. Orientation – You will watch a brief online introductory video to becoming a foster parent with Aspiranet. We can also send a physical copy of the orientation if you do not have internet access. Online orientation takes approximately 30 minutes. Apply now.
+    2. PRIDE Training – Our foster care pre-certification classes are conducted at your local Aspiranet office. We schedule these trainings on a monthly basis at times convenient to both conventional and nonconventional work schedules.
+    3. Paperwork Completion and Background Requirements – Your local Aspiranet office will work with you to complete all foster parent certification paperwork, including criminal background checks, DMV record reports, CPR and First Aid training, TB testing and application forms.
+    4. Interview – We view the interview process as an opportunity to learn about your unique skills and needs as a foster parent with Aspiranet.
+    5. Home Study – This process will ensure that your home is compliant with applicable home safety laws for foster parents in the state of California. We have plenty of resources to prepare you for this visit ahead of time.
+  requirements: |
+    - Be 21 years of age or older
+    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
+    - Be able to support their current household on their current income, without receiving assistance
+    - Attend and complete all Aspiranet Parent Education classes
+    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
+    - Includes everyone age 18 and older living in the home
+    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
+    - Complete a standard first aid course that includes adult, child and infant CPR
+    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
+    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
+    - 10-year DMV driving record and proof of insurance must be submitted
+    - Participate in all family assessment interviews
+    - Complete and pass a home fire and safety inspection
+    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
+    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
+
+    Home requirements include:
+
+    - Adequate space for a child
+    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
+    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
+    - Adults may not share bedrooms with children, unless the child is under 2 years of age
+    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
+    - Locks on cabinets (for medications, household toxics, etc.)
+    - Fire extinguisher (2A10BC) on each level of the home
+    - Smoke detectors – minimum of two
+    - First aid kit and manual
+
+    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
+
+    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
+    - If the pool is above ground, a locking or removable ladder may be used
+
+    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
+  faq: |-
+    __Do I have a say in the child(ren) placed in my home?__
+
+    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
+
+    __How long does it take to become an Aspiranet foster parent?__
+
+    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
+
+    __Can anyone be an Aspiranet foster parent?__
+
+    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
+
+    __Would a child’s family be involved while a child was living in my home?__
+
+    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
+
+    __How will Aspiranet help me if I have a child with difficult behaviors?__
+
+    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
+popup:
+- sys:
+    id: wUjJa0X6DeQmM0gIe2eMI
+  title: This is the first popup
+  content: bla bla
+- sys:
+    id: 4aF6s5Eq080u0aIcEACAu2
+  title: Example Popup
+  content: This popup will redirect you to the blog if you click __OK__
+  urlToRedirectTo: /blog
 rootWebsite:
 - sys:
     id: 2ffm5MoVtiUYoSWiqwUGgI
@@ -1819,9 +1909,8 @@ rootWebsite:
   homepageCareerText: "### Work for a place of deep meaning and impact.\n\nAspiranet
     staff do whatever it takes to keep families together. We offer love and support
     to children and youth in need. "
-  homepageFosterText: "### Raise a bright future\n#### Aspiranet foster and adoptive
-    programs work every day to connect children, youth, and young adults to safe,
-    caring relationships that can last a lifetime.  "
+  homepageFosterText: "### Raise a bright future\n#### We connect children, youth
+    and young adults to safe, caring relationships that can last a lifetime.  "
   footerSignupText: |+
     ### Sign up for updates
     #### Sign up for Aspiranet updates and stories of our courageous families.
@@ -1834,17 +1923,17 @@ rootWebsite:
     and depth of services for children and youth from birth through adulthood. We
     take a proactive, responsive and forward-thinking approach to the growing needs
     of the communities we serve. "
-  ourApproachTogetherText: "### Together we can make a difference\n\n#### Our staff
-    knows they are better together, which is why our cross functional teams join forces
-    to offer outstanding care and attentio to children and familes. Because we offer
-    a holistic and all-encompassing approach for every family, child and youth who
-    comes into our care, our team is equally diverse, inclusive and open&ndash;minded. "
+  ourApproachTogetherText: "### Together we can make a difference\n\n#### Our organizational
+    culture is defined by the values of respect, integrity, courage and hope. Our
+    staff know they are better together, which is why our teams join forces to offer
+    outstanding care and attention to children and families. We need talented and
+    committed people, like you, to bring our mission home. "
   ourApproachProgramFinder: "### We are there for children and families across California\nOur
-    size and scope allows us to touch the lives of thousands of family, but our focus
+    size and scope allow us to touch the lives of thousands of families and our focus
     is always on offering outststanding and personalized care. We collaborate with
-    a statewide network of partners--government, county partners and more--to ensure
-    that families are equipped to navigate life's ups and downs and to find pathways
-    to success, however they define it. "
+    a statewide network of government and county partners to ensure that families
+    are equipped to navigate life's ups and downs and to find pathways to success,
+    however they define it. "
   programLandingHeader: |-
     # Our Programs
     &mdash;
@@ -1856,10 +1945,10 @@ rootWebsite:
     <h4 class="round">Connect with us! Learn more about our work with thousands of children and families throughout California.</h4>
 
     Aspiranet provides families facing emotional and behavioral challenges with an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
-  aboutHeader: '#### For more than 40 years, Aspiranet has been dedicated to offering
-    outstanding services that impact more than 17,000 families at 44 community-based
-    sites statewide.  Our services work together so that children thrive, families
-    are empowered, and communities are strengthened.'
+  aboutHeader: '#### Aspiranet offers outstanding services that impact more than 35,000
+    parents, youth and children at its 33 community-based sites each year. For more
+    than 40 years our services have worked together so children can thrive, families
+    are strengthened and communities are empowered.'
   aboutVision: "# Our vision\n\n#### Aspiranet envisions a world in which all children
     and youth are loved and cared for and all families have the resources to thrive.
     \ \n"
@@ -1902,12 +1991,9 @@ rootWebsite:
     <h4 class="round">Have fun</h4>
     Our work is vital for families and we take it seriously, but we also value a fun and fast moving workplace that lets you be you.
   contactAddress: |-
-    400 Oyster point Blvd
-
-    #501, South San Francisco
-
-    CA 94080
-  contactPhoneNumber: +1 510-495-4966
+    400 Oyster Point Blvd #501
+    South San Francisco, CA 94080
+  contactPhoneNumber: 650-866-4080
   hipaaPrivacyNotice: |-
     ### Notice of HIPAA Privacy Practices
 
@@ -1937,13 +2023,36 @@ rootWebsite:
 
     Please contact us at Aspiranet if you have any questions about this policy.
   donateThankYou: Thank you for your donation.
-popup:
+seniorExecutive:
 - sys:
-    id: wUjJa0X6DeQmM0gIe2eMI
-  title: This is the first popup
-  content: bla bla
+    id: 2bapNK1zLKEIQo6gqomyIG
+  name: John Smith
+  desiredUrl: john-smith
+  position: Senior Researcher
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 0
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 - sys:
-    id: 4aF6s5Eq080u0aIcEACAu2
-  title: Example Popup
-  content: This popup will redirect you to the blog if you click __OK__
-  urlToRedirectTo: /blog
+    id: 1Nlzc3r93igA4kKoqsMWiu
+  name: John Doe
+  desiredUrl: john-doe
+  position: Senior Executive
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -169,7 +169,13 @@
 			background-color: $blue;
 		}
 		#tab-1, #tab-2 {
-			.grid {
+			.img-settings {
+    			min-height: 500px;
+    			.button a {
+    				width: 225px;
+    			}
+    		}
+			.tab-content {
 				margin-top: -8em;
 				position: relative;
 				.col-8-12 {

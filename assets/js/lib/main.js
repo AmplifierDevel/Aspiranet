@@ -39,9 +39,7 @@ $(document).ready(function(){
       var active, content, links = $(this).find('a');
 
       active = links.first().addClass('active');
-      console.log(active);
       content = $(active.attr('href'));
-      console.log('content: '+ content);
       links.not(':first').each(function () {
         $($(this).attr('href')).hide();
       });
@@ -56,13 +54,17 @@ $(document).ready(function(){
       });
     });
 
-    $('.campaign-slider').unslider({
+	$('.stories-slider').unslider({
+		autoplay: true,
+		infinite: true,
+		delay: 6000
+	});
+	 $('.campaign-slider').unslider({
 		arrows: false,
 		autoplay: true,
 		infinite: true,
 		delay: 6000
 	});
-
 	$('.similar-posts-wrapper').unslider({
 		arrows: true,
 		autoplay: false,
@@ -73,7 +75,6 @@ $(document).ready(function(){
 			next: '<a class="unslider-arrow next"><p class="small caps round color-orange no-margin-bottom">Next post --></p></a>',
 		}
 	});
-	
 	// searching for orphans TODO: make sure it doesn't affect html tags
    // $('p, h3, h4').each(function(){
    //      var string = $(this).html();

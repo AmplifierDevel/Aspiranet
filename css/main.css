@@ -1563,10 +1563,15 @@ p.attribution, p.attribution a {
 .foster-and-adoptive-families .individual-program .block-overlap {
   background-color: #459BBC; }
 
-.foster-and-adoptive-families .individual-program #tab-1 .grid, .foster-and-adoptive-families .individual-program #tab-2 .grid {
+.foster-and-adoptive-families .individual-program #tab-1 .img-settings, .foster-and-adoptive-families .individual-program #tab-2 .img-settings {
+  min-height: 500px; }
+  .foster-and-adoptive-families .individual-program #tab-1 .img-settings .button a, .foster-and-adoptive-families .individual-program #tab-2 .img-settings .button a {
+    width: 225px; }
+
+.foster-and-adoptive-families .individual-program #tab-1 .tab-content, .foster-and-adoptive-families .individual-program #tab-2 .tab-content {
   margin-top: -8em;
   position: relative; }
-  .foster-and-adoptive-families .individual-program #tab-1 .grid .col-8-12, .foster-and-adoptive-families .individual-program #tab-2 .grid .col-8-12 {
+  .foster-and-adoptive-families .individual-program #tab-1 .tab-content .col-8-12, .foster-and-adoptive-families .individual-program #tab-2 .tab-content .col-8-12 {
     margin-top: 8em;
     position: relative; }
 
