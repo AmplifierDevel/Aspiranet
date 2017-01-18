@@ -195,6 +195,57 @@
 					position: relative;
 				}
 			}
+			.stories-section {
+				.button {
+					margin-top: 3em;
+				}
+			}
+			.quote-section {
+				padding-right: 0;
+				.color-block-image {
+					width: 400px;
+					height: 290px;
+	    			margin-left: -20px;
+	    			div {
+	    				width: 400px;
+						height: 290px;
+						background-size: cover;
+	    			}
+	    		}
+	    		.pink {
+	    			height: 500px;
+	    		} 
+	    		h2 {
+	    			color: #b672a9;
+	    			margin-bottom: 0; 
+	    			margin-top: 0;
+	    			padding-top: 15px;
+	    		}
+	    		h3 {
+	    			font-family: $stack-serif;
+	    			padding: 0 1.7em;
+	    			margin: 0 0 20px 0;
+	    			font-style: italic;
+	    		}
+			}
+			.story-slider-item {
+				.col-1-2 {
+					min-height: 320px;
+					margin: 0;
+					&:first-of-type {
+						border-top-left-radius: 4px;
+						border-bottom-left-radius: 4px;
+					}
+					&:nth-of-type(2) {
+						border-top-right-radius: 4px;
+						border-bottom-right-radius: 4px;
+						padding: 20px;
+					}
+					a:hover {
+						color: $blue-hover;
+					}
+				}
+			}
 		}
 		.links-box {
 			padding: 35px;

@@ -771,6 +771,9 @@ h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.y
 h1.pink, h2.pink, h3.pink, h4.pink, h5.pink, h6.pink, p.pink, li.pink, a.pink {
   color: #CA8ABC; }
 
+h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey, p.grey, li.grey, a.grey {
+  color: #bebebe; }
+
 .page-content, footer {
   top: 100px;
   position: relative; }
@@ -996,6 +999,26 @@ ul li {
 
 .text-center {
   text-align: center !important; }
+
+.flex-container {
+  max-width: 1780px;
+  padding: 0;
+  margin: 0 auto;
+  float: none !important;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  float: left;
+  -webkit-align-items: stretch;
+  align-items: stretch; }
+  @media screen and (max-width: 767px) {
+    .flex-container {
+      display: block; } }
 
 .img-settings {
   background-repeat: no-repeat;
@@ -1589,6 +1612,45 @@ p.attribution, p.attribution a {
   .foster-and-adoptive-families .individual-program #tab-1 .tab-content .col-8-12, .foster-and-adoptive-families .individual-program #tab-2 .tab-content .col-8-12 {
     margin-top: 8em;
     position: relative; }
+
+.foster-and-adoptive-families .individual-program #tab-1 .stories-section .button, .foster-and-adoptive-families .individual-program #tab-2 .stories-section .button {
+  margin-top: 3em; }
+
+.foster-and-adoptive-families .individual-program #tab-1 .quote-section, .foster-and-adoptive-families .individual-program #tab-2 .quote-section {
+  padding-right: 0; }
+  .foster-and-adoptive-families .individual-program #tab-1 .quote-section .color-block-image, .foster-and-adoptive-families .individual-program #tab-2 .quote-section .color-block-image {
+    width: 400px;
+    height: 290px;
+    margin-left: -20px; }
+    .foster-and-adoptive-families .individual-program #tab-1 .quote-section .color-block-image div, .foster-and-adoptive-families .individual-program #tab-2 .quote-section .color-block-image div {
+      width: 400px;
+      height: 290px;
+      background-size: cover; }
+  .foster-and-adoptive-families .individual-program #tab-1 .quote-section .pink, .foster-and-adoptive-families .individual-program #tab-2 .quote-section .pink {
+    height: 500px; }
+  .foster-and-adoptive-families .individual-program #tab-1 .quote-section h2, .foster-and-adoptive-families .individual-program #tab-2 .quote-section h2 {
+    color: #b672a9;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 15px; }
+  .foster-and-adoptive-families .individual-program #tab-1 .quote-section h3, .foster-and-adoptive-families .individual-program #tab-2 .quote-section h3 {
+    font-family: "KlinicSlab", Times, serif;
+    padding: 0 1.7em;
+    margin: 0 0 20px 0;
+    font-style: italic; }
+
+.foster-and-adoptive-families .individual-program #tab-1 .story-slider-item .col-1-2, .foster-and-adoptive-families .individual-program #tab-2 .story-slider-item .col-1-2 {
+  min-height: 320px;
+  margin: 0; }
+  .foster-and-adoptive-families .individual-program #tab-1 .story-slider-item .col-1-2:first-of-type, .foster-and-adoptive-families .individual-program #tab-2 .story-slider-item .col-1-2:first-of-type {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+  .foster-and-adoptive-families .individual-program #tab-1 .story-slider-item .col-1-2:nth-of-type(2), .foster-and-adoptive-families .individual-program #tab-2 .story-slider-item .col-1-2:nth-of-type(2) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 20px; }
+  .foster-and-adoptive-families .individual-program #tab-1 .story-slider-item .col-1-2 a:hover, .foster-and-adoptive-families .individual-program #tab-2 .story-slider-item .col-1-2 a:hover {
+    color: #32c5ed; }
 
 .foster-and-adoptive-families .individual-program .links-box {
   padding: 35px;

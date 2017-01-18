@@ -1500,6 +1500,124 @@ rootWebsite:
 
     Please contact us at Aspiranet if you have any questions about this policy.
   donateThankYou: Thank you for your donation.
+fosterAdoptiveFamilies:
+- sys:
+    id: 4KJHTjAjwsEUM2IAI0Y8YQ
+  beAFosterFamilyTab: "When a court determines that a child cannot continue to live
+    with their birth parents due to concerns for their safety and well-being, Aspiranet
+    is committed to securing a safe and nurturing family environment for that child.\n
+    \nWe are thoughtful and trustworthy in how we match children and youth with our
+    families, looking for the best fit where both can be successful. \n \nWe recruit,
+    screen and approve skilled and caring foster parents, guiding them in becoming
+    a healing resource to children who have experienced trauma and adversity.  We
+    work in partnership with our families to provide training and ongoing supports
+    until children are able to return home safely."
+  fosterFamilyPhotoFull:
+    title: 04 program hero img  KAwSW
+    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
+  fosterFamilyPhotoSmall:
+    title: 01 homepage img v2 4
+    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
+  fosterFamilyPullQuote: 'Be a foster family quote '
+  fosterCopyRest: "When a court determines that a child cannot continue to live with
+    their birth parents due to concerns for their safety and well-being, Aspiranet
+    is committed to securing a safe and nurturing family environment for that child.\n
+    \nWe are thoughtful and trustworthy in how we match children and youth with our
+    families, looking for the best fit where both can be successful. \n \nWe recruit,
+    screen and approve skilled and caring foster parents, guiding them in becoming
+    a healing resource to children who have experienced trauma and adversity.  We
+    work in partnership with our families to provide training and ongoing supports
+    until children are able to return home safely.\n \nWhen returning home is not
+    an option, we partner with children and families to develop a plan for life long
+    connections that may include adoption.  In addition, we provide education, resources
+    and support for families at all stages of the adoption process. \n \nEvery family’s
+    experience is different, and every family is unique, whether they are a foster
+    or adoptive family, relative, or extended family member.\n"
+  adoptAChildTabCopy: "When returning home is not an option, we partner with children
+    and families to develop a plan for life long connections that may include adoption.
+    \ In addition, we provide education, resources and support for families at all
+    stages of the adoption process. \n \nEvery family’s experience is different, and
+    every family is unique, whether they are a foster or adoptive family, relative,
+    or extended family member.\n \nIn working with our families our goal is always
+    the same – to maximize opportunities for long-term success and to support them
+    every step of the way."
+  adoptAChildPhotoFull:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
+  adoptAChildPhotoSmall:
+    title: 01 homepage img v3 1
+    url: //images.contentful.com/e5ehlcazegi0/5OfKeH8oogKWQqyOKWc4oI/a61f76e01796a5571cad13dca682fe6a/01_homepage_img_v3_1.jpg
+  adoptAChildPullQuote: Adopt a child quote
+  adoptAChildCopyBottom: "When a court determines that a child cannot continue to
+    live with their birth parents due to concerns for their safety and well-being,
+    Aspiranet is committed to securing a safe and nurturing family environment for
+    that child.\n \nWe are thoughtful and trustworthy in how we match children and
+    youth with our families, looking for the best fit where both can be successful.
+    \n \nWe recruit, screen and approve skilled and caring foster parents, guiding
+    them in becoming a healing resource to children who have experienced trauma and
+    adversity.  We work in partnership with our families to provide training and ongoing
+    supports until children are able to return home safely."
+  steps: |-
+    1. Orientation – You will watch a brief online introductory video to becoming a foster parent with Aspiranet. We can also send a physical copy of the orientation if you do not have internet access. Online orientation takes approximately 30 minutes. Apply now.
+    2. PRIDE Training – Our foster care pre-certification classes are conducted at your local Aspiranet office. We schedule these trainings on a monthly basis at times convenient to both conventional and nonconventional work schedules.
+    3. Paperwork Completion and Background Requirements – Your local Aspiranet office will work with you to complete all foster parent certification paperwork, including criminal background checks, DMV record reports, CPR and First Aid training, TB testing and application forms.
+    4. Interview – We view the interview process as an opportunity to learn about your unique skills and needs as a foster parent with Aspiranet.
+    5. Home Study – This process will ensure that your home is compliant with applicable home safety laws for foster parents in the state of California. We have plenty of resources to prepare you for this visit ahead of time.
+  requirements: |
+    - Be 21 years of age or older
+    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
+    - Be able to support their current household on their current income, without receiving assistance
+    - Attend and complete all Aspiranet Parent Education classes
+    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
+    - Includes everyone age 18 and older living in the home
+    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
+    - Complete a standard first aid course that includes adult, child and infant CPR
+    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
+    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
+    - 10-year DMV driving record and proof of insurance must be submitted
+    - Participate in all family assessment interviews
+    - Complete and pass a home fire and safety inspection
+    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
+    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
+
+    Home requirements include:
+
+    - Adequate space for a child
+    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
+    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
+    - Adults may not share bedrooms with children, unless the child is under 2 years of age
+    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
+    - Locks on cabinets (for medications, household toxics, etc.)
+    - Fire extinguisher (2A10BC) on each level of the home
+    - Smoke detectors – minimum of two
+    - First aid kit and manual
+
+    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
+
+    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
+    - If the pool is above ground, a locking or removable ladder may be used
+
+    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
+  faq: |-
+    __Do I have a say in the child(ren) placed in my home?__
+
+    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
+
+    __How long does it take to become an Aspiranet foster parent?__
+
+    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
+
+    __Can anyone be an Aspiranet foster parent?__
+
+    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
+
+    __Would a child’s family be involved while a child was living in my home?__
+
+    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
+
+    __How will Aspiranet help me if I have a child with difficult behaviors?__
+
+    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
 blogTag:
 - sys:
     id: 4p1GBu4QNyusWU4scuu6QK
@@ -1929,115 +2047,6 @@ blogPost:
   - sys:
       id: 7sF3shCds4aqymKSu6w0a
     name: First Five Center
-fosterAdoptiveFamilies:
-- sys:
-    id: 4KJHTjAjwsEUM2IAI0Y8YQ
-  beAFosterFamilyTab: "When a court determines that a child cannot continue to live
-    with their birth parents due to concerns for their safety and well-being, Aspiranet
-    is committed to securing a safe and nurturing family environment for that child.\n
-    \nWe are thoughtful and trustworthy in how we match children and youth with our
-    families, looking for the best fit where both can be successful. \n \nWe recruit,
-    screen and approve skilled and caring foster parents, guiding them in becoming
-    a healing resource to children who have experienced trauma and adversity.  We
-    work in partnership with our families to provide training and ongoing supports
-    until children are able to return home safely."
-  fosterFamilyPhotoFull:
-    title: 04 program hero img  KAwSW
-    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
-  fosterFamilyPhotoSmall:
-    title: 01 homepage img v2 4
-    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
-  fosterFamilyPullQuote: 'Be a foster family quote '
-  adoptAChildTabCopy: "When returning home is not an option, we partner with children
-    and families to develop a plan for life long connections that may include adoption.
-    \ In addition, we provide education, resources and support for families at all
-    stages of the adoption process. \n \nEvery family’s experience is different, and
-    every family is unique, whether they are a foster or adoptive family, relative,
-    or extended family member.\n \nIn working with our families our goal is always
-    the same – to maximize opportunities for long-term success and to support them
-    every step of the way."
-  adoptAChildPhotoFull:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
-  adoptAChildPhotoSmall:
-    title: 01 homepage img v3 1
-    url: //images.contentful.com/e5ehlcazegi0/5OfKeH8oogKWQqyOKWc4oI/a61f76e01796a5571cad13dca682fe6a/01_homepage_img_v3_1.jpg
-  adoptAChildPullQuote: Adopt a child quote
-  pageCopyRest: "When a court determines that a child cannot continue to live with
-    their birth parents due to concerns for their safety and well-being, Aspiranet
-    is committed to securing a safe and nurturing family environment for that child.\n
-    \nWe are thoughtful and trustworthy in how we match children and youth with our
-    families, looking for the best fit where both can be successful. \n \nWe recruit,
-    screen and approve skilled and caring foster parents, guiding them in becoming
-    a healing resource to children who have experienced trauma and adversity.  We
-    work in partnership with our families to provide training and ongoing supports
-    until children are able to return home safely.\n \nWhen returning home is not
-    an option, we partner with children and families to develop a plan for life long
-    connections that may include adoption.  In addition, we provide education, resources
-    and support for families at all stages of the adoption process. \n \nEvery family’s
-    experience is different, and every family is unique, whether they are a foster
-    or adoptive family, relative, or extended family member.\n"
-  steps: |-
-    1. Orientation – You will watch a brief online introductory video to becoming a foster parent with Aspiranet. We can also send a physical copy of the orientation if you do not have internet access. Online orientation takes approximately 30 minutes. Apply now.
-    2. PRIDE Training – Our foster care pre-certification classes are conducted at your local Aspiranet office. We schedule these trainings on a monthly basis at times convenient to both conventional and nonconventional work schedules.
-    3. Paperwork Completion and Background Requirements – Your local Aspiranet office will work with you to complete all foster parent certification paperwork, including criminal background checks, DMV record reports, CPR and First Aid training, TB testing and application forms.
-    4. Interview – We view the interview process as an opportunity to learn about your unique skills and needs as a foster parent with Aspiranet.
-    5. Home Study – This process will ensure that your home is compliant with applicable home safety laws for foster parents in the state of California. We have plenty of resources to prepare you for this visit ahead of time.
-  requirements: |
-    - Be 21 years of age or older
-    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
-    - Be able to support their current household on their current income, without receiving assistance
-    - Attend and complete all Aspiranet Parent Education classes
-    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
-    - Includes everyone age 18 and older living in the home
-    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
-    - Complete a standard first aid course that includes adult, child and infant CPR
-    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
-    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
-    - 10-year DMV driving record and proof of insurance must be submitted
-    - Participate in all family assessment interviews
-    - Complete and pass a home fire and safety inspection
-    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
-    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
-
-    Home requirements include:
-
-    - Adequate space for a child
-    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
-    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
-    - Adults may not share bedrooms with children, unless the child is under 2 years of age
-    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
-    - Locks on cabinets (for medications, household toxics, etc.)
-    - Fire extinguisher (2A10BC) on each level of the home
-    - Smoke detectors – minimum of two
-    - First aid kit and manual
-
-    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
-
-    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
-    - If the pool is above ground, a locking or removable ladder may be used
-
-    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
-  faq: |-
-    __Do I have a say in the child(ren) placed in my home?__
-
-    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
-
-    __How long does it take to become an Aspiranet foster parent?__
-
-    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
-
-    __Can anyone be an Aspiranet foster parent?__
-
-    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
-
-    __Would a child’s family be involved while a child was living in my home?__
-
-    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
-
-    __How will Aspiranet help me if I have a child with difficult behaviors?__
-
-    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
 divisionHeads:
 - sys:
     id: 3M6LZcVY4w2kE4Q4aSeKii

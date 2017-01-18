@@ -14,6 +14,28 @@ ul li {
 .text-center {
     text-align: center !important;
 }
+.flex-container {
+	max-width: 1780px;
+	padding: 0;
+  	margin: 0 auto;
+  	float: none !important;
+  	list-style: none;
+  
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+
+	-webkit-align-items: stretch; 
+  	align-items: stretch; 
+  	@media screen and #{$brk-narrow} {
+  		display: block;
+  	}
+}
 .img-settings {
     background-repeat: no-repeat; 
     background-size: cover;

@@ -40,32 +40,49 @@
 			</div>
 		</div>
 		{% endif %}
-		<section class="blue-dark">
+		<section class="blue-dark stories-section">
 			<div class="grid text-center">
 				<h2 class="no-margin-top">Stories from foster families</h2>
 				<div class="stories-slider"> 
 					<ul>
 						{% for blogpost in sorted_news %}
-						{% if blogpost.blogCategory.name == "Foster and Adoptive Families" or blogpost.blogCategory.name == "Foster and Adoptive Services" %}
+						{% if blogpost.blogCategory.name == "Hope" %}
 							<li>
-			                    <div class="story-slider-item col-8-12">
-			                        <a href="/blog/{{ blogpost.url }}">
-			                            {% if blogpost.heroImage %}
-		                                <div class="img-settings col-1-2" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
-		                                </div>
-			                            {% endif %}
-			                            <div class="col-1-2">
-			                                <p class="small caps round">{{ blogpost.blogCategory.name }}</p>
-			                                <p class="round blue">{{ blogpost.title }}</p>
-			                            </div>
-			                        </a>
+			                    <div class="story-slider-item flex-container col-8-12 center">
+		                            {% if blogpost.heroImage %}
+	                                <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
+	                                </div>
+		                            {% endif %}
+		                            <div class="col-1-2 white text-left">
+		                                <p class="small caps round grey">{{ blogpost.blogCategory.name }}</p>
+		                                <p class="round blue">{{ blogpost.title }}</p>
+		                                <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
+		                                <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
+		                            </div>
 			                    </div>
 			                </li>
 						{% endif %}
 						{% endfor %}
 					</ul>
 				</div>
+					<p class="button"><a class="orange" href="/blog">See all stories</a></p>
 				</div>
+		</section>
+		<section class="white">
+			<div class="grid">
+				<div class="col-7-12 color-blue-dark">
+					<p>{{ fosterAndAdoptiveContent.fosterCopyRest }}</p>
+				</div>
+				<div class="col-4-12 quote-section push-1-12">
+					<div class="pink">
+						<h2 class="text-center">&mdash;</h2>
+						<h3 class="text-center">{{ fosterAndAdoptiveContent.fosterFamilyPullQuote}}</h3>
+						<div class="color-block-image">
+						<div style="background-image: url('{{ fosterAndAdoptiveContent.fosterFamilyPhotoSmall.url }}');" alt="{{ fosterAndAdoptiveContent.fosterFamilyPhotoSmall.title }}">
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	</div>
 	<div id="tab-2">
@@ -101,24 +118,49 @@
 			</div>
 		</div>
 		{% endif %}
-		<section class="blue-dark">
+		<section class="blue-dark stories-section">
 			<div class="grid text-center">
 				<h2 class="no-margin-top">Stories from adoptions</h2>
 				<div class="stories-slider">
 					<ul>
-						<li></li>
+						<li>
+							{% for blogpost in sorted_news %}
+							{% if blogpost.blogCategory.name == "Integrity" %}
+							<div class="story-slider-item flex-container col-8-12 center">
+	                            {% if blogpost.heroImage %}
+	                                <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
+	                                </div>
+		                            {% endif %}
+		                            <div class="col-1-2 white text-left">
+		                                <p class="small caps round grey">{{ blogpost.blogCategory.name }}</p>
+		                                <p class="round blue">{{ blogpost.title }}</p>
+		                                <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
+		                                <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
+		                            </div>
+			                    </div>
+							</li>
+						{% endif %}
+                        {% endfor %}
 					</ul>
+				</div>
+				<p class="button"><a class="orange" href="/blog">See all stories</a></p>
+			</div>
+		</section>
+		<section class="white">
+			<div class="grid">
+				<div class="col-7-12 color-blue-dark">
+					<p>{{ fosterAndAdoptiveContent.adoptAChildCopyBottom }}</p>
+				</div>
+				<div class="col-4-12 quote-section push-1-12">
+					<div class="pink">
+						<h2 class="text-center">&mdash;</h2>
+						<h3 class="text-center">{{ fosterAndAdoptiveContent.adoptAChildPullQuote}}</h3>
+						<div class="color-block-image">
+						<div style="background-image: url('{{ fosterAndAdoptiveContent.adoptAChildPhotoSmall.url }}');" alt="{{ fosterAndAdoptiveContent.adoptAChildPhotoSmall.title }}">
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-	{% if fosterAndAdoptiveContent.pageCopyRest %}
-	<section class="white">
-		<div class="grid">
-			<div class="col-8-12 color-blue-dark">
-				<p>{{ fosterAndAdoptiveContent.pageCopyRest }}</p>
-			</div>
-		</div>
-	</section>
-	{% endif %}
 </div>
