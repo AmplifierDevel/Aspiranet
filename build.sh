@@ -2,7 +2,6 @@
 
 echo '### Fetching Twitter ###'
 _scripts/last_tweet.sh $TWITTER_API $TWITTER_SECRET Aspiranet
-cat _data/tweet.json
 echo '### DONE ###'
 
 echo '### Interpolating Variables ###'
