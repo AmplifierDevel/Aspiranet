@@ -19,10 +19,14 @@ echo 'CREDS:'
 echo $APP_CREDS
 curl --silent --header "Authorization: Basic $APP_CREDS" --data "grant_type=client_credentials" https://api.twitter.com/oauth2/token > bearer_resp.json && echo '1.curl OK'
 
+sleep 1
+
 echo '/bearer_resp:'
 cat bearer_resp.json
 
 BEARER=`grep access_token\":\"[^\"]* bearer_resp.json --only-matching | sed s/access_token\":\"//g`
+
+sleep 1
 
 echo 'BEARER'
 echo $BEARER
