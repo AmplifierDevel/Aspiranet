@@ -32,7 +32,4 @@ echo $BEARER
 curl --silent --header "Authorization: Bearer $BEARER" https://api.twitter.com/1.1/statuses/user_timeline.json?count=1\&screen_name=$USER | sed 's@\\/@/@g' > _data/tweet.json
 
 LAST_TWEET=`grep text\":\"[^\"]* _data/tweet.json --only-matching | sed s/text\":\"//g`
-ls -la _data/
-
-echo "Last tweet was:"
-echo $LAST_TWEET
+ls -la .
