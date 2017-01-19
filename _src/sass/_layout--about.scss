@@ -45,7 +45,10 @@
 
 .leadership {
 	.col-1-3 {
-		padding:10px 0 0 0;
+		padding:10px 60px;
+		p.position {
+			opacity: .6;
+		}	
 	}
 	.color-blue-dark {
 		font-style: italic;
