@@ -2,6 +2,17 @@
 	float: right;
     text-align: center;
     color: white;
+    h1 {
+    	font-size: 4em;
+    	margin-bottom: 0;
+    }
+    h4 {
+    	margin-top: 0;
+    	padding: 0 4em;
+    }
+    h3 {
+    	margin-top: 2em;
+    }
 }
 .latest-front {
 	.col-1-3 {
@@ -29,9 +40,12 @@
 	overflow-y: hidden !important;
 }
 .unslider-nav {
-    margin-top: -20px;
-    top: -25px;
-    position: relative;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 17;
     float: none;
     ol li {
     	width: 16px !important;
@@ -39,6 +53,23 @@
     	border-radius: 50% !important;
     	border: 1px solid white !important;
     }
+}
+//for parallax effect
+.unslider-fade .unslider-wrap li {
+	position: fixed !important;
+	z-index: -1;
+	top: 100px !important;
+}
+.prlx-bg {
+	background-attachment: fixed;
+	z-index: 20;
+}
+.prlx-item {
+	position: relative;
+	z-index: 20;
+	&:first-of-type {
+		margin-top: 650px;
+	}
 }
 .campaign-slider {
 	li {

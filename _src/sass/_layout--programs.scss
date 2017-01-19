@@ -22,6 +22,7 @@
     	margin: 0;
 	}
 }
+
 .program-img {
 	height: auto;
 	max-height: 950px;
@@ -55,6 +56,10 @@
 	.fast-facts {
 		.col-1-3 {
 			padding: 0 4.5%;
+		}
+		h1 {
+			font-size: 65px;
+			margin: 0;
 		}
 	}
 	.block-overlap {
