@@ -310,11 +310,16 @@ body {
     .button a.orange {
       background: #ff5a38;
       color: #fff;
+      margin-top: 2em;
       text-align: center;
       min-width: 135px; }
+      .button a.orange:hover {
+        color: #fff;
+        background: #ff6f52; }
     .button a.transparent {
       background-color: rgba(255, 255, 255, 0.2);
-      color: #fff; }
+      color: #fff;
+      margin-top: 2em; }
       .button a.transparent:hover {
         background-color: rgba(255, 255, 255, 0.1); }
 
@@ -755,24 +760,43 @@ a {
 
 h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, p.blue, li.blue, a.blue {
   color: #459BBC; }
+  h1.blue:hover, h2.blue:hover, h3.blue:hover, h4.blue:hover, h5.blue:hover, h6.blue:hover, p.blue:hover, li.blue:hover, a.blue:hover {
+    color: #6aafca; }
 
 h1.blue-dark, h2.blue-dark, h3.blue-dark, h4.blue-dark, h5.blue-dark, h6.blue-dark, p.blue-dark, li.blue-dark, a.blue-dark {
   color: #165376; }
+  h1.blue-dark:hover, h2.blue-dark:hover, h3.blue-dark:hover, h4.blue-dark:hover, h5.blue-dark:hover, h6.blue-dark:hover, p.blue-dark:hover, li.blue-dark:hover, a.blue-dark:hover {
+    color: #1e71a1; }
 
 h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, p.green, li.green, a.green {
   color: #6aceb6; }
+  h1.green:hover, h2.green:hover, h3.green:hover, h4.green:hover, h5.green:hover, h6.green:hover, p.green:hover, li.green:hover, a.green:hover {
+    color: #90dbc9; }
 
 h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, p.orange, li.orange, a.orange {
   color: #ff5a38; }
+  h1.orange:hover, h2.orange:hover, h3.orange:hover, h4.orange:hover, h5.orange:hover, h6.orange:hover, p.orange:hover, li.orange:hover, a.orange:hover {
+    color: #ff846b; }
 
 h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, li.yellow, a.yellow {
   color: #ffc05d; }
+  h1.yellow:hover, h2.yellow:hover, h3.yellow:hover, h4.yellow:hover, h5.yellow:hover, h6.yellow:hover, p.yellow:hover, li.yellow:hover, a.yellow:hover {
+    color: #ffd490; }
 
 h1.pink, h2.pink, h3.pink, h4.pink, h5.pink, h6.pink, p.pink, li.pink, a.pink {
   color: #CA8ABC; }
+  h1.pink:hover, h2.pink:hover, h3.pink:hover, h4.pink:hover, h5.pink:hover, h6.pink:hover, p.pink:hover, li.pink:hover, a.pink:hover {
+    color: #daadd0; }
 
 h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey, p.grey, li.grey, a.grey {
   color: #bebebe; }
+  h1.grey:hover, h2.grey:hover, h3.grey:hover, h4.grey:hover, h5.grey:hover, h6.grey:hover, p.grey:hover, li.grey:hover, a.grey:hover {
+    color: #d8d8d8; }
+
+h1.color-purple-dark, h2.color-purple-dark, h3.color-purple-dark, h4.color-purple-dark, h5.color-purple-dark, h6.color-purple-dark, p.color-purple-dark, li.color-purple-dark, a.color-purple-dark {
+  color: #6d5593; }
+  h1.color-purple-dark:hover, h2.color-purple-dark:hover, h3.color-purple-dark:hover, h4.color-purple-dark:hover, h5.color-purple-dark:hover, h6.color-purple-dark:hover, p.color-purple-dark:hover, li.color-purple-dark:hover, a.color-purple-dark:hover {
+    color: #876fac; }
 
 .page-content, footer {
   top: 100px;
@@ -840,7 +864,7 @@ nav {
   .find-program-submenu img {
     width: 300px; }
   .find-program-submenu .button {
-    margin-top: -52px;
+    margin-top: -52px !important;
     margin-left: 7.5px; }
 
 .programs-submenu ul {
@@ -1048,11 +1072,11 @@ ul li {
 
 .section-photo {
   height: auto;
-  max-height: 950px; }
+  max-height: 550px; }
   .section-photo [class*='col-'] {
     padding-right: 0; }
   .section-photo:after {
-    padding-bottom: 24%;
+    padding-bottom: 16%;
     content: "";
     display: block; }
     @media screen and (min-width: 1440px) {
@@ -1181,6 +1205,11 @@ section.white, div.white, span.white {
     height: 16px !important;
     border-radius: 50% !important;
     border: 1px solid white !important; }
+
+.unslider-fade .unslider-wrap li {
+  position: fixed !important;
+  z-index: 1;
+  top: 100px !important; }
 
 .campaign-slider li {
   height: 650px;
@@ -1383,7 +1412,7 @@ p.attribution, p.attribution a {
   .storelocator-panel .location-search input {
     height: 42px;
     width: 270px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 5px;
     font-family: "KlinicSlab", Times, serif;
     color: #bebebe;
@@ -1508,12 +1537,12 @@ p.attribution, p.attribution a {
   .program-img:not(:nth-of-type(2)) {
     margin-top: 10px; }
   .program-img:after {
-    padding-bottom: 56%;
+    padding-bottom: 26%;
     content: "";
     display: block; }
     @media screen and (min-width: 1440px) {
       .program-img:after {
-        padding-bottom: 45%; } }
+        padding-bottom: 24%; } }
 
 .individual-program .program-title h1 {
   padding: 55px 0px 10px 0; }

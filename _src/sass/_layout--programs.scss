@@ -29,11 +29,11 @@
 		margin-top: 10px;
 	}
 	&:after {
-        padding-bottom: 56%;
+        padding-bottom: 26%;
         content: "";
         display: block;
         @media screen and (min-width: 1440px) { 
-            padding-bottom: 45%;
+            padding-bottom: 24%;
         }
     }
 }
