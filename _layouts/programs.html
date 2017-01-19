@@ -18,7 +18,7 @@ layout: default
 	<section class="white">
 	<div class="grid">
 		<div class="col-7-12 color-blue-dark">
-			<p>{{ page.contentful_fields.copyTop }}</p>
+			<p>{{ page.contentful_fields.copyTop  | markdownify }}</p>
 		</div>
 		<div class="col-4-12 push-1-12 border-left">
 			<ul class="social-icons no-margin-top">
@@ -42,7 +42,7 @@ layout: default
 				</div>
 			</div>
 			<div class="col-5-12 push-1-12">
-				<p class="color-white no-margin-top">{{ page.contentful_fields.copyRest }}</p>
+				<p class="color-white no-margin-top">{{ page.contentful_fields.copyRest | markdownify }}</p>
 			</div>	
 		</div>
 	</section>
@@ -80,7 +80,7 @@ layout: default
 	</section>
 	{% endif %}
 	<section>
-		<h3 class="text-center">More programs</h3>
+		<!-- <h3 class="text-center">More programs</h3> -->
 		<!-- Slider with all other programs goes here -->
 	</section>
 </div>

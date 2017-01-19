@@ -38,56 +38,43 @@ layout: default
 	</div>
 </section>
 
-<section class="grey">
-    <div class="flex-container">
-        <div class="flex-item">
-			<h2 class="orange no-margin">Respect</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect}}</p>
-        </div>
-        <div class="flex-item">
-			<h2 class="green no-margin">Integrity</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity}}</p>
-        </div>
-
+<div class="value-container grey">
+    <div class="value-item value-orange">
+		<h2 class="orange no-margin">Respect</h2>
+		<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect}}</p>
+		<div class="hover">
+			<p>Read stories related to Respect</p>
+			<p class="button"><a class="transparent" href="/blog-category/respect">Visit blog</a></p>
+		</div>
     </div>
-    <div class="flex-container">
-        <div class="flex-item">
-				<h2 class="blue no-margin">Courage</h1>
-				<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage}}</p>
-        </div>
-        <div class="flex-item">
-				<h2 class="yellow no-margin">Hope</h1>
-				<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope}}</p>
-        </div>
+    <div class="value-item value-green">
+		<h2 class="green no-margin">Integrity</h2>
+		<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity}}</p>
+		<div class="hover">
+			<p>Read stories related to Integrity</p>
+			<p class="button"><a class="transparent" href="/blog-category/integrity">Visit blog</a></p>
+		</div>
     </div>
-</section>
 
-<style type="text/css">
-	.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row;
-    justify-content: space-around;
-    height: 50px;
-    line-height:30px;
-}
-
-.flex-item {
-    background: tomato;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-align: center;
-    flex: 1 0 0px;
-    height: auto;
-}
-</style>
+</div>
+<div class="value-container grey">
+    <div class="value-item value-blue">
+			<h2 class="blue no-margin">Courage</h2>
+			<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage}}</p>
+			<div class="hover">
+				<p>Read stories related to Courage</p>
+				<p class="button"><a class="transparent" href="/blog-category/courage">Visit blog</a></p>
+			</div>
+    </div>
+    <div class="value-item value-yellow">
+			<h2 class="yellow no-margin">Hope</h2>
+			<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope}}</p>
+			<div class="hover">
+				<p>Read stories related to Hope</p>
+				<p class="button"><a class="transparent" href="/blog-category/hope">Visit blog</a></p>
+			</div>
+    </div>
+</div>
 
 <section>
 	<div class="grid color-blue-dark">
@@ -124,10 +111,10 @@ layout: default
 	</div>
 </section>
 
-<section class="grey">
+<section class="grey" style="padding: 40px 0;">
 	<div class="grid">
 		<h3 class="blue text-center">Provide a child with the love and support to thrive</h3>
-		<section>
+		<section style="padding: 40px 0;">
 			<div class="col-1-3 text-center">
 				<img src="/assets/img/House_Love.svg" width="35%" class="center">
 				<p class="italic"><a href="">Become a Foster or Adoptive Family &#62;</a></p>
