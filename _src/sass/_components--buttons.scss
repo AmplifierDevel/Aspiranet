@@ -11,12 +11,18 @@
 		&.orange {
 			background: $orange;
 			color: #fff; 
+			margin-top: 2em;
 			text-align: center;
 			min-width: 135px;
+			&:hover {
+				color: #fff;
+				background: lighten($orange, 5%);
+			}
 		}
 		&.transparent {
 			background-color: rgba(255,255,255,0.2);
 			color: #fff; 
+			margin-top: 2em;
 			&:hover {
 				background-color: rgba(255,255,255,0.1);
 			}
