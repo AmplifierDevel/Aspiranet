@@ -80,17 +80,5 @@ $(document).ready(function(){
 		}
 	});
 	
-	$(window).scroll(function(){
-        $homeSlider.data('unslider').stop();
-        $('.unslider-nav').fadeOut();
-        if ($(window).scrollTop() == 0) {
-        	$('.unslider-nav').fadeIn();
-        	console.log('scroll top');
-        }
-    });
-});
 
-// .on('mouseenter', function() {
-//         $homeSlider.data('unslider').start();
-//         console.log('mouseenter');
-//     })
+});

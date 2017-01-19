@@ -1,147 +1,35 @@
 ---
-seniorExecutive:
-- sys:
-    id: 3dwBEDB848aSEmaYK0SyAm
-  name: Jeannie Imelio
-  desiredUrl: jeannie-imelio
-  position: 'Chief Operating Officer / Resource Family, Residential, and Transitional
-    Aged Youth Services '
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 4
-- sys:
-    id: 3iPdzRiItOgCeMkcmgG4YE
-  name: Laureen Walsh
-  desiredUrl: laureen-walsh
-  position: Chief Operating Officer / Behavioral Health, and Family and Community
-    Services
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 5
-- sys:
-    id: 1Nlzc3r93igA4kKoqsMWiu
-  name: Vernon Brown
-  desiredUrl: vernon-brown
-  position: Chief Executive Officer
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 1
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 6fFIM4qSk0ak0KWaykO0eM
-  name: Holly Thauwald
-  desiredUrl: holly-thauwald
-  position: 'Chief Human Resources Officer '
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 3
-- sys:
-    id: 2bapNK1zLKEIQo6gqomyIG
-  name: John Reiber
-  desiredUrl: john-reiber
-  position: Chief Financial Officer
-  photo:
-    title: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 2
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-divisionHeads:
-- sys:
-    id: 3M6LZcVY4w2kE4Q4aSeKii
-  name: Samantha LaGrasse
-  desiredUrl: samantha-lagrasse
-  position: 'Transitional Age Youth Division Director '
-  order: 1
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 2G21MAhAhOQmMasm8Y0GeY
-  name: Kathy Davies
-  desiredUrl: kathy-davies
-  position: 'Family and Community Division Director '
-- sys:
-    id: 2eJ0sHfmZOggQGMWQwYAUM
-  name: Mike DeRose
-  desiredUrl: mike-derose
-  position: 'Core Division Director for Behavioral Health '
-- sys:
-    id: 4hB4Q6yViMWkSc0Km6EyK8
-  name: Chris Essary
-  desiredUrl: chris-essary
-  position: 'Residential Division Director '
-- sys:
-    id: 1W6n7hR3928ACkI6aEyAmo
-  name: Sharon Lawicki
-  desiredUrl: sharon-lawicki
-  position: 'Intensive Home Based Services Division Director '
-blogTag:
-- sys:
-    id: 6oqIUvAvUkK8muQigAAuCW
-  name: Community
-- sys:
-    id: 1eHWOXJsFY2IuKmoOUa8WK
-  name: Foster and Adoptive Services
-- sys:
-    id: 4MPGYiEPUccOgeOwCO6SqY
-  name: Courage
-- sys:
-    id: 2f4F4fvzne6Ma82egMgaks
-  name: Integrity
-- sys:
-    id: 3z7QQ5fttYAG6QWgEs6cy0
-  name: Reunification
-- sys:
-    id: 4bNO0ekSS4yq8CuWOYCcCi
-  name: Hope
-- sys:
-    id: 2rpQXkICnOQqkYe8KewUmo
-  name: Youth
-- sys:
-    id: aj45ghA27S2OgskKa4Agm
-  name: Adoption
-- sys:
-    id: 3ihYDCzp0ISOE644OmscMs
-  name: THP+
-- sys:
-    id: 5V3QqYRbCEeYmqyMOKqqAo
-  name: Respect
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster
-- sys:
-    id: 4FYoyfpg3u0K2Qu0qsOKgm
-  name: Staff
-- sys:
-    id: 41zCNoeNrWSKuSuMQKW0o0
-  name: Family
-- sys:
-    id: 7sF3shCds4aqymKSu6w0a
-  name: First Five Center
-- sys:
-    id: 4p1GBu4QNyusWU4scuu6QK
-  name: Residential
 programLocation:
+- sys:
+    id: 3qefslkPZeoy8cGAewEm42
+  name: Riverside THP+/THP+FC
+  location:
+    lat: 33.9532102
+    lon: -117.39136129999997
+  addressAsText: '3600 Central Ave #5, Riverside, CA 92506, USA'
+  program:
+  - Transitional Housing Placement+
+  - Transitional Housing Placement + Foster Care
+  ageLevel:
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement+ (15-19, 20+)</p></strong>
+    \n<p>Transitional housing support program for former foster youth who are transitioning
+    to adulthood out of the child welfare or probation systems. Provides a safe and
+    supportive living environment while helping youth achieve self-sufficiency and
+    learn life skills.</p>\n<strong><p>Transitional Housing Placement + Foster Care
+    (15-19, 20+)</p></strong> \n<p>An extended foster care placement option that bridges
+    the gap for non-minor dependents who are no longer living in a foster home, but
+    who may not yet be ready to transition into a supervised independent living placement.</p>"
+  phoneText: 951-729-4040
+  internalNotes: |-
+    Transitional Housing Placement +
+    Michele Gracia, Core Program Director
+    mgracia@aspiranet.org
+
+    Transitional Housing Placement + Foster Care
+    Michele Gracia, Core Program Director
+    mgracia@aspiranet.org
 - sys:
     id: 5darJVHHfGs2gscAqSS4Og
   name: San Bernardino
@@ -852,36 +740,6 @@ programLocation:
     Nancy Murillo, Core Program Director
     nmurillo@aspiranet.org
 - sys:
-    id: 3qefslkPZeoy8cGAewEm42
-  name: Riverside THP+/THP+FC
-  location:
-    lat: 33.9532102
-    lon: -117.39136129999997
-  addressAsText: '3600 Central Ave #5, Riverside, CA 92506, USA'
-  program:
-  - Transitional Housing Placement+
-  - Transitional Housing Placement + Foster Care
-  ageLevel:
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement+ (15-19, 20+)</p></strong>
-    \n<p>Transitional housing support program for former foster youth who are transitioning
-    to adulthood out of the child welfare or probation systems. Provides a safe and
-    supportive living environment while helping youth achieve self-sufficiency and
-    learn life skills.</p>\n<strong><p>Transitional Housing Placement + Foster Care
-    (15-19, 20+)</p></strong> \n<p>An extended foster care placement option that bridges
-    the gap for non-minor dependents who are no longer living in a foster home, but
-    who may not yet be ready to transition into a supervised independent living placement.</p>"
-  phoneText: 951-729-4040
-  internalNotes: |-
-    Transitional Housing Placement +
-    Michele Gracia, Core Program Director
-    mgracia@aspiranet.org
-
-    Transitional Housing Placement + Foster Care
-    Michele Gracia, Core Program Director
-    mgracia@aspiranet.org
-- sys:
     id: 2DlhlvQUTeyIsuYwWW0mAI
   name: Stockton
   location:
@@ -1378,6 +1236,86 @@ popup:
     id: wUjJa0X6DeQmM0gIe2eMI
   title: This is the first popup
   content: bla bla
+blogTag:
+- sys:
+    id: 1eHWOXJsFY2IuKmoOUa8WK
+  name: Foster and Adoptive Services
+- sys:
+    id: 4MPGYiEPUccOgeOwCO6SqY
+  name: Courage
+- sys:
+    id: 2f4F4fvzne6Ma82egMgaks
+  name: Integrity
+- sys:
+    id: 3z7QQ5fttYAG6QWgEs6cy0
+  name: Reunification
+- sys:
+    id: 4bNO0ekSS4yq8CuWOYCcCi
+  name: Hope
+- sys:
+    id: 2rpQXkICnOQqkYe8KewUmo
+  name: Youth
+- sys:
+    id: aj45ghA27S2OgskKa4Agm
+  name: Adoption
+- sys:
+    id: 3ihYDCzp0ISOE644OmscMs
+  name: THP+
+- sys:
+    id: 5V3QqYRbCEeYmqyMOKqqAo
+  name: Respect
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster
+- sys:
+    id: 4FYoyfpg3u0K2Qu0qsOKgm
+  name: Staff
+- sys:
+    id: 41zCNoeNrWSKuSuMQKW0o0
+  name: Family
+- sys:
+    id: 7sF3shCds4aqymKSu6w0a
+  name: First Five Center
+- sys:
+    id: 4p1GBu4QNyusWU4scuu6QK
+  name: Residential
+- sys:
+    id: 6oqIUvAvUkK8muQigAAuCW
+  name: Community
+divisionHeads:
+- sys:
+    id: 2G21MAhAhOQmMasm8Y0GeY
+  name: Kathy Davies
+  desiredUrl: kathy-davies
+  position: 'Family and Community Division Director '
+- sys:
+    id: 2eJ0sHfmZOggQGMWQwYAUM
+  name: Mike DeRose
+  desiredUrl: mike-derose
+  position: 'Core Division Director for Behavioral Health '
+- sys:
+    id: 4hB4Q6yViMWkSc0Km6EyK8
+  name: Chris Essary
+  desiredUrl: chris-essary
+  position: 'Residential Division Director '
+- sys:
+    id: 1W6n7hR3928ACkI6aEyAmo
+  name: Sharon Lawicki
+  desiredUrl: sharon-lawicki
+  position: 'Intensive Home Based Services Division Director '
+- sys:
+    id: 3M6LZcVY4w2kE4Q4aSeKii
+  name: Samantha LaGrasse
+  desiredUrl: samantha-lagrasse
+  position: 'Transitional Age Youth Division Director '
+  order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 campain:
 - sys:
     id: 4rqSPhHwhqoGwCGCYucUem
@@ -1774,6 +1712,232 @@ blogPost:
   - sys:
       id: 3ihYDCzp0ISOE644OmscMs
     name: THP+
+seniorExecutive:
+- sys:
+    id: 3iPdzRiItOgCeMkcmgG4YE
+  name: Laureen Walsh
+  desiredUrl: laureen-walsh
+  position: Chief Operating Officer / Behavioral Health, and Family and Community
+    Services
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 5
+- sys:
+    id: 3dwBEDB848aSEmaYK0SyAm
+  name: Jeannie Imelio
+  desiredUrl: jeannie-imelio
+  position: 'Chief Operating Officer / Resource Family, Residential, and Transitional
+    Aged Youth Services '
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 4
+- sys:
+    id: 1Nlzc3r93igA4kKoqsMWiu
+  name: Vernon Brown
+  desiredUrl: vernon-brown
+  position: Chief Executive Officer
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 1
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- sys:
+    id: 6fFIM4qSk0ak0KWaykO0eM
+  name: Holly Thauwald
+  desiredUrl: holly-thauwald
+  position: 'Chief Human Resources Officer '
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 3
+- sys:
+    id: 2bapNK1zLKEIQo6gqomyIG
+  name: John Reiber
+  desiredUrl: john-reiber
+  position: Chief Financial Officer
+  photo:
+    title: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 2
+  bio: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+fosterAdoptiveFamilies:
+- sys:
+    id: 4KJHTjAjwsEUM2IAI0Y8YQ
+  beAFosterFamilyTab: "Aspiranet foster and adoption programs work to connect children,
+    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nWhen a court determines that a child cannot
+    continue to live with their birth parents due to concerns for their safety and
+    well-being, we are committed to securing a safe and nurturing family environment
+    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
+    foster parents, guiding them in becoming a healing resource to children who have
+    experienced trauma and adversity.\n\nWe work in partnership with our families
+    to provide training and ongoing supports until children are able to return home
+    safely.\n\nWhen returning home is not an option, we partner with children and
+    families to develop a plan for life long connections that may include adoption. 
+    \n\nWhether it is a foster family opening their home for a child in need, or an
+    adoptive family offering a foster child a forever family, every family is unique
+    and every family’s experience is different.\n\nIn working with our families our
+    goal is always the same – to maximize opportunities for long-term success and
+    to support our families every step of the way.\n"
+  fosterFamilyPhotoFull:
+    title: 04 program hero img  KAwSW
+    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
+  fosterFamilyPhotoSmall:
+    title: 01 homepage img v2 4
+    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
+  fosterFamilyPullQuote: “Nothing is more joyous than seeing a family form and begin
+    to make a special future together.” <br/> — Diane Warne
+  fosterCopyRest: "There is no better gift than to provide a child with the love and
+    support so they can thrive. Whether you are a foster parent, relative or extended
+    family member, you can provide a home for a child to do just that.\n\nAspiranet
+    is committed to providing the best possible care for children in foster care and
+    helping to reunite families.\n\nWe partner with foster parents in building specialized
+    skills to effectively care for children who have experienced instability and trauma
+    – providing ongoing resources, information and support. \n\nResearch has proven
+    what a difference it makes for children to have at least one caring and consistent
+    relationship with a reliable adult.\n\nFoster parents provide a stable, loving
+    haven for children to begin healing from trauma and to reunite with their birth
+    families.  \n\nWhen children cannot return home safely, foster parents often help
+    with their transition to a permanent family and become an ongoing connection for
+    the child. Sometimes they adopt or become guardians of the child.\n\nPlease consider
+    becoming an Aspiranet foster parent and offering nurturing care to a child. Ask
+    us how."
+  adoptAChildTabCopy: "Aspiranet foster and adoption programs work to connect children,
+    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nWhen a court determines that a child cannot
+    continue to live with their birth parents due to concerns for their safety and
+    well-being, we are committed to securing a safe and nurturing family environment
+    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
+    foster parents, guiding them in becoming a healing resource to children who have
+    experienced trauma and adversity.\n\nWe work in partnership with our families
+    to provide training and ongoing supports until children are able to return home
+    safely.\n\nWhen returning home is not an option, we partner with children and
+    families to develop a plan for life long connections that may include adoption. 
+    \n\nWhether it is a foster family opening their home for a child in need, or an
+    adoptive family offering a foster child a forever family, every family is unique
+    and every family’s experience is different.\n\nIn working with our families our
+    goal is always the same – to maximize opportunities for long-term success and
+    to support our families every step of the way."
+  adoptAChildPhotoFull:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
+  adoptAChildPhotoSmall:
+    title: 01 homepage img v3 1-1
+    url: //images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg
+  adoptAChildPullQuote: “Nothing is more joyous than seeing a family form and begin
+    to make a special future together.” <br/> — Diane Warne
+  adoptAChildCopyBottom: "We believe that every child deserves to be loved and cared
+    for inside a stable, healthy family.\n\nAspiranet works to assure a secure and
+    loving home for foster youth, including adoption through foster care when returning
+    to their families is not an option.\n\nWe are thoughtful and trustworthy in how
+    we match foster children and youth with adoptive families, looking for the best
+    fit where both can be successful.  \nWe partner with our families in providing
+    education, resources and support at all stages of the adoption process.  \n\nThere
+    is no better gift than to provide a child with the love and support so they can
+    thrive.  As an adoptive family you can provide a home for a child to do just that.\n\nConsider
+    becoming an Aspiranet adoptive family today.  Ask us how.\n"
+  steps: "We understand that choosing to become a foster or adoptive parent is one
+    of the most significant decisions you will make.  We want you to know that we
+    will be with you every step of the way, helping you to feel confident in your
+    decision and excited about the opportunity to make a difference in the life of
+    a child.  The process of becoming a foster or adoptive parent may vary slightly
+    depending on a family’s unique situation but the steps below provide an overall
+    guideline of what you can expect.\n\n1. Speak with one of our Family Coordinators
+    who are here to discuss the process in more detail, review the requirements, and
+    answer your questions.\n\n2. Take the next step to getting involved.  Some families
+    want to meet at their local Aspiranet office to discuss fostering or adopting
+    in more detail before training.  Others are ready to begin the process by signing
+    up for parent education classes at a nearby location.\n\n3.\tOnce a family has
+    completed the parent education classes we will work with you to determine whether
+    it makes sense to begin the background check and paperwork requirements.  This
+    includes Department of Justice and Child Abuse Index background checks, DMV driving
+    report, CPR and First Aid training, physical and TB testing, and other application
+    forms.  \n\n4.\tAs you work through your paperwork, the local Aspiranet office
+    will also set up an interview to learn about your family’s unique skills and needs
+    as a foster or adoptive parent.\n\n5.\tComplete a home environment check and a
+    psychosocial assessment.  This process will assure that your home is compliant
+    with applicable safety laws for foster and adoptive parents in the state of California.
+    \ We have plenty of resources to prepare you for this visit ahead of time.\n\n6.\tBecome
+    an approved foster or adoptive family!  Once you have successfully completed the
+    steps outlined above, your local Aspiranet office will approve your family to
+    begin caring for children and youth who are placed in foster care.  Your social
+    worker will partner with you to determine how to best match a child with your
+    family and provide ongoing assistance in supporting the child, or children, in
+    your care.  For families interested in adoption, this may include adoption matching
+    and home study.\n\nOur Family Coordinators are here to answer your questions and
+    walk you through the process so you can feel confident in your decision to move
+    forward.  Sign up for more information or call 1-877-380-4376.\n"
+  requirements: |
+    - Be 21 years of age or older
+    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
+    - Be able to support their current household on their current income, without receiving assistance
+    - Attend and complete all Aspiranet Parent Education classes
+    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
+    - Includes everyone age 18 and older living in the home
+    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
+    - Complete a standard first aid course that includes adult, child and infant CPR
+    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
+    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
+    - 10-year DMV driving record and proof of insurance must be submitted
+    - Participate in all family assessment interviews
+    - Complete and pass a home fire and safety inspection
+    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
+    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
+
+    Home requirements include:
+
+    - Adequate space for a child
+    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
+    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
+    - Adults may not share bedrooms with children, unless the child is under 2 years of age
+    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
+    - Locks on cabinets (for medications, household toxics, etc.)
+    - Fire extinguisher (2A10BC) on each level of the home
+    - Smoke detectors – minimum of two
+    - First aid kit and manual
+
+    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
+
+    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
+    - If the pool is above ground, a locking or removable ladder may be used
+
+    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
+  faq: |-
+    __Do I have a say in the child(ren) placed in my home?__
+
+    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
+
+    __How long does it take to become an Aspiranet foster parent?__
+
+    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
+
+    __Can anyone be an Aspiranet foster parent?__
+
+    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
+
+    __Would a child’s family be involved while a child was living in my home?__
+
+    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
+
+    __How will Aspiranet help me if I have a child with difficult behaviors?__
+
+    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
 blogCategory:
 - sys:
     id: 5cOx39zkWcW0uGiEyGO8EA
@@ -2180,167 +2344,3 @@ rootWebsite:
 
     Please contact us at Aspiranet if you have any questions about this policy.
   donateThankYou: Thank you for your donation.
-fosterAdoptiveFamilies:
-- sys:
-    id: 4KJHTjAjwsEUM2IAI0Y8YQ
-  beAFosterFamilyTab: "Aspiranet foster and adoption programs work to connect children,
-    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
-    events are more traumatic for a child than being removed from their family and
-    entered into the foster care system.\n\nWhen a court determines that a child cannot
-    continue to live with their birth parents due to concerns for their safety and
-    well-being, we are committed to securing a safe and nurturing family environment
-    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
-    foster parents, guiding them in becoming a healing resource to children who have
-    experienced trauma and adversity.\n\nWe work in partnership with our families
-    to provide training and ongoing supports until children are able to return home
-    safely.\n\nWhen returning home is not an option, we partner with children and
-    families to develop a plan for life long connections that may include adoption. 
-    \n\nWhether it is a foster family opening their home for a child in need, or an
-    adoptive family offering a foster child a forever family, every family is unique
-    and every family’s experience is different.\n\nIn working with our families our
-    goal is always the same – to maximize opportunities for long-term success and
-    to support our families every step of the way.\n\n"
-  fosterFamilyPhotoFull:
-    title: 04 program hero img  KAwSW
-    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
-  fosterFamilyPhotoSmall:
-    title: 01 homepage img v2 4
-    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
-  fosterFamilyPullQuote: “Nothing is more joyous than seeing a family form and begin
-    to make a special future together.” — Diane Warne
-  fosterCopyRest: "There is no better gift than to provide a child with the love and
-    support so they can thrive. Whether you are a foster parent, relative or extended
-    family member, you can provide a home for a child to do just that.\n\nAspiranet
-    is committed to providing the best possible care for children in foster care and
-    helping to reunite families.\n\nWe partner with foster parents in building specialized
-    skills to effectively care for children who have experienced instability and trauma
-    – providing ongoing resources, information and support. \n\nResearch has proven
-    what a difference it makes for children to have at least one caring and consistent
-    relationship with a reliable adult.\n\nFoster parents provide a stable, loving
-    haven for children to begin healing from trauma and to reunite with their birth
-    families.  \n\nWhen children cannot return home safely, foster parents often help
-    with their transition to a permanent family and become an ongoing connection for
-    the child. Sometimes they adopt or become guardians of the child.\n\nPlease consider
-    becoming an Aspiranet foster parent and offering nurturing care to a child. Ask
-    us how."
-  adoptAChildTabCopy: "Aspiranet foster and adoption programs work to connect children,
-    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
-    events are more traumatic for a child than being removed from their family and
-    entered into the foster care system.\n\nWhen a court determines that a child cannot
-    continue to live with their birth parents due to concerns for their safety and
-    well-being, we are committed to securing a safe and nurturing family environment
-    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
-    foster parents, guiding them in becoming a healing resource to children who have
-    experienced trauma and adversity.\n\nWe work in partnership with our families
-    to provide training and ongoing supports until children are able to return home
-    safely.\n\nWhen returning home is not an option, we partner with children and
-    families to develop a plan for life long connections that may include adoption. 
-    \n\nWhether it is a foster family opening their home for a child in need, or an
-    adoptive family offering a foster child a forever family, every family is unique
-    and every family’s experience is different.\n\nIn working with our families our
-    goal is always the same – to maximize opportunities for long-term success and
-    to support our families every step of the way."
-  adoptAChildPhotoFull:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
-  adoptAChildPhotoSmall:
-    title: 01 homepage img v3 1-1
-    url: //images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg
-  adoptAChildPullQuote: “Nothing is more joyous than seeing a family form and begin
-    to make a special future together.” — Diane Warne
-  adoptAChildCopyBottom: "We believe that every child deserves to be loved and cared
-    for inside a stable, healthy family.\n\nAspiranet works to assure a secure and
-    loving home for foster youth, including adoption through foster care when returning
-    to their families is not an option.\n\nWe are thoughtful and trustworthy in how
-    we match foster children and youth with adoptive families, looking for the best
-    fit where both can be successful.  \nWe partner with our families in providing
-    education, resources and support at all stages of the adoption process.  \n\nThere
-    is no better gift than to provide a child with the love and support so they can
-    thrive.  As an adoptive family you can provide a home for a child to do just that.\n\nConsider
-    becoming an Aspiranet adoptive family today.  Ask us how.\n"
-  steps: "We understand that choosing to become a foster or adoptive parent is one
-    of the most significant decisions you will make.  We want you to know that we
-    will be with you every step of the way, helping you to feel confident in your
-    decision and excited about the opportunity to make a difference in the life of
-    a child.  The process of becoming a foster or adoptive parent may vary slightly
-    depending on a family’s unique situation but the steps below provide an overall
-    guideline of what you can expect.\n\n1. Speak with one of our Family Coordinators
-    who are here to discuss the process in more detail, review the requirements, and
-    answer your questions.\n\n2. Take the next step to getting involved.  Some families
-    want to meet at their local Aspiranet office to discuss fostering or adopting
-    in more detail before training.  Others are ready to begin the process by signing
-    up for parent education classes at a nearby location.\n\n3.\tOnce a family has
-    completed the parent education classes we will work with you to determine whether
-    it makes sense to begin the background check and paperwork requirements.  This
-    includes Department of Justice and Child Abuse Index background checks, DMV driving
-    report, CPR and First Aid training, physical and TB testing, and other application
-    forms.  \n\n4.\tAs you work through your paperwork, the local Aspiranet office
-    will also set up an interview to learn about your family’s unique skills and needs
-    as a foster or adoptive parent.\n\n5.\tComplete a home environment check and a
-    psychosocial assessment.  This process will assure that your home is compliant
-    with applicable safety laws for foster and adoptive parents in the state of California.
-    \ We have plenty of resources to prepare you for this visit ahead of time.\n\n6.\tBecome
-    an approved foster or adoptive family!  Once you have successfully completed the
-    steps outlined above, your local Aspiranet office will approve your family to
-    begin caring for children and youth who are placed in foster care.  Your social
-    worker will partner with you to determine how to best match a child with your
-    family and provide ongoing assistance in supporting the child, or children, in
-    your care.  For families interested in adoption, this may include adoption matching
-    and home study.\n\nOur Family Coordinators are here to answer your questions and
-    walk you through the process so you can feel confident in your decision to move
-    forward.  Sign up for more information or call 1-877-380-4376.\n"
-  requirements: |
-    - Be 21 years of age or older
-    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
-    - Be able to support their current household on their current income, without receiving assistance
-    - Attend and complete all Aspiranet Parent Education classes
-    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
-    - Includes everyone age 18 and older living in the home
-    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
-    - Complete a standard first aid course that includes adult, child and infant CPR
-    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
-    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
-    - 10-year DMV driving record and proof of insurance must be submitted
-    - Participate in all family assessment interviews
-    - Complete and pass a home fire and safety inspection
-    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
-    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
-
-    Home requirements include:
-
-    - Adequate space for a child
-    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
-    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
-    - Adults may not share bedrooms with children, unless the child is under 2 years of age
-    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
-    - Locks on cabinets (for medications, household toxics, etc.)
-    - Fire extinguisher (2A10BC) on each level of the home
-    - Smoke detectors – minimum of two
-    - First aid kit and manual
-
-    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
-
-    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
-    - If the pool is above ground, a locking or removable ladder may be used
-
-    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
-  faq: |-
-    __Do I have a say in the child(ren) placed in my home?__
-
-    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
-
-    __How long does it take to become an Aspiranet foster parent?__
-
-    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
-
-    __Can anyone be an Aspiranet foster parent?__
-
-    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
-
-    __Would a child’s family be involved while a child was living in my home?__
-
-    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
-
-    __How will Aspiranet help me if I have a child with difficult behaviors?__
-
-    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
