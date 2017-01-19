@@ -76,10 +76,11 @@ layout: default
     </div>
 </div>
 
-<section>
-	<div class="grid color-blue-dark">
-		<h4 class="round no-margin-bottom">Our Leadership</h4>
-		<h1 class="no-margin-top">Senior Executives</h1>
+<section class="blue">
+	<div class="grid">
+		<h1 class="round text-center no-margin-top">Our Leadership</h1>
+		<p class="round text-center no-margin-bottom">Senior Executives</p>
+		
 		
 			<div class="grid">
 		    	{% assign sorted_senior_executives = site.data.contentful.spaces.proddata.seniorExecutive | sort:"order" %}

@@ -28,7 +28,8 @@
     }
     &:hover {
     	color: #fff;
-    	h2, p.nohover {
+    	h2 { color: #fff; }
+    	p.nohover {
     		display: none;
     	}
     	.hover {
