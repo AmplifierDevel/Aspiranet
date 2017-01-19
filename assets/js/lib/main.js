@@ -79,6 +79,7 @@ $(document).ready(function(){
 			next: '<a class="unslider-arrow next"><p class="small caps round color-orange no-margin-bottom">Next post --></p></a>',
 		}
 	});
+	
 	$(window).scroll(function(){
         $homeSlider.data('unslider').stop();
         $('.unslider-nav').fadeOut();

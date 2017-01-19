@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<div class="remodal" data-remodal-id="modal">
+	  <button data-remodal-action="close" class="remodal-close"></button>
+	  	<iframe width="100%" height="315" src="https://www.youtube.com/embed/mXny7p6v888" frameborder="0" allowfullscreen></iframe>
+	  	<br>  
+</div>
+
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersHeroImage.url }}');" class="img-settings section-photo center-vertical">
 	<div class="grid">
 		<div class="col-5-12 no-padding color-white">
@@ -15,7 +21,7 @@ layout: default
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].careersHeader | markdownify}}
 		</div>
 		<div class="col-1-2">
-			<a href="https://www.youtube.com/watch?v=mXny7p6v888" target="_blank">
+			<a href="https://www.youtube.com/watch?v=mXny7p6v888" target="_blank" id="career-video">
 				<img src="/assets/img/career-video.jpg" width="100%" alt="career-video" />
 			</a>
 		</div>
