@@ -66,11 +66,11 @@
 
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
 {% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
-{% if page.title == "Careers" %}
+{% if page.title == "Careers" or page.title == "About" %}
 	<script src="/assets/js/lib/remodal.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#career-video').click(function(e){
+			$('#modal').click(function(e){
 				e.preventDefault();
 				var modal = $('[data-remodal-id=modal]').remodal();
 				modal.open();
