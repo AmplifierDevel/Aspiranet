@@ -63,9 +63,10 @@ $(document).ready(function(){
 	});
 	 $('.campaign-slider').unslider({
 		arrows: false,
-		autoplay: true,
-		infinite: true,
-		delay: 6000
+		animation: 'fade',
+		autoplay: false,
+		infinite: false,
+		delay: 9000
 	});
 	$('.similar-posts-wrapper').unslider({
 		arrows: true,

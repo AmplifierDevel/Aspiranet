@@ -23,7 +23,7 @@ layout: default
 	{% endfor %}
 	</ul>  
 </div>
-<section class="blue text-center">
+<section class="blue text-center" style="position: relative; z-index: 20; margin-top: 600px;">
 	<div class="grid">
 		<div class="col-8-12 center">
 			<h3>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageVisionText}}</h3>
@@ -32,7 +32,7 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}'); padding-bottom: 13%;" class="img-settings">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}'); padding-bottom: 13%; background-attachment: fixed; z-index: 20;" class="img-settings">
 	<div class="grid">
 		<div class="col-1-2 stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
@@ -60,8 +60,7 @@ layout: default
 	</div>
 </section>
 
-
-<section class="blue text-center">
+<section class="blue text-center" style="position: relative; z-index: 20;">
 	<div class="grid">
 		<div class="col-8-12 center">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
@@ -70,9 +69,8 @@ layout: default
 	</div>
 </section>
 
-
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="img-settings section-photo">
-	<div class="grid" style="">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}'); background-attachment: fixed; z-index: 20;" class="img-settings section-photo">
+	<div class="grid">
 		<div class="col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
@@ -81,7 +79,7 @@ layout: default
 </section>
 
 
-<section class="latest-front text-center">
+<section class="latest-front text-center white" style="position: relative; z-index: 20;">
 	<h3 class="blue-dark">The latest</h3>
 
 	<div class="grid">

@@ -68,11 +68,52 @@ a {
 	}
 }
 h1,h2,h3,h4,h5,h6,p,li,a {
-	&.blue {color:$blue;}
-	&.blue-dark {color:$blue-dark;}
-	&.green {color:$green;}
-	&.orange {color:$orange;}
-	&.yellow {color:$yellow;}
-	&.pink {color: $pink;}
-	&.grey {color: $grey-darkest;}
+	&.blue {
+		color:$blue;
+		&:hover {
+			color: lighten($blue, 10%);
+		}
+	}
+	&.color-blue-dark {
+		color:$blue-dark;
+		&:hover {
+			color: lighten($blue-dark, 10%);
+		}
+	}
+	&.green {
+		color:$green;
+		&:hover {
+			color: lighten($green, 10%);
+		}
+	}
+	&.orange {
+		color:$orange;
+		&:hover {
+			color: lighten($orange, 10%);
+		}
+	}
+	&.yellow {
+		color:$yellow;
+		&:hover {
+			color: lighten($yellow, 10%);
+		}
+	}
+	&.pink {
+		color: $pink;
+		&:hover {
+			color: lighten($pink, 10%);
+		}
+	}
+	&.grey {
+		color: $grey-darkest;
+		&:hover {
+			color: lighten($grey-darkest, 10%);
+		}
+	}
+	&.color-purple-dark {
+		color: $purple-dark;
+		&:hover {
+			color: lighten($purple-dark, 10%);
+		}
+	}
 }

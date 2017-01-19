@@ -39,6 +39,11 @@
     	border: 1px solid white !important;
     }
 }
+.unslider-fade .unslider-wrap li {
+	position: fixed !important;
+	z-index: 1;
+	top: 100px !important;
+}
 .campaign-slider {
 	li {
 		height: 650px;
