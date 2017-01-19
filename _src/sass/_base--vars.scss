@@ -31,11 +31,15 @@ $blue-marin   : #107395;
 	font-family: KlinicSlab;
 	src: url("/assets/fonts/KlinicSlabMedium.otf") format("opentype");
 }
+@font-face {
+	font-family: KlinicSlabLight;
+	src: url("/assets/fonts/KlinicSlabLight.otf") format("opentype");
+}
 
 // Font Stacks
 $stack-serif			: 'KlinicSlab', Times, serif;
 $stack-sans-serif 		: 'TTRounds', Helvetica, sans-serif;
-
+$stack-serif-light		: 'KlinicSlabLight', Times, serif;
 $assets-path			: '/assets/img/';
 
 // Mixins
