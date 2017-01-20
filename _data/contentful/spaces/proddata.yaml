@@ -1239,62 +1239,6 @@ programLocation:
     Wraparound
     Trina Newberry, Core Program Director
     tnewberry@aspiranet.org
-popup:
-- sys:
-    id: 4aF6s5Eq080u0aIcEACAu2
-  title: Example Popup
-  content: This popup will redirect you to the blog if you click __OK__
-  urlToRedirectTo: /blog
-- sys:
-    id: wUjJa0X6DeQmM0gIe2eMI
-  title: This is the first popup
-  content: bla bla
-blogTag:
-- sys:
-    id: 3z7QQ5fttYAG6QWgEs6cy0
-  name: Reunification
-- sys:
-    id: 2f4F4fvzne6Ma82egMgaks
-  name: Integrity
-- sys:
-    id: 1eHWOXJsFY2IuKmoOUa8WK
-  name: Foster and Adoptive Services
-- sys:
-    id: 4MPGYiEPUccOgeOwCO6SqY
-  name: Courage
-- sys:
-    id: 2rpQXkICnOQqkYe8KewUmo
-  name: Youth
-- sys:
-    id: 4bNO0ekSS4yq8CuWOYCcCi
-  name: Hope
-- sys:
-    id: aj45ghA27S2OgskKa4Agm
-  name: Adoption
-- sys:
-    id: 3ihYDCzp0ISOE644OmscMs
-  name: THP+
-- sys:
-    id: 5V3QqYRbCEeYmqyMOKqqAo
-  name: Respect
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster
-- sys:
-    id: 41zCNoeNrWSKuSuMQKW0o0
-  name: Family
-- sys:
-    id: 4FYoyfpg3u0K2Qu0qsOKgm
-  name: Staff
-- sys:
-    id: 6oqIUvAvUkK8muQigAAuCW
-  name: Community
-- sys:
-    id: 4p1GBu4QNyusWU4scuu6QK
-  name: Residential
-- sys:
-    id: 7sF3shCds4aqymKSu6w0a
-  name: First Five Center
 blogPost:
 - sys:
     id: 4KnVNF25SwmY0MIoOGIwUY
@@ -1309,8 +1253,8 @@ blogPost:
     title: 01 homepage hero img ERnDC
     url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
   thumbnailToBeDisplayedOnHomepage:
-    title: 5 program intensive  HHJL7
-    url: //images.contentful.com/e5ehlcazegi0/4e5cUIj2tyIGEMIuCQCCWE/27fad7fc7b78aa1b52ec6fa4a898d070/5_program_intensive__HHJL7.jpg
+    title: 01 homepage hero img ERnDC
+    url: //images.contentful.com/e5ehlcazegi0/6GxYU0UiSkiYaq2C6ukqcU/b79cb31a04293960c73bc2314b8b436a/01_homepage_hero_img_ERnDC.jpg
   date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
@@ -1625,6 +1569,62 @@ blogPost:
   - sys:
       id: 4FYoyfpg3u0K2Qu0qsOKgm
     name: Staff
+popup:
+- sys:
+    id: 4aF6s5Eq080u0aIcEACAu2
+  title: Example Popup
+  content: This popup will redirect you to the blog if you click __OK__
+  urlToRedirectTo: /blog
+- sys:
+    id: wUjJa0X6DeQmM0gIe2eMI
+  title: This is the first popup
+  content: bla bla
+blogTag:
+- sys:
+    id: 3z7QQ5fttYAG6QWgEs6cy0
+  name: Reunification
+- sys:
+    id: 2f4F4fvzne6Ma82egMgaks
+  name: Integrity
+- sys:
+    id: 1eHWOXJsFY2IuKmoOUa8WK
+  name: Foster and Adoptive Services
+- sys:
+    id: 4MPGYiEPUccOgeOwCO6SqY
+  name: Courage
+- sys:
+    id: 2rpQXkICnOQqkYe8KewUmo
+  name: Youth
+- sys:
+    id: 4bNO0ekSS4yq8CuWOYCcCi
+  name: Hope
+- sys:
+    id: aj45ghA27S2OgskKa4Agm
+  name: Adoption
+- sys:
+    id: 3ihYDCzp0ISOE644OmscMs
+  name: THP+
+- sys:
+    id: 5V3QqYRbCEeYmqyMOKqqAo
+  name: Respect
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster
+- sys:
+    id: 41zCNoeNrWSKuSuMQKW0o0
+  name: Family
+- sys:
+    id: 4FYoyfpg3u0K2Qu0qsOKgm
+  name: Staff
+- sys:
+    id: 6oqIUvAvUkK8muQigAAuCW
+  name: Community
+- sys:
+    id: 4p1GBu4QNyusWU4scuu6QK
+  name: Residential
+- sys:
+    id: 7sF3shCds4aqymKSu6w0a
+  name: First Five Center
 divisionHeads:
 - sys:
     id: 2G21MAhAhOQmMasm8Y0GeY
