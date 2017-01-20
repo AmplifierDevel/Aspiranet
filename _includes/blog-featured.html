@@ -3,18 +3,16 @@
         {% for blogpost in sorted_news %}
             {% if blogpost.featuredOnBlog == true %}
                 {% if blogpost.heroImage %}
-                    <a href="/blog/{{ blogpost.url }}">
+                    <a href="/blog/{{ blogpost.url }}" style="padding-left: 0;">
                         <div class="featured-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
                             <div class="featured-post-copy push-right col-4-12">
                                 <p class="small caps round">Aspiranet blog</p>
                                 <h1 class="color-blue no-margin-top">Esperanza</h1>
-                                <p class="small caps round">{{ blogpost.category }}</p>
                                 <h4 class="round no-margin-top">{{ blogpost.title }}</h4> 
-                                <p>{{ blogpost.postBody | truncatewords: 25 | markdownify }}</p>
-                                <p class="button"><a class="orange" href="/blog/{{ blogpost.url }}">Read the full story</a></p>
+                                {{ blogpost.postBody | truncatewords: 25 | markdownify }}
+                                <p class="button link">Read the full story</p>
                             </div>
                        </div>
-                         
                     </a>
                 {% endif %}
             {% endif %}

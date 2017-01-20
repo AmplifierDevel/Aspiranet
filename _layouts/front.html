@@ -9,7 +9,7 @@ layout: default
 <div class="campaign-slider">
 	<ul> 
 	{% for campaign in sorted_campaigns %}
-		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings {% if campaign.titleAlign == 'left' %} img-overlay-left {% endif %}">
+		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% endif %}">
 			<section class="grid">
 				{% if campaign.campaignPartners %} 
 				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>

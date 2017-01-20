@@ -1,6 +1,20 @@
 .button {
 	text-transform: uppercase;
 	cursor:pointer;
+	&.link {
+		padding: 13px 36px;
+		border-radius: 5px;
+		letter-spacing: 1.5px;
+		display: inline-block;
+		font-size: 12px;
+		font-family: $stack-sans-serif;
+		@include transition(.2s);
+		background-color: $orange;
+		color: #fff;
+		&:hover {
+			background: lighten($orange, 5%);
+		}
+	}
 	a {
 		padding: 13px 36px;
 		border-radius: 5px;

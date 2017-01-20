@@ -29,24 +29,26 @@
 				<h2 class="no-margin-top">Stories from foster families</h2>
 				<div class="stories-slider"> 
 					<ul>
-						{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+						{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost %}
 						{% for blogpost in sorted_news %}
-						{% if blogpost.blogCategory.name == "Hope" %}
-							<li>
-			                    <div class="story-slider-item flex-container col-8-12 center">
-		                            {% if blogpost.heroImage %}
-	                                <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
-	                                </div>
-		                            {% endif %}
-		                            <div class="col-1-2 white text-left">
-		                                <p class="small caps round grey">{{ blogpost.blogCategory.name }}</p>
-		                                <p class="round blue">{{ blogpost.title }}</p>
-		                                <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
-		                                <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
-		                            </div>
-			                    </div>
-			                </li>
-						{% endif %}
+							{% if forloop.first %}
+								{% if blogpost.blogCategory.name == "Hope" %}
+									<li>
+					                    <div class="story-slider-item flex-container col-8-12 center">
+				                            {% if blogpost.heroImage %}
+			                                <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
+			                                </div>
+				                            {% endif %}
+				                            <div class="col-1-2 white text-left">
+				                                <p class="small caps round grey">{{ blogpost.blogCategory.name }}</p>
+				                                <p class="round blue">{{ blogpost.title }}</p>
+				                                <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
+				                                <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
+				                            </div>
+					                    </div>
+					                </li>
+								{% endif %}
+							{% endif %}
 						{% endfor %}
 					</ul>
 				</div>

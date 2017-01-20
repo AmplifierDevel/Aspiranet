@@ -28,13 +28,13 @@ $(document).ready(function(){
 		}
 	});
 
-	$('.stories-slider').unslider({
-		autoplay: true,
-		infinite: true,
-		delay: 6000,
-		arrows: true,
-		nav: false
-	});
+	// $('.stories-slider').unslider({
+	// 	autoplay: true,
+	// 	infinite: true,
+	// 	delay: 6000,
+	// 	arrows: true,
+	// 	nav: false
+	// });
 	
 	$('.similar-posts-wrapper').unslider({
 		arrows: true,
