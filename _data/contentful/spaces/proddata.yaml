@@ -1311,7 +1311,7 @@ blogPost:
   thumbnailToBeDisplayedOnHomepage:
     title: 5 program intensive  HHJL7
     url: //images.contentful.com/e5ehlcazegi0/4e5cUIj2tyIGEMIuCQCCWE/27fad7fc7b78aa1b52ec6fa4a898d070/5_program_intensive__HHJL7.jpg
-  date: !ruby/object:DateTime 2017-01-06 03:00:00.000000000 +03:00
+  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
     She spent much of her youth in foster care, and then when she became pregnant
@@ -1568,7 +1568,7 @@ blogPost:
   heroImage:
     title: family
     url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-05 03:00:00.000000000 +03:00
+  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -1659,28 +1659,6 @@ divisionHeads:
   name: Sharon Lawicki
   desiredUrl: sharon-lawicki
   position: 'Intensive Home Based Services Division Director '
-campain:
-- sys:
-    id: 3nasDfII8ESiAEcM0Yc6SK
-  title: 'Second campaign '
-  titleAlign: right
-  image:
-    title: +31411754456 2f15df3718 o
-    url: //images.contentful.com/e5ehlcazegi0/qi0wMWcNMsIWmssQk8MGg/51f34ce4670e2c387dcf7cbe4c7e77b3/_31411754456_2f15df3718_o.jpg
-  campaignPartners: Starbucks
-  campaignUrl: url-to-campaign
-  order: 2
-  ctaButtonCopy: Donate now
-  ctaUrl: /donate/now
-- sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: 'Third campaign '
-  titleAlign: left
-  image:
-    title: 01 homepage hero img D9X9H
-    url: //images.contentful.com/e5ehlcazegi0/4KqJCvpJ0I8gOAcc4mQqcE/5cd4658b35eb5cef1bf730308ad4e9f7/01_homepage_hero_img_D9X9H.jpg
-  campaignUrl: link-to-third-campaign
-  order: 3
 programHosted:
 - sys:
     id: 4uguFkrZzyQoaUEKiOAYwi
@@ -2024,6 +2002,28 @@ programs:
   fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
+campain:
+- sys:
+    id: 3nasDfII8ESiAEcM0Yc6SK
+  title: 'Second campaign '
+  titleAlign: left
+  image:
+    title: +31411754456 2f15df3718 o
+    url: //images.contentful.com/e5ehlcazegi0/qi0wMWcNMsIWmssQk8MGg/51f34ce4670e2c387dcf7cbe4c7e77b3/_31411754456_2f15df3718_o.jpg
+  campaignPartners: Starbucks
+  campaignUrl: url-to-campaign
+  order: 2
+  ctaButtonCopy: Donate now
+  ctaUrl: /donate/now
+- sys:
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: 'Third campaign '
+  titleAlign: left
+  image:
+    title: 01 homepage hero img D9X9H
+    url: //images.contentful.com/e5ehlcazegi0/4KqJCvpJ0I8gOAcc4mQqcE/5cd4658b35eb5cef1bf730308ad4e9f7/01_homepage_hero_img_D9X9H.jpg
+  campaignUrl: link-to-third-campaign
+  order: 3
 fosterAdoptiveFamilies:
 - sys:
     id: 4KJHTjAjwsEUM2IAI0Y8YQ
