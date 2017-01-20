@@ -106,6 +106,7 @@
 		}
 	}
 }
+
 .transitional-aged-youth {
 	.individual-program {
 		.program-title {
@@ -113,7 +114,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: $mint-light;
+			background-color: $mint;
 			color: white;
 		}
 		.fast-facts {
@@ -146,7 +147,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: $purple-dark;
+			background-color: $purple-light;
 			color: white;
 		}
 		.fast-facts {
@@ -179,7 +180,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: $red-dark;
+			background-color: $orange;
 			color: white;
 		}
 		.fast-facts {
@@ -212,7 +213,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: $yellow-dark;
+			background-color: $yellow;
 			color: white;
 		}
 		.fast-facts {
@@ -239,7 +240,8 @@
 	}
 }
 .behavioral-health .individual-program {
-	.section-copy-rest {
+	.section-copy-rest, .program-subtitle {
+		background-color: $blue;
 		color: #fff;
 	}
 	.fast-facts {
@@ -279,7 +281,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: #b672a9; //$pink
+			background-color: $pink-light; //$pink
 			color: white;
 			.grid {
 				z-index: 15;

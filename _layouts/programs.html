@@ -7,6 +7,11 @@ layout: default
 			<h1>{{ page.contentful_fields.title }}</h1>
 		</div>
 	</div>
+	<div class=" blue-dark program-subtitle">
+		<div class="grid">
+			<h4 class="italic">{{ page.contentful_fields.subtitle }}</h4>
+		</div>
+	</div>
 	{% if page.url == "/programs/foster-and-adoptive-families/" %}
 	{% include foster-and-adoptive.html %} 
 	{% else %}
