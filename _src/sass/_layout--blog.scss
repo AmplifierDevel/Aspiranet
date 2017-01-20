@@ -64,12 +64,15 @@
     border-left: 3px solid $blue;
     margin-left: -1.5em;
     padding-left: 1.4em;
+    a p.color-blue {
+    	color: $blue !important;
+    }
 }
 
 #blog, #blog-post {
 	.col-4-12 {
 		.blog-tags  {
-			margin-top: 2em;
+			margin-top: 3em;
 			padding-left: 1.4em;
 			p {
 				color: $grey-darkest;
@@ -79,8 +82,14 @@
 				li {
 					display: inline-block;
 					border: 1px solid $grey-dark;
-		    		padding: 0.5em;
+		    		padding: 0.4em;
 		    		margin: 0.4em 0.4em 0.4em 0;
+		    		&.tag-active {
+		    			background-color: $blue;
+		    			a p {
+		    				color: white;
+		    			}
+		    		}
 		    		a p {
 		    			padding-left: 0;
 		    			margin: 0;
@@ -96,6 +105,7 @@
 			}
 			ul li p {
 				color: $blue-dark;
+				margin: 7px 0;
 			}
 		}
 	}

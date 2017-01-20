@@ -19,15 +19,13 @@
         {% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
         {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
             {% for tag in tag_array %}
-            <li>
+            <li {% if page.title == tag | slugify %} class="tag-active" {% endif%}>
                 <a href="/blog-tag/{{ tag | slugify }}">
                     <p><span>#</span>{{ tag }}</p>
                 </a>
             </li>
 
             {% endfor %}
-
-
         </ul>
     </div>
 </div>
