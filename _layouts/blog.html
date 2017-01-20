@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 
 <div id="blog-post">
 	<section  {% if page.contentful_fields.heroImage %} style="min-height:500px;background-image: url('{{ page.contentful_fields.heroImage.file.url }}');" alt='{{ page.contentful_fields.heroImage.title }}' " class="img-settings section-photo" {% endif %} class="blue"> 
@@ -13,7 +14,7 @@ layout: default
                     <p>{{ page.contentful_fields.postBody | markdownify }}</p>
                 </div>
 	        </div>
-	        {% include sidebar-post.html %}
+	        {% include sidebar.html %}
 	    </div>
 	</section>
     <section class="grey">
@@ -21,7 +22,6 @@ layout: default
         <h1 class="no-margin-top">Similar posts</h1>
         <div class="similar-posts-wrapper">
             <ul>
-                {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
                 {% for blogpost in sorted_news %}
                     {% for category in blogpost.category %}
                     {% if category == page.contentful_fields.category and page.contentful_fields.title != blogpost.title %}
