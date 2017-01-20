@@ -76,6 +76,35 @@
 			}
 		}
 	}
+	.quote-section {
+		padding-right: 0;
+		.color-block-image {
+			width: 400px;
+			height: 290px;
+			margin-left: 30px;
+			padding-top: 50px;
+			div {
+				width: 400px;
+				height: 290px;
+				background-size: cover;
+				background-position: center center;
+			}
+		}
+		.color-block {
+			min-height: 500px;
+		}
+		h2 {
+			margin-bottom: 0; 
+			padding-top: 15px;
+			margin-top: 50px;
+		}
+		h4 {
+			padding: 0px 20px 25px 20px;
+    		display: inline-block;
+    		margin-bottom: 0;
+    		margin-top: 0;
+		}
+	}
 }
 .transitional-aged-youth {
 	.individual-program {
@@ -96,6 +125,17 @@
 		}
 		.block-overlap {
 			background-color: $purple-light;
+		}
+		.quote-section {
+			.color-block {
+				background-color: darken($mint,10%);
+			}
+			h2 {
+				color: $mint;
+			}
+			h4 {
+				background-color: darken($mint,10%);
+			}
 		}
 	}
 }
@@ -119,6 +159,17 @@
 		.block-overlap {
 			background-color: $mint;
 		}
+		.quote-section {
+			.color-block {
+				background-color: darken($purple-light,10%);
+			}
+			h2 {
+				color: $purple-light;
+			}
+			h4 {
+				background-color: darken($purple-light,10%);
+			}
+		}
 	}
 }
 .residential {
@@ -140,6 +191,17 @@
 		}
 		.block-overlap {
 			background-color: $blue;
+		}
+		.quote-section {
+			.color-block {
+				background-color: $red-dark;
+			}
+			h2 {
+				color: $orange;
+			}
+			h4 {
+				background-color: $red-dark;
+			}
 		}
 	}
 }
@@ -163,6 +225,17 @@
 		.block-overlap {
 			background-color: $red-dark;
 		}
+		.quote-section {
+			.color-block {
+				background-color: $yellow-dark;
+			}
+			h2 {
+				color: $yellow;
+			}
+			h4 {
+				background-color: $yellow-dark;;
+			}
+		}
 	}
 }
 .behavioral-health .individual-program {
@@ -171,6 +244,17 @@
 	}
 	.block-overlap {
 		background-color: $blue;
+	}
+	.quote-section {
+		.color-block {
+			background-color: $blue-dark;
+		}
+		h2 {
+			color: $blue;
+		}
+		h4 {
+			background-color: $blue-dark;
+		}
 	}
 }
 .foster-and-adoptive-families {
@@ -196,6 +280,24 @@
 		}
 		.block-overlap {
 			background-color: $blue;
+		}
+		.quote-section {
+			.color-block {
+				background-color: #b672a9;
+			}
+			.color-block-image {
+				margin-left: -20px;
+				height: 320px;
+				padding-top: 0;
+			}
+			h2 {
+				color: $pink;
+				margin-top: 0px;
+			}
+			h4 {
+				background-color: #b672a9;
+				color: white;
+			}
 		}
 		.custom-counter {
 		    margin-left: 0;
@@ -237,35 +339,6 @@
 				.button {
 					margin-top: 3em;
 				}
-			}
-			.quote-section {
-				padding-right: 0;
-				.color-block-image {
-					width: 400px;
-					height: 290px;
-	    			margin-left: -20px;
-	    			div {
-	    				width: 400px;
-						height: 290px;
-						background-size: cover;
-	    			}
-	    		}
-	    		.pink {
-	    			height: 500px;
-	    		} 
-	    		h2 {
-	    			color: #b672a9;
-	    			margin-bottom: 0; 
-	    			margin-top: 0;
-	    			padding-top: 15px;
-	    		}
-	    		h3 {
-	    			font-family: $stack-serif;
-	    			padding: 0 1.7em;
-	    			margin: 0 0 20px 0;
-	    			font-style: italic;
-	    			font-size: 20px;
-	    		}
 			}
 			.story-slider-item {
 				.col-1-2 {
