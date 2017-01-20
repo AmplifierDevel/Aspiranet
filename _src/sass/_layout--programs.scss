@@ -242,8 +242,23 @@
 	.section-copy-rest {
 		color: #fff;
 	}
+	.fast-facts {
+		background-color: $yellow-dark;
+		color: white;
+		h1, h3, p {
+			color: $blue-dark;
+		}
+	}
 	.block-overlap {
-		background-color: $blue;
+		background-color: $yellow;
+		h4 {
+			color: $blue-dark;
+		}
+		.button:first-of-type {
+			a {
+				color: $blue-dark;
+			}
+		}
 	}
 	.quote-section {
 		.color-block {
