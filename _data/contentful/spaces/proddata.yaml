@@ -54,6 +54,147 @@ programLocation:
     - Youth Center\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa
     Cabral, Core Program Supervisor\nlcabral@aspiranet.org"
 - sys:
+    id: 1mfNqufPyIQEkwCGc8IUYe
+  name: Visalia
+  location:
+    lat: 36.219244
+    lon: -119.38049000000001
+  addressAsText: 1840 S Central St, Visalia, CA 93277, USA
+  program:
+  - Adoption
+  - Foster Care
+  - Intensive Treatment Foster Care
+  - Resources, Education, Advocacy, Crisis Intervention, and Hope (REACH)
+  - Transitional Housing Placement+
+  - Transitional Housing Placement + Foster Care
+  - Wraparound
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement + (15-19, 20+)</p></strong>
+    \n<p>Transitional housing support program for former foster youth who are transitioning
+    to adulthood out of the child welfare or probation systems. Provides a safe and
+    supportive living environment while helping youth achieve self-sufficiency and
+    learn life skills.</p>\n<strong><p>Transitional Housing Placement + Foster Care
+    (15-19, 20+)</p></strong>\n<p>An extended foster care placement option that bridges
+    the gap for non-minor dependents who are no longer living in a foster home, but
+    who may not yet be ready to transition into a supervised independent living placement.</p>\n<strong><p>Foster
+    Care (0-5, 6-10, 11-14)</p></strong> \n<p>Aspiranet secures loving homes for foster
+    children.  Whether the foster care placement lasts for a few days or a few years,
+    we are committed to matching children with families where they will thrive.</p>\n<strong><p>Foster
+    Care (0-5, 6-10, 11-14, 15-19)</p></strong>\n<p>Aspiranet secures loving homes
+    for foster children.  Whether the foster care placement lasts for a few days or
+    a few years, we are committed to matching children with families where they will
+    thrive.</p>\n<strong><p>Intensive Treatment Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong>
+    \n<p>Aspiranet’s Intensive Treatment Foster Care (ITFC) Program provides counseling,
+    case management, education, and support for foster families caring for emotionally
+    disturbed children.   These specially trained families provide a stable alternative
+    to institutional care for children who require intensive home-based support.</p>\n<strong><p>Adoption
+    (0-5, 6-10, 11-14)</p></strong> \n<p>Aspiranet secures permanent, loving, adoptive
+    families for youth in foster care, and provides ongoing support for adoptive families,
+    including resources, education, crisis intervention, and advocacy.</p>\n<strong><p>Resources,
+    Education, Advocacy, Crisis Intervention, and Hope (REACH) (0-5, 6-10, 11-14,
+    15-19)</p></strong> \n<p>Supports families long after the adoption process has
+    been completed, with resources, education, advocacy and crisis intervention.</p>\n<strong><p>Adoption
+    (0-5, 6-10, 11-14, 15-19)</p></strong> \n<p>Aspiranet secures permanent, loving,
+    adoptive families for youth in foster care, and provides ongoing support for adoptive
+    families, including resources, education, crisis intervention, and advocacy.</p>\n<strong><p>Wraparound
+    (0-5, 6-10, 11-14, 15-19)</p></strong> \n<p>We create an individualized program
+    from our diverse services to meet the behavioral and emotional challengesof our
+    families, and to develop the skills and capabilities necessary to achieve stability
+    and self-sufficiency.</p>"
+  phoneText: 559-741-7358
+  internalNotes: |-
+    Transitional Housing Placement +
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+    Aimee Day, Core Program Supervisor
+    aday@aspiranet.org
+
+    Transitional Housing Placement + Foster Care
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+    Aimee Day, Core Program Supervisor
+    aday@aspiranet.org
+
+    Foster Care
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+
+    Foster Care
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+
+    Intensive Treatment Foster Care
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+
+    Adoption
+    Josh Mishou, Core Program Director
+    jmishou@aspiranet.org
+
+    Resources, Education, Advocacy, Crisis Intervention, and Hope (REACH)
+    Joshua Mishou, Core Program Director
+    jmishou@aspiranet.org
+    Julie Jones, Core Program Supervisor
+    jjones@aspiranet.org
+
+    Adoption
+    Joshua Mishou, Core Program Director
+    jmishou@aspiranet.org
+
+    Wraparound
+    Trina Newberry, Core Program Director
+    tnewberry@aspiranet.org
+- sys:
+    id: iODoqjDnRm8m260WGKiI
+  name: Turlock
+  location:
+    lat: 37.5006986
+    lon: -120.8473022
+  addressAsText: 151 E Canal Dr, Turlock, CA 95380, USA
+  program:
+  - Adoption
+  - Emergency Shelter Bed Homes (ESBH)
+  - Foster Care
+  - Intensive Treatment Foster Care
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  programAndAgeGroupAsText: |
+    <strong><p>Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.</p>
+    <strong><p>Intensive Treatment Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet’s Intensive Treatment Foster Care (ITFC) Program provides counseling, case management, education, and support for foster families caring for emotionally disturbed children. These specially trained families provide a stable alternative to institutional care for children who require intensive home-based support.</p>
+    <strong><p>Emergency Shelter Bed Homes (ESBH) (0-5, 6-10, 11-14, 15-19)</p></strong><p>Short term foster placements, limited to 30 days, where children are placed in a family setting instead of a group home until a stable relative or longer term foster care match is identified.</p>
+    <strong><p>Adoption (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet secures permanent, loving, adoptive families for youth in foster care, and provides ongoing support for adoptive families, including resources, education, crisis intervention, and advocacy.</p>
+  phoneText: 209-669-2577
+  internalNotes: |-
+    Foster Care
+    Sandra Genova, Core Program Director
+    sgenova@aspiranet.org
+    Gina Saenz, Core Program Supervisor
+    gsaenz@aspiranet.org
+
+    Intensive Treatment Foster Care
+    Sandra Genova, Core Program Director
+    sgenova@aspiranet.org
+    Gina Saenz, Core Program Supervisor
+    gsaenz@aspiranet.org
+
+    Emergency Shelter Bed Homes (ESBH)
+    Sandra Genova, Core Program Director
+    sgenova@aspiranet.org
+    Gina Saenz, Core Program Supervisor
+    gsaenz@aspiranet.org
+
+    Adoption
+    Sandra Genova, Core Program Director
+    sgenova@aspiranet.org
+- sys:
     id: 6OBDaCGHVScMGSSesa2igG
   name: Los Angeles
   location:
@@ -1098,147 +1239,6 @@ programLocation:
     Adoption
     Monica Ferrulli, Core Program Director
     mferrulli@aspiranet.org
-- sys:
-    id: 1mfNqufPyIQEkwCGc8IUYe
-  name: Visalia
-  location:
-    lat: 36.219244
-    lon: -119.38049000000001
-  addressAsText: 1840 S Central St, Visalia, CA 93277, USA
-  program:
-  - Adoption
-  - Foster Care
-  - Intensive Treatment Foster Care
-  - Resources, Education, Advocacy, Crisis Intervention, and Hope (REACH)
-  - Transitional Housing Placement+
-  - Transitional Housing Placement + Foster Care
-  - Wraparound
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement + (15-19, 20+)</p></strong>
-    \n<p>Transitional housing support program for former foster youth who are transitioning
-    to adulthood out of the child welfare or probation systems. Provides a safe and
-    supportive living environment while helping youth achieve self-sufficiency and
-    learn life skills.</p>\n<strong><p>Transitional Housing Placement + Foster Care
-    (15-19, 20+)</p></strong>\n<p>An extended foster care placement option that bridges
-    the gap for non-minor dependents who are no longer living in a foster home, but
-    who may not yet be ready to transition into a supervised independent living placement.</p>\n<strong><p>Foster
-    Care (0-5, 6-10, 11-14)</p></strong> \n<p>Aspiranet secures loving homes for foster
-    children.  Whether the foster care placement lasts for a few days or a few years,
-    we are committed to matching children with families where they will thrive.</p>\n<strong><p>Foster
-    Care (0-5, 6-10, 11-14, 15-19)</p></strong>\n<p>Aspiranet secures loving homes
-    for foster children.  Whether the foster care placement lasts for a few days or
-    a few years, we are committed to matching children with families where they will
-    thrive.</p>\n<strong><p>Intensive Treatment Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong>
-    \n<p>Aspiranet’s Intensive Treatment Foster Care (ITFC) Program provides counseling,
-    case management, education, and support for foster families caring for emotionally
-    disturbed children.   These specially trained families provide a stable alternative
-    to institutional care for children who require intensive home-based support.</p>\n<strong><p>Adoption
-    (0-5, 6-10, 11-14)</p></strong> \n<p>Aspiranet secures permanent, loving, adoptive
-    families for youth in foster care, and provides ongoing support for adoptive families,
-    including resources, education, crisis intervention, and advocacy.</p>\n<strong><p>Resources,
-    Education, Advocacy, Crisis Intervention, and Hope (REACH) (0-5, 6-10, 11-14,
-    15-19)</p></strong> \n<p>Supports families long after the adoption process has
-    been completed, with resources, education, advocacy and crisis intervention.</p>\n<strong><p>Adoption
-    (0-5, 6-10, 11-14, 15-19)</p></strong> \n<p>Aspiranet secures permanent, loving,
-    adoptive families for youth in foster care, and provides ongoing support for adoptive
-    families, including resources, education, crisis intervention, and advocacy.</p>\n<strong><p>Wraparound
-    (0-5, 6-10, 11-14, 15-19)</p></strong> \n<p>We create an individualized program
-    from our diverse services to meet the behavioral and emotional challengesof our
-    families, and to develop the skills and capabilities necessary to achieve stability
-    and self-sufficiency.</p>"
-  phoneText: 559-741-7358
-  internalNotes: |-
-    Transitional Housing Placement +
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-    Aimee Day, Core Program Supervisor
-    aday@aspiranet.org
-
-    Transitional Housing Placement + Foster Care
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-    Aimee Day, Core Program Supervisor
-    aday@aspiranet.org
-
-    Foster Care
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-
-    Foster Care
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-
-    Intensive Treatment Foster Care
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-
-    Adoption
-    Josh Mishou, Core Program Director
-    jmishou@aspiranet.org
-
-    Resources, Education, Advocacy, Crisis Intervention, and Hope (REACH)
-    Joshua Mishou, Core Program Director
-    jmishou@aspiranet.org
-    Julie Jones, Core Program Supervisor
-    jjones@aspiranet.org
-
-    Adoption
-    Joshua Mishou, Core Program Director
-    jmishou@aspiranet.org
-
-    Wraparound
-    Trina Newberry, Core Program Director
-    tnewberry@aspiranet.org
-- sys:
-    id: iODoqjDnRm8m260WGKiI
-  name: Turlock
-  location:
-    lat: 37.5006986
-    lon: -120.8473022
-  addressAsText: 151 E Canal Dr, Turlock, CA 95380, USA
-  program:
-  - Adoption
-  - Emergency Shelter Bed Homes (ESBH)
-  - Foster Care
-  - Intensive Treatment Foster Care
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  programAndAgeGroupAsText: |
-    <strong><p>Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet secures loving homes for foster children.  Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.</p>
-    <strong><p>Intensive Treatment Foster Care (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet’s Intensive Treatment Foster Care (ITFC) Program provides counseling, case management, education, and support for foster families caring for emotionally disturbed children. These specially trained families provide a stable alternative to institutional care for children who require intensive home-based support.</p>
-    <strong><p>Emergency Shelter Bed Homes (ESBH) (0-5, 6-10, 11-14, 15-19)</p></strong><p>Short term foster placements, limited to 30 days, where children are placed in a family setting instead of a group home until a stable relative or longer term foster care match is identified.</p>
-    <strong><p>Adoption (0-5, 6-10, 11-14, 15-19)</p></strong> <p>Aspiranet secures permanent, loving, adoptive families for youth in foster care, and provides ongoing support for adoptive families, including resources, education, crisis intervention, and advocacy.</p>
-  phoneText: 209-669-2577
-  internalNotes: |-
-    Foster Care
-    Sandra Genova, Core Program Director
-    sgenova@aspiranet.org
-    Gina Saenz, Core Program Supervisor
-    gsaenz@aspiranet.org
-
-    Intensive Treatment Foster Care
-    Sandra Genova, Core Program Director
-    sgenova@aspiranet.org
-    Gina Saenz, Core Program Supervisor
-    gsaenz@aspiranet.org
-
-    Emergency Shelter Bed Homes (ESBH)
-    Sandra Genova, Core Program Director
-    sgenova@aspiranet.org
-    Gina Saenz, Core Program Supervisor
-    gsaenz@aspiranet.org
-
-    Adoption
-    Sandra Genova, Core Program Director
-    sgenova@aspiranet.org
 popup:
 - sys:
     id: 4aF6s5Eq080u0aIcEACAu2
@@ -1311,7 +1311,7 @@ blogPost:
   thumbnailToBeDisplayedOnHomepage:
     title: 5 program intensive  HHJL7
     url: //images.contentful.com/e5ehlcazegi0/4e5cUIj2tyIGEMIuCQCCWE/27fad7fc7b78aa1b52ec6fa4a898d070/5_program_intensive__HHJL7.jpg
-  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-06 03:00:00.000000000 +03:00
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
     She spent much of her youth in foster care, and then when she became pregnant
@@ -1568,7 +1568,7 @@ blogPost:
   heroImage:
     title: family
     url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-05 03:00:00.000000000 +03:00
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -1717,170 +1717,6 @@ programHosted:
   fastFact3Text: Year Aspiranet launched our residential-based programs
   howYouCanHelpCopy: How you can help
   howYouCanHelpCta: How you can help CTA
-fosterAdoptiveFamilies:
-- sys:
-    id: 4KJHTjAjwsEUM2IAI0Y8YQ
-  beAFosterFamilyTab: "Aspiranet foster and adoption programs work to connect children,
-    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
-    events are more traumatic for a child than being removed from their family and
-    entered into the foster care system.\n\nWhen a court determines that a child cannot
-    continue to live with their birth parents due to concerns for their safety and
-    well-being, we are committed to securing a safe and nurturing family environment
-    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
-    foster parents, guiding them in becoming a healing resource to children who have
-    experienced trauma and adversity.\n\nWe work in partnership with our families
-    to provide training and ongoing supports until children are able to return home
-    safely.\n\nWhen returning home is not an option, we partner with children and
-    families to develop a plan for life long connections that may include adoption. 
-    \n\nWhether it is a foster family opening their home for a child in need, or an
-    adoptive family offering a foster child a forever family, every family is unique
-    and every family’s experience is different.\n\nIn working with our families our
-    goal is always the same – to maximize opportunities for long-term success and
-    to support our families every step of the way.\n"
-  fosterFamilyPhotoFull:
-    title: 04 program hero img  KAwSW
-    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
-  fosterFamilyPhotoSmall:
-    title: 01 homepage img v2 4
-    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
-  fosterFamilyPullQuote: “Nothing is more joyous than seeing a family form and begin
-    to make a special future together.” <br/> — Diane Warne
-  fosterCopyRest: "There is no better gift than to provide a child with the love and
-    support so they can thrive. Whether you are a foster parent, relative or extended
-    family member, you can provide a home for a child to do just that.\n\nAspiranet
-    is committed to providing the best possible care for children in foster care and
-    helping to reunite families.\n\nWe partner with foster parents in building specialized
-    skills to effectively care for children who have experienced instability and trauma
-    – providing ongoing resources, information and support. \n\nResearch has proven
-    what a difference it makes for children to have at least one caring and consistent
-    relationship with a reliable adult.\n\nFoster parents provide a stable, loving
-    haven for children to begin healing from trauma and to reunite with their birth
-    families.  \n\nWhen children cannot return home safely, foster parents often help
-    with their transition to a permanent family and become an ongoing connection for
-    the child. Sometimes they adopt or become guardians of the child.\n\nPlease consider
-    becoming an Aspiranet foster parent and offering nurturing care to a child. Ask
-    us how."
-  adoptAChildTabCopy: "Aspiranet foster and adoption programs work to connect children,
-    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
-    events are more traumatic for a child than being removed from their family and
-    entered into the foster care system.\n\nWhen a court determines that a child cannot
-    continue to live with their birth parents due to concerns for their safety and
-    well-being, we are committed to securing a safe and nurturing family environment
-    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
-    foster parents, guiding them in becoming a healing resource to children who have
-    experienced trauma and adversity.\n\nWe work in partnership with our families
-    to provide training and ongoing supports until children are able to return home
-    safely.\n\nWhen returning home is not an option, we partner with children and
-    families to develop a plan for life long connections that may include adoption. 
-    \n\nWhether it is a foster family opening their home for a child in need, or an
-    adoptive family offering a foster child a forever family, every family is unique
-    and every family’s experience is different.\n\nIn working with our families our
-    goal is always the same – to maximize opportunities for long-term success and
-    to support our families every step of the way."
-  adoptAChildPhotoFull:
-    title: 02 donate hero img 1
-    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
-  adoptAChildPhotoSmall:
-    title: 01 homepage img v3 1-1
-    url: //images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg
-  adoptAChildPullQuote: “Nothing is more joyous than seeing a family form and begin
-    to make a special future together.” <br/> — Diane Warne
-  adoptAChildCopyBottom: "We believe that every child deserves to be loved and cared
-    for inside a stable, healthy family.\n\nAspiranet works to assure a secure and
-    loving home for foster youth, including adoption through foster care when returning
-    to their families is not an option.\n\nWe are thoughtful and trustworthy in how
-    we match foster children and youth with adoptive families, looking for the best
-    fit where both can be successful.  \nWe partner with our families in providing
-    education, resources and support at all stages of the adoption process.  \n\nThere
-    is no better gift than to provide a child with the love and support so they can
-    thrive.  As an adoptive family you can provide a home for a child to do just that.\n\nConsider
-    becoming an Aspiranet adoptive family today.  Ask us how.\n"
-  steps: "We understand that choosing to become a foster or adoptive parent is one
-    of the most significant decisions you will make.  We want you to know that we
-    will be with you every step of the way, helping you to feel confident in your
-    decision and excited about the opportunity to make a difference in the life of
-    a child.  The process of becoming a foster or adoptive parent may vary slightly
-    depending on a family’s unique situation but the steps below provide an overall
-    guideline of what you can expect.\n\n1. Speak with one of our Family Coordinators
-    who are here to discuss the process in more detail, review the requirements, and
-    answer your questions.\n\n2. Take the next step to getting involved.  Some families
-    want to meet at their local Aspiranet office to discuss fostering or adopting
-    in more detail before training.  Others are ready to begin the process by signing
-    up for parent education classes at a nearby location.\n\n3.\tOnce a family has
-    completed the parent education classes we will work with you to determine whether
-    it makes sense to begin the background check and paperwork requirements.  This
-    includes Department of Justice and Child Abuse Index background checks, DMV driving
-    report, CPR and First Aid training, physical and TB testing, and other application
-    forms.  \n\n4.\tAs you work through your paperwork, the local Aspiranet office
-    will also set up an interview to learn about your family’s unique skills and needs
-    as a foster or adoptive parent.\n\n5.\tComplete a home environment check and a
-    psychosocial assessment.  This process will assure that your home is compliant
-    with applicable safety laws for foster and adoptive parents in the state of California.
-    \ We have plenty of resources to prepare you for this visit ahead of time.\n\n6.\tBecome
-    an approved foster or adoptive family!  Once you have successfully completed the
-    steps outlined above, your local Aspiranet office will approve your family to
-    begin caring for children and youth who are placed in foster care.  Your social
-    worker will partner with you to determine how to best match a child with your
-    family and provide ongoing assistance in supporting the child, or children, in
-    your care.  For families interested in adoption, this may include adoption matching
-    and home study.\n\nOur Family Coordinators are here to answer your questions and
-    walk you through the process so you can feel confident in your decision to move
-    forward.  Sign up for more information or call 1-877-380-4376.\n"
-  requirements: |
-    - Be 21 years of age or older
-    - Otherwise, age is rarely an issue as long as the parent is healthy and motivated
-    - Be able to support their current household on their current income, without receiving assistance
-    - Attend and complete all Aspiranet Parent Education classes
-    - Must be fingerprinted and have Child Abuse Index and fingerprint clearances
-    - Includes everyone age 18 and older living in the home
-    - Upon certification, foster parents and one respite provider will be reimbursed for their fingerprint submissions.
-    - Complete a standard first aid course that includes adult, child and infant CPR
-    - Pass a medical exam with negative TB test. Includes everyone age 18 and older living in the home
-    - Have a valid California driver’s license, clean driving record and reliable transportation that is not public
-    - 10-year DMV driving record and proof of insurance must be submitted
-    - Participate in all family assessment interviews
-    - Complete and pass a home fire and safety inspection
-    - Have all persons living in the home participate in a Foster-Adopt Home Study interview
-    - Becoming a foster or adoptive parent is a family affair, so all family members must agree to participate in caring for children placed in the home
-
-    Home requirements include:
-
-    - Adequate space for a child
-    - A bedroom is defined as a room that is not a “pass-through” to another room and has a door for privacy and a closet
-    - A foster child can share a bedroom with another child who is the same gender and within five years of their age, but no more than 2 to a room.
-    - Adults may not share bedrooms with children, unless the child is under 2 years of age
-    - Each foster child must have own bed with frame, a dresser with drawers for each child, closet space, lamp on a night stand or overhead lighting, decorations on the wall that are appropriate for children
-    - Locks on cabinets (for medications, household toxics, etc.)
-    - Fire extinguisher (2A10BC) on each level of the home
-    - Smoke detectors – minimum of two
-    - First aid kit and manual
-
-    If applicable (more details will be provided after speaking with an Aspiranet Family Coordinator):
-
-    - Swimming pools on the property must have a 5-foot fence with a self-closing and self-latching gate that opens away from the pool
-    - If the pool is above ground, a locking or removable ladder may be used
-
-    Aspiranet will complete assessment of pets for safety, including breeds of dogs known to be aggressive
-  faq: |-
-    __Do I have a say in the child(ren) placed in my home?__
-
-    Yes, Aspiranet works with each family to determine who they believe they can best care for in their home. It’s important to remember that the majority of foster children are teenagers or siblings who sometimes have medical, emotional or mental health needs.
-
-    __How long does it take to become an Aspiranet foster parent?__
-
-    It typically takes a family between three and six months to become an Aspiranet foster parent. The time can vary depending on how quickly a family completes the requirements.
-
-    __Can anyone be an Aspiranet foster parent?__
-
-    Aspiranet encourages you to consider becoming a foster parent. All foster parents must meet certain requirements prior to certification, such as: being financially self-sufficient, having adequate bedroom space and meeting all state required criminal clearances. Aspiranet staff work closely with each family to help them complete the requirements for foster parent certification.
-
-    __Would a child’s family be involved while a child was living in my home?__
-
-    Yes, in most circumstances a child’s family remains involved with their child while he/she is in foster care. The first priority for most children in foster care is to be safely reunified with their families. Most families improve their situation, allowing their children to return home. Foster parents have a big role in supporting a child’s connection with their family, often through regular visits. Aspiranet works with foster parents to help them understand their role in supporting a child’s connection with their family.
-
-    __How will Aspiranet help me if I have a child with difficult behaviors?__
-
-    Many of the children in foster care come with special medical, emotional or behavioral needs. When a child is placed with your family, Aspiranet shares all information available regarding the needs, behaviors and habits of the child. The Aspiranet Social Worker works with foster parent and other adults involved with the child in determining his/her needs and then helps develop a plan that best addresses those needs. Some children will benefits from additional services and support; the Aspiranet Social Worker will work with each family and child to identifying and secure those services.
 seniorExecutive:
 - sys:
     id: 3iPdzRiItOgCeMkcmgG4YE
@@ -2188,6 +2024,189 @@ programs:
   fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
+fosterAdoptiveFamilies:
+- sys:
+    id: 4KJHTjAjwsEUM2IAI0Y8YQ
+  beAFosterFamilyTab: "Aspiranet foster and adoption programs work to connect children,
+    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nWhen a court determines that a child cannot
+    continue to live with their birth parents due to concerns for their safety and
+    well-being, we are committed to securing a safe and nurturing family environment
+    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
+    foster parents, guiding them in becoming a healing resource to children who have
+    experienced trauma and adversity.\n\nWe work in partnership with our families
+    to provide training and ongoing supports until children are able to return home
+    safely.\n\nWhen returning home is not an option, we partner with children and
+    families to develop a plan for life long connections that may include adoption. 
+    \n\nWhether it is a foster family opening their home for a child in need, or an
+    adoptive family offering a foster child a forever family, every family is unique
+    and every family’s experience is different.\n\nIn working with our families our
+    goal is always the same – to maximize opportunities for long-term success and
+    to support our families every step of the way.\n"
+  fosterFamilyPhotoFull:
+    title: 04 program hero img  KAwSW
+    url: //images.contentful.com/e5ehlcazegi0/3PfGV3z1ywQmwUEQogISG4/f269c0223145bd5845d0b4ba78ec19a9/04_program_hero_img__KAwSW.jpg
+  fosterFamilyPhotoSmall:
+    title: 01 homepage img v2 4
+    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
+  fosterFamilyPullQuote: “Nothing is more joyous than seeing a family form and begin
+    to make a special future together.” <br/> — Diane Warne
+  fosterCopyRest: "There is no better gift than to provide a child with the love and
+    support so they can thrive. Whether you are a foster parent, relative or extended
+    family member, you can provide a home for a child to do just that.\n\nAspiranet
+    is committed to providing the best possible care for children in foster care and
+    helping to reunite families.\n\nWe partner with foster parents in building specialized
+    skills to effectively care for children who have experienced instability and trauma
+    – providing ongoing resources, information and support. \n\nResearch has proven
+    what a difference it makes for children to have at least one caring and consistent
+    relationship with a reliable adult.\n\nFoster parents provide a stable, loving
+    haven for children to begin healing from trauma and to reunite with their birth
+    families.  \n\nWhen children cannot return home safely, foster parents often help
+    with their transition to a permanent family and become an ongoing connection for
+    the child. Sometimes they adopt or become guardians of the child.\n\nPlease consider
+    becoming an Aspiranet foster parent and offering nurturing care to a child. Ask
+    us how."
+  adoptAChildTabCopy: "Aspiranet foster and adoption programs work to connect children,
+    youth, and young adults to safe, caring relationships that can last a lifetime.\n\nFew
+    events are more traumatic for a child than being removed from their family and
+    entered into the foster care system.\n\nWhen a court determines that a child cannot
+    continue to live with their birth parents due to concerns for their safety and
+    well-being, we are committed to securing a safe and nurturing family environment
+    for that child.\n\nAspiranet recruits, screens and approves skilled and caring
+    foster parents, guiding them in becoming a healing resource to children who have
+    experienced trauma and adversity.\n\nWe work in partnership with our families
+    to provide training and ongoing supports until children are able to return home
+    safely.\n\nWhen returning home is not an option, we partner with children and
+    families to develop a plan for life long connections that may include adoption. 
+    \n\nWhether it is a foster family opening their home for a child in need, or an
+    adoptive family offering a foster child a forever family, every family is unique
+    and every family’s experience is different.\n\nIn working with our families our
+    goal is always the same – to maximize opportunities for long-term success and
+    to support our families every step of the way."
+  adoptAChildPhotoFull:
+    title: 02 donate hero img 1
+    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
+  adoptAChildPhotoSmall:
+    title: 01 homepage img v3 1-1
+    url: //images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg
+  adoptAChildPullQuote: “Nothing is more joyous than seeing a family form and begin
+    to make a special future together.” <br/> — Diane Warne
+  adoptAChildCopyBottom: "We believe that every child deserves to be loved and cared
+    for inside a stable, healthy family.\n\nAspiranet works to assure a secure and
+    loving home for foster youth, including adoption through foster care when returning
+    to their families is not an option.\n\nWe are thoughtful and trustworthy in how
+    we match foster children and youth with adoptive families, looking for the best
+    fit where both can be successful.  \nWe partner with our families in providing
+    education, resources and support at all stages of the adoption process.  \n\nThere
+    is no better gift than to provide a child with the love and support so they can
+    thrive.  As an adoptive family you can provide a home for a child to do just that.\n\nConsider
+    becoming an Aspiranet adoptive family today.  Ask us how.\n"
+  steps: "<p class=\"round\">Steps to becoming Foster or Adoptive Parent</p> \n\nWe
+    understand that choosing to become a foster or adoptive parent is one of the most
+    significant you will make.  We want you to know that we will be with you every
+    step of the way, helping you to feel confident in your decision, and excited about
+    the opportunity to make a difference in the life of a child.  The process to become
+    a foster or adoptive parent may vary slightly depending on a family’s unique situation
+    but the steps below provide an overall guideline of what you can expect. \n\n<ol
+    class=\"custom-counter\">\n<li><p>Learn More by viewing our welcome video to hear
+    directly from families who have experienced the joys of becoming a foster or adoptive
+    parent. </p></li> \n\n<li><p>Speak with one of our Family Recruiters who are here
+    to discuss the process in more detail, review the requirements and answer your
+    questions.</p></li> \n\n<li><p>Take the next step to get involved.  Some families
+    feel best meeting with their local office to discuss fostering or adopting in
+    more detail before beginning training.  Others are ready to begin the process
+    by signing up to begin our parent education classes (PRIDE Training) at a nearby
+    location.</p></li>   \n\n<li><p>Once a family has completed two sessions of PRIDE
+    training the local office will work with you to determine if it makes sense to
+    begin the background check and paperwork requirements.  This includes Department
+    of Justice and Child Abuse Index background checks, DMV driving report, CPR and
+    First Aid training, physical and TB testing, and other application forms.</p></li>
+    \    \n\n<li><p>As you work through your paperwork the local office will also
+    set up an interview to learn about your family’s unique skills and needs as a
+    foster or adoptive parent.</p></li>     \n\n<li><p>Complete a Home Study.  This
+    process will ensure that your home is compliant with applicable safety laws for
+    foster parents in the state of California. We have plenty of resources to prepare
+    you for this visit ahead of time.</p></li> \n\n<li><p>Become a certified foster
+    or adoptive family!  Once you have successfully completed the steps outlined above
+    your local office will certify your family to begin caring for children and youth
+    who are placed in foster care.  Your social worker will partner with you to determine
+    how to best match a child with your family and provide ongoing assistance in supporting
+    the child (or children) in your care.  For families interested in adoption this
+    may include adoption matching and home study.</p></li>  \n</ol>\nOur Family Coordinators
+    are here to answer your questions and walk you through the process so you can
+    feel confident in your decision to move forward.  Sign up for more information
+    or call 1-877-380-4376.  "
+  requirements: "<p class=\"round\">Requirements</p>\n\nWe believe every child deserves
+    to live in a safe and stable family, so we work to ensure that every Aspiranet
+    Family can provide just that. We partner with our families to ensure that welcoming
+    a child or  youth into your home is a positive, healthy and successful experience.
+    \ Throughout the process our staff spends time with families understanding each
+    unique situation, answering questions and identifying the possibilities that may
+    be available.  The process of becoming a foster parent is guided by state and
+    Aspiranet requirements including: \n \n<p class=\"bold\"> • Parents must be 21
+    years of age or older</p> \n\n<p class=\"bold\"> • Families should have adequate
+    space for a child in the home</p>\n\n<p class=\"bold\"> • Families should be financially
+    self-sufficient</p>\n\n<p class=\"bold\"> • All adults over the age of 18 must
+    clear a background check through Child Abuse Index and Department of Justice fingerprints</p>\n\n<p
+    class=\"bold\"> • Parents must have a valid California driver’s license, clean
+    10 year DMV driving record,  reliable transportation and proof of insurance</p>\n\n<p
+    class=\"bold\"> • Parents will need to complete Aspiranet Parent Education classes,
+    first aid course, family assessment interviews, home study, and a home fire and
+    safety inspection</p>\n\n<p class=\"bold\">Interested in learning more about the
+    guidelines listed above?</p>  \n\nOur family recruiters can answer your questions
+    and provide more detail.  Fill out our contact form or call 1-877-380-4376.   "
+  faq: "<p class=\"round\">Frequently Asked Questions</p>\n\nOur families have shared
+    some of the most commonly asked questions as they begin the process.  \n\n<p class=\"round\">Can
+    I provide input around the children that I feel fit with my family?</p>\n\nYes,
+    Aspiranet works with each family to determine the best match between a child and
+    family. It is important to remember that the majority of foster children are teenagers
+    or siblings who sometimes have medical, emotional or mental health needs so it
+    is important to keep an open mind around possibilities you may have not considered.
+    \ Aspiranet will assist you in building your skills to support children and youth
+    experiencing challenges around transitioning and healing from trauma.  \n\n<p
+    class=\"round\">How long does it take to become an Aspiranet foster family?</p>\n\nIt
+    typically takes a family between three to six months to become an Aspiranet foster
+    family. The time can vary depending on how quickly a family completes the requirements.
+    \ If families are interested in adopting this process will take longer as your
+    social worker partners with you to identify a child who may be freed for adoption
+    and complete the additional requirements specific to this process.  \n\n<p class=\"round\">Will
+    a birth family be involved while I am caring for a child?</p>\n\nYes, in most
+    circumstances a child’s family remains involved with their child through supervised
+    visits while he/she is in foster care. The first priority for most children in
+    foster care is to be safely reunified with their families. Many families improve
+    their situation, allowing their children to return home. Your social worker will
+    help you understand your role in supporting a child’s connection with their birth
+    family.\n\n<p class=\"round\">How will Aspiranet help me if I am caring for a
+    child with challenging behaviors?</p>\n\nMany of the children in foster care come
+    with special medical, emotional or behavioral needs based on their past experiences
+    and trauma they may have encountered. When your family is asked to care for a
+    child, Aspiranet shares all information available regarding the needs, behaviors
+    and habits of the child. Your social worker partners with your family and other
+    adults involved with the child to determine his/her needs and then helps develop
+    a plan that best addresses those needs. Some children will benefit from additional
+    services and support, and your social worker can help identify needs and secure
+    services. \n\n<p class=\"bold\">More questions?</p> \n\nSubmit a contact form
+    or speak with one of our Family Coordinators at 1-877-380-4376."
+  locations: "<p class=\"round\">Locations</p>\n\n<p class=\"bold\">1. Alameda County</p>\n\n<p
+    class=\"bold\">2. Calaveras County</p>\n\n<p class=\"bold\">3. Contra Costa County</p>\n\n<p
+    class=\"bold\">4. Fresno County </p>\n\n<p class=\"bold\">5. Imperial County</p>\n\n<p
+    class=\"bold\">6. Kern County </p>\n\n<p class=\"bold\">7. Kings County </p>\n\n<p
+    class=\"bold\">8. Los Angeles County</p>\n\n<p class=\"bold\">9. Madera County</p>\n\n<p
+    class=\"bold\">10. Mariposa County</p>\n\n<p class=\"bold\">11. Merced County</p>\n\n<p
+    class=\"bold\">12. Monterey County</p>\n\n<p class=\"bold\">13. Napa County </p>\n\n<p
+    class=\"bold\">14. Orange County </p>\n\n<p class=\"bold\">15. Placer County </p>\n\n<p
+    class=\"bold\">16. Riverside County </p>\n\n<p class=\"bold\">17. Sacramento County
+    </p>\n\n<p class=\"bold\">18. San Benito County</p>\n\n<p class=\"bold\">19. San
+    Bernardino County</p> \n\n<p class=\"bold\">20. San Francisco County </p>\n\n<p
+    class=\"bold\">21. San Joaquin County </p>\n\n<p class=\"bold\">22. San Luis Obispo
+    County </p>\n\n<p class=\"bold\">23. San Mateo County</p>\n\n<p class=\"bold\">24.
+    Santa Barbara County (Northern) </p>\n\n<p class=\"bold\">25. Santa Barbara County
+    (Southern)</p>\n\n<p class=\"bold\">26. Santa Clara County </p>\n\n<p class=\"bold\">27.
+    Santa Cruz County </p>\n\n<p class=\"bold\">28. Solano County</p>\n\n<p class=\"bold\">29.
+    Stanislaus County </p>\n\n<p class=\"bold\">30. Sutter County </p>\n\n<p class=\"bold\">31.
+    Tulare County </p>\n\n<p class=\"bold\">32. Ventura County \n\n<p class=\"bold\">33.
+    Yolo County "
 rootWebsite:
 - sys:
     id: 2ffm5MoVtiUYoSWiqwUGgI

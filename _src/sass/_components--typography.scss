@@ -50,14 +50,15 @@ p {
 }
 
 p.round {
-	font-family: $stack-serif-light;
+	font-family: $stack-sans-serif;
 	font-size: 18px;
 }
-
 p.small {
 	font-size: 12px;
 }
-
+p.bold {
+	font-family: $stack-serif;
+}
 a {
 	color: $blue-dark;
 	text-decoration: none;

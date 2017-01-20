@@ -182,6 +182,10 @@
 		.program-subtitle, .section-copy-rest {
 			background-color: #b672a9; //$pink
 			color: white;
+			.grid {
+				z-index: 15;
+				position: relative;
+			}
 		}
 		.fast-facts {
 			background-color: $blue-dark;
@@ -192,6 +196,27 @@
 		}
 		.block-overlap {
 			background-color: $blue;
+		}
+		.custom-counter {
+		    margin-left: 0;
+		    padding: 0;
+		    list-style-type: none;
+		}
+		.custom-counter li {
+    		counter-increment: step-counter;
+    		margin: 1.5em 0;
+    		&::before {
+			    content: counter(step-counter)".";
+			    margin-right: 5px;
+			    font-size: 40px;
+			    display: inline-block;
+			    font-weight: bold;
+			    font-family: $stack-sans-serif;
+			}
+			p {
+				padding: 0 3em;
+    			margin-top: -2.3em;
+			}
 		}
 		#tab-1, #tab-2 {
 			.img-settings {
@@ -239,6 +264,7 @@
 	    			padding: 0 1.7em;
 	    			margin: 0 0 20px 0;
 	    			font-style: italic;
+	    			font-size: 20px;
 	    		}
 			}
 			.story-slider-item {
@@ -259,6 +285,9 @@
 					}
 				}
 			}
+		}
+		.contact-form {
+			margin-bottom: 2em;
 		}
 		.links-box {
 			padding: 35px;
