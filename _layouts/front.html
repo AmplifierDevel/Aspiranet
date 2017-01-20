@@ -7,9 +7,9 @@ layout: default
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <div class="campaign-slider">
-	<ul>
+	<ul> 
 	{% for campaign in sorted_campaigns %}
-		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% else %} img-overlay-left {% endif %}">
+		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings {% if campaign.titleAlign == 'left' %} img-overlay-left {% endif %}">
 			<section class="grid">
 				{% if campaign.campaignPartners %} 
 				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
@@ -32,7 +32,7 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}'); padding-bottom: 13%;" class="img-settings prlx-bg">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}'); padding-bottom: 13%; background-position: top center;" class="img-settings prlx-bg">
 	<div class="grid">
 		<div class="col-1-2 text-center stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
@@ -52,7 +52,7 @@ layout: default
 				<li>
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
 					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h4>
-				</li>
+				</li>  
 			</ul>
 			<h3>Help us reach more children</h3>
 			<p class="button"><a class="orange" href="/donate">Donate</a></p> 
@@ -62,14 +62,14 @@ layout: default
 
 <section class="blue text-center prlx-item">
 	<div class="grid">
-		<div class="col-8-12 center">
+		<div class="col-8-12 center rewarding">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
 			<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
 		</div>
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');min-height: 700px;" class="prlx-bg img-settings section-photo">
 	<div class="grid">
 		<div class="col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
@@ -78,7 +78,7 @@ layout: default
 	</div>
 </section>
 
-
+ 
 <section class="latest-front text-center white prlx-item">
 	<h3 class="blue-dark">The latest</h3>
 
@@ -88,7 +88,7 @@ layout: default
 				<div class="caption"> 
 					<p class="small caps color-blue-dark">Twitter</p>
 				</div>
-				<p class="latest-content color-blue-dark">
+				<p class="latest-content">
 					{{ site.data.tweet[0].text }} 
 				</p>
 			</div>
@@ -97,7 +97,12 @@ layout: default
 		{% if blogpost.featuredOnBlog == true %}
 		<div class="col-1-3">
 			<a href="/blog/{{ blogpost.url }}">
-				<div class="img-settings" style="background-image: url('/{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title | slugify }}">
+			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+			{% else %}
+				{% assign imageUrl = blogpost.heroImage.url %}
+			{% endif %}
+				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
 				<div class="caption">
 					<p class="small caps color-white">Stories</p>
 				</div>
@@ -122,7 +127,12 @@ layout: default
 		{% if blogpost.featuredOnHomepage == true %}
 			<div class="col-1-3">
 			<a href="/blog/{{ blogpost.url }}">
-				<div class="img-settings" style="background-image: url('/{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title | slugify }}">
+			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+			{% else %}
+				{% assign imageUrl = blogpost.heroImage.url %}
+			{% endif %}
+				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
 				<div class="caption">
 					<p class="small caps color-white">On the blog</p>
 				</div>

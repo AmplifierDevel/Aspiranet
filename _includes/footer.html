@@ -18,7 +18,7 @@
 					<li><a href="#"><img src="{{ site.image_path }}/email 2.svg" alt="email us" /></a></li>
 				</ul>
 			<p class="button small caps">
-				<a href="/donate" class="button orange" style="margin-top: 1em;">Donate</a>
+				<a href="/donate" class="button orange" style="margin-top: 1em;">Donate</a> 
 			</p>
 			</div>
 			  
@@ -66,11 +66,11 @@
 
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
 {% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
-{% if page.title == "Careers" %}
+{% if page.title == "Careers" or page.title == "About" %}
 	<script src="/assets/js/lib/remodal.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#career-video').click(function(e){
+			$('#modal').click(function(e){
 				e.preventDefault();
 				var modal = $('[data-remodal-id=modal]').remodal();
 				modal.open();

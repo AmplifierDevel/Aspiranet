@@ -8,6 +8,7 @@
 		display: inline-block;
 		font-size: 12px;
 		font-family: $stack-sans-serif;
+		@include transition(.2s);
 		&.orange {
 			background: $orange;
 			color: #fff; 
