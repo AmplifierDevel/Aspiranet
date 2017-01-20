@@ -19,6 +19,7 @@
     padding: 60px 0;
     cursor: pointer;
     height: 300px;
+    @include transition(.2s);
     .hover {
     	display: none;
     }

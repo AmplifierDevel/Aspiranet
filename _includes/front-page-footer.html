@@ -22,6 +22,14 @@
 	{% endif %}
 
 	});
+	var $homeSlider = $('.campaign-slider').unslider({
+		arrows: true,
+		animation: 'fade',
+		autoplay: true,
+		infinite: true,
+		delay: 9000,
+		nav: true
+	});
 	$(window).scroll(function(){
         $homeSlider.data('unslider').stop();
         $('.unslider-nav').fadeOut();
