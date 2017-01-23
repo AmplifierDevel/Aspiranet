@@ -10,7 +10,6 @@
     -webkit-flex-flow: row;
     justify-content: space-around;
 }
-
 .value-item {
     font-weight: bold;
     text-align: center;
@@ -42,8 +41,6 @@
     &.value-blue:hover { background: $blue; }
     &.value-yellow:hover { background: $yellow; }
 }
-
-
 .leadership {
 	.col-1-3 {
 		padding:10px 60px;

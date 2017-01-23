@@ -1,19 +1,20 @@
 .box-amount {
 	border:1px solid #999;
-	padding:0 20px;
+	padding:10px 20px;
 	display: inline-block;
 	cursor:pointer;
+	margin-right: 20px;
 	@include transition(.2s);
+	p {
+		margin: 0;
+	}
 	&.active {
-		border: 2px solid $blue;
-		font-weight: bold;
-		color: $blue;
+		border: 2px solid $orange;
 	}
 	&:hover {
 		color: $blue;
 	}
 }
-
 .stripe-button-el {
 	cursor: pointer;
 	&:hover {

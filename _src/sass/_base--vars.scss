@@ -55,7 +55,8 @@ $assets-path			: '/assets/img/';
  $brk-narrow 	: '(max-width: 767px)';
  $brk-wide 		: '(max-width: 1023px)';
  $brk-tablet-min: '(min-width: 768px)';
-
+ $brk-wide-min	: '(min-width: 1024px)';
+ $brk-big-max	: '(max-width: 1440px)';
 
 // Helpers
 

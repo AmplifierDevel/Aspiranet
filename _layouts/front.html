@@ -25,7 +25,7 @@ layout: default
 </div>
 <section class="blue text-center prlx-item">
 	<div class="grid">
-		<div class="col-8-12 center">
+		<div class="col-8-12 mobile-col-10-12 center">
 			<h3>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageVisionText}}</h3>
 			<p class="button"><a class="orange" href="/programs">See our programs</a></p>
 		</div>
@@ -34,7 +34,7 @@ layout: default
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}'); padding-bottom: 13%; background-position: top center;" class="img-settings prlx-bg">
 	<div class="grid">
-		<div class="col-1-2 text-center stats-front no-padding">
+		<div class="col-1-2 text-center stats-front no-padding tablet-col-1-2">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
 			<ul class="text-center">
 				<li>
@@ -62,7 +62,7 @@ layout: default
 
 <section class="blue text-center prlx-item">
 	<div class="grid">
-		<div class="col-8-12 center rewarding">
+		<div class="col-8-12 center rewarding mobile-col-10-12">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
 			<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
 		</div>
@@ -71,7 +71,7 @@ layout: default
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');min-height: 700px;" class="prlx-bg img-settings section-photo">
 	<div class="grid">
-		<div class="col-1-2 color-white">
+		<div class="col-1-2 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
 		</div>
@@ -88,9 +88,11 @@ layout: default
 				<div class="caption"> 
 					<p class="small caps color-blue-dark">Twitter</p>
 				</div>
-				<p class="latest-content">
+				<div class="latest-content">
+					<p class="bold color-blue-dark">
 					{{ site.data.tweet[0].text }} 
-				</p>
+					</p>
+				</div>
 			</div>
 		</a>
 		{% for blogpost in sorted_news %}
@@ -116,9 +118,11 @@ layout: default
 			<div class="caption">
 				<p class="small caps">On the blog</p>
 			</div>
-			<a href="/blog/{{ blogpost.url }}">
-				<h3 class="latest-content color-white">{{ blogpost.title }}</h3>
-			</a>
+			<div class="latest-content">
+				<a href="/blog/{{ blogpost.url }}">
+					<h3 class="color-white">{{ blogpost.title }}</h3>
+				</a>
+			</div>
 		</div>
 		{% endfor %}
 	</div>
@@ -153,9 +157,11 @@ layout: default
 			<div class="caption">
 				<p class="small caps">On the blog</p>
 			</div>
-			<a href="/blog/{{ blogpost.url }}">
-				<h3 class="latest-content color-blue-dark">{{ blogpost.title }}</h3>
-			</a>
+			<div class="latest-content">
+				<a href="/blog/{{ blogpost.url }}">
+					<h3 class="color-blue-dark">{{ blogpost.title }}</h3>
+				</a>
+			</div>
 		</div>
 		{% endfor %}
 	</div>

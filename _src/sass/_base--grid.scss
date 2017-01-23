@@ -175,14 +175,18 @@ body {
 .push-1-12 {
 	margin-left: 8.33%
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and #{$brk-wide-min} {
 	.hide-on-desktop {
 		display: none !important;
 	}
 }
-
-@media handheld, only screen and #{$brk-narrow} {
-	
+@media only screen and #{$brk-big-max} {
+	.grid {
+		padding-left: 20px; 
+		padding-right: 20px; 
+	}
+}
+@media handheld, only screen and #{$brk-wide} {
 	.hide-on-desktop {
 		display: block !important;
 	}
@@ -317,6 +321,9 @@ body {
 	}
 	.tablet-col-1-40 {
 		width: 40%;
+	}
+	.tablet-col-1-2 {
+		width: 50%;
 	}
 }
 
