@@ -305,6 +305,7 @@ body {
 @media handheld, only screen and #{$brk-tablet-min} and #{$brk-wide} {
 	.tablet-col-1-3 {
 		width: 33.33%;
+		float: left;
 		&:nth-of-type(3) {
 			padding-right: 0;
 		}
@@ -324,6 +325,10 @@ body {
 	}
 	.tablet-col-1-2 {
 		width: 50%;
+		float: left;
+		&:nth-of-type(2) {
+			padding-right: 0;
+		}
 	}
 }
 
