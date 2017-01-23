@@ -1,0 +1,49 @@
+.hero-donate {
+	.grid {
+		padding-top: 12em;
+	}
+}
+.donate-content {
+	margin-top: -9em;
+    position: relative;
+}
+.donate-form {
+	border-radius: 4px;
+	padding: 2em;
+	position: relative;
+    z-index: 20;
+}
+.donate-nav {
+	ul {
+		padding-left: 0;
+		border-bottom: 1px solid $grey-darkest;
+		li {
+			display: inline-block;
+			margin-right: 13.8%;
+			padding-bottom: 1em;
+			&.active {
+				border-bottom: 3px solid $orange;
+				a {
+					color: $blue-dark;
+				}
+			}
+			a {
+				color: $grey-darkest;
+			}
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
+.radio-btns {
+	p, input {
+		display: inline-block;
+	}
+	p {
+		margin-right: 1.5em;
+		&:nth-of-type(2), &:nth-of-type(3) {
+			color: $grey-darkest;
+		}
+	}
+}
