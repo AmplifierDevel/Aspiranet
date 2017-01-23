@@ -3,19 +3,19 @@ layout: default
 ---
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachHeroImage.url  }}');" class="img-settings section-photo">
 	<div class="grid">
-		<div class="col-5-12 color-blue">
+		<div class="col-5-12 color-blue tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachHeaderText | markdownify}}
 		</div>
 	</div>
 </section>
  
 <section>
-	<div class="grid">
-		<div class="col-1-2 color-blue-dark">
+	<div class="grid approach-content">
+		<div class="col-1-2 color-blue-dark tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramText | markdownify}}
 			<p class="button"><a class="orange" href="/programs">See our programs</a></p>
 		</div>
-		<div class="col-1-2">
+		<div class="col-1-2 hide-on-mobile tablet-col-1-2">
 			<img src="/assets/img/Artboard@1x.svg" width="100%;">
 		</div>
 	</div>
@@ -23,16 +23,16 @@ layout: default
 
 <section class="grey text-center">
 	<div class="grid">
-		<div class="col-7-12 center color-blue">
+		<div class="col-7-12 center color-blue tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachTogetherText | markdownify}}
 			<p class="button"><a class="orange" href="/careers">Join our team</a></p>
 		</div>
 	</div>
 </section>
 
-<section class="blue" style="background-color: #459BBC; background-image: url('/assets/img/aspiranet_map.jpg'); background-repeat: no-repeat; background-position: 110% 50%;" class="img-settings section-photo">
+<section class="blue bg-map" class="img-settings section-photo">
 	<div class="grid">
-		<div class="col-1-2">
+		<div class="col-1-2 tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramFinder | markdownify}}
 			<p class="button"><a class="orange" href="/find-program">Find your local aspiranet office here</a></p>
 		</div>

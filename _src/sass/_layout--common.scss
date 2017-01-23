@@ -123,6 +123,9 @@ hr {
 }
 section {
 	padding: 90px 0;
+	@media screen and #{$brk-wide} {
+		padding: 50px 0;
+	}
 }
 section, div, span {
 	&.blue {

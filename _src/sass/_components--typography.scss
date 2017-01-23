@@ -23,6 +23,9 @@ h2 {
 }
 h3 {
 	font-size: 27px; //36px
+	@media screen and #{$brk-wide} {
+		font-size: 23px;
+	}
 }
 h4 {
 	font-size: 22px; //24px
@@ -57,7 +60,7 @@ p {
 	font-size: 18px;
 	line-height: 1.7;
 	@media screen and #{$brk-narrow} {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	&.round {
 		font-family: $stack-sans-serif;

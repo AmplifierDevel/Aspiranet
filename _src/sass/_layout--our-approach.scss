@@ -1,0 +1,25 @@
+.bg-map {
+	background-color: $blue; 
+	background-image: url('/assets/img/aspiranet_map.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: 110% 50%;
+	@media screen and #{$brk-wide-min} and (max-width: 1160px) {
+		background-position: 139% 50%;
+	}
+	@media screen and #{$brk-wide} {
+		background-image: none;
+		text-align: center;
+	} 
+}
+.our-approach {
+	@media screen and #{$brk-wide} {
+		.approach-content {
+			text-align: center;
+		}
+	}
+	.tablet-col-1-2 {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+}
