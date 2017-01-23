@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="blue program-title">
+		<div class="grid">
+			<h1>{{page.contentful_fields.name}}</h1>
+		</div>
+	</div>
+	<div class=" blue-dark program-subtitle">
+		<div class="grid">
+			<h4 class="italic">{{page.contentful_fields.position}}</h4>
+	</div>
+</div>
+
+<section class="white">
+	<div class="grid">
+	<div class="profile-picture">{{ page.contentful_fields.photo.image.url }}</div>
+
+	{{ page.contentful_fields.bio | markdownify }}
+	<p class="button small caps"><a href="/about#leadership" class="button orange">< Back</a></p>
+	</div>
+</section>

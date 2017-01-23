@@ -1,6 +1,7 @@
 .button {
 	text-transform: uppercase;
 	cursor:pointer;
+	display:inline-block;
 	&.link {
 		padding: 13px 36px;
 		border-radius: 5px;
