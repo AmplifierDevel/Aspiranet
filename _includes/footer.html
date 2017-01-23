@@ -65,7 +65,6 @@
 
 
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
-{% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
 {% if page.title == "Careers" or page.title == "About" %}
 	<script src="/assets/js/lib/remodal.min.js"></script>
 	<script type="text/javascript">
@@ -82,3 +81,4 @@
 <script src="/assets/js/lib/unslider-min.js"></script>
 <script src="/assets/js/lib/main.js"></script>
 {% endif %}
+{% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
