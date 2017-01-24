@@ -17,8 +17,10 @@
 			text-align: center;
 		}
 	}
-	.tablet-col-1-2 {
-		text-align: center;
-		margin: 0 auto;
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		.tablet-col-1-2 {
+			text-align: center;
+			margin: 0 auto;
+		}
 	}
 }
