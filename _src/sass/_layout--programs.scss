@@ -13,7 +13,7 @@
 		border-bottom-left-radius: 4px;
     	border-bottom-right-radius: 4px;
 	}
-	.pink {
+	.blurb-color-block {
 		border-top-left-radius: 4px;
     	border-top-right-radius: 4px;
 	}
@@ -38,6 +38,26 @@
     }
 }
 .individual-program {
+	.program-blurb {
+		.white {
+			padding: 3px 30px;
+			height: 200px;
+			border-bottom-left-radius: 4px;
+	    	border-bottom-right-radius: 4px;
+		}
+		.blurb-color-block {
+			border-top-left-radius: 4px;
+	    	border-top-right-radius: 4px;
+	    	height: 108px;
+	    	padding: 30px 30px 0 30px;
+		}
+		h4, .button a {
+	    	margin: 0;
+		}
+		.button a {
+			padding-left: 30px;
+		}
+	}
 	.program-title {
 		h1 {
 			padding: 55px 0px 0 0;
@@ -396,9 +416,6 @@
 			}
 			hr {
 				border-top: 1px solid white;
-			}
-			.button .orange {
-				width: 230px;
 			}
 		}
 		.tabs {
