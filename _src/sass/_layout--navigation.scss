@@ -80,11 +80,27 @@ nav {
 	padding: 40px 0;
 	img {
 		width: 300px;
+		margin-bottom: -4.3em;
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			width: 289px;
+		}
 	}
 	.button {
-		margin-top: -42px !important;
     	margin-left: 7.5px;
+    	a {
+    		margin-top: 0 !important;
+    	}
+    	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			width: 278px;
+			margin-left: 3px;
+		}
 	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		.grid, .col-8-12 {
+			padding-right: 0;
+		}	
+	}
+
 }
 .programs-submenu {
 	ul {
@@ -94,12 +110,24 @@ nav {
 	    -webkit-column-gap: 100px;
 	    column-count: 2;
 	    column-gap: 100px;
+	    @media screen and #{$brk-big-max} {
+	    	column-gap: 50px;
+	    	padding-left: 0;	
+	    }
+	    @media screen and #{$brk-tablet-min} and #{$brk-wide} {
+	    	column-gap: 6px;
+	    	padding-left: 30px;
+	    }
 	    li a p {
     		margin-bottom: 2em;
     		font-family: $stack-sans-serif;
     		&:first-of-type {
     			margin-top: 0;
     		}
+    		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+    			font-size: 16px;
+    		}
+
 	    }
 	}
 }
