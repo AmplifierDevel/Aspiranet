@@ -7,8 +7,7 @@
                         <div class="featured-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
                             <div class="featured-post-copy push-right col-4-12">
                                 <p class="small caps round">Aspiranet blog</p>
-                                <h1 class="color-blue no-margin-top">Esperanza</h1>
-                                <h4 class="round no-margin-top">{{ blogpost.title }}</h4> 
+                                <h1 class="color-blue no-margin-top">{{ blogpost.title }}</h1>
                                 {{ blogpost.postBody | truncatewords: 25 | markdownify }}
                                 <p class="button link">Read the full story</p>
                             </div>
