@@ -82,6 +82,14 @@
 		padding: 20px 0;
 	}
     .small.caps {
-        color:#fff;
+        color: #fff;
+    }
+}
+
+//Staff subpages
+.bio {
+    .col-1-1 p a, h4 {
+        color: #fff;
+        opacity: .6;
     }
 }
