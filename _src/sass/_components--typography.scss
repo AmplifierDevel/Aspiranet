@@ -4,6 +4,7 @@ h1 {
 	font-weight: 900;
 	font-size: 36px; //45px 
 	line-height: 1.5;
+	letter-spacing: 1px;
 	@media screen and #{$brk-narrow} {
 		font-size: 23px;
 	}

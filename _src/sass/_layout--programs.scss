@@ -75,6 +75,10 @@
 	.fast-facts {
 		.col-1-3 {
 			padding: 0 4.5%;
+			.fadeInBlock {
+				top: -50px;
+				position: relative;
+			}
 		}
 		h1 {
 			font-size: 65px;
