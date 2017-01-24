@@ -18,29 +18,26 @@ layout: default
 	    </div>
 	</section>
     <section class="grey">
-        <div class="grid">
+        <div class="grid"> 
         <h1 class="no-margin-top">Similar posts</h1>
         <div class="similar-posts-wrapper">
             <ul>
                 {% for blogpost in sorted_news %}
-                    {% for category in blogpost.category %}
-                    {% if category == page.contentful_fields.category and page.contentful_fields.title != blogpost.title %}
-                    {% cycle 'section-group-start': '<li>', '', '' %}
-                        <div class="similar-post">
-                            <a href="/blog/{{ blogpost.url }}">
-                                {% if blogpost.heroImage %}
-                                    <div class="similar-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
+
+                        {% cycle 'section-group-start': '<li>', '', '' %}
+                            <div class="similar-post">
+                                <a href="/blog/{{ blogpost.url }}">
+                                    {% if blogpost.heroImage %}
+                                        <div class="similar-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
+                                        </div>
+                                    {% endif %}
+                                    <div class="similar-post-blurb">
+                                        <p class="small caps round">{{ blogpost.category }}</p>
+                                        <p class="round blue">{{ blogpost.title }}</p>
                                     </div>
-                                {% endif %}
-                                <div class="similar-post-blurb">
-                                    <p class="small caps round">{{ blogpost.category }}</p>
-                                    <p class="round blue">{{ blogpost.title }}</p>
-                                </div>
-                            </a>
-                        </div>
-                    {% cycle 'section-group-end': '', '', '</li>' %}
-                    {% endif %}
-                    {% endfor %}
+                                </a>
+                            </div>
+                        {% cycle 'section-group-end': '', '', '</li>' %}
                 {% endfor %}
             </ul>
         </div>
