@@ -2154,7 +2154,7 @@ rootWebsite:
     # Our Approach
     #### Our services work together so children thrive, families are empowered and communities have the resources to succeed
   ourApproachProgramText: |-
-    <h3 class="no-margin-top">Aspiranet’s work centers on supporting children, youth and families to reach their full potential.</h3>
+    <h4 class="round no-margin-top">Aspiranet’s work centers on supporting children, youth and families to reach their full potential.</h4>
     <h4>Aspiranet offers a unique breadth and depth of services for children and youth from birth through adulthood. We take a proactive, responsive and forward-thinking approach to the growing needs of the communities we serve.</h4>
   ourApproachTogetherText: "### Together we can make a difference\n\n#### Our organizational
     culture is defined by the values of respect, integrity, courage and hope. Our
