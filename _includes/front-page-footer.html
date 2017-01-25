@@ -1,4 +1,4 @@
-<script src="/assets/js/lib/unslider-min.js"></script>
+<script src="/assets/js/lib/slick.min.js"></script>
 
 {% assign Modals = site.data.contentful.spaces.proddata.popup | reverse %}
 {% if Modals.size > 0 %} 
@@ -22,19 +22,20 @@
 	{% endif %}
 
 	});
-	var $homeSlider = $('.campaign-slider').unslider({
+	var $homeSlider = $('.campaign-slider').slick({
 		arrows: true,
-		animation: 'fade',
+		fade: true,
 		autoplay: true,
+		autoplaySpeed: 9000,
 		infinite: true,
-		delay: 9000,
-		nav: true
+		speed: 500,
+		dots: true,
+		pauseOnDotsHover: true
 	});
 	$(window).scroll(function(){
-        $homeSlider.data('unslider').stop();
-        $('.unslider-nav').fadeOut();
+        $homeSlider.slick('slickPause');
         if ($(window).scrollTop() == 0) {
-        	$('.unslider-nav').fadeIn();
+        	$homeSlider.slick('slickPlay');
         }
     });
 </script>  

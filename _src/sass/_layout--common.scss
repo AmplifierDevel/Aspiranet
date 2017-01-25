@@ -178,3 +178,38 @@ section, div, span {
 .hidden {
     display:none;
 }
+
+// Custom slick styles
+.slick-prev:before, .slick-next:before {
+	opacity: 1 !important;
+	content: ' ' !important;
+  	background-size: 28px 28px;
+  	height: 28px;
+  	width: 28px;
+  	display: block;
+}
+.slick-prev:before {
+	background-image: url('/assets/img/back.svg');
+}
+.slick-next:before {
+  	background-image: url('/assets/img/next.svg');
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 0 !important;
+}
+.slick-dots li.slick-active button:before {
+	background-color: white !important;
+	opacity: 1 !important;
+	color: transparent !important;
+}
+.slick-dots li button:before {
+	opacity: 1 !important;
+	color: transparent !important;
+    border: 1px solid white !important;
+    width: 16px !important;
+	height: 16px !important;
+	border-radius: 50% !important;
+}
+.slick-dots {
+	bottom: 20px !important;
+}

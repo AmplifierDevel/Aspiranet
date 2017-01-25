@@ -1,3 +1,12 @@
+.home {
+	.slick-next {
+		right: 60px;
+	}
+	.slick-prev {
+		left: 53px;
+		z-index: 10;
+	}
+}
 .stats-front {
 	float: right;
     text-align: center;
@@ -68,30 +77,8 @@
 		}
 	}
 }
-.unslider {
-	overflow-y: hidden !important;
-}
-.unslider-nav {
-    top: 600px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: 17;
-    float: none;
-    ol li {
-    	width: 16px !important;
-    	height: 16px !important;
-    	border-radius: 50% !important;
-    	border: 1px solid white !important;
-    }
-}
 //for parallax effect
-.unslider-fade .unslider-wrap li {
-	position: fixed !important;
-	z-index: -1;
-	top: 100px !important;
-}
+
 .prlx-bg {
 	background-attachment: fixed;
 	z-index: 20;
@@ -101,12 +88,25 @@
 	z-index: 20;
 	&:first-of-type {
 		margin-top: 650px;
+		@media screen and (min-width: 1024px) and (max-width: 1280px) {
+			margin-top: 530px;
+		}
 	}
 }
 .campaign-slider {
-	li {
+	position: fixed !important;
+	top: 100px;
+	width: 100%;
+	.grid {
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	.slider-item {
 		height: 650px;
 		background-position: 100% 100%;
+		@media screen and (min-width: 1024px) and (max-width: 1280px) {
+			height: 530px;
+		}
 		h1 {
 			margin: 0;
 		}

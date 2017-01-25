@@ -7,9 +7,8 @@ layout: default
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <div class="campaign-slider">
-	<ul> 
 	{% for campaign in sorted_campaigns %}
-		<li style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% endif %}">
+		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% endif %}">
 			<section class="grid">
 				{% if campaign.campaignPartners %} 
 				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
@@ -19,9 +18,8 @@ layout: default
 				<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
 				{% endif %}
 			</section> 
-		</li>
+		</div>
 	{% endfor %}
-	</ul>  
 </div>
 <section class="blue text-center prlx-item">
 	<div class="grid">

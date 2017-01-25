@@ -38,6 +38,12 @@
     }
 }
 .individual-program {
+	.slick-prev {
+		left: -40px !important;
+	}
+	.slick-next {
+		right: 0px !important;
+	}
 	.program-blurb {
 		.white {
 			padding: 3px 30px;
@@ -48,14 +54,15 @@
 		.blurb-color-block {
 			border-top-left-radius: 4px;
 	    	border-top-right-radius: 4px;
-	    	height: 108px;
+	    	height: 122px;
 	    	padding: 30px 30px 0 30px;
 		}
 		h4, .button a {
 	    	margin: 0;
 		}
-		.button a {
-			padding-left: 30px;
+		.slider-button {
+			position: absolute;
+    		bottom: 0;
 		}
 	}
 	.program-title {

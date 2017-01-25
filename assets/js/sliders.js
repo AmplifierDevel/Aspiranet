@@ -1,10 +1,12 @@
 $(document).ready(function(){
-
-	$('.more-programs-slider').unslider({
-		arrows: true,
-		autoplay: false,
+	$('.more-programs-slider').slick({
 		infinite: true,
-		nav: false
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: true,
+		centerMode: true,
+  		focusOnSelect: true,
+  		centerPadding: '0px'
 	});
 
 	// $('.similar-posts-wrapper').unslider({
