@@ -47,5 +47,6 @@ $(document).ready(function(){
 		if ($('.nav-programs a').hasClass('active')) {
 			$('.nav-programs a').css('border-top', 'none');
 		}
-	}
+	};
+
 });
