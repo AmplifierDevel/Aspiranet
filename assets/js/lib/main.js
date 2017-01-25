@@ -15,8 +15,8 @@ $(document).ready(function(){
 			'border-top': '5px solid white'
 		});
 	}
-	$('#programsNavItem').mouseenter(function(e) {
-		$('#programsNav').css('display', 'block');
+	$('#programsNavItem').mouseenter(function() {
+		$('#programsNav').slideDown();
 		$('.nav-programs a').css({
 			'background-color': '#F8F8F7',
 			'border-top': '5px solid rgb(248, 248, 247)'
@@ -25,8 +25,21 @@ $(document).ready(function(){
 			$('.nav-programs a').css('border-top', 'none');
 		}
 	});
-	$('#programsNav').mouseleave(function(e) {
-		$('#programsNav').css('display', 'none');
+
+	$('.trigger ul li:not(#programsNavItem)').mouseenter(function() {
+		slideUpNav();
+	});
+
+	$('#programsNav').mouseleave(function() {
+		slideUpNav();
+	});
+
+	$(window).scroll(function(){ 
+		slideUpNav();
+	});
+
+	var slideUpNav = function() {
+		$('#programsNav').slideUp();
 		$('.nav-programs a').css({
 			'background-color': 'white',
 			'border-top': '5px solid white'
@@ -34,6 +47,5 @@ $(document).ready(function(){
 		if ($('.nav-programs a').hasClass('active')) {
 			$('.nav-programs a').css('border-top', 'none');
 		}
-	});
-	
+	}
 });
