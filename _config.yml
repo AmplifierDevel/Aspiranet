@@ -34,6 +34,7 @@ contentful:
    - "programHosted"
    - "blogCategory"
    - "blogTag"
+   - "event"
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID
