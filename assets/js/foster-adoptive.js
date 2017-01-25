@@ -19,12 +19,10 @@ $(document).ready(function() {
       });
   });
 
-  $('.stories-slider').unslider({
-     autoplay: true,
-     infinite: true,
-     delay: 6000,
-     arrows: true,
-     nav: false
-  });
+  // $('.stories-slider').slick({
+  //    infinite: true,
+  //    arrows: true,
+  //    dots: false,
+  // });
 
 })
