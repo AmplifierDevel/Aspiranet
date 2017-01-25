@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+	//Mobile menu 
+	$('.menu-icon').on('click', function(e) {
+         $('.trigger').toggleClass('hoverTouch').css('background-color', 'white');
+         $('.menu-icon').toggleClass("icon-active");
+    });
+	//end of mobile menu
+
 	if ($('.nav-programs a').hasClass('active')) {
 		$('.nav-programs a').css('border-top', 'none');
 	} else {
