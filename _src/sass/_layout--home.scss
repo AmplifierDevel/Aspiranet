@@ -134,7 +134,10 @@
 	}
 }
 .adopt-cta {
+	min-height: 700px;
 	@media screen and #{$brk-narrow} {
 		background-position: 75%;
+		min-height: 400px;
+		width: 100%;
 	}
 }

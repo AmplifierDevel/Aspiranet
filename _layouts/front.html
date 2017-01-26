@@ -67,8 +67,8 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}'); min-height: 700px;" class="prlx-bg img-settings section-photo adopt-cta">
-	<div class="grid">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta">
+	<div class="grid hide-on-mobile">
 		<div class="col-1-2 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
@@ -76,6 +76,14 @@ layout: default
 	</div>
 </section>
 
+<section class="blue hide-on-tablet hide-on-desktop prlx-item">
+	<div class="grid">
+		<div class="color-white text-center">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
+			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
+		</div>
+	</div>
+</section>
  
 <section class="latest-front text-center white prlx-item">
 	<h3 class="blue-dark">The latest</h3>
