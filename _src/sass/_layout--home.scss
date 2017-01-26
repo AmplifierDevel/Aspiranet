@@ -107,8 +107,10 @@
 	top: 100px;
 	width: 100%;
 	.grid {
-		padding-right: 10%;
-		padding-left: 10%;
+		@media screen and (max-width: 1279px) {
+			padding-right: 10%;
+			padding-left: 10%;
+		}
 	}
 	.slider-item {
 		height: 650px;
