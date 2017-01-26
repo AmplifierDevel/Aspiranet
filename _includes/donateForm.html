@@ -1,15 +1,21 @@
 <div class="white color-blue-dark donate-form">
 	<h3 class="no-margin-top">Give Love and Support. Give to Aspiranet</h3>
-		<p>Donation Amount:</p>
+		<p class="bold">Donation Amount:</p>
 		<div class="box-amount active" data-amount="2500"><p>$25</p></div>
 		<div class="box-amount" data-amount="5000"><p>$50</p></div>
 		<div class="box-amount" data-amount="10000"><p>$100</p></div>
 		<div class="box-amount" data-amount="25000"><p>$250</p></div>
 		<div class="box-amount" data-amount="50000"><p>$500</p></div>
+		<p class="bold">Donation type:</p>
 		<form class="radio-btns">
-			<p>Donation type:</p>
-			<input type="radio" name="frequency" value="One Time" checked="checked"><p>&nbsp;One Time</p>
-			<input type="radio" name="frequency" value="Monthly"><p>&nbsp;Monthly</p>
+			<input type="radio" name="frequency" value="One Time" id="freq1" checked="checked"><label for="freq1">&nbsp;One Time</label>
+			<input type="radio" name="frequency" value="Monthly" id="freq2"><label for="freq2">&nbsp;Monthly</label>
 		</form>
-		<div class="stripe-button-el"><h3>Pay with credit card</h3></div>
+
+		<div class="stripe-button-el">
+			<p class="button small caps">
+				<a class="button orange">Donate</a>
+			</p>
+		</div>
 </div>
+

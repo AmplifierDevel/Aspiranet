@@ -64,8 +64,9 @@
 </footer>
 
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
-{% if page.title == "Careers" or page.title == "About" %}
 {% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
+{% if page.title == "Careers" or page.title == "About" %}
+
 	<script src="/assets/js/lib/remodal.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -77,6 +78,7 @@
 		});
 	</script>
 {% endif %}
+
 {% if page.group == 'programs' %} 
 <script src="/assets/js/scroll-animation.js"></script>
 {% endif %}

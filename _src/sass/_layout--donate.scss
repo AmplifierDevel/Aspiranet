@@ -37,13 +37,15 @@
 	}
 }
 .radio-btns {
-	p, input {
+	p, label, input {
 		display: inline-block;
 	}
-	p {
+	label {
 		margin-right: 1.5em;
-		&:nth-of-type(2), &:nth-of-type(3) {
-			color: $grey-darkest;
-		}
+		font-family: $stack-serif;
+		cursor: pointer;
+	}
+	input[type="radio"]:not(:checked)+label {
+		color: $grey-darkest;		
 	}
 }
