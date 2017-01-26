@@ -25,8 +25,8 @@ layout: default
 	{% assign mod = forloop.index | modulo: 2 %}
 
 	<section style="background-image: url('{{ program.photoLanding.url }}');" class="img-settings program-img center-vertical program-item" id="{{ program.title | slugify }}">
-		<div class="grid">
-			<div class="col-1-3 program-blurb tablet-col-1-2 {% if mod == 0 %} push-right {% endif %}">
+		<div class="grid hide-on-tablet hide-on-mobile">
+			<div class="col-1-3 program-blurb {% if mod == 0 %} push-right {% endif %}">
 				<div class="blurb-color-block {{ program.programColor }}">
 					<h3 class="round color-white">{{program.title}}</h3>
 				</div>
@@ -37,5 +37,16 @@ layout: default
 			</div>
 		</div>
 	</section>
+	<!-- mobile card -->
+	<div class="hide-on-desktop no-margin-top no-padding program-blurb">
+		<div class="blurb-color-block {{ program.programColor }}">
+			<h3 class="round color-white">{{program.title}}</h3>
+		</div>
+		<div class="white">
+			<p>{{program.landingPageTextBlurb}}</p>
+			<p class="button"><a href="/programs/{{ program.title | slugify }}" class="color-{{ program.programColor }}">Learn More</a></p>
+		</div>
+	</div>
+	<!-- end of mobile card -->
 	{% endfor %}
 </div>

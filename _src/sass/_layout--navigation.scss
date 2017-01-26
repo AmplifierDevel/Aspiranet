@@ -14,6 +14,14 @@ header {
     .site-title img {
     	margin-top: 18px;
     	width: 190px;
+    	@media screen and (max-width: 900px) {
+    		margin-top: 25px;
+    		width: 153px;
+    	}
+    	@media screen and (min-width: 901px) and (max-width: 941px) {
+    		margin-top: 26px;
+    		width: 149px;
+    	}
     }
 }
 nav {
