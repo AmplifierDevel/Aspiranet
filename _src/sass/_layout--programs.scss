@@ -90,6 +90,14 @@
 			padding: 55px 0px 0 0;
 		}
 	}
+	.program-subtitle {
+		h4 {
+			margin-bottom: 45px;
+		}
+	}
+	.program-content {
+		padding: 50px 0 90px 0;
+	}
 	.social-icons {
 		li {
 			margin-top: 7.5%;
@@ -334,7 +342,7 @@
 			color: white;
 		}
 		.program-subtitle, .section-copy-rest {
-			background-color: $pink-light; //$pink
+			background-color: $pink-light; 
 			color: white;
 			.grid {
 				z-index: 15;
