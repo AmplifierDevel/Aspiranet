@@ -180,6 +180,10 @@ section, div, span {
 }
 
 // Custom slick styles
+.slick-prev, .slick-next {
+	width: 30px !important;
+	height: 30px !important;
+}
 .slick-prev:before, .slick-next:before {
 	opacity: 1 !important;
 	content: ' ' !important;
