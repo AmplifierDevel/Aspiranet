@@ -129,10 +129,16 @@ h1,h2,h3,h4,h5,h6,p,li,a {
 			color: lighten($grey-darkest, 10%);
 		}
 	}
-	&.color-purple-dark {
+	&.color-purple-dark, &.purple-dark {
 		color: $purple-dark;
 		&:hover {
 			color: lighten($purple-dark, 10%);
+		}
+	}
+	&.mint {
+		color: $mint;
+		&:hover {
+			color: lighten($mint, 10%);
 		}
 	}
 }
