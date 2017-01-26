@@ -2,6 +2,9 @@
 	color:#fff;
 	section {
 		padding: 75px 0 50px 0;
+		@media screen and #{$brk-wide} {
+			padding: 40px 0;
+		}
 	}
 	a {
 		color: #fff;
@@ -42,6 +45,9 @@
 		input[type=email] {
 			width: 370px;
 			border: 1px solid #fff;
+			@media screen and #{$brk-narrow} {
+				width: 168px;
+			}
 		}
 		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 		   	color: $blue !important;
@@ -78,6 +84,11 @@
 		}
 
 	}
+	.signup-submit {
+		@media screen and #{$brk-narrow} {
+			min-width: 100px;
+		}	
+	}
 	.footer-partners {
 		text-align: center;
 		margin: 20px auto;
@@ -88,15 +99,33 @@
 			vertical-align: top;
 			img {
 				width: 65px;
+				@media screen and #{$brk-narrow} {
+					width: 33px;
+				}
+				@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+					width: 45px;
+				}
 			}
 			&:nth-of-type(3) {
 				img {
 					width: 210px;
+					@media screen and #{$brk-narrow} {
+						width: 95px;
+					}
+					@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+						width: 140px;
+					}
 				}
 			}
 			&:nth-of-type(4) {
 				img {
 					width: 90px;
+					@media screen and #{$brk-narrow} {
+						width: 47px;
+					}
+					@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+						width: 60px;
+					}
 				}
 			}
 		}

@@ -85,6 +85,7 @@ input[type=submit] {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 12px;
+	-webkit-appearance: none;
 }
 input[type=email], input[type=text], select {
 	background:none;
