@@ -42,7 +42,7 @@ nav {
 			    display: inline-block;
 			    &:hover {
 			    	p {
-	            		color: $blue-dark;
+	            		color: $blue-dark !important;
 	            	}
 		        }
 			    &.active {

@@ -7,23 +7,9 @@ $(document).ready(function(){
     });
 	//end of mobile menu
 
-	if ($('.nav-programs a').hasClass('active')) {
-		$('.nav-programs a').css('border-top', 'none');
-	} else {
-		$('.nav-programs a').css({
-			'background-color': 'white',
-			'border-top': '5px solid white'
-		});
-	}
 	$('#programsNavItem').mouseenter(function() {
+		$('.nav-programs a p').addClass('blue-light');
 		$('#programsNav').slideDown();
-		$('.nav-programs a').css({
-			'background-color': '#F8F8F7',
-			'border-top': '5px solid rgb(248, 248, 247)'
-		});
-		if ($('.nav-programs a').hasClass('active')) {
-			$('.nav-programs a').css('border-top', 'none');
-		}
 	});
 
 	$('.trigger ul li:not(#programsNavItem)').mouseenter(function() {
@@ -39,14 +25,8 @@ $(document).ready(function(){
 	});
 
 	var slideUpNav = function() {
+		$('.nav-programs a p').removeClass('blue-light');
 		$('#programsNav').slideUp();
-		$('.nav-programs a').css({
-			'background-color': 'white',
-			'border-top': '5px solid white'
-		});
-		if ($('.nav-programs a').hasClass('active')) {
-			$('.nav-programs a').css('border-top', 'none');
-		}
 	};
 
 });

@@ -141,4 +141,7 @@ h1,h2,h3,h4,h5,h6,p,li,a {
 			color: lighten($mint, 10%);
 		}
 	}
+	&.blue-light {
+		color: $blue-hover;
+	}
 }
