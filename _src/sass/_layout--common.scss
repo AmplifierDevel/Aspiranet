@@ -70,19 +70,13 @@ ul li {
 	border-left: 1px solid $grey-dark;
 }
 .section-photo {
-    height: auto;
-    max-height: 550px;
+    height: 650px;
     [class*='col-'] {
         padding-right: 0;
     }
-    &:after {
-        padding-bottom: 16%;
-        content: "";
-        display: block;
-        @media screen and (min-width: 1440px) { 
-            padding-bottom: 28%;
-        }
-    }
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+		height: 530px;
+	}
 }
 .block-overlap {
     margin: -4em auto auto auto !important;
