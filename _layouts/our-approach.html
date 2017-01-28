@@ -13,11 +13,12 @@ layout: default
 	<div class="grid approach-content">
 		<div class="col-1-2 color-blue-dark tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramText | markdownify}}
-			<p class="button"><a class="orange" href="/programs">See our programs</a></p>
+			<p class="button hide-on-mobile"><a class="orange" href="/programs">See our programs</a></p>
 		</div>
-		<div class="col-5-12 push-1-12 hide-on-mobile tablet-col-1-2">
+		<div class="col-5-12 push-1-12 tablet-col-1-2">
 			<img src="/assets/img/Artboard@1x.svg" width="100%;">
 		</div>
+		<p class="button hide-on-tablet hide-on-desktop text-center"><a class="orange" href="/programs">See our programs</a></p>
 	</div>
 </section>
 
