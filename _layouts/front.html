@@ -10,13 +10,15 @@ layout: default
 	{% for campaign in sorted_campaigns %}
 		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% endif %}">
 			<section class="grid">
-				{% if campaign.campaignPartners %} 
-				<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
-				{% endif %}
-				<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
-				{% if campaign.ctaButtonCopy %}
-				<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
-				{% endif %}
+				<div class="campaign-content">
+					{% if campaign.campaignPartners %} 
+					<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
+					{% endif %}
+					<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
+					{% if campaign.ctaButtonCopy %}
+					<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
+					{% endif %}
+				</div>
 			</section> 
 		</div>
 	{% endfor %}

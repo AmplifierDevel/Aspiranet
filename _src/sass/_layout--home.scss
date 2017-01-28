@@ -1,15 +1,14 @@
 .home {
 	.slick-next {
 		right: 60px;
-		@media screen and #{$brk-narrow} {
-			right: 10px
-		}
 	}
 	.slick-prev {
 		left: 53px;
 		z-index: 10;
+	}
+	.slick-arrow {
 		@media screen and #{$brk-narrow} {
-			left: 10px;
+			display: none !important;
 		}
 	}
 }
@@ -165,10 +164,20 @@
 	position: fixed !important;
 	top: 100px;
 	width: 100%;
-	.grid {
+	.campaign-content {
 		@media screen and (max-width: 1279px) {
 			padding-right: 10%;
 			padding-left: 10%;
+		}
+		@media screen and #{$brk-narrow} {
+			margin-top: 30px;
+			h1, h4, p, .button {
+				text-align: center !important;
+				display: inherit;
+			}
+			h4 {
+				margin-top: 0;
+			}
 		}
 	}
 	.slider-item {
