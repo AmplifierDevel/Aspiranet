@@ -8,7 +8,7 @@ layout: default
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <div class="campaign-slider">
 	{% for campaign in sorted_campaigns %}
-		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings {% if campaign.titleAlign == 'right' %} img-overlay-right {% endif %}">
+		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
 			<section class="grid">
 				<div class="campaign-content">
 					{% if campaign.campaignPartners %} 
