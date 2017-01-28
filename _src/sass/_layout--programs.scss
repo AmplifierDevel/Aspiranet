@@ -24,6 +24,21 @@
 .programFixedNavPhantom {
 	display: none;
 }
+@media screen and #{$brk-wide} {
+	.programsWrapper {
+		background-color: $grey;
+		padding-bottom: 20px;
+	}
+}
+.program-blurb-mobile {
+	border-radius: 4px;
+	padding: 20px;
+    background-color: white;
+    .button a {
+		padding: 0;
+		margin-top: 0;
+    }
+}
 .program-blurb {
 	.button a {
 		padding: 0;
@@ -36,6 +51,10 @@
 	.blurb-color-block {
 		border-top-left-radius: 4px;
     	border-top-right-radius: 4px;
+    	@media screen and #{$brk-wide} {
+    		border-top-left-radius: 0;
+    		border-top-right-radius: 0;
+    	}
 	}
 	h3 {
 		padding: 45px 33px;
@@ -47,6 +66,13 @@
 	max-height: 950px;
 	&:not(:nth-of-type(1)) {
 		margin-top: 10px;
+	}
+	@media screen and #{$brk-wide} {
+		border-top-left-radius: 4px;
+    	border-top-right-radius: 4px;
+    	&:not(:nth-of-type(1)) {
+			margin-top: 20px;
+		}
 	}
 	&:after {
         padding-bottom: 26%;
@@ -300,38 +326,40 @@
 		}
 	}
 }
-.behavioral-health .individual-program {
-	.section-copy-rest, .program-subtitle {
-		background-color: $blue;
-		color: #fff;
-	}
-	.fast-facts {
-		background-color: $yellow-dark;
-		color: white;
-		h1, h3, p {
-			color: $blue-dark;
+.behavioral-health {
+	.individual-program {
+		.section-copy-rest, .program-subtitle {
+			background-color: $blue;
+			color: #fff;
 		}
-	}
-	.block-overlap {
-		background-color: $yellow;
-		h3, p {
-			color: $blue-dark;
-		}
-		.button:first-of-type {
-			a {
+		.fast-facts {
+			background-color: $yellow-dark;
+			color: white;
+			h1, h3, p {
 				color: $blue-dark;
 			}
 		}
-	}
-	.quote-section {
-		.color-block {
-			background-color: $blue-dark;
+		.block-overlap {
+			background-color: $yellow;
+			h3, p {
+				color: $blue-dark;
+			}
+			.button:first-of-type {
+				a {
+					color: $blue-dark;
+				}
+			}
 		}
-		h2 {
-			color: $blue;
-		}
-		h4 {
-			background-color: $blue-dark;
+		.quote-section {
+			.color-block {
+				background-color: $blue-dark;
+			}
+			h2 {
+				color: $blue;
+			}
+			h4 {
+				background-color: $blue-dark;
+			}
 		}
 	}
 }

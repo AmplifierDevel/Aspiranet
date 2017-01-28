@@ -38,13 +38,11 @@ layout: default
 		</div>
 	</section>
 	<!-- mobile card -->
-	<div class="hide-on-desktop no-margin-top no-padding program-blurb">
-		<div class="blurb-color-block {{ program.programColor }}">
-			<h3 class="round color-white">{{program.title}}</h3>
-		</div>
+	<div class="hide-on-desktop program-blurb-mobile">
 		<div class="white">
+			<h3 class="round color-{{ program.programColor }}">{{program.title}}</h3>
 			<p>{{program.landingPageTextBlurb}}</p>
-			<p class="button"><a href="/programs/{{ program.title | slugify }}" class="color-{{ program.programColor }}">Learn More</a></p>
+			<p class="button no-margin-top"><a href="/programs/{{ program.title | slugify }}" class="color-{{ program.programColor }}">Learn More</a></p>
 		</div>
 	</div>
 	<!-- end of mobile card -->
