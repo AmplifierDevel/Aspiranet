@@ -16,6 +16,8 @@
 	float: right;
     text-align: center;
     color: white;
+    position: relative;
+    z-index: 20;
     ul {
     	padding: 0;
     }
@@ -43,6 +45,17 @@
 .stats-bg {
 	background-position: 0px 100px;
 	padding-bottom: 8%;
+	@media screen and #{$brk-wide} {
+		&:before {
+			content: "";
+		    position: absolute;
+		    height: 100%;
+		    display: block;
+		    top: 0;
+		    width: 100%;
+			background-color: rgba(0,0,0,0.3);			
+		}
+	}
 }
 .latest-front {
 	.col-1-3 {
