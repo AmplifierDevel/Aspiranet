@@ -1,5 +1,52 @@
-#map-canvas, #panel { height: 500px; background: white;}
-#panel { width: 300px; float: left; }
+.find-a-program {
+  select {
+    padding: 10px;
+  }
+}
+#map-canvas, #panel { 
+  height: 500px; 
+  background: white;
+}
+#panel { 
+  width: 300px; 
+  float: left; 
+}
+@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+  .select-program {
+    select {
+      width: 275px;
+    }
+  }
+} 
+@media screen and #{$brk-narrow} {
+  #panel {
+    width: 100%;
+    float: none;
+    height: 200px;
+    margin-top: 80px;
+  }
+  #map-canvas {
+    height: 300px;
+    margin-top: 10px;
+  }
+  .select-age {
+    width: 100%;
+    select {
+      width: 100%;
+    }
+  } 
+  .select-program select {
+    width: 100%;
+  }
+  .storelocator-panel .location-search {
+    width: 100% !important;
+    margin-top: -100px !important;
+      input {
+        width: 87.5% !important;
+        border-radius: 0 !important;
+      }
+  }   
+}
 #panel .feature-filter label { width: 130px; }
 p.attribution, p.attribution a { color: #666; }
 
@@ -25,11 +72,9 @@ p.attribution, p.attribution a { color: #666; }
 .storelocator-panel .directions-panel {
   font-size: 0.8em;
 }
-
 .storelocator-panel .store-list li.store:hover {
   cursor: pointer;
 }
-
 .storelocator-panel .store-list li.highlighted,
 .storelocator-panel .store-list li.highlighted:hover {
   border-left: 5px solid $orange;
@@ -69,6 +114,9 @@ p.attribution, p.attribution a { color: #666; }
 }
 .filters-box {
   margin-left: 290px;
+  @media screen and #{$brk-narrow} {
+    margin-left: 0;
+  }
 }
 .select-program, .select-age {
   display: inline-block;
@@ -88,6 +136,9 @@ p.attribution, p.attribution a { color: #666; }
     font-family: $stack-serif;
     font-size: 16px;
     letter-spacing: 0;
+  }
+  @media screen and #{$brk-narrow} {
+    padding: 0;
   }
 }
 

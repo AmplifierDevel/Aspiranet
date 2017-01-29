@@ -4,9 +4,13 @@ layout: default
 
 <section class="blue text-center">
 {% if site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle %}
-  <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle }}</h1>
+  <div class="grid">
+    <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle }}</h1>
+  </div>
 {% else %}
-  <h1>Find a Program or Service</h1>
+  <div class="grid">
+    <h1>Find a Program or Service</h1>
+  </div>
 {% endif %}
 </section> 
 {% if site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText %}
