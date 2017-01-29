@@ -4,7 +4,7 @@ layout: default
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 
 <div id="blog-post">
-	<section  {% if page.contentful_fields.heroImage %} style="min-height:500px;background-image: url('{{ page.contentful_fields.heroImage.file.url }}');" alt='{{ page.contentful_fields.heroImage.title }}' " class="img-settings section-photo" {% endif %} class="blue"> 
+	<section  {% if page.contentful_fields.heroImage %} style="background-image: url('{{ page.contentful_fields.heroImage.file.url }}');" alt='{{ page.contentful_fields.heroImage.title }}' " class="img-settings section-photo each-post-img" {% endif %} class="blue"> 
 	</section>
 	<section>
 	    <div class="grid">
