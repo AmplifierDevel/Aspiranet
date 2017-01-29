@@ -107,3 +107,49 @@
     	}
 	}
 }
+@media screen and #{$brk-narrow} {
+	.contact {
+		.contact-form {
+			padding-right: 0;
+			fieldset {
+				.form-info, select {
+					width: 100%;
+					margin-top: 10px;
+				}
+				.form-name {
+					width: 48.5%;
+				}
+			}
+		}
+		.contact-map {
+			border-left: none;
+			padding: 0;
+			h2 {
+				margin-top: 30px !important;
+			}
+			.grid {
+				padding: 0;
+			}
+			.col-1-2:nth-of-type(2) {
+				padding-left: 0;
+				p:last-of-type {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+	.contact-map {
+		padding: 0 0 0 3em;
+		.grid {
+			padding: 0;
+		}
+		.col-1-2:nth-of-type(2) {
+			padding-left: 0;
+			p:last-of-type {
+				margin-top: 0;
+			}
+		}
+	}
+}
