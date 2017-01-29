@@ -37,7 +37,7 @@ layout: default
 </section>
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutOurMissionImage.url  }}');" class="img-settings section-photo center-vertical">
-	<div class="grid">
+	<div class="grid hide-on-mobile hide-on-tablet">
 		<div class="col-1-2">
 			&nbsp;
 		</div>
@@ -45,8 +45,14 @@ layout: default
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
 		</div>
 	</div>
-</section>  
-
+</section> 
+<section class="blue hide-on-desktop">
+	<div class="grid">
+		<div class="color-white text-center">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
+		</div>
+	</div>
+</section>
 <div class="section grey">
 	<h1 class="color-blue text-center no-margin" style="padding-top:40px;padding-bottom: 20px;">Our Values</h1>
 </div>
