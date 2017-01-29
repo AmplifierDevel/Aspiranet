@@ -1,9 +1,7 @@
 .careers {
 	@media screen and #{$brk-narrow} {
-		.section-photo {
-			.col-5-12 {
-				text-align: center;
-			}
+		.hero-img {
+			background-position: 22%;
 		}
 	}
 	.video-section {
@@ -22,12 +20,8 @@
 			padding-left: 60px;
 			padding-top: 14px;
 			width: 100%;
-			@media screen and #{$brk-narrow} {
+			@media screen and #{$brk-wide} {
 				width: 100%;
-				padding-left: 0;
-			}
-			@media screen and (min-width: 767px) and #{$brk-wide} {
-				width: 80%;
 				padding-left: 0;
 			}
 		}
