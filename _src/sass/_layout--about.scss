@@ -1,7 +1,33 @@
 .about {
+    .our-vision {
+        h1 {
+            margin-top: 0;
+        }
+        h1, p {
+            @media screen and #{$brk-narrow} {
+                text-align: center;
+            }
+        }
+    }
     @media screen and #{$brk-wide} {
-        .section-photo, .our-vision .col-5-12 {
-            text-align: center;
+        .hero-img {
+            background-position: 78% 100%;
+        }
+        .section-photo {
+            background-position: 10% 100%;
+            &:before {
+                content: "";
+                position: absolute;
+                height: 100%;
+                display: block;
+                top: 0;
+                width: 100%;
+                background-color: rgba(0,0,0,0.4);            
+            }
+            .grid {
+                position: relative;
+                z-index: 20;
+            }
         }
     }
 }

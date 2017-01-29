@@ -40,6 +40,19 @@ ul li {
     background-position: center center;
     position: relative;
 }
+.hero-img {
+	height: 650px;
+	background-position: 100% 100%;
+	@media screen and (min-width: 1024px) and (max-width: 1280px) {
+		height: 530px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		height: 400px;
+	} 
+	@media screen and #{$brk-narrow} {
+		height: 350px;
+	}
+}
 .img-overlay-left, .img-overlay-right {
 	&:before {
 		content: "";
@@ -76,6 +89,12 @@ ul li {
     }
     @media screen and (min-width: 1024px) and (max-width: 1280px) {
 		height: 530px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		height: 400px;
+	} 
+	@media screen and #{$brk-narrow} {
+		height: 350px;
 	}
 }
 .block-overlap {
