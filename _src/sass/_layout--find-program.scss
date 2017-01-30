@@ -58,6 +58,9 @@ p.attribution, p.attribution a { color: #666; }
 .storelocator-panel .store-list {
   margin: 0;
   padding: 0;
+  .misc {
+    display: none;
+  }
 }
 .storelocator-panel .store-list li {
   padding: 0 0 0 5px;
@@ -199,7 +202,7 @@ p.attribution, p.attribution a { color: #666; }
   font-size: 0.8em;
   color: $grey-darkest;
   margin-right: 0.5em;
-  &.streetview, &.directions {
+}
+.streetview, .directions {
     display: none;
-  }
 }
