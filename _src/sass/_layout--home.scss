@@ -46,6 +46,7 @@
 	background-position: 0px 100px;
 	padding-bottom: 8%;
 	@media screen and #{$brk-wide} {
+		background-position: 0px;
 		&:before {
 			content: "";
 		    position: absolute;
@@ -159,6 +160,9 @@
 .prlx-bg {
 	background-attachment: fixed;
 	z-index: 20;
+	@media screen and #{$brk-wide} {
+		background-attachment: scroll;
+	}
 }
 .prlx-item {
 	position: relative;
