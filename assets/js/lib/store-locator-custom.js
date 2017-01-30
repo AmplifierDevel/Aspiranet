@@ -42,7 +42,6 @@ MedicareDataSource.prototype.parse_ = function(json) {
                                           item.fields.location.lon);
   
 
-    console.log(item.fields.programAndAgeGroupAsText);
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
       address: item.fields.addressAsText,
