@@ -21,9 +21,48 @@
 	    background-color:$grey;
 	}
 }
-.programFixedNavPhantom {
-	display: none;
+// .programFixedNavPhantom {
+// 	display: none;
+// }
+
+//snap scroll effect 
+.programs {
+	.site-footer {
+		margin-top: 500px;
+	}
 }
+.programsWrapper {
+	height: 100%;
+}
+.program-item {
+	position: absolute;
+	top: 500px; //calculate with jquery
+	left: 0;
+	height: 0;							
+	width: 100%;
+	padding: 0;
+	// .grid {
+	// 	display: none;
+	// }
+
+	// this would be vendor prefixed:
+	transition: all 0.9s ease-in-out;
+	transform: translateZ(0);
+	&:nth-child(1) { z-index:10 }
+	&:nth-child(2) { z-index:9 }
+	&:nth-child(3) { z-index:8 }
+
+	&.active {
+		height: 100%;
+		padding: 90px 0;
+		// .grid {
+		// 	display: block;
+		// }
+	}
+}
+
+// end of snap scroll 
+
 @media screen and #{$brk-wide} {
 	.programsWrapper {
 		background-color: $grey;
