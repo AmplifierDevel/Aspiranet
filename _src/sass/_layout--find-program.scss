@@ -199,4 +199,7 @@ p.attribution, p.attribution a { color: #666; }
   font-size: 0.8em;
   color: $grey-darkest;
   margin-right: 0.5em;
+  &.streetview, &.directions {
+    display: none;
+  }
 }

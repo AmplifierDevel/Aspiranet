@@ -50,8 +50,10 @@ MedicareDataSource.prototype.parse_ = function(json) {
       title: item.fields.name,
       address: item.fields.addressAsText,
       misc: `<strong>Available Services:</strong><br/>` + 
-      item.fields.programAndAgeGroupAsText,
-      web: item.fields.phoneText
+        item.fields.programAndAgeGroupAsText,
+      web: item.fields.phoneText + 
+        `<br/><br/><a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
+        `Directions</a>`,
     });
 
 
