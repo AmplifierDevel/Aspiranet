@@ -30,6 +30,14 @@ MedicareDataSource.prototype.parse_ = function(json) {
       uniquePrograms = [],
       filterByProgram = false;
 
+  marked.setOptions({
+    renderer: new marked.Renderer(),
+    gfm: true,
+    tables: true,
+    breaks: true, 
+    sanitize: false
+  });
+
     if(document.getElementById('programSelect').value != "") {
        filterByProgram = true;
     }
@@ -46,7 +54,7 @@ MedicareDataSource.prototype.parse_ = function(json) {
       title: item.fields.name,
       address: item.fields.addressAsText,
       misc: `<strong>Available Services:</strong><br/>` + 
-        item.fields.programAndAgeGroupAsText,
+        marked(item.fields.programAndAgeGroupAsText || ''),
       web: item.fields.phoneText + 
         `<br/><br/><a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
         `Directions</a>`,

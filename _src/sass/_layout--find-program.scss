@@ -13,7 +13,7 @@
 }
 @media screen and #{$brk-tablet-min} and #{$brk-wide} {
   .select-program {
-    select {
+    select { 
       width: 275px;
     }
   }
