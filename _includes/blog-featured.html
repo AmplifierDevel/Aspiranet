@@ -1,19 +1,19 @@
     <!-- TODO:make sure there is only one post, on backend or here/ Photos look/if there is no photo?-->
-        <div class="featured-post"> 
-        {% for blogpost in sorted_news %}
-            {% if blogpost.featuredOnBlog == true %}
-                {% if blogpost.heroImage %}
-                    <a href="/blog/{{ blogpost.url }}" style="padding-left: 0;">
-                        <div class="featured-post-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
-                            <div class="featured-post-copy push-right col-4-12">
-                                <p class="small caps round">Aspiranet blog</p>
-                                <h1 class="color-blue no-margin-top">{{ blogpost.title }}</h1>
-                                {{ blogpost.postBody | truncatewords: 25 | markdownify }}
-                                <p class="button link">Read the full story</p>
-                            </div>
-                       </div>
-                    </a>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-        </div>
+<div class="featured-post"> 
+{% for blogpost in sorted_news %}
+    {% if blogpost.featuredOnBlog == true %}
+        {% if blogpost.heroImage %}
+            <a href="/blog/{{ blogpost.url }}" style="padding-left: 0;">
+                <div class="hero-img img-settings" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
+                    <div class="featured-post-copy push-right col-4-12">
+                        <p class="small caps round">Aspiranet blog</p>
+                        <h1 class="color-blue no-margin-top">{{ blogpost.title }}</h1>
+                        {{ blogpost.postBody | truncatewords: 25 | markdownify }}
+                        <p class="button link">Read the full story</p>
+                    </div>
+               </div>
+            </a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
