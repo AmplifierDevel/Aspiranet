@@ -40,7 +40,7 @@ layout: default
 	<!-- mobile card -->
 	<div class="hide-on-desktop program-blurb-mobile">
 		<div class="white">
-			<h3 class="round color-{{ program.programColor }}">{{program.title}}</h3>
+			<a href="/programs/{{ program.title | slugify }}"><h3 class="round color-{{ program.programColor }}">{{program.title}}</h3></a>
 			<p>{{program.landingPageTextBlurb}}</p>
 			<p class="button no-margin-top"><a href="/programs/{{ program.title | slugify }}" class="color-{{ program.programColor }}">Learn More</a></p>
 		</div>
