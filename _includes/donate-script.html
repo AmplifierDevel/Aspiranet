@@ -32,7 +32,24 @@ $(document).ready(function(){
 	  	var token = function(res){
 		    var $id = $('<input type=hidden name=stripeToken />').val(res.id);
 		    var $email = $('<input type=hidden name=stripeEmail />').val(res.email);
-		    $('form').append($id).append($email).submit();
+		    $.ajax({
+	          url: 'https://tranquil-mesa-11288.herokuapp.com/charge.php',
+	          type: 'post',
+	          data: {tokenid: res.id, email: res.email, donationAmt: amount},
+	          success: function(data) {
+	            if (data == 'success') {
+	                console.log("Card successfully charged!");
+	            }
+	            else {
+	                console.log("Success Error!");
+	            }
+
+	          },
+	          error: function(data) {
+	            console.log("Ajax Error!");
+	            console.log(data);
+	          }
+	        }); // end ajax call
 		  };
 
 	  handler.open({
