@@ -1,9 +1,19 @@
 .careers {
-	@media screen and #{$brk-narrow} {
-		.hero-img {
-			background-position: 22%;
+	.hero-img {
+		.grid {
+			.col-4-12 {
+				width: 39%;
+			}
 		}
-	}
+		@media screen and #{$brk-narrow} {
+			background-position: 22%;
+			.grid {
+				.col-4-12 {
+					width: 39%;
+				}	
+			}
+		}
+	}	
 	.video-section {
 		.col-1-2 {
 			@media screen and #{$brk-narrow} { 
