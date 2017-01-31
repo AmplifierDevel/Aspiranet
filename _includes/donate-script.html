@@ -29,6 +29,11 @@ $(document).ready(function(){
 			amount = $('input.otherAmount').val()*100;
 		}
 
+		var frequency = 'once';
+		$("input:radio[name=frequency]").click(function() {
+		    frequency = $(this).val();
+		});
+
 	  	var token = function(res){
 	  		if ($('input#subscribeNewsletter').is(':checked')) {
 				$.ajax({
@@ -43,7 +48,7 @@ $(document).ready(function(){
 		    $.ajax({
 	          url: 'https://tranquil-mesa-11288.herokuapp.com/charge.php',
 	          type: 'post',
-	          data: {tokenid: res.id, email: res.email, donationAmt: amount},
+	          data: {tokenid: res.id, email: res.email, donationAmt: amount, frequency: frequency},
 	          error: function(data) {
 	            console.log("Ajax Error!");
 	          }
