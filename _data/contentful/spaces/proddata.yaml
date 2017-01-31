@@ -2108,51 +2108,6 @@ programs:
   fastFact3Text: Countries where Aspiranet offers transitional aged youth (TAY) services
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
-blogCategory:
-- sys:
-    id: 5cOx39zkWcW0uGiEyGO8EA
-  name: Courage
-- sys:
-    id: 7eFzmq5t6Mg2AosyUkkAgI
-  name: Integrity
-- sys:
-    id: 1TBUAtWXMk2gEqAmOOy4o0
-  name: Hope
-- sys:
-    id: 6AVJUFl9zq640Em4soQooS
-  name: Respect
-campain:
-- sys:
-    id: 3nasDfII8ESiAEcM0Yc6SK
-  title: 'Second campaign '
-  titleAlign: left
-  image:
-    title: +31411754456 2f15df3718 o
-    url: //images.contentful.com/e5ehlcazegi0/qi0wMWcNMsIWmssQk8MGg/51f34ce4670e2c387dcf7cbe4c7e77b3/_31411754456_2f15df3718_o.jpg
-  campaignPartners: Starbucks
-  campaignUrl: url-to-campaign
-  order: 2
-  ctaButtonCopy: Donate now
-  ctaUrl: /donate/now
-- sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: 'Third campaign '
-  titleAlign: left
-  image:
-    title: 01 homepage hero img D9X9H
-    url: //images.contentful.com/e5ehlcazegi0/4KqJCvpJ0I8gOAcc4mQqcE/5cd4658b35eb5cef1bf730308ad4e9f7/01_homepage_hero_img_D9X9H.jpg
-  campaignUrl: link-to-third-campaign
-  order: 3
-popup:
-- sys:
-    id: wUjJa0X6DeQmM0gIe2eMI
-  title: This is the first popup
-  content: bla bla
-- sys:
-    id: 4aF6s5Eq080u0aIcEACAu2
-  title: Example Popup
-  content: This popup will redirect you to the blog if you click __OK__
-  urlToRedirectTo: /blog
 rootWebsite:
 - sys:
     id: 2ffm5MoVtiUYoSWiqwUGgI
@@ -2169,10 +2124,10 @@ rootWebsite:
   homepageStatsHeroImage:
     title: 01 homepage img v2 1
     url: //images.contentful.com/e5ehlcazegi0/4Rmh9aFEZiuy8Y2kWOWMaI/e3d687ccbdd3883d9fda46440bc498c3/01_homepage_img_v2_1.jpg
-  homepageCareerText: "### Rewarding Work That Helps Children and Families Thrive.\n\nAt
-    Aspiranet we’re committed to strengthening families.  We know we can’t do this
-    purpose-driven work alone.    We need talented and committed people, like you,
-    to bring our mission home.   \n"
+  homepageCareerText: "<h4 class=\"round\">Rewarding Work That Helps Children and
+    Families Thrive.</h4>\n\n#### At Aspiranet we’re committed to strengthening families.
+    \ We know we can’t do this purpose-driven work alone.    We need talented and
+    committed people, like you, to bring our mission home.   \n"
   adoptionCtaHeroImage:
     title: 01 homepage img v1 2
     url: //images.contentful.com/e5ehlcazegi0/3cREsM9ELuICEugU2AWuOE/a1f6e009cdacdd5955bd0d087f092642/01_homepage_img_v1_2.jpg
@@ -2305,6 +2260,51 @@ rootWebsite:
   findAProgramPageText: Our statewide network of innovative services connects community
     members through dedicated programs that touch the lives of children, parents,
     adults and seniors. Browse our programs below.
+blogCategory:
+- sys:
+    id: 5cOx39zkWcW0uGiEyGO8EA
+  name: Courage
+- sys:
+    id: 7eFzmq5t6Mg2AosyUkkAgI
+  name: Integrity
+- sys:
+    id: 1TBUAtWXMk2gEqAmOOy4o0
+  name: Hope
+- sys:
+    id: 6AVJUFl9zq640Em4soQooS
+  name: Respect
+campain:
+- sys:
+    id: 3nasDfII8ESiAEcM0Yc6SK
+  title: 'Second campaign '
+  titleAlign: left
+  image:
+    title: +31411754456 2f15df3718 o
+    url: //images.contentful.com/e5ehlcazegi0/qi0wMWcNMsIWmssQk8MGg/51f34ce4670e2c387dcf7cbe4c7e77b3/_31411754456_2f15df3718_o.jpg
+  campaignPartners: Starbucks
+  campaignUrl: url-to-campaign
+  order: 2
+  ctaButtonCopy: Donate now
+  ctaUrl: /donate/now
+- sys:
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: 'Third campaign '
+  titleAlign: left
+  image:
+    title: 01 homepage hero img D9X9H
+    url: //images.contentful.com/e5ehlcazegi0/4KqJCvpJ0I8gOAcc4mQqcE/5cd4658b35eb5cef1bf730308ad4e9f7/01_homepage_hero_img_D9X9H.jpg
+  campaignUrl: link-to-third-campaign
+  order: 3
+popup:
+- sys:
+    id: wUjJa0X6DeQmM0gIe2eMI
+  title: This is the first popup
+  content: bla bla
+- sys:
+    id: 4aF6s5Eq080u0aIcEACAu2
+  title: Example Popup
+  content: This popup will redirect you to the blog if you click __OK__
+  urlToRedirectTo: /blog
 event:
 - sys:
     id: 5PbVdSYkCIkqWUgw2coG8O
