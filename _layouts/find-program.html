@@ -1,25 +1,25 @@
----  
-layout: default                       
----      
-  
+---
+layout: default                    
+---
+
 <section class="blue text-center">
 {% if site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle %}
   <div class="grid">
-    <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle }}</h1>
+    <div class="col-1-2 center tablet-col-1-2">
+      <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle }}</h1>
+      {{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText | markdownify }}
+    </div>
   </div>
 {% else %}
   <div class="grid">
-    <h1>Find a Program or Service</h1>
+    <div class="col-1-2 center tablet-col-1-2">
+      <h1>Find a Program or Service</h1>
+      {{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText | markdownify }}
+    </div>
   </div>
 {% endif %}
 </section> 
-{% if site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText %}
-<section>
-  <div class="grid">
-    <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText | markdownify }}</h1>  
-  </div>
-</section>
-{% endif %}
+
 <section class="grey section-short">
 	<div class="grid">  
     <div class="filters-box">
@@ -29,6 +29,17 @@ layout: default
               <option value="" selected=""><p>Select a program</p></option> 
         </select>
       </fieldset>
+      <fieldset class="select-age">
+        <label for="ageSelect"><p>Age level</p></label>
+        <select name="select" id="ageSelect">
+              <option value="" selected="">All</option> 
+              <option value="0-5">0-5</option>
+              <option value="6-10">6-10</option>
+              <option value="11-14">11-14</option>
+              <option value="15-19">15-19</option>
+              <option value="20+">20+</option>
+        </select>
+      </fieldset> 
       </div> 
       <div style="clear:both;">
       <br/>
@@ -37,10 +48,15 @@ layout: default
 	</div> 
 </section>
 
- 
-<script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCkqEvtASd6ZH3A_wqb9YpH7_W7cABVRGI"></script>
-<script src="/assets/js/lib/marked.js"></script>
 
+<!-- TO REMOVE -->
+<style type="text/css">
+  .store .misc {
+    display: none;
+  }
+</style>
+<!-- END TO REMOVE -->
+<script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCkqEvtASd6ZH3A_wqb9YpH7_W7cABVRGI"></script>
 <script src="/assets/js/lib/store-locator.min.js"></script>
 <script src="/assets/js/lib/store-locator-custom.js"></script>
 <script src="/assets/js/find-program.js"></script>

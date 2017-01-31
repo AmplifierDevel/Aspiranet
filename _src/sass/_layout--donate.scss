@@ -51,3 +51,18 @@
 		color: $grey-darkest;		
 	}
 }
+.other-amount {
+	display: inline-block;
+	input {
+		border: 1px solid $grey-darkest;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	.box-amount {
+		padding: 10px 0;
+		border: none;
+		&.active {
+			margin-top: 1.5em;
+		}
+	}
+}
