@@ -99,7 +99,7 @@ layout: default
 				{{ site.data.tweet[0].text }} 
 				</p>
 			</div>
-			<div class="overlay">
+			<div class="overlay-orange">
 				<div class="overlay-content">
 					<p class="button"><a class="transparent" href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">Read on twitter</a></p> 
 				</div>
@@ -123,7 +123,7 @@ layout: default
 							<h3 class="color-orange">{{ blogpost.title }}</h3>
 						{% endif %}
 					</div>	
-					<div class="overlay center-vertical">
+					<div class="center-vertical overlay-yellow">
 						<div class="overlay-content">
 						{% if imageUrl %}
 							<a href="/blog/{{ blogpost.url }}"><h3>{{ blogpost.title }}</h3></a> 
@@ -147,7 +147,7 @@ layout: default
 					<h3>{{ blogpost.title }}</h3>
 				</a>
 			</div>
-			<div class="overlay center-vertical">
+			<div class="center-vertical overlay-orange">
 				<div class="overlay-content">
 					<p class="button"><a class="transparent" href="https://twitter.com/aspiranet">Read the story</a></p> 
 				</div>
@@ -174,7 +174,7 @@ layout: default
 						{% endif %}
 					</div>	
 				</div>
-				<div class="overlay center-vertical">
+				<div class="center-vertical overlay-blue">
 					<div class="overlay-content">
 						{% if imageUrl %}
 							<a href="/blog/{{ blogpost.url }}"><h3>{{ blogpost.title }}</h3></a> 
@@ -190,7 +190,14 @@ layout: default
 			<div class="caption">
 				<p class="small caps">Jobs</p>
 			</div>
-			<h3 class="latest-content color-orange">Highlighted job post here</h3>
+			<div class="latest-content">
+				<h3 class="latest-content color-orange">Highlighted job post here</h3>
+			</div>
+			<div class="center-vertical overlay-yellow">
+				<div class="overlay-content">
+					<p class="button"><a class="transparent" href="/careers">Join our team</a></p> 
+				</div>
+			</div>
 		</div>
 		{% for blogpost in sorted_news limit: 1 %}
 		<div class="col-1-3 yellow">
@@ -202,7 +209,7 @@ layout: default
 					<h3 class="color-blue-dark">{{ blogpost.title }}</h3>
 				</a>
 			</div>
-			<div class="overlay center-vertical">
+			<div class="center-vertical overlay-blue">
 				<div class="overlay-content">
 					<p class="button"><a class="transparent" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
 				</div>
