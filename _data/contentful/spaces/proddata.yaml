@@ -1996,7 +1996,7 @@ blogPost:
   heroImage:
     title: family
     url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-05 03:00:00.000000000 +03:00
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -2249,7 +2249,7 @@ blogPost:
   thumbnailToBeDisplayedOnHomepage:
     title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
     url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
-  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-01-06 03:00:00.000000000 +03:00
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
     She spent much of her youth in foster care, and then when she became pregnant
@@ -2325,7 +2325,7 @@ event:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  date: !ruby/object:DateTime 2017-03-06 11:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-03-06 22:00:00.000000000 +03:00
   eventId: '31499930139'
 fosterAdoptiveFamilies:
 - sys:
