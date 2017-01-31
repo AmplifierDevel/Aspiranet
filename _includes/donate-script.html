@@ -1,12 +1,20 @@
 
 <script src="https://checkout.stripe.com/checkout.js"></script>
+<script src="/assets/js/lib/numeric.min.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function(){
+	$(".otherAmount").numeric();
+
 	$('.box-amount').click(function(e){
 		e.preventDefault();
 		$('.box-amount').removeClass('active');
 		$(this).addClass('active');
+		if ($('.box-amount.active').data('amount')=='other') {
+			$('.otherAmount').show();
+		} else {
+			$('.otherAmount').hide();
+		}
 	});
 
 	var handler = StripeCheckout.configure({
@@ -17,6 +25,9 @@ $(document).ready(function(){
 	$('.stripe-button-el').click(function(){
 		// get the current selected amount
 		var amount = $('.box-amount.active').data('amount');
+		if (amount=='other'){
+			amount = $('input.otherAmount').val()*100;
+		}
 
 	  	var token = function(res){
 		    var $id = $('<input type=hidden name=stripeToken />').val(res.id);
@@ -32,7 +43,6 @@ $(document).ready(function(){
 	    token:       token
 	  });
 
-	  console.info(token);
 	  return false;
 	});
 });

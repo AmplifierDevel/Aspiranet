@@ -30,4 +30,13 @@ $(document).ready(function(){
 		$('#programsNav').slideUp();
 	};
 
+	$("#mc-embedded-subscribe-form").submit(function(e) {
+	  e.preventDefault();
+
+	  var $form = $(this);
+	  $.post($form.attr("action"), $form.serialize()).then(function() {
+	    $('#mc_embed_signup').html('<p>Thank you for joining!</p>');
+	  });
+	});
+
 });
