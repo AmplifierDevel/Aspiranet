@@ -20,7 +20,7 @@ ul li {
 }
  .img-overlay-left {
  	&:before {
- 		background-image: linear-gradient(-90deg, transparent 41%, rgba(0,0,0,0.2) 100%)
+ 		background-image: linear-gradient(-90deg, transparent 14%, rgba(0,0,0,0.2) 100%)
  	}
 }
 
@@ -222,8 +222,8 @@ section, div, span {
 	opacity: 1 !important;
 	color: transparent !important;
     border: 1px solid white !important;
-    width: 16px !important;
-	height: 16px !important;
+    width: 8px !important;
+	height: 8px !important;
 	border-radius: 50% !important;
 }
 .slick-dots {
