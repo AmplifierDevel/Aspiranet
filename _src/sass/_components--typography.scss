@@ -38,6 +38,9 @@ h4 {
 h4.round {
 	font-family: $stack-sans-serif;
 	font-size: 22px; //24px
+	@media screen and #{$brk-wide} {
+		font-size: 18px;
+	}
 }
 h4.italic, p.italic {
 	font-style: italic;

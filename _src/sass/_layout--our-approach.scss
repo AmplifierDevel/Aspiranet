@@ -18,3 +18,15 @@
 		background-position: 139% 50%;
 	}
 }
+.our-approach {
+	.cta-join-team {
+		text-align: center;
+		@media screen and #{$brk-wide} {
+			text-align: left;
+			.button {
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}
