@@ -7,8 +7,10 @@ $(document).ready(function(){
 	    var currentScroll = $(window).scrollTop(); 
 	    if (currentScroll >= fixTop) { 
 	        $('.programFixedNav').addClass('fixed');
+	        $('.programFixedNavPhantom').show();
 	    } else {     
 	        $('.programFixedNav').removeClass('fixed');
+	        $('.programFixedNavPhantom').hide();
 	    }
 	});
 });

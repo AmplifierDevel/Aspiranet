@@ -7,18 +7,12 @@
 .programFixedNav {
 	z-index: 20;
 	@include transition(.2s);
-	position:static;
-	&:not(.fixed) {
-		p {
-			color: #fff;
-		}
-	}
+	position: static;
 	&.fixed {
 	    position: fixed;
 	    top: 100px;
 	    left: 0;
 	    right: 0;
-	    background-color:$grey;
 	}
 }
 .programFixedNavPhantom {
