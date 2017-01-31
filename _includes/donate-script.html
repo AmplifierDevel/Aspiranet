@@ -30,27 +30,25 @@ $(document).ready(function(){
 		}
 
 	  	var token = function(res){
-		    var $id = $('<input type=hidden name=stripeToken />').val(res.id);
-		    var $email = $('<input type=hidden name=stripeEmail />').val(res.email);
+	  		if ($('input#subscribeNewsletter').is(':checked')) {
+	  			console.log('adding email to newsletter list');
+				$.ajax({
+		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email,
+		          type: 'post',
+		          data: {},
+		          error: function(data) {
+		            console.log("Ajax Error!");
+		          }
+		        }); // end ajax	  			
+	  		};
 		    $.ajax({
 	          url: 'https://tranquil-mesa-11288.herokuapp.com/charge.php',
 	          type: 'post',
 	          data: {tokenid: res.id, email: res.email, donationAmt: amount},
-	          success: function(data) {
-	            console.log(data);
-	            if (data == 'success') {
-	                console.log("Card successfully charged!");
-	            }
-	            else {
-	                console.log("Success Error!");
-	            }
-
-	          },
 	          error: function(data) {
 	            console.log("Ajax Error!");
-	            console.log(data);
 	          }
-	        }); // end ajax call
+	        }); // end ajax
 		  };
 
 	  handler.open({
@@ -66,3 +64,5 @@ $(document).ready(function(){
 });
 
 </script>
+
+https://hooks.zapier.com/hooks/catch/1587757/h5qao6/
