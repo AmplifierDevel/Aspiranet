@@ -31,7 +31,6 @@ $(document).ready(function(){
 
 	  	var token = function(res){
 	  		if ($('input#subscribeNewsletter').is(':checked')) {
-	  			console.log('adding email to newsletter list');
 				$.ajax({
 		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email,
 		          type: 'post',
@@ -65,4 +64,3 @@ $(document).ready(function(){
 
 </script>
 
-https://hooks.zapier.com/hooks/catch/1587757/h5qao6/
