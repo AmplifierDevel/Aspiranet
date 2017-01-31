@@ -342,8 +342,8 @@ programs:
   landingPageTextBlurb: 'We believe: When children and families have access to the
     support and resources to thrive, there''s no limit to what they can accomplish. '
   photoLanding:
-    title: 5-Program-Foster-&-Adoptive-v6-2 (1)
-    url: //images.contentful.com/e5ehlcazegi0/6d75KedVTOYe8UsQGcC2qa/a508de4dcf4a2ca4d0d50c497b91f5f3/5-Program-Foster-_-Adoptive-v6-2__1_.jpg
+    title: 5-Program-Foster-&-Adoptive-v6-2
+    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
   programColor: yellow
   order: 5
   subtitle: 'A proven model of family support '
@@ -357,8 +357,8 @@ programs:
     unique team approach enlists 3-4 advocates in guiding and supporting the entire
     family during their journey to improved well-being."
   photo:
-    title: 5-Program-Foster-&-Adoptive-v6-2 (1)
-    url: //images.contentful.com/e5ehlcazegi0/6d75KedVTOYe8UsQGcC2qa/a508de4dcf4a2ca4d0d50c497b91f5f3/5-Program-Foster-_-Adoptive-v6-2__1_.jpg
+    title: 5-Program-Foster-&-Adoptive-v6-2
+    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
   pullQuote: “Families in crisis sometimes need a helping hand to reach higher ground.
     That’s why we are here.” <br/> — Sharon Lawicki, Core Division Director
   copyRest: "Our services engage all members of the family, including relatives and
@@ -1996,7 +1996,7 @@ blogPost:
   heroImage:
     title: family
     url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-05 03:00:00.000000000 +03:00
+  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -2249,7 +2249,7 @@ blogPost:
   thumbnailToBeDisplayedOnHomepage:
     title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
     url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
-  date: !ruby/object:DateTime 2017-01-06 03:00:00.000000000 +03:00
+  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
     She spent much of her youth in foster care, and then when she became pregnant
@@ -2325,7 +2325,7 @@ event:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  date: !ruby/object:DateTime 2017-03-06 22:00:00.000000000 +03:00
+  date: !ruby/object:DateTime 2017-03-06 11:00:00.000000000 -08:00
   eventId: '31499930139'
 fosterAdoptiveFamilies:
 - sys:
