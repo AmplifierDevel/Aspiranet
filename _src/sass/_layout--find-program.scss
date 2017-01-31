@@ -168,7 +168,10 @@ p.attribution, p.attribution a { color: #666; }
   font-weight: bold;
   font-size: 18px;
   color: $blue;
+  font-family: $stack-serif;
 }
+
+
 
 .store .address,
 .store .phone, 
@@ -177,9 +180,17 @@ p.attribution, p.attribution a { color: #666; }
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   display: block; 
-  color: $grey-darkest;
+  font-family: $stack-serif;
+  color: $blue-dark;
 }
 
+.store .misc {
+  margin-top: 30px;
+  p {
+    font-size: 14px;
+    font-family: $stack-serif;
+  }
+}
 .store .features {
   overflow: hidden;
   color: $grey-dark;
@@ -194,9 +205,6 @@ p.attribution, p.attribution a { color: #666; }
   padding-right: 0.8em;
 }
 
-.store .web a {
-  color: $grey-darkest;
-}
 
 .store .action {
   font-size: 0.8em;
@@ -205,4 +213,10 @@ p.attribution, p.attribution a { color: #666; }
 }
 .streetview, .directions {
     display: none;
+}
+
+.store-list {
+  .address, .web, .web a {
+    color: #bebebe;    
+  }
 }
