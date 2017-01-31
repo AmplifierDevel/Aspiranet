@@ -10,9 +10,9 @@
 	</ul>
 	<ul class="social-icons">
 		<p class="caps round small no-margin-top">Share the program</p>
-		<li><a href="{{ site.baseurl }}/{{ page.url }}"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+		<li><a href="https://twitter.com/intent/tweet?text={{ site.url }}/{{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}" target="_blank" rel="nofollow"><img src="{{ site.image_path }}/twitter.svg" alt="share on twitter" /></a></li>
+		<li><a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"><img src="{{ site.image_path }}/facebook-light.svg" alt="share on facebook" /></a></li>
 		<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
-		<li><a href="https://twitter.com/intent/tweet?text={{ page.contentful_fields.title }}&amp;url={{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}"><img src="{{ site.image_path }}/facebook-light.svg" alt="share on facebook" /></a></li>
 	</ul>
 	<p class="button"><a class="orange" href="/careers">Join our team</a></p>
 </div>
