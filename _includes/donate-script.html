@@ -6,6 +6,11 @@
 $(document).ready(function(){
 	$(".otherAmount").numeric();
 
+	var frequency = 'once';
+	$("input:radio[name=frequency]").click(function() {
+	    frequency = $(this).val();
+	});
+
 	$('.box-amount').click(function(e){
 		e.preventDefault();
 		$('.box-amount').removeClass('active');
@@ -28,11 +33,6 @@ $(document).ready(function(){
 		if (amount=='other'){
 			amount = $('input.otherAmount').val()*100;
 		}
-
-		var frequency = 'once';
-		$("input:radio[name=frequency]").click(function() {
-		    frequency = $(this).val();
-		});
 
 	  	var token = function(res){
 	  		console.log(frequency);
