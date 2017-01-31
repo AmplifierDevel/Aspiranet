@@ -38,6 +38,7 @@ $(document).ready(function(){
 	          data: {tokenid: res.id, email: res.email, donationAmt: amount},
 	          success: function(data) {
 	            if (data == 'success') {
+	            	console.log(data);
 	                console.log("Card successfully charged!");
 	            }
 	            else {
