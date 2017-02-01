@@ -423,6 +423,12 @@
 }
 .foster-and-adoptive-families {
 	.individual-program {
+		.mobile-dropdown {
+			position: relative;
+			z-index: 20;
+			margin: 20px 0;
+			color: $blue;
+		}
 		.program-title {
 			background-color: $pink-light; 
 			color: white;

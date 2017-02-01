@@ -130,16 +130,6 @@ p.attribution, p.attribution a { color: #666; }
       margin-bottom: 0;
     }
   }
-  select {
-    display: block;
-    border: 1px solid $grey-dark;
-    border-radius: 0;
-    background-color: white;
-    color: $grey-darkest;
-    font-family: $stack-serif;
-    font-size: 16px;
-    letter-spacing: 0;
-  }
   @media screen and #{$brk-narrow} {
     padding: 0;
   }

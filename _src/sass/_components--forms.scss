@@ -22,3 +22,13 @@
 		@include transition(.2s);
 	}
 }
+select {
+    display: block;
+    border: 1px solid $grey-dark;
+    border-radius: 0;
+    background-color: white;
+    color: $grey-darkest;
+    font-family: $stack-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+}
