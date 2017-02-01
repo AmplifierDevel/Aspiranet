@@ -17,8 +17,11 @@ $(document).ready(function(){
 		$(this).addClass('active');
 		if ($('.box-amount.active').data('amount')=='other') {
 			$('.otherAmount').show();
+			$('#freq1').click();
+			$('.monthlychoice').hide();
 		} else {
 			$('.otherAmount').hide();
+			$('.monthlychoice').show();
 		}
 	});
 
@@ -35,10 +38,9 @@ $(document).ready(function(){
 		}
 
 	  	var token = function(res){
-	  		console.log(frequency);
 	  		if ($('input#subscribeNewsletter').is(':checked')) {
 				$.ajax({
-		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email,
+		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email + 'frequency=Donation-' + frequency,
 		          type: 'post',
 		          data: {},
 		          error: function(data) {
@@ -47,7 +49,7 @@ $(document).ready(function(){
 		        }); // end ajax	  			
 	  		};
 		    $.ajax({
-	          url: 'https://tranquil-mesa-11288.herokuapp.com/charge.php',
+	          url: 'https://aspiranet-payment.herokuapp.com/charge.php',
 	          type: 'post',
 	          data: {tokenid: res.id, email: res.email, donationAmt: amount, frequency: frequency},
 	          error: function(data) {
