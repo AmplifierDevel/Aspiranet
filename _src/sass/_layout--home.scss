@@ -210,7 +210,7 @@
     	.button {
     		display: block;
     	}
-		@media screen and (max-width: 1279px) {
+		@media screen and #{$brk-tablet-min} and (max-width: 1279px) {
 			padding-right: 10%;
 			padding-left: 10%;
 		}
