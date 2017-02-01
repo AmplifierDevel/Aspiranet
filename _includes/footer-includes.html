@@ -1,5 +1,8 @@
+<!-- FRONT PAGE -->
 {% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
 
+
+<!-- DONATE PAGE -->
 {% if page.title == "Donate" %}
 	{% include donate-script.html %}
 {% else %}	
@@ -8,6 +11,7 @@
 {% endif %}	
 
 
+<!-- WHEN PAGE HAS A MODAL -->
 {% if page.title == "Careers" or page.title == "About" %}
 	<script src="/assets/js/lib/remodal.min.js"></script>
 	<script type="text/javascript">
@@ -21,13 +25,15 @@
 	</script>
 {% endif %}
 
+
+<!-- FOR PROGRAMS -->
 {% if page.group == 'programs' %} 
 	<script src="/assets/js/scroll-animation.js"></script>
 {% endif %}
-
 {% if page.layout == 'programs-landing' %} 
 	<script src="/assets/js/fixed-nav.js"></script>
 {% endif %}
+
 
 <!-- GOOGLE ANALYTICS -->
 <script type="text/javascript">
@@ -40,6 +46,7 @@
 	__gaTracker('set', 'forceSSL', true);
 	__gaTracker('send','pageview');
 </script>
+
 
 <!-- MAIN JS -->
 <script src="/assets/js/lib/main.js"></script>
