@@ -84,7 +84,7 @@
     }
     &:hover {
     	color: #fff;
-    	h2 { color: #fff; }
+    	h3 { color: #fff; }
     	p.nohover {
     		display: none;
     	}
@@ -94,7 +94,7 @@
     }
     &.value-orange:hover { background: $orange; }
     &.value-green:hover { background: $green; }
-    &.value-blue:hover { background: $blue; }
+    &.value-blue:hover { background: $blue-marin; }
     &.value-yellow:hover { background: $yellow; }
 }
 .leadership {
