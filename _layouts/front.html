@@ -93,7 +93,7 @@ layout: default
 <section class="latest-front text-center white prlx-item">
 	<h3 class="blue-dark">The latest</h3>
 	<div class="grid">
-		<div class="col-1-3 blue">
+		<div class="col-1-3 tablet-col-1-2 blue">
 			<div class="caption"> 
 				<p class="small caps color-blue-dark">Twitter</p>
 			</div>
@@ -110,7 +110,7 @@ layout: default
 		</div>
 		{% for blogpost in sorted_news %}
 		{% if blogpost.featuredOnBlog == true %}
-		<div class="col-1-3 blue-marin">
+		<div class="col-1-3 tablet-col-1-2 blue-marin">
 			<a href="/blog/{{ blogpost.url }}">
 			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
 				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
@@ -141,7 +141,7 @@ layout: default
 		{% endif %}
 		{% endfor %}
 		{% for blogpost in sorted_news limit: 1 offset: 1 %}
-		<div class="col-1-3 orange">
+		<div class="col-1-3 tablet-col-1-2 orange">
 			<div class="caption">
 				<p class="small caps">On the blog</p>
 			</div>
@@ -157,11 +157,9 @@ layout: default
 			</div>
 		</div>
 		{% endfor %}
-	</div>
-	<div class="grid">
 	{% for blogpost in sorted_news %}
 		{% if blogpost.featuredOnHomepage == true %}
-			<div class="col-1-3 orange">
+			<div class="col-1-3 tablet-col-1-2 orange">
 			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
 				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
 			{% else %}
@@ -189,7 +187,7 @@ layout: default
 			</div>
 		{% endif %}
 	{% endfor %}
-		<div class="col-1-3 blue-dark">
+		<div class="col-1-3 tablet-col-1-2 blue-dark">
 			<div class="caption">
 				<p class="small caps">Jobs</p>
 			</div>
@@ -203,7 +201,7 @@ layout: default
 			</div>
 		</div>
 		{% for blogpost in sorted_news limit: 1 %}
-		<div class="col-1-3 yellow">
+		<div class="col-1-3 tablet-col-1-2 yellow">
 			<div class="caption">
 				<p class="small caps">On the blog</p>
 			</div>

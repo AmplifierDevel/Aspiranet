@@ -71,9 +71,6 @@
     		@media screen and #{$brk-narrow} {
     			width: 50%;
     		}
-    		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
-    			width: 25%;
-    		}
 		}
 		.latest-content {
 			text-align: center;
