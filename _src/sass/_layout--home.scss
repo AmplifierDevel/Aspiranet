@@ -134,35 +134,15 @@
 		&:hover {
 			.overlay-orange:after {
 				background-color: lighten($orange, 10%);
-				.overlay-content {
-					h3 {
-						color: lighten($yellow, 20%) !important;
-					}
-				}
 			}
 			.overlay-blue-dark:after {
 				background-color: lighten($blue-marin, 10%);
-				.overlay-content {
-					h3 {
-						color: lighten($orange, 20%) !important;
-					}
-				}
 			}
 			.overlay-blue:after {
 				background-color: lighten($blue, 10%);
-				.overlay-content {
-					h3 {
-						color: lighten($yellow, 20%) !important;
-					}
-				}
 			}
 			.overlay-yellow:after {
 				background-color: lighten($yellow, 10%);
-				.overlay-content {
-					h3 {
-						color: lighten($orange, 20%) !important;
-					}
-				}
 			}
 			.overlay-orange, .overlay-blue, .overlay-yellow, .overlay-blue-dark {
 				opacity: 1;
