@@ -80,11 +80,15 @@
     }
 }
 .individual-program {
+	.more-programs-slider {
+		padding-left: 20px;
+		padding-right: 0;
+	}
 	.slick-prev {
 		left: -40px !important;
 	}
 	.slick-next {
-		right: 0px !important;
+		right: -45px !important;
 	}
 	.program-blurb {
 		.white {
