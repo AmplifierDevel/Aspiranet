@@ -47,8 +47,14 @@
 	p, label, input {
 		display: inline-block;
 	}
-	input[type="radio"]:not(:checked)+label {
-		color: $grey-darkest;		
+	label {
+		font-family: $stack-serif-light;
+	}
+}
+.subscribe {
+	margin-top: 20px;
+	label {
+		font-family: $stack-serif-light;
 	}
 }
 .other-amount {
@@ -64,10 +70,5 @@
 		&.active {
 			margin-top: 1.5em;
 		}
-	}
-}
-.stripe-button-el {
-	.button {
-		display: block;
 	}
 }

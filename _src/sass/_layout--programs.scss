@@ -226,6 +226,7 @@
 		}
 		.color-block {
 			min-height: 500px;
+			margin-top: 23px;
 			@media screen and #{$brk-wide} {
 				min-height: 400px;
 			}
