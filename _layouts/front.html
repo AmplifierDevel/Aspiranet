@@ -10,16 +10,16 @@ layout: default
 	{% for campaign in sorted_campaigns %}
 		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
 			<section class="grid">
-				<div class="campaign-content">
+				<div class="campaign-content {% if campaign.titleAlign == 'right' %} push-right {% endif %}">
 					{% if campaign.campaignPartners %} 
-					<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
+					<h5 class="round color-blue text-left">{{ campaign.campaignPartners }}</h5>
 					{% endif %}
-					<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
+					<h2 class="color-{{ campaign.textColor }} text-left style="position: relative;">{{ campaign.title }}</h2>
 					{% if campaign.copy %} 
-					<h4 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark">{{ campaign.copy }}</h4>
+					<h5 class="color-{{ campaign.textColor }} color-blue-dark">{{ campaign.copy }}</h5>
 					{% endif %}
 					{% if campaign.ctaButtonCopy %}
-					<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
+					<p class="button"><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
 					{% endif %}
 				</div>
 			</section> 
@@ -37,24 +37,24 @@ layout: default
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg">
 	<div class="grid">
-		<div class="col-1-2 text-center stats-front no-padding tablet-col-1-2">
+		<div class="col-5-12 text-center stats-front no-padding tablet-col-1-2">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
 			<ul class="text-center">
 				<li>
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h5>
 				</li>
 				<li>
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h5>
 				</li>
 				<li>
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h5>
 				</li>
 				<li>
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h5>
 				</li>  
 			</ul>
 			<h3>Help us reach more children</h3>
@@ -74,7 +74,7 @@ layout: default
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left">
 	<div class="grid hide-on-mobile">
-		<div class="col-1-2 color-white tablet-col-1-60">
+		<div class="col-5-12 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<h4 class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></h4>
 		</div>
@@ -129,7 +129,7 @@ layout: default
 				<div class="center-vertical overlay-yellow">
 					<div class="overlay-content">
 						<h3>{{ blogpost.title }}</h3>
-						<p class="button"><a class="transparent" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
 					</div>
 				</div>
 			</div>
@@ -149,7 +149,7 @@ layout: default
 			<div class="center-vertical overlay-orange">
 				<div class="overlay-content">
 					<h3>{{ blogpost.title }}</h3>
-					<p class="button"><a class="transparent" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
 				</div>
 			</div>
 		</div>
@@ -175,7 +175,7 @@ layout: default
 				<div class="center-vertical overlay-orange">
 					<div class="overlay-content">
 						<h3>{{ blogpost.title }}</h3>
-						<p class="button"><a class="transparent" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
 					</div>
 				</div>
 			</div>
@@ -186,12 +186,12 @@ layout: default
 				<p class="small caps">Jobs</p>
 			</div>
 			<div class="latest-content">
-				<h3 class="latest-content color-orange">Highlighted job post here</h3>
+				<h3 class="latest-content color-orange">Check out our open positions</h3>
 			</div>
 			<div class="center-vertical overlay-blue-dark">
 				<div class="overlay-content">
-					<h3>Highlighted job post here</h3>
-					<p class="button"><a class="transparent" href="/careers">Join our team</a></p> 
+					<h3>Check out our open positions</h3>
+					<p class="button"><a class="transparent" target="_blank" href="http://aspiranet.hrmdirect.com/employment/job-openings.php?search=true&">Join our team</a></p> 
 				</div>
 			</div>
 		</div>
@@ -208,7 +208,7 @@ layout: default
 			<div class="center-vertical overlay-yellow">
 				<div class="overlay-content">
 					<h3>{{ blogpost.title }}</h3>
-					<p class="button"><a class="transparent" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
 				</div>
 			</div>
 		</div>

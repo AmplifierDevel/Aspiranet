@@ -24,6 +24,10 @@ h2 {
 }
 h3 {
 	font-size: 27px; //36px
+	font-family: $stack-sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+    letter-spacing: 1px;
 	@media screen and #{$brk-wide} {
 		font-size: 21px;
 	}
@@ -45,13 +49,13 @@ h4.round {
 h4.italic, p.italic {
 	font-style: italic;
 }
-h3 {
-	font-family: $stack-sans-serif;
-	font-weight: 400;
-	line-height: 1.5;
-    letter-spacing: 1px;
+h5 {
+	font-size: 26px;
+	@media screen and #{$brk-wide} {
+		font-size: 20px;
+	}
 }
-h4, p, a, ul, li {
+h4, h5, p, a, ul, li {
 	font-family: $stack-serif-light;
 	font-weight: 400;
 }
