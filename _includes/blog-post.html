@@ -10,7 +10,7 @@
             <p class="caps small post-category">{{ blogpost.blogCategory.name }}</p>
             {% endif %}
             <a href="/blog/{{ blogpost.url }}"><h4 class="round color-blue no-margin-top">{{ blogpost.title }}</h4></a>
-            <p>{{ blogpost.postBody | truncatewords:75 | markdownify }}</p>
+            {{ blogpost.postBody | truncatewords:75 | markdownify }}
         </div>
 
         {% include blog-buttons.html %}

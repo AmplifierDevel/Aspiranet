@@ -10,7 +10,7 @@ layout: default
 
         <div class="col-8-12">
             <ul>
-            <p class="caps small round">Category: {{page.title}}</p>
+            <p class="italic filter-by">Category: {{page.title}}</p>
             {% for blogpost in sorted_news %}
                     {% if blogpost.blogCategory.name == page.title %}
 

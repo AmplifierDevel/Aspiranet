@@ -69,6 +69,13 @@
 			}
 			.post-category {
 				color: $grey-darkest;
+				margin-top: 20px;
+			}
+			p:not(.post-category) {
+				margin-top: 0;
+			}
+			a h4 {
+				margin-bottom: 12px;
 			}
 		}
 		.white {
@@ -146,7 +153,10 @@
 		}
 	}
 }
-
+.filter-by {
+	margin-top: 1.5em;
+    margin-bottom: -38px;
+}
 // Individual post 
 #blog-post {
 	.blog-body {
