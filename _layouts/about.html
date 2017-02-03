@@ -10,7 +10,9 @@ layout: default
 
 <section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeroImage.url  }}');" class="img-settings hero-img">
 	<div class="grid hide-on-mobile hide-on-tablet">
-		<h1 class="color-blue">About Aspiranet</h1>
+		<div class="col-5-12 color-blue tablet-col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeaderText | markdownify}}
+		</div>
 	</div>
 </section>
 
