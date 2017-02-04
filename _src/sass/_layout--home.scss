@@ -220,14 +220,10 @@
     	}
     	h5 {
     		margin-top: 15px;
-    		font-size: 28px;
     	}
 		@media screen and #{$brk-tablet-min} and (max-width: 1279px) {
 			padding-left: 10%;
 			width: 45%;
-			h5 {
-				font-size: 23px;
-			}
 		}
 		@media screen and #{$brk-narrow} {
 			width: 100%;
@@ -238,7 +234,6 @@
 			}
 			h5 {
 				margin-top: 0;
-				font-size: 18px;
 			}
 		}
 	}
