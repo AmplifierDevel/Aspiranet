@@ -178,6 +178,11 @@
 		.button {
 			display: inline-block;
 			margin-top: 3%;
+			@media screen and #{$brk-tablet-min} {
+				&:first-of-type {
+					margin-right: 10px;
+				}
+			}
 		}
 		@media screen and #{$brk-wide} {
 			width: 100% !important;
