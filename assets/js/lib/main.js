@@ -13,10 +13,6 @@ $(document).ready(function(){
 		$('#programsNav').slideDown();
 	});
 
-	$('.trigger ul li:not(#programsNavItem)').mouseenter(function() {
-		slideUpNav();
-	});
-
 	$('#programsNav').mouseleave(function() {
 		slideUpNav();
 	});
