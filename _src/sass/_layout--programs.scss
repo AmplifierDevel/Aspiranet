@@ -145,11 +145,15 @@
 				}
 			}
 			.button {
-				display: inherit;
-				text-align: center;
+				display: block;
 				padding: 0;
+				text-align: center;
+				a {
+					@media screen and #{$brk-tablet-min} {
+						min-width: 197px;
+					}
+				}
 			}
-
 		}
 	}
 	.social-icons {
@@ -592,23 +596,9 @@
 				  	}
 				}
 				.slick-slide {
-				    // text-align: center;
-				    //margin-left: 330px;
 			        width: 690px;
 				    padding-left: 20px;
 				    margin-right: 25px;
-				    //transition: transform 0.5s linear;
-				    &.slick-current.slick-active{
-				        //transform: none;
-				        //margin: 0 auto;
-				    }
-				    &.slick-active {
-				        //transform: translateX(-50%);
-
-				    }
-				    // &.slick-current + .slick-active{
-				    //     transform: translateX(50%);
-				    // }
 				}
 			}
 			.story-slider-item {
@@ -648,6 +638,10 @@
 			padding: 35px;
 			border-radius: 4px;
 			margin-bottom: 3em;
+			padding: 25px;
+			.button a {
+				min-width: 200px;
+			}
 			ul {
 				padding: 0;
 				a p {
