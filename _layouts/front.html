@@ -35,24 +35,25 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg grey">
+	<img src='{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}' class="hide-on-desktop">
 	<div class="grid">
-		<div class="col-5-12 text-center stats-front no-padding tablet-col-1-2">
+		<div class="col-5-12 text-center stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
 			<ul class="text-center">
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
 					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
 					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
 					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
 					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h5>
 				</li>  
@@ -62,7 +63,6 @@ layout: default
 		</div>
 	</div>
 </section>
-
 <section class="blue text-center prlx-item">
 	<div class="grid">
 		<div class="col-8-12 center rewarding mobile-col-10-12">

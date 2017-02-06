@@ -40,23 +40,73 @@
     @media screen and #{$brk-wide} {
     	float: none;
     	margin: 0 auto;
+    	ul li {
+    		min-height: 250px;
+    		margin: 0;
+    		padding: 30px;
+    	}
+    	h5 {
+    		padding: 0;
+    	}
+    	h1, h3, h5, .button {
+    		text-align: left;
+    	}
+    	.button {
+    		display: inherit;
+    	}
+
     }
+    @media screen and (max-width: 304px) {
+    	.mobile-col-1-2 {
+    		width: 100%;
+    	}
+    	ul li {
+    		padding: 0;
+    		min-height: auto;
+    	}
+    }
+    @media screen and (min-width: 305px) and #{$brk-narrow} {
+    	ul li {
+    		min-height: 200px;
+    		margin: 0;
+    		&:nth-of-type(even) {
+    			padding: 20px 0 20px 20px;
+    		}
+    		&:nth-of-type(odd) { 
+    			padding: 20px 20px 20px 0;
+    		}
+    	}
+		h1 {
+			font-size: 2em;
+			margin-top: 0;
+		}
+		h5 {
+			padding: 0;
+			font-size: 18px;
+			margin-top: 20px;
+			margin-bottom: 0;
+		}
+		h3 {
+			font-size: 18px;
+			margin-top: 20px;
+		}
+	}
 }
 .stats-bg {
 	background-position: 0px 100px;
 	padding-bottom: 8%;
 	@media screen and #{$brk-wide} {
 		background-position: 0px;
-		&:before {
-			content: "";
-		    position: absolute;
-		    height: 100%;
-		    display: block;
-		    top: 0;
-		    width: 100%;
-			background-color: rgba(0,0,0,0.3);			
+		background-image: none !important;
+		img {
+			width: 100%;
+			margin-top: -50px;
+		}
+		h3, h5 {
+			color: $blue-dark;
 		}
 	}
+
 }
 .latest-front {
 	.col-1-3 {
