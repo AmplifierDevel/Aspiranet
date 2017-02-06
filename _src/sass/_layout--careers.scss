@@ -73,13 +73,14 @@
 	}
 }
 .jobs .job-category {
-	padding: 3px;
-	margin: 10px 0px;
+	padding: 20px;
+	margin: 0px;
 	p {
 		width: 50%;
     	margin: 20px auto;
     	@media screen and #{$brk-narrow} {
     		width: 75%;
+    		padding: 3px;
     	}
 	}
 }
