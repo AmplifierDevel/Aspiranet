@@ -68,14 +68,14 @@ h4, h5, p, a, ul, li {
 
 //Body 
 p {
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1.7;
 	@media screen and #{$brk-narrow} {
 		font-size: 16px;
 	}
 	&.round {
 		font-family: $stack-sans-serif;
-		font-size: 19px;
+		font-size: 18px;
 		@media screen and #{$brk-narrow} {
 			font-size: 14px;
 		}
