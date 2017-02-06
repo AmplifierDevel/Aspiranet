@@ -113,7 +113,12 @@
 		p.position {
             color: #fff;
 			opacity: .6;
-		}	
+		}
+        p.italic {
+            &:hover {
+                color: $yellow;
+            }
+        }	
 	}
 	.color-blue-dark {
 		font-style: italic;
