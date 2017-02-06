@@ -674,6 +674,20 @@ campain:
   ctaButtonCopy: See our impact
   ctaUrl: /programs/foster-and-adoptive-families/
 - sys:
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: Introducing Aspiranet’s new look.
+  copy: 'We are sharing stories that inspires human connection and bring people together
+    for a common purpose: to help families thrive. Learn more on the Esperanza blog'
+  titleAlign: left
+  textColor: white
+  image:
+    title: 012-hero-img-1
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  campaignUrl: /blog/
+  order: 2
+  ctaButtonCopy: 'Read the story '
+  ctaUrl: /blog/
+- sys:
     id: 4rqSPhHwhqoGwCGCYucUem
   title: 'We’re hiring. Join the team today! '
   copy: Our team is up to something big.  Find a career with us that is fulfilling
@@ -687,20 +701,6 @@ campain:
   order: 3
   ctaButtonCopy: Join our team
   ctaUrl: /careers/
-- sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: Introducing Aspiranet’s new look.
-  copy: 'We are sharing stories that inspires human connection and bring people together
-    for a common purpose: to help families thrive. Learn more on the Esperanza blog'
-  titleAlign: left
-  textColor: white
-  image:
-    title: 012-hero-img-1
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  campaignUrl: /blog
-  order: 2
-  ctaButtonCopy: 'Read the story '
-  ctaUrl: /blog
 programLocation:
 - sys:
     id: qW7Twj6dxeE0GYEI2GCEY

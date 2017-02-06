@@ -19,7 +19,7 @@ layout: default
 					<h5 class="color-{{ campaign.textColor }} color-blue-dark">{{ campaign.copy }}</h5>
 					{% endif %}
 					{% if campaign.ctaButtonCopy %}
-					<p class="button"><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
+					<p class="button"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
 					{% endif %}
 				</div>
 			</section> 
