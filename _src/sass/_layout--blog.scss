@@ -157,8 +157,12 @@
 	margin-top: 1.5em;
     margin-bottom: -38px;
 }
+
 // Individual post 
 #blog-post {
+	.hero-img {
+		background-position: top center;
+	}
 	.blog-body {
 		h1, h2, h3, h4 {
 			font-weight: bold;
