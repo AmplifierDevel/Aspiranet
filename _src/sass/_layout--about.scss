@@ -114,8 +114,8 @@
             color: #fff;
 			opacity: .6;
 		}
-        p.italic {
-            &:hover {
+        &:hover {
+            p {
                 color: $yellow;
             }
         }	
