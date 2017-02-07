@@ -585,20 +585,18 @@
 					}
 				}
 				.slick-next {
-					height: 100% !important;
-				    background: $blue-marin;
-				    opacity: 0.2;
-				    padding-left: 3px;
 					right: 0 !important;
 					z-index: 20;
 					&:before {
 				  		background-image: url('/assets/img/next-white.svg');
 				  	}
 				}
+				.slick-list {
+					width: 96.5%;
+				}
 				.slick-slide {
 			        width: 690px;
-				    padding-left: 20px;
-				    margin-right: 25px;
+				    padding-left: 6px;
 				}
 			}
 			.story-slider-item {
