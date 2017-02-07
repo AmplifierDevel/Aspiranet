@@ -8,10 +8,11 @@ layout: default
 	<div class="grid">
 		<div class="col-1-2 tablet-col-1-2 contact-form">
 			<h2 class="no-margin-top">Write to Us</h2>
-			<form id="contact" name="contactform" action="" method="post">
+			<form id="contact" name="contactform" action="" method="post" netlify netlify-honeypot="bot-field">
 				<fieldset>
 					<input class="form-name" placeholder="First name" onfocus="this.placeholder = 'First name'" onblur="this.placeholder = 'First name'"  type="text" tabindex="1" required autofocus>
 					<input class="form-name" placeholder="Last name" onfocus="this.placeholder = 'Last name'" onblur="this.placeholder = 'Last name'"  type="text" tabindex="2" required autofocus>
+					  <p style="display:none"><label>Bot field: <input name="bot-field"></label></p>
 					<input class="form-info" placeholder="Your Email Address" onfocus="this.placeholder = 'Your Email Address'" onblur="this.placeholder = 'Your Email Address'" type="email" tabindex="3" required>
 					<input class="form-info" placeholder="Your Zip Code" onfocus="this.placeholder = 'Your Zip Code'" onblur="this.placeholder = 'Your Zip Code'" type="text" pattern="\d{5}-?(\d{4})?" required>
 					<select name="select">
