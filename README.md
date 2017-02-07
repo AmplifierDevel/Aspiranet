@@ -10,7 +10,9 @@ This website is part of the brand platform for Aspiranet. It supports donations,
 
 ### Content management
 All content is managed through [Contentful](https://www.contentful.com) . To access it login to www.contentful.com
+
 ![Contentful](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-content-management.jpg "Contentful")
+
 - Content types can be filtered on the left.
 - New content can be added on the top right **Add Entry**
 - Content on unique pages such as **About Us**, **Approach** or **Homepage** will be found under **Unique Page Content**
