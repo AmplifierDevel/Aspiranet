@@ -74,26 +74,27 @@ This website is interacting with the following systems:
 - ASPIRANET_CONTENTFUL_API_URL
 3) Run `grunt`
 
-
 ### Requirements
-
 - `git v2.10.0` [Install](https://git-scm.com/doc)
 - `grunt v1.0.1` [Install](http://gruntjs.com/)
 
-### Configuration
+### How the build process works
+`build.sh` is responsible for the deployment on Netlify. Here is what it does:
+1) Fetch the latest tweet
+2) Fetch the program locations with `curl` and store them in `program_data.json`
+3) Interpolates the environment variables in `_config.yml` and download all the contentful data
+4) Removes the environment variables from `_config.yml`
+5) Copy the generated files to the `_site` folder.
 
-After having installed the software, the user may need to configure it. List configuration options and explain how and where to set them.
+### Triggering the build process
+It is triggered automatically by:
+- Posting a new tweet on Aspiranet's Twitter account (Zapier integration)
+- Adding a new entry on contentful
+- Creating a new event on Eventbrite
+- Pushing a git commit to the repository
+
+It is also possible to trigger the build directly from the Netlify interface under *Deploys > Trigger Build*
 
 ## Credits
 
-Website developped by Amplifier Strategies.
-
-## Contact
-
-People may want to reach out to you for various reasons, ranging from DCMA take down notices to questions about how to donate to your project. Provide contact information, such as an email address, and keep in mind that some countries may require certain information by law, such as a full postal address, website URL, and company name.
-
-## License
-
-This project is licensed under [insert license]. The license should be in a separate file called LICENSE, so don't explain it in detail within your documentation. Also, don't forget to specify licenses of third-party libraries and programs you use.
-
-Sometimes including a Table of Contents (TOC) at the beginning of the documentation makes sense, especially when your README file is more than a few paragraphs. If you think that the README file has grown too large, put some of the more detailed parts, such as installation or configuration sections, into their own files.
+Website developped by Amplifier Strategies for Aspiranet.
