@@ -113,4 +113,4 @@ It is also possible to trigger the build directly from the Netlify interface und
 
 ## Credits
 
-Website developped by [Amplifier Strategies](https://www.amplifierstrategies.com) for [Aspiranet](//www.aspiranet.org) Aspiranet.
+Website developped by [Amplifier Strategies](https://www.amplifierstrategies.com) for [Aspiranet](//www.aspiranet.org).
