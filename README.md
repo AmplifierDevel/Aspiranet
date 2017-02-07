@@ -87,9 +87,11 @@ This website is interacting with the following systems:
   * ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN
   * ASPIRANET_CONTENTFUL_IS_PREVIEW
   * ASPIRANET_CONTENTFUL_API_URL
-3. Run `grunt`
+3. Remove the `Gemfile.lock` and run `bundle install`
+4. Run `grunt`
 
 ### Requirements
+- `jekyll 3.4.0` [Install](https://jekyllrb.com/docs/installation/) 
 - `git v2.10.0` [Install](https://git-scm.com/doc)
 - `grunt v1.0.1` [Install](http://gruntjs.com/)
 
