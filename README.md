@@ -69,24 +69,24 @@ For a Category you will need to click on *Add Entry > Blog Category*. This will 
 
 ## Introduction 
 This website is interacting with the following systems:
-1) Hosting & CDN [Netlify](https://www.netlify.com) 
-2) Content Management [Contentful](https://www.contentful.com) 
-3) APIs [Zapier](https://www.zapier.com)
-4) Events [Eventbrite](https://www.eventbrite.com)
-5) Payments [Stripe](https://www.stripe.com)
-6) Tweets [Twitter](https://www.twitter.com)
-7) Customer Relationship Management [Act-On](https://www.act-on.com/)
+- Hosting & CDN [Netlify](https://www.netlify.com) 
+- Content Management [Contentful](https://www.contentful.com) 
+- APIs [Zapier](https://www.zapier.com)
+- Events [Eventbrite](https://www.eventbrite.com)
+- Payments [Stripe](https://www.stripe.com)
+- Tweets [Twitter](https://www.twitter.com)
+- Customer Relationship Management [Act-On](https://www.act-on.com/)
 
 ## Installation
-1) Clone this repository
-2) Add the following **environment variables** to your terminal: 
-- ASPIRANET_CONTENTFUL_PREVIEW_KEY
-- ASPIRANET_CONTENTFUL_ACCESS_KEY
-- ASPIRANET_CONTENTFUL_SPACE_ID
-- ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN
-- ASPIRANET_CONTENTFUL_IS_PREVIEW
-- ASPIRANET_CONTENTFUL_API_URL
-3) Run `grunt`
+1. Clone this repository
+2. Add the following **environment variables** to your terminal: 
+..* ASPIRANET_CONTENTFUL_PREVIEW_KEY
+..* ASPIRANET_CONTENTFUL_ACCESS_KEY
+..* ASPIRANET_CONTENTFUL_SPACE_ID
+..* ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN
+..* ASPIRANET_CONTENTFUL_IS_PREVIEW
+..* ASPIRANET_CONTENTFUL_API_URL
+3. Run `grunt`
 
 ### Requirements
 - `git v2.10.0` [Install](https://git-scm.com/doc)
@@ -94,11 +94,11 @@ This website is interacting with the following systems:
 
 ### How the build process works
 `build.sh` is responsible for the deployment on Netlify. Here is what it does:
-1) Fetch the latest tweet
-2) Fetch the program locations with `curl` and store them in `program_data.json`
-3) Interpolates the environment variables in `_config.yml` and download all the [Contentful](https://www.contentful.com)  data
-4) Removes the environment variables from `_config.yml`
-5) Copy the generated files to the `_site` folder.
+1. Fetch the latest tweet
+2. Fetch the program locations with `curl` and store them in `program_data.json`
+3. Interpolates the environment variables in `_config.yml` and download all the [Contentful](https://www.contentful.com)  data
+4. Removes the environment variables from `_config.yml`
+5. Copy the generated files to the `_site` folder.
 
 ### Triggering the build process
 It is triggered automatically by:
