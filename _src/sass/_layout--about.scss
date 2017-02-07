@@ -127,6 +127,13 @@
     .small.caps {
         color: #fff;
     }
+    @media screen and #{$brk-tablet-min} and #{$brk-wide} {
+        .heads {
+            width: 49%;
+            vertical-align: top;
+            display: inline-block;
+        }
+    }
 }
 
 //Staff subpages
