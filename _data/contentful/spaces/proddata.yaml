@@ -1,420 +1,4 @@
 ---
-blogTag:
-- sys:
-    id: 2rpQXkICnOQqkYe8KewUmo
-  name: Youth
-- sys:
-    id: 3ihYDCzp0ISOE644OmscMs
-  name: THP+
-- sys:
-    id: 4MPGYiEPUccOgeOwCO6SqY
-  name: Courage
-- sys:
-    id: aj45ghA27S2OgskKa4Agm
-  name: Adoption
-- sys:
-    id: 3z7QQ5fttYAG6QWgEs6cy0
-  name: Reunification
-- sys:
-    id: 2f4F4fvzne6Ma82egMgaks
-  name: Integrity
-- sys:
-    id: 1eHWOXJsFY2IuKmoOUa8WK
-  name: Foster and Adoptive Services
-- sys:
-    id: 4bNO0ekSS4yq8CuWOYCcCi
-  name: Hope
-- sys:
-    id: 41zCNoeNrWSKuSuMQKW0o0
-  name: Family
-- sys:
-    id: 4FYoyfpg3u0K2Qu0qsOKgm
-  name: Staff
-- sys:
-    id: 6oqIUvAvUkK8muQigAAuCW
-  name: Community
-- sys:
-    id: 4p1GBu4QNyusWU4scuu6QK
-  name: Residential
-- sys:
-    id: 7sF3shCds4aqymKSu6w0a
-  name: First Five Center
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster
-- sys:
-    id: 5V3QqYRbCEeYmqyMOKqqAo
-  name: Respect
-blogPost:
-- sys:
-    id: 1EtXFuUmJOyO6k44K86cSO
-  title: Fostering Love
-  url: fostering-love
-  featuredOnHomepage: true
-  featuredOnBlog: false
-  heroImage:
-    title: 5 program foster   a Wab68
-    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
-  postBody: "The Pillers’ home is always alive with the energy of children. Along
-    with caring for their two young sons and daughter, whom they adopted through foster
-    care, they serve as a “receiving home” for children when they are first placed
-    in foster care. In that role, they have welcomed nearly 100 children to their
-    home. \n \nTim and Jenny Piller decided to look into adopting through foster care
-    after trying for years to have biological children.\n\n“There are so many children
-    that just want someone to love them,” Jenny says.\n\nThe Pillers looked into four
-    agencies before they decided to work with Aspiranet. They were attracted by the
-    support that Aspiranet provides throughout the process and the team’s dedication
-    to finding the right home for every child. \n\n“Aspiranet wants every child to
-    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
-    and they worked hard to make us feel comfortable. We really appreciate how flexible
-    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
-    orientation classes with other foster and adoptive parents, the Pillers brought
-    a two-day old infant into their home. Six months later, they began fostering a
-    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
-    and they worried about his development. But after a few months, Tim said, “he
-    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
-    They come in scared sometimes, and to watch them grow and become part of a family,
-    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
-    — a little girl. \n\n“We fell in love with her the moment she came into our house,
-    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
-    into our house is part of our family,” says Tim. “They go on vacation with us,
-    if we’re doing it, they’re doing it. That inclusiveness gives them a sense of
-    belonging and a sense of family.”\n\nThe Pillers have fostered dozens of children
-    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
-    we run into them and they remember us years later, and come up to us and give
-    us hugs!” says Jenny. \n"
-  blogCategory:
-    sys:
-      id: 6AVJUFl9zq640Em4soQooS
-    name: Respect
-  blogTag:
-  - sys:
-      id: 1eHWOXJsFY2IuKmoOUa8WK
-    name: Foster and Adoptive Services
-  - sys:
-      id: aj45ghA27S2OgskKa4Agm
-    name: Adoption
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster
-- sys:
-    id: 4FPD0m40Gsc0uwmOoS6sQg
-  title: Aspiranet’s New Look for the New Year
-  url: aspiranet-new-look-for-the-new-year
-  featuredOnHomepage: false
-  featuredOnBlog: true
-  heroImage:
-    title: 012-hero-img-1
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 012-hero-img-1
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
-  postBody: "I’m fortunate to sit in a special seat. As Aspiranet’s communications
-    director, I’m responsible for sharing the inspiring successes of the children,
-    youth and families that we serve. \nMy job is truly a joy. Every day I’m thankful
-    for all the amazing people we reach and for all of my Aspiranet colleagues who
-    do the truly hard work.  \n\nFor 2017, we thought it was vital to share their
-    stories on a platform as vibrant and dynamic as them. The outcome is this website,
-    and I hope you love it as much as I do. \nEvery time I open it I smile. I love
-    seeing the faces of the California families we serve. Their energy gives me energy,
-    their hope gives me hope.\n\n__The stories we tell help to define us__\n\nEveryone
-    has a story, and the stories we tell have a powerful effect on the world. The
-    challenges, choices, and outcomes we share with each other help to make us who
-    we are. \nThe Aspiranet story develops every day as we strive to fulfill our mission,
-    and it lives in each interaction, each achievement, and each new learning.\n\nAs
-    we build and share our story, supporters like you add to it. The results are deep,
-    meaningful connections that spread across all our work and enable our incredible
-    impact. \nIt’s through this website that we hope to show our heart, determination,
-    cares and dreams. It’s a testimony to the strength of our families and the generosity
-    of our supporters like you.\n\n\n\nThank you for contributing to the Aspiranet
-    story, and please enjoy this new website.\n"
-  blogCategory:
-    sys:
-      id: 1TBUAtWXMk2gEqAmOOy4o0
-    name: Hope
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
-- sys:
-    id: 3j1V5nMz8kUeoO6ysCgIkK
-  title: “Everyone wants to give the best to their child”
-  url: best-to-their-child
-  featuredOnHomepage: false
-  heroImage:
-    title: Best to their child
-    url: //images.contentful.com/e5ehlcazegi0/4pdgIwW2asW0OWKyw2sGK2/4e740993da778c4763f87e7f678dbcba/30640654113_5ee8e8c1b8_o.jpg
-  postBody: "When Sanat and his family relocated to the East Bay from India for a
-    job opportunity in the tech industry, everybody felt a bit disoriented. His young
-    son, Yatharth, became very fearful of strangers and would cry whenever anyone
-    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
-    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
-    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
-    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
-    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
-    Sanat’s instincts were to look for answers online. It took only one class for
-    him to recognize the value of sharing experiences with other fathers. \n\n“The
-    other fathers started speaking, and I found that’s not the same thing I can get
-    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
-    how to handle the same scenario with my kid. Every day was a new learning for
-    me.”\n\nSanat realized this was more than he was going to get from any social
-    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
-    is especially grateful for the diverse, multilingual staff who have created a
-    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
-    wants to be a good parent, so the motive is the same: everyone wants to give the
-    best to their child. I saw that everyone wants to speak-- whether their native
-    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
-    to tell their stories, and the staff create that environment. After that I started
-    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
-    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
-    two weeks he started hanging out with the other kids, and now he’s perfectly fine
-    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
-    my wife and me how to handle our son when he’s cranky — all the credit goes to
-    this place.”\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 6oqIUvAvUkK8muQigAAuCW
-    name: Community
-  - sys:
-      id: 7sF3shCds4aqymKSu6w0a
-    name: First Five Center
-- sys:
-    id: 2bXK2Ej2QQSs2qqkks8CYc
-  title: Lasting Connections
-  url: Lasting-connections
-  heroImage:
-    title: chrise
-    url: //images.contentful.com/e5ehlcazegi0/1eIlKfd7J4soIAWuOWs2WU/6b81511cfac76edc9ca43c9d00ce3d73/chrise.jpg
-  postBody: "Chris Essary earned a Bachelor’s degree in Sociology from California
-    State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell
-    Center House Parent.  During his three decades at Aspiranet, he has served in
-    a variety of roles including Regional Director, Group Home Administrator, Director
-    of Operations, House Manager, and Activities Director.\n\nToday, he is the Director
-    of Aspiranet’s Residential Division. “We joke that if you work here two years,
-    you’re going to be here forever,” Chris says. There’s something about changing
-    kids’ lives.”\n\n“The core value most important in my daily residential work is
-    respect,” says Chris. I am inspired by our staff’s dedication to helping kids
-    turn their lives around.  I like to come to work every day in a job that improves
-    lives.  We have great people who work here and I take pride in our contribution
-    to bettering our communities.”\n\nThe relationships Chris forms with many of the
-    youth he calls “our boys” endure for years.  Among those he still hears from is
-    Ralph, who was a resident more than 25 years ago.\n\nAfter graduating from Excell,
-    Ralph went on to enlist in the army, and before he was deployed to Iraq, he sent
-    a letter to Chris expressing his gratitude for the program. “Ralph wanted us to
-    know if something happened how important we were to him,” Chris said. “It touched
-    my heart.”\n\nAfter returning from his duty in Iraq, Ralph returned to Excell
-    Center for a visit.  Twenty-five years melted away as Chris and Ralph shared stories
-    of the good old days.  Ralph is now living in Idaho with his beautiful wife and
-    three children.  \n\nIt’s these kinds of connections, Chris said, that make it
-    all worthwhile.\n"
-  blogCategory:
-    sys:
-      id: 1TBUAtWXMk2gEqAmOOy4o0
-    name: Hope
-  blogTag:
-  - sys:
-      id: 4p1GBu4QNyusWU4scuu6QK
-    name: Residential
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
-- sys:
-    id: 4KnVNF25SwmY0MIoOGIwUY
-  title: A Miracle Out of Nowhere
-  author:
-  - Aspiranet team
-  - second author
-  url: miracle-out-of-nowhere
-  featuredOnHomepage: false
-  featuredOnBlog: false
-  heroImage:
-    title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
-    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
-    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
-  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
-  postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
-    Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
-    She spent much of her youth in foster care, and then when she became pregnant
-    at 18, she moved out of her foster home and ended up living in her car with her
-    infant son. “It was just survival every day,” she said. “That makes me think about
-    every youth that I work with every day. I know exactly how they feel.”\n\nThings
-    changed in 2008, when Veronica was offered the opportunity to participate in Aspiranet’s
-    Transitional Housing Plus (THP+) program, which provides housing assistance, job
-    readiness and life skills training. “The program was like a miracle out of nowhere,”
-    she said. \n\nIn the years since, Veronica has completed her education and returned
-    to Aspiranet as a TAY staff member, helping youth find their way from foster care
-    to independence. \n\nHer son is almost a teenager. “I’ve taught him this world
-    can be a cruel place,” she says, “but you can make it a happier place if you’re
-    just who you are and keep doing what you do from a good place in your heart.”
-    \ \n\n<a href=\"https://youtu.be/7Kdyn_F_HSs\" class=\"embedly-card\" data-card-width=\"100%\"
-    data-card-controls=\"1\" target=\"_blank\">Click here to meet Veronica and her
-    son.</a>"
-  blogCategory:
-    sys:
-      id: 1TBUAtWXMk2gEqAmOOy4o0
-    name: Hope
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
-  - sys:
-      id: 2rpQXkICnOQqkYe8KewUmo
-    name: Youth
-  - sys:
-      id: 3ihYDCzp0ISOE644OmscMs
-    name: THP+
-- sys:
-    id: 3D7O4FxSMUGUgKCgkkquiC
-  title: Making the World a Little Better
-  url: Making-the-World-a-Little-Better
-  featuredOnHomepage: false
-  heroImage:
-    title: Aspiranet Foster-Family1
-    url: //images.contentful.com/e5ehlcazegi0/4AyeVt1neEwImCMq8YcqEC/945f12c05dc228701f8462846187e889/Aspiranet_Foster-Family1.jpg
-  postBody: "As a young couple with a toddler, Allegra and Joseph weren’t thinking
-    about becoming foster parents, particularly for a teenager. But then they met
-    Jamie.  \n\nJamie had been split up from her siblings and placed in a series of
-    foster homes, attending 13 different schools.  “We became foster parents to Jamie
-    because we wanted her to have permanency in her life,” Joseph said. \n\nAllegra
-    and Joseph loved Jamie unconditionally, helping her overcome her anxiety and recognize
-    her abilities. “Being a foster parent is more than housing somebody; Joseph said.
-    “You should be teaching somebody to succeed in life.” \n\nJamie says her foster
-    parents changed her life, helping her transition into young adulthood and become
-    a successful college student.  After graduating from college with a degree in
-    Social Work, Jamie secured a job with the county as a social worker, supporting
-    youth in foster care. “I just want to help make the world a little better, a little
-    happier, and spread a little more love,” she said.\n\nAllegra and Joseph cannot
-    imagine their lives without Jamie. “There needs to be more people willing to open
-    their homes and their lives to help these kids, to keep them from getting hurt,”
-    Allegra said. \n \n“She’s enriched our lives and taught us so much,” Joseph said.
-    “We will always think of her as our daughter.”\n\n"
-  blogCategory:
-    sys:
-      id: 5cOx39zkWcW0uGiEyGO8EA
-    name: Courage
-  blogTag:
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster
-- sys:
-    id: 1ik9XOWC7mwMa2CIIwIySE
-  title: Trusting Fate
-  url: trusting-fate
-  featuredOnHomepage: false
-  heroImage:
-    title: Goodrich
-    url: //images.contentful.com/e5ehlcazegi0/4kjYozU3O0MqUAAWMOek2q/a98f4247514262a69ec952faff6b9e3f/Goodrich.jpg
-  postBody: "A chance encounter two years ago inspired Jennifer Goodrich to start
-    a family through foster care.\n\nShe was in a public restroom when she heard a
-    woman crying, and soon discovered that what she heard were tears of joy.  The
-    woman had been overcome when her foster daughter asked her if she would adopt
-    her and make their family permanent.\n\nSoon after, Jennifer made her way to Aspiranet,
-    which was recommended to her by the woman she felt fated to meet. \n\nShe credits
-    Aspiranet’s thorough training with helping her to feel confident and secure in
-    the moments before meeting three-year-old Sam.  Jennifer felt an instant connection,
-    and weekly meetings with her social worker helped solidify the bond and smooth
-    the transition to making the adoption official.\n\nHaving Aspiranet by her side
-    before, during, and after Sam’s adoption have made all the difference, Jennifer
-    said. “The adoption did not happen overnight, but the process was seamless,” Jennifer
-    said.  “Aspiranet worked hand-in-hand with me to become an adoptive parent, making
-    it much easier.” \n\n “In foster parenting and adoption, there are always challenges,
-    but the rewards make it worth it. I couldn’t be more grateful for the extra support
-    Sam and I received from the Aspiranet staff on this journey.”\n\n"
-  blogCategory:
-    sys:
-      id: 1TBUAtWXMk2gEqAmOOy4o0
-    name: Hope
-  blogTag:
-  - sys:
-      id: aj45ghA27S2OgskKa4Agm
-    name: Adoption
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster
-- sys:
-    id: 1YHlIm573GKgee4S6GOuGa
-  title: A Beautiful Friendship
-  url: a-beautiful-friendship
-  featuredOnHomepage: false
-  heroImage:
-    title: family
-    url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
-  postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
-    Services Wraparound program, she wasn’t up for visitors. It happened to be her
-    16th birthday, and the team arrived at the motel room where she was staying with
-    her parents and offered a cake and present.\n\n“I was like: I don’t want that;”
-    Alondra recalls. “I don’t want a bunch of new strangers in my house wanting to
-    know about me.” \n\nShe softened a bit when Wraparound facilitator Adam Corral
-    asked what she needed. It wasn’t what you usually hear from someone turning 16,
-    he said. She didn’t want a car or a phone; she wanted a safe place for her family
-    to live. \n\nSupport counselor Erica Jacquez suggested the two of them go have
-    lunch. “We went out to Chipotle, and she just opened up,” Erica said. “She started
-    talking to me, sharing about her life experiences, what she’d gone through.” \n\nAlondra
-    told Erica about how she had recently been reunited with her parents, who had
-    turned their lives around after substance abuse problems had led to the placement
-    of their six children in foster homes. Alondra and one of her brothers were back,
-    and the family was looking for more permanent housing as a court hearing to reunite
-    the four youngest boys approached. The motel where they were living was known
-    for drugs, gangs and prostitution. Next door was a tent city that the family feared
-    was their next step if they could not find an affordable apartment that would
-    give them a chance. \n\nOver time, Erica and Alondra bonded over food and other
-    shared interests. “We got really close,” Alondra said. With Erica’s guidance,
-    Alondra set up a bank account, got her birth certificate, enrolled in school and
-    found a job. \n\nAt the same time, other members of the Aspiranet team worked
-    with Alondra’s parents. \n“We were in the motel room and the team just came in,
-    sat on the beds and made themselves comfortable like they were part of the family,”
-    said Alondra’s mother, Misty. “It set our nervousness aside.” \n\nParent partner
-    Linnet Slater said Misty shared her concerns about finding food, permanent housing,
-    even diapers for her young twin sons. “She had very real concerns, and I reassured
-    her that we were here for her and her family,” Linnet said. “And that just started
-    this beautiful blossom of a friendship that we’ve developed.”\n\nMisty felt heard
-    and understood. “They showed that love and that compassion right out of the gate,”
-    she said.\n\nWith Aspiranet’s help, the family finally was able to secure an apartment
-    after repeatedly being turned away. The Aspiranet team also helped them get a
-    van so the eight of them would not have to rely on buses to access food, work
-    and school. \n\n“To get the phone call that yes, we have an apartment on the 1st,
-    knowing we were going into court on the 1st to get the other four boys back--that
-    I was going to have a home to take them to--that changed everything,” Misty said.
-    Misty and her husband Albert found work, and they have since moved to a second
-    apartment with more room for the kids. \n\nThe family celebrated their reunification
-    by attending a Narcotics Anonymous meeting together. “I just thought that was
-    so awesome that their way of celebrating was being sober and being together as
-    a family,” Adam said. “The families we work with are so courageous; it takes tremendous
-    courage to break cycles, and we’re talking generational cycles.”\n"
-  blogCategory:
-    sys:
-      id: 5cOx39zkWcW0uGiEyGO8EA
-    name: Courage
-  blogTag:
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 3z7QQ5fttYAG6QWgEs6cy0
-    name: Reunification
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
 programs:
 - sys:
     id: 6gFvoAGrIckQwGoM8SAGqE
@@ -658,50 +242,394 @@ programs:
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
   howYouCanHelpCta: I’d like to provide a home for a child
-campain:
+blogPost:
 - sys:
-    id: 3nasDfII8ESiAEcM0Yc6SK
-  title: Give a child a safe and living home
-  copy: Everyone deserves a home with happiness, belonging and security. Find out
-    how you can become a foster and adoptive parent today.
-  titleAlign: left
-  textColor: blue-dark
-  image:
-    title: 011-hero-img-1
-    url: //images.contentful.com/e5ehlcazegi0/3nAmtnZwD66uAusEqyGgOe/102625eda49f16f6dca49f89cf62be28/011-hero-img-4.jpg
-  campaignUrl: /programs/foster-and-adoptive-families/
-  order: 1
-  ctaButtonCopy: See our impact
-  ctaUrl: /programs/foster-and-adoptive-families/
+    id: 1EtXFuUmJOyO6k44K86cSO
+  title: Fostering Love
+  url: fostering-love
+  featuredOnHomepage: false
+  featuredOnBlog: false
+  heroImage:
+    title: 5 program foster   a Wab68
+    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
+  postBody: "The Pillers’ home is always alive with the energy of children. Along
+    with caring for their two young sons and daughter, whom they adopted through foster
+    care, they serve as a “receiving home” for children when they are first placed
+    in foster care. In that role, they have welcomed nearly 100 children to their
+    home. \n \nTim and Jenny Piller decided to look into adopting through foster care
+    after trying for years to have biological children.\n\n“There are so many children
+    that just want someone to love them,” Jenny says.\n\nThe Pillers looked into four
+    agencies before they decided to work with Aspiranet. They were attracted by the
+    support that Aspiranet provides throughout the process and the team’s dedication
+    to finding the right home for every child. \n\n“Aspiranet wants every child to
+    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
+    and they worked hard to make us feel comfortable. We really appreciate how flexible
+    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
+    orientation classes with other foster and adoptive parents, the Pillers brought
+    a two-day old infant into their home. Six months later, they began fostering a
+    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
+    and they worried about his development. But after a few months, Tim said, “he
+    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
+    They come in scared sometimes, and to watch them grow and become part of a family,
+    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
+    — a little girl. \n\n“We fell in love with her the moment she came into our house,
+    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
+    into our house is part of our family,” says Tim. “They go on vacation with us,
+    if we’re doing it, they’re doing it. That inclusiveness gives them a sense of
+    belonging and a sense of family.”\n\nThe Pillers have fostered dozens of children
+    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
+    we run into them and they remember us years later, and come up to us and give
+    us hugs!” says Jenny. \n"
+  blogCategory:
+    sys:
+      id: 6AVJUFl9zq640Em4soQooS
+    name: Respect
+  blogTag:
+  - sys:
+      id: 1eHWOXJsFY2IuKmoOUa8WK
+    name: Foster and Adoptive Services
+  - sys:
+      id: aj45ghA27S2OgskKa4Agm
+    name: Adoption
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster
 - sys:
-    id: 4rqSPhHwhqoGwCGCYucUem
-  title: 'We’re hiring. Join the team today! '
-  copy: Our team is up to something big.  Find a career with us that is fulfilling
-    and that helps families create a better tomorrow.
-  titleAlign: left
-  textColor: blue-dark
-  image:
-    title: our-approach
-    url: //images.contentful.com/e5ehlcazegi0/3MMv3ukIqQscSAAIWMQ6og/1aeeade02b66dde04bf1925a00ff8fd1/010-hero-img-1.jpg
-  campaignUrl: /url.com
-  order: 3
-  ctaButtonCopy: Join our team
-  ctaUrl: /careers/
+    id: 3j1V5nMz8kUeoO6ysCgIkK
+  title: Everyone wants to give the best to their child
+  url: best-to-their-child
+  featuredOnHomepage: false
+  heroImage:
+    title: Best to their child
+    url: //images.contentful.com/e5ehlcazegi0/4pdgIwW2asW0OWKyw2sGK2/4e740993da778c4763f87e7f678dbcba/30640654113_5ee8e8c1b8_o.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: 01 homepage hero img D9X9H flip
+    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
+  postBody: "When Sanat and his family relocated to the East Bay from India for a
+    job opportunity in the tech industry, everybody felt a bit disoriented. His young
+    son, Yatharth, became very fearful of strangers and would cry whenever anyone
+    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
+    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
+    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
+    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
+    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
+    Sanat’s instincts were to look for answers online. It took only one class for
+    him to recognize the value of sharing experiences with other fathers. \n\n“The
+    other fathers started speaking, and I found that’s not the same thing I can get
+    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
+    how to handle the same scenario with my kid. Every day was a new learning for
+    me.”\n\nSanat realized this was more than he was going to get from any social
+    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
+    is especially grateful for the diverse, multilingual staff who have created a
+    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
+    wants to be a good parent, so the motive is the same: everyone wants to give the
+    best to their child. I saw that everyone wants to speak-- whether their native
+    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
+    to tell their stories, and the staff create that environment. After that I started
+    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
+    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
+    two weeks he started hanging out with the other kids, and now he’s perfectly fine
+    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
+    my wife and me how to handle our son when he’s cranky — all the credit goes to
+    this place.”\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 6oqIUvAvUkK8muQigAAuCW
+    name: Community
+  - sys:
+      id: 7sF3shCds4aqymKSu6w0a
+    name: First Five Center
 - sys:
-    id: 3VZjgHDyBWCgEW44GE880U
-  title: Introducing Aspiranet’s new look.
-  copy: 'We are sharing stories that inspires human connection and bring people together
-    for a common purpose: to help families thrive. Learn more on the Esperanza blog'
-  titleAlign: left
-  textColor: white
-  image:
+    id: 4KnVNF25SwmY0MIoOGIwUY
+  title: A Miracle Out of Nowhere
+  author:
+  - Aspiranet team
+  - second author
+  url: miracle-out-of-nowhere
+  featuredOnHomepage: false
+  featuredOnBlog: false
+  heroImage:
+    title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
+    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
+    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
+  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
+  postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
+    Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
+    She spent much of her youth in foster care, and then when she became pregnant
+    at 18, she moved out of her foster home and ended up living in her car with her
+    infant son. “It was just survival every day,” she said. “That makes me think about
+    every youth that I work with every day. I know exactly how they feel.”\n\nThings
+    changed in 2008, when Veronica was offered the opportunity to participate in Aspiranet’s
+    Transitional Housing Plus (THP+) program, which provides housing assistance, job
+    readiness and life skills training. “The program was like a miracle out of nowhere,”
+    she said. \n\nIn the years since, Veronica has completed her education and returned
+    to Aspiranet as a TAY staff member, helping youth find their way from foster care
+    to independence. \n\nHer son is almost a teenager. “I’ve taught him this world
+    can be a cruel place,” she says, “but you can make it a happier place if you’re
+    just who you are and keep doing what you do from a good place in your heart.”
+    \ \n\n<a href=\"https://youtu.be/7Kdyn_F_HSs\" class=\"embedly-card\" data-card-width=\"100%\"
+    data-card-controls=\"1\" target=\"_blank\">Click here to meet Veronica and her
+    son.</a>"
+  blogCategory:
+    sys:
+      id: 1TBUAtWXMk2gEqAmOOy4o0
+    name: Hope
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
+  - sys:
+      id: 2rpQXkICnOQqkYe8KewUmo
+    name: Youth
+  - sys:
+      id: 3ihYDCzp0ISOE644OmscMs
+    name: THP+
+- sys:
+    id: 2bXK2Ej2QQSs2qqkks8CYc
+  title: Lasting Connections
+  url: Lasting-connections
+  featuredOnHomepage: false
+  heroImage:
+    title: chrise
+    url: //images.contentful.com/e5ehlcazegi0/1eIlKfd7J4soIAWuOWs2WU/6b81511cfac76edc9ca43c9d00ce3d73/chrise.jpg
+  postBody: "Chris Essary earned a Bachelor’s degree in Sociology from California
+    State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell
+    Center House Parent.  During his three decades at Aspiranet, he has served in
+    a variety of roles including Regional Director, Group Home Administrator, Director
+    of Operations, House Manager, and Activities Director.\n\nToday, he is the Director
+    of Aspiranet’s Residential Division. “We joke that if you work here two years,
+    you’re going to be here forever,” Chris says. There’s something about changing
+    kids’ lives.”\n\n“The core value most important in my daily residential work is
+    respect,” says Chris. I am inspired by our staff’s dedication to helping kids
+    turn their lives around.  I like to come to work every day in a job that improves
+    lives.  We have great people who work here and I take pride in our contribution
+    to bettering our communities.”\n\nThe relationships Chris forms with many of the
+    youth he calls “our boys” endure for years.  Among those he still hears from is
+    Ralph, who was a resident more than 25 years ago.\n\nAfter graduating from Excell,
+    Ralph went on to enlist in the army, and before he was deployed to Iraq, he sent
+    a letter to Chris expressing his gratitude for the program. “Ralph wanted us to
+    know if something happened how important we were to him,” Chris said. “It touched
+    my heart.”\n\nAfter returning from his duty in Iraq, Ralph returned to Excell
+    Center for a visit.  Twenty-five years melted away as Chris and Ralph shared stories
+    of the good old days.  Ralph is now living in Idaho with his beautiful wife and
+    three children.  \n\nIt’s these kinds of connections, Chris said, that make it
+    all worthwhile.\n"
+  blogCategory:
+    sys:
+      id: 1TBUAtWXMk2gEqAmOOy4o0
+    name: Hope
+  blogTag:
+  - sys:
+      id: 4p1GBu4QNyusWU4scuu6QK
+    name: Residential
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
+- sys:
+    id: 4FPD0m40Gsc0uwmOoS6sQg
+  title: Aspiranet’s New Look for the New Year
+  url: aspiranet-new-look-for-the-new-year
+  featuredOnHomepage: false
+  featuredOnBlog: true
+  heroImage:
     title: 012-hero-img-1
     url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  campaignUrl: /blog/aspiranet-new-look-for-the-new-year/
-  order: 2
-  ctaButtonCopy: 'Read the story '
-  ctaUrl: /blog/aspiranet-new-look-for-the-new-year/
+  thumbnailToBeDisplayedOnHomepage:
+    title: 012-hero-img-1
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
+  postBody: "I’m fortunate to sit in a special seat. As Aspiranet’s communications
+    director, I’m responsible for sharing the inspiring successes of the children,
+    youth and families that we serve. \nMy job is truly a joy. Every day I’m thankful
+    for all the amazing people we reach and for all of my Aspiranet colleagues who
+    do the truly hard work.  \n\nFor 2017, we thought it was vital to share their
+    stories on a platform as vibrant and dynamic as them. The outcome is this website,
+    and I hope you love it as much as I do. \nEvery time I open it I smile. I love
+    seeing the faces of the California families we serve. Their energy gives me energy,
+    their hope gives me hope.\n\n__The stories we tell help to define us__\n\nEveryone
+    has a story, and the stories we tell have a powerful effect on the world. The
+    challenges, choices, and outcomes we share with each other help to make us who
+    we are. \nThe Aspiranet story develops every day as we strive to fulfill our mission,
+    and it lives in each interaction, each achievement, and each new learning.\n\nAs
+    we build and share our story, supporters like you add to it. The results are deep,
+    meaningful connections that spread across all our work and enable our incredible
+    impact. \nIt’s through this website that we hope to show our heart, determination,
+    cares and dreams. It’s a testimony to the strength of our families and the generosity
+    of our supporters like you.\n\n\n\nThank you for contributing to the Aspiranet
+    story, and please enjoy this new website.\n"
+  blogCategory:
+    sys:
+      id: 1TBUAtWXMk2gEqAmOOy4o0
+    name: Hope
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
+- sys:
+    id: 3D7O4FxSMUGUgKCgkkquiC
+  title: Making the World a Little Better
+  url: Making-the-World-a-Little-Better
+  featuredOnHomepage: false
+  heroImage:
+    title: Aspiranet Foster-Family1
+    url: //images.contentful.com/e5ehlcazegi0/4AyeVt1neEwImCMq8YcqEC/945f12c05dc228701f8462846187e889/Aspiranet_Foster-Family1.jpg
+  postBody: "As a young couple with a toddler, Allegra and Joseph weren’t thinking
+    about becoming foster parents, particularly for a teenager. But then they met
+    Jamie.  \n\nJamie had been split up from her siblings and placed in a series of
+    foster homes, attending 13 different schools.  “We became foster parents to Jamie
+    because we wanted her to have permanency in her life,” Joseph said. \n\nAllegra
+    and Joseph loved Jamie unconditionally, helping her overcome her anxiety and recognize
+    her abilities. “Being a foster parent is more than housing somebody; Joseph said.
+    “You should be teaching somebody to succeed in life.” \n\nJamie says her foster
+    parents changed her life, helping her transition into young adulthood and become
+    a successful college student.  After graduating from college with a degree in
+    Social Work, Jamie secured a job with the county as a social worker, supporting
+    youth in foster care. “I just want to help make the world a little better, a little
+    happier, and spread a little more love,” she said.\n\nAllegra and Joseph cannot
+    imagine their lives without Jamie. “There needs to be more people willing to open
+    their homes and their lives to help these kids, to keep them from getting hurt,”
+    Allegra said. \n \n“She’s enriched our lives and taught us so much,” Joseph said.
+    “We will always think of her as our daughter.”\n\n"
+  blogCategory:
+    sys:
+      id: 5cOx39zkWcW0uGiEyGO8EA
+    name: Courage
+  blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster
+- sys:
+    id: 1ik9XOWC7mwMa2CIIwIySE
+  title: Trusting Fate
+  url: trusting-fate
+  featuredOnHomepage: false
+  heroImage:
+    title: Goodrich
+    url: //images.contentful.com/e5ehlcazegi0/4kjYozU3O0MqUAAWMOek2q/a98f4247514262a69ec952faff6b9e3f/Goodrich.jpg
+  postBody: "A chance encounter two years ago inspired Jennifer Goodrich to start
+    a family through foster care.\n\nShe was in a public restroom when she heard a
+    woman crying, and soon discovered that what she heard were tears of joy.  The
+    woman had been overcome when her foster daughter asked her if she would adopt
+    her and make their family permanent.\n\nSoon after, Jennifer made her way to Aspiranet,
+    which was recommended to her by the woman she felt fated to meet. \n\nShe credits
+    Aspiranet’s thorough training with helping her to feel confident and secure in
+    the moments before meeting three-year-old Sam.  Jennifer felt an instant connection,
+    and weekly meetings with her social worker helped solidify the bond and smooth
+    the transition to making the adoption official.\n\nHaving Aspiranet by her side
+    before, during, and after Sam’s adoption have made all the difference, Jennifer
+    said. “The adoption did not happen overnight, but the process was seamless,” Jennifer
+    said.  “Aspiranet worked hand-in-hand with me to become an adoptive parent, making
+    it much easier.” \n\n “In foster parenting and adoption, there are always challenges,
+    but the rewards make it worth it. I couldn’t be more grateful for the extra support
+    Sam and I received from the Aspiranet staff on this journey.”\n\n"
+  blogCategory:
+    sys:
+      id: 1TBUAtWXMk2gEqAmOOy4o0
+    name: Hope
+  blogTag:
+  - sys:
+      id: aj45ghA27S2OgskKa4Agm
+    name: Adoption
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster
+- sys:
+    id: 1YHlIm573GKgee4S6GOuGa
+  title: A Beautiful Friendship
+  url: a-beautiful-friendship
+  featuredOnHomepage: false
+  heroImage:
+    title: family
+    url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
+  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
+  postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
+    Services Wraparound program, she wasn’t up for visitors. It happened to be her
+    16th birthday, and the team arrived at the motel room where she was staying with
+    her parents and offered a cake and present.\n\n“I was like: I don’t want that;”
+    Alondra recalls. “I don’t want a bunch of new strangers in my house wanting to
+    know about me.” \n\nShe softened a bit when Wraparound facilitator Adam Corral
+    asked what she needed. It wasn’t what you usually hear from someone turning 16,
+    he said. She didn’t want a car or a phone; she wanted a safe place for her family
+    to live. \n\nSupport counselor Erica Jacquez suggested the two of them go have
+    lunch. “We went out to Chipotle, and she just opened up,” Erica said. “She started
+    talking to me, sharing about her life experiences, what she’d gone through.” \n\nAlondra
+    told Erica about how she had recently been reunited with her parents, who had
+    turned their lives around after substance abuse problems had led to the placement
+    of their six children in foster homes. Alondra and one of her brothers were back,
+    and the family was looking for more permanent housing as a court hearing to reunite
+    the four youngest boys approached. The motel where they were living was known
+    for drugs, gangs and prostitution. Next door was a tent city that the family feared
+    was their next step if they could not find an affordable apartment that would
+    give them a chance. \n\nOver time, Erica and Alondra bonded over food and other
+    shared interests. “We got really close,” Alondra said. With Erica’s guidance,
+    Alondra set up a bank account, got her birth certificate, enrolled in school and
+    found a job. \n\nAt the same time, other members of the Aspiranet team worked
+    with Alondra’s parents. \n“We were in the motel room and the team just came in,
+    sat on the beds and made themselves comfortable like they were part of the family,”
+    said Alondra’s mother, Misty. “It set our nervousness aside.” \n\nParent partner
+    Linnet Slater said Misty shared her concerns about finding food, permanent housing,
+    even diapers for her young twin sons. “She had very real concerns, and I reassured
+    her that we were here for her and her family,” Linnet said. “And that just started
+    this beautiful blossom of a friendship that we’ve developed.”\n\nMisty felt heard
+    and understood. “They showed that love and that compassion right out of the gate,”
+    she said.\n\nWith Aspiranet’s help, the family finally was able to secure an apartment
+    after repeatedly being turned away. The Aspiranet team also helped them get a
+    van so the eight of them would not have to rely on buses to access food, work
+    and school. \n\n“To get the phone call that yes, we have an apartment on the 1st,
+    knowing we were going into court on the 1st to get the other four boys back--that
+    I was going to have a home to take them to--that changed everything,” Misty said.
+    Misty and her husband Albert found work, and they have since moved to a second
+    apartment with more room for the kids. \n\nThe family celebrated their reunification
+    by attending a Narcotics Anonymous meeting together. “I just thought that was
+    so awesome that their way of celebrating was being sober and being together as
+    a family,” Adam said. “The families we work with are so courageous; it takes tremendous
+    courage to break cycles, and we’re talking generational cycles.”\n"
+  blogCategory:
+    sys:
+      id: 5cOx39zkWcW0uGiEyGO8EA
+    name: Courage
+  blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 3z7QQ5fttYAG6QWgEs6cy0
+    name: Reunification
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
 programLocation:
+- sys:
+    id: 3KkLAnTfx6OcoMeACoeGEU
+  name: Contra Costa
+  location:
+    lat: 37.9836986
+    lon: -121.8036095
+  addressAsText: 3727 Sunset Ln, Antioch, CA 94509, USA
+  program:
+  - Welcome Home Baby
+  ageLevel:
+  - 15-19
+  description: <p>Home visitation service for families with expectant parents or infants
+    under 4 months old.</p>
 - sys:
     id: qW7Twj6dxeE0GYEI2GCEY
   name: Modesto
@@ -865,19 +793,6 @@ programLocation:
     yvilla@aspiranet.org
     Lisa Senette-Harris, Core Program Supervisor
     lsenetteharris@aspiranet.org
-- sys:
-    id: 3KkLAnTfx6OcoMeACoeGEU
-  name: Contra Costa
-  location:
-    lat: 37.9836986
-    lon: -121.8036095
-  addressAsText: 3727 Sunset Ln, Antioch, CA 94509, USA
-  program:
-  - Welcome Home Baby
-  ageLevel:
-  - 15-19
-  description: <p>Home visitation service for families with expectant parents or infants
-    under 4 months old.</p>
 - sys:
     id: 5xf2ZySzzUImIsWmskYE2
   name: Stanislaus WRAP
@@ -1928,6 +1843,49 @@ programLocation:
     Therapeutic Behavioral Services, Crisis Stabilization
     Courtney Gibbs, Core Program Director
     cgibbs@aspiranet.org
+campain:
+- sys:
+    id: 3nasDfII8ESiAEcM0Yc6SK
+  title: Give a child a safe and living home
+  copy: Everyone deserves a home with happiness, belonging and security. Find out
+    how you can become a foster and adoptive parent today.
+  titleAlign: left
+  textColor: blue-dark
+  image:
+    title: 011-hero-img-1
+    url: //images.contentful.com/e5ehlcazegi0/3nAmtnZwD66uAusEqyGgOe/102625eda49f16f6dca49f89cf62be28/011-hero-img-4.jpg
+  campaignUrl: /programs/foster-and-adoptive-families/
+  order: 1
+  ctaButtonCopy: See our impact
+  ctaUrl: /programs/foster-and-adoptive-families/
+- sys:
+    id: 4rqSPhHwhqoGwCGCYucUem
+  title: 'We’re hiring. Join the team today! '
+  copy: Our team is up to something big.  Find a career with us that is fulfilling
+    and that helps families create a better tomorrow.
+  titleAlign: left
+  textColor: blue-dark
+  image:
+    title: our-approach
+    url: //images.contentful.com/e5ehlcazegi0/3MMv3ukIqQscSAAIWMQ6og/1aeeade02b66dde04bf1925a00ff8fd1/010-hero-img-1.jpg
+  campaignUrl: /url.com
+  order: 3
+  ctaButtonCopy: Join our team
+  ctaUrl: /careers/
+- sys:
+    id: 3VZjgHDyBWCgEW44GE880U
+  title: Introducing Aspiranet’s new look.
+  copy: 'We are sharing stories that inspires human connection and bring people together
+    for a common purpose: to help families thrive. Learn more on the Esperanza blog'
+  titleAlign: left
+  textColor: white
+  image:
+    title: 012-hero-img-1
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  campaignUrl: /blog/aspiranet-new-look-for-the-new-year/
+  order: 2
+  ctaButtonCopy: 'Read the story '
+  ctaUrl: /blog/aspiranet-new-look-for-the-new-year/
 divisionHeads:
 - sys:
     id: 2eJ0sHfmZOggQGMWQwYAUM
@@ -2019,6 +1977,52 @@ divisionHeads:
     absolutely has to be present in order to work with our young adults in a way that
     communicates unconditional positive regard.  When there is mutual respect everything
     else falls into place as needed.”\n\n"
+blogTag:
+- sys:
+    id: 3ihYDCzp0ISOE644OmscMs
+  name: THP+
+- sys:
+    id: 4MPGYiEPUccOgeOwCO6SqY
+  name: Courage
+- sys:
+    id: aj45ghA27S2OgskKa4Agm
+  name: Adoption
+- sys:
+    id: 2rpQXkICnOQqkYe8KewUmo
+  name: Youth
+- sys:
+    id: 3z7QQ5fttYAG6QWgEs6cy0
+  name: Reunification
+- sys:
+    id: 2f4F4fvzne6Ma82egMgaks
+  name: Integrity
+- sys:
+    id: 1eHWOXJsFY2IuKmoOUa8WK
+  name: Foster and Adoptive Services
+- sys:
+    id: 4bNO0ekSS4yq8CuWOYCcCi
+  name: Hope
+- sys:
+    id: 41zCNoeNrWSKuSuMQKW0o0
+  name: Family
+- sys:
+    id: 4FYoyfpg3u0K2Qu0qsOKgm
+  name: Staff
+- sys:
+    id: 6oqIUvAvUkK8muQigAAuCW
+  name: Community
+- sys:
+    id: 4p1GBu4QNyusWU4scuu6QK
+  name: Residential
+- sys:
+    id: 7sF3shCds4aqymKSu6w0a
+  name: First Five Center
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster
+- sys:
+    id: 5V3QqYRbCEeYmqyMOKqqAo
+  name: Respect
 blogCategory:
 - sys:
     id: 5cOx39zkWcW0uGiEyGO8EA
