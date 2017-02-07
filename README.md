@@ -15,6 +15,10 @@ All content is managed through Contentful. To access it login to www.contentful.
 - New content can be added on the top right **Add Entry**
 - Content on unique pages such as **About Us**, **Approach** or **Homepage** will be found under **Unique Page Content**
 
+### Staging website and previewing
+A staging website is available at [https://aspiranet-staging.netlify.com](https://aspiranet-staging.netlify.com)
+To preview your drafted content, save it (and make sure its still a Draft so that the production website does not display the new content). The staging website should build automatically and you will be able to preview your drafted content approximately after 1mn.
+
 ### Homepage Sliders
 They are found under Campaign in Contentful. You can change their order using the *Order* field. 1 will be the first slide. 2 will be the second slide.
 
