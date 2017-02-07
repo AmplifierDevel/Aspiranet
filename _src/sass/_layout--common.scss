@@ -218,6 +218,9 @@ section, div, span {
 	background-color: white !important;
 	opacity: 1 !important;
 	color: transparent !important;
+	@media screen and #{$brk-wide} {
+		background-color: $blue-dark !important;
+	}
 }
 .slick-dots li button:before {
 	opacity: 1 !important;
@@ -226,6 +229,9 @@ section, div, span {
     width: 8px !important;
 	height: 8px !important;
 	border-radius: 50% !important;
+	@media screen and #{$brk-wide} {
+		border: 1px solid $blue-dark !important;
+	}
 }
 .slick-dots {
 	bottom: 20px !important;

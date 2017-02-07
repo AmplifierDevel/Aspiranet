@@ -6,7 +6,7 @@ layout: default
 {% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
-<div class="campaign-slider">
+<div class="campaign-slider hide-on-mobile hide-on-tablet">
 	{% for campaign in sorted_campaigns %}
 		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
 			<section class="grid">
@@ -26,6 +26,29 @@ layout: default
 		</div>
 	{% endfor %}
 </div>
+
+<!-- mobile campaign  -->
+<div class="campaign-slider mobile-slider hide-on-desktop">
+	{% for campaign in sorted_campaigns %}
+	<section class="grey">
+		<img src='{{ campaign.image.url }}' alt="{{ campaign.image.title }}" style="width: 100%; margin-top:-50px;" />
+		<div class="grid campaign-content ">
+			{% if campaign.campaignPartners %} 
+			<h5 class="round color-blue">{{ campaign.campaignPartners }}</h5>
+			{% endif %}
+			<h2 class="color-blue-dark">{{ campaign.title }}</h2>
+			{% if campaign.copy %} 
+			<h5 class="color-blue-dark">{{ campaign.copy }}</h5>
+			{% endif %}
+			{% if campaign.ctaButtonCopy %}
+			<p class="button no-margin-top"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
+			{% endif %}
+		</div>
+		</section>
+	{% endfor %}
+</div>
+<!-- end mobile campaign  -->
+
 <section class="blue text-center prlx-item">
 	<div class="grid">
 		<div class="col-8-12 mobile-col-10-12 center">

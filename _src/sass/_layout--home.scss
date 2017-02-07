@@ -256,15 +256,43 @@
 		@media screen and (min-width: 1024px) and (max-width: 1280px) {
 			margin-top: 530px;
 		}
-		@media screen and #{$brk-narrow} {
-			margin-top: 350px;
+		@media screen and #{$brk-wide} {
+			margin-top: 0;
 		}
 	}
+}
+.mobile-slider {
+	.campaign-content {
+		width: 100% !important;
+		h2, h5, p, .button {
+			text-align: center !important;
+			display: inherit;
+		}
+		h5 {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 17px;
+		}
+	}
+	.slick-slide {
+		height: 470px;
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			height: 730px;
+		} 
+		@media screen and (min-width: 560px) and #{$brk-narrow} {
+			height: 590px;
+		}
+	}
+
 }
 .campaign-slider {
 	position: fixed !important;
 	top: 100px;
 	width: 100%;
+	@media screen and #{$brk-wide} {
+		position: relative !important;
+		top: 0;
+	}
 	.campaign-content {
 		z-index: 20;
     	position: relative;
@@ -275,41 +303,15 @@
     	h5 {
     		margin-top: 15px;
     	}
-		@media screen and #{$brk-tablet-min} and (max-width: 1279px) {
-			padding-left: 10%;
-			width: 45%;
-		}
-		@media screen and #{$brk-narrow} {
-			width: 100%;
-			margin-top: -40px;
-			h2, h5, p, .button {
-				text-align: center !important;
-				display: inherit;
-			}
-			h5 {
-				margin-top: 0;
-			}
-		}
+    	@media screen and (min-width: 1024px) {
+    		padding-left: 10%;
+    	}
 	}
 	.slider-item {
 		height: 650px;
 		background-position: 100% 100%;
 		@media screen and (min-width: 1024px) and (max-width: 1280px) {
 			height: 530px;
-		}
-		@media screen and #{$brk-narrow} {
-			height: 350px;
-		}
-		@media screen and #{$brk-wide} {
-			&:before {
-				content: "";
-			    position: absolute;
-			    height: 100%;
-			    display: block;
-			    top: 0;
-			    width: 100%;
-				background-color: rgba(255,255,255,0.4);			
-			}
 		}
 		h1 {
 			margin: 0;
