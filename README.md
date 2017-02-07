@@ -95,6 +95,7 @@ This website is interacting with the following systems:
 
 ### How the build process works
 `build.sh` is responsible for the deployment on Netlify. Here is what it does:
+
 1. Fetch the latest tweet
 2. Fetch the program locations with `curl` and store them in `program_data.json`
 3. Interpolates the environment variables in `_config.yml` and download all the [Contentful](https://www.contentful.com)  data
