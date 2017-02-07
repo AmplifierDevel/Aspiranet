@@ -29,6 +29,12 @@
 			}
 		}
 	}
+	.signature {
+		@media screen and #{$brk-wide} {
+			float: none !important;
+			text-align: center;
+		}
+	}
 	.text-center h2 {
 		margin-top: 0;
 	}
