@@ -13,12 +13,18 @@
 .donate-content {
 	margin-top: -7em;
     position: relative;
+    @media screen and #{$brk-wide} {
+    	margin-top: 0;
+    }
 }
 .donate-form {
 	border-radius: 4px;
 	padding: 2em;
 	position: relative;
     z-index: 20;
+	@media screen and #{$brk-wide} {
+		padding: 20px 0;
+ 	}
 }
 .donate-nav {
 	ul {
@@ -70,5 +76,11 @@
 		&.active {
 			margin-top: 1.5em;
 		}
+	}
+}
+
+@media screen and #{$brk-wide} {
+	.box-amount {
+		margin-top: 10px;
 	}
 }
