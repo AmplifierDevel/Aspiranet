@@ -43,6 +43,7 @@ You can update the locations shown on the map under *Program Locations*.
 Events are handled through [Eventbrite](https://www.eventbrite.com).
 Create an event on the Eventbrite website and you will see a new **Event** content type added automatically to [Contentful](https://www.contentful.com) .
 They will be accessible on your website at `/event/name-of-your-event-with-dashes`.
+
 Example: 
 If the `Title` of your event is `This is the second event`.
 You should see it at `https://www.aspiranet.org/event/this-is-the-second-event`
