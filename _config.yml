@@ -8,11 +8,14 @@ description: >
 baseurl: ""
 url: "https://www.aspiranet.org" # the base hostname & protocol for your site
 image_path: '/assets/img'
+twitter_username: '@Aspiranet'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
+include: ['_redirects']
+
 
 gems: [ 
 "jekyll-twitter-plugin", 
@@ -20,20 +23,24 @@ gems: [
 ]
 
 contentful:
-  preview: Yes 
-  production_access_token: 207be5e580e324a1e1208a4c4ace90ad46a95f27d35b14bae5ab042497155885 #Access
-  preview_access_token: 75dd77ee4c831dd26fbde7d5f39287c2cd26ac4ceff0dec1f31f503a2d9dfdec #Preview
-  space: e5ehlcazegi0
+  preview: ASPIRANET_CONTENTFUL_IS_PREVIEW 
+  production_access_token: ASPIRANET_CONTENTFUL_ACCESS_KEY #Access
+  preview_access_token: ASPIRANET_CONTENTFUL_PREVIEW_KEY #Preview
+  space: ASPIRANET_CONTENTFUL_SPACE_ID
   content_types:
    - "blogPost"
    - "campain"
-   - "divisionHeads"
+   - "divisionHeads" 
    - "programs"
    - "seniorExecutive"
+   - "programHosted"
+   - "blogCategory"
+   - "blogTag"
+   - "event"
   spaces:
     - proddata:
-        space: e5ehlcazegi0
-        access_token: 75dd77ee4c831dd26fbde7d5f39287c2cd26ac4ceff0dec1f31f503a2d9dfdec #Spaces
+        space: ASPIRANET_CONTENTFUL_SPACE_ID
+        access_token: ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN #Spaces
         cda_query:
           include: 2
           limit: 100
@@ -43,7 +50,7 @@ contentful:
           cat: divisionHeads
           cat: programs
           cat: seniorExecutive
+          cat: programHosted
           cat: rootWebsite
         client_options:
-          api_url: 'preview.contentful.com'
-
+          api_url: ASPIRANET_CONTENTFUL_API_URL

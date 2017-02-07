@@ -1,17 +1,38 @@
 $(document).ready(function(){
-	$('#programsNavItem').mouseenter(function(e) {
-		$('#programsNav').css('display', 'block');
-		$('.nav-programs a').css('background-color', '#F8F8F7')
-	});
-	$('#programsNav').mouseleave(function(e) {
-		$('#programsNav').css('display', 'none');
-		$('.nav-programs a').css('background-color', 'white')
+
+	//Mobile menu 
+	$('.menu-icon').on('click', function(e) {
+		$('.trigger').slideToggle();
+        $('.trigger').css('background-color', 'white');
+        $('.menu-icon').toggleClass("icon-active");
+    });
+	//end of mobile menu
+
+	$('#programsNavItem').mouseenter(function() {
+		$('.nav-programs a p').addClass('blue-light');
+		$('#programsNav').slideDown();
 	});
 
-	// searching for orphans TODO: make sure it doesn't affect html tags
-   // $('p, h3, h4').each(function(){
-   //      var string = $(this).html();
-   //      string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
-   //      $(this).html(string);
-   //  });
+	$('#programsNav').mouseleave(function() {
+		slideUpNav();
+	});
+
+	$(window).scroll(function(){ 
+		slideUpNav();
+	});
+
+	var slideUpNav = function() {
+		$('.nav-programs a p').removeClass('blue-light');
+		$('#programsNav').slideUp();
+	};
+
+	$("#mc-embedded-subscribe-form").submit(function(e) {
+	  e.preventDefault();
+
+	  var $form = $(this);
+	  $.post($form.attr("action"), $form.serialize()).then(function() {
+	    $('#mc_embed_signup').html('<p>Thank you for joining!</p>');
+	  });
+	});
+
 });

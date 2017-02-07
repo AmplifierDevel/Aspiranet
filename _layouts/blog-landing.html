@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+
+<div id="blog" class="grey">
+
+        {% include blog-featured.html %}
+
+        <div class="grid">
+        <div class="col-8-12">
+            <ul>
+            {% for blogpost in sorted_news limit:2 %}
+
+                    {% include blog-post.html %}
+
+  			{% endfor %}
+
+            {% include blog-load-more.html %}
+            </ul>
+        </div>
+        {% include sidebar.html %}
+    </div> 
+</div>
+
+
+    
+   
+
+
+  
+  

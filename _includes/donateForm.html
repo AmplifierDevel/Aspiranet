@@ -1,12 +1,29 @@
-<form action="/thank-you" method="GET">
-<script
-  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-  data-key="pk_test_lt2EXT7bB7PQyySjYF6nh4i3"
-  data-amount="2000"
-  data-name="aspiranet"
-  data-zip-code="true"
-  data-description="2 widgets"
-  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-  data-locale="auto">
-</script>
-</form>
+<div class="white color-blue-dark donate-form">
+	<h3 class="no-margin-top">Give Love and Support.<br />Give to Aspiranet</h3>
+		<p class="bold">Donation Amount:</p> 
+		<div class="box-amount active" data-amount="2500"><p>$25</p></div>
+		<div class="box-amount" data-amount="5000"><p>$50</p></div>
+		<div class="box-amount" data-amount="10000"><p>$100</p></div>
+		<div class="box-amount" data-amount="25000"><p>$250</p></div>
+		<div class="box-amount" data-amount="50000"><p>$500</p></div>
+		<div class="other-amount">
+		<div class="box-amount" data-amount="other"><p>Other</p></div>
+		<input type="text" name="otherAmount" class="otherAmount" style="display:none;" />
+		</div>
+		<p class="bold">Donation type:</p>
+		<form class="radio-btns">
+			<input type="radio" name="frequency" value="once" id="freq1" checked="checked"><label for="freq1">&nbsp;One Time</label>
+			<input type="radio" name="frequency" value="monthly" id="freq2" class="monthlychoice"><label for="freq2" class="monthlychoice">&nbsp;Monthly</label>
+		</form>
+		<div class="subscribe">
+			<input type="checkbox" checked="checked" name="subscribeNewsletter" id="subscribeNewsletter"/> 
+			<label for="subscribeNewsletter">Subscribe to Newsletter</label>
+		</div>
+
+		<div class="stripe-button-el">
+			<p class="button small caps">
+				<a class="button orange">Donate</a>
+			</p>
+		</div>
+</div>
+

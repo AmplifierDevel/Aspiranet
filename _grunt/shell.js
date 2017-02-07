@@ -5,6 +5,9 @@ module.exports = {
     jekyllBuildContentful: {
             command: 'jekyll contentful --rebuild'
     },
+    downloadLatestTweet: {
+            command: `_scripts/last_tweet.sh $TWITTER_API $TWITTER_SECRET Aspiranet && rm bearer_resp.json`
+    },
 	interpolateEnvVariables: {
             command: `
             sed -i '' 's/ASPIRANET_CONTENTFUL_PREVIEW_KEY\ #Preview/'"$ASPIRANET_CONTENTFUL_PREVIEW_KEY"'\ #Preview/g' _config.yml && 

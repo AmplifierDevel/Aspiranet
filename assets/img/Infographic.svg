@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="681px" height="459px" viewBox="0 0 681 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="220.52205 442 441.044 442 441.044 0.956 220.52205 0.956 0.0001 0.956 0.0001 442 220.52205 442"></polygon>
+    </defs>
+    <g id="Visual_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3_Our-Approach" transform="translate(-728.000000, -817.000000)">
+            <text id="Communities" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="851">Communities</tspan>
+            </text>
+            <text id="Children,-Youth-&amp;-Fa" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="1103">Children, Youth &amp; Families</tspan>
+            </text>
+            <text id="Our-Programs" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="914">Our Programs</tspan>
+            </text>
+            <g id="Page-1" transform="translate(959.000000, 826.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.044000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M441.044,221.522 C441.044,343.313 342.313,442.044 220.522,442.044 C98.731,442.044 0,343.313 0,221.522 C0,99.731 98.731,1 220.522,1 C342.313,1 441.044,99.731 441.044,221.522" id="Fill-1" fill="#113F5B" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M220.522,65.1222 C307.783,65.1222 378.522,135.8612 378.522,223.1222 C378.522,310.3832 307.783,381.1222 220.522,381.1222 C133.261,381.1222 62.522,310.3832 62.522,223.1222" id="Stroke-4" stroke="#FCBF5E" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M220.522,366.1647 C141.522,366.1647 77.48,302.1227 77.48,223.1227 C77.48,144.1217 141.522,80.0797 220.522,80.0797 C299.522,80.0797 363.564,144.1217 363.564,223.1227" id="Stroke-6" stroke="#F26F59" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M346.5232,199.9922 C359.2972,269.5812 313.2402,336.3492 243.6522,349.1232" id="Stroke-8" stroke="#5BB69E" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M94.5209,246.2521 C81.7469,176.6641 127.8039,109.8951 197.3919,97.1211" id="Stroke-10" stroke="#5BB69E" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M262.4437,327.7267 C204.6727,350.8797 139.0707,322.8157 115.9177,265.0437" id="Stroke-12" stroke="#78649F" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M178.6004,118.5176 C236.3714,95.3646 301.9734,123.4286 325.1264,181.2006" id="Stroke-14" stroke="#78649F" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M185.1656,313.5361 C135.2316,294.0091 110.5816,237.7001 130.1076,187.7661 C149.6346,137.8311 205.9446,113.1811 255.8786,132.7081 C305.8126,152.2351 330.4626,208.5441 310.9356,258.4781" id="Stroke-16" stroke="#B672A9" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M302.0126,229.0934 C298.7146,274.0994 259.5566,307.9104 214.5506,304.6124 C169.5446,301.3144 135.7336,262.1564 139.0316,217.1504 C142.3296,172.1444 181.4876,138.3334 226.4936,141.6314" id="Stroke-18" stroke="#2781A5" stroke-width="9" stroke-linecap="round"></path>
+                <circle id="Oval" fill="#205778" cx="221" cy="222" r="61"></circle>
+                <path d="M202.5878,207.3334 C206.5508,208.9974 211.1148,207.1354 212.7798,203.1704 C214.4448,199.2064 212.5828,194.6434 208.6168,192.9774 C204.6478,191.3104 200.0868,193.1724 198.4208,197.1394 C196.7568,201.1024 198.6218,205.6684 202.5878,207.3334" id="Fill-20" fill="#35C3EC"></path>
+                <path d="M207.8542,231.2791 C205.2032,226.1131 207.3182,222.7971 202.8582,221.2351 C197.0162,219.1911 191.1402,217.9131 190.5882,224.6851 C189.8892,233.2581 194.6792,240.3931 195.2202,241.1271 C200.2372,243.7971 208.7722,245.6561 217.6092,240.8641 C214.0622,239.4541 209.5212,234.5271 207.8542,231.2791" id="Fill-22" fill="#35C3EC"></path>
+                <path d="M228.6731,201.5662 C234.1381,203.8732 240.4381,201.3132 242.7431,195.8522 C245.0501,190.3862 242.4921,184.0932 237.0231,181.7842 C231.5581,179.4782 225.2631,182.0392 222.9571,187.5002 C220.6501,192.9652 223.2121,199.2612 228.6731,201.5662" id="Fill-24" fill="#34A5CD"></path>
+                <path d="M244.1599,210.5573 C253.5859,217.7683 251.3609,230.5413 245.2279,239.3353 C238.9239,248.3723 226.4169,262.3003 219.9029,262.3003 C211.7079,262.3003 195.8489,241.9763 195.2209,241.1263 C200.2369,243.7973 208.8329,245.5163 217.3149,241.0313 C218.9499,240.1663 220.5799,239.0763 222.1799,237.7133 C229.0109,231.8903 233.4069,222.3093 227.7449,219.5573 C223.3469,217.4203 218.7969,225.2193 217.1379,225.1913 C215.3999,225.1613 213.6549,223.1463 208.8059,220.7423 C202.9789,217.8553 196.1889,217.0203 192.7329,216.5893 C189.6359,216.2033 192.2479,210.4273 198.3379,210.4933 C209.4399,210.6123 213.9269,215.9003 215.3149,214.5713 C217.3019,212.6683 228.7689,198.7823 244.1599,210.5573 L243.0419,208.4643" id="Fill-26" fill="#34A5CD"></path>
+            </g>
+            <path d="M738.442086,827.5 L1175.50114,827.5" id="Line" stroke="#34A5CD" stroke-linecap="square"></path>
+            <path d="M738.442086,987.5 L1175.50114,987.5" id="Line-Copy-3" stroke="#34A5CD" stroke-linecap="square"></path>
+            <path d="M738.488189,890.5 L1174.50115,890.5" id="Line-Copy" stroke="#34A5CD" stroke-linecap="square"></path>
+            <path d="M738.52782,1076.5 L1162.50118,1076.5" id="Line-Copy-2" stroke="#34A5CD" stroke-linecap="square"></path>
+            <path d="" id="Oval-2" fill="#34A5CD"></path>
+            <text id="Tenderness-&amp;-Compass" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="1013">Tenderness &amp; Compassion</tspan>
+            </text>
+        </g>
+        <g id="Artboard"></g>
+    </g>
+</svg>

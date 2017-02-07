@@ -1,46 +1,46 @@
 ---
 layout: default
 ---
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
-	<div class="grid">
-		<div class="col-5-12 color-blue">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachHeroImage.url  }}');" class="img-settings hero-img">
+	<div class="grid hide-on-mobile hide-on-tablet">
+		<div class="col-5-12 color-blue tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachHeaderText | markdownify}}
 		</div>
 	</div>
 </section>
-
-<section>
+<section class="blue hide-on-desktop"> 
 	<div class="grid">
-		<div class="col-1-2 color-blue-dark">
-			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramText | markdownify}}
-			<p class="button"><a class="orange" href="/programs">See our programs</a></p>
+		<div class="color-white">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachHeaderText | markdownify}}
 		</div>
-		<div class="col-1-2">
-			<img src="/assets/img/placeholder.png" width="100%;">
-		</div>
-	</div>
-	<div>
-		<!-- Inforgaphics goes here -->
 	</div>
 </section>
-
-<section class="grey text-center">
+<section>
+	<div class="grid approach-content">
+		<div class="col-1-2 color-blue-dark tablet-col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramText | markdownify}}
+			<p class="button hide-on-mobile"><a class="orange" href="/programs">See our programs</a></p>
+		</div>
+		<div class="col-5-12 push-1-12 tablet-col-1-2">
+			<img src="/assets/img/Infographic.svg" width="100%;">
+		</div>
+		<p class="button hide-on-tablet hide-on-desktop text-center"><a class="orange" href="/programs">See our programs</a></p>
+	</div>
+</section>
+<section class="grey cta-join-team">
 	<div class="grid">
-		<div class="col-7-12 center color-blue">
+		<div class="col-7-12 center color-blue tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachTogetherText | markdownify}}
 			<p class="button"><a class="orange" href="/careers">Join our team</a></p>
 		</div>
 	</div>
 </section>
 
-<section class="blue">
+<section class="blue bg-map" class="img-settings section-photo">
 	<div class="grid">
-		<div class="col-1-2" style="padding-right: 52px;">
+		<div class="col-1-2 tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].ourApproachProgramFinder | markdownify}}
-			<p class="button" style="margin-top: 45px;"><a class="orange" href="/find-program">Find your local aspiranet office here</a></p>
-		</div>
-		<div class="col-1-2">
-			<img src="/assets/img/placeholder.png" width="100%;">
+			<p class="button"><a class="orange" href="/find-program">Find your local aspiranet office here</a></p>
 		</div>
 	</div>
 </section>

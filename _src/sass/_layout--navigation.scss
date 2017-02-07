@@ -9,10 +9,21 @@ header {
     width:100%;
     background: #ffffff;
     position: fixed;
+    top: 0;
     z-index: 9999;
     .site-title img {
     	margin-top: 18px;
     	width: 190px;
+    	z-index: 99;
+    	position: relative;
+    	@media screen and (max-width: 900px) {
+    		margin-top: 25px;
+    		width: 153px;
+    	}
+    	@media screen and (min-width: 901px) and (max-width: 941px) {
+    		margin-top: 26px;
+    		width: 149px;
+    	}
     }
 }
 nav {
@@ -31,11 +42,11 @@ nav {
 			    display: inline-block;
 			    &:hover {
 			    	p {
-	            		color: $blue-dark;
+	            		color: $blue-dark !important;
 	            	}
 		        }
 			    &.active {
-			        @media screen and #{$brk-tablet-min} {
+			        @media screen and (min-width: 901px) {
 		                &:before {
 		                	content: '';
 		                    top: -33px;
@@ -64,6 +75,11 @@ nav {
 				letter-spacing: 1.2px;
 				margin: 0 24px;
 			}
+			&.mobile-menu-item {
+				@media screen and (min-width: 901px) {
+					display: none;
+				}
+			}
 		}
 	}
 }
@@ -80,10 +96,25 @@ nav {
 	padding: 40px 0;
 	img {
 		width: 300px;
+		margin-bottom: -4.3em;
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			width: 289px;
+		}
 	}
 	.button {
-		margin-top: -52px;
-    	margin-left: 16px;
+    	margin-left: 7.5px;
+    	a {
+    		margin-top: -6px !important;
+    	}
+    	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			width: 278px;
+			margin-left: 3px;
+		}
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		.grid, .col-8-12 {
+			padding-right: 0;
+		}	
 	}
 }
 .programs-submenu {
@@ -94,12 +125,90 @@ nav {
 	    -webkit-column-gap: 100px;
 	    column-count: 2;
 	    column-gap: 100px;
+	    @media screen and #{$brk-big-max} {
+	    	column-gap: 50px;
+	    	padding-left: 0;	
+	    }
+	    @media screen and #{$brk-tablet-min} and #{$brk-wide} {
+	    	column-gap: 6px;
+	    	padding-left: 30px;
+	    }
 	    li a p {
     		margin-bottom: 2em;
     		font-family: $stack-sans-serif;
     		&:first-of-type {
     			margin-top: 0;
     		}
+    		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+    			font-size: 16px;
+    		}
+
 	    }
 	}
+}
+@media handheld, only screen and (max-width: 900px) {
+	.programs-submenu {
+   		display: none !important;
+   	}
+    .site-nav {
+        position: fixed;
+        z-index: 10;
+        top: 0px; 
+        right: 0px;
+        margin-top: 0;
+        width: 100%;
+        background-color: transparent;
+    }
+    .site-nav .menu-icon {
+        display: block;
+        font-size: 24px;
+        color: $blue-dark;
+        float: right;
+        width: 72px;
+        padding: 30px;
+        text-align: center;
+        line-height: 36px;
+    }
+    .menu-icon.icon-active {
+        background-color: white;
+        padding: 30px;
+        svg {
+            fill: $blue;
+        }
+    }
+    .site-nav .menu-icon svg { 
+        width: 18px; 
+        height: 16px;
+    }
+    .site-nav .trigger {
+        clear: both;
+        padding-bottom: 0px;
+        padding-top: 0px;  
+        display: none;
+    }
+    .site-nav .page-link {
+        display: block;
+        text-align: left;
+        line-height: 1.25;
+        padding: 5px 65px 5px 10px;
+        margin: 0;
+    }
+    nav ul {
+    	padding: 0;
+    	text-align: center;
+    	li {
+    		display: block;
+	    	a {
+	    		padding: 12px 0;
+    			width: 100%;
+	    	}
+	    }
+	  	.button {
+	  		display: none;
+	  	}
+	  	.nav-programs a {
+	  		background-color: white !important;
+	  		border: none !important;
+	  	}
+    }
 }

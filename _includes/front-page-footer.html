@@ -1,0 +1,42 @@
+<script src="/assets/js/lib/slick.min.js"></script>
+
+{% assign Modals = site.data.contentful.spaces.proddata.popup | reverse %}
+{% if Modals.size > 0 %} 
+
+<script src="/assets/js/lib/remodal.min.js"></script>
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+		if (document.cookie.replace(/(?:(?:^|.*;\s*)returnVisitor\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+	    var modal = $('[data-remodal-id=modal]').remodal();
+		modal.open();
+	    document.cookie = "returnVisitor=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+	  }
+
+	
+	{% if Modals[0].urlToRedirectTo.size > 0 %}
+	  // Modal event listener
+	  $(document).on('confirmation', '.remodal', function () {
+		window.location.href = "{{Modals[0].urlToRedirectTo}}";  
+		});
+	{% endif %}
+
+	});
+	var $homeSlider = $('.campaign-slider').slick({
+		arrows: true,
+		fade: true,
+		autoplay: true,
+		autoplaySpeed: 9000,
+		infinite: true,
+		speed: 500,
+		dots: true,
+		pauseOnDotsHover: true
+	});
+	$(window).scroll(function(){
+        $homeSlider.slick('slickPause');
+        if ($(window).scrollTop() == 0) {
+        	$homeSlider.slick('slickPlay');
+        }
+    });
+</script>  
+{% endif %} 

@@ -2,6 +2,9 @@
 	color:#fff;
 	section {
 		padding: 75px 0 50px 0;
+		@media screen and #{$brk-wide} {
+			padding: 40px 0;
+		}
 	}
 	a {
 		color: #fff;
@@ -12,30 +15,45 @@
 	}
 	input {
 		color: #fff;
-		border: 1px solid #fff;
 	}
 	ul {
-		list-style: none;
 		padding: 0;
 		li {
-			margin-bottom: 25px;
+			
+			a img {
+				vertical-align: middle;
+			}
 			&:last-of-type {
 				margin-bottom: 0;
+				margin-right: 0;
 			}
+		}
+	}
+	.signature {
+		@media screen and #{$brk-wide} {
+			float: none !important;
+			text-align: center;
 		}
 	}
 	.text-center h2 {
 		margin-top: 0;
 	}
 	.social-icons {
+		list-style: none;
+		padding: 0;
 		li {
 			display: inline-block;
-			margin-right: 10px;
+			margin-right: 17px;
+			margin-bottom: 25px;
 		}
 	}
 	#mc_embed_signup {
 		input[type=email] {
 			width: 370px;
+			border: 1px solid #fff;
+			@media screen and #{$brk-narrow} {
+				width: 168px;
+			}
 		}
 		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 		   	color: $blue !important;
@@ -58,6 +76,66 @@
 			font-family: $stack-sans-serif;
 		}
 
+		:focus::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		   	opacity: 0.3;
+		}
+		:focus::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		  	opacity: 0.3;
+		}
+		:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   	opacity: 0.3;
+		}
+		:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   	opacity: 0.3;
+		}
+
+	}
+	.signup-submit {
+		@media screen and #{$brk-narrow} {
+			min-width: 100px;
+		}	
+	}
+	.footer-partners {
+		text-align: center;
+		margin: 20px auto;
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			text-align: center;
+			vertical-align: top;
+			img {
+				width: 65px;
+				@media screen and #{$brk-narrow} {
+					width: 33px;
+				}
+				@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+					width: 45px;
+				}
+			}
+			&:nth-of-type(3) {
+				img {
+					width: 210px;
+					@media screen and #{$brk-narrow} {
+						width: 95px;
+					}
+					@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+						width: 140px;
+					}
+				}
+			}
+			&:nth-of-type(4) {
+				img {
+					width: 80px;
+					@media screen and #{$brk-narrow} {
+						width: 47px;
+					}
+					@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+						width: 60px;
+					}
+				}
+			}
+		}
 	}
 }
+
 

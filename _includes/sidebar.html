@@ -1,0 +1,31 @@
+<div class="col-4-12">
+{% assign blogCategory = site.data.contentful.spaces.proddata.blogCategory | sort: "name" %}
+
+    <div class="color-blue-dark blog-categories border-left">
+        <p class="caps small round">Categories</p>
+        <ul class="no-padding">
+        
+            <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="{% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
+                {% for category in blogCategory %}
+                        <li {% if page.title == category.name %} class='category-active' {% endif %}><a href="/blog-category/{{ category.name | slugify }}/"><p class="{% if page.title == category.name %} color-blue {% endif %}">{{ category.name }}</p></a></li>
+                {% endfor %}
+
+        </ul>
+    </div>
+    <div class="color-blue-dark blog-tags border-left">
+        <p class="caps small round">Tags</p>
+        <ul>
+        <!-- capture needs to be on one line, if not it generates spaces that mess up the split -->
+        {% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
+        {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
+            {% for tag in tag_array %}
+            <li {% if page.title == tag | slugify %} class="tag-active" {% endif%}>
+                <a href="/blog-tag/{{ tag | slugify }}">
+                    <p><span>#</span>{{ tag }}</p>
+                </a>
+            </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+</div>

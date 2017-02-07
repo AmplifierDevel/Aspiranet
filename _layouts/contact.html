@@ -4,26 +4,33 @@ layout: default
 <section class="blue text-center">
 	<h1>Contact Us</h1>
 </section>
-
 <section class="grey">
 	<div class="grid">
-		<div class="col-1-2">
-			<h2>Write to Us</h2>
-			<form id="contact" action="" method="post">
-			<fieldset>
-		      <input placeholder="First name" type="text" tabindex="1" required autofocus>
-		      <input placeholder="Last name" type="text" tabindex="2" required autofocus>
-		      <input placeholder="Your Email Address" type="email" tabindex="3" required>
-		      <input placeholder="I'm interested in..." type="text" tabindex="4">
-		      <textarea placeholder="Message" tabindex="5" required></textarea>
-		      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-		  	</fieldset>
+		<div class="col-1-2 tablet-col-1-2 contact-form">
+			<h2 class="no-margin-top">Write to Us</h2>
+			<form id="contact" name="contactform" action="" method="post" netlify netlify-honeypot="bot-field">
+				<fieldset>
+					<input class="form-name" placeholder="First name" onfocus="this.placeholder = 'First name'" name="firstname" onblur="this.placeholder = 'First name'"  type="text" tabindex="1" required autofocus>
+					<input class="form-name" placeholder="Last name" onfocus="this.placeholder = 'Last name'" name="lastname" onblur="this.placeholder = 'Last name'"  type="text" tabindex="2" required autofocus>
+					  <input name="bot-field" style="display:none;">
+					<input class="form-info" name="email" placeholder="Your Email Address" onfocus="this.placeholder = 'Your Email Address'" onblur="this.placeholder = 'Your Email Address'" type="email" tabindex="3" required>
+					<input class="form-info" name="zip" placeholder="Your Zip Code" onfocus="this.placeholder = 'Your Zip Code'" onblur="this.placeholder = 'Your Zip Code'" type="text" pattern="\d{5}-?(\d{4})?" required>
+					<select name="select">
+					  <option value="" disabled selected>I'm interested in...</option> 
+					  <option value="Fostering/Adoption">Fostering/Adoption</option>
+					  <option value="Donations-contact">Donations</option>
+					  <option value="Career">Career Opportunities</option>
+					  <option value="Media">Media Inquiry</option>
+					  <option value="Other">Other</option>
+					</select>
+					<textarea class="form-info" name="message" placeholder="Message" onfocus="this.placeholder = 'Message'" onblur="this.placeholder = 'Message'" tabindex="5" required></textarea>
+					<input name="submit" type="submit" id="contact-submit" data-submit="...Sending"></input>
+			  	</fieldset>
 		  	</form> 
 	  	</div>
 
-
-	  	<div class="col-1-2">
-			<h2>Aspiranet HQ</h2>
+	  	<div class="col-1-2 tablet-col-1-2 contact-map">
+			<h2 class="no-margin-top">Aspiranet HQ</h2>
 			<div class="grid">
 				<div class="col-1-2">
 					<a href="https://www.google.com/maps/place/400+Oyster+Point+Blvd,+South+San+Francisco,+CA+94080/@37.6625824,-122.3873546,14z/data=!4m2!3m1!1s0x808f785e8d3000b1:0xcb2f84e16096bcfc" target="_blank"><img src="/assets/img/contact-us/map.jpg" width="100%;"></a>
@@ -34,7 +41,7 @@ layout: default
 				</div>
 			</div>
 
-			<h2>More Location</h2>
+			<h2>Other Locations Statewide</h2>
 			<p>Find the information you need to help our children and families thrive</p>
 			<p class="button"><a class="orange" href="/find-program">Find a program</a></p>
 		</div>

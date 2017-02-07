@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="blue program-title bio">
+	<div class="grid">
+		<h1 class="no-margin-top">{{page.contentful_fields.name}}</h1>
+		<div class="col-8-12 tablet-col-1-60"><h4 class="italic">{{page.contentful_fields.position}}</h4>
+		</div>
+		<div class="col-8-12 tablet-col-1-60">{{ page.contentful_fields.bio | markdownify }}</div>
+		<div class="col-1-1"><p class="italic"><a href="/about#leadership">< back to about</a></p></div>
+	</div>
+</section>
+{% include donate-ctas.html %}

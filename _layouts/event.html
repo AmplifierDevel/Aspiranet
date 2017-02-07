@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div id="container" class="container" style="height: 500px; width:100%; position: relative;">
+    <h1 style="position: absolute; top:35%;left:47%;" class="color-white">Event</h1>
+    <div id="output" class="container">
+    </div>   
+</div>   
+
+<div id="controls" class="controls" style="display: none;">
+</div>
+
+<section>
+    <div class="grid">
+        <div class="col-1-2">
+            <h1 class="round no-margin-top blue">{{ page.contentful_fields.title }}</h1>
+            <time datetime="{{page.contentful_fields.date}}" class="caps round small blue no-margin-top">{{ page.contentful_fields.date | date: "%a, %b %d, %Y"  }}</time>
+            <p>{{ page.contentful_fields.description | markdownify }}</p>
+        </div>
+        <div class="col-1-2">
+                <iframe src="//eventbrite.com/tickets-external?eid={{page.contentful_fields.eventId}}&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true" style="padding-left: 40px; padding-top: 15px;"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<script src="/assets/js/lib/triangles.min.js"></script>

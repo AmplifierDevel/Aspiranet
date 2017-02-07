@@ -5,6 +5,25 @@ div.clearfix {
 ul li {
 	list-style-type: none;
 }
+.img-overlay-left {
+ 	&:before {
+ 		content: "";
+ 	    position: absolute;
+ 	    height: 100%;
+ 	    display: block;
+ 	    top: 0;
+	    width: 100%;
+ 	}
+ 	.grid {
+ 		position: relative;
+	}
+}
+ .img-overlay-left {
+ 	&:before {
+ 		background-image: linear-gradient(-90deg, transparent 14%, rgba(0,0,0,0.2) 100%)
+ 	}
+}
+
 .text-left {
     text-align: left !important;
 }
@@ -14,38 +33,72 @@ ul li {
 .text-center {
     text-align: center !important;
 }
-
+.flex-container {
+	max-width: 1780px;
+	padding: 0;
+  	margin: 0 auto;
+  	float: none !important;
+  	list-style: none;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+	-webkit-align-items: stretch; 
+  	align-items: stretch; 
+  	@media screen and #{$brk-narrow} {
+  		display: block;
+  	}
+}
 .img-settings {
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center center;
     position: relative;
 }
-
+.hero-img {
+	height: 650px;
+	background-position: 100% 100%;
+	@media screen and (min-width: 1024px) and (max-width: 1280px) {
+		height: 530px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		height: 400px;
+	} 
+	@media screen and #{$brk-narrow} {
+		height: 350px;
+	}
+}
+.fadeInBlock {
+    opacity: 0;
+}
+.border-left {
+	border-left: 1px solid $grey-dark;
+}
 .section-photo {
-    //min-height: 500px;
-    height: auto;
-    max-height: 950px;
+    height: 650px;
     [class*='col-'] {
         padding-right: 0;
     }
-    &:after {
-        padding-bottom: 14%;
-        content: "";
-        display: block;
-        @media screen and (min-width: 1440px) { 
-            padding-bottom: 28%;
-        }
-    }
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+		height: 530px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		height: 400px;
+	} 
+	@media screen and #{$brk-narrow} {
+		height: 350px;
+	}
 }
-
-
 .block-overlap {
     margin: -4em auto auto auto !important;
     width: 90% !important;
+    max-width: 1140px;
     position: relative;
 }
-
 .color-blue {
 	color: $blue;
 }
@@ -55,14 +108,25 @@ ul li {
 .color-white {
 	color: #ffffff;
 }
+.color-yellow {
+	color: $yellow;
+}
+.color-mint {
+	color: $mint;
+}
+.color-orange {
+	color: $orange;
+}
+.color-pink {
+	color: $pink;
+}
 .center {
 	float: none;
 	margin: 0 auto;
 }
 .color-purple {
-	color: $purple-light;
+	color: $pink-light;
 }
-
 .color-purple-dark {
 	color: $purple-dark;
 }
@@ -72,15 +136,24 @@ hr {
 }
 section {
 	padding: 90px 0;
+	@media screen and #{$brk-wide} {
+		padding: 50px 0;
+	}
+	&.section-short {
+		padding: 40px 0 90px 0;
+	}
 }
-section, div {
+section, div, span {
 	&.blue {
 		background-color: $blue;
 		color: #fff;
 	}
 	&.blue-dark {
 		background-color: $blue-dark;
-		color: #fff;	
+		color: #fff;
+	}
+	&.blue-marin {
+		background-color: $blue-marin;
 	}
 	&.orange {
 		background-color: $orange;
@@ -88,14 +161,78 @@ section, div {
 	}
 	&.yellow {
 		background-color: $yellow;
-		color: $blue-dark;
+		color: #fff;
 	}
 	&.grey {
 		background-color: $grey;
 		color: $blue-dark;
 	}
+	&.purple-dark {
+		background-color: $purple-dark;
+		color: #fff;
+	}
+	&.pink {
+		background-color: $pink;
+		color: #fff;
+	}
+	&.mint {
+		background-color: $mint;
+		color: #fff;
+	}
+	&.white {
+		background-color: #fff;
+		color: $blue-dark;
+	}
 }
-
 .no-padding-top {
 	padding-top:0 !important;
+}
+.hidden {
+    display:none;
+}
+
+// Custom slick styles
+.slick-prev, .slick-next {
+	width: 30px !important;
+	height: 30px !important;
+}
+.slick-prev:before, .slick-next:before {
+	opacity: 1 !important;
+	content: ' ' !important;
+  	background-size: 28px 28px;
+  	height: 28px;
+  	width: 28px;
+  	display: block;
+}
+.slick-prev:before {
+	background-image: url('/assets/img/back.svg');
+}
+.slick-next:before {
+  	background-image: url('/assets/img/next.svg');
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 0 !important;
+	background-color:$blue;
+}
+.slick-dots li.slick-active button:before {
+	background-color: white !important;
+	opacity: 1 !important;
+	color: transparent !important;
+	@media screen and #{$brk-wide} {
+		background-color: $blue-dark !important;
+	}
+}
+.slick-dots li button:before {
+	opacity: 1 !important;
+	color: transparent !important;
+    border: 1px solid white !important;
+    width: 8px !important;
+	height: 8px !important;
+	border-radius: 50% !important;
+	@media screen and #{$brk-wide} {
+		border: 1px solid $blue-dark !important;
+	}
+}
+.slick-dots {
+	bottom: 20px !important;
 }

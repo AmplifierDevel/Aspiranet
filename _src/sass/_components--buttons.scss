@@ -1,5 +1,21 @@
 .button {
 	text-transform: uppercase;
+	cursor:pointer;
+	display:inline-block;
+	&.link {
+		padding: 13px 36px;
+		border-radius: 5px;
+		letter-spacing: 1.5px;
+		display: inline-block;
+		font-size: 12px;
+		font-family: $stack-sans-serif;
+		@include transition(.2s);
+		background-color: $orange;
+		color: #fff;
+		&:hover {
+			background: lighten($orange, 5%);
+		}
+	}
 	a {
 		padding: 13px 36px;
 		border-radius: 5px;
@@ -7,47 +23,55 @@
 		display: inline-block;
 		font-size: 12px;
 		font-family: $stack-sans-serif;
-			&.orange {
-				background: $orange;
-				color: #fff; 
-				text-align: center;
-				min-width: 135px;
+		@include transition(.2s);
+		&.orange {
+			background: $orange;
+			color: #fff; 
+			margin-top: 2em;
+			text-align: center;
+			min-width: 135px;
+			&:hover {
+				color: #fff;
+				background: lighten($orange, 5%);
 			}
 		}
-}
-
+		&.transparent {
+			color: #fff;
+			border: 1px solid #ffffff; 
+			margin-top: 2em;
+			&:hover {
+				background-color: rgba(255,255,255,0.2);
+			}
+		}
+	}
+} 
 ::-webkit-input-placeholder {
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 :-moz-placeholder { /* Firefox 18- */
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 ::-moz-placeholder {  /* Firefox 19+ */
 	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-family: $stack-serif;
 }
-
 :-ms-input-placeholder {  
 	color: #fff;
 	letter-spacing: 1.5px;
 	font-size: 12px;
 	font-family: $stack-serif;
 }
-
 input {
 	outline: 0;
 }
-
 input[type=submit] {
 	padding: 10px 20px;
 	border-radius: 4px;
@@ -61,9 +85,9 @@ input[type=submit] {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 12px;
+	-webkit-appearance: none;
 }
-
-input[type=email], input[type=text] {
+input[type=email], input[type=text], select {
 	background:none;
 	font-size: 12px;
 	letter-spacing: 1.5px;

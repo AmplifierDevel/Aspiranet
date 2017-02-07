@@ -1,101 +1,240 @@
 ---
 layout: default
 ---
+{% include modal.html %} 
 
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
-	<!-- Loop through slider items  -->
+{% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
+
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+<div class="campaign-slider hide-on-mobile hide-on-tablet">
+	{% for campaign in sorted_campaigns %}
+		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
+			<section class="grid">
+				<div class="campaign-content {% if campaign.titleAlign == 'right' %} push-right {% endif %}">
+					{% if campaign.campaignPartners %} 
+					<h5 class="round color-blue text-left">{{ campaign.campaignPartners }}</h5>
+					{% endif %}
+					<h2 class="color-{{ campaign.textColor }} text-left style="position: relative;">{{ campaign.title }}</h2>
+					{% if campaign.copy %} 
+					<h5 class="color-{{ campaign.textColor }} color-blue-dark">{{ campaign.copy }}</h5>
+					{% endif %}
+					{% if campaign.ctaButtonCopy %}
+					<p class="button"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
+					{% endif %}
+				</div>
+			</section> 
+		</div>
+	{% endfor %}
+</div>
+
+<!-- mobile campaign  -->
+<div class="campaign-slider mobile-slider hide-on-desktop">
+	{% for campaign in sorted_campaigns %}
+	<section class="grey">
+		<img src='{{ campaign.image.url }}' alt="{{ campaign.image.title }}" style="width: 100%; margin-top:-50px;" />
+		<div class="grid campaign-content ">
+			{% if campaign.campaignPartners %} 
+			<h5 class="round color-blue">{{ campaign.campaignPartners }}</h5>
+			{% endif %}
+			<h2 class="color-blue-dark">{{ campaign.title }}</h2>
+			{% if campaign.copy %} 
+			<h5 class="color-blue-dark">{{ campaign.copy }}</h5>
+			{% endif %}
+			{% if campaign.ctaButtonCopy %}
+			<p class="button no-margin-top"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
+			{% endif %}
+		</div>
+		</section>
+	{% endfor %}
+</div>
+<!-- end mobile campaign  -->
+
+<section class="blue text-center prlx-item">
 	<div class="grid">
-		<h1 class="text-left">Campaign Slider</h1>
-	</div>
-</section>
-
-
-<section class="blue text-center">
-	<div class="grid">
-		<div class="col-8-12 center">
+		<div class="col-8-12 mobile-col-10-12 center">
 			<h3>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageVisionText}}</h3>
 			<p class="button"><a class="orange" href="/programs">See our programs</a></p>
 		</div>
 	</div>
 </section>
 
-<section style="background-image: url('/assets/img/placeholder.png'); padding-bottom: 13%;" class="img-settings">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg grey">
+	<img src='{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}' class="hide-on-desktop">
 	<div class="grid">
-		<div class="col-1-2 stats-front no-padding">
+		<div class="col-5-12 text-center stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
-			<ul>
-				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h4>
+			<ul class="text-center">
+				<li class="mobile-col-1-2 tablet-col-1-2">
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h5>
 				</li>
-				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h4>
+				<li class="mobile-col-1-2 tablet-col-1-2">
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h5>
 				</li>
-				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h4>
+				<li class="mobile-col-1-2 tablet-col-1-2">
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h5>
 				</li>
-				<li>
-					<h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h4>
-				</li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
+					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h5>
+				</li>  
 			</ul>
 			<h3>Help us reach more children</h3>
 			<p class="button"><a class="orange" href="/donate">Donate</a></p> 
 		</div>
 	</div>
 </section>
-
-
-<section class="grid blue text-center">
-	<div class="col-8-12 center">
-		{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
-		<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
-	</div>
-</section>
-
-
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
-	<div class="grid" style="">
-		<div class="col-1-2">
-			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
-			<h4 class="button"><a class="orange" href="">Become a foster &amp; adoptive family</a></h4>
+<section class="blue text-center prlx-item">
+	<div class="grid">
+		<div class="col-8-12 center rewarding mobile-col-10-12">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
+			<p class="button"><a class="orange" href="/careers">See our careers</a></p>
 		</div>
 	</div>
 </section>
 
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left">
+	<div class="grid hide-on-mobile">
+		<div class="col-5-12 color-white tablet-col-1-60">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
+			<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></p>
+		</div>
+	</div>
+</section>
 
-<section class="latest-front text-center">
-	<h3 class="blue-dark">The latest</h3>
-
+<section class="blue hide-on-tablet hide-on-desktop prlx-item">
 	<div class="grid">
-		<a href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">
-			<div class="col-1-3 blue "> 
-				<h4>Twitter</h4>
-				<p>
-					{{ site.data.tweet[0].text }} 
+		<div class="color-white text-center">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
+			<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></p>
+		</div>
+	</div>
+</section>
+
+<section class="latest-front text-center white prlx-item">
+	<h3 class="blue-dark">The latest</h3>
+	<div class="grid">
+		<div class="col-1-3 tablet-col-1-2 blue">
+			<div class="caption"> 
+				<p class="small caps color-blue-dark">Twitter</p>
+			</div>
+			<div class="latest-content">
+				<p class="bold color-blue-dark">
+				{{ site.data.tweet[0].text }} 
 				</p>
 			</div>
-		</a>
-		<div class="col-1-3 img-settings" style="background-image: url('/assets/img/placeholder.png');">
-			<h4>Stories</h4>
+			<div class="overlay-blue">
+				<div class="overlay-content">
+					<img src="{{ site.image_path }}/twitter-logo.svg" alt="follow us on twitter" />
+					<p class="button"><a class="transparent" href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">Read on twitter</a></p> 
+				</div>
+			</div>
 		</div>
-		<div class="col-1-3 orange">
-			<h4>On the blog</h4>
+		{% for blogpost in sorted_news %}
+		{% if blogpost.featuredOnBlog == true %}
+		<div class="col-1-3 tablet-col-1-2 blue-marin">
+			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+			{% else %}
+				{% assign imageUrl = blogpost.heroImage.url %}
+			{% endif %}
+			<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
+				<div class="caption">
+					<p class="small caps color-white">Stories</p>
+				</div>
+				<div class="latest-content">
+					{% if imageUrl == nil or imageUrl == "" %}
+						<h3 class="color-orange">{{ blogpost.title }}</h3>
+					{% endif %}
+				</div>	
+				<div class="center-vertical overlay-yellow">
+					<div class="overlay-content">
+						<h3>{{ blogpost.title }}</h3>
+						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+					</div>
+				</div>
+			</div>
 		</div>
+		{% endif %}
+		{% endfor %}
+		{% for blogpost in sorted_news limit: 1 offset: 1 %}
+		<div class="col-1-3 tablet-col-1-2 orange">
+			<div class="caption">
+				<p class="small caps">On the blog</p>
+			</div>
+			<div class="latest-content">
+				<a href="/blog/{{ blogpost.url }}">
+					<h3>{{ blogpost.title }}</h3>
+				</a>
+			</div>
+			<div class="center-vertical overlay-orange">
+				<div class="overlay-content">
+					<h3>{{ blogpost.title }}</h3>
+					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	{% for blogpost in sorted_news %}
+		{% if blogpost.featuredOnHomepage == true %}
+			<div class="col-1-3 tablet-col-1-2 orange">
+			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+			{% else %}
+				{% assign imageUrl = blogpost.heroImage.url %}
+			{% endif %}
+				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
+					<div class="caption">
+						<p class="small caps color-white">On the blog</p>
+					</div>
+					<div class="latest-content">
+						{% if imageUrl == nil or imageUrl == "" %}
+							<h3>{{ blogpost.title }}</h3>
+						{% endif %}
+					</div>	
+				</div>
+				<div class="center-vertical overlay-orange">
+					<div class="overlay-content">
+						<h3>{{ blogpost.title }}</h3>
+						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+		<div class="col-1-3 tablet-col-1-2 blue-dark">
+			<div class="caption">
+				<p class="small caps">Jobs</p>
+			</div>
+			<div class="latest-content">
+				<h3 class="latest-content color-orange">Check out our open positions</h3>
+			</div>
+			<div class="center-vertical overlay-blue-dark">
+				<div class="overlay-content">
+					<h3>Check out our open positions</h3>
+					<p class="button"><a class="transparent" target="_blank" href="http://aspiranet.hrmdirect.com/employment/job-openings.php?search=true&">Join our team</a></p> 
+				</div>
+			</div>
+		</div>
+		{% for blogpost in sorted_news limit: 1 %}
+		<div class="col-1-3 tablet-col-1-2 yellow">
+			<div class="caption">
+				<p class="small caps">On the blog</p>
+			</div>
+			<div class="latest-content">
+				<a href="/blog/{{ blogpost.url }}">
+					<h3 class="color-blue-dark">{{ blogpost.title }}</h3>
+				</a>
+			</div>
+			<div class="center-vertical overlay-yellow">
+				<div class="overlay-content">
+					<h3>{{ blogpost.title }}</h3>
+					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+				</div>
+			</div>
+		</div>
+		{% endfor %}
 	</div>
-	<div class="grid">
-		<div class="col-1-3 img-settings" style="background-image: url('/assets/img/placeholder.png');">
-			<h4>On the blog</h4>
-		</div>
-		<div class="col-1-3 blue-dark">
-			<h4>Highlighted job post here</h4>
-		</div>
-		<div class="col-1-3 yellow">
-			<h4>Highlighted blog post here</h4>
-		</div>
-	</div>
-		
-
 </section>

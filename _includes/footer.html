@@ -1,7 +1,7 @@
-<footer class="site-footer">
+<footer class="site-footer" style="position: relative; z-index: 20; background-color: white;">
 	<section class="wrapper blue-dark">
 		<div class="grid">
-			<div class="col-8-12 center">
+			<div class="col-8-12 center no-padding">
 				<div class="text-center" style="margin-bottom: 30px;">
 					{{ site.data.contentful.spaces.proddata.rootWebsite[0].footerSignupText | markdownify }}
 				</div>
@@ -11,26 +11,26 @@
 			<hr style="margin: 4em 0 3em 0;"></hr>
 			<div class="clearfix"></div>
 			<div class="col-1-4 text-center">
-				<p class="caps" style="font-size: 11px;">Follow us on</p>
+				<p class="small caps" style="font-size: 11px;">Follow us on</p>
 				<ul class="social-icons">
-					<li><a href="#"><img src="{{ site.image_path }}/twitter.svg" alt="follow us on twitter" /></a></li>
-					<li><a href="#"><img src="{{ site.image_path }}/facebook.svg" alt="follow us on facebook" /></a></li>
-					<li><a href="#"><img src="{{ site.image_path }}/email.svg" alt="email us" /></a></li>
+					<li><a href="https://twitter.com/aspiranet"><img src="{{ site.image_path }}/twitter-logo.svg" alt="follow us on twitter" /></a></li>
+					<li><a href="https://www.facebook.com/aspiranet"><img src="{{ site.image_path }}/facebook 3.svg" alt="follow us on facebook" /></a></li>
+					<li><a href="/contact"><img src="{{ site.image_path }}/email 2.svg" alt="email us" /></a></li>
 				</ul>
 			<p class="button small caps">
-				<a href="/donate" class="button orange">Donate</a>
+				<a href="/donate" class="button orange" style="margin-top: 1em;">Donate</a> 
 			</p>
 			</div>
-			
-			<div class="col-1-4 text-center">
+			  
+			<div class="col-1-4 text-center hide-on-mobile hide-on-tablet">
 				<p class="small caps"><strong>Programs</strong></p>
 				<ul>
 					<li><a href="/find-program"><p class="small caps color-blue">Find a program</p></a></li>
 					<li><a href="/programs"><p class="small caps color-blue">Programs</p></a></li>
-					<li><a href="/our-approach"><p class="small caps color-blue">Approach</p></a></li>
+					<li><a href="/our-approach"><p class="small caps color-blue">Our Approach</p></a></li>
 				</ul>
 			</div>
-			<div class="col-1-4 text-center">
+			<div class="col-1-4 text-center hide-on-mobile hide-on-tablet">
 				<p class="small caps"><strong>About Us</strong></p>
 				<ul>
 					<li><a href="/blog"><p class="small caps color-blue">Blog</p></a></li>
@@ -39,18 +39,28 @@
 					<li><a href="/about"><p class="small caps color-blue">About</p></a></li>
 				</ul>
 			</div>
-			<div class="col-1-4 text-center">
+			<div class="col-1-4 text-center hide-on-mobile hide-on-tablet">
 				<p class="small caps"><strong>More</strong></p>
 				<ul>
-					<li><a href="/sitemap.xml"><p class="small caps color-blue">Sitemap</p></a></li>
 					<li><a href="/privacy-policy"><p class="small caps color-blue">Privacy Policy</p></a></li>
 					<li><a href="/hipaa-privacy-notice"><p class="small caps color-blue">HIPPA Privacy <br /> Notice</p></a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
+			<p class="small color-white push-right signature">developed by <a href="https://amplifierstrategies.com/">Amplifier</a></p>
 		</div>
 	</section>
-	<p class="text-center caps color-blue-dark" style="font-size: 10px;">With excellence since 1977</p>
+	<div>
+		<p class="text-center caps color-blue-dark" style="font-size: 10px;">With excellence since 1975</p>
+		<div class="grid">
+			<ul class="footer-partners col-1-2 center">
+				<li><img src="{{ site.image_path }}/Icon.svg" /></li>
+				<li><img src="{{ site.image_path }}/Alliace1icon.svg" /></li>
+				<li><img src="{{ site.image_path }}/CaliforniaAlliance.svg" /></li>
+				<li><img src="{{ site.image_path }}/Icon2.svg" /></li>
+			</ul>
+		</div>
+	</div>
 </footer>
-<script src="/assets/js/lib/jquery.min.js"></script>
-<script src="/assets/js/lib/main.js"></script>
+
+{% include footer-includes.html %}

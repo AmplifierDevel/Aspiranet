@@ -1,0 +1,74 @@
+
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script src="/assets/js/lib/numeric.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$(".otherAmount").numeric();
+
+	var frequency = 'once';
+	$("input:radio[name=frequency]").click(function() {
+	    frequency = $(this).val();
+	});
+
+	$('.box-amount').click(function(e){
+		e.preventDefault();
+		$('.box-amount').removeClass('active');
+		$(this).addClass('active');
+		if ($('.box-amount.active').data('amount')=='other') {
+			$('.otherAmount').show();
+			$('#freq1').click();
+			$('.monthlychoice').hide();
+		} else {
+			$('.otherAmount').hide();
+			$('.monthlychoice').show();
+		}
+	});
+
+	var handler = StripeCheckout.configure({
+	  key: 'pk_test_CcJ5eDBc16xWScQJGMAHowdy',
+	  locale: 'auto'
+	});
+
+	$('.stripe-button-el').click(function(){
+		// get the current selected amount
+		var amount = $('.box-amount.active').data('amount');
+		if (amount=='other'){
+			amount = $('input.otherAmount').val()*100;
+		}
+
+	  	var token = function(res){
+	  		if ($('input#subscribeNewsletter').is(':checked')) {
+				$.ajax({
+		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email + 'frequency=Donation-' + frequency,
+		          type: 'post',
+		          data: {},
+		          error: function(data) {
+		            console.log("Ajax Error!");
+		          }
+		        }); // end ajax	  			
+	  		};
+		    $.ajax({
+	          url: 'https://aspiranet-payment.herokuapp.com/charge.php',
+	          type: 'post',
+	          data: {tokenid: res.id, email: res.email, donationAmt: amount, frequency: frequency},
+	          error: function(data) {
+	            console.log("Ajax Error!");
+	          }
+	        }); // end ajax
+		  };
+
+	  handler.open({
+	    amount:      amount,
+	    name:        'Donate to Aspiranet',
+	    description: 'Empower Children and Families',
+	    panelLabel:  'Donate',
+	    token:       token
+	  });
+
+	  return false;
+	});
+});
+
+</script>
+

@@ -1,51 +1,142 @@
+.find-a-program {
+  select {
+    padding: 10px;
+  }
+}
+#map-canvas, #panel { 
+  height: 500px; 
+  background: white;
+}
+#panel { 
+  width: 300px; 
+  float: left; 
+}
+@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+  .select-program {
+    select { 
+      width: 275px;
+    }
+  }
+} 
+@media screen and #{$brk-narrow} {
+  #panel {
+    width: 100%;
+    float: none;
+    height: 200px;
+    margin-top: 80px;
+  }
+  #map-canvas {
+    height: 300px;
+    margin-top: 10px;
+  }
+  .select-age {
+    width: 100%;
+    select {
+      width: 100%;
+    }
+  } 
+  .select-program select {
+    width: 100%;
+  }
+  .storelocator-panel .location-search {
+    width: 100% !important;
+    margin-top: -100px !important;
+      input {
+        width: 87.5% !important;
+        border-radius: 0 !important;
+      }
+  }   
+}
+#panel .feature-filter label { width: 130px; }
+p.attribution, p.attribution a { color: #666; }
+
+
 .storelocator-panel {
-  border: 1px solid #ccc;
+  border: 1px solid $grey-dark;
   overflow: auto;
 }
-
 .storelocator-panel .store-list {
   margin: 0;
   padding: 0;
+  .misc {
+    display: none;
+  }
 }
-
-.storelocator-panel .store-list li,
+.storelocator-panel .store-list li {
+  padding: 0 0 0 5px;
+  margin: 10px 0;
+  div.store {
+    padding: 10px;
+  }
+}
 .storelocator-panel .directions-panel {
   padding: 5px;
 }
 .storelocator-panel .directions-panel {
   font-size: 0.8em;
 }
-
 .storelocator-panel .store-list li.store:hover {
   cursor: pointer;
-  background: #eee;
 }
-
 .storelocator-panel .store-list li.highlighted,
 .storelocator-panel .store-list li.highlighted:hover {
-  background: #ccf;
+  border-left: 5px solid $orange;
+  border-radius: 2px;
+  div.store {
+    background: $blue;
+    color: white; 
+    .title, .address, .misc, .web {
+      color: white;
+    }
+    .web a, .action {
+      color: white;
+      text-decoration: underline;
+    }
+  }
 }
-
 .storelocator-panel .directions {
   display: none;
 }
-
 .storelocator-panel .location-search {
-  padding: 5px;
+  position: absolute;
+  margin-top: -120px;
+  p {
+    color: $blue-dark;
+    margin-bottom: 0;
+  }
+  input {
+    height: 42px;
+    width: 270px;
+    font-size: 16px;
+    padding: 0 5px;
+    font-family: $stack-serif;
+    color: $grey-darkest;
+    border-radius: 4px;
+    border: 1px solid $grey-dark;
+  }
 }
-
-.storelocator-panel .location-search input {
-  width: 95%;
+.filters-box {
+  margin-left: 290px;
+  @media screen and #{$brk-narrow} {
+    margin-left: 0;
+  }
 }
-
-.storelocator-panel .location-search h4 {
-  font-size: 0.8em;
-  margin: 0;
-  padding: 0;
+.select-program, .select-age {
+  display: inline-block;
+  border: none;
+  label {
+    color: $blue-dark;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and #{$brk-narrow} {
+    padding: 0;
+  }
 }
 
 .storelocator-panel .store-list .no-stores {
-  color: grey;
+  color: $grey-darkest;
 }
 
 .storelocator-panel .store .features {
@@ -65,24 +156,36 @@
 
 .store .title {
   font-weight: bold;
+  font-size: 18px;
+  color: $blue;
+  font-family: $stack-serif;
 }
+
+
 
 .store .address,
 .store .phone, 
 .store .web, 
 .store .misc { 
-  font-size: 80%; 
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   display: block; 
+  font-family: $stack-serif;
+  color: $blue-dark;
 }
 
+.store .misc {
+  margin-top: 30px;
+  p {
+    font-size: 14px;
+    font-family: $stack-serif;
+  }
+}
 .store .features {
   overflow: hidden;
-  color: grey;
+  color: $grey-dark;
   margin: 0;
   padding: 0;
-  font-size: 70%;
   max-width: 250px;
 } 
 
@@ -92,12 +195,18 @@
   padding-right: 0.8em;
 }
 
-.store .web a {
-  color: green
-}
 
 .store .action {
   font-size: 0.8em;
-  color: green;
+  color: $grey-darkest;
   margin-right: 0.5em;
+}
+.streetview, .directions {
+    display: none;
+}
+
+.store-list {
+  .address, .web, .web a {
+    color: #bebebe;    
+  }
 }

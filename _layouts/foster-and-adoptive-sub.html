@@ -1,0 +1,80 @@
+---
+layout: default
+---
+<div class="foster-and-adoptive-families">
+        <div class="individual-program grey">
+	<div class="blue program-title">
+		<div class="grid"> 
+			<h1>Foster and Adoptive Families </h1>
+		</div> 
+	</div>
+	<div class=" blue-dark program-subtitle">
+		<div class="grid">
+			<a href="/programs/foster-and-adoptive-families/"><p class="italic color-white">< Back to program overview</p></a>
+		</div>
+	</div>
+	<div class="white">
+	<div class="grid">
+		<ul class="tabs hide-on-mobile">
+			<li><a href="/programs/foster-and-adoptive-families/steps/" {% if page.url == "/programs/foster-and-adoptive-families/steps/" %} class='active' {% endif %}><p class="small caps">Steps</p></a></li>
+			<li><a href="/programs/foster-and-adoptive-families/requirements/" {% if page.url == "/programs/foster-and-adoptive-families/requirements/" %} class='active' {% endif %}><p class="small caps">Requirements</p></a></li>
+			<li><a href="/programs/foster-and-adoptive-families/faq/" {% if page.url == "/programs/foster-and-adoptive-families/faq/" %} class='active' {% endif %}><p class="small caps">FAQ</p></a></li>
+			<li><a href="/programs/foster-and-adoptive-families/locations/" {% if page.url == "/programs/foster-and-adoptive-families/locations/" %} class='active' {% endif %}><p class="small caps">Locations</p></a></li>
+			<li><a href="/programs/foster-and-adoptive-families/apply/" {% if page.url == "/programs/foster-and-adoptive-families/apply/" %} class='active' {% endif %}><p class="small caps">Apply</p></a></li>
+		</ul>
+		<!-- Mobile dropdown menu  -->
+		<select class="mobile-dropdown hide-on-desktop hide-on-tablet" onChange="window.location.href=this.value">
+			<option value="/programs/foster-and-adoptive-families/steps/" {% if page.url == "/programs/foster-and-adoptive-families/steps/" %} selected="selected" {% endif %}>Steps</option>
+			<option value="/programs/foster-and-adoptive-families/requirements/" {% if page.url == "/programs/foster-and-adoptive-families/requirements/" %} selected="selected" {% endif %}>Requirements</option>
+			<option value="/programs/foster-and-adoptive-families/faq/" {% if page.url == "/programs/foster-and-adoptive-families/faq/" %} selected="selected" {% endif %}>FAQ</option>
+			<option value="/programs/foster-and-adoptive-families/apply/" {% if page.url == "/programs/foster-and-adoptive-families/apply/" %} selected="selected" {% endif %}>Apply</option>
+		</select>
+		<!-- end mobile dropdown menu  -->
+	</div>
+	<div id="tab-1">
+		<div class="grid tab-content">
+			<div class="col-8-12 color-blue-dark">
+				{{content}}
+			</div>
+			{% include foster-and-adoptive-sidebar.html %}
+		</div>
+	</div>
+</div> 
+	
+	
+	<section class="blue-dark text-center fast-facts">
+		<div class="grid">
+			<h3>Fast Facts</h3>
+			<div class="col-1-3">
+				<h1 class="color-orange">90</h1>
+				<p class="round">The number of Californian children per day entering foster care </p>
+			</div>
+			<div class="col-1-3">
+				<h1 class="color-orange">50,000</h1>
+				<p class="round">The number of Californian children in foster care </p>
+			</div>
+			<div class="col-1-3">
+				<h1 class="color-orange">2,000</h1>
+				<p class="round">Since 1999, the number of children Aspiranet transitioned from foster care to adoption</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="col-11-12 center orange text-center block-overlap">
+		<div>
+			<h4 class="round no-margin-top">How you can help</h4>
+			<h4 class="col-7-12 center">Thousands of children in California are in need of a forever family. Can you offer a child a safe and loving home? </h4>
+		</div>
+		
+			<p class="button"><a class="transparent" href="/programs/foster-and-adoptive-families/apply">I'd like to provide a home for a child</a></p>
+		
+			<p class="button"><a class="orange" href="/donate">Donate</a></p>
+	</section>
+	
+	<section>
+		<!-- <h3 class="text-center">More programs</h3> -->
+		<!-- Slider with all other programs goes here -->
+	</section>
+</div>
+      </div>

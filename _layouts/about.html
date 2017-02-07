@@ -2,125 +2,150 @@
 layout: default
 ---
 
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings section-photo">
-	<div class="grid">
-		<h1 class="color-white">About Aspiranet</h1>
-		<h3 class="color-blue">Hope forward</h3> 
+<div class="remodal" data-remodal-id="modal">
+	<button data-remodal-action="close" class="remodal-close"></button>
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/bko62Sd9XMc" frameborder="0" allowfullscreen></iframe>
+	<br>  
+</div>
+
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeroImage.url  }}');" class="img-settings hero-img">
+	<div class="grid hide-on-mobile hide-on-tablet">
+		<div class="col-5-12 color-blue tablet-col-1-2">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeaderText | markdownify}}
+		</div>
 	</div>
 </section>
 
 <section class="blue">
 	<div class="grid">
 		<div class="col-8-12 center text-center">
+			<h1 class="color-white hide-on-desktop">About Aspiranet</h1>
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutHeader | markdownify}}
 		</div>
 	</div>
 </section>
 
 <section>
-	<div class="grid">
-		<div class="col-5-12 color-blue">
+	<div class="grid our-vision">
+		<div class="col-5-12 color-blue tablet-col-1-2">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutVision | markdownify}}
 		</div>
-		<div class="col-1-2 push-1-12">
-			<img src="/assets/img/placeholder.png" width="100%;">
+		<div class="col-1-2 push-1-12 tablet-col-1-2">
+			<a href="#" id="modal">
+				<img src="/assets/img/video-1.jpg" width="100%;">
+			</a>
 		</div>
 	</div>
 </section>
 
-<section style="background-image: url('/assets/img/placeholder.png');" class="img-settings">
-	<div class="grid center-vertical">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutOurMissionImage.url  }}');" class="img-settings section-photo center-vertical">
+	<div class="grid hide-on-mobile hide-on-tablet">
 		<div class="col-1-2">
 			&nbsp;
 		</div>
-		<div class="col-5-12 color-white">
+		<div class="col-5-12 color-white push-1-12">
+			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
+		</div>
+	</div>
+</section> 
+<section class="blue hide-on-desktop">
+	<div class="grid">
+		<div class="color-white text-center">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
 		</div>
 	</div>
 </section>
+<div class="section grey">
+	<h1 class="color-blue text-center no-margin" style="padding-top:40px;padding-bottom: 20px;">Our Values</h1>
+</div>
+<div class="value-container grey"> 
+	<div class="grid">
+    <div class="value-item col-1-2 value-orange">
+		<h3 class="orange no-margin">Respect</h3>
+		<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect}}</p>
+		<div class="hover">
+			<p>Read stories related to Respect</p>
+			<p class="button"><a class="transparent" href="/blog-category/respect">Visit blog</a></p>
+		</div>
+    </div>
+    <div class="value-item col-1-2 value-green">
+		<h3 class="green no-margin">Integrity</h3>
+		<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity}}</p>
+		<div class="hover">
+			<p>Read stories related to Integrity</p>
+			<p class="button"><a class="transparent" href="/blog-category/integrity">Visit blog</a></p>
+		</div>
+    </div>
+    </div>
+</div>
+<div class="value-container grey">
+	<div class="grid">
+    <div class="value-item col-1-2 value-blue">
+			<h3 class="blue no-margin">Courage</h3>
+			<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage}}</p>
+			<div class="hover">
+				<p>Read stories related to Courage</p>
+				<p class="button"><a class="transparent" href="/blog-category/courage">Visit blog</a></p>
+			</div>
+    </div>
+    <div class="value-item col-1-2 value-yellow">
+			<h3 class="yellow no-margin">Hope</h3>
+			<p class="nohover">{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope}}</p>
+			<div class="hover">
+				<p>Read stories related to Hope</p>
+				<p class="button"><a class="transparent" href="/blog-category/hope">Visit blog</a></p>
+			</div>
+    </div>
+    </div>
+</div>
 
-<section class="grey">
+<section class="blue leadership" id="leadership">
 	<div class="grid">
-		<div class="col-1-3 text-center">
-			<h2 class="orange no-margin">Respect</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValuesRespect}}</p>
-		</div>
-		<div class="col-1-3 text-center push-right">
-			<h2 class="green no-margin">Integrity</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueIntegrity}}</p>
-		</div>
+		<h1 class="round text-center no-margin-top">Our Leadership</h1>
+		<p class="round text-center no-margin-bottom color-blue-dark">Senior Executives</p>
+	</div>
+	<div class="grid heads">
+    	{% assign sorted_senior_executives = site.data.contentful.spaces.proddata.seniorExecutive | sort:"order" %}
+    	{% assign SeniorCount = 0 %}
+      	{% for senior_executive in sorted_senior_executives %}
+      		{% assign SeniorCount = SeniorCount | plus: 1 %}
+      		
+      		<div class="col-1-3">
+      			<a href="/senior-executive/{{senior_executive.desiredUrl}}">
+	      			<p class="small caps text-center"><strong>{{senior_executive.name}}</strong></p>
+      			<p class="italic text-center no-margin-top position">{{senior_executive.position}}</p>
+      			</a>
+      		</div>
+
+			{% if SeniorCount == 3 %}
+      			</div>
+      			<div class="grid heads">
+      			{% assign SeniorCount = 0 %}
+      		{% endif %}
+      	{% endfor %}
 	</div>
 	<div class="grid">
-		<div class="col-1-3 center">
-			<img src="/assets/img/placeholder.png" width="100%">
-		</div>
+		<p class="round text-center no-margin-bottom color-blue-dark">Division Directors</p>
 	</div>
-	<div class="grid">
-		<div class="col-1-3 text-center">
-			<h2 class="blue no-margin">Courage</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueCourage}}</p>
-		</div>
-		<div class="col-1-3 text-center push-right">
-			<h2 class="yellow no-margin">Hope</h1>
-			<p>{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutValueHope}}</p>
-		</div>
+	<div class="grid heads">
+    	{% assign sorted_division_heads = site.data.contentful.spaces.proddata.divisionHeads | sort:"order" %}
+    	{% assign DivisionCount = 0 %}
+      	{% for division_head in sorted_division_heads %}
+      		{% assign DivisionCount = DivisionCount | plus: 1 %}
+      		
+      		<div class="col-1-3">
+      			<a href="/division-heads/{{division_head.desiredUrl}}">
+	      			<p class="small caps text-center">{{division_head.name}}</p>
+	      			<p class="italic text-center no-margin-top position">{{division_head.position}}</p>
+      			</a>
+      		</div>
+
+      		{% if DivisionCount == 3 %}
+      			</div>
+      			<div class="grid heads">
+      			{% assign DivisionCount = 0 %}
+      		{% endif %}
+      	{% endfor %}
 	</div>
 </section>
-
-
-<section>
-	<div class="grid color-blue-dark">
-		<h3 class="no-margin-bottom">Our Leadership</h3>
-		<h1 class="no-margin-top">Senior Executives</h1>
-		
-			<div class="grid">
-		    	{% assign sorted_senior_executives = site.data.contentful.spaces.proddata.seniorExecutive | sort:"order" %}
-		      	{% for senior_executive in sorted_senior_executives %}
-		      		
-		      		<div class="col-1-3">
-		      			<img src="/assets/img/placeholder.png" width="100%">
-		      			<p class="round text-center no-margin-bottom">{{senior_executive.name}}</p>
-		      			<p class="round text-center no-margin-top">{{senior_executive.position}}</p>
-		      		</div>
-
-		      	{% endfor %}
-			</div>
-	</div>
-
-	<div class="grid color-blue-dark">
-		<h1>Division Heads</h1>
-		
-		<div class="grid">
-		    	{% assign sorted_division_heads = site.data.contentful.spaces.proddata.divisionHeads | sort:"order" %}
-		      	{% for division_head in sorted_division_heads %}
-		      		
-		      		<div class="col-1-3">
-		      			<img src="/assets/img/placeholder.png" width="100%">
-		      			<p class="round text-center no-margin-bottom">{{division_head.name}}</p>
-		      			<p class="round text-center no-margin-top">{{division_head.position}}</p>
-		      		</div>
-
-		      	{% endfor %}
-			</div>
-	</div>
-</section>
-
-<section class="grey">
-	<div class="grid">
-		<h3 class="blue text-center">Provide a child with the love and support to thrive</h3>
-		<section>
-			<div class="col-1-3 text-center">
-				<img src="/assets/img/placeholder.png" width="20%" class="center">
-				<p class="button"><a href="/donate">Donate &#62;</a></p>
-			</div>
-			<div class="col-1-3 text-center">
-				<img src="/assets/img/placeholder.png" width="20%" class="center">
-				<p class="button"><a href="/careers">Join our team &#62;</a></p>
-			</div>
-			<div class="col-1-3 text-center">
-				<img src="/assets/img/placeholder.png" width="20%" class="center">
-				<p class="button"><a href="">Become a Foster or Adoptive Family &#62;</a></p>
-			</div>
-		</section>
-	</div>
-</section>
+{% include donate-ctas.html %}

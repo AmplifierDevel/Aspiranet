@@ -6,7 +6,8 @@ function MedicareDataSource() {
 MedicareDataSource.prototype.getStores = function(bounds, features, callback) {
   var that = this;
 
-  $.getJSON( "../../assets/data/program-data.json", function( data ) {
+  $.getJSON( "../../assets/data/program_data.json", function( data ) {
+
     var stores = that.parse_(data);
     callback(stores);
   });
@@ -24,22 +25,63 @@ MedicareDataSource.prototype.getFeatures = function() {
 
 
 MedicareDataSource.prototype.parse_ = function(json) {
-  var stores = [];
+  var stores = [],
+      programs = [],
+      uniquePrograms = [],
+      filterByProgram = false;
+
+  marked.setOptions({
+    renderer: new marked.Renderer(),
+    gfm: true,
+    tables: true,
+    breaks: true, 
+    sanitize: false
+  });
+
+    if(document.getElementById('programSelect').value != "") {
+       filterByProgram = true;
+    }
 
   json.items.forEach(function(item){
+
     var features = new storeLocator.FeatureSet;
     // features.add(this.FEATURES_.getById('Program-Residential'));
     var position = new google.maps.LatLng(item.fields.location.lat,
                                           item.fields.location.lon);
-
+  
 
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
-      address: item.fields.hrsOfBusiness,
-      hours: item.fields.hrsOfBusiness
+      address: item.fields.addressAsText + `<br/>` + (item.fields.phoneText || '') + 
+        `<br/><br/><a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
+        `Directions</a>`,
+      misc: `<strong>Available Services:</strong><br/>` + 
+        marked(item.fields.programAndAgeGroupAsText || ''),
+      web: '',
     });
-    stores.push(store);
+
+
+    // Add all programs
+    if (item.fields.program) {
+    addAllItemsToArray(item.fields.program, programs);
+    }
+    // remove dupplicates
+    $.each(programs, function(i, el){
+      if($.inArray(el, uniquePrograms) === -1) uniquePrograms.push(el);
+    });
+
+    if (filterByProgram && !item.fields.program.includes(document.getElementById('programSelect').value)){
+      return;
+    }
+
+
+    stores.push(store);      
+
   });
+
+    if ($('#programSelect option').length == 1){
+      populateArray(uniquePrograms.sort(), $('#programSelect'));      
+    }
   
   return stores;
 };
@@ -56,4 +98,28 @@ storeLocator.FeatureSet.prototype.getById = function(featureId) {
     return this.array_[this.hash_[featureId]];
   }
   return null;
+};
+
+
+function populateArray(array, selectElement) {
+      var opt = document.createElement("option");
+       opt.value = "";
+       opt.innerHTML = "All";
+    selectElement.append(opt);
+
+    // Populate select
+    array.forEach(function(item){
+       var opt = document.createElement("option");
+       opt.value = item;
+       opt.innerHTML = item; // whatever property it has
+
+       // then append it to the select element
+       selectElement.append(opt);
+    });
+};
+
+function addAllItemsToArray(items, array){
+  items.forEach(function(item){
+      array.push(item);
+    });
 };

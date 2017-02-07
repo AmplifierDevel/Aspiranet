@@ -1,0 +1,32 @@
+.bg-map {
+	background-color: $blue; 
+	background-image: url('/assets/img/aspiranet_map.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: 110% 50%;
+	@media screen and #{$brk-narrow} {
+		background-image: none;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		background-position: 378px -9px;
+    	background-size: 76%;
+	} 
+	@media screen and (min-width: 900px) and (max-width: 1022px) {
+		background-position: 456px;
+    	background-size: 63%;
+	}
+	@media screen and #{$brk-wide-min} and (max-width: 1160px) {
+		background-position: 139% 50%;
+	}
+}
+.our-approach {
+	.cta-join-team {
+		text-align: center;
+		@media screen and #{$brk-wide} {
+			text-align: left;
+			.button {
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}

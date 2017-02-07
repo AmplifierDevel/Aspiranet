@@ -1,0 +1,86 @@
+.donate {
+	.hero-img {
+		.grid {
+			padding-top: 12em;
+		}
+	}
+	label {
+		margin-right: 1.5em;
+		font-family: $stack-serif;
+		cursor: pointer;
+	}
+}
+.donate-content {
+	margin-top: -7em;
+    position: relative;
+    @media screen and #{$brk-wide} {
+    	margin-top: 0;
+    }
+}
+.donate-form {
+	border-radius: 4px;
+	padding: 2em;
+	position: relative;
+    z-index: 20;
+	@media screen and #{$brk-wide} {
+		padding: 20px 0;
+ 	}
+}
+.donate-nav {
+	ul {
+		padding-left: 0;
+		border-bottom: 1px solid $grey-darkest;
+		li {
+			display: inline-block;
+			margin-right: 13.8%;
+			padding-bottom: 1em;
+			&.active {
+				border-bottom: 3px solid $orange;
+				a {
+					color: $blue-dark;
+				}
+			}
+			a {
+				color: $grey-darkest;
+			}
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
+.radio-btns {
+	p, label, input {
+		display: inline-block;
+	}
+	label {
+		font-family: $stack-serif-light;
+	}
+}
+.subscribe {
+	margin-top: 20px;
+	label {
+		font-family: $stack-serif-light;
+	}
+}
+.other-amount {
+	display: inline-block;
+	input {
+		border: 1px solid $grey-darkest;
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+	.box-amount {
+		padding: 10px 0;
+		border: none;
+		&.active {
+			margin-top: 1.5em;
+		}
+	}
+}
+
+@media screen and #{$brk-wide} {
+	.box-amount {
+		margin-top: 10px;
+	}
+}

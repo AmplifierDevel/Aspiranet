@@ -1,13 +1,26 @@
 // Colors
-$blue: 			#49b4d6;
-$blue-dark: 	#165376;
-$yellow:		#ffc05d;
-$orange:		#ff5a38;
-$green:			#6aceb6;
-$purple-light:	#db8ac2;
-$purple-dark:	#7e4f85;
-$grey 		:	#F8F8F7;
-$pink 		: 	#CA8ABC;
+$blue         : #459BBC;
+$blue-dark    : #165376;
+$blue-hover   : #32c5ed; 
+$yellow       :	#ffc05d;
+$orange       :	#ff5a38;
+$green        :	#6aceb6;
+$pink-light :	#db8ac2;
+$purple-dark  :	#6d5593;
+$grey 		  :	#F8F8F7;
+$pink 		  : #CA8ABC;
+$mint 		  : #70c7b2;
+$mint-light	  : #5bb69e;
+$red-dark	  : #d54131;
+$yellow-dark  : #eca957;
+$purple-light : #78649f;
+ 
+//Used in blog
+$grey-dark 	  : #ecebeb;
+//Used on contact page
+$grey-darkest : #bebebe;
+//ised in program landing see if applicable on other pages
+$blue-marin   : #107395;
 
 @font-face {
 	font-family: TTRounds;
@@ -18,11 +31,15 @@ $pink 		: 	#CA8ABC;
 	font-family: KlinicSlab;
 	src: url("/assets/fonts/KlinicSlabMedium.otf") format("opentype");
 }
+@font-face {
+	font-family: KlinicSlabLight;
+	src: url("/assets/fonts/KlinicSlabLight.otf") format("opentype");
+}
 
 // Font Stacks
 $stack-serif			: 'KlinicSlab', Times, serif;
 $stack-sans-serif 		: 'TTRounds', Helvetica, sans-serif;
-
+$stack-serif-light		: 'KlinicSlabLight', Times, serif;
 $assets-path			: '/assets/img/';
 
 // Mixins
@@ -38,7 +55,8 @@ $assets-path			: '/assets/img/';
  $brk-narrow 	: '(max-width: 767px)';
  $brk-wide 		: '(max-width: 1023px)';
  $brk-tablet-min: '(min-width: 768px)';
-
+ $brk-wide-min	: '(min-width: 1024px)';
+ $brk-big-max	: '(max-width: 1440px)';
 
 // Helpers
 
@@ -50,10 +68,10 @@ $assets-path			: '/assets/img/';
 }
 
 .no-margin-top {
-	margin-top: 0;
+	margin-top: 0 !important;
 }
 .no-margin-bottom {
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
 
 .center {

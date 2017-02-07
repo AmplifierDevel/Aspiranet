@@ -22,7 +22,7 @@ body {
 }
 
 .menu-icon {
-	display: none;
+	display: none; 
 }
 
 .grid {
@@ -46,7 +46,7 @@ body {
 }
 
 .push-right { 
-	float: right;
+	float: right !important;
 }
 
 /* Content Columns */
@@ -175,14 +175,18 @@ body {
 .push-1-12 {
 	margin-left: 8.33%
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and #{$brk-wide-min} {
 	.hide-on-desktop {
 		display: none !important;
 	}
 }
-
-@media handheld, only screen and #{$brk-narrow} {
-	
+@media only screen and #{$brk-big-max} {
+	.grid {
+		padding-left: 20px; 
+		padding-right: 20px; 
+	}
+}
+@media handheld, only screen and #{$brk-wide} {
 	.hide-on-desktop {
 		display: block !important;
 	}
@@ -289,7 +293,8 @@ body {
 	.mobile-col-7-12 {
 		width: 58.33%
 	}
-
+}
+@media handheld, only screen and #{$brk-narrow} {
 	.hide-on-mobile {
 		display: none !important;
 		width: 0;
@@ -297,10 +302,10 @@ body {
 	}
 }
 
-
 @media handheld, only screen and #{$brk-tablet-min} and #{$brk-wide} {
 	.tablet-col-1-3 {
 		width: 33.33%;
+		float: left;
 		&:nth-of-type(3) {
 			padding-right: 0;
 		}
@@ -317,6 +322,13 @@ body {
 	}
 	.tablet-col-1-40 {
 		width: 40%;
+	}
+	.tablet-col-1-2 {
+		width: 50%;
+		float: left;
+		&:nth-of-type(2) {
+			padding-right: 0;
+		}
 	}
 }
 

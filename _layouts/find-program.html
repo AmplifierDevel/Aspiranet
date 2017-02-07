@@ -1,47 +1,44 @@
 ---
-layout: default                 
----   
-<style>   
-      #map-canvas, #panel { height: 500px; }
-      #panel { width: 300px; float: left; }
-      #panel .feature-filter label { width: 130px; }
-      p.attribution, p.attribution a { color: #666; }
-</style> 
-    
-<section class="no-padding-top">
-	<div class="grid"> 
-		<h1>Program Locator</h1> 
+layout: default                    
+---
+
+<section class="blue text-center">
+{% if site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle %}
+  <div class="grid">
+    <div class="col-1-2 center tablet-col-1-2">
+      <h1>{{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageTitle }}</h1>
+      {{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText | markdownify }}
+    </div>
+  </div>
+{% else %}
+  <div class="grid">
+    <div class="col-1-2 center tablet-col-1-2">
+      <h1>Find a Program or Service</h1>
+      {{ site.data.contentful.spaces.proddata.rootWebsite[0].findAProgramPageText | markdownify }}
+    </div>
+  </div>
+{% endif %}
+</section> 
+
+<section class="grey section-short">
+	<div class="grid">  
+    <div class="filters-box">
+      <fieldset class="select-program">
+        <label for="programSelect"><p>Select a program</p></label>
+        <select name="select" id="programSelect"> 
+              <option value="" selected=""><p>Select a program</p></option> 
+        </select>
+      </fieldset>
+      </div> 
+      <div style="clear:both;">
+      <br/>
 		<div id="panel"></div>
 		<div id="map-canvas"></div>
-	</div>
+	</div> 
 </section>
 
-
 <script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCkqEvtASd6ZH3A_wqb9YpH7_W7cABVRGI"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script src="/assets/js/lib/marked.js"></script>
 <script src="/assets/js/lib/store-locator.min.js"></script>
 <script src="/assets/js/lib/store-locator-custom.js"></script>
-
-<script type="text/javascript">
-google.maps.event.addDomListener(window, 'load', function() {
-  var map = new google.maps.Map(document.getElementById('map-canvas'), {
-    center: new google.maps.LatLng(35.1200549, -120.61598019999997),
-    zoom: 6,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  });
-
-  var panelDiv = document.getElementById('panel');
-
-  var data = new MedicareDataSource;
-
-  var view = new storeLocator.View(map, data, {
-    geolocation: false,
-    features: data.getFeatures()
-  });
-
-  new storeLocator.Panel(panelDiv, {
-    view: view
-  });
-});
-
-</script>
+<script src="/assets/js/find-program.js"></script>

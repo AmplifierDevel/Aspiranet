@@ -4,64 +4,160 @@ h1 {
 	font-weight: 900;
 	font-size: 36px; //45px 
 	line-height: 1.5;
+	letter-spacing: 1px;
+	@media screen and #{$brk-narrow} {
+		font-size: 23px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		font-size: 30px;
+	}
 } 
-
 // Display Text
 h2 {
 	font-family: $stack-sans-serif;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 1.5;
+	@media screen and #{$brk-narrow} {
+		font-size: 18px;
+	}
 }
-
 h3 {
 	font-size: 27px; //36px
-}
-h4 {
-	font-size: 22px; //24px
-	line-height: 1.5;
-}
-h3 {
 	font-family: $stack-sans-serif;
 	font-weight: 400;
 	line-height: 1.5;
     letter-spacing: 1px;
+	@media screen and #{$brk-wide} {
+		font-size: 21px;
+	}
 }
-h4, p, a, ul, li {
-	font-family: $stack-serif;
+h4 {
+	font-size: 22px; //24px
+	line-height: 1.5;
+	@media screen and #{$brk-wide} {
+		font-size: 18px;
+	}
+}
+h4.round {
+	font-family: $stack-sans-serif;
+	font-size: 22px; //24px
+	@media screen and #{$brk-wide} {
+		font-size: 18px;
+	}
+}
+h4.italic, p.italic {
+	font-style: italic;
+}
+h5 {
+	font-size: 26px;
+	@media screen and #{$brk-wide} {
+		font-size: 20px;
+	}
+}
+h4, h5, p, a, ul, li {
+	font-family: $stack-serif-light;
 	font-weight: 400;
 }
 .caps {
 	text-transform: uppercase;
 	font-family: $stack-sans-serif;
 	font-weight: 400;
+	letter-spacing: 1.4px;
 }
 
 //Body 
 p {
 	font-size: 18px;
 	line-height: 1.7;
+	@media screen and #{$brk-narrow} {
+		font-size: 16px;
+	}
+	&.round {
+		font-family: $stack-sans-serif;
+		font-size: 18px;
+		@media screen and #{$brk-narrow} {
+			font-size: 14px;
+		}
+	}
+	&.small {
+		font-size: 12px;
+	}
+	&.bold {
+		font-family: $stack-serif;
+	}
 }
-
-p.round {
-	font-family: $stack-sans-serif;
-	font-size: 18px;
-}
-
-p.small {
-	font-size: 12px;
-}
-
 a {
 	color: $blue-dark;
 	text-decoration: none;
+	p {
+		&.color-blue:hover {
+			color: $blue-hover;
+		}
+	}
 }
-
+p.italic a {
+	&:hover {
+		color: $blue-hover;
+		text-decoration: underline;
+	}
+}
 h1,h2,h3,h4,h5,h6,p,li,a {
-	&.blue {color:$blue}
-	&.blue-dark {color:$blue-dark}
-	&.green {color:$green}
-	&.orange {color:$orange}
-	&.yellow {color:$yellow}
-	&.pink {color: $pink}
+	&.blue {
+		color:$blue;
+		&:hover {
+			color: lighten($blue, 10%);
+		}
+	}
+	&.blue-dark {
+		color:$blue-dark;
+		&:hover {
+			color: lighten($blue-dark, 10%);
+		}
+	}
+	&.green {
+		color:$green;
+		&:hover {
+			color: lighten($green, 10%);
+		}
+	}
+	&.orange {
+		color:$orange;
+		&:hover {
+			color: lighten($orange, 10%);
+		}
+	}
+	&.yellow {
+		color:$yellow;
+		&:hover {
+			color: lighten($yellow, 10%);
+		}
+	}
+	&.pink {
+		color: $pink;
+		&:hover {
+			color: lighten($pink, 10%);
+		}
+	}
+	&.grey {
+		color: $grey-darkest;
+		&:hover {
+			color: lighten($grey-darkest, 10%);
+		}
+	}
+	&.color-purple-dark, &.purple-dark {
+		color: $purple-dark;
+		&:hover {
+			color: lighten($purple-dark, 10%);
+		}
+	}
+	&.mint {
+		color: $mint;
+		&:hover {
+			color: lighten($mint, 10%);
+		}
+	}
+	&.blue-light {
+		color: $blue-hover;
+	}
 }

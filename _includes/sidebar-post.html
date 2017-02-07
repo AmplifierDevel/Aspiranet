@@ -1,0 +1,35 @@
+<div class="col-4-12">
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort:"date" %}
+
+    {% if page.contentful_fields.author %}
+    <div class="color-blue-dark">
+        <p class="caps small round">This post</p>
+        <p class="small round">{{ page.contentful_fields.link.updatedAt.date | date: "%a, %b %d, %Y" }}</p>
+        <p class="small round">Written by: &nbsp; {{ page.contentful_fields.author }}</p>
+    </div>
+    {% endif %}
+    <div class="color-blue-dark blog-categories border-left">
+        <p class="caps small round">Categories</p>
+        <ul class="no-padding">
+            <li {% if page.url == '/blog/' %} class='category-active color-blue' {% endif %}><a href="/blog"><p class="{% if page.url == '/blog/' %} color-blue {% endif %}">All</p></a></li>
+            {% for blogpost in sorted_news %}
+                {% for category in blogpost.category %}
+                    {% assign currentCategory = category %}
+                        <li {% if currentBlogpost.category == currentCategory %} class='category-active' {% endif %}><a href="/blog/category/{{ category | slugify }}/"><p class="{% if currentBlogpost.category == currentCategory %} color-blue {% endif %}">{{ category }}</p></a></li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="color-blue-dark blog-tags border-left">
+        <p class="caps small round">Tags</p>
+        <ul>
+        {% for tag in page.contentful_fields.tags %}
+            <li>
+                <a href="/blog/tag/{{ tag | slugify }}">
+                    <p><span>#</span>{{ tag }}</p>
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

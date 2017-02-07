@@ -2,30 +2,47 @@
 layout: default
 ---
 
-<section>
+<div class="hide-on-tablet hide-on-mobile hero-img img-settings" style="background-image: url('https://images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg');">
 	<div class="grid">
-		<h1>Give Love and Support. Give to Aspiranet</h1>
-		<p>When children and families have access to the support and resources they need, there’s no limit to what they can accomplish.</p>
-    	
-    	{% include donateForm.html %}
+		<div class="push-right col-1-2 no-padding">
+    		{% include donateForm.html %}
+			<!-- donation form  --> 
+		</div>
+	</div>
+</div>
+
+<!-- mobile donate form -->
+<div class="hide-on-desktop">
+	<img src='https://images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg' style="width: 100%;" />
+	<div class="grid">
+		{% include donateForm.html %}
 		<!-- donation form  --> 
 	</div>
-</section>
+</div>
+<!-- end mobile donate form -->
 
-<section class="grey">
+<section class="donate-content blue" style="padding: 40px 0;">
+	<div class="grid">
+		<div class="col-1-2 text-center">
+			<h3>When children and families have access to the support and resources they need, there’s no limit to what they can accomplish.</h3>
+			<img src="/assets/img/aspiranet-logo-white.svg" width="150px">
+		</div>
+	</div>
+</section>
+<section class="grey section-short">
 	<div class="grid text-center">
-		<h2 class="blue">Your generous donation will:</h2>
-		<div class="col-1-3">
-			<img src="/assets/img/placeholder.png" width="100%;">
-			<p>Provide children with a safe and loving home</p>
+		<h2 class="color-blue">Your generous donation will:</h2>
+		<div class="col-1-4" style="margin-left: 5%;">
+			<img src="/assets/img/House.svg" width="100px">
+			<p class="color-blue">Provide children with a safe and loving home</p>
 		</div>
-		<div class="col-1-3">
-			<img src="/assets/img/placeholder.png" width="100%;">
-			<p>Give children and families the resources they need to thrive</p>
+		<div class="col-1-4 push-1-12">
+			<img src="/assets/img/Heart.svg" width="100px">
+			<p class="color-blue">Give children and families the resources they need to thrive</p>
 		</div>
-		<div class="col-1-3">
-			<img src="/assets/img/placeholder.png" width="100%;">
-			<p>Empower children and families with services to succeed at home, school and in their communities</p>
+		<div class="col-1-4 push-1-12">
+			<img src="/assets/img/Book.svg" width="100px">
+			<p class="color-blue">Empower children and families to succeed at home, school and in their communities</p>
 		</div>
 	</div>
 	
