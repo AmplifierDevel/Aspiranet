@@ -120,24 +120,17 @@ It is also possible to trigger the build directly from the Netlify interface und
 ### Payment processing
 Heroku is hosting the PHP file processing payments on the server side.
 To install a local copy
+
 1. Download and install the Heroku CLI.
 2. If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
-
-`heroku login`
-
+  * `heroku login`
 3. Clone the repository
-
-`heroku git:clone -a aspiranet-payment`
-
-`cd aspiranet-payment`
-
+  * `heroku git:clone -a aspiranet-payment`
+  * `cd aspiranet-payment`
 4. Deploy your changes
-
-`git add .`
-
-`git commit -am "make it better"`
-
-`git push heroku master`
+  * `git add .`
+  * `git commit -am "make it better"`
+  * `git push heroku master`
 
 ## Credits
 
