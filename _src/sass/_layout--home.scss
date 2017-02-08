@@ -113,6 +113,17 @@
 
 }
 .latest-front {
+	.blue-dark {
+		h3 {
+			color: $orange;
+		}
+	}
+	.yellow, .overlay-yellow {
+		.button a.transparent {
+			color: $blue-dark;
+			border: 1px solid $blue-dark;
+		}
+	}
 	.col-1-3 {
 		padding-right: 0;
 		height: 303px;
