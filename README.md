@@ -121,7 +121,7 @@ It is also possible to trigger the build directly from the Netlify interface und
 Heroku is hosting the PHP file processing payments on the server side.
 To install a local copy
 
-1. Download and install the Heroku CLI.
+1. Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line).
 2. If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
   * `heroku login`
 3. Clone the repository
