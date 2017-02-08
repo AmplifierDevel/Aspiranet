@@ -75,8 +75,10 @@ This website is interacting with the following systems:
 - APIs [Zapier](https://www.zapier.com)
 - Events [Eventbrite](https://www.eventbrite.com)
 - Payments [Stripe](https://www.stripe.com)
+- Server Side Payment processing [Heroku](https://dashboard.heroku.com/)
 - Tweets [Twitter](https://www.twitter.com)
 - Customer Relationship Management [Act-On](https://www.act-on.com/)
+
 
 ## Installation
 1. Clone this repository
@@ -114,6 +116,28 @@ It is triggered automatically by:
 - Pushing a git commit to the repository
 
 It is also possible to trigger the build directly from the Netlify interface under *Deploys > Trigger Build*
+
+### Payment processing
+Heroku is hosting the PHP file processing payments on the server side.
+To install a local copy
+1. Download and install the Heroku CLI.
+2. If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+`heroku login`
+
+3. Clone the repository
+
+`heroku git:clone -a aspiranet-payment`
+
+`cd aspiranet-payment`
+
+4. Deploy your changes
+
+`git add .`
+
+`git commit -am "make it better"`
+
+`git push heroku master`
 
 ## Credits
 
