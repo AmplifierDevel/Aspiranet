@@ -1,41 +1,26 @@
 ---
 layout: default 
 --- 
-<section class="blue non-snap">      
+{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+<section class="blue-marin program-item programs-sub center-vertical">      
 	<div class="grid text-center">  
-		<div class="col-1-2 center tablet-col-1-2">
+		<div class="col-1-2 center tablet-col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify }}
 		</div>
 	</div>
-</section>
-
-<div class="blue-marin programs-nav hide-on-mobile hide-on-tablet programFixedNav non-snap">
-	<div class="grid">
-		{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
-			{% for program in sorted_programs %}
-			
-			<div class="col-1-6 text-center"><a href="#{{ program.title | slugify }}"><p class="caps small color-white">{{ program.title }}</p></a></div>
-		{% endfor %}
+	<div class="programs-nav hide-on-mobile hide-on-tablet programFixedNav non-snap">
+		<div class="grid">
+				{% for program in sorted_programs %}
+				<div class="col-1-6 text-center program-nav-item"><a href="#{{ program.title | slugify }}"><p class="caps small color-white">{{ program.title }}</p></a></div>
+			{% endfor %}
+		</div>
 	</div>
-</div>
-
-<!-- Nav phantom. Used to make transition to fixed nav smooth  -->
- <div class="blue-marin programs-nav hide-on-mobile hide-on-tablet programFixedNavPhantom">
-  	<div class="grid">
-  		{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
-  			{% for program in sorted_programs %}
-		<div class="col-1-6 text-center"><a href="#{{ program.title | slugify }}"><p class="caps small color-white">{{ program.title }}</p></a></div>
-  		{% endfor %}
-  	</div>
- </div>
-<!-- end of nav phantom  -->
-
+</section>
 <div class="programsWrapper">
-{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
 	{% for program in sorted_programs %}
 	{% assign mod = forloop.index | modulo: 2 %}
 
-	<section style="background-image: url('{{ program.photoLanding.url }}');" class="img-settings center-vertical program-item active" id="{{ program.title | slugify }}">
+	<section style="background-image: url('{{ program.photoLanding.url }}');" class="img-settings center-vertical program-item" id="{{ program.title | slugify }}">
 		<div class="grid hide-on-tablet hide-on-mobile">
 			<div class="col-1-3 program-blurb {% if mod == 0 %} push-right {% endif %}">
 				<div class="blurb-color-block {{ program.programColor }}">

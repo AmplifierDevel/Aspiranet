@@ -1,61 +1,75 @@
 .programs-nav {
 	padding: 20px 0;
+	height: 100px;
 	.col-1-6 {
 		padding: 0 1.6%;
 	}
 }
 .programFixedNav {
 	z-index: 20;
+	background-color: lighten($blue-marin, 10%);
 	@include transition(.2s);
-	position: static;
+	bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 	&.fixed {
 	    position: fixed;
 	    top: 100px;
 	    left: 0;
 	    right: 0;
+	    z-index: 30;
+	}
+	.program-nav-item {
+		a p {
+			height: 42px;
+		}
+		&:first-of-type a:after {
+			background-color: $pink-light;
+		}
+		&:nth-of-type(2) a:after {
+			background-color: $purple-light;
+		}
+		&:nth-of-type(3) a:after {
+			background-color: $mint;
+		}
+		&:nth-of-type(4) a:after {
+			background-color: $red-dark;
+		}
+		&:nth-of-type(5) a:after {
+			background-color: $yellow;
+		}
+		&:nth-of-type(6) a:after {
+			background-color: $blue-dark;
+		}
+		a.active:after {
+	    	content: '';
+			height: 5px;
+			border-radius: 3px;
+	        display: inline-block;
+	    	bottom: 0;
+	        position: relative;
+	        width: 0%;
+	        animation-name: grow-x;
+	        animation-duration: 0.3s;
+	        animation-fill-mode: forwards;
+	        animation-timing-function: ease;
+	        animation-delay: 0.5s;
+    	}
 	}
 }
-// .programFixedNavPhantom {
-// 	display: none;
-// }
 
-//snap scroll effect 
-// .programs {
-// 	.site-footer {
-// 		margin-top: 500px;
-// 	}
-// }
-// .programsWrapper {
-// 	height: 100%;
-// }
-// .program-item {
-// 	position: absolute;
-// 	top: 500px; //calculate with jquery
-// 	left: 0;
-// 	height: 0;							
-// 	width: 100%;
-// 	padding: 0;
-// 	// .grid {
-// 	// 	display: none;
-// 	// }
-
-// 	// this would be vendor prefixed:
-// 	transition: all 0.9s ease-in-out;
-// 	transform: translateZ(0);
-// 	&:nth-child(1) { z-index:10 }
-// 	&:nth-child(2) { z-index:9 }
-// 	&:nth-child(3) { z-index:8 }
-
-// 	&.active {
-// 		height: 100%;
-// 		padding: 90px 0;
-// 		// .grid {
-// 		// 	display: block;
-// 		// }
-// 	}
-// }
-
-// end of snap scroll 
+.programs-sub {
+	position: relative;
+}
+.programs {
+	overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+.programsWrapper {
+	position: relative;
+}
 
 @media screen and #{$brk-wide} {
 	.programsWrapper {

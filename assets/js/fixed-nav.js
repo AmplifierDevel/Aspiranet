@@ -1,16 +1,14 @@
 $(document).ready(function(){	
 //programs menu to fixed on scroll
 
-	var fixTop = $('.programFixedNav').offset().top - 102;       
+	var fixTop = $('.programFixedNav').offset().top;       
 	$(window).scroll(function() {                 
 
 	    var currentScroll = $(window).scrollTop(); 
 	    if (currentScroll >= fixTop) { 
 	        $('.programFixedNav').addClass('fixed');
-	        $('.programFixedNavPhantom').show();
 	    } else {     
 	        $('.programFixedNav').removeClass('fixed');
-	        $('.programFixedNavPhantom').hide();
 	    }
 	});
 });
