@@ -1,4 +1,4 @@
-<footer class="site-footer" style="position: relative; z-index: 20; background-color: white;">
+<footer class="site-footer non-snap" style="position: relative; z-index: 20; background-color: white;">
 	<section class="wrapper blue-dark">
 		<div class="grid">
 			<div class="col-8-12 center no-padding">
@@ -79,13 +79,14 @@
 	</script>
 {% endif %}
 {% if page.title == 'Programs' %} 
-<script src="/assets/js/lib/snap-scroll.js"></script>
+<script src="/assets/js/lib/jquery.scrollify.min.js"></script>
 {% endif %}
 {% if page.group == 'programs' %} 
 <script src="/assets/js/scroll-animation.js"></script>
 {% endif %}
 {% if page.layout == 'programs-landing' %} 
 <script src="/assets/js/fixed-nav.js"></script>
+<script src="/assets/js/programs-landing.js"></script>
 {% endif %}
 {% if page.title != "Donate" %}
 <script src="/assets/js/lib/slick.min.js"></script>
