@@ -133,7 +133,12 @@ To install a local copy
   * `git push heroku master`
 
 ### Adding contacts to Act-On
-[Zapier](https://www.zapier.com) is configured to add contacts to 
+[Zapier](https://www.zapier.com) is configured to add contacts to Act-On.
+Unfortunately Act-On does not support checking for dupplicates. So the same contact might be added twice.
+
+Thankfully they created a feature that allows the contact list to be cleaned quite easily.
+![Act-On](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-act-on.jpg "Act-On")
+
 
 ## Credits
 
