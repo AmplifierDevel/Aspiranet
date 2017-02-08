@@ -132,78 +132,82 @@ layout: default
 				</div>
 			</div>
 		</div>
+		
+		{% assign nbPost = '' %}
+		{% assign colorOverlayArray = "blue,yellow,orange,blue-dark,orange,blue-dark" | split: ',' %}
+		{% assign colorTextArray = "blue,blue-marin,orange,blue-dark,orange,blue-dark" | split: ',' %}
+
+
 		{% for blogpost in sorted_news %}
-		{% if blogpost.featuredOnBlog == true %}
-		<div class="col-1-3 tablet-col-1-2 blue-marin">
-			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-			{% else %}
-				{% assign imageUrl = blogpost.heroImage.url %}
-			{% endif %}
-			<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
-				<div class="caption">
-					<p class="small caps color-white">Stories</p>
-				</div>
-				<div class="latest-content">
-					{% if imageUrl == nil or imageUrl == "" %}
-						<h3 class="color-orange">{{ blogpost.title }}</h3>
-					{% endif %}
-				</div>	
-				<div class="center-vertical overlay-yellow">
-					<div class="overlay-content">
-						<h3>{{ blogpost.title }}</h3>
-						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		{% endif %}
-		{% endfor %}
-		{% for blogpost in sorted_news limit: 1 offset: 1 %}
-		<div class="col-1-3 tablet-col-1-2 orange">
-			<div class="caption">
-				<p class="small caps">On the blog</p>
-			</div>
-			<div class="latest-content">
-				<a href="/blog/{{ blogpost.url }}">
-					<h3>{{ blogpost.title }}</h3>
-				</a>
-			</div>
-			<div class="center-vertical overlay-orange">
-				<div class="overlay-content">
-					<h3>{{ blogpost.title }}</h3>
-					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
-				</div>
-			</div>
-		</div>
-		{% endfor %}
-	{% for blogpost in sorted_news %}
-		{% if blogpost.featuredOnHomepage == true %}
-			<div class="col-1-3 tablet-col-1-2 orange">
-			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-			{% else %}
-				{% assign imageUrl = blogpost.heroImage.url %}
-			{% endif %}
-				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
-					<div class="caption">
-						<p class="small caps color-white">On the blog</p>
-					</div>
-					<div class="latest-content">
-						{% if imageUrl == nil or imageUrl == "" %}
-							<h3>{{ blogpost.title }}</h3>
+			{% if blogpost.featuredOnHomepage == true %}
+
+			{% capture temp %}{{ nbPost }}*{% endcapture %}
+			{% assign nbPost = temp %}
+
+				{% if nbPost.size < 5 %}
+					<div class="col-1-3 tablet-col-1-2 {{colorTextArray[nbPost.size]}}">
+						{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+							{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+						{% else %}
+							{% assign imageUrl = blogpost.heroImage.url %}
 						{% endif %}
-					</div>	
-				</div>
-				<div class="center-vertical overlay-orange">
-					<div class="overlay-content">
-						<h3>{{ blogpost.title }}</h3>
-						<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+						<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
+							<div class="caption">
+								<p class="small caps color-white">On The Blog</p>
+							</div>
+							<div class="latest-content">
+								{% if imageUrl == nil or imageUrl == "" %}
+									<h3 class="color-orange">{{ blogpost.title }}</h3>
+								{% endif %}
+							</div>	
+							<div class="center-vertical overlay-{{colorOverlayArray[nbPost.size]}}">
+								<div class="overlay-content">
+									<h3>{{ blogpost.title }}</h3>
+									<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-		{% endif %}
-	{% endfor %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+
+			
+		{% for blogpost in sorted_news %}
+			{% if blogpost.featuredOnHomepage == false %}
+
+				{% capture temp %}{{ nbPost }}*{% endcapture %}
+				{% assign nbPost = temp %}
+
+				{% if nbPost.size < 5 %}
+					<div class="col-1-3 tablet-col-1-2 {{colorTextArray[nbPost.size]}}">
+					{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+						{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+					{% else %}
+						{% assign imageUrl = blogpost.heroImage.url %}
+					{% endif %}
+						<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
+							<div class="caption">
+								<p class="small caps color-white">On the blog</p>
+							</div>
+							<div class="latest-content">
+								{% if imageUrl == nil or imageUrl == "" %}
+									<h3>{{ blogpost.title }}</h3>
+								{% endif %}
+							</div>	
+						</div>
+						<div class="center-vertical overlay-{{colorOverlayArray[nbPost.size]}}">
+							<div class="overlay-content">
+								<h3>{{ blogpost.title }}</h3>
+								<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+							</div>
+						</div>
+					</div>
+				{% endif %}	
+			{% endif %}	
+		{% endfor %}
+
+		
 		<div class="col-1-3 tablet-col-1-2 blue-dark">
 			<div class="caption">
 				<p class="small caps">Jobs</p>
@@ -218,23 +222,6 @@ layout: default
 				</div>
 			</div> 
 		</div>
-		{% for blogpost in sorted_news limit: 1 %}
-		<div class="col-1-3 tablet-col-1-2 yellow">
-			<div class="caption">
-				<p class="small caps">On the blog</p>
-			</div>
-			<div class="latest-content">
-				<a href="/blog/{{ blogpost.url }}">
-					<h3 class="color-blue-dark">{{ blogpost.title }}</h3>
-				</a>
-			</div>
-			<div class="center-vertical overlay-yellow">
-				<div class="overlay-content">
-					<h3>{{ blogpost.title }}</h3>
-					<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
-				</div>
-			</div>
-		</div>
-		{% endfor %}
+		
 	</div>
 </section>
