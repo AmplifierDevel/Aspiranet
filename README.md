@@ -102,7 +102,9 @@ This website is interacting with the following systems:
 2. Fetch the program locations with `curl` and store them in `program_data.json`
 3. Interpolates the environment variables in `_config.yml` and download all the [Contentful](https://www.contentful.com)  data
 4. Removes the environment variables from `_config.yml`
-5. Copy the generated files to the `_site` folder.
+5. Jekyll builds the site and copies the generated files to the `_site` folder.
+
+**Note:** ALl files that are not prefixed with an `_` and in the `exclude` array in the `_config.yml` will be skipped. If you want to add a file like `_redirects` to the `_site` folder, just make sure it is added to the `include` array in the config file.
 
 ### Triggering the build process
 It is triggered automatically by:
