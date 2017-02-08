@@ -3,3 +3,5 @@ _site/
 _data/
 .tweet-cache/
 binding.node
+Gemfile.lock
+
