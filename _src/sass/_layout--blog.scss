@@ -67,6 +67,16 @@
     				padding-top: 30px;
 				}
 			}
+			.post-category {
+				color: $grey-darkest;
+				margin-top: 20px;
+			}
+			p:not(.post-category) {
+				margin-top: 0;
+			}
+			a h4 {
+				margin-bottom: 12px;
+			}
 		}
 		.white {
 			border-radius: 4px;
@@ -143,9 +153,16 @@
 		}
 	}
 }
+.filter-by {
+	margin-top: 1.5em;
+    margin-bottom: -38px;
+}
 
 // Individual post 
 #blog-post {
+	.hero-img {
+		background-position: top center;
+	}
 	.blog-body {
 		h1, h2, h3, h4 {
 			font-weight: bold;

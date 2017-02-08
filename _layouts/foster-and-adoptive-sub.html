@@ -15,13 +15,21 @@ layout: default
 	</div>
 	<div class="white">
 	<div class="grid">
-		<ul class="tabs">
+		<ul class="tabs hide-on-mobile">
 			<li><a href="/programs/foster-and-adoptive-families/steps/" {% if page.url == "/programs/foster-and-adoptive-families/steps/" %} class='active' {% endif %}><p class="small caps">Steps</p></a></li>
 			<li><a href="/programs/foster-and-adoptive-families/requirements/" {% if page.url == "/programs/foster-and-adoptive-families/requirements/" %} class='active' {% endif %}><p class="small caps">Requirements</p></a></li>
 			<li><a href="/programs/foster-and-adoptive-families/faq/" {% if page.url == "/programs/foster-and-adoptive-families/faq/" %} class='active' {% endif %}><p class="small caps">FAQ</p></a></li>
 			<li><a href="/programs/foster-and-adoptive-families/locations/" {% if page.url == "/programs/foster-and-adoptive-families/locations/" %} class='active' {% endif %}><p class="small caps">Locations</p></a></li>
 			<li><a href="/programs/foster-and-adoptive-families/apply/" {% if page.url == "/programs/foster-and-adoptive-families/apply/" %} class='active' {% endif %}><p class="small caps">Apply</p></a></li>
 		</ul>
+		<!-- Mobile dropdown menu  -->
+		<select class="mobile-dropdown hide-on-desktop hide-on-tablet" onChange="window.location.href=this.value">
+			<option value="/programs/foster-and-adoptive-families/steps/" {% if page.url == "/programs/foster-and-adoptive-families/steps/" %} selected="selected" {% endif %}>Steps</option>
+			<option value="/programs/foster-and-adoptive-families/requirements/" {% if page.url == "/programs/foster-and-adoptive-families/requirements/" %} selected="selected" {% endif %}>Requirements</option>
+			<option value="/programs/foster-and-adoptive-families/faq/" {% if page.url == "/programs/foster-and-adoptive-families/faq/" %} selected="selected" {% endif %}>FAQ</option>
+			<option value="/programs/foster-and-adoptive-families/apply/" {% if page.url == "/programs/foster-and-adoptive-families/apply/" %} selected="selected" {% endif %}>Apply</option>
+		</select>
+		<!-- end mobile dropdown menu  -->
 	</div>
 	<div id="tab-1">
 		<div class="grid tab-content">

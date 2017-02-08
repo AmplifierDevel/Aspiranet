@@ -13,7 +13,7 @@
 }
 @media screen and #{$brk-tablet-min} and #{$brk-wide} {
   .select-program {
-    select {
+    select { 
       width: 275px;
     }
   }
@@ -58,6 +58,9 @@ p.attribution, p.attribution a { color: #666; }
 .storelocator-panel .store-list {
   margin: 0;
   padding: 0;
+  .misc {
+    display: none;
+  }
 }
 .storelocator-panel .store-list li {
   padding: 0 0 0 5px;
@@ -127,16 +130,6 @@ p.attribution, p.attribution a { color: #666; }
       margin-bottom: 0;
     }
   }
-  select {
-    display: block;
-    border: 1px solid $grey-dark;
-    border-radius: 0;
-    background-color: white;
-    color: $grey-darkest;
-    font-family: $stack-serif;
-    font-size: 16px;
-    letter-spacing: 0;
-  }
   @media screen and #{$brk-narrow} {
     padding: 0;
   }
@@ -165,7 +158,10 @@ p.attribution, p.attribution a { color: #666; }
   font-weight: bold;
   font-size: 18px;
   color: $blue;
+  font-family: $stack-serif;
 }
+
+
 
 .store .address,
 .store .phone, 
@@ -174,9 +170,17 @@ p.attribution, p.attribution a { color: #666; }
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   display: block; 
-  color: $grey-darkest;
+  font-family: $stack-serif;
+  color: $blue-dark;
 }
 
+.store .misc {
+  margin-top: 30px;
+  p {
+    font-size: 14px;
+    font-family: $stack-serif;
+  }
+}
 .store .features {
   overflow: hidden;
   color: $grey-dark;
@@ -191,12 +195,18 @@ p.attribution, p.attribution a { color: #666; }
   padding-right: 0.8em;
 }
 
-.store .web a {
-  color: $grey-darkest;
-}
 
 .store .action {
   font-size: 0.8em;
   color: $grey-darkest;
   margin-right: 0.5em;
+}
+.streetview, .directions {
+    display: none;
+}
+
+.store-list {
+  .address, .web, .web a {
+    color: #bebebe;    
+  }
 }

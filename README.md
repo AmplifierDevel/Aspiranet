@@ -1,77 +1,145 @@
 # Aspiranet
 Aspiranet envisions a world in which all children and youth are loved and cared for and all families have the resources to thrive.
 
-## Pages
+## Introduction
+This website is part of the brand platform for Aspiranet. It supports donations, delivers content and users can sign up to newsletter or apply for programs.
 
-### Home
-- Loop through all the *front page call to action slider item* content types and load into slideshow
-- text for our approach section input
-- 4 stats items input
-- text for foster and adoptive input
-- Text for careers input
-- Loop through all the *Blog post* content types and load in a grid
+![Aspiranet Homepage](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/homepage-screenshot-for-documentation.jpg "Aspiranet Homepage")
 
-### Approach
-- Title
-- Subtitle
-- text for programs input
-- Text for careers input
-- Text for programs 2 input
+## Usage
+
+### Content management
+All content is managed through [Contentful](https://www.contentful.com) . To access it login to www.contentful.com
+
+![Contentful](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-content-management.jpg "Contentful")
+
+- Content types can be filtered on the left.
+- New content can be added on the top right **Add Entry**
+- Content on unique pages such as **About Us**, **Approach** or **Homepage** will be found under **Unique Page Content**
+
+### Staging website and previewing
+A staging website is available at [https://aspiranet-staging.netlify.com](https://aspiranet-staging.netlify.com)
+
+To preview your drafted content, save it. The staging website should build automatically and you will be able to preview your drafted content approximately after 1mn.
+
+Make sure its still a **Draft** so that the production website does not display the new content. 
+
+### Homepage Sliders
+They are found under Campaign in [Contentful](https://www.contentful.com) . You can change their order using the *Order* field. 1 will be the first slide. 2 will be the second slide.
+
+### Popups
+When a new user comes to the website you can decide to display a popup. You can find it under Popup in [Contentful](https://www.contentful.com) .
+
+**Note:** If there are more than one popup created, the website will always display the most recent one.
+
+### Program locations
+You can update the locations shown on the map under *Program Locations*.
+- Enter the address on the map and then click Coordinates so that the address is translated into a geolocation.
+- Enter the address as text. This will be displayed in the marker's window on the map.
+
+**Note:** The *Internal Notes* field will not be displayed and is only for internal use.
+
+### Events
+Events are handled through [Eventbrite](https://www.eventbrite.com).
+Create an event on the Eventbrite website and you will see a new **Event** content type added automatically to [Contentful](https://www.contentful.com) .
+They will be accessible on your website at `/event/name-of-your-event-with-dashes`.
+
+Example: 
+If the `Title` of your event is `This is the second event`.
+You should see it at `https://www.aspiranet.org/event/this-is-the-second-event`
+
+### Donations
+Powered throught [Stripe](https://www.stripe.com)
+
+Login to your account in order to see all transactions.
 
 ### Programs
-- Title
-- Subtitle
-- Text for first section
-- Loop through the *Program* content type and load in the page
+All content for programs is found under *Programs*
 
-### Programs Subpage
-
-
-### About
-- Title
-- Subtitle
-- Text for about section
-- Text for vision section
-- Text for mission section
-- Loop through all the *Senior Executives* content types and load in a grid
-- Loop through all the *Division Heads* content types and load in a grid
-
-### Careers
-- Title
-- Subtitle
-- text for work section
-- text input for second section
-- column 1 row 1 text input
-- column 1 row 2 text input
-- column 1 row 3 text input
-- column 2 row 1 text input
-- column 2 row 2 text input
-- column 2 row 3 text input
-- Loop through all the *Job Opening* content types and load in a grid
-
-### Donate
-- Title
-- Subtitle
-- text for input for donate page
-- Stripe Plugin
+Only the Foster and Adoptive Families has additional content that you will find under *Foster & Adoptive families* content type.
 
 ### Blog
-- Loop through all the *Blog Post* content types and load in blog layout
+In order to add blog Categories or Tags you first have to create them as a new Entry.
 
-### Contact
-- Formspree.io form
-- Text input for address
-- Text input for google maps
+For a Category you will need to click on *Add Entry > Blog Category*. This will allow you to link a new *Blog* entry to your category.
 
-### Find a Program
-- Load store locator using http://www.bjornblog.com/web/jquery-store-locator-plugin and looping throught the *Location* content type to feed the map.
 
-## Content Types
 
-### Front page Call to Action Slider Item
-### Program
-### Blog Post
-### Senior Executives
-### Division Heads
-### Job Opening
-### Location (for Program finder)
+
+## Technical Documentation
+
+## Introduction 
+This website is interacting with the following systems:
+- Hosting & CDN [Netlify](https://www.netlify.com) 
+- Content Management [Contentful](https://www.contentful.com) 
+- APIs [Zapier](https://www.zapier.com)
+- Events [Eventbrite](https://www.eventbrite.com)
+- Payments [Stripe](https://www.stripe.com)
+- Server Side Payment processing [Heroku](https://dashboard.heroku.com/)
+- Tweets [Twitter](https://www.twitter.com)
+- Customer Relationship Management [Act-On](https://www.act-on.com/)
+
+
+## Installation
+1. Clone this repository
+2. Add the following **environment variables** to your terminal: 
+  * ASPIRANET_CONTENTFUL_PREVIEW_KEY
+  * ASPIRANET_CONTENTFUL_ACCESS_KEY
+  * ASPIRANET_CONTENTFUL_SPACE_ID
+  * ASPIRANET_CONTENTFUL_SPACE_ACCESS_TOKEN
+  * ASPIRANET_CONTENTFUL_IS_PREVIEW
+  * ASPIRANET_CONTENTFUL_API_URL
+3. Remove the `Gemfile.lock` and run `bundle install`
+4. Run `grunt`
+
+### Requirements
+- `jekyll 3.4.0` [Install](https://jekyllrb.com/docs/installation/) 
+- `git v2.10.0` [Install](https://git-scm.com/doc)
+- `grunt v1.0.1` [Install](http://gruntjs.com/)
+
+### How the build process works
+`build.sh` is responsible for the deployment on Netlify. Here is what it does:
+
+1. Fetch the latest tweet
+2. Fetch the program locations with `curl` and store them in `program_data.json`
+3. Interpolates the environment variables in `_config.yml` and download all the [Contentful](https://www.contentful.com)  data
+4. Removes the environment variables from `_config.yml`
+5. Jekyll builds the site and copies the generated files to the `_site` folder.
+
+**Note:** All files that are prefixed with an underscore `_` will be skipped. If you want to add a file like `_redirects` to the `_site` folder, just make sure it is added to the `include` array in the config file.
+
+### Triggering the build process
+It is triggered automatically by:
+- Posting a new tweet on Aspiranet's Twitter account ([Zapier](https://www.zapier.com) integration)
+- Adding a new entry on contentful
+- Creating a new event on Eventbrite
+- Pushing a git commit to the repository
+
+It is also possible to trigger the build directly from the Netlify interface under *Deploys > Trigger Build*
+
+### Payment processing
+Heroku is hosting the PHP file processing payments on the server side.
+To install a local copy
+
+1. Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line).
+2. If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+  * `heroku login`
+3. Clone the repository
+  * `heroku git:clone -a aspiranet-payment`
+  * `cd aspiranet-payment`
+4. Deploy your changes
+  * `git add .`
+  * `git commit -am "make it better"`
+  * `git push heroku master`
+
+### Adding contacts to Act-On
+[Zapier](https://www.zapier.com) is configured to add contacts to Act-On.
+Unfortunately Act-On does not support checking for dupplicates. So the same contact might be added twice.
+
+Thankfully they created a feature that allows the contact list to be cleaned quite easily.
+![Act-On](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-act-on.jpg "Act-On")
+
+
+## Credits
+
+Website developped by [Amplifier Strategies](https://www.amplifierstrategies.com) for [Aspiranet](//www.aspiranet.org).

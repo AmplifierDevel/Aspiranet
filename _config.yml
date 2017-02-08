@@ -14,9 +14,10 @@ twitter_username: '@Aspiranet'
 markdown: kramdown
 permalink: pretty
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
+include: ['_redirects']
+
 
 gems: [ 
-"jekyll-twitter-plugin", 
 "jekyll-contentful"
 ]
 

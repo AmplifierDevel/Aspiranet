@@ -5,6 +5,25 @@ div.clearfix {
 ul li {
 	list-style-type: none;
 }
+.img-overlay-left {
+ 	&:before {
+ 		content: "";
+ 	    position: absolute;
+ 	    height: 100%;
+ 	    display: block;
+ 	    top: 0;
+	    width: 100%;
+ 	}
+ 	.grid {
+ 		position: relative;
+	}
+}
+ .img-overlay-left {
+ 	&:before {
+ 		background-image: linear-gradient(-90deg, transparent 14%, rgba(0,0,0,0.2) 100%)
+ 	}
+}
+
 .text-left {
     text-align: left !important;
 }
@@ -51,29 +70,6 @@ ul li {
 	} 
 	@media screen and #{$brk-narrow} {
 		height: 350px;
-	}
-}
-.img-overlay-left, .img-overlay-right {
-	&:before {
-		content: "";
-	    position: absolute;
-	    height: 100%;
-	    display: block;
-	    top: 0;
-	    width: 100%;
-	}
-	.grid {
-		position: relative;
-	}
-}
-.img-overlay-left {
-	&:before {
-		background-image: linear-gradient(-90deg, transparent 14%, rgba(255, 255, 255, 0.6) 100%);
-	}
-}
-.img-overlay-right {
-	&:before {
-		background-image: linear-gradient(90deg, transparent 14%, rgba(255, 255, 255, 0.6) 100%);
 	}
 }
 .fadeInBlock {
@@ -216,19 +212,26 @@ section, div, span {
 }
 .slick-dotted.slick-slider {
 	margin-bottom: 0 !important;
+	background-color:$blue;
 }
 .slick-dots li.slick-active button:before {
 	background-color: white !important;
 	opacity: 1 !important;
 	color: transparent !important;
+	@media screen and #{$brk-wide} {
+		background-color: $blue-dark !important;
+	}
 }
 .slick-dots li button:before {
 	opacity: 1 !important;
 	color: transparent !important;
     border: 1px solid white !important;
-    width: 16px !important;
-	height: 16px !important;
+    width: 8px !important;
+	height: 8px !important;
 	border-radius: 50% !important;
+	@media screen and #{$brk-wide} {
+		border: 1px solid $blue-dark !important;
+	}
 }
 .slick-dots {
 	bottom: 20px !important;

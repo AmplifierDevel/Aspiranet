@@ -14,10 +14,21 @@ layout: default
 		{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
 			{% for program in sorted_programs %}
 			
-			<div class="col-1-6 text-center"><a href="#{{ program.title | slugify }}"><p class="caps small {{ program.programColor }}">{{ program.title }}</p></a></div>
+			<div class="col-1-6 text-center"><a href="#{{ program.title | slugify }}"><p class="caps small color-white">{{ program.title }}</p></a></div>
 		{% endfor %}
 	</div>
 </div>
+
+<!-- Nav phantom. Used to make transition to fixed nav smooth  -->
+ <div class="blue-marin programs-nav hide-on-mobile hide-on-tablet programFixedNavPhantom">
+  	<div class="grid">
+  		{% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
+  			{% for program in sorted_programs %}
+		<div class="col-1-6 text-center"><a href="#{{ program.title | slugify }}"><p class="caps small color-white">{{ program.title }}</p></a></div>
+  		{% endfor %}
+  	</div>
+ </div>
+<!-- end of nav phantom  -->
 
 <div class="programsWrapper">
 {% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
@@ -40,7 +51,7 @@ layout: default
 	<!-- mobile card -->
 	<div class="hide-on-desktop program-blurb-mobile">
 		<div class="white">
-			<h3 class="round color-{{ program.programColor }}">{{program.title}}</h3>
+			<a href="/programs/{{ program.title | slugify }}"><h3 class="round color-{{ program.programColor }}">{{program.title}}</h3></a>
 			<p>{{program.landingPageTextBlurb}}</p>
 			<p class="button no-margin-top"><a href="/programs/{{ program.title | slugify }}" class="color-{{ program.programColor }}">Learn More</a></p>
 		</div>

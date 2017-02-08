@@ -14,9 +14,9 @@
 			{% include foster-and-adoptive-sidebar.html %}
 		</div>
 		{% if fosterAndAdoptiveContent.fosterFamilyPhotoFull.url %}
-		<div style="background-image: url('{{ fosterAndAdoptiveContent.fosterFamilyPhotoFull.url }}');" class="img-settings apply-img center-vertical">
+		<div style="background-image: url('{{ fosterAndAdoptiveContent.fosterFamilyPhotoFull.url }}');" class="img-settings apply-img center-vertical img-overlay-left">
 			<div class="grid">
-				<div class="push-right text-center">
+				<div class="text-left">
 					<h2 class="color-white">Become a foster parent</h2>
 					<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/apply">Apply Now</a></p>
 					<p class="button"><a class="transparent" href="/programs/foster-and-adoptive-families/requirements">See Requirements</a></p>
@@ -24,31 +24,36 @@
 			</div>
 		</div>
 		{% endif %}
-		<!-- <section class="blue-dark stories-section">
+		<section class="blue-dark stories-section hide-on-mobile">
 			<div class="grid text-center">
 				<h2 class="no-margin-top">Stories from foster families</h2>
 				<div class="stories-slider"> 
-					{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost %}
-					{% for blogpost in sorted_news %}
-							{% if blogpost.blogTag.name == "Foster" or blogpost.blogTag.name == "Family" or blogpost.blogTag.name == "Foster or Adoptive Services" %}
-				                    <div class="story-slider-item flex-container col-8-12 center">
-			                            {% if blogpost.heroImage %}
-		                                <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
-		                                </div>
-			                            {% endif %}
-			                            <div class="col-1-2 white text-left">
-			                                <p class="small caps round grey">{{ blogpost.blogTag.name }}</p>
-			                                <p class="round blue">{{ blogpost.title }}</p>
-			                                <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
-			                                <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
-			                            </div>
-				                    </div>
-							{% endif %}
-					{% endfor %}
+				{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+				{% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
+		        {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
+	            {% for tag in tag_array %}
+	            {% if tag == "Foster" or tag == "Foster or Adoptive Services" %}
+	            {% for blogpost in sorted_news %}
+	            <div class="story-slider-item">
+		            {% if blogpost.thumbnailToBeDisplayedOnHomepage or blogpost.heroImage %}
+		            <div class="img-settings white slider-img" style="background-image: url('{% if blogpost.thumbnailToBeDisplayedOnHomepage %}{{ blogpost.thumbnailToBeDisplayedOnHomepage.url }} {% else %} {{ blogpost.heroImage.url }}{% endif %}');" alt="{{ blogpost.heroImage.title }}">
+		            </div>
+		            {% else %}
+		            {% endif %}
+		            <div class="white text-left slider-copy">
+		                <p class="small caps round grey">{{ tag }}</p>
+		                <a href="/blog/{{ blogpost.url }}"><p class="round blue">{{ blogpost.title }}</p></a>
+		                <p>{{ blogpost.postBody | truncatewords:20 | markdownify }}</p>
+		                <a class="read-more" href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
+		            </div>
+		        </div>
+		        {% endfor %}
+				{% endif %}
+	            {% endfor %}
 				</div>
 					<p class="button"><a class="orange" href="/blog">See all stories</a></p>
 				</div>
-		</section> -->
+		</section>
 		<section class="white">
 			<div class="grid">
 				<div class="col-7-12 color-blue-dark">
@@ -84,30 +89,36 @@
 			</div>
 		</div>
 		{% endif %}
-		<!-- <section class="blue-dark stories-section">
+		<section class="blue-dark stories-section">
 			<div class="grid text-center">
 				<h2 class="no-margin-top">Stories from adoptions</h2>
-				<div class="stories-slider">
-					{% for blogpost in sorted_news %}
-					{% if blogpost.blogTag.name == "Adoption" or  blogpost.blogTag.name == "Foster and Adoptive Services" %}
-					<div class="story-slider-item flex-container col-8-12 center">
-                        {% if blogpost.heroImage %}
-                        <div class="img-settings col-1-2 white" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.hrefroImage.title }}">
-                        </div>
-                        {% endif %}
-                        <div class="col-1-2 white text-left">
-                            <p class="small caps round grey">{{ blogpost.blogTag.name }}</p>
-                            <p class="round blue">{{ blogpost.title }}</p>
-                            <p>{{ blogpost.postBody | truncatewords:33 | markdownify }}</p>
-                            <a href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
-                        </div>
-	                </div>
-					{% endif %}
-                	{% endfor %}
+				<div class="stories-slider"> 
+				{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
+				{% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
+		        {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
+	            {% for tag in tag_array %}
+	            {% if tag == "Adoption" or tag == "Foster or Adoptive Services" %}
+	            {% for blogpost in sorted_news %}
+	            <div class="story-slider-item">
+		            {% if blogpost.thumbnailToBeDisplayedOnHomepage or blogpost.heroImage %}
+		            <div class="img-settings white slider-img" style="background-image: url('{% if blogpost.thumbnailToBeDisplayedOnHomepage %}{{ blogpost.thumbnailToBeDisplayedOnHomepage.url }} {% else %} {{ blogpost.heroImage.url }}{% endif %}');" alt="{{ blogpost.heroImage.title }}">
+		            </div>
+		            {% else %}
+		            {% endif %}
+		            <div class="white text-left slider-copy">
+		                <p class="small caps round grey">{{ tag }}</p>
+		                <a href="/blog/{{ blogpost.url }}"><p class="round blue">{{ blogpost.title }}</p></a>
+		                <p>{{ blogpost.postBody | truncatewords:20 | markdownify }}</p>
+		                <a class="read-more" href="/blog/{{ blogpost.url }}"><p class="italic">READ MORE ></p></a>
+		            </div>
+		        </div>
+		        {% endfor %}
+				{% endif %}
+	            {% endfor %}
 				</div>
 				<p class="button"><a class="orange" href="/blog">See all stories</a></p>
 			</div>
-		</section> -->
+		</section>
 		<section class="white">
 			<div class="grid">
 				<div class="col-7-12 color-blue-dark">

@@ -30,6 +30,7 @@ group: 'programs'
 				<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
 			</ul>
 			<p class="button"><a class="orange" href="/careers">Join our team</a></p>
+			<p class="button no-margin-top"><a class="orange" href="/programs/find-program/">Find a Program</a></p>
 		</div>
 	</div>
 	{% if page.contentful_fields.photo.file.url or page.contentful_fields.copyRest %}
@@ -107,6 +108,7 @@ group: 'programs'
 		{% include foster-and-adoptive-sidebar.html %}
 	</div>
 	{% endif %}
+	<!-- Mobile sidebar  -->
 	<div class="border-left hide-on-desktop share-programs-mobile">  
 		<ul class="social-icons no-margin-top">
 			<p class="caps round small blue-dark no-margin-top">Share the program</p>
@@ -115,5 +117,7 @@ group: 'programs'
 			<li><a href="mailto:?&amp;body={{ page.contentful_fields.title }}%20{{ page.url }}"><img src="{{ site.image_path }}/email.svg" alt="email program" /></a></li>
 		</ul>
 		<p class="button"><a class="orange" href="/careers">Join our team</a></p>
+		<p class="button no-margin-top"><a class="orange" href="/programs/find-program/">Find a Program</a></p>
 	</div>
+	<!-- end of mobile sidebar -->
 </div>

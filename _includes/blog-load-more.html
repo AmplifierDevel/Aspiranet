@@ -1,10 +1,11 @@
 <div class="hold"></div>
-<p class="button no-margin-top no-margin-bottom"><a id="btnLoadMore" class="orange">Load More</a></p> 
+<p class="italic"><a id="btnLoadMore" style="cursor: pointer;">LOAD MORE ></a></p>
 
+{% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
 <script type="text/javascript">
 	var blogContent = [
 	{% for blogpost in sorted_news %}
-		{% if blogpost.featuredOnBlog == false %}
+		{% if blogpost.featuredOnBlog != true %}
 		{
     	"heroImage": `{{blogpost.heroImage.url}}`,
     	"heroImageTitle": `{{blogpost.heroImage.title}}`,
@@ -28,7 +29,7 @@ jQuery(function ($) {
 	                </a>
 	                <div class="blog-excerpt">
 	                    <ul>
-	                        <li><p class="caps small">` + post.category + `</p></li>
+	                        <li><p class="caps small post-category">` + post.category + `</p></li>
 	                    </ul>
 	                    <a href="` + post.url + `"><h4 class="round color-blue">` + post.title + `</h4></a>
 	                    <p>` + post.postBody + `</p>
@@ -44,7 +45,7 @@ jQuery(function ($) {
         $(".hold .hidden").slice(0,2).removeClass("hidden");
 
         // if all posts are visible, hide the loadMore button
-        if ($('.post:hidden').length === 0) { $("#btnLoadMore").hide();}
+        if ($('.post:hidden').length === 0) { $("#btnLoadMore").hide(); }
     }
     
     loadMore();

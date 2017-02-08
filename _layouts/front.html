@@ -6,23 +6,49 @@ layout: default
 {% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
-<div class="campaign-slider">
+<div class="campaign-slider hide-on-mobile hide-on-tablet">
 	{% for campaign in sorted_campaigns %}
 		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
 			<section class="grid">
-				<div class="campaign-content">
+				<div class="campaign-content {% if campaign.titleAlign == 'right' %} push-right {% endif %}">
 					{% if campaign.campaignPartners %} 
-					<h4 class="round color-blue {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %}">{{ campaign.campaignPartners }}</h4>
+					<h5 class="round color-blue text-left">{{ campaign.campaignPartners }}</h5>
 					{% endif %}
-					<h1 class="{% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} color-blue-dark" style="position: relative;">{{ campaign.title }}</h1>
+					<h2 class="color-{{ campaign.textColor }} text-left style="position: relative;">{{ campaign.title }}</h2>
+					{% if campaign.copy %} 
+					<h5 class="color-{{ campaign.textColor }} color-blue-dark">{{ campaign.copy }}</h5>
+					{% endif %}
 					{% if campaign.ctaButtonCopy %}
-					<p class="button {% if campaign.titleAlign == 'right' %} text-right {% else %} text-left {% endif %} "><a class="orange" href="/{{ campaign.ctaUrl }}">{{ campaign.ctaButtonCopy }}</a></p>
+					<p class="button"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
 					{% endif %}
 				</div>
 			</section> 
 		</div>
 	{% endfor %}
 </div>
+
+<!-- mobile campaign  -->
+<div class="campaign-slider mobile-slider hide-on-desktop">
+	{% for campaign in sorted_campaigns %}
+	<section class="grey">
+		<img src='{{ campaign.image.url }}' alt="{{ campaign.image.title }}" style="width: 100%; margin-top:-50px;" />
+		<div class="grid campaign-content ">
+			{% if campaign.campaignPartners %} 
+			<h5 class="round color-blue">{{ campaign.campaignPartners }}</h5>
+			{% endif %}
+			<h2 class="color-blue-dark">{{ campaign.title }}</h2>
+			{% if campaign.copy %} 
+			<h5 class="color-blue-dark">{{ campaign.copy }}</h5>
+			{% endif %}
+			{% if campaign.ctaButtonCopy %}
+			<p class="button no-margin-top"><a class="orange" href="{{ campaign.ctaUrl | prepend: site.baseurl }}">{{ campaign.ctaButtonCopy }}</a></p>
+			{% endif %}
+		</div>
+		</section>
+	{% endfor %}
+</div>
+<!-- end mobile campaign  -->
+
 <section class="blue text-center prlx-item">
 	<div class="grid">
 		<div class="col-8-12 mobile-col-10-12 center">
@@ -32,26 +58,27 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}');" class="img-settings prlx-bg stats-bg grey">
+	<img src='{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStatsHeroImage.url }}' class="hide-on-desktop">
 	<div class="grid">
-		<div class="col-1-2 text-center stats-front no-padding tablet-col-1-2">
+		<div class="col-5-12 text-center stats-front no-padding">
 			<h3>Dedication to families is at the heart of everything we do.</h3>
 			<ul class="text-center">
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat1Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat2Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat3Text}}</h5>
 				</li>
-				<li>
+				<li class="mobile-col-1-2 tablet-col-1-2">
 					<h1 class="color-yellow">{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Number}}</h1>
-					<h4>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h4>
+					<h5>{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageStat4Text}}</h5>
 				</li>  
 			</ul>
 			<h3>Help us reach more children</h3>
@@ -59,21 +86,20 @@ layout: default
 		</div>
 	</div>
 </section>
-
 <section class="blue text-center prlx-item">
 	<div class="grid">
 		<div class="col-8-12 center rewarding mobile-col-10-12">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageCareerText| markdownify}}
-			<h4 class="button"><a class="orange" href="/careers">See our careers</a></h4>
+			<p class="button"><a class="orange" href="/careers">See our careers</a></p>
 		</div>
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left">
 	<div class="grid hide-on-mobile">
-		<div class="col-1-2 color-white tablet-col-1-60">
+		<div class="col-5-12 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
-			<h4 class="button"><a class="orange" href="">Become a foster or adoptive family</a></h4>
+			<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></p>
 		</div>
 	</div>
 </section>
@@ -82,15 +108,15 @@ layout: default
 	<div class="grid">
 		<div class="color-white text-center">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
-			<h4 class="button"><a class="orange" href="/programs/">Become a foster or adoptive family</a></h4>
+			<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></p>
 		</div>
 	</div>
 </section>
- 
+
 <section class="latest-front text-center white prlx-item">
 	<h3 class="blue-dark">The latest</h3>
 	<div class="grid">
-		<div class="col-1-3 blue">
+		<div class="col-1-3 tablet-col-1-2 blue">
 			<div class="caption"> 
 				<p class="small caps color-blue-dark">Twitter</p>
 			</div>
@@ -99,115 +125,103 @@ layout: default
 				{{ site.data.tweet[0].text }} 
 				</p>
 			</div>
-			<div class="overlay">
+			<div class="overlay-blue">
 				<div class="overlay-content">
-					<p class="button"><a class="orange" href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">Read on twitter</a></p> 
+					<img src="{{ site.image_path }}/twitter-logo.svg" alt="follow us on twitter" />
+					<p class="button"><a class="transparent" href="{{ site.data.tweet[0].entities.urls[0].url }}" target="_blank">Read on twitter</a></p> 
 				</div>
 			</div>
 		</div>
+		
+		{% assign nbPost = '' %}
+		{% assign colorOverlayArray = "blue,yellow,orange,orange,blue-dark,yellow" | split: ',' %}
+		{% assign colorTextArray = "blue,blue-marin,orange,blue-dark,blue-dark,blue-dark" | split: ',' %}
+
+
 		{% for blogpost in sorted_news %}
-		{% if blogpost.featuredOnBlog == true %}
-		<div class="col-1-3 blue-marin">
-			<a href="/blog/{{ blogpost.url }}">
-			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-			{% else %}
-				{% assign imageUrl = blogpost.heroImage.url %}
-			{% endif %}
-				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
-					<div class="caption">
-						<p class="small caps color-white">Stories</p>
-					</div>
-					<div class="latest-content">
-						{% if imageUrl == nil or imageUrl == "" %}
-							<h3 class="color-orange">{{ blogpost.title }}</h3>
+			{% if blogpost.featuredOnHomepage == true %}
+
+			{% capture temp %}{{ nbPost }}*{% endcapture %}
+			{% assign nbPost = temp %}
+
+				{% if nbPost.size < 5 %}
+					<div class="col-1-3 tablet-col-1-2 {{colorTextArray[nbPost.size]}}">
+						{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+							{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+						{% else %}
+							{% assign imageUrl = blogpost.heroImage.url %}
 						{% endif %}
-					</div>	
-					<div class="overlay center-vertical">
-						<div class="overlay-content">
-						{% if imageUrl %}
-							<a href="/blog/{{ blogpost.url }}"><h3>{{ blogpost.title }}</h3></a> 
-						{% else %} 
-							<p class="button"><a class="orange" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
-						{% endif %}
+						<div class="img-settings"  {% if nbPost.size == 1 or nbPost.size == 3 %} style="background-image: url('/{{ imageUrl }}');"{% endif %}>
+							<div class="caption">
+								<p class="small caps color-white">On The Blog</p>
+							</div>
+							<div class="latest-content">
+								{% if imageUrl == nil or imageUrl == "" or nbPost.size == 2 or nbPost.size == 4 %}
+									<h3 class="color-orange">{{ blogpost.title }}</h3>
+								{% endif %}
+							</div>	
+							<div class="center-vertical overlay-{{colorOverlayArray[nbPost.size]}}">
+								<div class="overlay-content">
+									<h3>{{ blogpost.title }}</h3>
+									<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</a>
-		</div>
-		{% endif %}
-		{% endfor %}
-		{% for blogpost in sorted_news limit: 1 offset: 1 %}
-		<div class="col-1-3 orange">
-			<div class="caption">
-				<p class="small caps">On the blog</p>
-			</div>
-			<div class="latest-content">
-				<a href="/blog/{{ blogpost.url }}">
-					<h3>{{ blogpost.title }}</h3>
-				</a>
-			</div>
-			<div class="overlay center-vertical">
-				<div class="overlay-content">
-					<p class="button"><a class="orange" href="https://twitter.com/aspiranet">Read the story</a></p> 
-				</div>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-	<div class="grid">
-	{% for blogpost in sorted_news %}
-		{% if blogpost.featuredOnHomepage == true %}
-			<div class="col-1-3 orange">
-			{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-				{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
-			{% else %}
-				{% assign imageUrl = blogpost.heroImage.url %}
+				{% endif %}
 			{% endif %}
-				<div class="img-settings" style="background-image: url('/{{ imageUrl }}');">
-					<div class="caption">
-						<p class="small caps color-white">On the blog</p>
+		{% endfor %}
+
+			
+		{% for blogpost in sorted_news %}
+			{% if blogpost.featuredOnHomepage == false %}
+
+				{% capture temp %}{{ nbPost }}*{% endcapture %}
+				{% assign nbPost = temp %}
+
+				{% if nbPost.size < 5 %}
+					<div class="col-1-3 tablet-col-1-2 {{colorTextArray[nbPost.size]}}">
+					{% if blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+						{% assign imageUrl = blogpost.thumbnailToBeDisplayedOnHomepage.url %}
+					{% else %}
+						{% assign imageUrl = blogpost.heroImage.url %}
+					{% endif %}
+						<div class="img-settings" {% if nbPost.size == 1 or nbPost.size == 3 %} style="background-image: url('/{{ imageUrl }}');" {% endif %}>
+							<div class="caption">
+								<p class="small caps color-white">On the blog</p>
+							</div>
+							<div class="latest-content">
+								{% if imageUrl == nil or imageUrl == "" or nbPost.size == 2 or nbPost.size == 4 %}
+									<h3>{{ blogpost.title }}</h3>
+								{% endif %}
+							</div>	
+						</div>
+						<div class="center-vertical overlay-{{colorOverlayArray[nbPost.size]}}">
+							<div class="overlay-content">
+								<h3>{{ blogpost.title }}</h3>
+								<p class="button"><a class="transparent" target="_blank" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+							</div>
+						</div>
 					</div>
-					<div class="latest-content">
-						{% if imageUrl == nil or imageUrl == "" %}
-							<h3>{{ blogpost.title }}</h3>
-						{% endif %}
-					</div>	
-				</div>
-				<div class="overlay center-vertical">
-					<div class="overlay-content">
-						{% if imageUrl %}
-							<a href="/blog/{{ blogpost.url }}"><h3>{{ blogpost.title }}</h3></a> 
-						{% else %} 
-							<p class="button"><a class="orange" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
-						{% endif %} 
-					</div>
-				</div>
-			</div>
-		{% endif %}
-	{% endfor %}
-		<div class="col-1-3 blue-dark">
+				{% endif %}	
+			{% endif %}	
+		{% endfor %}
+
+		
+		<div class="col-1-3 tablet-col-1-2 yellow">
 			<div class="caption">
 				<p class="small caps">Jobs</p>
 			</div>
-			<h3 class="latest-content color-orange">Highlighted job post here</h3>
-		</div>
-		{% for blogpost in sorted_news limit: 1 %}
-		<div class="col-1-3 yellow">
-			<div class="caption">
-				<p class="small caps">On the blog</p>
-			</div>
 			<div class="latest-content">
-				<a href="/blog/{{ blogpost.url }}">
-					<h3 class="color-blue-dark">{{ blogpost.title }}</h3>
-				</a>
+				<h3 class="latest-content blue-dark">Check out our open positions</h3>
 			</div>
-			<div class="overlay center-vertical">
+			<div class="center-vertical overlay-yellow">
 				<div class="overlay-content">
-					<p class="button"><a class="orange" href="/blog/{{ blogpost.url }}">Read the story</a></p> 
+					<h3>Check out our open positions</h3>
+					<p class="button"><a class="transparent" target="_blank" href="http://aspiranet.hrmdirect.com/employment/job-openings.php?search=true&">Join our team</a></p> 
 				</div>
-			</div>
+			</div> 
 		</div>
-		{% endfor %}
+		
 	</div>
 </section>

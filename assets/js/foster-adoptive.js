@@ -18,11 +18,12 @@ $(document).ready(function() {
         return false;
       });
   });
+  var $slides = $('.story-slider-item');
 
-  // $('.stories-slider').slick({
-  //    infinite: true,
-  //    arrows: true,
-  //    dots: false,
-  // });
+  $('.stories-slider').slick({
+    arrows: true,
+    infinite: true,
+    variableWidth: true
+  });
 
 });

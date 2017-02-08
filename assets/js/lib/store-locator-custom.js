@@ -28,14 +28,18 @@ MedicareDataSource.prototype.parse_ = function(json) {
   var stores = [],
       programs = [],
       uniquePrograms = [],
-      filterByProgram = false,
-      filterByAge = false;
+      filterByProgram = false;
+
+  marked.setOptions({
+    renderer: new marked.Renderer(),
+    gfm: true,
+    tables: true,
+    breaks: true, 
+    sanitize: false
+  });
 
     if(document.getElementById('programSelect').value != "") {
        filterByProgram = true;
-    }
-    if(document.getElementById('ageSelect').value != "") {
-       filterByAge = true;
     }
 
   json.items.forEach(function(item){
@@ -48,10 +52,12 @@ MedicareDataSource.prototype.parse_ = function(json) {
 
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
-      address: item.fields.addressAsText,
+      address: item.fields.addressAsText + `<br/>` + (item.fields.phoneText || '') + 
+        `<br/><br/><a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
+        `Directions</a>`,
       misc: `<strong>Available Services:</strong><br/>` + 
-      item.fields.programAndAgeGroupAsText,
-      web: item.fields.phoneText
+        marked(item.fields.programAndAgeGroupAsText || ''),
+      web: '',
     });
 
 
@@ -68,11 +74,6 @@ MedicareDataSource.prototype.parse_ = function(json) {
       return;
     }
 
-    if (item.fields.ageLevel) {
-      if (filterByAge && !item.fields.ageLevel.includes(document.getElementById('ageSelect').value)){
-        return;
-      }
-    }
 
     stores.push(store);      
 

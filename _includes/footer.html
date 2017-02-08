@@ -42,16 +42,16 @@
 			<div class="col-1-4 text-center hide-on-mobile hide-on-tablet">
 				<p class="small caps"><strong>More</strong></p>
 				<ul>
-					<li><a href="/sitemap.xml" target="_blank"><p class="small caps color-blue">Sitemap</p></a></li>
 					<li><a href="/privacy-policy"><p class="small caps color-blue">Privacy Policy</p></a></li>
 					<li><a href="/hipaa-privacy-notice"><p class="small caps color-blue">HIPPA Privacy <br /> Notice</p></a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
+			<p class="small color-white push-right signature">developed by <a href="https://amplifierstrategies.com/">Amplifier</a></p>
 		</div>
 	</section>
 	<div>
-		<p class="text-center caps color-blue-dark" style="font-size: 10px;">With excellence since 1977</p>
+		<p class="text-center caps color-blue-dark" style="font-size: 10px;">With excellence since 1975</p>
 		<div class="grid">
 			<ul class="footer-partners col-1-2 center">
 				<li><img src="{{ site.image_path }}/Icon.svg" /></li>
@@ -63,33 +63,4 @@
 	</div>
 </footer>
 
-{% if page.title == "Home" %}{% include front-page-footer.html %}{% endif %}
-{% if page.title == "Donate" %}{% include donate-script.html %}{% endif %}
-{% if page.title == "Careers" or page.title == "About" %}
-
-	<script src="/assets/js/lib/remodal.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#modal').click(function(e){
-				e.preventDefault();
-				var modal = $('[data-remodal-id=modal]').remodal();
-				modal.open();
-			})
-		});
-	</script>
-{% endif %}
-{% if page.title == 'Programs' %} 
-<script src="/assets/js/lib/jquery.scrollify.min.js"></script>
-{% endif %}
-{% if page.group == 'programs' %} 
-<script src="/assets/js/scroll-animation.js"></script>
-{% endif %}
-{% if page.layout == 'programs-landing' %} 
-<script src="/assets/js/fixed-nav.js"></script>
-<script src="/assets/js/programs-landing.js"></script>
-{% endif %}
-{% if page.title != "Donate" %}
-<script src="/assets/js/lib/slick.min.js"></script>
-<script src="/assets/js/sliders.js"></script>
-{% endif %}
-<script src="/assets/js/lib/main.js"></script>
+{% include footer-includes.html %}

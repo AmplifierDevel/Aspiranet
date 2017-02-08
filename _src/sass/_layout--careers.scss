@@ -1,9 +1,19 @@
 .careers {
-	@media screen and #{$brk-narrow} {
-		.hero-img {
-			background-position: 22%;
+	.hero-img {
+		.grid {
+			.col-4-12 {
+				width: 39%;
+			}
 		}
-	}
+		@media screen and #{$brk-narrow} {
+			background-position: 22%;
+			.grid {
+				.col-4-12 {
+					width: 39%;
+				}	
+			}
+		}
+	}	
 	.video-section {
 		.col-1-2 {
 			@media screen and #{$brk-narrow} { 
@@ -39,6 +49,9 @@
 		&:nth-of-type(3) {
 			padding-bottom: 5%;
 		}
+		@media screen and #{$brk-narrow} {
+			padding-bottom: 5%;
+		}
 		h4 {
 	    	margin-top: 20px;
 	    	margin-bottom: 20px;
@@ -54,16 +67,20 @@
 	    border-radius: 6px;
 	    width: 37%;
 	    display: block;
+	    @media screen and #{$brk-narrow} {
+	    	height: 5px;
+	    }
 	}
 }
 .jobs .job-category {
-	padding: 3px;
-	margin: 10px 0px;
+	padding: 20px;
+	margin: 0px;
 	p {
 		width: 50%;
     	margin: 20px auto;
     	@media screen and #{$brk-narrow} {
     		width: 75%;
+    		padding: 3px;
     	}
 	}
 }

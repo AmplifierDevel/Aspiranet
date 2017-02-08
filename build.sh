@@ -2,7 +2,11 @@
 
 echo '### Fetching Twitter ###'
 _scripts/last_tweet.sh $TWITTER_API $TWITTER_SECRET Aspiranet
-echo '### DONE ###'
+echo '### Fetching Twitter DONE ###'
+
+echo '### Fetching Programs ###'
+curl 'https://cdn.contentful.com/spaces/'"$ASPIRANET_CONTENTFUL_SPACE_ID"'/entries?access_token='"$ASPIRANET_CONTENTFUL_ACCESS_KEY"'&content_type=programLocation' > assets/data/program_data.json
+echo '### Fetching Programs DONE ###'
 
 echo '### Interpolating Variables ###'
 sed -i 's/ASPIRANET_CONTENTFUL_PREVIEW_KEY/'"$ASPIRANET_CONTENTFUL_PREVIEW_KEY"'/g' _config.yml 
