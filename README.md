@@ -110,7 +110,7 @@ This website is interacting with the following systems:
 
 ### Triggering the build process
 It is triggered automatically by:
-- Posting a new tweet on Aspiranet's Twitter account (Zapier integration)
+- Posting a new tweet on Aspiranet's Twitter account ([Zapier](https://www.zapier.com) integration)
 - Adding a new entry on contentful
 - Creating a new event on Eventbrite
 - Pushing a git commit to the repository
@@ -131,6 +131,9 @@ To install a local copy
   * `git add .`
   * `git commit -am "make it better"`
   * `git push heroku master`
+
+### Adding contacts to Act-On
+[Zapier](https://www.zapier.com) is configured to add contacts to 
 
 ## Credits
 
