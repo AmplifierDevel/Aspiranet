@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$(function() {
 		    $.scrollify({
 		        section : ".program-item",
-		        offset : -180,
+		        offset : -100,
 		        easing: "easeOutExpo",
 		        before:function(index, sections) {
 		        	var ref = sections[index].attr('id');

@@ -20,7 +20,7 @@ layout: default
 	{% for program in sorted_programs %}
 	{% assign mod = forloop.index | modulo: 2 %}
 
-	<section style="background-image: url('{{ program.photoLanding.url }}');" class="img-settings center-vertical program-item program-img" id="{{ program.title | slugify }}">
+	<section style="background-image: url('{{ program.photoLanding.url }}');" class="img-settings program-img center-vertical program-item" id="{{ program.title | slugify }}">
 		<div class="grid hide-on-tablet hide-on-mobile">
 			<div class="col-1-3 program-blurb {% if mod == 0 %} push-right {% endif %}">
 				<div class="blurb-color-block {{ program.programColor }}">
