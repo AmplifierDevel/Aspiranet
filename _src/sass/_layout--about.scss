@@ -38,6 +38,11 @@
             background-position: 10% 100%;
         }
     }
+    @media screen and #{$brk-wide-min} {
+        .hero-img {
+            background-position: -115px 61px;
+        }
+    }
 }
 .value-container {
     padding: 0;
