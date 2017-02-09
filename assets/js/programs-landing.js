@@ -4,6 +4,7 @@ $(document).ready(function(){
 		    $.scrollify({
 		        section : ".program-item",
 		        offset : -100,
+		        updateHash: false,
 		        easing: "easeOutExpo",
 		        before:function(index, sections) {
 		        	var ref = sections[index].attr('id');
