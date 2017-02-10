@@ -686,10 +686,11 @@
 			margin-bottom: 2em;
 		}
 		.links-box {
-			padding: 35px;
 			border-radius: 4px;
 			margin-bottom: 3em;
 			padding: 25px;
+			position: relative;
+			z-index: 31;
 			.button a {
 				min-width: 200px;
 			}
@@ -721,7 +722,7 @@
 		.tabs {
 			padding-left: 0;
 			position: relative;
-    		z-index: 99;
+    		z-index: 30;
 			li {
 				display: inline-block;
 				margin-right: 2em;
