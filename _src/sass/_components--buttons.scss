@@ -34,6 +34,15 @@
 				color: #fff;
 				background: lighten($orange, 5%);
 			}
+			&.outlined {
+				background: none;
+				color: $orange;
+				border: 1px solid $orange;
+				&:hover {
+					color: #fff;
+					background: lighten($orange, 5%);
+				}
+			}
 		}
 		&.transparent {
 			color: #fff;
