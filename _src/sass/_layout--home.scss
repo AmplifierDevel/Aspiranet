@@ -316,6 +316,9 @@
     	h5 {
     		margin-top: 15px;
     	}
+    	@media screen and #{$brk-wide-min} and (max-width: 1300px) {
+    		margin: 0 10%;
+    	}
 	}
 	.slider-item {
 		height: 650px;

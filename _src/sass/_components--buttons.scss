@@ -95,6 +95,10 @@ input[type=submit] {
 	color: #fff;
 	font-size: 12px;
 	-webkit-appearance: none;
+	&:hover {
+		color: #fff;
+		background: lighten($orange, 5%);
+	}
 }
 input[type=email], input[type=text], select {
 	background:none;
