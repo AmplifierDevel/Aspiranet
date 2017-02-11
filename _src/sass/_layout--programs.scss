@@ -175,10 +175,10 @@
 		}
 	}
 	.program-content {
-		padding: 50px 0 90px 0;
+		padding: 50px 0 20px 0;
 		@media screen and #{$brk-wide} {
 			padding: 50px 0;
-			.col-7-12, .col-6-12 {
+			.col-7-12, .col-4-12 {
 				padding: 0;
 			}
 		}
@@ -248,10 +248,12 @@
 		}
 	}
 	.col-4-12 {
+		margin-bottom: 2em;
 		.button {
 			padding-left: 40px;
 			.orange {
 				width: 230px;
+				margin-top: 10px;
 			}
 		}
 	}
@@ -617,6 +619,7 @@
     		}
 			.tab-content {
 				margin-top: -8em;
+				margin-bottom: 2em;
 				position: relative;
 				.col-8-12 {
 					margin-top: 8em;
@@ -698,6 +701,9 @@
 				padding: 0;
 				a p {
 					margin: 10px 0;
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 			.social-icons {

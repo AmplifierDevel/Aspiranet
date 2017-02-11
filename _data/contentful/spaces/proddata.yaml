@@ -2045,45 +2045,6 @@ programs:
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
 - sys:
-    id: 4WGNwaPSqcSwSueou6keQ0
-  title: 'Transitional Aged Youth '
-  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
-    from which to launch their futures. '
-  photoLanding:
-    title: 04 program hero img  1N3R4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg
-  programColor: mint
-  order: 3
-  subtitle: 'A bridge from youth to independence '
-  copyTop: "Aspiranet's Transitional Aged Youth programs are a bridge between foster
-    care and independence.\n\nWe are dedicated to helping our youth develop necessary
-    life skills, self-reliance, and confidence so they can achieve their goals for
-    the future. "
-  photo:
-    title: 5 tay 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
-  pullQuote: “Helping a youth transition into adulthood is a big responsibility, and
-    I’m grateful every day I get the chance to do it." <br/> — Samantha LaGrasse,
-    Transitional Aged Youth Division Director
-  copyRest: "We collaborate with a statewide network of partners to ensure that youth
-    who are aging out of foster care are equipped to navigate the hurdles of young
-    adulthood and become productive members of their communities.\n\nWe help with
-    basic needs like transportation and housing, as well as mental health and emotional
-    support.  \n\nAnd we assist youth in securing a safe place to live, ongoing education,
-    job readiness training and employment.  \n\nOur programs are a vital launching
-    pad, helping youth lift off to pursue their life dreams and exercise their full
-    potential. "
-  fastFact1Number: '5,000'
-  fastFact1Text: Youth “age out” of foster care each year in California
-  fastFact2Number: '1,900'
-  fastFact2Text: Transitional Aged Youth supported annually by Aspiranet
-  fastFact3Number: '14'
-  fastFact3Text: Countries where Aspiranet offers TAY services
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-- sys:
     id: 5B2oeqvKA8QciIA8gycoe8
   title: 'Family & Community '
   landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
@@ -2177,6 +2138,44 @@ programs:
   fastFact3Number: '3.5'
   fastFact3Text: Aspiranet team members per family work to create a robust system
     of support
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+- sys:
+    id: 4WGNwaPSqcSwSueou6keQ0
+  title: 'Transitional Aged Youth '
+  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
+    from which to launch their futures. '
+  photoLanding:
+    title: 04 program hero img  1N3R4
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg
+  programColor: mint
+  order: 3
+  subtitle: 'A bridge from youth to independence '
+  copyTop: "Aspiranet's Transitional Aged Youth programs are a bridge between foster
+    care and independence.\n\nWe are dedicated to helping our youth develop necessary
+    life skills, self-reliance, and confidence so they can achieve their goals for
+    the future. \n\nWe collaborate with a statewide network of partners to ensure
+    that youth who are aging out of foster care are equipped to navigate the hurdles
+    of young adulthood and become productive members of their communities.\n"
+  photo:
+    title: 5 tay 1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
+  pullQuote: “Helping a youth transition into adulthood is a big responsibility, and
+    I’m grateful every day I get the chance to do it." <br/> — Samantha LaGrasse,
+    Transitional Aged Youth Division Director
+  copyRest: "We help with basic needs like transportation and housing, as well as
+    mental health and emotional support.  \n\nAnd we assist youth in securing a safe
+    place to live, ongoing education, job readiness training and employment.  \n\nOur
+    programs are a vital launching pad, helping youth lift off to pursue their life
+    dreams and exercise their full potential. "
+  fastFact1Number: '5,000'
+  fastFact1Text: Youth “age out” of foster care each year in California
+  fastFact2Number: '1,900'
+  fastFact2Text: Transitional Aged Youth supported annually by Aspiranet
+  fastFact3Number: '14'
+  fastFact3Text: Countries where Aspiranet offers TAY services
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
 rootWebsite:
