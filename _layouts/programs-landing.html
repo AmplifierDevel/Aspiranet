@@ -2,9 +2,9 @@
 layout: default 
 --- 
 {% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
-<section class="blue-marin program-item programs-sub center-vertical">      
+<section class="blue-marin program-item programs-sub center-vertical fadeInBlock">      
 	<div class="grid text-center">  
-		<div class="col-1-2 center tablet-col-1-2 color-white fadeInBlock">
+		<div class="col-1-2 center tablet-col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify }}
 		</div>
 	</div>
