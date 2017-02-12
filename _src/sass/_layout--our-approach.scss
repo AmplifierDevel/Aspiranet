@@ -19,6 +19,9 @@
 	}
 }
 .our-approach {
+	.hero-img {
+		background-position-x: right !important;
+	}
 	.cta-join-team {
 		text-align: center;
 		@media screen and #{$brk-wide} {

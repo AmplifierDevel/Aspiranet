@@ -6,7 +6,7 @@ layout: default
 {% assign sorted_campaigns = site.data.contentful.spaces.proddata.campain | sort: "order" %}
 
 {% assign sorted_news = site.data.contentful.spaces.proddata.blogPost | sort: "date" %}
-<div class="campaign-slider hide-on-mobile hide-on-tablet">
+<div class="campaign-slider hide-on-mobile hide-on-tablet grey">
 	{% for campaign in sorted_campaigns %}
 		<div style="display: block; background-image: url('{{ campaign.image.url }}');" alt="{{ campaign.image.title }}" class="slider-item img-settings">
 			<section class="grid">
@@ -95,7 +95,7 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left grey">
 	<div class="grid hide-on-mobile">
 		<div class="col-5-12 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}

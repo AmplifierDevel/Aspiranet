@@ -1,12 +1,12 @@
 .careers {
 	.hero-img {
+		background-position-x: right !important;
 		.grid {
 			.col-4-12 {
 				width: 39%;
 			}
 		}
 		@media screen and #{$brk-narrow} {
-			background-position: 22%;
 			.grid {
 				.col-4-12 {
 					width: 39%;

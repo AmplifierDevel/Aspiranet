@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+		
 	//Mobile menu 
 	$('.menu-icon').on('click', function(e) {
 		$('.trigger').slideToggle();
@@ -45,6 +45,24 @@ $(document).ready(function(){
         $(this).animate({
             'opacity':'1',
             'easing': 'easeOutCirc'
-        }, 1000);       
+        }, 1000);
     });
+
+
+    //Parallax
+    var prlxBg = function() {
+    	var prlxItem = $('.prlx-bg');
+    	var speed = 0.02;
+    	$(window).scroll(function(){ 
+    		prlxItem.each(function(){
+    			var windowYOffset = $(window).scrollTop(),
+	          	elBackgrounPos = "0 " + (windowYOffset * speed) + "px";
+	      
+	      		$(this).css('background-position', elBackgrounPos);
+    		});
+    	});
+    };
+    prlxBg();
+
+    //end of parallax
 });

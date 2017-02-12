@@ -12,6 +12,12 @@
             }
         }
     }
+    .hero-img {
+        background-position-x: left !important;
+    }
+    .section-photo {
+        background-position-x: center !important;
+    }
     @media screen and #{$brk-narrow} {
         .cta-btns {
             padding: 20px 0 0 0;
@@ -31,16 +37,8 @@
         }
     }
     @media screen and #{$brk-wide} {
-        .hero-img {
-            background-position: 78% 100%;
-        }
         .section-photo {
             background-position: 10% 100%;
-        }
-    }
-    @media screen and #{$brk-wide-min} {
-        .hero-img {
-            background-position: -115px 61px;
         }
     }
 }
