@@ -8,6 +8,7 @@ $(document).ready(function(){
     });
 	//end of mobile menu
 
+	//Programs navigation
 	$('#programsNavItem').mouseenter(function() {
 		$('.nav-programs a p').addClass('blue-light');
 		$('#programsNav').slideDown();
@@ -25,6 +26,7 @@ $(document).ready(function(){
 		$('.nav-programs a p').removeClass('blue-light');
 		$('#programsNav').slideUp();
 	};
+	// end of program navigation
 
 	$("#mc-embedded-subscribe-form").submit(function(e) {
 	  e.preventDefault();
@@ -35,4 +37,14 @@ $(document).ready(function(){
 	  });
 	});
 
+	//Hero images fade in animation
+
+	elementToFadeIn = $('.fadeInBlock');
+
+	elementToFadeIn.each(function() {
+        $(this).animate({
+            'opacity':'1',
+            'easing': 'easeOutCirc'
+        }, 1000);       
+    });
 });
