@@ -27,7 +27,7 @@ $(document).ready(function(){
                     'opacity':'1',
                     'easing': 'easeInExpo'
                 },{ duration: 600})
-                .delay(300)
+                .delay(600)
                 .queue(
                     function() {
                         $('.slideUpBlock').each(function(){
