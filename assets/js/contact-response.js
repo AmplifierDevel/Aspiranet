@@ -1,5 +1,5 @@
 var contactForm = $("#contact");
-var applyForm = $('#apllication-form');
+var applyForm = $('#application-form');
 
 contactForm.submit(function(e) {
 	e.preventDefault();
