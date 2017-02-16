@@ -213,6 +213,7 @@
 			}
 			.overlay-orange, .overlay-blue, .overlay-yellow, .overlay-blue-dark {
 				opacity: 1;
+				cursor: pointer;
 				@include transition(0.4s);
 				.overlay-content {
 					text-align: center;
