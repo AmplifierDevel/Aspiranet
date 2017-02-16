@@ -60,7 +60,9 @@
 
 .programs-sub {
 	position: relative;
-	height: 100vh;
+	@media screen and #{$brk-wide-min} {
+		height: 100vh;
+	}
 }
 .programs {
 	overflow: auto;
@@ -231,7 +233,7 @@
 			margin: 0;
 		}
 	}
-	.block-overlap {
+	.how-you-can-help {
 		.button {
 			display: inline-block;
 			margin-top: 3%;
@@ -335,7 +337,7 @@
 				color: $mint;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $purple-light;
 		}
 		.quote-section {
@@ -368,7 +370,7 @@
 				color: $purple-dark;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $mint;
 		}
 		.quote-section {
@@ -401,7 +403,7 @@
 				color: $orange;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $blue;
 		}
 		.quote-section {
@@ -437,7 +439,7 @@
 				color: $yellow;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $red-dark;
 		}
 		.quote-section {
@@ -469,7 +471,7 @@
 				color: $blue-dark;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $yellow;
 			h3, p {
 				color: $blue-dark;
@@ -520,7 +522,7 @@
 				color: $yellow;
 			}
 		}
-		.block-overlap {
+		.how-you-can-help {
 			background-color: $blue;
 		}
 		.quote-section {

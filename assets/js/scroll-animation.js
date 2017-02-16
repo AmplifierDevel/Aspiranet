@@ -23,19 +23,6 @@ $(document).ready(function(){
                     'opacity':'1',
                     'easing': 'easeInExpo'
                 },{ duration: 600})
-                .delay(600)
-                .queue(
-                    function() {
-                        $('.slideUpBlock').each(function(){
-                            $(this).animate({
-                                    'top': '0',
-                                    'opacity':'1',
-                                    'easing': 'easeOutQuart' 
-                            }, { duration: 600, queue: true});
-                        });
-                        return $(this).dequeue();
-                    }
-                );       
             }
         }); 
     })

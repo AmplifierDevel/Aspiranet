@@ -95,16 +95,16 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left grey">
-	<div class="grid hide-on-mobile">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}');" class="prlx-bg img-settings section-photo adopt-cta img-overlay-left grey hide-on-mobile hide-on-tablet">
+	<div class="grid">
 		<div class="col-5-12 color-white tablet-col-1-60">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}
 			<p class="button"><a class="orange" href="/programs/foster-and-adoptive-families/">Become a foster or adoptive family</a></p>
 		</div>
 	</div>
 </section>
-
-<section class="blue hide-on-tablet hide-on-desktop prlx-item">
+<img src="{{ site.data.contentful.spaces.proddata.rootWebsite[0].adoptionCtaHeroImage.url  }}" style="width: 100%;" class="hide-on-desktop">
+<section class="blue hide-on-desktop prlx-item">
 	<div class="grid">
 		<div class="color-white text-center">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].homepageFosterText| markdownify}}

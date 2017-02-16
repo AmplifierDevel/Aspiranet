@@ -38,8 +38,8 @@ layout: default
 	</div>
 </section>
 
-<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutOurMissionImage.url  }}');" class="prlx-bg section-photo center-vertical">
-	<div class="grid hide-on-mobile hide-on-tablet">
+<section style="background-image: url('{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutOurMissionImage.url  }}');" class="prlx-bg section-photo center-vertical hide-on-mobile hide-on-tablet">
+	<div class="grid">
 		<div class="col-1-2">
 			&nbsp;
 		</div>
@@ -47,7 +47,8 @@ layout: default
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutMission | markdownify}}
 		</div>
 	</div>
-</section> 
+</section>
+<img src="{{ site.data.contentful.spaces.proddata.rootWebsite[0].aboutOurMissionImage.url}}" style="width: 100%;" class="hide-on-desktop"> 
 <section class="blue hide-on-desktop">
 	<div class="grid">
 		<div class="color-white text-center">

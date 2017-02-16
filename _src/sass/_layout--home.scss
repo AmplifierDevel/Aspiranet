@@ -128,6 +128,7 @@
 		padding-right: 0;
 		height: 303px;
 		position: relative;
+		cursor: pointer;
 		.caption {
 			text-align: center;
     		background-color: rgba(255, 255, 255, 0.2);
@@ -139,7 +140,6 @@
 		}
 		.latest-content {
 			text-align: center;
-			padding: 5% 8%;
 		    position: absolute;
 		  	top: 50%;
 		  	left: 0;
@@ -147,6 +147,7 @@
 		  	transform: translateY(-50%);
 		    margin: 0;
 		    display: block;
+		    padding: 5% 8%;
 		}
 		.img-settings {
 			height: 303px;
@@ -197,6 +198,7 @@
 			}
 		}
 		&:hover {
+			cursor: pointer;
 			.overlay-orange:after {
 				background-color: lighten($orange, 10%);
 			}
@@ -214,7 +216,6 @@
 				@include transition(0.4s);
 				.overlay-content {
 					text-align: center;
-					padding: 5% 8%;
 				    position: absolute;
 				    z-index: 30;
 				  	top: 50%;
@@ -223,6 +224,9 @@
 				  	transform: translateY(-50%);
 				    margin: 0;
 				    display: block;
+				    @media screen and #{$brk-wide-min} {
+				    	padding: 5% 8%;
+				    }
 				}
 				&:after {
 					@include transition(0.4s);
