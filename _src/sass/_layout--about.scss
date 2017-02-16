@@ -14,6 +14,9 @@
     }
     .hero-img {
         background-position-x: left !important;
+        @media screen and #{$brk-wide} {
+            background-position-x: right !important;
+        }
     }
     .section-photo {
         background-position-x: center !important;
