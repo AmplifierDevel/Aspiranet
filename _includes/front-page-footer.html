@@ -16,6 +16,11 @@
         	$homeSlider.slick('slickPlay');
         }
     });
+    //latest news section hover on touch 
+	$('.latest-front .col-1-3').bind('touchstart touchend', function(e){
+		$(this).toggleClass('.hover');
+	});
+	//end hover on touch 
 </script>
 
 {% assign Modals = site.data.contentful.spaces.proddata.popup | reverse %}

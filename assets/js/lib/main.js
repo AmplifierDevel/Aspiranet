@@ -8,11 +8,6 @@ $(document).ready(function(){
     });
 	//end of mobile menu
 
-	$('.latest-front .col-1-3').bind('touchstart touchend', function(e){
-		console.log(this);
-		$(this).toggleClass('.hover');
-	});
-
 	//Programs navigation
 	$('#programsNavItem').mouseenter(function() {
 		$('.nav-programs a p').addClass('blue-light');
