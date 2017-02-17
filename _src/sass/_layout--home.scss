@@ -128,7 +128,6 @@
 		padding-right: 0;
 		height: 303px;
 		position: relative;
-		cursor: pointer;
 		.caption {
 			text-align: center;
     		background-color: rgba(255, 255, 255, 0.2);
@@ -197,7 +196,7 @@
 	   	 		z-index: 20;
 			}
 		}
-		&:hover {
+		&:hover, &.hover {
 			cursor: pointer;
 			.overlay-orange:after {
 				background-color: lighten($orange, 10%);
@@ -213,7 +212,6 @@
 			}
 			.overlay-orange, .overlay-blue, .overlay-yellow, .overlay-blue-dark {
 				opacity: 1;
-				cursor: pointer;
 				@include transition(0.4s);
 				.overlay-content {
 					text-align: center;
