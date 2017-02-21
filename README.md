@@ -136,8 +136,10 @@ To install a local copy
 [Zapier](https://www.zapier.com) is configured to add contacts to Act-On.
 Unfortunately Act-On does not support checking for dupplicates. So the same contact might be added twice.
 
-Thankfully they created a feature that allows the contact list to be cleaned quite easily.
+Act-On provides a feature that allows the contact list to be cleaned
 ![Act-On](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-act-on.jpg "Act-On")
+
+[Amplifier Strategies](https://www.amplifierstrategies.com) recommends to use it before any export.
 
 
 ## Credits

@@ -20,6 +20,7 @@
     }
     .section-photo {
         background-position-x: center !important;
+        background-size:cover;
     }
     @media screen and #{$brk-narrow} {
         .cta-btns {

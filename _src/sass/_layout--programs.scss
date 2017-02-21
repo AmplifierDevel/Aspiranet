@@ -421,6 +421,9 @@
 }
 #intensive-home-based-services {
 	background-position: 0 100px;
+    @media screen and #{$brk-narrow} {
+		background-position: center center;
+    }
 }
 .intensive-home-based-services {
 	.individual-program {
