@@ -91,6 +91,76 @@ programLocation:
     Home Alternative to Residential Treatment \nNancy Petrovic, Core Program Director\nnpetrovic@aspiranet.org\nCrystal
     Winn, Core Program Manager\ncwinn@aspiranet.org"
 - sys:
+    id: 3jAi2DIWcUQIImAO0AiOsY
+  name: Ventura
+  location:
+    lat: 34.2146451
+    lon: -118.99731400000002
+  addressAsText: '5284 Adolfo Rd #100, Camarillo, CA 93012, USA'
+  program:
+  - Adoption
+  - Collaborative Educational Supports SELPA
+  - Foster Care
+  - Intensive Home-Based Services
+  - Intensive Treatment Foster Care
+  - In-Home Therapy Program
+  - Outpatient Therapy
+  - Pathways to Wellbeing
+  - Transitional Housing Placement + Foster Care
+  - Therapeutic Behavioral Services
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement + Foster Care
+    </p></strong> \n<p>An extended foster care placement option that bridges the gap
+    for non-minor dependents who are no longer living in a foster home, but who may
+    not yet be ready to transition into a supervised independent living placement.</p>\n\n<strong><p>Foster
+    Care </p></strong> \n<p>Aspiranet secures loving homes for foster children.  Whether
+    the foster care placement lasts for a few days or a few years, we are committed
+    to matching children with families where they will thrive.</p>\n\n<strong><p>Intensive
+    Treatment Foster Care </p></strong>\n<p>Aspiranet secures permanent, loving, adoptive
+    families for youth in foster care, and provides ongoing support for adoptive families,
+    including resources, education, crisis intervention, and advocacy.</p>\n\n<strong><p>Adoption
+    </p></strong> \n<p>Aspiranet secures permanent, loving, adoptive families for
+    youth in foster care, and provides ongoing support for adoptive families, including
+    resources, education, crisis intervention, and advocacy.</p>\n\n<strong><p>Outpatient
+    Therapy, Intensive Home-Based Services </p></strong> \n<p>Outpatient Therapy at
+    home, school and community-based sites, including crisis intervention, individual
+    and group therapy, case management and medication.  Intensive Home-Based Services
+    for parents who are at risk of or have already had their children removed by the
+    Child Welfare System.</p>\n\n<strong><p>In-Home Therapy Program </p></strong>
+    \n<p>Services for adults in the child welfare system who are court mandated to
+    participate in therapy as part of their reunification case plan.</p>\n\n<strong><p>Therapeutic
+    Behavioral Services </p></strong> \n<p>Therapeutic Behavioral Services are provided
+    to children and youth at risk of high level placement such as group home, juvenile
+    hall, or hospitalization.  Support counselors and clinicians provide these mental
+    health services as many hours per day and days per week as needed to address the
+    risks and prevent higher level care.</p>\n\n<strong><p>Pathways to Wellbeing  </p></strong>
+    \n<p>Pathways to Wellbeing provides intensive care coordination, and intensive
+    home-based and mental health services to children and youth in child welfare.</p>\n<strong><p>\n\nCollaborative
+    Educational Supports (SELPA)</p></strong> \n<p>Aspiranet assists children in overcoming
+    psychological and social challenges that are impacting their ability to succeed
+    in school.</p>"
+  phoneText: 805-289-0120
+  internalNotes: "Transitional Housing Placement + Foster Care\nMartie Miles, Core
+    Program Director\nmmiles@aspiranet.org\nLeticia Woodruff, Core Program Manager\nlwoodruff@aspiranet.org\n\nFoster
+    Care\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda Schneider,
+    Core Program Manager\nmschneider@aspiranet.org\n\nIntensive Treatment Foster Care\nMartie
+    Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda Schneider, Core Program
+    Manager\nmschneider@aspiranet.org\n\nAdoption\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda
+    Schneider, Core Program Manager\nmschneider@aspiranet.org\n\nOutpatient Therapy,
+    Intensive Home-Based Services \nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nDahlia
+    Kindschi, Core Program Manager\ndkindschi@aspiranet.org\n\nIn-Home Therapy Program
+    \nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nDahlia Kindschi,
+    Core Program Manager\ndkindschi@aspiranet.org\n\nTherapeutic Behavioral Services\nMartie
+    Miles, Core Program Director\nmmiles@aspiranet.org\nAliya Maki, Core Program Manager\namaki@aspiranet.org\n\nPathways
+    to Wellbeing\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nAliya
+    Maki, Core Program Manager\namaki@aspiranet.org\n\nCollaborative Educational Supports
+    SELPA\nMartie Miles, Core Program Director\nmmiles@aspiranet.org"
+- sys:
     id: 5nCDIajoEESQG8ocIi0Ask
   name: Orange
   location:
@@ -1106,77 +1176,10 @@ programLocation:
     Wraparound
     Kimberly Kopenhaver, Core Program Director
     kkopenhaver@aspiranet.org
-- sys:
-    id: 3jAi2DIWcUQIImAO0AiOsY
-  name: Ventura
-  location:
-    lat: 34.2146451
-    lon: -118.99731400000002
-  addressAsText: '5284 Adolfo Rd #100, Camarillo, CA 93012, USA'
-  program:
-  - Adoption
-  - Collaborative Educational Supports SELPA
-  - Foster Care
-  - Intensive Home-Based Services
-  - Intensive Treatment Foster Care
-  - In-Home Therapy Program
-  - Outpatient Therapy
-  - Pathways to Wellbeing
-  - Transitional Housing Placement + Foster Care
-  - Therapeutic Behavioral Services
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>Transitional Housing Placement + Foster Care
-    </p></strong> \n<p>An extended foster care placement option that bridges the gap
-    for non-minor dependents who are no longer living in a foster home, but who may
-    not yet be ready to transition into a supervised independent living placement.</p>\n\n<strong><p>Foster
-    Care </p></strong> \n<p>Aspiranet secures loving homes for foster children.  Whether
-    the foster care placement lasts for a few days or a few years, we are committed
-    to matching children with families where they will thrive.</p>\n\n<strong><p>Intensive
-    Treatment Foster Care </p></strong>\n<p>Aspiranet secures permanent, loving, adoptive
-    families for youth in foster care, and provides ongoing support for adoptive families,
-    including resources, education, crisis intervention, and advocacy.</p>\n\n<strong><p>Adoption
-    </p></strong> \n<p>Aspiranet secures permanent, loving, adoptive families for
-    youth in foster care, and provides ongoing support for adoptive families, including
-    resources, education, crisis intervention, and advocacy.</p>\n\n<strong><p>Outpatient
-    Therapy, Intensive Home-Based Services </p></strong> \n<p>Outpatient Therapy at
-    home, school and community-based sites, including crisis intervention, individual
-    and group therapy, case management and medication.  Intensive Home-Based Services
-    for parents who are at risk of or have already had their children removed by the
-    Child Welfare System.</p>\n\n<strong><p>In-Home Therapy Program </p></strong>
-    \n<p>Services for adults in the child welfare system who are court mandated to
-    participate in therapy as part of their reunification case plan.</p>\n\n<strong><p>Therapeutic
-    Behavioral Services </p></strong> \n<p>Therapeutic Behavioral Services are provided
-    to children and youth at risk of high level placement such as group home, juvenile
-    hall, or hospitalization.  Support counselors and clinicians provide these mental
-    health services as many hours per day and days per week as needed to address the
-    risks and prevent higher level care.</p>\n\n<strong><p>Pathways to Wellbeing  </p></strong>
-    \n<p>Pathways to Wellbeing provides intensive care coordination, and intensive
-    home-based and mental health services to children and youth in child welfare.</p>\n<strong><p>\n\nCollaborative
-    Educational Supports (SELPA)</p></strong> \n<p>Aspiranet assists children in overcoming
-    psychological and social challenges that are impacting their ability to succeed
-    in school.</p>"
-  phoneText: 805-289-0120
-  internalNotes: "Transitional Housing Placement + Foster Care\nMartie Miles, Core
-    Program Director\nmmiles@aspiranet.org\nLeticia Woodruff, Core Program Manager\nlwoodruff@aspiranet.org\n\nFoster
-    Care\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda Schneider,
-    Core Program Manager\nmschneider@aspiranet.org\n\nIntensive Treatment Foster Care\nMartie
-    Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda Schneider, Core Program
-    Manager\nmschneider@aspiranet.org\n\nAdoption\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda
-    Schneider, Core Program Manager\nmschneider@aspiranet.org\n\nOutpatient Therapy,
-    Intensive Home-Based Services \nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nDahlia
-    Kindschi, Core Program Manager\ndkindschi@aspiranet.org\n\nIn-Home Therapy Program
-    \nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nDahlia Kindschi,
-    Core Program Manager\ndkindschi@aspiranet.org\n\nTherapeutic Behavioral Services\nMartie
-    Miles, Core Program Director\nmmiles@aspiranet.org\nAliya Maki, Core Program Manager\namaki@aspiranet.org\n\nPathways
-    to Wellbeing\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nAliya
-    Maki, Core Program Manager\namaki@aspiranet.org\n\nCollaborative Educational Supports
-    SELPA\nMartie Miles, Core Program Director\nmmiles@aspiranet.org"
 blogTag:
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster Care
 - sys:
     id: 5QgCSjml0sGOIAAMiKyMu2
   name: 'Transitional Aged Youth '
@@ -1228,9 +1231,6 @@ blogTag:
 - sys:
     id: 590hKeFmvCMwCmGQyiqOWq
   name: Residential
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster Care
 campain:
 - sys:
     id: 3VZjgHDyBWCgEW44GE880U
@@ -1559,8 +1559,8 @@ blogPost:
     you for contributing to the Aspiranet story, and please enjoy this new website.\n"
   blogCategory:
     sys:
-      id: 1TBUAtWXMk2gEqAmOOy4o0
-    name: Courage
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
   blogTag:
   - sys:
       id: 4FYoyfpg3u0K2Qu0qsOKgm
@@ -1864,6 +1864,18 @@ blogPost:
   - sys:
       id: 4kGCbYfoWkeqQACqOQ82Ka
     name: Foster Care
+  - sys:
+      id: 31qAv9zAikEMCYGOgqmy4A
+    name: Foster and Adoptive Families
+  - sys:
+      id: 2rpQXkICnOQqkYe8KewUmo
+    name: Youth
+  - sys:
+      id: 3ihYDCzp0ISOE644OmscMs
+    name: THP+
+  - sys:
+      id: 5QgCSjml0sGOIAAMiKyMu2
+    name: 'Transitional Aged Youth '
 - sys:
     id: 4KnVNF25SwmY0MIoOGIwUY
   title: A Miracle Out of Nowhere
@@ -1984,7 +1996,7 @@ divisionHeads:
     id: 3fkQUE9Z7y0840WokS2sYY
   name: Diane Warne
   desiredUrl: Diane-Warne
-  position: Resource Family Division Director
+  position: Foster and Adoptive Families Division Director
   order: 6
   bio: |-
     Diane earned a Bachelor of Arts in Psychology from California State University Fresno
@@ -2435,7 +2447,7 @@ rootWebsite:
 
     #### Our services work together so children thrive, families are empowered, and communities are strengthened.
   ourApproachProgramText: |-
-    <h4 class="round no-margin-top">Aspiranet’s work centers on supporting children, youth and families to reach their full potential.</h4>
+    <h4 class="round no-margin-top">Our work centers on supporting children, youth and families to reach their full potential.</h4>
 
     #### Aspiranet offers a unique breadth and depth of services for children and youth from birth through adulthood. We take a proactive, responsive and forward-thinking approach to the growing needs of the communities&nbsp;we serve.
   ourApproachTogetherText: |-
@@ -2463,7 +2475,7 @@ rootWebsite:
   aboutHeaderText: |-
     # About Aspiranet
 
-    #### For more than 40 years, we have been dedicated to offering outstanding services that impact more than 35,000 children, youth and parents annually at 33 community-based sites statewide.
+    #### Founded in 1975, Aspiranet is dedicated to offering outstanding services that impact more than 35,000 children, youth and parents annually at 33 community-based sites statewide.
   aboutHeader: '#### Aspiranet offers a unique blend of services including foster
     family support, adoption through foster care, services for foster youth transitioning
     to adulthood, mental health services, residential care, intensive home-based care,
@@ -2471,6 +2483,7 @@ rootWebsite:
   aboutVision: "# Our Vision\n\n#### Aspiranet envisions a world in which all children
     and youth are loved and cared for and all families have the resources to thrive.
     \ \n"
+  aboutVideoUrl: https://www.youtube.com/embed/bko62Sd9XMc
   aboutOurMissionImage:
     title: 06 about img v1 2
     description: 
@@ -2501,6 +2514,7 @@ rootWebsite:
     At Aspiranet we’re committed to strengthening families. We know we can’t do this
     purpose-driven work alone. We need talented and committed people, like you, to
     bring our mission home.  \n"
+  careerVideoUrl: https://www.youtube.com/embed/mXny7p6v888
   careersBlock1: "<h4 class=\"round\">Work with amazing people</h4>\nA highly skilled
     and passionate staff fuels our organization.  \n"
   careersBlock2: "<h4 class=\"round\">Advance your career</h4>\nWe provide promotional
@@ -2553,6 +2567,3 @@ rootWebsite:
     Please contact us at Aspiranet if you have any questions about this policy.
   donateThankYou: Thank you for your donation.
   findAProgramPageTitle: Find a Program or Service
-  findAProgramPageText: '#### Our statewide network of innovative services connects
-    community members through dedicated programs that touch the lives of children,
-    parents, adults and seniors.'
