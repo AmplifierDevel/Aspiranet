@@ -17,6 +17,9 @@ All content is managed through [Contentful](https://www.contentful.com) . To acc
 - New content can be added on the top right **Add Entry**
 - Content on unique pages such as **About Us**, **Approach** or **Homepage** will be found under **Unique Page Content**
 
+### Videos on Careers and About
+You will find the About Video URL and Career Video URL field in [Contentful](https://www.contentful.com) under **Unique Page Content**
+
 ### Staging website and previewing
 A staging website is available at [https://aspiranet-staging.netlify.com](https://aspiranet-staging.netlify.com)
 
@@ -140,6 +143,24 @@ Act-On provides a feature that allows the contact list to be cleaned
 ![Act-On](https://github.com/AmplifierDevel/Aspiranet/blob/master/assets/img/documentation-act-on.jpg "Act-On")
 
 [Amplifier Strategies](https://www.amplifierstrategies.com) recommends to use it before any export.
+
+
+### Zapier 
+[Zapier](https://www.zapier.com) is configured to execute the following tasks:
+- When a donation is made, the donator email is added to the Contacts list in Act-On
+- When the contact form is submitted we copy the information to the Contacts list in Act-On
+- When a user signs up for the newsletter, the email information is copied to the Contacts list in Act-On
+- When the fostering contact form is submitted we copy the information to the Contacts list in Act-On
+- When a tweet is posted on the Aspiranet Twitter account, the website is rebuilt of website
+- When an event is created on Eventbrite an Event Page containing the information is created in Contentful (and the website is rebuilt)
+
+ Emails are sent automatically for the 5 following cases:
+
+ *  When a visitor makes a donation, an email is sent automatically
+ *  When a visitor submits the contact form
+ *  When a visitor signs up to join the email list
+ *  When a visitor submits the fostering contact form
+ *  When an event page is created, a staff member from Aspiranet will receive a notification of the page creation
 
 
 ## Credits
