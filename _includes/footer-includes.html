@@ -22,11 +22,15 @@
 				e.preventDefault();
 				var modal = $('[data-remodal-id=modal]').remodal();
 				modal.open();
-			})
+			});
+			$('.remodal-close').click(function(e){
+				var iframeElement = $('iframe')[0];
+      			var action = { event: 'command', func: 'stopVideo', args: '' };
+      			iframeElement.contentWindow.postMessage(JSON.stringify(action), '*')
+			});
 		});
 	</script>
 {% endif %}
-
 
 <!-- FOR PROGRAMS -->
 {% if page.group == 'programs' %} 
