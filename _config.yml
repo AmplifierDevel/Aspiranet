@@ -36,6 +36,7 @@ contentful:
    - "blogCategory"
    - "blogTag"
    - "event"
+   - "thankYouPages"
   spaces:
     - proddata:
         space: ASPIRANET_CONTENTFUL_SPACE_ID

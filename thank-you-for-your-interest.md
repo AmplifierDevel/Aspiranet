@@ -6,4 +6,4 @@ layout: single
 title: Thank you
 ---
 
-{{ site.data.contentful.spaces.proddata.thankYouPages[0].donationThankYou | markdownify}}
+{{ site.data.contentful.spaces.proddata.thankYouPages[0].contactFormThankYou | markdownify}}

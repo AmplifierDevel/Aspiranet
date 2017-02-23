@@ -34,7 +34,9 @@ $(document).ready(function(){
 	  var $form = $(this);
 	  $.post($form.attr("action"), $form.serialize()).then(function() {
 	    $('#mc_embed_signup').html('<p>Thank you for joining!</p>');
+	   window.location.replace("/thank-you-for-joining");
 	  });
+
 	});
 
 	//Hero images fade in animation

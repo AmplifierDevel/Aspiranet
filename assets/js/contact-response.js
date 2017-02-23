@@ -8,10 +8,10 @@ contactForm.submit(function(e) {
 	   $(contactForm).hide();
 	   var response = '<h4>Thank you! We have received your email and will be in touch soon.</h4>'
 	   $(response).appendTo('.contact-form');
-	}).then( function() {
-		window.location.replace("/thank-you")
-	}); 
+	   window.location.replace("/thank-you-for-your-interest");
+	});
 });
+
 applyForm.submit(function(e){
 	e.preventDefault();
   	var $form = $(this);
@@ -19,9 +19,8 @@ applyForm.submit(function(e){
 	   $(applyForm).hide();
 	   var response = '<h4>Thank you! We have received your application and will be in touch soon.</h4>'
 	   $(response).appendTo('.contact-form');
-	}).then( function() {
-		window.location.replace("/thank-you")
-	}); 
+		window.location.replace("/thank-you-for-your-interest-in-foster")
+	});
 });
 
 

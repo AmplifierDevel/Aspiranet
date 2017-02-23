@@ -52,6 +52,9 @@ $(document).ready(function(){
 	          data: {tokenid: res.id, email: res.email, donationAmt: amount, frequency: frequency},
 	          error: function(data) {
 	            console.log("Ajax Error!");
+	          },
+	          success: function(){
+	   			window.location.replace("/thank-you");
 	          }
 	        }); // end ajax
 		  };
