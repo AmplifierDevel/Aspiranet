@@ -32,7 +32,7 @@
 				{% capture tag_list %}{% for blogpost in sorted_news %}{% for tag in blogpost.blogTag %}|{{tag.name}}{% endfor %}{% endfor %}{% endcapture %}
 		        {% assign tag_array = tag_list | remove_first: "|" | split: "|" | uniq %}
 	            {% for tag in tag_array %}
-	            {% if tag == "Foster" or tag == "Foster or Adoptive Services" %}
+	            {% if tag == "Foster and Adoptive Families" %}
 	            {% for blogpost in sorted_news %}
 	            <div class="story-slider-item">
 		            {% if blogpost.thumbnailToBeDisplayedOnHomepage or blogpost.heroImage %}

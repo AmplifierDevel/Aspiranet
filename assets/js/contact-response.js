@@ -8,7 +8,9 @@ contactForm.submit(function(e) {
 	   $(contactForm).hide();
 	   var response = '<h4>Thank you! We have received your email and will be in touch soon.</h4>'
 	   $(response).appendTo('.contact-form');
-	});
+	}).then( function() {
+		window.location.replace("/thank-you")
+	}); 
 });
 applyForm.submit(function(e){
 	e.preventDefault();
@@ -17,7 +19,9 @@ applyForm.submit(function(e){
 	   $(applyForm).hide();
 	   var response = '<h4>Thank you! We have received your application and will be in touch soon.</h4>'
 	   $(response).appendTo('.contact-form');
-	});
+	}).then( function() {
+		window.location.replace("/thank-you")
+	}); 
 });
 
 
