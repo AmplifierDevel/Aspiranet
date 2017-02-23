@@ -56,6 +56,10 @@ Powered throught [Stripe](https://www.stripe.com)
 
 Login to your account in order to see all transactions.
 
+**Act-On:** Everytime a donor completes a donation, he is added to  your Contacts list in Act-On with "Donation-Single" or "Donation-Recurring" tagged with his name.
+
+**Opt-Out:** Everytime a users unchecks "subscribe me to the newsletter" he won't be added to Act-On
+
 ### Programs
 All content for programs is found under *Programs*
 
@@ -120,7 +124,7 @@ It is triggered automatically by:
 
 It is also possible to trigger the build directly from the Netlify interface under *Deploys > Trigger Build*
 
-### Payment processing
+### Payment processing 
 Heroku is hosting the PHP file processing payments on the server side.
 To install a local copy
 
