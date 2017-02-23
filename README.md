@@ -154,12 +154,12 @@ Act-On provides a feature that allows the contact list to be cleaned
 - When a tweet is posted on the Aspiranet Twitter account, the website is rebuilt of website
 - When an event is created on Eventbrite an Event Page containing the information is created in Contentful (and the website is rebuilt)
 
- Emails are sent automatically for the 5 following cases:
+ Emails are sent from [Zapier](https://www.zapier.com) automatically for the 5 following cases:
 
- *  When a visitor makes a donation, an email is sent automatically
- *  When a visitor submits the contact form
- *  When a visitor signs up to join the email list
- *  When a visitor submits the fostering contact form
+ *  When a visitor makes a donation, an email is sent automatically to that visitor
+ *  When a visitor submits the contact form, an email is sent automatically to that visitor
+ *  When a visitor signs up to join the email list, an email is sent automatically to that visitor
+ *  When a visitor submits the fostering contact form, an email is sent automatically to that visitor
  *  When an event page is created, a staff member from Aspiranet will receive a notification of the page creation
 
 
