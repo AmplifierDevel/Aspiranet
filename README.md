@@ -118,7 +118,7 @@ This website is interacting with the following systems:
 ### Triggering the build process
 It is triggered automatically by:
 - Posting a new tweet on Aspiranet's Twitter account ([Zapier](https://www.zapier.com) integration)
-- Adding a new entry on contentful
+- Publish/Unpublish/Delete an entry on contentful
 - Creating a new event on Eventbrite
 - Pushing a git commit to the repository
 
