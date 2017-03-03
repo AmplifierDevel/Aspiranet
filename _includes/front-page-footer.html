@@ -30,6 +30,12 @@
 
 <script type="text/javascript">
 	$( document ).ready(function() {
+		
+		// Removes the Twitter URL at the end of the tweet
+		var tweetURL = '{{ site.data.tweet[0].text }}';
+		var splittedTweet = tweetURL.split('...');
+		$('.latest-tweet').html(splittedTweet[0]);
+
 		if (document.cookie.replace(/(?:(?:^|.*;\s*)returnVisitor\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
 	    var modal = $('[data-remodal-id=modal]').remodal();
 		modal.open();
@@ -43,6 +49,9 @@
 		window.location.href = "{{Modals[0].urlToRedirectTo}}";  
 		});
 	{% endif %}
+
+
+
 
 	});
 </script>  
