@@ -1,5 +1,6 @@
 <script src="/assets/js/lib/slick.min.js"></script>
 <script type="text/javascript">
+$( document ).ready(function() {		
 	var $homeSlider = $('.campaign-slider').slick({
 		arrows: true,
 		fade: true,
@@ -21,6 +22,14 @@
 		$(this).toggleClass('.hover');
 	});
 	//end hover on touch 
+
+
+
+	// Removes the Twitter URL at the end of the tweet
+	var tweetURL = '{{ site.data.tweet[0].text }}';
+	var splittedTweet = tweetURL.split('...');
+	$('.latest-tweet').html(splittedTweet[0]);
+});
 </script>
 
 {% assign Modals = site.data.contentful.spaces.proddata.popup | reverse %}
@@ -29,12 +38,7 @@
 <script src="/assets/js/lib/remodal.min.js"></script>
 
 <script type="text/javascript">
-	$( document ).ready(function() {
-		
-		// Removes the Twitter URL at the end of the tweet
-		var tweetURL = '{{ site.data.tweet[0].text }}';
-		var splittedTweet = tweetURL.split('...');
-		$('.latest-tweet').html(splittedTweet[0]);
+	$( document ).ready(function() {		
 
 		if (document.cookie.replace(/(?:(?:^|.*;\s*)returnVisitor\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
 	    var modal = $('[data-remodal-id=modal]').remodal();
