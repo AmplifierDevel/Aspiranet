@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="681px" height="459px" viewBox="0 0 681 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard@1x</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -8,15 +8,14 @@
     </defs>
     <g id="Visual_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="3_Our-Approach" transform="translate(-728.000000, -817.000000)">
-            <text id="Communities" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="20" font-style="italic" font-weight="500" line-spacing="26" fill="#3494B9">
-                <tspan x="738" y="849">Communities</tspan>
+            <text id="Communities" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="851">Communities</tspan>
             </text>
-            <text id="Children,-Youth-&amp;-Fa" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="20" font-style="italic" font-weight="500" line-spacing="26" fill="#3494B9">
-                <tspan x="738" y="1101">Children, Youth &amp; </tspan>
-                <tspan x="738" y="1127">Families</tspan>
+            <text id="Children,-Youth-&amp;-Fa" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="1103">Children, Youth &amp; Families</tspan>
             </text>
-            <text id="Our-Programs" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="20" font-style="italic" font-weight="500" line-spacing="26" fill="#3494B9">
-                <tspan x="738" y="912">Our Programs</tspan>
+            <text id="Our-Programs" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="914">Our Programs</tspan>
             </text>
             <g id="Page-1" transform="translate(959.000000, 826.000000)">
                 <g id="Group-3" transform="translate(0.000000, 0.044000)">
@@ -45,9 +44,8 @@
             <path d="M738.488189,890.5 L1174.50115,890.5" id="Line-Copy" stroke="#34A5CD" stroke-linecap="square"></path>
             <path d="M738.52782,1076.5 L1162.50118,1076.5" id="Line-Copy-2" stroke="#34A5CD" stroke-linecap="square"></path>
             <path d="" id="Oval-2" fill="#34A5CD"></path>
-            <text id="Tenderness-&amp;-Compass" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="20" font-style="italic" font-weight="500" line-spacing="26" fill="#3494B9">
-                <tspan x="738" y="1011">Tenderness &amp; </tspan>
-                <tspan x="738" y="1037">Compassion</tspan>
+            <text id="Tenderness-&amp;-Compass" font-family="KlinicSlab-MediumItalic, Klinic Slab" font-size="17" font-style="italic" font-weight="500" line-spacing="20" fill="#3494B9">
+                <tspan x="738" y="1013">Tenderness &amp; Compassion</tspan>
             </text>
         </g>
         <g id="Artboard"></g>
