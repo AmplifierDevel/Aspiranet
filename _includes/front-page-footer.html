@@ -28,7 +28,7 @@ $( document ).ready(function() {
 	// Removes the Twitter URL at the end of the tweet
 	var tweetURL = '{{ site.data.tweet[0].text }}';
 	var splittedTweet = tweetURL.split('...');
-	$('.latest-tweet').html(splittedTweet[0]);
+	$('.latest-tweet').html(splittedTweet[0] + '...');
 });
 </script>
 
