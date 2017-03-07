@@ -38,7 +38,7 @@ $(document).ready(function(){
 	  	var token = function(res){
 	  		if ($('input#subscribeNewsletter').is(':checked')) {
 				$.ajax({
-		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email + 'frequency=Donation-' + frequency,
+		          url: 'https://hooks.zapier.com/hooks/catch/1875127/h5qe1i/?email=' + res.email + '&frequency=Donation-' + frequency,
 		          type: 'post',
 		          data: {},
 		          error: function(data) {
