@@ -40,37 +40,39 @@ layout: default
 		</div>
 	</div>
 </div> 
+			{% for program in site.data.contentful.spaces.proddata.programs %}
+				{% if program.title == 'Foster and Adoptive Families ' %}
 	
 	
 	<section class="blue-dark text-center fast-facts">
 		<div class="grid">
 			<h3>Fast Facts</h3>
-			<div class="col-1-3">
-				<h1 class="color-orange">90</h1>
-				<p class="round">The number of Californian children per day entering foster care </p>
-			</div>
-			<div class="col-1-3">
-				<h1 class="color-orange">50,000</h1>
-				<p class="round">The number of Californian children in foster care </p>
-			</div>
-			<div class="col-1-3">
-				<h1 class="color-orange">2,000</h1>
-				<p class="round">Since 1999, the number of children Aspiranet transitioned from foster care to adoption</p>
-			</div>
+					<div class="col-1-3">
+						<h1 class="color-orange">{{program.fastFact1Number}}</h1>
+						<p class="round">{{program.fastFact1Text}}</p>
+					</div>
+					<div class="col-1-3">
+						<h1 class="color-orange">{{program.fastFact2Number}}</h1>
+						<p class="round">{{program.fastFact2Text}}</p>
+					</div>
+					<div class="col-1-3">
+						<h1 class="color-orange">{{program.fastFact3Number}}</h1>
+						<p class="round">{{program.fastFact3Text}}</p>
+					</div>
 		</div>
 	</section>
 	
 	
-	<section class="col-11-12 center orange text-center block-overlap">
+	<section class="how-you-can-help orange center text-center">
 		<div>
-			<h4 class="round no-margin-top">How you can help</h4>
-			<h4 class="col-7-12 center">Thousands of children in California are in need of a forever family. Can you offer a child a safe and loving home? </h4>
+			<h3 class="round no-margin-top">How you can help</h3>
+			<p class="col-6-12 mobile-col-10-12 center no-padding">{{ program.howYouCanHelpCopy }}</p>
 		</div>
-		
-			<p class="button"><a class="transparent" href="/programs/foster-and-adoptive-families/apply">I'd like to provide a home for a child</a></p>
-		
+			<p class="button"><a class="transparent" href="/programs/foster-and-adoptive-families/apply">I'D LIKE TO PROVIDE A HOME FOR A CHILD</a></p>
 			<p class="button"><a class="orange" href="/donate">Donate</a></p>
 	</section>
+				{% endif %}
+			{% endfor %}
 	
 	<section>
 		<!-- <h3 class="text-center">More programs</h3> -->

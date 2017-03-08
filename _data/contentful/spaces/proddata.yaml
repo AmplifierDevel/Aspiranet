@@ -68,78 +68,6 @@ programLocation:
     Home Alternative to Residential Treatment \nNancy Petrovic, Core Program Director\nnpetrovic@aspiranet.org\nCrystal
     Winn, Core Program Manager\ncwinn@aspiranet.org"
 - sys:
-    id: 4OJoO8og5GUKSIwokmWKi2
-  name: Santa Maria Foster and Adoptive Families
-  location:
-    lat: 34.9337848
-    lon: -120.43463220000001
-  addressAsText: 204 East Enos Drive, Suite D, Santa Maria, CA 93454, USA
-  program:
-  - Adoption
-  - Foster Care
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  programAndAgeGroupAsText: |
-    <strong><p>Adoption </p></strong>
-    <p>Aspiranet’s statewide adoption program is built on the belief that every child has the right to a permanent family that will provide him or her with love, security and a sense of belonging. Since 1998, Aspiranet has assisted over 1,000 adoptive families and has helped over 2,000 children transition from foster care to their own adoptive “forever families.”</p>
-
-    <strong><p>Foster Care </p></strong>
-    <p>Aspiranet secures loving homes for foster children. Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.</p>
-  phoneText: 805-473-8760
-  description: ' '
-  internalNotes: |-
-    Foster Care
-    Melinda Schneider, Core Program Manager
-    mschneider@aspiranet.org
-
-    Adoption
-    Melinda Schneider, Core Program Manager
-    mschneider@aspiranet.org
-- sys:
-    id: qW7Twj6dxeE0GYEI2GCEY
-  name: Stanislaus Transitional Aged Youth
-  location:
-    lat: 37.64080999999999
-    lon: -121.00018510000001
-  addressAsText: 1009 J Street, Modesto, CA 95354, USA
-  program:
-  - AfterCare
-  - Independent Living Skills Program - Youth Center
-  - Transitional Housing Placement+
-  - Transitional Housing Placement + Foster Care
-  ageLevel:
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>AfterCare</p></strong>\n<p>Also known as Emancipated
-    Youth Services (EYS), AfterCare assists youth who are no longer in foster care
-    and who have not yet reached the age of 21.  Includes referral and linkage services,
-    housing assistance, bus passess, and work-related and education-related resources.</p>\n\n<strong><p>Independent
-    Living Skills Program - Youth Center </p></strong> \n<p>Drop-in Center for foser
-    and probation youth between the ages of 15 - 21 that offers a variety of classes
-    and workshops where youth can learn life skills as they transition from foster
-    care, including employment training, career development, sex education,  parenting,
-    conflict resolution, and housing assistance.</p>\n\n<strong><p>Transitional Housing
-    Placement+</p></strong> \n<p>Transitional housing support program for former foster
-    youth who are transitioning to adulthood out of the child welfare or probation
-    systems. Provides a safe and supportive living environment while helping youth
-    achieve self-sufficiency and learn life skills.</p>\n\n<strong><p>Transitional
-    Housing Placement + Foster Care </p></strong> \n<p>An extended foster care placement
-    option that bridges the gap for non-minor dependents who are no longer living
-    in a foster home, but who may not yet be ready to transition into a supervised
-    independent living placement.</p>\n\n"
-  phoneText: 209-338-5444
-  description: ' '
-  internalNotes: "Transitional Housing Placement+\nAlma Garcia Mendoza, Core Program
-    Director \nagarciamendoza@aspiranet.org\n\nTransitional Housing Placement + Foster
-    Care\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\n\nAfterCare\nAlma
-    Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa Cabral,
-    Core Program Supervisor\nlcabral@aspiranet.org\n\nIndependent Living Skills Program
-    - Youth Center\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa
-    Cabral, Core Program Supervisor\nlcabral@aspiranet.org"
-- sys:
     id: 7mCO4OX2qkqY4602eYYISQ
   name: 'Stanislaus Academy '
   location:
@@ -203,6 +131,27 @@ programLocation:
   phoneText: 415-759-4222
   description: ' '
   internalNotes: "Emily Reisner, Director of ECBA and MOUSE \nereisner@aspiranet.org\n"
+- sys:
+    id: 4ayQ08c0iQqKa66YgIqEyu
+  name: Excell/Residential Services - Serving All Counties
+  location:
+    lat: 37.4946568
+    lon: -120.8465941
+  addressAsText: 2513 Youngstown Rd, Turlock, CA 95380, USA
+  program:
+  - Excell Center
+  programAndAgeGroupAsText: "<strong><p>Excell Center</p></strong> \n<p>Residential
+    treatment program that provides at-risk boys throughout California with educational
+    and group home services.</p>  \n\n"
+  phoneText: 209-632-4297
+  description: ' '
+  internalNotes: |-
+    Chris Essary, Core Division Director
+    Kimberly Franck, Core Program Director
+    Christoval Rendon, Principal
+    cessary@aspiranet.org
+    kfranck@aspiranet.org
+    crendon@aspiranet.org
 - sys:
     id: 79FwR0fryM4wQOY0Iu2SEu
   name: 'Stanislaus Family and Community '
@@ -887,27 +836,6 @@ programLocation:
     Maki, Core Program Manager\namaki@aspiranet.org\n\nCollaborative Educational Supports
     SELPA\nMartie Miles, Core Program Director\nmmiles@aspiranet.org"
 - sys:
-    id: 4ayQ08c0iQqKa66YgIqEyu
-  name: Residential - Serving All Counties
-  location:
-    lat: 37.4946568
-    lon: -120.8465941
-  addressAsText: Turlock, CA, USA
-  program:
-  - Excell Center
-  programAndAgeGroupAsText: "<strong><p>Excell Center</p></strong> \n<p>Residential
-    treatment program that provides at-risk boys throughout California with educational
-    and group home services.</p>  \n\n"
-  phoneText: 209-632-4297
-  description: ' '
-  internalNotes: |-
-    Chris Essary, Core Division Director
-    Kimberly Franck, Core Program Director
-    Christoval Rendon, Principal
-    cessary@aspiranet.org
-    kfranck@aspiranet.org
-    crendon@aspiranet.org
-- sys:
     id: 5xf2ZySzzUImIsWmskYE2
   name: Stanislaus Intensive Home-Based Services
   location:
@@ -1410,174 +1338,78 @@ programLocation:
     Adoption
     Alisha Honore-Harrell, Core Program Director
     ahonoreharrell@aspiranet.org
-divisionHeads:
 - sys:
-    id: 3fkQUE9Z7y0840WokS2sYY
-  name: Diane Warne
-  desiredUrl: Diane-Warne
-  position: Foster and Adoptive Families Division Director
-  order: 6
-  bio: |-
-    Diane earned a Bachelor of Arts in Psychology from California State University Fresno
-    and a Masters of Arts in Counseling, Marriage, Family and Child from the University of
-    San Francisco. Since joining Aspiranet in 1991 she has helped to develop a variety of
-    foster care and adoption programs, and served as foster care social worker, supervising
-    social worker, District Administrator, and Foster Care Division Director. Over the past
-    25 years she has often been asked why she has chosen to work at Aspiranet. Her
-    answer has always been the same. Diane believes in the agency’s core values,
-    mission, and vision, and appreciates Aspiranet’s dedication to providing outstanding
-    services on behalf of its families.
+    id: 4OJoO8og5GUKSIwokmWKi2
+  name: Santa Maria Foster and Adoptive Families
+  location:
+    lat: 34.9337848
+    lon: -120.43463220000001
+  addressAsText: 204 East Enos Drive, Suite D, Santa Maria, CA 93454, USA
+  program:
+  - Adoption
+  - Foster Care
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  programAndAgeGroupAsText: |
+    <strong><p>Adoption </p></strong>
+    <p>Aspiranet’s statewide adoption program is built on the belief that every child has the right to a permanent family that will provide him or her with love, security and a sense of belonging. Since 1998, Aspiranet has assisted over 1,000 adoptive families and has helped over 2,000 children transition from foster care to their own adoptive “forever families.”</p>
 
-    "At Aspiranet, we have high hopes for the children and families we work with and our
-    actions are motivated by an unwavering desire to do what’s best on behalf of our
-    families. I witness countless acts of courage among our families on a daily basis –
-    whether it is a foster family opening their home to a child and caring for them, an
-    adoptive family offering a forever family, a relative seeking to keep a family together, or a birth family having the courage to make changes so that their children can be returned to them.”
-- sys:
-    id: 1W6n7hR3928ACkI6aEyAmo
-  name: Sharon Lawicki
-  desiredUrl: sharon-lawicki
-  position: 'Intensive Home-Based Services Division Director '
-  bio: "Sharon earned a Bachelor’s in Psychology at UC Berkeley and a Master’s in
-    Counseling Psychology at California State University of Stanislaus.  She has played
-    a pivotal role in growing Aspiranet’s statewide Wraparound program and Intensive
-    Home-Based Services Division.  Since joining the staff in 1997 as a clinician
-    in Aspiranet’s first outpatient mental health clinic for foster youth, Sharon
-    has served in a variety of roles including social worker, Program Supervisor,
-    and District Director.  She is thankful to have had competent, compassionate and
-    ethical supervisors throughout her tenure at Aspiranet.  \n\n“I am in awe of our
-    passionate and committed staff who work tirelessly to help children and families
-    improve their lives.  Staff consistently embody a 'do whatever it takes' approach
-    in helping youth and families overcome barriers that at first appear insurmountable. 
-    We have hope that our families can overcome anything in their path with the necessary
-    resources and support. It is amazing to see their transformation when they achieve
-    success in their lives and have a renewed sense of hope for their future.”\n\n"
-- sys:
-    id: 2G21MAhAhOQmMasm8Y0GeY
-  name: Kathryn Davies
-  desiredUrl: kathryn-davies
-  position: Family and Community Division Director
-  bio: "Kathy earned a Masters in Public Affairs at the University of Massachusetts
-    Boston, and a Bachelors in Psychology, with a Minor in Business Administration
-    from Worcester State College.\nShe started her career working in a group home
-    during her first year of college, and eventually became the director of a respite
-    facility that supported families in the child welfare system.  \n\nKathy’s professional
-    experience is wide-ranging, having served as a case manager, written behavioral
-    treatment plans, worked in quality assurance, and managed programs for children
-    with trauma as well as adults with developmental disabilities.  She joined Aspiranet
-    in 2014, attracted by the organizational vision, the quality of staff, and the
-    opportunity to provide services that strengthen families and communities and that
-    reduce the incidence of child maltreatment.\n\n“What I like best about Aspiranet
-    is working for an organization whose vision is that all children should be loved
-    and cared for. The core values that most speak to me are courage and hope.  You
-    need a lot of courage to overcome life’s obstacles, and hope enables you to envision
-    a better future for yourself and for your family.” \n\n"
-- sys:
-    id: 3M6LZcVY4w2kE4Q4aSeKii
-  name: Samantha LaGrasse
-  desiredUrl: samantha-lagrasse
-  position: 'Transitional Aged Youth Division Director '
-  order: 1
-  bio: "Samantha earned a Bachelor of Arts in Psychology at California State University,
-    Fresno and a Master of Arts in Counseling Psychology at National University.  She
-    was attracted to Aspiranet because she wanted to work with families in a proactive
-    manner.  Samantha joined the agency in 1999 and enjoys learning something new
-    every day.  She feels honored to have been part of building and running programs
-    that serve young adults and fortunate to have provided both direct and supervisory
-    services for diverse foster care and transitional housing programs over the past
-    two decades.    \n\n“I appreciate the feeling of family among Aspiranet staff
-    and that our core values inform the way in which we approach our work.  Respect
-    absolutely has to be present in order to work with our young adults in a way that
-    communicates unconditional positive regard.  When there is mutual respect everything
-    else falls into place as needed.”\n\n"
-- sys:
-    id: 2eJ0sHfmZOggQGMWQwYAUM
-  name: Mike DeRose
-  desiredUrl: mike-derose
-  position: 'Behavioral Health Division Director '
-  bio: "Mike earned a Masters degree in Counseling Psychology from National University,
-    a Bachelors Degree in Psychology from the University of the Pacific, and has over
-    10 years of experience in private practice as a Licensed Marriage and Family Therapist,
-    in addition to over 16 years of experience in the private non-profit sector.  Mike
-    was attracted to Aspiranet by its innovative programs and services and the depth
-    of staff commitment to the families served, and he enjoys working with like-minded
-    colleagues who are living out the organization’s core values.  \n\nSince joining
-    Aspiranet in 2007, he has worked in a variety of roles in each of the Aspiranet
-    Core Divisions, including serving as a support counselor and social worker for
-    intensive treatment foster youth and transitional aged youth programs, working
-    as a staff trainer in a residential treatment facility, working as a clinician
-    and operating intensive home-based service programs, running a family resource
-    center, and managing various children’s specialty mental health programs.  \n\n“It’s
-    great to be part of something larger than yourself.  Aspiranet stands up for social
-    justice and supports strategies and innovations that achieve successful and meaningful
-    outcomes.  We work every day to instill hope and courage in our children and families
-    who are dealing with loss, trauma, grief, and struggles that are difficult to
-    cope with alone.   Our outcomes and positive client feedback speak volumes about
-    the work we do and that others can also be part of.”\n\n"
-- sys:
-    id: 4hB4Q6yViMWkSc0Km6EyK8
-  name: Christopher Essary
-  desiredUrl: Christopher-essary
-  position: 'Residential Division Director '
-  bio: |
-    Christopher earned a Bachelor’s degree in Sociology from California State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell Center House Parent.  He was attracted to residential treatment for at-risk youth by the culture of respect and caring established in the group homes, and by the beautiful Turlock campus.  During his three decades at Aspiranet, Chris has served in a variety of roles including Regional Director, Group Home Administrator, Director of Operations, House Manager, and Activities Director.
+    <strong><p>Foster Care </p></strong>
+    <p>Aspiranet secures loving homes for foster children. Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.</p>
+  phoneText: 805-473-8760
+  description: ' '
+  internalNotes: |-
+    Foster Care
+    Melinda Schneider, Core Program Manager
+    mschneider@aspiranet.org
 
-    “The core value most important in my daily residential work is respect.  I am inspired by our staff’s dedication to helping kids turn their lives around.  I like to come to work every day in a job that improves lives.  We have great people who work here and I take pride in our contribution to bettering our communities.”
-blogTag:
+    Adoption
+    Melinda Schneider, Core Program Manager
+    mschneider@aspiranet.org
 - sys:
-    id: 7BrykebFUA6QcaaUiKsim2
-  name: Behavioral Health
-- sys:
-    id: 5V3QqYRbCEeYmqyMOKqqAo
-  name: Respect
-- sys:
-    id: 41zCNoeNrWSKuSuMQKW0o0
-  name: Family
-- sys:
-    id: 4MPGYiEPUccOgeOwCO6SqY
-  name: Courage
-- sys:
-    id: 4FYoyfpg3u0K2Qu0qsOKgm
-  name: Staff
-- sys:
-    id: 7sF3shCds4aqymKSu6w0a
-  name: First 5 Center
-- sys:
-    id: 2f4F4fvzne6Ma82egMgaks
-  name: Integrity
-- sys:
-    id: 3z7QQ5fttYAG6QWgEs6cy0
-  name: Reunification
-- sys:
-    id: aj45ghA27S2OgskKa4Agm
-  name: Adoption
-- sys:
-    id: 4bNO0ekSS4yq8CuWOYCcCi
-  name: Hope
-- sys:
-    id: 2rpQXkICnOQqkYe8KewUmo
-  name: Youth
-- sys:
-    id: 2BVE03bDcA0WG6Caaqo0sm
-  name: Family & Community
-- sys:
-    id: 5QgCSjml0sGOIAAMiKyMu2
-  name: 'Transitional Aged Youth '
-- sys:
-    id: 4kGCbYfoWkeqQACqOQ82Ka
-  name: Foster Care
-- sys:
-    id: 4QOtUUBr6oo6EcUsyWs0WI
-  name: Intensive Home-Based Services
-- sys:
-    id: 3ihYDCzp0ISOE644OmscMs
-  name: THP+
-- sys:
-    id: 590hKeFmvCMwCmGQyiqOWq
-  name: Residential
-- sys:
-    id: 31qAv9zAikEMCYGOgqmy4A
-  name: Foster and Adoptive Families
+    id: qW7Twj6dxeE0GYEI2GCEY
+  name: Stanislaus Transitional Aged Youth
+  location:
+    lat: 37.64080999999999
+    lon: -121.00018510000001
+  addressAsText: 1009 J Street, Modesto, CA 95354, USA
+  program:
+  - AfterCare
+  - Independent Living Skills Program - Youth Center
+  - Transitional Housing Placement+
+  - Transitional Housing Placement + Foster Care
+  ageLevel:
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>AfterCare</p></strong>\n<p>Also known as Emancipated
+    Youth Services (EYS), AfterCare assists youth who are no longer in foster care
+    and who have not yet reached the age of 21.  Includes referral and linkage services,
+    housing assistance, bus passess, and work-related and education-related resources.</p>\n\n<strong><p>Independent
+    Living Skills Program - Youth Center </p></strong> \n<p>Drop-in Center for foser
+    and probation youth between the ages of 15 - 21 that offers a variety of classes
+    and workshops where youth can learn life skills as they transition from foster
+    care, including employment training, career development, sex education,  parenting,
+    conflict resolution, and housing assistance.</p>\n\n<strong><p>Transitional Housing
+    Placement+</p></strong> \n<p>Transitional housing support program for former foster
+    youth who are transitioning to adulthood out of the child welfare or probation
+    systems. Provides a safe and supportive living environment while helping youth
+    achieve self-sufficiency and learn life skills.</p>\n\n<strong><p>Transitional
+    Housing Placement + Foster Care </p></strong> \n<p>An extended foster care placement
+    option that bridges the gap for non-minor dependents who are no longer living
+    in a foster home, but who may not yet be ready to transition into a supervised
+    independent living placement.</p>\n\n"
+  phoneText: 209-338-5444
+  description: ' '
+  internalNotes: "Transitional Housing Placement+\nAlma Garcia Mendoza, Core Program
+    Director \nagarciamendoza@aspiranet.org\n\nTransitional Housing Placement + Foster
+    Care\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\n\nAfterCare\nAlma
+    Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa Cabral,
+    Core Program Supervisor\nlcabral@aspiranet.org\n\nIndependent Living Skills Program
+    - Youth Center\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa
+    Cabral, Core Program Supervisor\nlcabral@aspiranet.org"
 blogPost:
 - sys:
     id: 4KnVNF25SwmY0MIoOGIwUY
@@ -1632,6 +1464,61 @@ blogPost:
       id: 5QgCSjml0sGOIAAMiKyMu2
     name: 'Transitional Aged Youth '
 - sys:
+    id: 1EtXFuUmJOyO6k44K86cSO
+  title: Fostering Love
+  url: fostering-love
+  featuredOnHomepage: true
+  featuredOnBlog: false
+  heroImage:
+    title: 5 program foster   a Wab68
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
+  postBody: "The Pillers’ home is always alive with the energy of children. Along
+    with caring for their two young sons and daughter, whom they adopted through foster
+    care, they serve as a “receiving home” for children when they are first placed
+    in foster care. In that role, they have welcomed nearly 100 children to their
+    home. \n \nTim and Jenny Piller decided to look into adopting through foster care
+    after trying for years to have biological children.\n\n“There are so many children
+    that just want someone to love them,” Jenny says.\n\nThe Pillers looked into four
+    agencies before they decided to work with Aspiranet. They were attracted by the
+    support that Aspiranet provides throughout the process and the team’s dedication
+    to finding the right home for every child. \n\n“Aspiranet wants every child to
+    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
+    and they worked hard to make us feel comfortable. We really appreciate how flexible
+    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
+    orientation classes with other foster and adoptive parents, the Pillers brought
+    a two-day old infant into their home. Six months later, they began fostering a
+    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
+    and they worried about his development. But after a few months, Tim said, “he
+    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
+    They come in scared sometimes, and to watch them grow and become part of a family,
+    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
+    — a little girl. \n\n“We fell in love with her the moment she came into our house,
+    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
+    into our house is part of our family,” says Tim. “They go on vacation with us.
+    \ Whatever we’re doing, they’re doing. That inclusiveness gives them a sense of
+    belonging and a sense of family.”\n\nThe Pillers have fostered dozens of children
+    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
+    we run into them and they remember us years later, and come up to us and give
+    us hugs!” says Jenny. \n"
+  blogCategory:
+    sys:
+      id: 5cOx39zkWcW0uGiEyGO8EA
+    name: Hope
+  blogTag:
+  - sys:
+      id: aj45ghA27S2OgskKa4Agm
+    name: Adoption
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 4kGCbYfoWkeqQACqOQ82Ka
+    name: Foster Care
+  - sys:
+      id: 31qAv9zAikEMCYGOgqmy4A
+    name: Foster and Adoptive Families
+- sys:
     id: 2bXK2Ej2QQSs2qqkks8CYc
   title: Lasting Connections
   url: Lasting-connections
@@ -1673,6 +1560,38 @@ blogPost:
   - sys:
       id: 590hKeFmvCMwCmGQyiqOWq
     name: Residential
+- sys:
+    id: 4FPD0m40Gsc0uwmOoS6sQg
+  title: 'Aspiranet’s New Look '
+  url: aspiranet-new-look-for-the-new-year
+  featuredOnHomepage: false
+  featuredOnBlog: true
+  heroImage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
+  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
+    day we’re thankful for the amazing children, youth and families that we reach
+    and for supporters like you who back our work.  For 2017, we thought it was vital
+    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
+    this website we hope to show our heart, determination, cares and dreams.  The
+    Aspiranet story develops every day as we strive to fulfill our mission, and it
+    lives in each interaction, each achievement, and each new learning.  It’s a testimony
+    to the strength of our families and the generosity of our supporters.  \n\nThank
+    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
 - sys:
     id: 3D7O4FxSMUGUgKCgkkquiC
   title: Making the World a Little Better
@@ -1887,93 +1806,6 @@ blogPost:
   - sys:
       id: 2BVE03bDcA0WG6Caaqo0sm
     name: Family & Community
-- sys:
-    id: 4FPD0m40Gsc0uwmOoS6sQg
-  title: 'Aspiranet’s New Look '
-  url: aspiranet-new-look-for-the-new-year
-  featuredOnHomepage: false
-  featuredOnBlog: true
-  heroImage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
-  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
-    day we’re thankful for the amazing children, youth and families that we reach
-    and for supporters like you who back our work.  For 2017, we thought it was vital
-    to share their stories on a platform as vibrant and dynamic as them. \n\nThrough
-    this website we hope to show our heart, determination, cares and dreams.  The
-    Aspiranet story develops every day as we strive to fulfill our mission, and it
-    lives in each interaction, each achievement, and each new learning.  It’s a testimony
-    to the strength of our families and the generosity of our supporters.  \n\nThank
-    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
-- sys:
-    id: 1EtXFuUmJOyO6k44K86cSO
-  title: Fostering Love
-  url: fostering-love
-  featuredOnHomepage: true
-  featuredOnBlog: false
-  heroImage:
-    title: 5 program foster   a Wab68
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
-  postBody: "The Pillers’ home is always alive with the energy of children. Along
-    with caring for their two young sons and daughter, whom they adopted through foster
-    care, they serve as a “receiving home” for children when they are first placed
-    in foster care. In that role, they have welcomed nearly 100 children to their
-    home. \n \nTim and Jenny Piller decided to look into adopting through foster care
-    after trying for years to have biological children.\n\n“There are so many children
-    that just want someone to love them,” Jenny says.\n\nThe Pillers looked into four
-    agencies before they decided to work with Aspiranet. They were attracted by the
-    support that Aspiranet provides throughout the process and the team’s dedication
-    to finding the right home for every child. \n\n“Aspiranet wants every child to
-    go to a safe home – they want them to be loved,” Jenny said. “They were very supportive,
-    and they worked hard to make us feel comfortable. We really appreciate how flexible
-    they were with us. I would recommend Aspiranet to anybody.” \n\nAfter attending
-    orientation classes with other foster and adoptive parents, the Pillers brought
-    a two-day old infant into their home. Six months later, they began fostering a
-    one-year old boy. \n\nThe second child wasn’t speaking or interacting with them,
-    and they worried about his development. But after a few months, Tim said, “he
-    just blossomed.”\n\n“With fostering, it’s neat to see the children change so much.
-    They come in scared sometimes, and to watch them grow and become part of a family,
-    that’s extremely rewarding to us.”\n\nEventually, another child joined their family
-    — a little girl. \n\n“We fell in love with her the moment she came into our house,
-    so that wasn’t a hard decision,” laughs Jenny.\n\n“Every foster kid that comes
-    into our house is part of our family,” says Tim. “They go on vacation with us,
-    if we’re doing it, they’re doing it. That inclusiveness gives them a sense of
-    belonging and a sense of family.”\n\nThe Pillers have fostered dozens of children
-    over the years, and they still enjoy relationships with many of them.\n\n“Sometimes
-    we run into them and they remember us years later, and come up to us and give
-    us hugs!” says Jenny. \n"
-  blogCategory:
-    sys:
-      id: 5cOx39zkWcW0uGiEyGO8EA
-    name: Hope
-  blogTag:
-  - sys:
-      id: aj45ghA27S2OgskKa4Agm
-    name: Adoption
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 4kGCbYfoWkeqQACqOQ82Ka
-    name: Foster Care
-  - sys:
-      id: 31qAv9zAikEMCYGOgqmy4A
-    name: Foster and Adoptive Families
 programs:
 - sys:
     id: 6gFvoAGrIckQwGoM8SAGqE
@@ -2242,6 +2074,61 @@ blogCategory:
 - sys:
     id: 7eFzmq5t6Mg2AosyUkkAgI
   name: Integrity
+blogTag:
+- sys:
+    id: 41zCNoeNrWSKuSuMQKW0o0
+  name: Family
+- sys:
+    id: 4MPGYiEPUccOgeOwCO6SqY
+  name: Courage
+- sys:
+    id: 4FYoyfpg3u0K2Qu0qsOKgm
+  name: Staff
+- sys:
+    id: 7sF3shCds4aqymKSu6w0a
+  name: First 5 Center
+- sys:
+    id: 2f4F4fvzne6Ma82egMgaks
+  name: Integrity
+- sys:
+    id: 3z7QQ5fttYAG6QWgEs6cy0
+  name: Reunification
+- sys:
+    id: aj45ghA27S2OgskKa4Agm
+  name: Adoption
+- sys:
+    id: 4bNO0ekSS4yq8CuWOYCcCi
+  name: Hope
+- sys:
+    id: 2rpQXkICnOQqkYe8KewUmo
+  name: Youth
+- sys:
+    id: 2BVE03bDcA0WG6Caaqo0sm
+  name: Family & Community
+- sys:
+    id: 5QgCSjml0sGOIAAMiKyMu2
+  name: 'Transitional Aged Youth '
+- sys:
+    id: 4kGCbYfoWkeqQACqOQ82Ka
+  name: Foster Care
+- sys:
+    id: 4QOtUUBr6oo6EcUsyWs0WI
+  name: Intensive Home-Based Services
+- sys:
+    id: 3ihYDCzp0ISOE644OmscMs
+  name: THP+
+- sys:
+    id: 590hKeFmvCMwCmGQyiqOWq
+  name: Residential
+- sys:
+    id: 31qAv9zAikEMCYGOgqmy4A
+  name: Foster and Adoptive Families
+- sys:
+    id: 7BrykebFUA6QcaaUiKsim2
+  name: Behavioral Health
+- sys:
+    id: 5V3QqYRbCEeYmqyMOKqqAo
+  name: Respect
 fosterAdoptiveFamilies:
 - sys:
     id: 4KJHTjAjwsEUM2IAI0Y8YQ
@@ -2417,6 +2304,119 @@ event:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   date: !ruby/object:DateTime 2017-03-06 11:00:00.000000000 -08:00
   eventId: '31499930139'
+divisionHeads:
+- sys:
+    id: 1W6n7hR3928ACkI6aEyAmo
+  name: Sharon Lawicki
+  desiredUrl: sharon-lawicki
+  position: 'Intensive Home-Based Services Division Director '
+  bio: "Sharon earned a Bachelor’s in Psychology at UC Berkeley and a Master’s in
+    Counseling Psychology at California State University of Stanislaus.  She has played
+    a pivotal role in growing Aspiranet’s statewide Wraparound program and Intensive
+    Home-Based Services Division.  Since joining the staff in 1997 as a clinician
+    in Aspiranet’s first outpatient mental health clinic for foster youth, Sharon
+    has served in a variety of roles including social worker, Program Supervisor,
+    and District Director.  She is thankful to have had competent, compassionate and
+    ethical supervisors throughout her tenure at Aspiranet.  \n\n“I am in awe of our
+    passionate and committed staff who work tirelessly to help children and families
+    improve their lives.  Staff consistently embody a 'do whatever it takes' approach
+    in helping youth and families overcome barriers that at first appear insurmountable. 
+    We have hope that our families can overcome anything in their path with the necessary
+    resources and support. It is amazing to see their transformation when they achieve
+    success in their lives and have a renewed sense of hope for their future.”\n\n"
+- sys:
+    id: 2G21MAhAhOQmMasm8Y0GeY
+  name: Kathryn Davies
+  desiredUrl: kathryn-davies
+  position: Family and Community Division Director
+  bio: "Kathy earned a Masters in Public Affairs at the University of Massachusetts
+    Boston, and a Bachelors in Psychology, with a Minor in Business Administration
+    from Worcester State College.\nShe started her career working in a group home
+    during her first year of college, and eventually became the director of a respite
+    facility that supported families in the child welfare system.  \n\nKathy’s professional
+    experience is wide-ranging, having served as a case manager, written behavioral
+    treatment plans, worked in quality assurance, and managed programs for children
+    with trauma as well as adults with developmental disabilities.  She joined Aspiranet
+    in 2014, attracted by the organizational vision, the quality of staff, and the
+    opportunity to provide services that strengthen families and communities and that
+    reduce the incidence of child maltreatment.\n\n“What I like best about Aspiranet
+    is working for an organization whose vision is that all children should be loved
+    and cared for. The core values that most speak to me are courage and hope.  You
+    need a lot of courage to overcome life’s obstacles, and hope enables you to envision
+    a better future for yourself and for your family.” \n\n"
+- sys:
+    id: 3M6LZcVY4w2kE4Q4aSeKii
+  name: Samantha LaGrasse
+  desiredUrl: samantha-lagrasse
+  position: 'Transitional Aged Youth Division Director '
+  order: 1
+  bio: "Samantha earned a Bachelor of Arts in Psychology at California State University,
+    Fresno and a Master of Arts in Counseling Psychology at National University.  She
+    was attracted to Aspiranet because she wanted to work with families in a proactive
+    manner.  Samantha joined the agency in 1999 and enjoys learning something new
+    every day.  She feels honored to have been part of building and running programs
+    that serve young adults and fortunate to have provided both direct and supervisory
+    services for diverse foster care and transitional housing programs over the past
+    two decades.    \n\n“I appreciate the feeling of family among Aspiranet staff
+    and that our core values inform the way in which we approach our work.  Respect
+    absolutely has to be present in order to work with our young adults in a way that
+    communicates unconditional positive regard.  When there is mutual respect everything
+    else falls into place as needed.”\n\n"
+- sys:
+    id: 2eJ0sHfmZOggQGMWQwYAUM
+  name: Mike DeRose
+  desiredUrl: mike-derose
+  position: 'Behavioral Health Division Director '
+  bio: "Mike earned a Masters degree in Counseling Psychology from National University,
+    a Bachelors Degree in Psychology from the University of the Pacific, and has over
+    10 years of experience in private practice as a Licensed Marriage and Family Therapist,
+    in addition to over 16 years of experience in the private non-profit sector.  Mike
+    was attracted to Aspiranet by its innovative programs and services and the depth
+    of staff commitment to the families served, and he enjoys working with like-minded
+    colleagues who are living out the organization’s core values.  \n\nSince joining
+    Aspiranet in 2007, he has worked in a variety of roles in each of the Aspiranet
+    Core Divisions, including serving as a support counselor and social worker for
+    intensive treatment foster youth and transitional aged youth programs, working
+    as a staff trainer in a residential treatment facility, working as a clinician
+    and operating intensive home-based service programs, running a family resource
+    center, and managing various children’s specialty mental health programs.  \n\n“It’s
+    great to be part of something larger than yourself.  Aspiranet stands up for social
+    justice and supports strategies and innovations that achieve successful and meaningful
+    outcomes.  We work every day to instill hope and courage in our children and families
+    who are dealing with loss, trauma, grief, and struggles that are difficult to
+    cope with alone.   Our outcomes and positive client feedback speak volumes about
+    the work we do and that others can also be part of.”\n\n"
+- sys:
+    id: 4hB4Q6yViMWkSc0Km6EyK8
+  name: Christopher Essary
+  desiredUrl: Christopher-essary
+  position: 'Residential Division Director '
+  bio: |
+    Christopher earned a Bachelor’s degree in Sociology from California State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell Center House Parent.  He was attracted to residential treatment for at-risk youth by the culture of respect and caring established in the group homes, and by the beautiful Turlock campus.  During his three decades at Aspiranet, Chris has served in a variety of roles including Regional Director, Group Home Administrator, Director of Operations, House Manager, and Activities Director.
+
+    “The core value most important in my daily residential work is respect.  I am inspired by our staff’s dedication to helping kids turn their lives around.  I like to come to work every day in a job that improves lives.  We have great people who work here and I take pride in our contribution to bettering our communities.”
+- sys:
+    id: 3fkQUE9Z7y0840WokS2sYY
+  name: Diane Warne
+  desiredUrl: Diane-Warne
+  position: Foster and Adoptive Families Division Director
+  order: 6
+  bio: |-
+    Diane earned a Bachelor of Arts in Psychology from California State University Fresno
+    and a Masters of Arts in Counseling, Marriage, Family and Child from the University of
+    San Francisco. Since joining Aspiranet in 1991 she has helped to develop a variety of
+    foster care and adoption programs, and served as foster care social worker, supervising
+    social worker, District Administrator, and Foster Care Division Director. Over the past
+    25 years she has often been asked why she has chosen to work at Aspiranet. Her
+    answer has always been the same. Diane believes in the agency’s core values,
+    mission, and vision, and appreciates Aspiranet’s dedication to providing outstanding
+    services on behalf of its families.
+
+    "At Aspiranet, we have high hopes for the children and families we work with and our
+    actions are motivated by an unwavering desire to do what’s best on behalf of our
+    families. I witness countless acts of courage among our families on a daily basis –
+    whether it is a foster family opening their home to a child and caring for them, an
+    adoptive family offering a forever family, a relative seeking to keep a family together, or a birth family having the courage to make changes so that their children can be returned to them.”
 seniorExecutive:
 - sys:
     id: 6fFIM4qSk0ak0KWaykO0eM
