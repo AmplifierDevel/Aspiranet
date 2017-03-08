@@ -65,7 +65,6 @@
 			color: $blue-dark;
 		}
 	}
-
 }
 .latest-front {
 	.blue-dark {
@@ -300,6 +299,7 @@
 }
 .adopt-cta {
 	min-height: 700px;
+	background-position-x: center !important;
 	@media screen and #{$brk-narrow} {
 		background-position: 75%;
 		min-height: 400px;
