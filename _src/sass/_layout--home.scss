@@ -30,7 +30,7 @@
     	margin-top: -6px;
     	padding: 0 3em;
     	@media screen and #{$brk-wide} {
-    		padding: 0 2em;
+    		padding: 0 1em;
     	}
     }
     h3 {
@@ -38,61 +38,16 @@
     	margin-top: 50px;
     }
     @media screen and #{$brk-wide} {
+    	margin: 0 auto;
+    	float: none;
     	h1, h3, h5, .button {
-    		text-align: left;
+    		text-align: center;
     	}
     	.button {
     		display: inherit;
     	}
-    }
-    @media screen and #{$brk-tablet-min} and #{$brk-wide} {
-    	float: none;
-    	margin: 0 auto;
-    	ul li {
-    		min-height: 250px;
-    		margin: 0;
-    		padding: 30px;
-    	}
-    	h5 {
-    		padding: 0;
-    	}
-    	h3, .button {
-    		margin-left: 30px;
-    	}
-    }
-    @media screen and (min-width: 305px) and #{$brk-narrow} {
-    	ul li {
-    		min-height: 200px;
-    		margin: 0;
-    		&:nth-of-type(even) {
-    			padding: 20px 0 20px 20px;
-    		}
-    		&:nth-of-type(odd) { 
-    			padding: 20px 20px 20px 0;
-    		}
-    	}
-		h1 {
-			font-size: 2em;
-			margin-top: 0;
-		}
-		h5 {
-			padding: 0;
-			font-size: 18px;
-			margin-top: 20px;
-			margin-bottom: 0;
-		}
-		h3 {
-			font-size: 18px;
-			margin-top: 20px;
-		}
-	}
-	@media screen and (max-width: 304px) {
-    	.mobile-col-1-2 {
-    		width: 100%;
-    	}
-    	ul li {
-    		padding: 0;
-    		min-height: auto;
+    	h1 {
+    		font-size: 65px;
     	}
     }
 }
