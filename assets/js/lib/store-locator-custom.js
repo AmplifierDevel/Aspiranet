@@ -63,6 +63,7 @@ MedicareDataSource.prototype.parse_ = function(json) {
 
     // Add all programs
     if (item.fields.program) {
+      console.log('PROGRAM: ' + item.fields.name)
     addAllItemsToArray(item.fields.program, programs);
     }
     // remove dupplicates
@@ -121,5 +122,6 @@ function populateArray(array, selectElement) {
 function addAllItemsToArray(items, array){
   items.forEach(function(item){
       array.push(item);
+      console.log(item);
     });
 };
