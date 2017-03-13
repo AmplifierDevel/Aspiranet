@@ -1,32 +1,383 @@
 ---
-programLocation:
+programs:
 - sys:
-    id: 79FwR0fryM4wQOY0Iu2SEu
-  name: 'Stanislaus Family and Community '
-  location:
-    lat: 37.5135153
-    lon: -120.84861480000001
-  addressAsText: 2160 Geer Road, Turlock, CA 95382, USA
-  program:
-  - Healthy Birth Outcomes
-  - Pro Family
-  - Promotora
-  - Welfare to Work
-  - Turlock Family Resource Center
-  programAndAgeGroupAsText: "<strong><p>Turlock Family Resource Center</p></strong>
-    \n<p>Services for low-income families with children five years old or younger,
-    families at risk for child abuse or other forms of family violence, and pregnant
-    women who need prenatal care and education.</p>\n\n<strong><p>Healthy Birth Outcomes</p></strong>
-    \n<p>Prenatal education for familes in order to reduce infant mortality and low
-    birth weight.</p>\n\n<strong><p>Pro Family</p></strong> \n<p>Short term family
-    reunification program utilizing a parent partner model.</p>\n\n<strong><p>Promotora</p></strong>
-    \n<p>Mental health destigmatization program utilizing volunteer Promotora.</p>\n\n<strong><p>Welfare
-    to Work</p></strong> \n<p>Job readiness, vocational coaching, and English as a
-    Second Language classes.</p> \n\n"
-  phoneText: 209-668-6118
-  description: ' '
-  internalNotes: "Robert Hubbard, Core Program Director           \nPamela Walton-Huntley,
-    Core Program Manager\nrhubbard@aspiranet.org\npwaltonhuntley@aspiranet.org"
+    id: 4WGNwaPSqcSwSueou6keQ0
+  title: 'Transitional Aged Youth '
+  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
+    from which to launch their futures. '
+  photoLanding:
+    title: 04 program hero img  1N3R4
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg
+  programColor: mint
+  order: 3
+  subtitle: 'A bridge from youth to independence '
+  copyTop: "Aspiranet's Transitional Aged Youth programs are a bridge between foster
+    care and independence.\n\nWe are dedicated to helping our youth develop necessary
+    life skills, self-reliance, and confidence so they can achieve their goals for
+    the future. \n\nWe collaborate with a statewide network of partners to ensure
+    that youth who are aging out of foster care are equipped to navigate the hurdles
+    of young adulthood and become productive members of their communities.\n"
+  photo:
+    title: 5 tay 1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
+  pullQuote: “Helping a youth transition into adulthood is a big responsibility, and
+    I’m grateful every day I get the chance to do it." <br/> — Samantha LaGrasse,
+    Transitional Aged Youth Division Director
+  copyRest: "We help with basic needs like transportation and housing, as well as
+    mental health and emotional support.  \n\nAnd we assist youth in securing a safe
+    place to live, ongoing education, job readiness training and employment.  \n\nOur
+    programs are a vital launching pad, helping youth lift off to pursue their life
+    dreams and exercise their full potential. "
+  fastFact1Number: '5,000'
+  fastFact1Text: Youth “age out” of foster care each year in California
+  fastFact2Number: '1,900'
+  fastFact2Text: Transitional Aged Youth supported annually by Aspiranet
+  fastFact3Number: '14'
+  fastFact3Text: Counties where Aspiranet offers TAY services
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+- sys:
+    id: 5XB0qb2FvqMM8I6IY2UmWc
+  title: 'Intensive Home-Based Services '
+  landingPageTextBlurb: 'We believe: When children and families have access to the
+    support and resources to thrive, there''s no limit to what they can accomplish. '
+  photoLanding:
+    title: 5-Program-Foster-&-Adoptive-v6-2
+    description: 5-Program-Foster-&-Adoptive-v6-2
+    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
+  programColor: yellow
+  order: 5
+  subtitle: 'A proven model of family support '
+  copyTop: "Aspiranet offers families a network of individualized resources that meet
+    them where they are and take them on a journey to where positive outcomes are
+    possible.  \n\nResearch shows that services that are wrapped around the family
+    are more effective than institutional care and can unlock positive outcomes such
+    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
+    services are provided in the home and in the community and are available when
+    families need them – after school, in the mornings, and on the weekends. Aspiranet’s
+    unique team approach enlists 3-4 advocates in guiding and supporting the entire
+    family during their journey to improved well-being."
+  photo:
+    title: 5-Program-Foster-&-Adoptive-v6-2
+    description: 5-Program-Foster-&-Adoptive-v6-2
+    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
+  pullQuote: “Families in crisis sometimes need a helping hand to reach higher ground.
+    That’s why we are here.” <br/> — Sharon Lawicki, Intensive Home-Based Services
+    Division Director
+  copyRest: "Our services engage all members of the family, including relatives and
+    non-relative extended family members, in changing behaviors that improve their
+    relationships and promote growth.  \n\nFamily members, caregivers, teachers and
+    other service providers work together so children have opportunities to practice
+    positive life skills and get involved in community activities. \n\nWhether it
+    is referring someone within the Aspiranet network, sharing community contacts
+    on behalf of families, or educating policymakers on needed changes, we are dedicated
+    to facilitating the best possible outcomes within our family support system.  \n\nThe
+    ultimate goal is to give children the tools and support network to live and grow
+    successfully with their birth families, relative caregivers, or foster and adoptive
+    families. \n"
+  fastFact1Number: '8.7'
+  fastFact1Text: Cases of child abuse and neglect in California per one thousand children
+  fastFact2Number: '700'
+  fastFact2Text: Families benefit annually from Aspiranet high level intervention
+    and treatment services
+  fastFact3Number: '3.5'
+  fastFact3Text: Aspiranet team members per family work to create a robust system
+    of support
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+- sys:
+    id: 17pijT5KeCiYscE4GoQAO0
+  title: 'Behavioral Health '
+  landingPageTextBlurb: 'We believe: Caring and support helps families through challenging
+    times. '
+  photoLanding:
+    title: 01-Homepage-hero-img-5 flip
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/AcoTjf3XzwSgIcyOUIKYy/e86364c03cb1d5a95a79924d6c5e80a9/01-Homepage-hero-img-5_flip.jpg
+  programColor: blue-dark
+  order: 6
+  subtitle: 'Strong families for life '
+  copyTop: "Children and families experiencing difficult times can heal in an environment
+    that offers the support, respect and skills they need to build resilience.\n\nAspiranet
+    provides a coordinated network of support that helps families stay together and
+    leads to more successful family interactions on a daily basis. \n\nWe partner
+    with our families in a team process to enhance their ability to manage stress,
+    address relationship issues, and strengthen natural support systems at home, school,
+    and in the community."
+  photo:
+    title: 5-Program-Behavior-Health-5-2
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/613XSF2C1aeImose2C8aKy/16eb65c92ed6d4531ee08aee691b6df8/5-Program-Behavior-Health-5-2.jpg
+  pullQuote: “When we are free from or learn to manage emotional and psychological
+    distress, we are more able to live our lives to the fullest.” <br/> — Mike DeRose,
+    Behavioral Health Division Director
+  copyRest: |
+    A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
+
+    Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
+
+    We stay the course with our families, empowering parents by improving the quality of the parent-child relationship and helping to ensure long-term family success.
+  fastFact1Number: 1 in 6
+  fastFact1Text: Adults in California with a mental health need
+  fastFact2Number: 20%
+  fastFact2Text: Youth nationwide who have had a severe mental health disorder
+  fastFact3Number: '2,268'
+  fastFact3Text: Children and families served annually by Aspiranet behavioral health
+    staff
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+  howYouCanHelpCta: I’d like to provide a home for a child
+- sys:
+    id: XBkqWJ1H8qowuEKW6McqM
+  title: Residential
+  landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
+    a chance to fulfill their potential.'
+  photoLanding:
+    title: 04-program-hero-img-4
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
+  programColor: orange
+  order: 4
+  subtitle: 'Healthy environments build resilience '
+  copyTop: "Aspiranet’s short term residential treatment program offers critical support
+    to youth in crisis, preparing them to be re-united with their families.  \n\nOur
+    residential program represents the highest level of care that is available to
+    children and youth in California.  Over four to six months, each participant is
+    fully supported through individual counseling, group counseling, psychiatric treatment
+    and educational services in single family home settings.  "
+  photo:
+    title: 04-program-hero-img-4
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
+  pullQuote: '"Everyone deserves a chance to reach their potential, and I believe
+    in my heart that with the right guidance and support our youth can thrive.” <br/>
+    — Christopher Essary, Residential Division Director'
+  copyRest: "Our programs offer a structured, enriching, healing environment where
+    children and youth in crisis can move forward with their head held high.\n\nSafety
+    is our number one priority, and all residents are expected to live up to a code
+    of conduct that promotes mutual respect and responsibility for the daily routine
+    on campus.\n\nExperienced staff work to guide youth back to a healthy place where
+    they can be responsible and trusted members of the community.   \n\nBefore returning
+    home to their families, our youth put their handprints in the cement pathway that
+    runs through the center of the residential center, a symbol that they are graduating
+    and moving forward towards a brighter future.    "
+  fastFact1Number: 70%
+  fastFact1Text: Youth in the juvenile justice system with at least one mental health
+    condition
+  fastFact2Number: '156'
+  fastFact2Text: Youth benefit annually from Aspiranet residential services
+  fastFact3Number: 3,500+
+  fastFact3Text: Residential youth served since 1987
+  howYouCanHelpCopy: Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home?
+- sys:
+    id: 5B2oeqvKA8QciIA8gycoe8
+  title: 'Family & Community '
+  landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
+    and support in their lives.'
+  photoLanding:
+    title: 01 homepage hero img D9X9H flip
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
+  programColor: purple-dark
+  order: 2
+  subtitle: 'Strong foundations for healthy communities '
+  copyTop: "Aspiranet Family and Community programs prepare children for their futures,
+    strengthen life and parenting skills, and connect families with networks of support
+    in their community.  \n\nWe take a proactive, responsive, and forward-thinking
+    approach to the growing needs of the communities we serve.  We advocate with and
+    for our families to ensure the necessary resources are available for their success.
+    \ \n\nWe incorporate the Strengthening Families framework into our practices.
+    \ Research confirms that families who have knowledge of parenting and child development,
+    resilience, social and emotional skills, and social connections and support in
+    times of need are able to thrive as strong families.  \n"
+  photo:
+    title: 04 program hero img  e0IVu
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/10VLaDGYlGwko8qUg0Osu8/8a0ae5d8b8b46b9e50e3bb3b9c57764a/04_program_hero_img__e0IVu.jpg
+  pullQuote: '"Serving communities and families is why I get up in the morning and
+    what gives me incredible satisfaction.” <br/> — Kathryn Davies, Family and Community
+    Division Director'
+  copyRest: "We help families develop these skills resulting in increased family stability,
+    enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
+    community-based family resource centers offer individual family support, child
+    development courses, parenting education, school readiness programs, and more.
+    \ Our home-based visiting programs empower parents by helping them set and achieve
+    goals for themselves and their families.  \n\nAspiranet school-based programs
+    improve kindergarten through third grade literacy, and equip underserved, middle
+    and high school youth with the tech skills they need to be successful in today’s
+    global economy.\n\nWe know that healthy families build healthy communities.  Families
+    can count on us to support them when they most need help."
+  fastFact1Number: 1 in 4
+  fastFact1Text: California children live in poverty
+  fastFact2Number: '3,806'
+  fastFact2Text: Families and youth benefit annually from Aspiranet early intervention
+    and prevention services
+  fastFact3Number: '7,309'
+  fastFact3Text: Students reached through Aspiranet school-based programs
+  howYouCanHelpCopy: You can provide a child with the love and support to thrive.
+    Donate today!
+- sys:
+    id: 6gFvoAGrIckQwGoM8SAGqE
+  title: 'Foster and Adoptive Families '
+  landingPageTextBlurb: 'We Believe: Every child deserves to be loved and cared for
+    inside a stable, healthy family.'
+  photoLanding:
+    title: 04 program hero img  KAwSW flip
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
+  programColor: pink
+  order: 1
+  subtitle: Support for families, every step of the way
+  photo:
+    title: 04 program hero img  KAwSW flip
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
+  pullQuote: this content is in Foster and Adoptive Families page!
+  copyRest: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+    Cras dapibus.
+  fastFact1Number: '50,000'
+  fastFact1Text: Children in foster care in California
+  fastFact2Number: '727'
+  fastFact2Text: Youth reunited with their families or matched with foster families
+    annually through Aspiranet
+  fastFact3Number: '2,000'
+  fastFact3Text: Children transitioned from foster care to adoption, since 1999 by
+    Aspiranet
+  howYouCanHelpCopy: 'Thousands of children in California are in need of a forever
+    family. Can you offer a child a safe and loving home? '
+  howYouCanHelpCta: I'd like to provide a home for a child
+divisionHeads:
+- sys:
+    id: 2eJ0sHfmZOggQGMWQwYAUM
+  name: Mike DeRose
+  desiredUrl: mike-derose
+  position: 'Behavioral Health Division Director '
+  bio: "Mike earned a Masters degree in Counseling Psychology from National University,
+    a Bachelors Degree in Psychology from the University of the Pacific, and has over
+    10 years of experience in private practice as a Licensed Marriage and Family Therapist,
+    in addition to over 16 years of experience in the private non-profit sector.  Mike
+    was attracted to Aspiranet by its innovative programs and services and the depth
+    of staff commitment to the families served, and he enjoys working with like-minded
+    colleagues who are living out the organization’s core values.  \n\nSince joining
+    Aspiranet in 2007, he has worked in a variety of roles in each of the Aspiranet
+    Core Divisions, including serving as a support counselor and social worker for
+    intensive treatment foster youth and transitional aged youth programs, working
+    as a staff trainer in a residential treatment facility, working as a clinician
+    and operating intensive home-based service programs, running a family resource
+    center, and managing various children’s specialty mental health programs.  \n\n“It’s
+    great to be part of something larger than yourself.  Aspiranet stands up for social
+    justice and supports strategies and innovations that achieve successful and meaningful
+    outcomes.  We work every day to instill hope and courage in our children and families
+    who are dealing with loss, trauma, grief, and struggles that are difficult to
+    cope with alone.   Our outcomes and positive client feedback speak volumes about
+    the work we do and that others can also be part of.”\n\n"
+- sys:
+    id: 1W6n7hR3928ACkI6aEyAmo
+  name: Sharon Lawicki
+  desiredUrl: sharon-lawicki
+  position: 'Intensive Home-Based Services Division Director '
+  bio: "Sharon earned a Bachelor’s in Psychology at UC Berkeley and a Master’s in
+    Counseling Psychology at California State University of Stanislaus.  She has played
+    a pivotal role in growing Aspiranet’s statewide Wraparound program and Intensive
+    Home-Based Services Division.  Since joining the staff in 1997 as a clinician
+    in Aspiranet’s first outpatient mental health clinic for foster youth, Sharon
+    has served in a variety of roles including social worker, Program Supervisor,
+    and District Director.  She is thankful to have had competent, compassionate and
+    ethical supervisors throughout her tenure at Aspiranet.  \n\n“I am in awe of our
+    passionate and committed staff who work tirelessly to help children and families
+    improve their lives.  Staff consistently embody a 'do whatever it takes' approach
+    in helping youth and families overcome barriers that at first appear insurmountable. 
+    We have hope that our families can overcome anything in their path with the necessary
+    resources and support. It is amazing to see their transformation when they achieve
+    success in their lives and have a renewed sense of hope for their future.”\n\n"
+- sys:
+    id: 2G21MAhAhOQmMasm8Y0GeY
+  name: Kathryn Davies
+  desiredUrl: kathryn-davies
+  position: Family and Community Division Director
+  bio: "Kathy earned a Masters in Public Affairs at the University of Massachusetts
+    Boston, and a Bachelors in Psychology, with a Minor in Business Administration
+    from Worcester State College.\nShe started her career working in a group home
+    during her first year of college, and eventually became the director of a respite
+    facility that supported families in the child welfare system.  \n\nKathy’s professional
+    experience is wide-ranging, having served as a case manager, written behavioral
+    treatment plans, worked in quality assurance, and managed programs for children
+    with trauma as well as adults with developmental disabilities.  She joined Aspiranet
+    in 2014, attracted by the organizational vision, the quality of staff, and the
+    opportunity to provide services that strengthen families and communities and that
+    reduce the incidence of child maltreatment.\n\n“What I like best about Aspiranet
+    is working for an organization whose vision is that all children should be loved
+    and cared for. The core values that most speak to me are courage and hope.  You
+    need a lot of courage to overcome life’s obstacles, and hope enables you to envision
+    a better future for yourself and for your family.” \n\n"
+- sys:
+    id: 3M6LZcVY4w2kE4Q4aSeKii
+  name: Samantha LaGrasse
+  desiredUrl: samantha-lagrasse
+  position: 'Transitional Aged Youth Division Director '
+  order: 1
+  bio: "Samantha earned a Bachelor of Arts in Psychology at California State University,
+    Fresno and a Master of Arts in Counseling Psychology at National University.  She
+    was attracted to Aspiranet because she wanted to work with families in a proactive
+    manner.  Samantha joined the agency in 1999 and enjoys learning something new
+    every day.  She feels honored to have been part of building and running programs
+    that serve young adults and fortunate to have provided both direct and supervisory
+    services for diverse foster care and transitional housing programs over the past
+    two decades.    \n\n“I appreciate the feeling of family among Aspiranet staff
+    and that our core values inform the way in which we approach our work.  Respect
+    absolutely has to be present in order to work with our young adults in a way that
+    communicates unconditional positive regard.  When there is mutual respect everything
+    else falls into place as needed.”\n\n"
+- sys:
+    id: 4hB4Q6yViMWkSc0Km6EyK8
+  name: Christopher Essary
+  desiredUrl: Christopher-essary
+  position: 'Residential Division Director '
+  bio: |
+    Christopher earned a Bachelor’s degree in Sociology from California State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell Center House Parent.  He was attracted to residential treatment for at-risk youth by the culture of respect and caring established in the group homes, and by the beautiful Turlock campus.  During his three decades at Aspiranet, Chris has served in a variety of roles including Regional Director, Group Home Administrator, Director of Operations, House Manager, and Activities Director.
+
+    “The core value most important in my daily residential work is respect.  I am inspired by our staff’s dedication to helping kids turn their lives around.  I like to come to work every day in a job that improves lives.  We have great people who work here and I take pride in our contribution to bettering our communities.”
+- sys:
+    id: 3fkQUE9Z7y0840WokS2sYY
+  name: Diane Warne
+  desiredUrl: Diane-Warne
+  position: Foster and Adoptive Families Division Director
+  order: 6
+  bio: |-
+    Diane earned a Bachelor of Arts in Psychology from California State University Fresno
+    and a Masters of Arts in Counseling, Marriage, Family and Child from the University of
+    San Francisco. Since joining Aspiranet in 1991 she has helped to develop a variety of
+    foster care and adoption programs, and served as foster care social worker, supervising
+    social worker, District Administrator, and Foster Care Division Director. Over the past
+    25 years she has often been asked why she has chosen to work at Aspiranet. Her
+    answer has always been the same. Diane believes in the agency’s core values,
+    mission, and vision, and appreciates Aspiranet’s dedication to providing outstanding
+    services on behalf of its families.
+
+    "At Aspiranet, we have high hopes for the children and families we work with and our
+    actions are motivated by an unwavering desire to do what’s best on behalf of our
+    families. I witness countless acts of courage among our families on a daily basis –
+    whether it is a foster family opening their home to a child and caring for them, an
+    adoptive family offering a forever family, a relative seeking to keep a family together, or a birth family having the courage to make changes so that their children can be returned to them.”
+donatePage:
+- sys:
+    id: 4qI4qbXl8sK8U6MowUgMo0
+  donateBoxTitle: <h3 class="no-margin-top">Give Love and Support. <br/> Give to Aspiranet</h3>
+  donateSubheadText: When children and families have access to the support and resources
+    they need, there’s no limit to what they can accomplish.
+  textIcon1: Provide children with a safe and loving home.
+  textIcon2: Give children and families the resources they need to thrive.
+  textIcon3: Empower children and families to succeed at home, school and in their
+    communities.
+programLocation:
 - sys:
     id: 6tWW1VtQbuUse6UE6e6ss2
   name: Delta First 5 Center
@@ -642,6 +993,70 @@ programLocation:
   phoneText: 209-725-2125
   description: ' '
 - sys:
+    id: 79FwR0fryM4wQOY0Iu2SEu
+  name: 'Stanislaus Family and Community '
+  location:
+    lat: 37.5135153
+    lon: -120.84861480000001
+  addressAsText: 2160 Geer Road, Turlock, CA 95382, USA
+  program:
+  - Healthy Birth Outcomes
+  - Pro Family
+  - Promotora
+  - Welfare to Work
+  - Turlock Family Resource Center
+  programAndAgeGroupAsText: "<strong><p>Turlock Family Resource Center</p></strong>
+    \n<p>Services for low-income families with children five years old or younger,
+    families at risk for child abuse or other forms of family violence, and pregnant
+    women who need prenatal care and education.</p>\n\n<strong><p>Healthy Birth Outcomes</p></strong>
+    \n<p>Prenatal education for familes in order to reduce infant mortality and low
+    birth weight.</p>\n\n<strong><p>Pro Family</p></strong> \n<p>Short term family
+    reunification program utilizing a parent partner model.</p>\n\n<strong><p>Promotora</p></strong>
+    \n<p>Mental health destigmatization program utilizing volunteer Promotora.</p>\n\n<strong><p>Welfare
+    to Work</p></strong> \n<p>Job readiness, vocational coaching, and English as a
+    Second Language classes.</p> \n\n"
+  phoneText: 209-668-6118
+  description: ' '
+  internalNotes: "Robert Hubbard, Core Program Director           \nPamela Walton-Huntley,
+    Core Program Manager\nrhubbard@aspiranet.org\npwaltonhuntley@aspiranet.org"
+- sys:
+    id: 6aQtpex9zGcakgiGmGsm4K
+  name: 'Stanislaus Behavioral Health '
+  location:
+    lat: 37.6587239
+    lon: -121.03602280000001
+  addressAsText: 1620 Cummins Drive, Suite C, Modesto, CA 95358, USA
+  program:
+  - Crisis Stabilization Program
+  - Crisis Intervention Program
+  - Outpatient Therapy
+  - Pathways to Wellbeing
+  - School-Based Risk Assessment and Therapy
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  programAndAgeGroupAsText: "<strong><p>Crisis Intervention Program</p></strong> \n<p>Crisis
+    intervention services for children and youth who are in the emergency room due
+    to danger to self or others.</p>\n\n<strong><p>Crisis Stabilization</p></strong>
+    \n<p>Crisis Stabilization services last for up to 30 days and respond within 1
+    hour of a referral to the local emergency room in order to complete a mental health
+    and safety assessment of children and youth with a threat of harm to self or others.</p>
+    \ \n\n<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient Therapy at home,
+    school and community-based sites, including crisis intervention, individual and
+    group therapy, case management and medication.</p> \n\n<strong><p>Pathways to
+    Wellbeing</p></strong> \n<p>Pathways to Wellbeing provides intensive care coordination,
+    and intensive home-based and mental health services to children and youth in child
+    welfare.</p>  \n\n<strong><p>School-Based Risk Assessment Program</p></strong>
+    \n<p>School-based safety assessments and counseling services for students at risk
+    of being a danger to self or others.</p>\n"
+  phoneText: 209-576-1750
+  description: ' '
+  internalNotes: |-
+    Cathy Abbott, Core Program Director
+    cabbott@aspiranet.org
+- sys:
     id: iODoqjDnRm8m260WGKiI
   name: Stanislaus Foster and Adoptive Families
   location:
@@ -697,6 +1112,28 @@ programLocation:
     Adoption
     Sandra Genova, Core Program Director
     sgenova@aspiranet.org
+- sys:
+    id: 4ayQ08c0iQqKa66YgIqEyu
+  name: Excell/Residential Services - Serving All Counties
+  location:
+    lat: 37.4946568
+    lon: -120.8465941
+  addressAsText: 2513 Youngstown Rd, Turlock, CA 95380, USA
+  program:
+  - School-Based Risk Assessment and Therapy
+  - Excell Center
+  programAndAgeGroupAsText: "<strong><p>Excell Center</p></strong> \n<p>Residential
+    treatment program that provides at-risk boys throughout California with educational
+    and group home services.</p>  \n\n"
+  phoneText: 209-632-4297
+  description: ' '
+  internalNotes: |-
+    Chris Essary, Core Division Director
+    Kimberly Franck, Core Program Director
+    Christoval Rendon, Principal
+    cessary@aspiranet.org
+    kfranck@aspiranet.org
+    crendon@aspiranet.org
 - sys:
     id: 3jAi2DIWcUQIImAO0AiOsY
   name: Ventura
@@ -912,6 +1349,40 @@ programLocation:
     Kathy Steele, Core Program Supervisor
     ksteele@aspiranet.org
 - sys:
+    id: 1jMTJaRPi6cOq2O6qkseAg
+  name: 'Turlock Behavioral Health '
+  location:
+    lat: 37.4999876
+    lon: -120.84390020000001
+  addressAsText: 420 East Canal Drive, Turlock, CA 95380, USA
+  program:
+  - Outpatient Therapy
+  - School-Based Risk Assessment and Therapy
+  - Therapeutic Behavioral Services
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient
+    Therapy at home, school and community-based sites, including crisis intervention,
+    individual and group therapy, case management and medication.</p>  \n\n<strong><p>School-Based
+    Risk Assessments and Therapy</p></strong> \n<p>School-based safety assessments
+    and counseling services for students at risk of being a danger to self or others.</p>\n\n<strong><p>Therapeutic
+    Behavioral Services</p></strong> \n<p>Therapeutic Behavioral Services for children
+    and youth at risk of high level placement such as group home, juvenile hall, or
+    hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient
+    services.</p>  \n\n"
+  phoneText: 209-669-2583
+  description: ' '
+  internalNotes: |-
+    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
+    Shelley Southern, Core Program Director
+    ssouthern@aspiranet.org
+    Jessica Lunt, Core Program Manager
+    jlunt@aspiranet.org
+- sys:
     id: 1kOrUn8okMIO4cKaQCkmoS
   name: Harmony House Receiving Center
   location:
@@ -1097,43 +1568,6 @@ programLocation:
     Stacie Bustos, Adoption Program Supervisor
     sbustos@aspiranet.org
 - sys:
-    id: 6aQtpex9zGcakgiGmGsm4K
-  name: 'Stanislaus Behavioral Health '
-  location:
-    lat: 37.6587239
-    lon: -121.03602280000001
-  addressAsText: 1620 Cummins Drive, Suite C, Modesto, CA 95358, USA
-  program:
-  - Crisis Stabilization Program
-  - Crisis Intervention Program
-  - Outpatient Therapy
-  - Pathways to Wellbeing
-  - School-Based Risk Assessment and Therapy
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  programAndAgeGroupAsText: "<strong><p>Crisis Intervention Program</p></strong> \n<p>Crisis
-    intervention services for children and youth who are in the emergency room due
-    to danger to self or others.</p>\n\n<strong><p>Crisis Stabilization</p></strong>
-    \n<p>Crisis Stabilization services last for up to 30 days and respond within 1
-    hour of a referral to the local emergency room in order to complete a mental health
-    and safety assessment of children and youth with a threat of harm to self or others.</p>
-    \ \n\n<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient Therapy at home,
-    school and community-based sites, including crisis intervention, individual and
-    group therapy, case management and medication.</p> \n\n<strong><p>Pathways to
-    Wellbeing</p></strong> \n<p>Pathways to Wellbeing provides intensive care coordination,
-    and intensive home-based and mental health services to children and youth in child
-    welfare.</p>  \n\n<strong><p>School-Based Risk Assessment Program</p></strong>
-    \n<p>School-based safety assessments and counseling services for students at risk
-    of being a danger to self or others.</p>\n"
-  phoneText: 209-576-1750
-  description: ' '
-  internalNotes: |-
-    Cathy Abbott, Core Program Director
-    cabbott@aspiranet.org
-- sys:
     id: 1flyw99J2a4UEuKogU8mAY
   name: Headquarters
   location:
@@ -1304,61 +1738,6 @@ programLocation:
     Kimberly Kopenhaver, Core Program Director
     kkopenhaver@aspiranet.org
 - sys:
-    id: 4ayQ08c0iQqKa66YgIqEyu
-  name: Excell/Residential Services - Serving All Counties
-  location:
-    lat: 37.4946568
-    lon: -120.8465941
-  addressAsText: 2513 Youngstown Rd, Turlock, CA 95380, USA
-  program:
-  - Excell Center
-  programAndAgeGroupAsText: "<strong><p>Excell Center</p></strong> \n<p>Residential
-    treatment program that provides at-risk boys throughout California with educational
-    and group home services.</p>  \n\n"
-  phoneText: 209-632-4297
-  description: ' '
-  internalNotes: |-
-    Chris Essary, Core Division Director
-    Kimberly Franck, Core Program Director
-    Christoval Rendon, Principal
-    cessary@aspiranet.org
-    kfranck@aspiranet.org
-    crendon@aspiranet.org
-- sys:
-    id: 1jMTJaRPi6cOq2O6qkseAg
-  name: 'Turlock Behavioral Health '
-  location:
-    lat: 37.4999876
-    lon: -120.84390020000001
-  addressAsText: 420 East Canal Drive, Turlock, CA 95380, USA
-  program:
-  - Outpatient Therapy
-  - School-Based Risk Assessments and Therapy
-  - Therapeutic Behavioral Services
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient
-    Therapy at home, school and community-based sites, including crisis intervention,
-    individual and group therapy, case management and medication.</p>  \n\n<strong><p>School-Based
-    Risk Assessments and Therapy</p></strong> \n<p>School-based safety assessments
-    and counseling services for students at risk of being a danger to self or others.</p>\n\n<strong><p>Therapeutic
-    Behavioral Services</p></strong> \n<p>Therapeutic Behavioral Services for children
-    and youth at risk of high level placement such as group home, juvenile hall, or
-    hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient
-    services.</p>  \n\n"
-  phoneText: 209-669-2583
-  description: ' '
-  internalNotes: |-
-    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
-    Shelley Southern, Core Program Director
-    ssouthern@aspiranet.org
-    Jessica Lunt, Core Program Manager
-    jlunt@aspiranet.org
-- sys:
     id: 6OBDaCGHVScMGSSesa2igG
   name: Los Angeles
   location:
@@ -1436,129 +1815,6 @@ programLocation:
     Transitional Housing Placement + Foster Care
     Tracy Rolfe, Core Program Director
     trolfe@aspiranet.org
-divisionHeads:
-- sys:
-    id: 2eJ0sHfmZOggQGMWQwYAUM
-  name: Mike DeRose
-  desiredUrl: mike-derose
-  position: 'Behavioral Health Division Director '
-  bio: "Mike earned a Masters degree in Counseling Psychology from National University,
-    a Bachelors Degree in Psychology from the University of the Pacific, and has over
-    10 years of experience in private practice as a Licensed Marriage and Family Therapist,
-    in addition to over 16 years of experience in the private non-profit sector.  Mike
-    was attracted to Aspiranet by its innovative programs and services and the depth
-    of staff commitment to the families served, and he enjoys working with like-minded
-    colleagues who are living out the organization’s core values.  \n\nSince joining
-    Aspiranet in 2007, he has worked in a variety of roles in each of the Aspiranet
-    Core Divisions, including serving as a support counselor and social worker for
-    intensive treatment foster youth and transitional aged youth programs, working
-    as a staff trainer in a residential treatment facility, working as a clinician
-    and operating intensive home-based service programs, running a family resource
-    center, and managing various children’s specialty mental health programs.  \n\n“It’s
-    great to be part of something larger than yourself.  Aspiranet stands up for social
-    justice and supports strategies and innovations that achieve successful and meaningful
-    outcomes.  We work every day to instill hope and courage in our children and families
-    who are dealing with loss, trauma, grief, and struggles that are difficult to
-    cope with alone.   Our outcomes and positive client feedback speak volumes about
-    the work we do and that others can also be part of.”\n\n"
-- sys:
-    id: 1W6n7hR3928ACkI6aEyAmo
-  name: Sharon Lawicki
-  desiredUrl: sharon-lawicki
-  position: 'Intensive Home-Based Services Division Director '
-  bio: "Sharon earned a Bachelor’s in Psychology at UC Berkeley and a Master’s in
-    Counseling Psychology at California State University of Stanislaus.  She has played
-    a pivotal role in growing Aspiranet’s statewide Wraparound program and Intensive
-    Home-Based Services Division.  Since joining the staff in 1997 as a clinician
-    in Aspiranet’s first outpatient mental health clinic for foster youth, Sharon
-    has served in a variety of roles including social worker, Program Supervisor,
-    and District Director.  She is thankful to have had competent, compassionate and
-    ethical supervisors throughout her tenure at Aspiranet.  \n\n“I am in awe of our
-    passionate and committed staff who work tirelessly to help children and families
-    improve their lives.  Staff consistently embody a 'do whatever it takes' approach
-    in helping youth and families overcome barriers that at first appear insurmountable. 
-    We have hope that our families can overcome anything in their path with the necessary
-    resources and support. It is amazing to see their transformation when they achieve
-    success in their lives and have a renewed sense of hope for their future.”\n\n"
-- sys:
-    id: 2G21MAhAhOQmMasm8Y0GeY
-  name: Kathryn Davies
-  desiredUrl: kathryn-davies
-  position: Family and Community Division Director
-  bio: "Kathy earned a Masters in Public Affairs at the University of Massachusetts
-    Boston, and a Bachelors in Psychology, with a Minor in Business Administration
-    from Worcester State College.\nShe started her career working in a group home
-    during her first year of college, and eventually became the director of a respite
-    facility that supported families in the child welfare system.  \n\nKathy’s professional
-    experience is wide-ranging, having served as a case manager, written behavioral
-    treatment plans, worked in quality assurance, and managed programs for children
-    with trauma as well as adults with developmental disabilities.  She joined Aspiranet
-    in 2014, attracted by the organizational vision, the quality of staff, and the
-    opportunity to provide services that strengthen families and communities and that
-    reduce the incidence of child maltreatment.\n\n“What I like best about Aspiranet
-    is working for an organization whose vision is that all children should be loved
-    and cared for. The core values that most speak to me are courage and hope.  You
-    need a lot of courage to overcome life’s obstacles, and hope enables you to envision
-    a better future for yourself and for your family.” \n\n"
-- sys:
-    id: 3M6LZcVY4w2kE4Q4aSeKii
-  name: Samantha LaGrasse
-  desiredUrl: samantha-lagrasse
-  position: 'Transitional Aged Youth Division Director '
-  order: 1
-  bio: "Samantha earned a Bachelor of Arts in Psychology at California State University,
-    Fresno and a Master of Arts in Counseling Psychology at National University.  She
-    was attracted to Aspiranet because she wanted to work with families in a proactive
-    manner.  Samantha joined the agency in 1999 and enjoys learning something new
-    every day.  She feels honored to have been part of building and running programs
-    that serve young adults and fortunate to have provided both direct and supervisory
-    services for diverse foster care and transitional housing programs over the past
-    two decades.    \n\n“I appreciate the feeling of family among Aspiranet staff
-    and that our core values inform the way in which we approach our work.  Respect
-    absolutely has to be present in order to work with our young adults in a way that
-    communicates unconditional positive regard.  When there is mutual respect everything
-    else falls into place as needed.”\n\n"
-- sys:
-    id: 4hB4Q6yViMWkSc0Km6EyK8
-  name: Christopher Essary
-  desiredUrl: Christopher-essary
-  position: 'Residential Division Director '
-  bio: |
-    Christopher earned a Bachelor’s degree in Sociology from California State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell Center House Parent.  He was attracted to residential treatment for at-risk youth by the culture of respect and caring established in the group homes, and by the beautiful Turlock campus.  During his three decades at Aspiranet, Chris has served in a variety of roles including Regional Director, Group Home Administrator, Director of Operations, House Manager, and Activities Director.
-
-    “The core value most important in my daily residential work is respect.  I am inspired by our staff’s dedication to helping kids turn their lives around.  I like to come to work every day in a job that improves lives.  We have great people who work here and I take pride in our contribution to bettering our communities.”
-- sys:
-    id: 3fkQUE9Z7y0840WokS2sYY
-  name: Diane Warne
-  desiredUrl: Diane-Warne
-  position: Foster and Adoptive Families Division Director
-  order: 6
-  bio: |-
-    Diane earned a Bachelor of Arts in Psychology from California State University Fresno
-    and a Masters of Arts in Counseling, Marriage, Family and Child from the University of
-    San Francisco. Since joining Aspiranet in 1991 she has helped to develop a variety of
-    foster care and adoption programs, and served as foster care social worker, supervising
-    social worker, District Administrator, and Foster Care Division Director. Over the past
-    25 years she has often been asked why she has chosen to work at Aspiranet. Her
-    answer has always been the same. Diane believes in the agency’s core values,
-    mission, and vision, and appreciates Aspiranet’s dedication to providing outstanding
-    services on behalf of its families.
-
-    "At Aspiranet, we have high hopes for the children and families we work with and our
-    actions are motivated by an unwavering desire to do what’s best on behalf of our
-    families. I witness countless acts of courage among our families on a daily basis –
-    whether it is a foster family opening their home to a child and caring for them, an
-    adoptive family offering a forever family, a relative seeking to keep a family together, or a birth family having the courage to make changes so that their children can be returned to them.”
-donatePage:
-- sys:
-    id: 4qI4qbXl8sK8U6MowUgMo0
-  donateBoxTitle: <h3 class="no-margin-top">Give Love and Support. <br/> Give to Aspiranet</h3>
-  donateSubheadText: When children and families have access to the support and resources
-    they need, there’s no limit to what they can accomplish.
-  textIcon1: Provide children with a safe and loving home.
-  textIcon2: Give children and families the resources they need to thrive.
-  textIcon3: Empower children and families to succeed at home, school and in their
-    communities.
 seniorExecutive:
 - sys:
     id: 6fFIM4qSk0ak0KWaykO0eM
@@ -2312,261 +2568,6 @@ event:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   date: !ruby/object:DateTime 2017-03-06 11:00:00.000000000 -08:00
   eventId: '31499930139'
-programs:
-- sys:
-    id: 5XB0qb2FvqMM8I6IY2UmWc
-  title: 'Intensive Home-Based Services '
-  landingPageTextBlurb: 'We believe: When children and families have access to the
-    support and resources to thrive, there''s no limit to what they can accomplish. '
-  photoLanding:
-    title: 5-Program-Foster-&-Adoptive-v6-2
-    description: 5-Program-Foster-&-Adoptive-v6-2
-    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
-  programColor: yellow
-  order: 5
-  subtitle: 'A proven model of family support '
-  copyTop: "Aspiranet offers families a network of individualized resources that meet
-    them where they are and take them on a journey to where positive outcomes are
-    possible.  \n\nResearch shows that services that are wrapped around the family
-    are more effective than institutional care and can unlock positive outcomes such
-    as better school performance, less hospitalization and fewer arrests. \n\nAspiranet
-    services are provided in the home and in the community and are available when
-    families need them – after school, in the mornings, and on the weekends. Aspiranet’s
-    unique team approach enlists 3-4 advocates in guiding and supporting the entire
-    family during their journey to improved well-being."
-  photo:
-    title: 5-Program-Foster-&-Adoptive-v6-2
-    description: 5-Program-Foster-&-Adoptive-v6-2
-    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
-  pullQuote: “Families in crisis sometimes need a helping hand to reach higher ground.
-    That’s why we are here.” <br/> — Sharon Lawicki, Intensive Home-Based Services
-    Division Director
-  copyRest: "Our services engage all members of the family, including relatives and
-    non-relative extended family members, in changing behaviors that improve their
-    relationships and promote growth.  \n\nFamily members, caregivers, teachers and
-    other service providers work together so children have opportunities to practice
-    positive life skills and get involved in community activities. \n\nWhether it
-    is referring someone within the Aspiranet network, sharing community contacts
-    on behalf of families, or educating policymakers on needed changes, we are dedicated
-    to facilitating the best possible outcomes within our family support system.  \n\nThe
-    ultimate goal is to give children the tools and support network to live and grow
-    successfully with their birth families, relative caregivers, or foster and adoptive
-    families. \n"
-  fastFact1Number: '8.7'
-  fastFact1Text: Cases of child abuse and neglect in California per one thousand children
-  fastFact2Number: '700'
-  fastFact2Text: Families benefit annually from Aspiranet high level intervention
-    and treatment services
-  fastFact3Number: '3.5'
-  fastFact3Text: Aspiranet team members per family work to create a robust system
-    of support
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-- sys:
-    id: 4WGNwaPSqcSwSueou6keQ0
-  title: 'Transitional Aged Youth '
-  landingPageTextBlurb: 'We believe: All young people deserve a strong foundation
-    from which to launch their futures. '
-  photoLanding:
-    title: 04 program hero img  1N3R4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg
-  programColor: mint
-  order: 3
-  subtitle: 'A bridge from youth to independence '
-  copyTop: "Aspiranet's Transitional Aged Youth programs are a bridge between foster
-    care and independence.\n\nWe are dedicated to helping our youth develop necessary
-    life skills, self-reliance, and confidence so they can achieve their goals for
-    the future. \n\nWe collaborate with a statewide network of partners to ensure
-    that youth who are aging out of foster care are equipped to navigate the hurdles
-    of young adulthood and become productive members of their communities.\n"
-  photo:
-    title: 5 tay 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
-  pullQuote: “Helping a youth transition into adulthood is a big responsibility, and
-    I’m grateful every day I get the chance to do it." <br/> — Samantha LaGrasse,
-    Transitional Aged Youth Division Director
-  copyRest: "We help with basic needs like transportation and housing, as well as
-    mental health and emotional support.  \n\nAnd we assist youth in securing a safe
-    place to live, ongoing education, job readiness training and employment.  \n\nOur
-    programs are a vital launching pad, helping youth lift off to pursue their life
-    dreams and exercise their full potential. "
-  fastFact1Number: '5,000'
-  fastFact1Text: Youth “age out” of foster care each year in California
-  fastFact2Number: '1,900'
-  fastFact2Text: Transitional Aged Youth supported annually by Aspiranet
-  fastFact3Number: '14'
-  fastFact3Text: Counties where Aspiranet offers TAY services
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-- sys:
-    id: 17pijT5KeCiYscE4GoQAO0
-  title: 'Behavioral Health '
-  landingPageTextBlurb: 'We believe: Caring and support helps families through challenging
-    times. '
-  photoLanding:
-    title: 01-Homepage-hero-img-5 flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/AcoTjf3XzwSgIcyOUIKYy/e86364c03cb1d5a95a79924d6c5e80a9/01-Homepage-hero-img-5_flip.jpg
-  programColor: blue-dark
-  order: 6
-  subtitle: 'Strong families for life '
-  copyTop: "Children and families experiencing difficult times can heal in an environment
-    that offers the support, respect and skills they need to build resilience.\n\nAspiranet
-    provides a coordinated network of support that helps families stay together and
-    leads to more successful family interactions on a daily basis. \n\nWe partner
-    with our families in a team process to enhance their ability to manage stress,
-    address relationship issues, and strengthen natural support systems at home, school,
-    and in the community."
-  photo:
-    title: 5-Program-Behavior-Health-5-2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/613XSF2C1aeImose2C8aKy/16eb65c92ed6d4531ee08aee691b6df8/5-Program-Behavior-Health-5-2.jpg
-  pullQuote: “When we are free from or learn to manage emotional and psychological
-    distress, we are more able to live our lives to the fullest.” <br/> — Mike DeRose,
-    Behavioral Health Division Director
-  copyRest: |
-    A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
-
-    Our teams of providers work to create a flexible and individualized plan to meet the struggles that each family is facing and increase safety and stability in the home environment.
-
-    We stay the course with our families, empowering parents by improving the quality of the parent-child relationship and helping to ensure long-term family success.
-  fastFact1Number: 1 in 6
-  fastFact1Text: Adults in California with a mental health need
-  fastFact2Number: 20%
-  fastFact2Text: Youth nationwide who have had a severe mental health disorder
-  fastFact3Number: '2,268'
-  fastFact3Text: Children and families served annually by Aspiranet behavioral health
-    staff
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-  howYouCanHelpCta: I’d like to provide a home for a child
-- sys:
-    id: XBkqWJ1H8qowuEKW6McqM
-  title: Residential
-  landingPageTextBlurb: 'We believe: No child is beyond help, and everyone deserves
-    a chance to fulfill their potential.'
-  photoLanding:
-    title: 04-program-hero-img-4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
-  programColor: orange
-  order: 4
-  subtitle: 'Healthy environments build resilience '
-  copyTop: "Aspiranet’s short term residential treatment program offers critical support
-    to youth in crisis, preparing them to be re-united with their families.  \n\nOur
-    residential program represents the highest level of care that is available to
-    children and youth in California.  Over four to six months, each participant is
-    fully supported through individual counseling, group counseling, psychiatric treatment
-    and educational services in single family home settings.  "
-  photo:
-    title: 04-program-hero-img-4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
-  pullQuote: '"Everyone deserves a chance to reach their potential, and I believe
-    in my heart that with the right guidance and support our youth can thrive.” <br/>
-    — Christopher Essary, Residential Division Director'
-  copyRest: "Our programs offer a structured, enriching, healing environment where
-    children and youth in crisis can move forward with their head held high.\n\nSafety
-    is our number one priority, and all residents are expected to live up to a code
-    of conduct that promotes mutual respect and responsibility for the daily routine
-    on campus.\n\nExperienced staff work to guide youth back to a healthy place where
-    they can be responsible and trusted members of the community.   \n\nBefore returning
-    home to their families, our youth put their handprints in the cement pathway that
-    runs through the center of the residential center, a symbol that they are graduating
-    and moving forward towards a brighter future.    "
-  fastFact1Number: 70%
-  fastFact1Text: Youth in the juvenile justice system with at least one mental health
-    condition
-  fastFact2Number: '156'
-  fastFact2Text: Youth benefit annually from Aspiranet residential services
-  fastFact3Number: 3,500+
-  fastFact3Text: Residential youth served since 1987
-  howYouCanHelpCopy: Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home?
-- sys:
-    id: 5B2oeqvKA8QciIA8gycoe8
-  title: 'Family & Community '
-  landingPageTextBlurb: 'We Believe: Families thrive when they have robust connections
-    and support in their lives.'
-  photoLanding:
-    title: 01 homepage hero img D9X9H flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
-  programColor: purple-dark
-  order: 2
-  subtitle: 'Strong foundations for healthy communities '
-  copyTop: "Aspiranet Family and Community programs prepare children for their futures,
-    strengthen life and parenting skills, and connect families with networks of support
-    in their community.  \n\nWe take a proactive, responsive, and forward-thinking
-    approach to the growing needs of the communities we serve.  We advocate with and
-    for our families to ensure the necessary resources are available for their success.
-    \ \n\nWe incorporate the Strengthening Families framework into our practices.
-    \ Research confirms that families who have knowledge of parenting and child development,
-    resilience, social and emotional skills, and social connections and support in
-    times of need are able to thrive as strong families.  \n"
-  photo:
-    title: 04 program hero img  e0IVu
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/10VLaDGYlGwko8qUg0Osu8/8a0ae5d8b8b46b9e50e3bb3b9c57764a/04_program_hero_img__e0IVu.jpg
-  pullQuote: '"Serving communities and families is why I get up in the morning and
-    what gives me incredible satisfaction.” <br/> — Kathryn Davies, Family and Community
-    Division Director'
-  copyRest: "We help families develop these skills resulting in increased family stability,
-    enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
-    community-based family resource centers offer individual family support, child
-    development courses, parenting education, school readiness programs, and more.
-    \ Our home-based visiting programs empower parents by helping them set and achieve
-    goals for themselves and their families.  \n\nAspiranet school-based programs
-    improve kindergarten through third grade literacy, and equip underserved, middle
-    and high school youth with the tech skills they need to be successful in today’s
-    global economy.\n\nWe know that healthy families build healthy communities.  Families
-    can count on us to support them when they most need help."
-  fastFact1Number: 1 in 4
-  fastFact1Text: California children live in poverty
-  fastFact2Number: '3,806'
-  fastFact2Text: Families and youth benefit annually from Aspiranet early intervention
-    and prevention services
-  fastFact3Number: '7,309'
-  fastFact3Text: Students reached through Aspiranet school-based programs
-  howYouCanHelpCopy: You can provide a child with the love and support to thrive.
-    Donate today!
-- sys:
-    id: 6gFvoAGrIckQwGoM8SAGqE
-  title: 'Foster and Adoptive Families '
-  landingPageTextBlurb: 'We Believe: Every child deserves to be loved and cared for
-    inside a stable, healthy family.'
-  photoLanding:
-    title: 04 program hero img  KAwSW flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
-  programColor: pink
-  order: 1
-  subtitle: Support for families, every step of the way
-  photo:
-    title: 04 program hero img  KAwSW flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
-  pullQuote: this content is in Foster and Adoptive Families page!
-  copyRest: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-    Cras dapibus.
-  fastFact1Number: '50,000'
-  fastFact1Text: Children in foster care in California
-  fastFact2Number: '727'
-  fastFact2Text: Youth reunited with their families or matched with foster families
-    annually through Aspiranet
-  fastFact3Number: '2,000'
-  fastFact3Text: Children transitioned from foster care to adoption, since 1999 by
-    Aspiranet
-  howYouCanHelpCopy: 'Thousands of children in California are in need of a forever
-    family. Can you offer a child a safe and loving home? '
-  howYouCanHelpCta: I'd like to provide a home for a child
 blogCategory:
 - sys:
     id: 5cOx39zkWcW0uGiEyGO8EA
