@@ -377,31 +377,299 @@ donatePage:
   textIcon2: Give children and families the resources they need to thrive.
   textIcon3: Empower children and families to succeed at home, school and in their
     communities.
-programLocation:
+seniorExecutive:
 - sys:
-    id: 6tWW1VtQbuUse6UE6e6ss2
-  name: Delta First 5 Center
-  location:
-    lat: 37.9336284
-    lon: -121.69539359999999
-  addressAsText: 760 First Street, Brentwood, CA 94513
-  program:
-  - Delta First 5 Center
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  programAndAgeGroupAsText: "<strong><p>Delta First 5 Center </p></strong> \n<p>Education
-    and support services for families with young children ages 0-5.</p>"
-  phoneText: 925-516-3880
-  description: ' '
-  internalNotes: |-
-    Harmony House Receiving Center
-    Peter Maspaitella, Core Program Director
-    pmaspaitella@aspiranet.org
-    Lisolette Bouter, Core Program Supervisor
-    lbouter@aspiranet.org
+    id: 6fFIM4qSk0ak0KWaykO0eM
+  name: Holly Thauwald
+  desiredUrl: holly-thauwald
+  position: 'Chief Human Resources Officer '
+  photo:
+    title: picture placeholder
+    description: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 3
+  bio: "Holly earned a Master of Arts at the Monterey Institute of International Studies,
+    a Bachelor of Arts at Gustavus Adolphus College, and was certified as a Senior
+    Professional in Human Resources through the Society for Human Resource Management.
+    \  An accomplished Human Resources leader with more than 30 years’ experience
+    in training and employee development, she has served as an HR Director and corporate
+    Training Manager at both nonprofit and for-profit organizations, and worked as
+    an independent management consultant.\n\nHolly enjoys consulting with managers
+    on teambuilding, staff development, and performance management.  Attracted to
+    Aspiranet because she wanted to work for an agency with strong corporate values
+    that served children and the community, she joined the senior leadership team
+    in 2007.  In 2016, she was nominated as a finalist for the annual CHRO of the
+    Year award at the HRO Today International Conference.  \n\n“What I like best about
+    working at Aspiranet is our staff and their dedication to the agency vision and
+    values.  While each of the Aspiranet core values resonates with me, respect is
+    most important in building effective teams that value the diverse strengths and
+    perspectives of our incredibly talented and committed staff.”\n"
+- sys:
+    id: 3dwBEDB848aSEmaYK0SyAm
+  name: Jeannie Imelio
+  desiredUrl: jeannie-imelio
+  position: 'Chief Operating Officer / Foster and Adoptive Families,  Residential,
+    and Transitional Aged Youth Services '
+  photo:
+    title: picture placeholder
+    description: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 4
+  bio: "Jeannie earned a Bachelor of Arts in Sociology with a Minor in Psychology
+    from CSU Stanislaus and pursued graduate studies in Counseling Psychology at California
+    State University Stanislaus.  She was attracted to Aspiranet because of the opportunity
+    to provide individualized services and make a positive difference in the lives
+    of at-risk youth and families.   Aspiranet offered a work environment that recognized
+    individual strengths, supported professional growth and promoted creativity, all
+    within a small team environment.  \n\nSince joining Aspiranet in 1987, Jeannie
+    has worked in various roles within the agency.  Most of her career has been spent
+    in program development, including the Intensive Treatment Foster Care Program,
+    Therapeutic Behavioral Services, Transitional Aged Youth Services, and Wraparound
+    Services.  In recent years she has had the pleasure of serving on various statewide
+    implementation and advocacy work groups associated with Continuum of Care Reform
+    and Transitional Age Youth Services.\n\n“Aspiranet is a fulfilling work environment
+    where I am appreciated as an individual, able to balance work and family, and
+    am supported in developing creative solutions that result in positive outcomes
+    for our families.  Hope supports everything we want to achieve at Aspiranet, and
+    is what we want our staff and those we serve to see, feel, hear, touch, and move
+    forward with daily.”\n"
+- sys:
+    id: 1Nlzc3r93igA4kKoqsMWiu
+  name: Vernon Brown
+  desiredUrl: vernon-brown
+  position: Chief Executive Officer
+  photo:
+    title: picture placeholder
+    description: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 1
+  bio: "Vernon earned a Masters of Public Administration at Golden Gate University,
+    as well as a Bachelor of Arts in Psychology and History at the University of Colorado,
+    and a fifth year secondary teaching credential from the School of Education.  His
+    interest in human services was ignited while serving on Boulder County’s Youth
+    Service Bureau Board of Directors in the mid-1970’s – a Board comprised of representatives
+    from a full spectrum of human service agencies in order to create a new system
+    of juvenile justice service and intervention.  Also, his teaching of high school
+    sparked a lifelong commitment to serve all students in their journey to achieve
+    their greatest potential.  \n\nVernon joined Aspiranet in 1978 and has played
+    a variety of roles during his nearly four decades at the agency, including group
+    home parent, social worker, programs Executive Director, and serving as CEO since
+    1999.  In addition, he has represented children and youth service associations
+    and advocacy groups on a number of national, state and local boards, and is co-founder
+    of Stewards of Change, a national interdisciplinary think tank that proposes strategies
+    and solutions for the most pressing health and human services challenges.\n\n“It
+    has been a privilege and an honor to serve with so many talented and exceptionally
+    dedicated staff and volunteers during my career.  Central to all that we do at
+    Aspiranet is our vision that all children should be loved and cared for.  The
+    compassion and tenderness with which we translate this vision into action on a
+    daily basis delivers on our hope that the future will be a better place for the
+    children and families that we serve.”\n\n"
+- sys:
+    id: 2bapNK1zLKEIQo6gqomyIG
+  name: John Reiber
+  desiredUrl: john-reiber
+  position: Chief Financial Officer
+  photo:
+    title: picture placeholder
+    description: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 2
+  bio: "John has more than twenty-five years of healthcare and social services experience,
+    and has spent the majority of his career as a senior finance executive in large
+    nonprofit hospitals throughout California.  He earned a Master’s degree in Business
+    Administration from University of California, Riverside, a Master of Arts degree
+    from Andrews University, and a Bachelor of Arts degree from Walla Walla College.
+    \ \n\nPrior to joining the Aspiranet senior leadership team in 2010, John assisted
+    a variety of organizations in implementing work redesign and process improvements
+    that achieved significant savings.  He was drawn to Aspiranet because he wanted
+    to use his finance skills to help the agency expand its capacity to serve more
+    at-risk youth and families, while maintaining its financial viability.  John enjoys
+    the challenges of fund accounting, and balancing the economic wellbeing of agency
+    with the need to invest in program expansion. \n \n“The Aspiranet core value that
+    speaks most strongly to me is hope.  Hope allows us to envision what the possibilities
+    are along with the feeling that things will turn out for the best. It is one of
+    the unique characteristics of humanity.”  \n\n\n"
+- sys:
+    id: 3iPdzRiItOgCeMkcmgG4YE
+  name: Laureen Walsh
+  desiredUrl: laureen-walsh
+  position: Chief Operating Officer / Behavioral Health, Intensive Home-Based Services,
+    and Family and Community
+  photo:
+    title: picture placeholder
+    description: picture placeholder
+    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+  order: 5
+  bio: "Sparked by a curiosity in social institutions and a passion for social justice,
+    Laureen earned a Bachelor of Arts Degree in Sociology from the University of California
+    Santa Barbara, a Master’s Degree in Educational Psychology, with an emphasis in
+    counseling and guidance, at California State University of Northridge, and then
+    became a Licensed Marriage Family Therapist.  Each reinforced her desire to support
+    the health and resiliency of two foundational institutions – families and communities.\n\nLaureen
+    joined Aspiranet in 1996 and has served in a variety of roles over the past 20
+    years, including Ventura District Director, Bay Coastal Regional Director, Executive
+    Director, and now Chief Operating Officer.  She was attracted to Aspiranet by
+    its statewide reach and diversity of services, its commitment to quality service
+    provision, and its forward-thinking leadership.  What she appreciates most about
+    working at Aspiranet is collectively living out the organizational vision alongside
+    dedicated staff and courageous families.  \n\n“The choice of hope as an organizational
+    core value communicates clearly that we work from a place of faith in our clients,
+    staff and our community.  Working from a place of possibilities inherently says
+    we respect our client’s abilities to grow and their courage to do what is needed
+    to improve their lives.”\n\n"
+rootWebsite:
+- sys:
+    id: 2ffm5MoVtiUYoSWiqwUGgI
+  homepageVisionText: We envision a world in which all children and youth are loved
+    and cared for and all families have the resources to thrive.
+  homepageStat1Number: '35,000'
+  homepageStat1Text: Children, youth and parents served each year
+  homepageStat2Number: '39'
+  homepageStat2Text: California counties served
+  homepageStat3Number: '40'
+  homepageStat3Text: Years providing families with a foundation of support
+  homepageStat4Number: 2.25M
+  homepageStat4Text: California children living in poverty
+  homepageStatsHeroImage:
+    title: 01-Homepage-hero-img-2-v3
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3XEbd8Qx4IaikucoGMo82c/ec039d992a558c35e5ef84a442b799d7/01-Homepage-hero-img-2-v3.jpg
+  homepageCareerText: "<h4 class=\"round\">Rewarding work that helps children and
+    families thrive.</h4>\n\n##### At Aspiranet we’re committed to strengthening families.
+    \ We know we can’t do this purpose-driven work alone.    We need talented and
+    committed people, like you, to bring our mission home.   \n"
+  adoptionCtaHeroImage:
+    title: 01 homepage img v1 2
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3cREsM9ELuICEugU2AWuOE/a1f6e009cdacdd5955bd0d087f092642/01_homepage_img_v1_2.jpg
+  homepageFosterText: "### Raise a bright future.\n\n##### We connect children, youth
+    and young adults to safe, caring relationships that can last a lifetime.  "
+  footerSignupText: |+
+    ### Sign up for updates
+
+    Sign up for Aspiranet updates and stories of our courageous families.
+
+  ourApproachHeroImage:
+    title: 01-Homepage-img-v2-3
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/6x25Xi6Nd6WSQUQe4e0Q2E/6debeca5f0daaf7cc827253bd4c5b06d/01-Homepage-img-v2-3.jpg
+  ourApproachHeaderText: |-
+    # Our Approach
+
+    #### Our services work together so children thrive, families are empowered, and communities are strengthened.
+  ourApproachProgramText: |-
+    <h4 class="round no-margin-top">Our work centers on supporting children, youth and families to reach their full potential.</h4>
+
+    #### Aspiranet offers a unique breadth and depth of services for children and youth from birth through adulthood. We take a proactive, responsive and forward-thinking approach to the growing needs of the communities&nbsp;we serve.
+  ourApproachTogetherText: |-
+    <h3 class="no-margin-top">Together we can make a difference.</h3>
+
+    #### Our organizational culture is defined by the values of respect, integrity, courage and hope. Our staff know they are better together, which is why our teams join forces to offer outstanding care and attention to children and families. We need talented and committed people, like you, to bring our mission home.
+  ourApproachProgramFinder: "### We are there for children and families across California.\n\n####
+    Our size and scope allow us to touch the lives of thousands of families and our
+    focus is always on offering outststanding and personalized care. We collaborate
+    with a statewide network of government and county partners to ensure that families
+    are equipped to navigate life's ups and downs and to find pathways to success,
+    however they define it. "
+  programLandingHeader: |-
+    # Our Programs
+
+    #### Our programs and services intersect to support families every step of the way.
+  programLandingContactUs: |-
+    <h4 class="round">Connect with us! Learn more about our work with thousands of children and families throughout California.</h4>
+
+    Aspiranet provides families facing emotional and behavioral challenges with an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
+  aboutHeroImage:
+    title: 06 about hero img 1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/24ng9Te3TuQgYioWOCoSOQ/c0d5c5b7f72134d5ed4942f4baedbacd/06_about_hero_img_1.jpg
+  aboutHeaderText: |-
+    # About Aspiranet
+
+    #### Founded in 1975, Aspiranet is dedicated to offering outstanding services that impact more than 35,000 children, youth and parents annually at 33 community-based sites statewide.
+  aboutHeader: '#### Aspiranet offers a unique blend of services including foster
+    family support, adoption through foster care, services for foster youth transitioning
+    to adulthood, mental health services, residential care, intensive home-based care,
+    and community-based family resources.'
+  aboutVision: "# Our Vision\n\n#### Aspiranet envisions a world in which all children
+    and youth are loved and cared for and all families have the resources to thrive.
+    \ \n"
+  aboutVideoUrl: https://www.youtube.com/embed/Olk3MSiNBjk
+  aboutOurMissionImage:
+    title: 06-about-img-v1-2-V2
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/4vnRciwBywAuUGaieQkoCq/29c5967661f9ea00e7f5cf65abd9ea8b/06-about-img-v1-2-V2.jpg
+  aboutMission: "# Our Mission\n\n#### To provide children, youth and families with
+    a foundation of support and services so they can succeed at home, school and in
+    their communities. "
+  aboutValuesRespect: 'We approach our work with humility, honoring the experience,
+    talents and perspectives of our families.  We build on strengths and support them
+    in achieving their vision of success. '
+  aboutValueCourage: 'We strive to meet the needs of those in our care, embracing
+    challenges, taking risks, and learning from setbacks.  We are steadfast in staying
+    the course in support of our families.  '
+  aboutValueIntegrity: We are trustworthy and reliable. Our actions are motivated
+    by an unwavering desire to do what’s best on behalf of our families.
+  aboutValueHope: We are aspirational in setting ambitious yet achievable goals with
+    our families, creating empowering solutions side by side, during challenging circumstances.
+  careersHeroImage:
+    title: careers
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/SnzuSaj4GWow68G88MKwc/b0b3ce5ea738cb59506cff2b6cb2cdb8/careers.jpg
+  careersHeader: "### Together We Can Make a Difference \n\n#### Our organizational
+    culture is defined by the values of respect, integrity, courage and hope.  We
+    offer an excellent work environment and competitive benefits.  More than that,
+    we offer the opportunity to live your purpose and work from a place of deep meaning
+    and impact. \n\n \n"
+  careersSubheader: "### Rewarding work that helps children and families thrive\n\n####
+    At Aspiranet we’re committed to strengthening families. We know we can’t do this
+    purpose-driven work alone. We need talented and committed people, like you, to
+    bring our mission home.  \n"
+  careerVideoUrl: https://www.youtube.com/embed/-XWfDeP_EOs
+  careersBlock1: "<h4 class=\"round\">Work with amazing people</h4>\nA highly skilled
+    and passionate staff fuels our organization.  \n"
+  careersBlock2: "<h4 class=\"round\">Advance your career</h4>\nWe provide promotional
+    opportunities for staff to take on leadership roles and expand into new program
+    areas.  \n"
+  careersBlock3: |
+    <h4 class="round">Develop your skills</h4>
+    We invest in staff training and learning, and provide ongoing opportunities to gain skills, knowledge and tools.
+  careersBlock4: "<h4 class=\"round\">Love what you do</h4>\nMake a difference in
+    the lives of families and children.    \n"
+  careersBlock5: |
+    <h4 class="round">Get great benefits</h4>
+    We offer a comprehensive benefits program for staff which includes Agency-sponsored medical, dental, vision, retirement plan, vacation, sick and holiday plan, and a full array of voluntary benefits.
+  careersBlock6: "<h4 class=\"round\">Make an impact</h4>\nOur diversity of programs
+    and locations provides you with the opportunity to connect with individual clients
+    while also impacting services to children and families across California.  \n"
+  contactAddress: |-
+    400 Oyster Point Blvd.
+    #501
+    South San Francisco, CA 94080
+  contactPhoneNumber: <a href="tel:650-866-4080">650-866-4080</a>
+  hipaaPrivacyNotice: |-
+    ### Notice of HIPAA Privacy Practices
+
+    All Aspiranet programs are committed to protecting the privacy of your medical information. We are required by law to maintain the confidentiality of information that identifies you and the care you receive.
+
+    [Click here](http://aspira-web.s3.amazonaws.com/wp-content/uploads/2013/03/HIPAA-Policy-for-Website.pdf) to read the complete Notice of HIPAA Privacy Practices.
+
+    __Questions or Comments__
+
+    To exercise any of your rights, or if you have any questions or complaints about your privacy, contact the Site Manager of the Aspiranet program where you are receiving services, or call or write us at:
+
+    Privacy Officer<br/>
+    Aspiranet<br/>
+    400 Oyster Point Blvd.
+    Suite 501<br/>
+    South San Francisco, CA 94080<br/>
+    Phone: (650) 866-4080
+  privacyPolicy: |-
+    ### Privacy policy
+
+    © Copyright 1997 to 2017. This information is intended only for the use of an individual for whom it has been determined that there is a need to know; such individual provides continuity of treatment, services, payment, or operations. This information is considered privileged, confidential, and prohibited from disclosure under Federal and State law.  You are hereby notified that any dissemination, distribution, or copying of this information must be in strict compliance with all Federal and State confidentiality requirements.
+  findAProgramPageTitle: Find a Program or Service
+programLocation:
 - sys:
     id: 1F9o7GdD1mc2gGQiEm8OSK
   name: Sacramento
@@ -660,6 +928,40 @@ programLocation:
     Therapeutic Behavioral Services, Crisis Stabilization
     Courtney Gibbs, Core Program Director
     cgibbs@aspiranet.org
+- sys:
+    id: 1jMTJaRPi6cOq2O6qkseAg
+  name: 'Turlock Behavioral Health '
+  location:
+    lat: 37.4999876
+    lon: -120.84390020000001
+  addressAsText: 420 East Canal Drive, Turlock, CA 95380, USA
+  program:
+  - Outpatient Therapy
+  - School-Based Risk Assessment and Therapy
+  - Therapeutic Behavioral Services
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient
+    Therapy at home, school and community-based sites, including crisis intervention,
+    individual and group therapy, case management and medication.</p>  \n\n<strong><p>School-Based
+    Risk Assessment and Therapy</p></strong> \n<p>School-based safety assessments
+    and counseling services for students at risk of being a danger to self or others.</p>\n\n<strong><p>Therapeutic
+    Behavioral Services</p></strong> \n<p>Therapeutic Behavioral Services for children
+    and youth at risk of high level placement such as group home, juvenile hall, or
+    hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient
+    services.</p>  \n\n"
+  phoneText: 209-669-2583
+  description: ' '
+  internalNotes: |-
+    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
+    Shelley Southern, Core Program Director
+    ssouthern@aspiranet.org
+    Jessica Lunt, Core Program Manager
+    jlunt@aspiranet.org
 - sys:
     id: 3n4j16h7mo0mIaoEUucu0i
   name: Palmdale Intensive Home-Based Services
@@ -1349,40 +1651,6 @@ programLocation:
     Kathy Steele, Core Program Supervisor
     ksteele@aspiranet.org
 - sys:
-    id: 1jMTJaRPi6cOq2O6qkseAg
-  name: 'Turlock Behavioral Health '
-  location:
-    lat: 37.4999876
-    lon: -120.84390020000001
-  addressAsText: 420 East Canal Drive, Turlock, CA 95380, USA
-  program:
-  - Outpatient Therapy
-  - School-Based Risk Assessment and Therapy
-  - Therapeutic Behavioral Services
-  ageLevel:
-  - 0-5
-  - 6-10
-  - 11-14
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>Outpatient Therapy</p></strong> \n<p>Outpatient
-    Therapy at home, school and community-based sites, including crisis intervention,
-    individual and group therapy, case management and medication.</p>  \n\n<strong><p>School-Based
-    Risk Assessments and Therapy</p></strong> \n<p>School-based safety assessments
-    and counseling services for students at risk of being a danger to self or others.</p>\n\n<strong><p>Therapeutic
-    Behavioral Services</p></strong> \n<p>Therapeutic Behavioral Services for children
-    and youth at risk of high level placement such as group home, juvenile hall, or
-    hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient
-    services.</p>  \n\n"
-  phoneText: 209-669-2583
-  description: ' '
-  internalNotes: |-
-    Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
-    Shelley Southern, Core Program Director
-    ssouthern@aspiranet.org
-    Jessica Lunt, Core Program Manager
-    jlunt@aspiranet.org
-- sys:
     id: 1kOrUn8okMIO4cKaQCkmoS
   name: Harmony House Receiving Center
   location:
@@ -1815,298 +2083,30 @@ programLocation:
     Transitional Housing Placement + Foster Care
     Tracy Rolfe, Core Program Director
     trolfe@aspiranet.org
-seniorExecutive:
 - sys:
-    id: 6fFIM4qSk0ak0KWaykO0eM
-  name: Holly Thauwald
-  desiredUrl: holly-thauwald
-  position: 'Chief Human Resources Officer '
-  photo:
-    title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 3
-  bio: "Holly earned a Master of Arts at the Monterey Institute of International Studies,
-    a Bachelor of Arts at Gustavus Adolphus College, and was certified as a Senior
-    Professional in Human Resources through the Society for Human Resource Management.
-    \  An accomplished Human Resources leader with more than 30 years’ experience
-    in training and employee development, she has served as an HR Director and corporate
-    Training Manager at both nonprofit and for-profit organizations, and worked as
-    an independent management consultant.\n\nHolly enjoys consulting with managers
-    on teambuilding, staff development, and performance management.  Attracted to
-    Aspiranet because she wanted to work for an agency with strong corporate values
-    that served children and the community, she joined the senior leadership team
-    in 2007.  In 2016, she was nominated as a finalist for the annual CHRO of the
-    Year award at the HRO Today International Conference.  \n\n“What I like best about
-    working at Aspiranet is our staff and their dedication to the agency vision and
-    values.  While each of the Aspiranet core values resonates with me, respect is
-    most important in building effective teams that value the diverse strengths and
-    perspectives of our incredibly talented and committed staff.”\n"
-- sys:
-    id: 3dwBEDB848aSEmaYK0SyAm
-  name: Jeannie Imelio
-  desiredUrl: jeannie-imelio
-  position: 'Chief Operating Officer / Foster and Adoptive Families,  Residential,
-    and Transitional Aged Youth Services '
-  photo:
-    title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 4
-  bio: "Jeannie earned a Bachelor of Arts in Sociology with a Minor in Psychology
-    from CSU Stanislaus and pursued graduate studies in Counseling Psychology at California
-    State University Stanislaus.  She was attracted to Aspiranet because of the opportunity
-    to provide individualized services and make a positive difference in the lives
-    of at-risk youth and families.   Aspiranet offered a work environment that recognized
-    individual strengths, supported professional growth and promoted creativity, all
-    within a small team environment.  \n\nSince joining Aspiranet in 1987, Jeannie
-    has worked in various roles within the agency.  Most of her career has been spent
-    in program development, including the Intensive Treatment Foster Care Program,
-    Therapeutic Behavioral Services, Transitional Aged Youth Services, and Wraparound
-    Services.  In recent years she has had the pleasure of serving on various statewide
-    implementation and advocacy work groups associated with Continuum of Care Reform
-    and Transitional Age Youth Services.\n\n“Aspiranet is a fulfilling work environment
-    where I am appreciated as an individual, able to balance work and family, and
-    am supported in developing creative solutions that result in positive outcomes
-    for our families.  Hope supports everything we want to achieve at Aspiranet, and
-    is what we want our staff and those we serve to see, feel, hear, touch, and move
-    forward with daily.”\n"
-- sys:
-    id: 1Nlzc3r93igA4kKoqsMWiu
-  name: Vernon Brown
-  desiredUrl: vernon-brown
-  position: Chief Executive Officer
-  photo:
-    title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 1
-  bio: "Vernon earned a Masters of Public Administration at Golden Gate University,
-    as well as a Bachelor of Arts in Psychology and History at the University of Colorado,
-    and a fifth year secondary teaching credential from the School of Education.  His
-    interest in human services was ignited while serving on Boulder County’s Youth
-    Service Bureau Board of Directors in the mid-1970’s – a Board comprised of representatives
-    from a full spectrum of human service agencies in order to create a new system
-    of juvenile justice service and intervention.  Also, his teaching of high school
-    sparked a lifelong commitment to serve all students in their journey to achieve
-    their greatest potential.  \n\nVernon joined Aspiranet in 1978 and has played
-    a variety of roles during his nearly four decades at the agency, including group
-    home parent, social worker, programs Executive Director, and serving as CEO since
-    1999.  In addition, he has represented children and youth service associations
-    and advocacy groups on a number of national, state and local boards, and is co-founder
-    of Stewards of Change, a national interdisciplinary think tank that proposes strategies
-    and solutions for the most pressing health and human services challenges.\n\n“It
-    has been a privilege and an honor to serve with so many talented and exceptionally
-    dedicated staff and volunteers during my career.  Central to all that we do at
-    Aspiranet is our vision that all children should be loved and cared for.  The
-    compassion and tenderness with which we translate this vision into action on a
-    daily basis delivers on our hope that the future will be a better place for the
-    children and families that we serve.”\n\n"
-- sys:
-    id: 2bapNK1zLKEIQo6gqomyIG
-  name: John Reiber
-  desiredUrl: john-reiber
-  position: Chief Financial Officer
-  photo:
-    title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 2
-  bio: "John has more than twenty-five years of healthcare and social services experience,
-    and has spent the majority of his career as a senior finance executive in large
-    nonprofit hospitals throughout California.  He earned a Master’s degree in Business
-    Administration from University of California, Riverside, a Master of Arts degree
-    from Andrews University, and a Bachelor of Arts degree from Walla Walla College.
-    \ \n\nPrior to joining the Aspiranet senior leadership team in 2010, John assisted
-    a variety of organizations in implementing work redesign and process improvements
-    that achieved significant savings.  He was drawn to Aspiranet because he wanted
-    to use his finance skills to help the agency expand its capacity to serve more
-    at-risk youth and families, while maintaining its financial viability.  John enjoys
-    the challenges of fund accounting, and balancing the economic wellbeing of agency
-    with the need to invest in program expansion. \n \n“The Aspiranet core value that
-    speaks most strongly to me is hope.  Hope allows us to envision what the possibilities
-    are along with the feeling that things will turn out for the best. It is one of
-    the unique characteristics of humanity.”  \n\n\n"
-- sys:
-    id: 3iPdzRiItOgCeMkcmgG4YE
-  name: Laureen Walsh
-  desiredUrl: laureen-walsh
-  position: Chief Operating Officer / Behavioral Health, Intensive Home-Based Services,
-    and Family and Community
-  photo:
-    title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
-  order: 5
-  bio: "Sparked by a curiosity in social institutions and a passion for social justice,
-    Laureen earned a Bachelor of Arts Degree in Sociology from the University of California
-    Santa Barbara, a Master’s Degree in Educational Psychology, with an emphasis in
-    counseling and guidance, at California State University of Northridge, and then
-    became a Licensed Marriage Family Therapist.  Each reinforced her desire to support
-    the health and resiliency of two foundational institutions – families and communities.\n\nLaureen
-    joined Aspiranet in 1996 and has served in a variety of roles over the past 20
-    years, including Ventura District Director, Bay Coastal Regional Director, Executive
-    Director, and now Chief Operating Officer.  She was attracted to Aspiranet by
-    its statewide reach and diversity of services, its commitment to quality service
-    provision, and its forward-thinking leadership.  What she appreciates most about
-    working at Aspiranet is collectively living out the organizational vision alongside
-    dedicated staff and courageous families.  \n\n“The choice of hope as an organizational
-    core value communicates clearly that we work from a place of faith in our clients,
-    staff and our community.  Working from a place of possibilities inherently says
-    we respect our client’s abilities to grow and their courage to do what is needed
-    to improve their lives.”\n\n"
-rootWebsite:
-- sys:
-    id: 2ffm5MoVtiUYoSWiqwUGgI
-  homepageVisionText: We envision a world in which all children and youth are loved
-    and cared for and all families have the resources to thrive.
-  homepageStat1Number: '35,000'
-  homepageStat1Text: Children, youth and parents served each year
-  homepageStat2Number: '39'
-  homepageStat2Text: California counties served
-  homepageStat3Number: '40'
-  homepageStat3Text: Years providing families with a foundation of support
-  homepageStat4Number: 2.25M
-  homepageStat4Text: California children living in poverty
-  homepageStatsHeroImage:
-    title: 01-Homepage-hero-img-2-v3
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3XEbd8Qx4IaikucoGMo82c/ec039d992a558c35e5ef84a442b799d7/01-Homepage-hero-img-2-v3.jpg
-  homepageCareerText: "<h4 class=\"round\">Rewarding work that helps children and
-    families thrive.</h4>\n\n##### At Aspiranet we’re committed to strengthening families.
-    \ We know we can’t do this purpose-driven work alone.    We need talented and
-    committed people, like you, to bring our mission home.   \n"
-  adoptionCtaHeroImage:
-    title: 01 homepage img v1 2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3cREsM9ELuICEugU2AWuOE/a1f6e009cdacdd5955bd0d087f092642/01_homepage_img_v1_2.jpg
-  homepageFosterText: "### Raise a bright future.\n\n##### We connect children, youth
-    and young adults to safe, caring relationships that can last a lifetime.  "
-  footerSignupText: |+
-    ### Sign up for updates
-
-    Sign up for Aspiranet updates and stories of our courageous families.
-
-  ourApproachHeroImage:
-    title: 01-Homepage-img-v2-3
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/6x25Xi6Nd6WSQUQe4e0Q2E/6debeca5f0daaf7cc827253bd4c5b06d/01-Homepage-img-v2-3.jpg
-  ourApproachHeaderText: |-
-    # Our Approach
-
-    #### Our services work together so children thrive, families are empowered, and communities are strengthened.
-  ourApproachProgramText: |-
-    <h4 class="round no-margin-top">Our work centers on supporting children, youth and families to reach their full potential.</h4>
-
-    #### Aspiranet offers a unique breadth and depth of services for children and youth from birth through adulthood. We take a proactive, responsive and forward-thinking approach to the growing needs of the communities&nbsp;we serve.
-  ourApproachTogetherText: |-
-    <h3 class="no-margin-top">Together we can make a difference.</h3>
-
-    #### Our organizational culture is defined by the values of respect, integrity, courage and hope. Our staff know they are better together, which is why our teams join forces to offer outstanding care and attention to children and families. We need talented and committed people, like you, to bring our mission home.
-  ourApproachProgramFinder: "### We are there for children and families across California.\n\n####
-    Our size and scope allow us to touch the lives of thousands of families and our
-    focus is always on offering outststanding and personalized care. We collaborate
-    with a statewide network of government and county partners to ensure that families
-    are equipped to navigate life's ups and downs and to find pathways to success,
-    however they define it. "
-  programLandingHeader: |-
-    # Our Programs
-
-    #### Our programs and services intersect to support families every step of the way.
-  programLandingContactUs: |-
-    <h4 class="round">Connect with us! Learn more about our work with thousands of children and families throughout California.</h4>
-
-    Aspiranet provides families facing emotional and behavioral challenges with an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
-  aboutHeroImage:
-    title: 06 about hero img 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/24ng9Te3TuQgYioWOCoSOQ/c0d5c5b7f72134d5ed4942f4baedbacd/06_about_hero_img_1.jpg
-  aboutHeaderText: |-
-    # About Aspiranet
-
-    #### Founded in 1975, Aspiranet is dedicated to offering outstanding services that impact more than 35,000 children, youth and parents annually at 33 community-based sites statewide.
-  aboutHeader: '#### Aspiranet offers a unique blend of services including foster
-    family support, adoption through foster care, services for foster youth transitioning
-    to adulthood, mental health services, residential care, intensive home-based care,
-    and community-based family resources.'
-  aboutVision: "# Our Vision\n\n#### Aspiranet envisions a world in which all children
-    and youth are loved and cared for and all families have the resources to thrive.
-    \ \n"
-  aboutVideoUrl: https://www.youtube.com/embed/Olk3MSiNBjk
-  aboutOurMissionImage:
-    title: 06-about-img-v1-2-V2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4vnRciwBywAuUGaieQkoCq/29c5967661f9ea00e7f5cf65abd9ea8b/06-about-img-v1-2-V2.jpg
-  aboutMission: "# Our Mission\n\n#### To provide children, youth and families with
-    a foundation of support and services so they can succeed at home, school and in
-    their communities. "
-  aboutValuesRespect: 'We approach our work with humility, honoring the experience,
-    talents and perspectives of our families.  We build on strengths and support them
-    in achieving their vision of success. '
-  aboutValueCourage: 'We strive to meet the needs of those in our care, embracing
-    challenges, taking risks, and learning from setbacks.  We are steadfast in staying
-    the course in support of our families.  '
-  aboutValueIntegrity: We are trustworthy and reliable. Our actions are motivated
-    by an unwavering desire to do what’s best on behalf of our families.
-  aboutValueHope: We are aspirational in setting ambitious yet achievable goals with
-    our families, creating empowering solutions side by side, during challenging circumstances.
-  careersHeroImage:
-    title: careers
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/SnzuSaj4GWow68G88MKwc/b0b3ce5ea738cb59506cff2b6cb2cdb8/careers.jpg
-  careersHeader: "### Together We Can Make a Difference \n\n#### Our organizational
-    culture is defined by the values of respect, integrity, courage and hope.  We
-    offer an excellent work environment and competitive benefits.  More than that,
-    we offer the opportunity to live your purpose and work from a place of deep meaning
-    and impact. \n\n \n"
-  careersSubheader: "### Rewarding work that helps children and families thrive\n\n####
-    At Aspiranet we’re committed to strengthening families. We know we can’t do this
-    purpose-driven work alone. We need talented and committed people, like you, to
-    bring our mission home.  \n"
-  careerVideoUrl: https://www.youtube.com/embed/-XWfDeP_EOs
-  careersBlock1: "<h4 class=\"round\">Work with amazing people</h4>\nA highly skilled
-    and passionate staff fuels our organization.  \n"
-  careersBlock2: "<h4 class=\"round\">Advance your career</h4>\nWe provide promotional
-    opportunities for staff to take on leadership roles and expand into new program
-    areas.  \n"
-  careersBlock3: |
-    <h4 class="round">Develop your skills</h4>
-    We invest in staff training and learning, and provide ongoing opportunities to gain skills, knowledge and tools.
-  careersBlock4: "<h4 class=\"round\">Love what you do</h4>\nMake a difference in
-    the lives of families and children.    \n"
-  careersBlock5: |
-    <h4 class="round">Get great benefits</h4>
-    We offer a comprehensive benefits program for staff which includes Agency-sponsored medical, dental, vision, retirement plan, vacation, sick and holiday plan, and a full array of voluntary benefits.
-  careersBlock6: "<h4 class=\"round\">Make an impact</h4>\nOur diversity of programs
-    and locations provides you with the opportunity to connect with individual clients
-    while also impacting services to children and families across California.  \n"
-  contactAddress: |-
-    400 Oyster Point Blvd.
-    #501
-    South San Francisco, CA 94080
-  contactPhoneNumber: <a href="tel:650-866-4080">650-866-4080</a>
-  hipaaPrivacyNotice: |-
-    ### Notice of HIPAA Privacy Practices
-
-    All Aspiranet programs are committed to protecting the privacy of your medical information. We are required by law to maintain the confidentiality of information that identifies you and the care you receive.
-
-    [Click here](http://aspira-web.s3.amazonaws.com/wp-content/uploads/2013/03/HIPAA-Policy-for-Website.pdf) to read the complete Notice of HIPAA Privacy Practices.
-
-    __Questions or Comments__
-
-    To exercise any of your rights, or if you have any questions or complaints about your privacy, contact the Site Manager of the Aspiranet program where you are receiving services, or call or write us at:
-
-    Privacy Officer<br/>
-    Aspiranet<br/>
-    400 Oyster Point Blvd.
-    Suite 501<br/>
-    South San Francisco, CA 94080<br/>
-    Phone: (650) 866-4080
-  privacyPolicy: |-
-    ### Privacy policy
-
-    © Copyright 1997 to 2017. This information is intended only for the use of an individual for whom it has been determined that there is a need to know; such individual provides continuity of treatment, services, payment, or operations. This information is considered privileged, confidential, and prohibited from disclosure under Federal and State law.  You are hereby notified that any dissemination, distribution, or copying of this information must be in strict compliance with all Federal and State confidentiality requirements.
-  findAProgramPageTitle: Find a Program or Service
+    id: 6tWW1VtQbuUse6UE6e6ss2
+  name: Delta First 5 Center
+  location:
+    lat: 37.9336284
+    lon: -121.69539359999999
+  addressAsText: 760 First Street, Brentwood, CA 94513
+  program:
+  - Delta First 5 Center
+  ageLevel:
+  - 0-5
+  - 6-10
+  - 11-14
+  - 15-19
+  programAndAgeGroupAsText: "<strong><p>Delta First 5 Center </p></strong> \n<p>Education
+    and support services for families with young children ages 0-5.</p>"
+  phoneText: 925-516-3880
+  description: ' '
+  internalNotes: |-
+    Harmony House Receiving Center
+    Peter Maspaitella, Core Program Director
+    pmaspaitella@aspiranet.org
+    Lisolette Bouter, Core Program Supervisor
+    lbouter@aspiranet.org
 blogTag:
 - sys:
     id: 4FYoyfpg3u0K2Qu0qsOKgm
