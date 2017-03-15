@@ -48,12 +48,23 @@ MedicareDataSource.prototype.parse_ = function(json) {
     // features.add(this.FEATURES_.getById('Program-Residential'));
     var position = new google.maps.LatLng(item.fields.location.lat,
                                           item.fields.location.lon);
-  
+    var program_names = `&#8226; `;
+
+     // Add all programs
+    $.each(item.fields.program, function(i, el){
+      program_names += el;
+      if (i != item.fields.program.length-1) {
+        program_names += '<br/>&#8226; ';
+      }
+    });
 
     var store = new storeLocator.Store(item.sys.id, position, features, {
       title: item.fields.name,
       address: item.fields.addressAsText + `<br/>` + (item.fields.phoneText || '') + 
-        `<br/><br/><a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
+        `<br/><br/><div class="services">Services:<br/>` +
+          program_names +
+        `<br/><br/></div>
+        <a href="http://maps.google.com/?q=` + item.fields.addressAsText + `" target="_blank">` +
         `Directions</a>`,
       misc: `<strong>Available Services:</strong><br/>` + 
         marked(item.fields.programAndAgeGroupAsText || ''),
