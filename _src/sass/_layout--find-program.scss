@@ -153,6 +153,15 @@ p.attribution, p.attribution a { color: #666; }
   }
 }
 
+.store .address .services {
+  display: none;
+}
+
+.storelocator-panel .store .address .services {
+  display: block;
+}
+
+
 .storelocator-panel .store-list .no-stores {
   color: $grey-darkest;
 }
