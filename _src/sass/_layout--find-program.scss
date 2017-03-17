@@ -19,7 +19,7 @@
   }
 } 
 @media screen and #{$brk-narrow} {
-  #panel {
+  #panel { 
     width: 100%;
     float: none;
     height: 200px;
@@ -50,6 +50,12 @@
 #panel .feature-filter label { width: 130px; }
 p.attribution, p.attribution a { color: #666; }
 
+
+.direction-link a:hover {
+  color: $blue !important;
+  text-decoration: underline !important;
+
+}
 
 .storelocator-panel {
   border: 1px solid $grey-dark;
