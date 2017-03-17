@@ -31,7 +31,6 @@ $( document ).ready(function() {
     new storeLocator.Panel(panelDiv, {
       view: view
     });
-      console.log('maploaded');
 
   }
 
