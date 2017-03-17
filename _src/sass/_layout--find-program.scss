@@ -54,6 +54,17 @@ p.attribution, p.attribution a { color: #666; }
 .storelocator-panel {
   border: 1px solid $grey-dark;
   overflow: auto;
+  .direction-link {
+    display: none;
+  }
+  .locator-program-services-link {
+    color: #165376;
+    text-decoration: none;
+    font-family: "KlinicSlabLight",Times,serif;
+    font-weight: 400;
+    margin:0;
+    
+  }
 }
 .storelocator-panel .store-list {
   margin: 0;
