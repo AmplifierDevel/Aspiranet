@@ -4,7 +4,7 @@ $( document ).ready(function() {
 	var $homeSlider = $('.campaign-slider').slick({
 		arrows: true,
 		fade: true,
-		autoplay: true,
+		autoplay: true, 
 		autoplaySpeed: 9000, 
 		infinite: true,
 		speed: 500,
@@ -30,6 +30,9 @@ $( document ).ready(function() {
 	var splittedTweet = tweetURL.split('...');
 	if (splittedTweet[0]){		
 		$('.latest-tweet').html(splittedTweet[0] + '...');
+	} 
+	if (!splittedTweet[1]) {
+		$('.latest-tweet').html('Read on Twitter');
 	}
 });
 </script>

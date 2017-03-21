@@ -19,11 +19,11 @@
   }
 } 
 @media screen and #{$brk-narrow} {
-  #panel {
+  #panel { 
     width: 100%;
     float: none;
     height: 200px;
-    margin-top: 0px;
+    margin-top: 0px; 
   }
   #map-canvas {
     height: 300px;
@@ -51,9 +51,26 @@
 p.attribution, p.attribution a { color: #666; }
 
 
+.direction-link a:hover {
+  color: $blue !important;
+  text-decoration: underline !important;
+
+}
+
 .storelocator-panel {
   border: 1px solid $grey-dark;
   overflow: auto;
+  .direction-link {
+    display: none;
+  }
+  .locator-program-services-link {
+    color: #165376;
+    text-decoration: none;
+    font-family: "KlinicSlabLight",Times,serif;
+    font-weight: 400;
+    margin:0;
+    
+  }
 }
 .storelocator-panel .store-list {
   margin: 0;
@@ -77,6 +94,18 @@ p.attribution, p.attribution a { color: #666; }
 }
 .storelocator-panel .store-list li.store:hover {
   cursor: pointer;
+}
+.storelocator-panel div.store:hover {
+  @include transition(.2s);
+    background: $blue;
+    color: white;
+    .title, .address, .misc, .web {
+      color: white;
+    }
+    .web a, .action {
+      color: white;
+      text-decoration: underline;
+    }
 }
 .storelocator-panel .store-list li.highlighted,
 .storelocator-panel .store-list li.highlighted:hover {
@@ -140,6 +169,15 @@ p.attribution, p.attribution a { color: #666; }
     margin-top: 50px;
   }
 }
+
+.store .address .services {
+  display: none;
+}
+
+.storelocator-panel .store .address .services {
+  display: block;
+}
+
 
 .storelocator-panel .store-list .no-stores {
   color: $grey-darkest;
