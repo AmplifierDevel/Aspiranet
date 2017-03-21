@@ -1829,20 +1829,40 @@ programs:
   fastFact3Text: Residential youth served since 1987
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
-blogCategory:
-- sys:
-    id: 5cOx39zkWcW0uGiEyGO8EA
-  name: Hope
-- sys:
-    id: 6AVJUFl9zq640Em4soQooS
-  name: Respect
-- sys:
-    id: 7eFzmq5t6Mg2AosyUkkAgI
-  name: Integrity
-- sys:
-    id: 1TBUAtWXMk2gEqAmOOy4o0
-  name: Courage
 blogPost:
+- sys:
+    id: 4FPD0m40Gsc0uwmOoS6sQg
+  title: 'Aspiranet’s New Look '
+  url: aspiranet-new-look-for-the-new-year
+  featuredOnHomepage: false
+  featuredOnBlog: true
+  overlayOnFeaturedPost: left
+  heroImage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
+  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
+    day we’re thankful for the amazing children, youth and families that we reach
+    and for supporters like you who back our work.  For 2017, we thought it was vital
+    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
+    this website we hope to show our heart, determination, cares and dreams.  The
+    Aspiranet story develops every day as we strive to fulfill our mission, and it
+    lives in each interaction, each achievement, and each new learning.  It’s a testimony
+    to the strength of our families and the generosity of our supporters.  \n\nThank
+    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
 - sys:
     id: 2bXK2Ej2QQSs2qqkks8CYc
   title: Lasting Connections
@@ -2205,38 +2225,19 @@ blogPost:
   - sys:
       id: 2BVE03bDcA0WG6Caaqo0sm
     name: Family & Community
+blogCategory:
 - sys:
-    id: 4FPD0m40Gsc0uwmOoS6sQg
-  title: 'Aspiranet’s New Look '
-  url: aspiranet-new-look-for-the-new-year
-  featuredOnHomepage: false
-  featuredOnBlog: true
-  heroImage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
-  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
-    day we’re thankful for the amazing children, youth and families that we reach
-    and for supporters like you who back our work.  For 2017, we thought it was vital
-    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
-    this website we hope to show our heart, determination, cares and dreams.  The
-    Aspiranet story develops every day as we strive to fulfill our mission, and it
-    lives in each interaction, each achievement, and each new learning.  It’s a testimony
-    to the strength of our families and the generosity of our supporters.  \n\nThank
-    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
+    id: 5cOx39zkWcW0uGiEyGO8EA
+  name: Hope
+- sys:
+    id: 6AVJUFl9zq640Em4soQooS
+  name: Respect
+- sys:
+    id: 7eFzmq5t6Mg2AosyUkkAgI
+  name: Integrity
+- sys:
+    id: 1TBUAtWXMk2gEqAmOOy4o0
+  name: Courage
 thankYouPages:
 - sys:
     id: 47WM9LyTiwMOC6IkkCWMGw
