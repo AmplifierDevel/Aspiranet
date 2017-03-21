@@ -163,9 +163,7 @@
 #blog-post {
 	.hero-img {
 		background-position: top center;
-		@media screen and #{$brk-tablet-min} {
-			height: 350px;
-		}
+		height: 350px;
 	}
 	.blog-body {
 		h1, h2, h3, h4 {
