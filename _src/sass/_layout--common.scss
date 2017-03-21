@@ -18,7 +18,7 @@ ul li {
  		position: relative;
 	}
 }
- .img-overlay-left {
+.img-overlay-left {
  	&:before {
  		background-image: linear-gradient(-90deg, transparent 14%, rgba(0,0,0,0.2) 100%)
  	}

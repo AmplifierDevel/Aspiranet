@@ -2,7 +2,7 @@
 layout: default  
 --- 
 {% assign sorted_programs = site.data.contentful.spaces.proddata.programs | sort:"order" %}
-<section class="blue-marin program-item programs-sub center-vertical fadeInBlock">      
+<section class="img-settings hero-img program-item programs-sub center-vertical fadeInBlock" style="background-image: url('http://images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg');">      
 	<div class="grid text-center">  
 		<div class="col-1-2 center tablet-col-1-2 color-white">
 			{{ site.data.contentful.spaces.proddata.rootWebsite[0].programLandingHeader | markdownify }}
