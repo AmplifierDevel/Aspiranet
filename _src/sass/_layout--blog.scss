@@ -163,7 +163,15 @@
 #blog-post {
 	.hero-img {
 		background-position: top center;
-		height: 350px;
+		@media screen and (min-width: 1024px) {
+			height: 450px;
+		}
+		@media screen and #{$brk-wide} {
+			height: 400px;
+		} 
+		@media screen and #{$brk-narrow} {
+			height: 300px;
+		}
 	}
 	.blog-body {
 		h1, h2, h3, h4 {
