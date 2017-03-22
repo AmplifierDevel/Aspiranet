@@ -160,6 +160,9 @@
 }
 
 // Individual post 
+.best-to-their-child #blog-post .hero-img {
+	background-position-y: 100%;
+}
 #blog-post {
 	.hero-img {
 		background-position: 0% 31%;
