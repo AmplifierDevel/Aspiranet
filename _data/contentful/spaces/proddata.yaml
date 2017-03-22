@@ -4,8 +4,8 @@ programLocation:
     id: 1jMTJaRPi6cOq2O6qkseAg
   name: 'Turlock '
   location:
-    lat: 37.4999876
-    lon: -120.84390020000001
+    :lat: 37.4999876
+    :lon: -120.84390020000001
   addressAsText: 420 East Canal Drive, Turlock, CA 95380, USA
   program:
   - Outpatient Therapy
@@ -27,7 +27,7 @@ programLocation:
     hospitalization.  Includes a 24/7 crisis line and a primary clinician for outpatient
     services.</p>  \n\n"
   phoneText: 209-669-2583
-  description: ' '
+  description: " "
   internalNotes: |-
     Outpatient Therapy, Therapeutic Behavioral Services, School-Based Risk Assessments and Therapy
     Shelley Southern, Core Program Director
@@ -35,11 +35,46 @@ programLocation:
     Jessica Lunt, Core Program Manager
     jlunt@aspiranet.org
 - sys:
+    id: 1flyw99J2a4UEuKogU8mAY
+  name: South San Francisco
+  location:
+    :lat: 37.6655539
+    :lon: -122.38245330000001
+  addressAsText: 400 Oyster Point Boulevard, Suite 501 South San Francisco, CA 94080
+  program:
+  - Aspiranet Headquarters
+  - EncoreConnect.org
+  - Encore Fellowships Program
+  programAndAgeGroupAsText: "<strong><p>Aspiranet Headquarters </p></strong> \n<p>Headquartered
+    in South San Francisco, Aspiranet is a 501(c) (3), California nonprofit organization
+    with the mission of providing children, youth, and families with a foundation
+    of support and services so they can succeed at home, at school, and in their communities.
+    For more than 40 years, Aspiranet has been dedicated to offering outstanding services
+    that impact more than 35,000 children, youth and parents at 33 community-based
+    sites statewide.  Aspiranet offers a unique blend of services including foster
+    family support, adoption through foster care, services for foster youth transitioning
+    to adulthood, mental health services, residential care, intensive home-based care,
+    and community-based family resources.</p>\n\n<strong><p>EncoreConnect </p></strong>
+    \n<p>Aspiranet has a 40-year legacy of intergenerational work and is amongst the
+    nation’s leading innovators in the encore movement, which seeks to leverage the
+    passion, experience and skills of those in and beyond midlife as a vital source
+    of talent to benefit society.  Aspiranet has an extensive track record in implementing
+    encore programs, helping older adults transition into social purpose work, and
+    providing thought leadership to the field on how to well-leverage encore talent.</p>
+    \n\n<strong><p>Encore Fellowships Program </p></strong> \n<p>Encore fellowships
+    are paid, time-limited fellowships that match skilled professionals with high
+    impact projects that utilize Fellow skills, experience and wisdom to strengthen
+    Aspiranet organizational capacity at both the strategic and operational levels.
+    \ We are a partner program of the national Encore Fellowships Network (EFN) formed
+    by Encore.org.</p> "
+  phoneText: 650-866-4080
+  description: " "
+- sys:
     id: qW7Twj6dxeE0GYEI2GCEY
   name: Modesto
   location:
-    lat: 37.64080999999999
-    lon: -121.00018510000001
+    :lat: 37.64080999999999
+    :lon: -121.00018510000001
   addressAsText: 1009 J Street, Modesto, CA 95354, USA
   program:
   - AfterCare
@@ -67,7 +102,7 @@ programLocation:
     in a foster home, but who may not yet be ready to transition into a supervised
     independent living placement.</p>\n\n"
   phoneText: 209-338-5444
-  description: ' '
+  description: " "
   internalNotes: "Transitional Housing Placement+\nAlma Garcia Mendoza, Core Program
     Director \nagarciamendoza@aspiranet.org\n\nTransitional Housing Placement + Foster
     Care\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\n\nAfterCare\nAlma
@@ -79,8 +114,8 @@ programLocation:
     id: 12RjozQVkaIaWqmCmqEi0s
   name: Fresno
   location:
-    lat: 36.8111424
-    lon: -119.76441620000003
+    :lat: 36.8111424
+    :lon: -119.76441620000003
   addressAsText: 1320 E Shaw Avenue , Suite 140, Fresno, CA 93710, USA
   program:
   - Adoption
@@ -128,7 +163,7 @@ programLocation:
     home, but who may not yet be ready to transition into a supervised independent
     living placement.</p>\n"
   phoneText: 559-222-4969
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement+
     Maribelle Ramon-Espinosa, Core Program Director
@@ -187,8 +222,8 @@ programLocation:
     id: 6mGjBvvyogSWEk0qQeo0S4
   name: 'Antioch '
   location:
-    lat: 37.9836986
-    lon: -121.8036095
+    :lat: 37.9836986
+    :lon: -121.8036095
   addressAsText: 3727 Sunset Lane Suite 200, Antioch, CA 94509, USA
   program:
   - Welcome Home Baby
@@ -202,7 +237,7 @@ programLocation:
     <strong><p>Welcome Home Baby </p></strong>
     <p>Home visitation service for families with expectant parents or infants under 4 months old.<p>
   phoneText: 925-753-2156
-  description: ' '
+  description: " "
   internalNotes: |-
     Foster Care
     Peter Maspaitella, Core Program Director
@@ -239,8 +274,8 @@ programLocation:
     id: 2aNA9oYHXqwweweE02e422
   name: Concord
   location:
-    lat: 37.9727228
-    lon: -122.03790100000003
+    :lat: 37.9727228
+    :lon: -122.03790100000003
   addressAsText: 1736 Clayton Road, Concord, CA 94520
   program:
   - Monument First 5 Center
@@ -252,7 +287,7 @@ programLocation:
   programAndAgeGroupAsText: "<strong><p>Monument First 5 Center </p></strong> \n<p>Education
     and support services for families with young children ages 0-5.</p>"
   phoneText: 925-363-4065
-  description: ' '
+  description: " "
   internalNotes: |-
     Harmony House Receiving Center
     Peter Maspaitella, Core Program Director
@@ -263,8 +298,8 @@ programLocation:
     id: 5darJVHHfGs2gscAqSS4Og
   name: San Bernardino
   location:
-    lat: 34.069812
-    lon: -117.26939199999998
+    :lat: 34.069812
+    :lon: -117.26939199999998
   addressAsText: 720 East Carnegie Drive, Suite 250, San Bernardino, CA 92408, USA
   program:
   - Adoption
@@ -310,7 +345,7 @@ programLocation:
     dependents who are no longer living in a foster home, but who may not yet be ready
     to transition into a supervised independent living placement.</p>\n\n\n\n\n\n"
   phoneText: 909-890-9022
-  description: ' '
+  description: " "
   internalNotes: |-
     AfterCare
     Hank McKee, Associate Core Division Director
@@ -377,8 +412,8 @@ programLocation:
     id: 7d0XdDafjqyS8coYsCMqKU
   name: Merced
   location:
-    lat: 37.3247045
-    lon: -120.50421749999998
+    :lat: 37.3247045
+    :lon: -120.50421749999998
   addressAsText: 3360 North Highway 59, Suite G, Merced, CA 95348
   program:
   - Adoption
@@ -410,13 +445,13 @@ programLocation:
     Process (TIP) </p></strong>\n<p>Individualized services that address the needs
     of young adults aged 14-25 years old with emotional and behavioral challenges.</p>\n\n\n\n\n"
   phoneText: 209-725-2125
-  description: ' '
+  description: " "
 - sys:
     id: 1W1HZpyXvaM8i6KoAgMs8Q
   name: 'Monterey County '
   location:
-    lat: 36.6002378
-    lon: -121.89467609999997
+    :lat: 36.6002378
+    :lon: -121.89467609999997
   addressAsText: Confidential Location, CA, USA
   program:
   - Cherish Receiving Center
@@ -429,7 +464,7 @@ programLocation:
     removed from their homes are provided a temporary, nurturing, safe place to live
     until home issues are resolved, or until they can be placed with a foster family.</p>"
   phoneText: 831-433-0849
-  description: ' '
+  description: " "
   internalNotes: |-
     Harmony House Receiving Center
     Peter Maspaitella, Core Program Director
@@ -440,8 +475,8 @@ programLocation:
     id: 7IpeLg9WwMq0s8KCAsgU20
   name: Merced
   location:
-    lat: 37.3247045
-    lon: -120.50421749999998
+    :lat: 37.3247045
+    :lon: -120.50421749999998
   addressAsText: 3360 North Highway 59, Suite K, Merced, CA 95348
   program:
   - Crisis Stabilization Program
@@ -475,13 +510,13 @@ programLocation:
     in which clinicians will mobilize to assist children, youth and families as needed.</p>
     \ \n"
   phoneText: 209-725-2125
-  description: ' '
+  description: " "
 - sys:
     id: 4p7yKz7o9GuWYqYcqk48m4
   name: Bakersfield
   location:
-    lat: 35.3639248
-    lon: -119.06159120000001
+    :lat: 35.3639248
+    :lon: -119.06159120000001
   addressAsText: 1001 Tower Way, Suite 250, Bakersfield, CA 93309, USA
   program:
   - Adoption
@@ -508,7 +543,7 @@ programLocation:
     in a foster home, but who may not yet be ready to transition into a supervised
     independent living placement.</p>\n\n"
   phoneText: 661-323-1233
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement + Foster Care
     Victoria McClain, Core Program Director
@@ -533,8 +568,8 @@ programLocation:
     id: 1mfNqufPyIQEkwCGc8IUYe
   name: Visalia
   location:
-    lat: 36.219244
-    lon: -119.38049000000001
+    :lat: 36.219244
+    :lon: -119.38049000000001
   addressAsText: 1840 South Central Street, Visalia, CA 93277, USA
   program:
   - Adoption
@@ -577,7 +612,7 @@ programLocation:
     in a foster home, but who may not yet be ready to transition into a supervised
     independent living placement.</p>\n\n"
   phoneText: 559-741-7358
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement +
     Josh Mishou, Core Program Director
@@ -624,8 +659,8 @@ programLocation:
     id: 2DlhlvQUTeyIsuYwWW0mAI
   name: Stockton
   location:
-    lat: 37.952555
-    lon: -121.28929729999999
+    :lat: 37.952555
+    :lon: -121.28929729999999
   addressAsText: 6 South El Dorado Street, Suite 510, Stockton, CA 95202, USA
   program:
   - Adoption
@@ -661,7 +696,7 @@ programLocation:
     in a foster home, but who may not yet be ready to transition into a supervised
     independent living placement.</p>\n\n\n\n\n\n"
   phoneText: 209-478-9862
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement +
     Caryn Romero, Core Program Director
@@ -686,8 +721,8 @@ programLocation:
     id: 23HNw5waWUS2SaC88M6K4u
   name: San Francisco
   location:
-    lat: 37.7828241
-    lon: -122.4323695
+    :lat: 37.7828241
+    :lon: -122.4323695
   addressAsText: 1426 Fillmore Street, Suite 212, San Francisco, CA 94115
   program:
   - Experience Corps Bay Area
@@ -698,49 +733,14 @@ programLocation:
     \n<p>Serving all counties. Empowers underserved youth by teaching technology skills
     essential for their academic and career success.</p> "
   phoneText: 415-759-4222
-  description: ' '
+  description: " "
   internalNotes: "Emily Reisner, Director of ECBA and MOUSE \nereisner@aspiranet.org\n"
-- sys:
-    id: 1flyw99J2a4UEuKogU8mAY
-  name: South San Francisco
-  location:
-    lat: 37.6655539
-    lon: -122.38245330000001
-  addressAsText: 400 Oyster Point Boulevard, Suite 501 South San Francisco, CA 94080
-  program:
-  - Aspiranet Headquarters
-  - EncoreConnect.org
-  - Encore Fellowships Program
-  programAndAgeGroupAsText: "<strong><p>Aspiranet Headquarters </p></strong> \n<p>Headquartered
-    in South San Francisco, Aspiranet is a 501(c) (3), California nonprofit organization
-    with the mission of providing children, youth, and families with a foundation
-    of support and services so they can succeed at home, at school, and in their communities.
-    For more than 40 years, Aspiranet has been dedicated to offering outstanding services
-    that impact more than 35,000 children, youth and parents at 33 community-based
-    sites statewide.  Aspiranet offers a unique blend of services including foster
-    family support, adoption through foster care, services for foster youth transitioning
-    to adulthood, mental health services, residential care, intensive home-based care,
-    and community-based family resources.</p>\n\n<strong><p>EncoreConnect </p></strong>
-    \n<p>Aspiranet has a 40-year legacy of intergenerational work and is amongst the
-    nation’s leading innovators in the encore movement, which seeks to leverage the
-    passion, experience and skills of those in and beyond midlife as a vital source
-    of talent to benefit society.  Aspiranet has an extensive track record in implementing
-    encore programs, helping older adults transition into social purpose work, and
-    providing thought leadership to the field on how to well-leverage encore talent.</p>
-    \n\n<strong><p>Encore Fellowships Program </p></strong> \n<p>Encore fellowships
-    are paid, time-limited fellowships that match skilled professionals with high
-    impact projects that utilize Fellow skills, experience and wisdom to strengthen
-    Aspiranet organizational capacity at both the strategic and operational levels.
-    \ We are a partner program of the national Encore Fellowships Network (EFN) formed
-    by Encore.org.</p> "
-  phoneText: 650-866-4080
-  description: ' '
 - sys:
     id: 3n4j16h7mo0mIaoEUucu0i
   name: 'Palmdale '
   location:
-    lat: 34.580509
-    lon: -118.10077690000003
+    :lat: 34.580509
+    :lon: -118.10077690000003
   addressAsText: 1607 East Palmdale Boulevard, Suite D, Palmdale, CA 93550, USA
   program:
   - Collaborative Educational Supports SELPA
@@ -748,7 +748,7 @@ programLocation:
     \n<p>Aspiranet assists children in overcoming psychological and social challenges
     that are impacting their ability to succeed in school.</p>"
   phoneText: 661-233-8400
-  description: '  '
+  description: "  "
   internalNotes: |-
     Collaborative Educational Supports SELPA
     Yvonne Villa, Core Program Director
@@ -759,8 +759,8 @@ programLocation:
     id: 33FE0iYws0gOSiwW0aeMCq
   name: Bakersfield
   location:
-    lat: 35.3639248
-    lon: -119.06159120000001
+    :lat: 35.3639248
+    :lon: -119.06159120000001
   addressAsText: 1001 Tower Way, Suite 110, Bakersfield, CA 93309, USA
   program:
   - Intensive Home-Based Services/Wraparound
@@ -773,7 +773,7 @@ programLocation:
     <strong><p>Intensive Home-Based Services/Wraparound </p></strong>
     <p>Services for parents who are at risk of or who have already had their children removed by the Child Welfare System.  We create an individualized plan from our diverse services to meet the behavioral and emotional challenges of our families, and to develop the skills and capabilities necessary to achieve stability and self-sufficiency.</p>
   phoneText: 661-859-2135
-  description: ' '
+  description: " "
   internalNotes: |-
     Wraparound
     Christina Meza-Sifuentes, Core Program Director
@@ -786,8 +786,8 @@ programLocation:
     id: iODoqjDnRm8m260WGKiI
   name: 'Turlock '
   location:
-    lat: 37.5006986
-    lon: -120.8473022
+    :lat: 37.5006986
+    :lon: -120.8473022
   addressAsText: 151 East Canal Drive, Turlock, CA 95380, USA
   program:
   - Adoption
@@ -815,7 +815,7 @@ programLocation:
     trained families provide a stable alternative to institutional care for children
     who require intensive home-based support.</p>\n\n\n\n"
   phoneText: 209-669-2577
-  description: ' '
+  description: " "
   internalNotes: |-
     Foster Care
     Sandra Genova, Core Program Director
@@ -842,9 +842,9 @@ programLocation:
     id: 6aQtpex9zGcakgiGmGsm4K
   name: Modesto
   location:
-    lat: 37.6587239
-    lon: -121.03602280000001
-  addressAsText: ' 1620 Cummins Drive, Suite C, Modesto, CA 95358, USA'
+    :lat: 37.6587239
+    :lon: -121.03602280000001
+  addressAsText: " 1620 Cummins Drive, Suite C, Modesto, CA 95358, USA"
   program:
   - Crisis Stabilization Program
   - Crisis Intervention Program
@@ -878,7 +878,7 @@ programLocation:
     \n<p>School-based safety assessments and counseling services for students at risk
     of being a danger to self or others.</p>\n\n"
   phoneText: 209-576-1750
-  description: ' '
+  description: " "
   internalNotes: |-
     Cathy Abbott, Core Program Director
     cabbott@aspiranet.org
@@ -886,8 +886,8 @@ programLocation:
     id: 4ayQ08c0iQqKa66YgIqEyu
   name: 'Turlock '
   location:
-    lat: 37.4946568
-    lon: -120.8465941
+    :lat: 37.4946568
+    :lon: -120.8465941
   addressAsText: 2513 Youngstown Rd, Turlock, CA 95380, USA
   program:
   - Excell Center
@@ -900,7 +900,7 @@ programLocation:
     \ Youth in need of special education are prepared for enrollment in a traditional
     public school setting.</p>  \n\n"
   phoneText: 209-632-4297
-  description: ' '
+  description: " "
   internalNotes: |-
     Chris Essary, Core Division Director
     Kimberly Franck, Core Program Director
@@ -912,8 +912,8 @@ programLocation:
     id: 1F9o7GdD1mc2gGQiEm8OSK
   name: Sacramento
   location:
-    lat: 38.5633118
-    lon: -121.3337535
+    :lat: 38.5633118
+    :lon: -121.3337535
   addressAsText: 9719 Lincoln Village Drive, Suite 401, Sacramento, CA 95827, USA
   program:
   - Adoption
@@ -936,7 +936,7 @@ programLocation:
     the gap for non-minor dependents who are no longer living in a foster home, but
     who may not yet be ready to transition into a supervised independent living placement.</p>\n\n\n\n"
   phoneText: 916-366-1656
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement + Foster Care
     Alexis Peters, Core Program Director
@@ -953,8 +953,8 @@ programLocation:
     id: 4OJoO8og5GUKSIwokmWKi2
   name: 'Santa Maria '
   location:
-    lat: 34.9337848
-    lon: -120.43463220000001
+    :lat: 34.9337848
+    :lon: -120.43463220000001
   addressAsText: 204 East Enos Drive, Suite D, Santa Maria, CA 93454, USA
   program:
   - Adoption
@@ -971,7 +971,7 @@ programLocation:
     <strong><p>Foster Care </p></strong>
     <p>Aspiranet secures loving homes for foster children. Whether the foster care placement lasts for a few days or a few years, we are committed to matching children with families where they will thrive.</p>
   phoneText: 805-473-8760
-  description: ' '
+  description: " "
   internalNotes: |-
     Foster Care
     Melinda Schneider, Core Program Manager
@@ -984,8 +984,8 @@ programLocation:
     id: 6tWW1VtQbuUse6UE6e6ss2
   name: Brentwood
   location:
-    lat: 37.9336284
-    lon: -121.69539359999999
+    :lat: 37.9336284
+    :lon: -121.69539359999999
   addressAsText: 760 First Street, Brentwood, CA 94513
   program:
   - Delta First 5 Center
@@ -997,7 +997,7 @@ programLocation:
   programAndAgeGroupAsText: "<strong><p>Delta First 5 Center </p></strong> \n<p>Education
     and support services for families with young children ages 0-5.</p>"
   phoneText: 925-516-3880
-  description: ' '
+  description: " "
   internalNotes: |-
     Harmony House Receiving Center
     Peter Maspaitella, Core Program Director
@@ -1008,8 +1008,8 @@ programLocation:
     id: 3otxCHCNkIkaecoe60ISUE
   name: 'Signal Hill '
   location:
-    lat: 33.7975445
-    lon: -118.1541858
+    :lat: 33.7975445
+    :lon: -118.1541858
   addressAsText: 2248 Obispo Avenue, Suite 202, Signal Hill, CA 90755, USA
   program:
   - Intensive Home-Based Services/Wraparound
@@ -1022,7 +1022,7 @@ programLocation:
     <strong><p>Intensive Home-Based Services/Wraparound </p></strong>
     <p>Services for parents who are at risk of or who have already had their children removed by the Child Welfare System.  We create an individualized plan from our diverse services to meet the behavioral and emotional challenges of our families, and to develop the skills and capabilities necessary to achieve stability and self-sufficiency.</p>
   phoneText: 213-550-2634
-  description: ' '
+  description: " "
   internalNotes: |-
     Adoption
     Alisha Honore-Harrell, Core Program Supervisor
@@ -1035,8 +1035,8 @@ programLocation:
     id: 6cMkZXfeP6y6kaWSs20iSi
   name: 'Salinas '
   location:
-    lat: 36.6746066
-    lon: -121.65398160000001
+    :lat: 36.6746066
+    :lon: -121.65398160000001
   addressAsText: 234 Monterey Street, Salinas, CA 93901
   program:
   - Cherish Too Visitation Center
@@ -1048,7 +1048,7 @@ programLocation:
   programAndAgeGroupAsText: "<strong><p>Cherish Too Visitation Center </p></strong>
     \n<p>Provides monitored visitation services for families.</p>"
   phoneText: 831-256-1623
-  description: ' '
+  description: " "
   internalNotes: |-
     Harmony House Receiving Center
     Peter Maspaitella, Core Program Director
@@ -1059,8 +1059,8 @@ programLocation:
     id: 2XRe4ZDSG420a8YkqY84EW
   name: Turlock
   location:
-    lat: 37.4781775
-    lon: -120.85399419999999
+    :lat: 37.4781775
+    :lon: -120.85399419999999
   addressAsText: 441 West Linwood Avenue, Turlock, CA 95380, USA
   program:
   - Fusion Charter School
@@ -1068,7 +1068,7 @@ programLocation:
     <strong><p>Fusion Charter School <strong><p>
     <p>Serves students in grades 7-12 who are having difficulty progressing in a traditional school environment.  Provides under performing and behaviorally challenged students with a blend of direct instruction from credentialed teachers and online learning in a nontraditional independent study program.</p>
   phoneText: '209-667-9047 '
-  description: ' '
+  description: " "
   internalNotes: |-
     Chris Essary, Core Division Director
     Susan Nisan, Principal
@@ -1078,8 +1078,8 @@ programLocation:
     id: 3jAi2DIWcUQIImAO0AiOsY
   name: Camarillo
   location:
-    lat: 34.214688
-    lon: -118.997233
+    :lat: 34.214688
+    :lon: -118.997233
   addressAsText: 5284 Adolfo Road, Suite 100, Camarillo, CA 93012, USA
   program:
   - Adoption
@@ -1141,7 +1141,7 @@ programLocation:
     home, but who may not yet be ready to transition into a supervised independent
     living placement.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
   phoneText: 805-289-0120
-  description: ' '
+  description: " "
   internalNotes: "Transitional Housing Placement + Foster Care\nMartie Miles, Core
     Program Director\nmmiles@aspiranet.org\nLeticia Woodruff, Core Program Manager\nlwoodruff@aspiranet.org\n\nFoster
     Care\nMartie Miles, Core Program Director\nmmiles@aspiranet.org\nMelinda Schneider,
@@ -1161,8 +1161,8 @@ programLocation:
     id: 1kOrUn8okMIO4cKaQCkmoS
   name: 'Contra Costa County '
   location:
-    lat: 37.8534093
-    lon: -121.90179539999997
+    :lat: 37.8534093
+    :lon: -121.90179539999997
   addressAsText: Confidential Location, CA, USA
   program:
   - Harmony House Receiving Center
@@ -1175,7 +1175,7 @@ programLocation:
     \n<p>Children removed from their homes are provided a temporary, nurturing, safe
     place to live until home issues are resolved, or until they can be placed with
     a foster family.</p>"
-  description: ' '
+  description: " "
   internalNotes: |-
     Harmony House Receiving Center
     Peter Maspaitella, Core Program Director
@@ -1186,8 +1186,8 @@ programLocation:
     id: 1TDdeISjAEWOyuYKQSkkm8
   name: Bakersfield
   location:
-    lat: 35.3651148
-    lon: -119.0566627
+    :lat: 35.3651148
+    :lon: -119.0566627
   addressAsText: '4900 California Avenue, Suite 300A, Bakersfield, CA 93309, USA '
   program:
   - Intensive Home-Based Services/Wraparound
@@ -1200,7 +1200,7 @@ programLocation:
     <strong><p>Intensive Home-Based Services/Wraparound </p></strong>
     <p>Services for parents who are at risk of or who have already had their children removed by the Child Welfare System.  We create an individualized plan from our diverse services to meet the behavioral and emotional challenges of our families, and to develop the skills and capabilities necessary to achieve stability and self-sufficiency.</p>
   phoneText: 661-859-2135
-  description: ' '
+  description: " "
   internalNotes: |-
     Wraparound
     Christina Meza-Sifuentes, Core Program Director
@@ -1213,8 +1213,8 @@ programLocation:
     id: 5yqHgSR3jiy0Ac2gaWicKW
   name: 'Antioch '
   location:
-    lat: 37.9836986
-    lon: -121.8036095
+    :lat: 37.9836986
+    :lon: -121.8036095
   addressAsText: 3727 Sunset Lane Suite 210, Antioch, CA 94509, USA
   program:
   - Adoption
@@ -1248,7 +1248,7 @@ programLocation:
     visitation service for families with expectant parents or infants under 4 months
     old.<p>\n"
   phoneText: 925-753-2156
-  description: ' '
+  description: " "
   internalNotes: |-
     Foster Care
     Peter Maspaitella, Core Program Director
@@ -1285,8 +1285,8 @@ programLocation:
     id: 1RFd82ScX6yiCe0IEoy8Wu
   name: Salinas
   location:
-    lat: 36.69795999999999
-    lon: -121.65491600000001
+    :lat: 36.69795999999999
+    :lon: -121.65491600000001
   addressAsText: 1127 Baldwin Street, Suite A, Salinas, CA 93906, USA
   program:
   - Adoption
@@ -1326,7 +1326,7 @@ programLocation:
     high level placement such as group home, juvenile hall, or hospitalization.  Includes
     a 24/7 crisis line and a primary clinician for outpatient services.</p>\n"
   phoneText: 831-443-0249
-  description: ' '
+  description: " "
   internalNotes: "Foster Care\nNancy Petrovic, Core Program Director \nnpetrovic@aspiranet.org\n\nIntensive
     Treatment Foster Care\nNancy Petrovic, Core Program Director \nnpetrovic@aspiranet.org\n\nEmergency
     Shelter Bed Homes (ESBH)\nNancy Petrovic, Core Program Director \nnpetrovic@aspiranet.org\n\nAdoption\nNancy
@@ -1338,8 +1338,8 @@ programLocation:
     id: 6OBDaCGHVScMGSSesa2igG
   name: 'Long Beach '
   location:
-    lat: 33.779833
-    lon: -118.19273550000003
+    :lat: 33.779833
+    :lon: -118.19273550000003
   addressAsText: 1043 Pine Avenue, Long Beach, CA 90813, USA
   program:
   - Adoption
@@ -1369,7 +1369,7 @@ programLocation:
     home, but who may not yet be ready to transition into a supervised independent
     living placement.</p>\n\n"
   phoneText: 310-535-1500
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement + Foster Care
     Tracy Rolfe, Core Program Director
@@ -1390,8 +1390,8 @@ programLocation:
     id: 5nCDIajoEESQG8ocIi0Ask
   name: 'Orange '
   location:
-    lat: 33.7850159
-    lon: -117.8809278
+    :lat: 33.7850159
+    :lon: -117.8809278
   addressAsText: 265 South Anita Drive, Suite 120, Orange, CA 92868, USA
   program:
   - Transitional Housing Placement +
@@ -1406,7 +1406,7 @@ programLocation:
     <strong><p>Transitional Housing Placement + Foster Care </p></strong>
     <p>An extended foster care placement option that bridges the gap for non-minor dependents who are no longer living in a foster home, but who may not yet be ready to transition into a supervised independent living placement.</p>
   phoneText: 714-712-4900
-  description: ' '
+  description: " "
   internalNotes: |
     Transitional Housing Placement +
     Tracy Rolfe, Core Program Director
@@ -1419,8 +1419,8 @@ programLocation:
     id: 79FwR0fryM4wQOY0Iu2SEu
   name: 'Turlock '
   location:
-    lat: 37.5135153
-    lon: -120.84861480000001
+    :lat: 37.5135153
+    :lon: -120.84861480000001
   addressAsText: 2160 Geer Road, Turlock, CA 95382, USA
   program:
   - Healthy Birth Outcomes
@@ -1439,15 +1439,15 @@ programLocation:
     to Work</p></strong> \n<p>Job readiness, vocational coaching, and English as a
     Second Language classes.</p> \n\n"
   phoneText: 209-668-6118
-  description: ' '
+  description: " "
   internalNotes: "Robert Hubbard, Core Program Director           \nPamela Walton-Huntley,
     Core Program Manager\nrhubbard@aspiranet.org\npwaltonhuntley@aspiranet.org"
 - sys:
     id: 3qefslkPZeoy8cGAewEm42
   name: Riverside
   location:
-    lat: 33.9532102
-    lon: -117.39136129999997
+    :lat: 33.9532102
+    :lon: -117.39136129999997
   addressAsText: 3600 Central Avenue, Suite 5, Riverside, CA 92506, USA
   program:
   - Transitional Housing Placement +
@@ -1464,7 +1464,7 @@ programLocation:
     for non-minor dependents who are no longer living in a foster home, but who may
     not yet be ready to transition into a supervised independent living placement.</p>"
   phoneText: 951-729-4040
-  description: ' '
+  description: " "
   internalNotes: |-
     Transitional Housing Placement +
     Michele Gracia, Core Program Director
@@ -1483,12 +1483,11 @@ campain:
   textColor: blue-dark
   image:
     title: 011-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3nAmtnZwD66uAusEqyGgOe/102625eda49f16f6dca49f89cf62be28/011-hero-img-4.jpg
-  campaignUrl: /programs/foster-and-adoptive-families/
+    url: "//images.contentful.com/e5ehlcazegi0/3nAmtnZwD66uAusEqyGgOe/102625eda49f16f6dca49f89cf62be28/011-hero-img-4.jpg"
+  campaignUrl: "/programs/foster-and-adoptive-families/"
   order: 1
   ctaButtonCopy: LEARN MORE
-  ctaUrl: /programs/foster-and-adoptive-families/
+  ctaUrl: "/programs/foster-and-adoptive-families/"
 - sys:
     id: 3VZjgHDyBWCgEW44GE880U
   title: Introducing Aspiranet’s new look.
@@ -1498,12 +1497,11 @@ campain:
   textColor: white
   image:
     title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  campaignUrl: /blog/aspiranet-new-look-for-the-new-year/
+    url: "//images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg"
+  campaignUrl: "/blog/aspiranet-new-look-for-the-new-year/"
   order: 2
   ctaButtonCopy: 'Read the story '
-  ctaUrl: /blog/aspiranet-new-look-for-the-new-year/
+  ctaUrl: "/blog/aspiranet-new-look-for-the-new-year/"
 - sys:
     id: 4rqSPhHwhqoGwCGCYucUem
   title: 'We’re hiring. Join the team today! '
@@ -1513,12 +1511,11 @@ campain:
   textColor: blue-dark
   image:
     title: our-approach
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3MMv3ukIqQscSAAIWMQ6og/1aeeade02b66dde04bf1925a00ff8fd1/010-hero-img-1.jpg
-  campaignUrl: /url.com
+    url: "//images.contentful.com/e5ehlcazegi0/3MMv3ukIqQscSAAIWMQ6og/1aeeade02b66dde04bf1925a00ff8fd1/010-hero-img-1.jpg"
+  campaignUrl: "/url.com"
   order: 3
   ctaButtonCopy: Join our team
-  ctaUrl: /careers/
+  ctaUrl: "/careers/"
 blogTag:
 - sys:
     id: 2f4F4fvzne6Ma82egMgaks
@@ -1582,8 +1579,7 @@ programs:
     from which to launch their futures. '
   photoLanding:
     title: 04 program hero img  1N3R4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/2F6Qw1zXPOCwWUIQ8yAOMo/b1c5840aa323266f410e57d977de0f78/04_program_hero_img__1N3R4.jpg"
   programColor: mint
   order: 3
   subtitle: 'A bridge from youth to independence '
@@ -1595,8 +1591,7 @@ programs:
     of young adulthood and become productive members of their communities.\n"
   photo:
     title: 5 tay 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/eeCkZT7Xl6UUSWU2GG4w6/3c2fce7ffdac88e094febba7a0101346/5_tay_1.jpg"
   pullQuote: “Helping a youth transition into adulthood is a big responsibility, and
     I’m grateful every day I get the chance to do it." <br/> — Samantha LaGrasse,
     Transitional Aged Youth Division Director
@@ -1620,8 +1615,7 @@ programs:
     times. '
   photoLanding:
     title: 01-Homepage-hero-img-5 flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/AcoTjf3XzwSgIcyOUIKYy/e86364c03cb1d5a95a79924d6c5e80a9/01-Homepage-hero-img-5_flip.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/AcoTjf3XzwSgIcyOUIKYy/e86364c03cb1d5a95a79924d6c5e80a9/01-Homepage-hero-img-5_flip.jpg"
   programColor: blue-dark
   order: 6
   subtitle: 'Strong families for life '
@@ -1634,11 +1628,10 @@ programs:
     and in the community."
   photo:
     title: 5-Program-Behavior-Health-5-2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/613XSF2C1aeImose2C8aKy/16eb65c92ed6d4531ee08aee691b6df8/5-Program-Behavior-Health-5-2.jpg
-  pullQuote: “When we are free from or learn to manage emotional and psychological
+    url: "//images.contentful.com/e5ehlcazegi0/613XSF2C1aeImose2C8aKy/16eb65c92ed6d4531ee08aee691b6df8/5-Program-Behavior-Health-5-2.jpg"
+  pullQuote: "“When we are free from or learn to manage emotional and psychological
     distress, we are more able to live our lives to the fullest.” <br/> — Mike DeRose,
-    Behavioral Health Division Director
+    Behavioral Health Division Director"
   copyRest: |
     A sampling of our many services includes early and periodic screening, detection and treatment for mental health symptoms, crisis intervention for children and youth at risk of out of home placement or psychiatric hospitalization, and in-home therapy for parents at risk of having their children removed by the child welfare system.
 
@@ -1662,8 +1655,7 @@ programs:
     support and resources to thrive, there''s no limit to what they can accomplish. '
   photoLanding:
     title: 5-Program-Foster-&-Adoptive-v6-2
-    description: 5-Program-Foster-&-Adoptive-v6-2
-    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg"
   programColor: yellow
   order: 5
   subtitle: 'A proven model of family support '
@@ -1678,11 +1670,10 @@ programs:
     family during their journey to improved well-being."
   photo:
     title: 5-Program-Foster-&-Adoptive-v6-2
-    description: 5-Program-Foster-&-Adoptive-v6-2
-    url: //images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg
-  pullQuote: “Families in crisis sometimes need a helping hand to reach higher ground.
+    url: "//images.contentful.com/e5ehlcazegi0/2yUWf8RHOsQw4e0i2YWiWS/c2a2d6695d4fabe0e70a8c9f08fe4936/5-Program-Foster-_-Adoptive-v6-3.jpg"
+  pullQuote: "“Families in crisis sometimes need a helping hand to reach higher ground.
     That’s why we are here.” <br/> — Sharon Lawicki, Intensive Home-Based Services
-    Division Director
+    Division Director"
   copyRest: "Our services engage all members of the family, including relatives and
     non-relative extended family members, in changing behaviors that improve their
     relationships and promote growth.  \n\nFamily members, caregivers, teachers and
@@ -1711,15 +1702,13 @@ programs:
     inside a stable, healthy family.'
   photoLanding:
     title: 04 program hero img  KAwSW flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg"
   programColor: pink
   order: 1
   subtitle: Support for families, every step of the way
   photo:
     title: 04 program hero img  KAwSW flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg"
   pullQuote: this content is in Foster and Adoptive Families page!
   copyRest: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
     ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
@@ -1746,8 +1735,7 @@ programs:
     and support in their lives.'
   photoLanding:
     title: 01 homepage hero img D9X9H flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg"
   programColor: purple-dark
   order: 2
   subtitle: 'Strong foundations for healthy communities '
@@ -1762,11 +1750,10 @@ programs:
     times of need are able to thrive as strong families.  \n"
   photo:
     title: 04 program hero img  e0IVu
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/10VLaDGYlGwko8qUg0Osu8/8a0ae5d8b8b46b9e50e3bb3b9c57764a/04_program_hero_img__e0IVu.jpg
-  pullQuote: '"Serving communities and families is why I get up in the morning and
+    url: "//images.contentful.com/e5ehlcazegi0/10VLaDGYlGwko8qUg0Osu8/8a0ae5d8b8b46b9e50e3bb3b9c57764a/04_program_hero_img__e0IVu.jpg"
+  pullQuote: "\"Serving communities and families is why I get up in the morning and
     what gives me incredible satisfaction.” <br/> — Kathryn Davies, Family and Community
-    Division Director'
+    Division Director"
   copyRest: "We help families develop these skills resulting in increased family stability,
     enhanced child development, and reduced child abuse and neglect. \n\nAspiranet
     community-based family resource centers offer individual family support, child
@@ -1793,8 +1780,7 @@ programs:
     a chance to fulfill their potential.'
   photoLanding:
     title: 04-program-hero-img-4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg"
   programColor: orange
   order: 4
   subtitle: 'Healthy environments build resilience '
@@ -1806,11 +1792,10 @@ programs:
     and educational services in single family home settings.  "
   photo:
     title: 04-program-hero-img-4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg
-  pullQuote: '"Everyone deserves a chance to reach their potential, and I believe
+    url: "//images.contentful.com/e5ehlcazegi0/4ohRdUP0kguCmYCAsAuqGC/80cdec6a6fe142a4dc92374512dd8f6a/04-program-hero-img-4.jpg"
+  pullQuote: "\"Everyone deserves a chance to reach their potential, and I believe
     in my heart that with the right guidance and support our youth can thrive.” <br/>
-    — Christopher Essary, Residential Division Director'
+    — Christopher Essary, Residential Division Director"
   copyRest: "Our programs offer a structured, enriching, healing environment where
     children and youth in crisis can move forward with their head held high.\n\nSafety
     is our number one priority, and all residents are expected to live up to a code
@@ -1829,20 +1814,38 @@ programs:
   fastFact3Text: Residential youth served since 1987
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
-blogCategory:
-- sys:
-    id: 6AVJUFl9zq640Em4soQooS
-  name: Respect
-- sys:
-    id: 5cOx39zkWcW0uGiEyGO8EA
-  name: Hope
-- sys:
-    id: 7eFzmq5t6Mg2AosyUkkAgI
-  name: Integrity
-- sys:
-    id: 1TBUAtWXMk2gEqAmOOy4o0
-  name: Courage
 blogPost:
+- sys:
+    id: 4FPD0m40Gsc0uwmOoS6sQg
+  title: 'Aspiranet’s New Look '
+  url: aspiranet-new-look-for-the-new-year
+  featuredOnHomepage: false
+  featuredOnBlog: true
+  overlayOnFeaturedPost: left
+  heroImage:
+    title: 012-hero-img-1
+    url: "//images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg"
+  thumbnailToBeDisplayedOnHomepage:
+    title: 012-hero-img-1
+    url: "//images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg"
+  date: !ruby/object:DateTime 2017-01-31 00:00:00.000000000 Z
+  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
+    day we’re thankful for the amazing children, youth and families that we reach
+    and for supporters like you who back our work.  For 2017, we thought it was vital
+    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
+    this website we hope to show our heart, determination, cares and dreams.  The
+    Aspiranet story develops every day as we strive to fulfill our mission, and it
+    lives in each interaction, each achievement, and each new learning.  It’s a testimony
+    to the strength of our families and the generosity of our supporters.  \n\nThank
+    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
 - sys:
     id: 2bXK2Ej2QQSs2qqkks8CYc
   title: Lasting Connections
@@ -1850,8 +1853,7 @@ blogPost:
   featuredOnHomepage: false
   heroImage:
     title: chrise
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1eIlKfd7J4soIAWuOWs2WU/6b81511cfac76edc9ca43c9d00ce3d73/chrise.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/1eIlKfd7J4soIAWuOWs2WU/6b81511cfac76edc9ca43c9d00ce3d73/chrise.jpg"
   postBody: "Chris Essary earned a Bachelor’s degree in Sociology from California
     State University, Stanislaus, and began his Aspiranet career in 1987 as an Excell
     Center House Parent.  During his three decades at Aspiranet, he has served in
@@ -1893,8 +1895,7 @@ blogPost:
   featuredOnBlog: false
   heroImage:
     title: 5 program foster   a Wab68
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/6fXhvz4UpiKCcayieW0Wsy/1ce90320d2388760055b1f275373a671/5_program_foster___a_Wab68.jpg"
   postBody: "The Pillers’ home is always alive with the energy of children. Along
     with caring for their two young sons and daughter, whom they adopted through foster
     care, they serve as a “receiving home” for children when they are first placed
@@ -1947,8 +1948,7 @@ blogPost:
   featuredOnHomepage: false
   heroImage:
     title: Goodrich
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4kjYozU3O0MqUAAWMOek2q/a98f4247514262a69ec952faff6b9e3f/Goodrich.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/4kjYozU3O0MqUAAWMOek2q/a98f4247514262a69ec952faff6b9e3f/Goodrich.jpg"
   postBody: "A chance encounter two years ago inspired Jennifer Goodrich to start
     a family through foster care.\n\nShe was in a public restroom when she heard a
     woman crying, and soon discovered that what she heard were tears of joy.  The
@@ -1983,102 +1983,14 @@ blogPost:
       id: 31qAv9zAikEMCYGOgqmy4A
     name: Foster and Adoptive Families
 - sys:
-    id: 3j1V5nMz8kUeoO6ysCgIkK
-  title: Everyone wants to give the best to their child
-  url: best-to-their-child
-  featuredOnHomepage: true
-  heroImage:
-    title: p996013154-5
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/12Zj8PmHpAY6CCESAaAcSK/8be538cbbc25d56132c84156b45529a0/p996013154-5.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 01 homepage hero img D9X9H flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
-  postBody: "When Sanat and his family relocated to the East Bay from India for a
-    job opportunity in the tech industry, everybody felt a bit disoriented. His young
-    son, Yatharth, became very fearful of strangers and would cry whenever anyone
-    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
-    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
-    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
-    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
-    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
-    Sanat’s instincts were to look for answers online. It took only one class for
-    him to recognize the value of sharing experiences with other fathers. \n\n“The
-    other fathers started speaking, and I found that’s not the same thing I can get
-    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
-    how to handle the same scenario with my kid. Every day was a new learning for
-    me.”\n\nSanat realized this was more than he was going to get from any social
-    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
-    is especially grateful for the diverse, multilingual staff who have created a
-    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
-    wants to be a good parent, so the motive is the same: everyone wants to give the
-    best to their child. I saw that everyone wants to speak-- whether their native
-    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
-    to tell their stories, and the staff create that environment. After that I started
-    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
-    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
-    two weeks he started hanging out with the other kids, and now he’s perfectly fine
-    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
-    my wife and me how to handle our son when he’s cranky — all the credit goes to
-    this place.”\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 7sF3shCds4aqymKSu6w0a
-    name: First 5 Center
-  - sys:
-      id: 2BVE03bDcA0WG6Caaqo0sm
-    name: Family & Community
-- sys:
-    id: 4FPD0m40Gsc0uwmOoS6sQg
-  title: 'Aspiranet’s New Look '
-  url: aspiranet-new-look-for-the-new-year
-  featuredOnHomepage: false
-  featuredOnBlog: true
-  overlayOnFeaturedPost: left
-  heroImage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
-  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
-    day we’re thankful for the amazing children, youth and families that we reach
-    and for supporters like you who back our work.  For 2017, we thought it was vital
-    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
-    this website we hope to show our heart, determination, cares and dreams.  The
-    Aspiranet story develops every day as we strive to fulfill our mission, and it
-    lives in each interaction, each achievement, and each new learning.  It’s a testimony
-    to the strength of our families and the generosity of our supporters.  \n\nThank
-    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
-- sys:
     id: 1YHlIm573GKgee4S6GOuGa
   title: A Beautiful Friendship
   url: a-beautiful-friendship
   featuredOnHomepage: false
   heroImage:
     title: family
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG
-  date: !ruby/object:DateTime 2017-01-04 16:00:00.000000000 -08:00
+    url: "//images.contentful.com/e5ehlcazegi0/5G3uoasvOE8WyCK60EEOU0/d484b185a83d57a9b03670404f52c4f5/family.JPG"
+  date: !ruby/object:DateTime 2017-01-05 00:00:00.000000000 Z
   postBody: "The day Alondra first met the team from Aspiranet’s Intensive Home-Based
     Services Wraparound program, she wasn’t up for visitors. It happened to be her
     16th birthday, and the team arrived at the motel room where she was staying with
@@ -2145,8 +2057,7 @@ blogPost:
   featuredOnHomepage: false
   heroImage:
     title: Aspiranet Foster-Family1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4AyeVt1neEwImCMq8YcqEC/945f12c05dc228701f8462846187e889/Aspiranet_Foster-Family1.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/4AyeVt1neEwImCMq8YcqEC/945f12c05dc228701f8462846187e889/Aspiranet_Foster-Family1.jpg"
   postBody: "As a young couple with a toddler, Allegra and Joseph weren’t thinking
     about becoming foster parents, particularly for a teenager. But then they met
     Jamie.  \n\nJamie had been split up from her siblings and placed in a series of
@@ -2188,6 +2099,58 @@ blogPost:
       id: 5QgCSjml0sGOIAAMiKyMu2
     name: 'Transitional Aged Youth '
 - sys:
+    id: 3j1V5nMz8kUeoO6ysCgIkK
+  title: Everyone wants to give the best to their child
+  url: best-to-their-child
+  featuredOnHomepage: true
+  heroImage:
+    title: 31411754456 2f15df3718 o
+    url: "//images.contentful.com/e5ehlcazegi0/1a8Gl8jq8YUawOEA6qgQie/1e790ef918ae898364aed17d8ad414f4/31411754456_2f15df3718_o.jpg"
+  thumbnailToBeDisplayedOnHomepage:
+    title: 01 homepage hero img D9X9H flip
+    url: "//images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg"
+  postBody: "When Sanat and his family relocated to the East Bay from India for a
+    job opportunity in the tech industry, everybody felt a bit disoriented. His young
+    son, Yatharth, became very fearful of strangers and would cry whenever anyone
+    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
+    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
+    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
+    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
+    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
+    Sanat’s instincts were to look for answers online. It took only one class for
+    him to recognize the value of sharing experiences with other fathers. \n\n“The
+    other fathers started speaking, and I found that’s not the same thing I can get
+    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
+    how to handle the same scenario with my kid. Every day was a new learning for
+    me.”\n\nSanat realized this was more than he was going to get from any social
+    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
+    is especially grateful for the diverse, multilingual staff who have created a
+    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
+    wants to be a good parent, so the motive is the same: everyone wants to give the
+    best to their child. I saw that everyone wants to speak-- whether their native
+    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
+    to tell their stories, and the staff create that environment. After that I started
+    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
+    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
+    two weeks he started hanging out with the other kids, and now he’s perfectly fine
+    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
+    my wife and me how to handle our son when he’s cranky — all the credit goes to
+    this place.”\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 7sF3shCds4aqymKSu6w0a
+    name: First 5 Center
+  - sys:
+      id: 2BVE03bDcA0WG6Caaqo0sm
+    name: Family & Community
+- sys:
     id: 4KnVNF25SwmY0MIoOGIwUY
   title: A Miracle Out of Nowhere
   author:
@@ -2198,13 +2161,11 @@ blogPost:
   featuredOnBlog: false
   heroImage:
     title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg"
   thumbnailToBeDisplayedOnHomepage:
     title: Landing-Page-for-Blog,-Recruitment-2---Veronica-v2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg
-  date: !ruby/object:DateTime 2017-01-05 16:00:00.000000000 -08:00
+    url: "//images.contentful.com/e5ehlcazegi0/4KCWJ3lELeSAYk2oom28iy/83c66fbfca5a072e0160a7c6ad215e0e/Landing-Page-for-Blog_-Recruitment-2---Veronica-v2.jpg"
+  date: !ruby/object:DateTime 2017-01-06 00:00:00.000000000 Z
   postBody: "Veronica Morales, a housing specialist with Aspiranet’s Transitional
     Aged Youth programs, knows first-hand what’s it’s like to live on the streets.
     She spent much of her youth in foster care, and then when she became pregnant
@@ -2238,6 +2199,19 @@ blogPost:
   - sys:
       id: 5QgCSjml0sGOIAAMiKyMu2
     name: 'Transitional Aged Youth '
+blogCategory:
+- sys:
+    id: 5cOx39zkWcW0uGiEyGO8EA
+  name: Hope
+- sys:
+    id: 6AVJUFl9zq640Em4soQooS
+  name: Respect
+- sys:
+    id: 7eFzmq5t6Mg2AosyUkkAgI
+  name: Integrity
+- sys:
+    id: 1TBUAtWXMk2gEqAmOOy4o0
+  name: Courage
 thankYouPages:
 - sys:
     id: 47WM9LyTiwMOC6IkkCWMGw
@@ -2386,8 +2360,7 @@ seniorExecutive:
     and Transitional Aged Youth Services '
   photo:
     title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+    url: "//images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png"
   order: 4
   bio: "Jeannie earned a Bachelor of Arts in Sociology with a Minor in Psychology
     from CSU Stanislaus and pursued graduate studies in Counseling Psychology at California
@@ -2414,8 +2387,7 @@ seniorExecutive:
   position: 'Chief Human Resources Officer '
   photo:
     title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+    url: "//images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png"
   order: 3
   bio: "Holly earned a Master of Arts at the Monterey Institute of International Studies,
     a Bachelor of Arts at Gustavus Adolphus College, and was certified as a Senior
@@ -2441,8 +2413,7 @@ seniorExecutive:
     and Family and Community
   photo:
     title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+    url: "//images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png"
   order: 5
   bio: "Sparked by a curiosity in social institutions and a passion for social justice,
     Laureen earned a Bachelor of Arts Degree in Sociology from the University of California
@@ -2468,8 +2439,7 @@ seniorExecutive:
   position: Chief Financial Officer
   photo:
     title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+    url: "//images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png"
   order: 2
   bio: "John has more than twenty-five years of healthcare and social services experience,
     and has spent the majority of his career as a senior finance executive in large
@@ -2493,8 +2463,7 @@ seniorExecutive:
   position: Chief Executive Officer
   photo:
     title: picture placeholder
-    description: picture placeholder
-    url: //images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png
+    url: "//images.contentful.com/e5ehlcazegi0/5e3OUtcSvKKmeOA0UwU6Cs/ebc712f8bb00aa9ae893fd6bf2b28bf2/ICONO-PERFIL.png"
   order: 1
   bio: "Vernon earned a Masters of Public Administration at Golden Gate University,
     as well as a Bachelor of Arts in Psychology and History at the University of Colorado,
@@ -2525,7 +2494,7 @@ event:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  date: !ruby/object:DateTime 2017-03-06 11:00:00.000000000 -08:00
+  date: !ruby/object:DateTime 2017-03-06 19:00:00.000000000 Z
   eventId: '31499930139'
 rootWebsite:
 - sys:
@@ -2542,16 +2511,14 @@ rootWebsite:
   homepageStat4Text: California children living in poverty
   homepageStatsHeroImage:
     title: 01-Homepage-hero-img-2-v3
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3XEbd8Qx4IaikucoGMo82c/ec039d992a558c35e5ef84a442b799d7/01-Homepage-hero-img-2-v3.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/3XEbd8Qx4IaikucoGMo82c/ec039d992a558c35e5ef84a442b799d7/01-Homepage-hero-img-2-v3.jpg"
   homepageCareerText: "<h4 class=\"round\">Rewarding work that helps children and
     families thrive.</h4>\n\n##### At Aspiranet we’re committed to strengthening families.
     \ We know we can’t do this purpose-driven work alone.    We need talented and
     committed people, like you, to bring our mission home.   \n"
   adoptionCtaHeroImage:
     title: 01 homepage img v1 2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3cREsM9ELuICEugU2AWuOE/a1f6e009cdacdd5955bd0d087f092642/01_homepage_img_v1_2.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/3cREsM9ELuICEugU2AWuOE/a1f6e009cdacdd5955bd0d087f092642/01_homepage_img_v1_2.jpg"
   homepageFosterText: "### Raise a bright future.\n\n##### We connect children, youth
     and young adults to safe, caring relationships that can last a lifetime.  "
   footerSignupText: |+
@@ -2561,8 +2528,7 @@ rootWebsite:
 
   ourApproachHeroImage:
     title: 01-Homepage-img-v2-3
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/6x25Xi6Nd6WSQUQe4e0Q2E/6debeca5f0daaf7cc827253bd4c5b06d/01-Homepage-img-v2-3.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/6x25Xi6Nd6WSQUQe4e0Q2E/6debeca5f0daaf7cc827253bd4c5b06d/01-Homepage-img-v2-3.jpg"
   ourApproachHeaderText: |-
     # Our Approach
 
@@ -2591,24 +2557,22 @@ rootWebsite:
     Aspiranet provides families facing emotional and behavioral challenges with an array of educational, supportive, therapeutic and stabilization programs and interventions that help children, parents and families prosper and thrive.
   aboutHeroImage:
     title: 06 about hero img 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/24ng9Te3TuQgYioWOCoSOQ/c0d5c5b7f72134d5ed4942f4baedbacd/06_about_hero_img_1.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/24ng9Te3TuQgYioWOCoSOQ/c0d5c5b7f72134d5ed4942f4baedbacd/06_about_hero_img_1.jpg"
   aboutHeaderText: |-
     # About Aspiranet
 
     #### Founded in 1975, Aspiranet is dedicated to offering outstanding services that impact more than 35,000 children, youth and parents annually at 33 community-based sites statewide.
-  aboutHeader: '#### Aspiranet offers a unique blend of services including foster
+  aboutHeader: "#### Aspiranet offers a unique blend of services including foster
     family support, adoption through foster care, services for foster youth transitioning
     to adulthood, mental health services, residential care, intensive home-based care,
-    and community-based family resources.'
+    and community-based family resources."
   aboutVision: "# Our Vision\n\n#### Aspiranet envisions a world in which all children
     and youth are loved and cared for and all families have the resources to thrive.
     \ \n"
   aboutVideoUrl: https://www.youtube.com/embed/Olk3MSiNBjk
   aboutOurMissionImage:
     title: 06-about-img-v1-2-V2
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4vnRciwBywAuUGaieQkoCq/29c5967661f9ea00e7f5cf65abd9ea8b/06-about-img-v1-2-V2.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/4vnRciwBywAuUGaieQkoCq/29c5967661f9ea00e7f5cf65abd9ea8b/06-about-img-v1-2-V2.jpg"
   aboutMission: "# Our Mission\n\n#### To provide children, youth and families with
     a foundation of support and services so they can succeed at home, school and in
     their communities. "
@@ -2624,8 +2588,7 @@ rootWebsite:
     our families, creating empowering solutions side by side, during challenging circumstances.
   careersHeroImage:
     title: careers
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/SnzuSaj4GWow68G88MKwc/b0b3ce5ea738cb59506cff2b6cb2cdb8/careers.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/SnzuSaj4GWow68G88MKwc/b0b3ce5ea738cb59506cff2b6cb2cdb8/careers.jpg"
   careersHeader: "### Together We Can Make a Difference \n\n#### Our organizational
     culture is defined by the values of respect, integrity, courage and hope.  We
     offer an excellent work environment and competitive benefits.  More than that,
@@ -2693,8 +2656,7 @@ programHosted:
     services in single family home settings.
   photo:
     title: placeholder3
-    description: placeholder3
-    url: //images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png
+    url: "//images.contentful.com/e5ehlcazegi0/HAORqecXAqwo8iWmUUceQ/d57be8beeddc9fc09eb09cf2605a718d/placeholder3.png"
   pullQuote: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt
   copyRest: Our programs offer a structured, enriching, healing environment where
@@ -2731,15 +2693,13 @@ fosterAdoptiveFamilies:
     In working with our families our goal is always the same – to maximize opportunities for long-term success and to support our families every step of the way.
   fosterFamilyPhotoFull:
     title: 04 program hero img  KAwSW flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/1xOT9dhTooq4w244EYIe60/f686c40d0c28199fa9b49954bab49165/04_program_hero_img__KAwSW_flip.jpg"
   fosterFamilyPhotoSmall:
     title: 01 homepage img v2 4
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg
-  fosterFamilyPullQuote: “What could possibly be more joyous than seeing a family
+    url: "//images.contentful.com/e5ehlcazegi0/39TMpyh11SC6OI6Sy6yQ24/2a44b2e96116954013048b3b1d0a1d0b/01_homepage_img_v2_4.jpg"
+  fosterFamilyPullQuote: "“What could possibly be more joyous than seeing a family
     form and begin to make a special future together?” </br>— Diane Warne, Foster
-    and Adoptive Families Division Director
+    and Adoptive Families Division Director"
   fosterCopyRest: "There is no better gift than to provide a child with the love and
     support so they can thrive. Whether you are a foster parent, relative or extended
     family member, you can provide a home for a child to do just that.\n\nAspiranet
@@ -2772,15 +2732,13 @@ fosterAdoptiveFamilies:
     to support our families every step of the way."
   adoptAChildPhotoFull:
     title: 02 donate hero img 1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg
+    url: "//images.contentful.com/e5ehlcazegi0/3NQynBPIT66Qm4amuKCOEC/d4b2f91bf25a5cf3b3a06de7ee4330cc/02_donate_hero_img_1.jpg"
   adoptAChildPhotoSmall:
     title: 01 homepage img v3 1-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg
-  adoptAChildPullQuote: “What could possibly be more joyous than seeing a family form
-    and begin to make a special future together?” </br>— Diane Warne, Foster and Adoptive
-    Families Division Director
+    url: "//images.contentful.com/e5ehlcazegi0/2MBq24JZ7WScAi6sM4M6AK/f6b29bee680e1a713aa183226103506b/01_homepage_img_v3_1-1.jpg"
+  adoptAChildPullQuote: "“What could possibly be more joyous than seeing a family
+    form and begin to make a special future together?” </br>— Diane Warne, Foster
+    and Adoptive Families Division Director"
   adoptAChildCopyBottom: "We believe that every child deserves to be loved and cared
     for inside a stable, healthy family.\n\nAspiranet works to assure a secure and
     loving home for foster youth, including adoption through foster care when returning

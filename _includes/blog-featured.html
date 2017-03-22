@@ -6,7 +6,7 @@
             <a href="/blog/{{ blogpost.url }}" style="padding-left: 0;">
                 <div class="hero-img fadeInBlock prlx-bg" style="background-image: url('{{ blogpost.heroImage.url }}');" alt="{{ blogpost.heroImage.title }}">
                     <div class="featured-post-copy col-4-12 {% if blogpost.overlayOnFeaturedPost == 'right' %} push-right {% endif %}">
-                        <p class="small caps round">Aspiranet blog</p>
+                        <p class="small caps round">Voices of Aspiranet</p>
                         <h1 class="color-blue no-margin-top">{{ blogpost.title }}</h1>
                         {{ blogpost.postBody | truncatewords: 25 | markdownify }}
                         <p class="button link">Read the full story</p>
