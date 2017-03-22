@@ -35,41 +35,6 @@ programLocation:
     Jessica Lunt, Core Program Manager
     jlunt@aspiranet.org
 - sys:
-    id: 1flyw99J2a4UEuKogU8mAY
-  name: South San Francisco
-  location:
-    lat: 37.6655539
-    lon: -122.38245330000001
-  addressAsText: 400 Oyster Point Boulevard, Suite 501 South San Francisco, CA 94080
-  program:
-  - Aspiranet Headquarters
-  - EncoreConnect.org
-  - Encore Fellowships Program
-  programAndAgeGroupAsText: "<strong><p>Aspiranet Headquarters </p></strong> \n<p>Headquartered
-    in South San Francisco, Aspiranet is a 501(c) (3), California nonprofit organization
-    with the mission of providing children, youth, and families with a foundation
-    of support and services so they can succeed at home, at school, and in their communities.
-    For more than 40 years, Aspiranet has been dedicated to offering outstanding services
-    that impact more than 35,000 children, youth and parents at 33 community-based
-    sites statewide.  Aspiranet offers a unique blend of services including foster
-    family support, adoption through foster care, services for foster youth transitioning
-    to adulthood, mental health services, residential care, intensive home-based care,
-    and community-based family resources.</p>\n\n<strong><p>EncoreConnect </p></strong>
-    \n<p>Aspiranet has a 40-year legacy of intergenerational work and is amongst the
-    nation’s leading innovators in the encore movement, which seeks to leverage the
-    passion, experience and skills of those in and beyond midlife as a vital source
-    of talent to benefit society.  Aspiranet has an extensive track record in implementing
-    encore programs, helping older adults transition into social purpose work, and
-    providing thought leadership to the field on how to well-leverage encore talent.</p>
-    \n\n<strong><p>Encore Fellowships Program </p></strong> \n<p>Encore fellowships
-    are paid, time-limited fellowships that match skilled professionals with high
-    impact projects that utilize Fellow skills, experience and wisdom to strengthen
-    Aspiranet organizational capacity at both the strategic and operational levels.
-    \ We are a partner program of the national Encore Fellowships Network (EFN) formed
-    by Encore.org.</p> "
-  phoneText: 650-866-4080
-  description: ' '
-- sys:
     id: qW7Twj6dxeE0GYEI2GCEY
   name: Modesto
   location:
@@ -735,6 +700,41 @@ programLocation:
   phoneText: 415-759-4222
   description: ' '
   internalNotes: "Emily Reisner, Director of ECBA and MOUSE \nereisner@aspiranet.org\n"
+- sys:
+    id: 1flyw99J2a4UEuKogU8mAY
+  name: South San Francisco
+  location:
+    lat: 37.6655539
+    lon: -122.38245330000001
+  addressAsText: 400 Oyster Point Boulevard, Suite 501 South San Francisco, CA 94080
+  program:
+  - Aspiranet Headquarters
+  - EncoreConnect.org
+  - Encore Fellowships Program
+  programAndAgeGroupAsText: "<strong><p>Aspiranet Headquarters </p></strong> \n<p>Headquartered
+    in South San Francisco, Aspiranet is a 501(c) (3), California nonprofit organization
+    with the mission of providing children, youth, and families with a foundation
+    of support and services so they can succeed at home, at school, and in their communities.
+    For more than 40 years, Aspiranet has been dedicated to offering outstanding services
+    that impact more than 35,000 children, youth and parents at 33 community-based
+    sites statewide.  Aspiranet offers a unique blend of services including foster
+    family support, adoption through foster care, services for foster youth transitioning
+    to adulthood, mental health services, residential care, intensive home-based care,
+    and community-based family resources.</p>\n\n<strong><p>EncoreConnect </p></strong>
+    \n<p>Aspiranet has a 40-year legacy of intergenerational work and is amongst the
+    nation’s leading innovators in the encore movement, which seeks to leverage the
+    passion, experience and skills of those in and beyond midlife as a vital source
+    of talent to benefit society.  Aspiranet has an extensive track record in implementing
+    encore programs, helping older adults transition into social purpose work, and
+    providing thought leadership to the field on how to well-leverage encore talent.</p>
+    \n\n<strong><p>Encore Fellowships Program </p></strong> \n<p>Encore fellowships
+    are paid, time-limited fellowships that match skilled professionals with high
+    impact projects that utilize Fellow skills, experience and wisdom to strengthen
+    Aspiranet organizational capacity at both the strategic and operational levels.
+    \ We are a partner program of the national Encore Fellowships Network (EFN) formed
+    by Encore.org.</p> "
+  phoneText: 650-866-4080
+  description: ' '
 - sys:
     id: 3n4j16h7mo0mIaoEUucu0i
   name: 'Palmdale '
@@ -1829,40 +1829,20 @@ programs:
   fastFact3Text: Residential youth served since 1987
   howYouCanHelpCopy: Thousands of children in California are in need of a forever
     family. Can you offer a child a safe and loving home?
-blogPost:
+blogCategory:
 - sys:
-    id: 4FPD0m40Gsc0uwmOoS6sQg
-  title: 'Aspiranet’s New Look '
-  url: aspiranet-new-look-for-the-new-year
-  featuredOnHomepage: false
-  featuredOnBlog: true
-  overlayOnFeaturedPost: left
-  heroImage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 012-hero-img-1
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
-  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
-  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
-    day we’re thankful for the amazing children, youth and families that we reach
-    and for supporters like you who back our work.  For 2017, we thought it was vital
-    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
-    this website we hope to show our heart, determination, cares and dreams.  The
-    Aspiranet story develops every day as we strive to fulfill our mission, and it
-    lives in each interaction, each achievement, and each new learning.  It’s a testimony
-    to the strength of our families and the generosity of our supporters.  \n\nThank
-    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 4FYoyfpg3u0K2Qu0qsOKgm
-    name: Staff
+    id: 6AVJUFl9zq640Em4soQooS
+  name: Respect
+- sys:
+    id: 5cOx39zkWcW0uGiEyGO8EA
+  name: Hope
+- sys:
+    id: 7eFzmq5t6Mg2AosyUkkAgI
+  name: Integrity
+- sys:
+    id: 1TBUAtWXMk2gEqAmOOy4o0
+  name: Courage
+blogPost:
 - sys:
     id: 2bXK2Ej2QQSs2qqkks8CYc
   title: Lasting Connections
@@ -2002,6 +1982,93 @@ blogPost:
   - sys:
       id: 31qAv9zAikEMCYGOgqmy4A
     name: Foster and Adoptive Families
+- sys:
+    id: 3j1V5nMz8kUeoO6ysCgIkK
+  title: Everyone wants to give the best to their child
+  url: best-to-their-child
+  featuredOnHomepage: true
+  heroImage:
+    title: p996013154-5
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/12Zj8PmHpAY6CCESAaAcSK/8be538cbbc25d56132c84156b45529a0/p996013154-5.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: 01 homepage hero img D9X9H flip
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
+  postBody: "When Sanat and his family relocated to the East Bay from India for a
+    job opportunity in the tech industry, everybody felt a bit disoriented. His young
+    son, Yatharth, became very fearful of strangers and would cry whenever anyone
+    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
+    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
+    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
+    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
+    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
+    Sanat’s instincts were to look for answers online. It took only one class for
+    him to recognize the value of sharing experiences with other fathers. \n\n“The
+    other fathers started speaking, and I found that’s not the same thing I can get
+    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
+    how to handle the same scenario with my kid. Every day was a new learning for
+    me.”\n\nSanat realized this was more than he was going to get from any social
+    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
+    is especially grateful for the diverse, multilingual staff who have created a
+    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
+    wants to be a good parent, so the motive is the same: everyone wants to give the
+    best to their child. I saw that everyone wants to speak-- whether their native
+    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
+    to tell their stories, and the staff create that environment. After that I started
+    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
+    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
+    two weeks he started hanging out with the other kids, and now he’s perfectly fine
+    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
+    my wife and me how to handle our son when he’s cranky — all the credit goes to
+    this place.”\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 41zCNoeNrWSKuSuMQKW0o0
+    name: Family
+  - sys:
+      id: 7sF3shCds4aqymKSu6w0a
+    name: First 5 Center
+  - sys:
+      id: 2BVE03bDcA0WG6Caaqo0sm
+    name: Family & Community
+- sys:
+    id: 4FPD0m40Gsc0uwmOoS6sQg
+  title: 'Aspiranet’s New Look '
+  url: aspiranet-new-look-for-the-new-year
+  featuredOnHomepage: false
+  featuredOnBlog: true
+  overlayOnFeaturedPost: left
+  heroImage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  thumbnailToBeDisplayedOnHomepage:
+    title: 012-hero-img-1
+    description: 
+    url: //images.contentful.com/e5ehlcazegi0/3TPiqiLGL6S0cYOQ4cGCys/1d22cc3e2b951b4a72f6514ea670fd4d/012-hero-img-1.jpg
+  date: !ruby/object:DateTime 2017-01-30 16:00:00.000000000 -08:00
+  postBody: "We are fortunate to sit in a special seat as Aspiranet staff.  Every
+    day we’re thankful for the amazing children, youth and families that we reach
+    and for supporters like you who back our work.  For 2017, we thought it was vital
+    to share their stories on a platform as vibrant and dynamic as our families. \n\nThrough
+    this website we hope to show our heart, determination, cares and dreams.  The
+    Aspiranet story develops every day as we strive to fulfill our mission, and it
+    lives in each interaction, each achievement, and each new learning.  It’s a testimony
+    to the strength of our families and the generosity of our supporters.  \n\nThank
+    you for contributing to the Aspiranet story, and please enjoy this new website.\n"
+  blogCategory:
+    sys:
+      id: 7eFzmq5t6Mg2AosyUkkAgI
+    name: Integrity
+  blogTag:
+  - sys:
+      id: 4FYoyfpg3u0K2Qu0qsOKgm
+    name: Staff
 - sys:
     id: 1YHlIm573GKgee4S6GOuGa
   title: A Beautiful Friendship
@@ -2171,73 +2238,6 @@ blogPost:
   - sys:
       id: 5QgCSjml0sGOIAAMiKyMu2
     name: 'Transitional Aged Youth '
-- sys:
-    id: 3j1V5nMz8kUeoO6ysCgIkK
-  title: Everyone wants to give the best to their child
-  url: best-to-their-child
-  featuredOnHomepage: true
-  heroImage:
-    title: Best to their child
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/4pdgIwW2asW0OWKyw2sGK2/4e740993da778c4763f87e7f678dbcba/30640654113_5ee8e8c1b8_o.jpg
-  thumbnailToBeDisplayedOnHomepage:
-    title: 01 homepage hero img D9X9H flip
-    description: 
-    url: //images.contentful.com/e5ehlcazegi0/5c5dPN4uPSQsMg824kWAeo/b300e504af785cddb31f382fe34d882c/01_homepage_hero_img_D9X9H_flip.jpg
-  postBody: "When Sanat and his family relocated to the East Bay from India for a
-    job opportunity in the tech industry, everybody felt a bit disoriented. His young
-    son, Yatharth, became very fearful of strangers and would cry whenever anyone
-    approached.\n\nEager to help his son adjust, Sanat decided to investigate fatherhood
-    classes at Aspiranet’s Monument First 5 Center in Concord, which provides services
-    to families with children 0-5 years old. Sanat admits he was a bit skeptical at
-    first. \n\n “I thought, ‘Why do I need those classes? I can watch the best parenting
-    videos. But then I thought, let’s just give it a chance.”\n\nAs a software engineer,
-    Sanat’s instincts were to look for answers online. It took only one class for
-    him to recognize the value of sharing experiences with other fathers. \n\n“The
-    other fathers started speaking, and I found that’s not the same thing I can get
-    from videos,” he says. “Here I can see the real scenarios, and I can teach myself
-    how to handle the same scenario with my kid. Every day was a new learning for
-    me.”\n\nSanat realized this was more than he was going to get from any social
-    network or YouTube. After the first day, he says, “I never missed a class.” \n\n![Kumar](//images.contentful.com/e5ehlcazegi0/5ohWXc4N0s2uWSQeU4eQsC/b787848d455395d0e11cd3f716fffe19/30640657903_a681a78450_o.jpg)\n\nSanat
-    is especially grateful for the diverse, multilingual staff who have created a
-    welcoming environment for families from a variety of backgrounds.\n\n“Everybody
-    wants to be a good parent, so the motive is the same: everyone wants to give the
-    best to their child. I saw that everyone wants to speak-- whether their native
-    language was Spanish, or Hindi, or English-- they want to speak.”\n\n“They want
-    to tell their stories, and the staff create that environment. After that I started
-    speaking.”\n\nHis wife Babita also comes to the First 5 Center three times a week
-    with their son, and they’ve seen a dramatic change in Yatharth’s behavior. \n\n“After
-    two weeks he started hanging out with the other kids, and now he’s perfectly fine
-    and I really feel a big relief,” Sanat says. “That teacher’s patience, teaching
-    my wife and me how to handle our son when he’s cranky — all the credit goes to
-    this place.”\n"
-  blogCategory:
-    sys:
-      id: 7eFzmq5t6Mg2AosyUkkAgI
-    name: Integrity
-  blogTag:
-  - sys:
-      id: 41zCNoeNrWSKuSuMQKW0o0
-    name: Family
-  - sys:
-      id: 7sF3shCds4aqymKSu6w0a
-    name: First 5 Center
-  - sys:
-      id: 2BVE03bDcA0WG6Caaqo0sm
-    name: Family & Community
-blogCategory:
-- sys:
-    id: 5cOx39zkWcW0uGiEyGO8EA
-  name: Hope
-- sys:
-    id: 6AVJUFl9zq640Em4soQooS
-  name: Respect
-- sys:
-    id: 7eFzmq5t6Mg2AosyUkkAgI
-  name: Integrity
-- sys:
-    id: 1TBUAtWXMk2gEqAmOOy4o0
-  name: Courage
 thankYouPages:
 - sys:
     id: 47WM9LyTiwMOC6IkkCWMGw

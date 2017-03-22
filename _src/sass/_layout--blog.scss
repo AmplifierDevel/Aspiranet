@@ -164,7 +164,7 @@
 	.hero-img {
 		background-position: 0% 31%;
 		@media screen and (min-width: 1024px) {
-			height: 450px;
+			height: 500px;
 		}
 		@media screen and #{$brk-wide} {
 			height: 400px;
