@@ -70,6 +70,47 @@ programLocation:
   phoneText: 650-866-4080
   description: ' '
 - sys:
+    id: qW7Twj6dxeE0GYEI2GCEY
+  name: Modesto
+  location:
+    lat: 37.64080999999999
+    lon: -121.00018510000001
+  addressAsText: 1009 J Street, Modesto, CA 95354, USA
+  program:
+  - AfterCare
+  - Independent Living Skills Program - Youth Center
+  - Transitional Housing Placement +
+  - Transitional Housing Placement + Foster Care
+  ageLevel:
+  - 15-19
+  - 20+
+  programAndAgeGroupAsText: "<strong><p>AfterCare</p></strong>\n<p>Also known as Emancipated
+    Youth Services (EYS), AfterCare assists youth who are no longer in foster care
+    and who have not yet reached the age of 21.  Includes referral and linkage services,
+    housing assistance, bus passess, and work-related and education-related resources.</p>\n\n<strong><p>Independent
+    Living Skills Program - Youth Center </p></strong> \n<p>Drop-in Center for foser
+    and probation youth between the ages of 15 - 21 that offers a variety of classes
+    and workshops where youth can learn life skills as they transition from foster
+    care, including employment training, career development, sex education,  parenting,
+    conflict resolution, and housing assistance.</p>\n\n<strong><p>Transitional Housing
+    Placement + </p></strong> \n<p>Transitional housing support program for former
+    foster youth who are transitioning to adulthood out of the child welfare or probation
+    systems. Provides a safe and supportive living environment while helping youth
+    achieve self-sufficiency and learn life skills.</p>\n\n<strong><p>Transitional
+    Housing Placement + Foster Care </p></strong> \n<p>An extended foster care placement
+    option that bridges the gap for non-minor dependents who are no longer living
+    in a foster home, but who may not yet be ready to transition into a supervised
+    independent living placement.</p>\n\n"
+  phoneText: 209-338-5444
+  description: ' '
+  internalNotes: "Transitional Housing Placement+\nAlma Garcia Mendoza, Core Program
+    Director \nagarciamendoza@aspiranet.org\n\nTransitional Housing Placement + Foster
+    Care\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\n\nAfterCare\nAlma
+    Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa Cabral,
+    Core Program Supervisor\nlcabral@aspiranet.org\n\nIndependent Living Skills Program
+    - Youth Center\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa
+    Cabral, Core Program Supervisor\nlcabral@aspiranet.org"
+- sys:
     id: 12RjozQVkaIaWqmCmqEi0s
   name: Fresno
   location:
@@ -1432,47 +1473,6 @@ programLocation:
     Transitional Housing Placement + Foster Care
     Michele Gracia, Core Program Director
     mgracia@aspiranet.org
-- sys:
-    id: qW7Twj6dxeE0GYEI2GCEY
-  name: Modesto
-  location:
-    lat: 37.64080999999999
-    lon: -121.00018510000001
-  addressAsText: 1009 J Street, Modesto, CA 95354, USA
-  program:
-  - AfterCare
-  - Independent Living Skills Program - Youth Center
-  - Transitional Housing Placement +
-  - Transitional Housing Placement + Foster Care
-  ageLevel:
-  - 15-19
-  - 20+
-  programAndAgeGroupAsText: "<strong><p>AfterCare</p></strong>\n<p>Also known as Emancipated
-    Youth Services (EYS), AfterCare assists youth who are no longer in foster care
-    and who have not yet reached the age of 21.  Includes referral and linkage services,
-    housing assistance, bus passess, and work-related and education-related resources.</p>\n\n<strong><p>Independent
-    Living Skills Program - Youth Center </p></strong> \n<p>Drop-in Center for foser
-    and probation youth between the ages of 15 - 21 that offers a variety of classes
-    and workshops where youth can learn life skills as they transition from foster
-    care, including employment training, career development, sex education,  parenting,
-    conflict resolution, and housing assistance.</p>\n\n<strong><p>Transitional Housing
-    Placement + </p></strong> \n<p>Transitional housing support program for former
-    foster youth who are transitioning to adulthood out of the child welfare or probation
-    systems. Provides a safe and supportive living environment while helping youth
-    achieve self-sufficiency and learn life skills.</p>\n\n<strong><p>Transitional
-    Housing Placement + Foster Care </p></strong> \n<p>An extended foster care placement
-    option that bridges the gap for non-minor dependents who are no longer living
-    in a foster home, but who may not yet be ready to transition into a supervised
-    independent living placement.</p>\n\n"
-  phoneText: 209-338-5444
-  description: ' '
-  internalNotes: "Transitional Housing Placement+\nAlma Garcia Mendoza, Core Program
-    Director \nagarciamendoza@aspiranet.org\n\nTransitional Housing Placement + Foster
-    Care\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\n\nAfterCare\nAlma
-    Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa Cabral,
-    Core Program Supervisor\nlcabral@aspiranet.org\n\nIndependent Living Skills Program
-    - Youth Center\nAlma Garcia Mendoza, Core Program Director \nagarciamendoza@aspiranet.org\nLisa
-    Cabral, Core Program Supervisor\nlcabral@aspiranet.org"
 blogTag:
 - sys:
     id: 3z7QQ5fttYAG6QWgEs6cy0
@@ -2184,14 +2184,14 @@ blogCategory:
     id: 5cOx39zkWcW0uGiEyGO8EA
   name: Hope
 - sys:
+    id: 6AVJUFl9zq640Em4soQooS
+  name: Respect
+- sys:
     id: 7eFzmq5t6Mg2AosyUkkAgI
   name: Integrity
 - sys:
     id: 1TBUAtWXMk2gEqAmOOy4o0
   name: Courage
-- sys:
-    id: 6AVJUFl9zq640Em4soQooS
-  name: Respect
 thankYouPages:
 - sys:
     id: 47WM9LyTiwMOC6IkkCWMGw
@@ -2360,9 +2360,9 @@ campain:
   titleAlign: left
   textColor: blue-dark
   image:
-    title: 011-blog-img-calage3
+    title: 140-min
     description: 
-    url: //images.contentful.com/e5ehlcazegi0/2KSiQJrB1ueE02wyYisGcG/50cc1fd151e673951a34c47aded0f77e/011-blog-img-calage3.jpg
+    url: //images.contentful.com/e5ehlcazegi0/6QrfWeDwvCsecGiokSQCcy/e194a75e8d9c4a25f2530e90444f3122/140-min.jpg
   campaignUrl: /programs/foster-and-adoptive-families/
   order: 1
   ctaButtonCopy: LEARN MORE
