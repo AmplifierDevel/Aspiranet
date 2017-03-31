@@ -2,7 +2,7 @@
 # Example
 # /blog/mypost.php /blog
 
-http://kpmdemo2.com/* https://aspiranet.org/:splat 301
+http://kpmdemo2.com/* https://aspiranet.org 301
 
 /behavioralhealth /programs/behavioral-health
 /residential /programs/residential
