@@ -160,9 +160,21 @@
 }
 
 // Individual post 
+.best-to-their-child #blog-post .hero-img {
+	background-position-y: 100%;
+}
 #blog-post {
 	.hero-img {
-		background-position: top center;
+		background-position: 0% 31%;
+		@media screen and (min-width: 1024px) {
+			height: 500px;
+		}
+		@media screen and #{$brk-wide} {
+			height: 400px;
+		} 
+		@media screen and #{$brk-narrow} {
+			height: 300px;
+		}
 	}
 	.blog-body {
 		h1, h2, h3, h4 {

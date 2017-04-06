@@ -1,3 +1,27 @@
 # Redirects from what the browser requests to what we serve
 # Example
 # /blog/mypost.php /blog
+
+http://www.kpmdemo2.com/* https://aspiranet.org 302
+
+http://aspiranetfamilies.org/* https://aspiranet.org 302
+http://www.aspiranetfamilies.org/* https://aspiranet.org 302
+
+http://aspiranetadoption.org/* https://aspiranet.org 302
+http://www.aspiranetadoption.org/* https://aspiranet.org 302
+
+http://aspiranetthpplus.org/* https://aspiranet.org 302
+http://www.aspiranetthpplus.org/* https://aspiranet.org 302
+
+http://aspiranetwrap.org/* https://aspiranet.org 302
+http://www.aspiranetwrap.org/* https://aspiranet.org 302
+
+http://encoreconnect.org/* https://aspiranet.org 302
+http://www.encoreconnect.org/* https://aspiranet.org 302
+
+/behavioralhealth /programs/behavioral-health
+/residential /programs/residential
+/fosteradoptive /programs/foster-and-adoptive-families
+/tay /programs/transitional-aged-youth
+/intensive /programs/intensive-home-based-services
+/familyandcommunity /programs/family-community

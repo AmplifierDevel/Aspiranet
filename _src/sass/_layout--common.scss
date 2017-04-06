@@ -18,12 +18,34 @@ ul li {
  		position: relative;
 	}
 }
- .img-overlay-left {
+.img-overlay-left {
  	&:before {
  		background-image: linear-gradient(-90deg, transparent 14%, rgba(0,0,0,0.2) 100%)
  	}
 }
-
+.cta-btns {
+    padding: 40px 0;
+    @media screen and #{$brk-narrow} {
+        padding: 20px 0 0 0;
+        .col-1-3 {
+            display: table;
+            padding: 0;
+            img, p {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: left !important;
+                padding: 10px;
+            }
+            img {
+                width: 70px;
+            }
+            p {
+            	max-width: 400px;
+           	}
+        }
+    }
+   
+}
 .text-left {
     text-align: left !important;
 }
