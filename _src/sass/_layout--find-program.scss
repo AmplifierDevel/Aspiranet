@@ -147,6 +147,9 @@ p.attribution, p.attribution a { color: #666; }
     color: $blue;
     border-radius: 4px;
     border: 1px solid $grey-dark;
+    position: relative;
+    z-index: 999;
+    background-color: white;
   }
 }
 .filters-box {
